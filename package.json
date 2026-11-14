@@ -1,0 +1,14 @@
+{
+  "name": "tree-of-savior-classic-wiki",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "python3 scripts/validate.py && npm run build && python3 scripts/check-site.py",
+    "test": "node tests/search.test.mjs"
+  },
+  "devDependencies": {
+    "marked": "15.0.12"
+  }
+}

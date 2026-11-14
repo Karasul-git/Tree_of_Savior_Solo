@@ -2,6 +2,8 @@
 
 **Uma wiki em português para reencontrar o mundo de Tree of Savior em 2016.**
 
+**[Abrir versão navegável](https://karasul-git.github.io/Tree_of_Savior_Solo/)** · [Gerar e publicar o site](docs/versao-navegavel.md)
+
 Classes, caminhos e pequenas descobertas de uma época em que atravessar o próximo mapa já era uma aventura. Este acervo nasce para preservar essa experiência e, futuramente, servir de referência para um projeto solo.
 
 ## Escolha seu primeiro caminho
@@ -35,6 +37,11 @@ O conteúdo é Markdown: pode ser lido diretamente no GitHub, clonado e consulta
 
 ```bash
 python3 scripts/validate.py
+
+# Gerar e conferir a versão navegável (Node.js 22+)
+npm ci --ignore-scripts
+npm run check
+npm test
 ```
 
 Veja [como contribuir](CONTRIBUTING.md). Imagens, nomes e marcas de Tree of Savior pertencem aos respectivos titulares; este projeto de fãs não tem vínculo com a IMC Games.

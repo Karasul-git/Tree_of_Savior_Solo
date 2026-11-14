@@ -22,7 +22,7 @@ for source in sources:
     if urlparse(source['url']).scheme != 'https':
         errors.append(f'Non-HTTPS source: {source["id"]}')
 
-pages = list(ROOT.rglob('*.md'))
+pages = list(ROOT.glob('*.md')) + list((ROOT / 'docs').rglob('*.md'))
 for page in pages:
     body = re.sub(r'```.*?```', '', page.read_text(), flags=re.S)
     for source_id in re.findall(r'\[(F\d{2})\]', body):
