@@ -4,9 +4,13 @@
 
 A wiki também é um site estático, gerado a partir dos documentos Markdown do repositório. Inclui navegação entre as classes, índice dentro dos artigos, busca por conteúdo e galerias de imagens oficiais.
 
+[Versão navegável privada no Sites](https://tos-solo-memorias-karasul.lucas-sousa-caldas.chatgpt.site). Essa publicação exige a conta proprietária. O conteúdo-fonte permanece no repositório público informado pelo proprietário.
+
 ## Publicação pelo GitHub Pages
 
 O workflow `Publicar wiki navegável` valida documentos, gera o site, testa a busca e publica `dist/`. A configuração esperada em **Settings → Pages → Build and deployment → Source** é **GitHub Actions**.
+
+Enquanto Pages estiver desabilitado, o workflow confere o site e pula a publicação. Depois de habilitar a opção, execute **Actions → Publicar wiki navegável → Run workflow**; as próximas alterações em `main` também publicarão automaticamente.
 
 O endereço padrão do projeto é `https://karasul-git.github.io/Tree_of_Savior_Solo/`. A publicação efetiva deve ser conferida no resultado do workflow antes de anunciar o site como disponível.
 

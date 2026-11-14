@@ -2,7 +2,9 @@
 
 **Uma wiki em português para reencontrar o mundo de Tree of Savior em 2016.**
 
-**[Abrir versão navegável](https://karasul-git.github.io/Tree_of_Savior_Solo/)** · [Gerar e publicar o site](docs/versao-navegavel.md)
+**[Abrir versão navegável privada](https://tos-solo-memorias-karasul.lucas-sousa-caldas.chatgpt.site)** · [Gerar e publicar o site](docs/versao-navegavel.md)
+
+GitHub Pages está preparado, mas aguarda ativação pelo proprietário em **Settings → Pages → GitHub Actions**. A integração usada neste projeto não tem permissão para habilitar essa configuração.
 
 Classes, caminhos e pequenas descobertas de uma época em que atravessar o próximo mapa já era uma aventura. Este acervo nasce para preservar essa experiência e, futuramente, servir de referência para um projeto solo.
 
