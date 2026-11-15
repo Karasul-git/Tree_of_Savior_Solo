@@ -90,10 +90,18 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [ ] Conferir no cliente Perspective Distortion, Scan e as animações de Cloaking e Camouflage.
 - [x] Especificar as bases do grupo de bots: origem, tamanho, controle e progressão.
 - [x] Pesquisar barracão, nível de equipe e grupo de 2016 (fontes majoritariamente de jogadores).
-- [ ] Confirmar com fonte de 2016 o limite de cinco membros e o máximo do nível de equipe.
-- [ ] Decidir vagas do barracão para bots e animais no limite de 4.
+- [ ] Confirmar com fonte de 2016 o máximo do nível de equipe.
+- [x] Grupo de 4 no total (jogador + até 3 bots), coincidindo com as quatro vagas iniciais do barracão.
+- [ ] Decidir se animais contam no limite de 3 bots (proposta: não contam).
+- [x] Encerrar a etapa de conceito dos bots; perfis, interface e técnica ficam para a implementação.
+
+## Prioridade seguinte · Balanceamento
+
+- [ ] Esqueleto de progressão solo: níveis, ranks e círculos, partindo das tabelas de 2016.
+- [ ] Fórmulas de atributos e dano: referência de 2016 separada das propostas solo.
+- [ ] Balanceamento das classes por rank, começando pelas três bases.
 - [ ] Definir obtenção e regras dos bots do servidor.
-- [ ] Escrever os perfis de comportamento das três bases.
+- [ ] Futuro: perfis de comportamento das três bases.
 - [ ] Reavaliar habilidades de grupo e separar as de guilda (Templar) das de grupo.
 - [ ] Pesquisar arte original de carroças, cavalos ou NPCs de transporte.
 - [ ] Documentar o ponto de retorno após derrota e as estátuas de Zemyna em 2016.

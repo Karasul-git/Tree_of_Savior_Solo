@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-11-15",
-  "status": "design-decisions-not-implemented",
+  "status": "concept-closed-for-now",
   "decided_by": "owner",
   "origin": {
     "decision": "both",
@@ -12,16 +12,17 @@
     ]
   },
   "party": {
-    "max_members": 5,
-    "max_bots": 4,
+    "max_members": 4,
+    "max_bots": 3,
     "friends_take_bot_slots": true,
     "historical_party_limit_verified": false,
     "open": [
-      "animais de Hunter e Falconer contam como vaga",
-      "vagas do barracão: 4 iniciais dão jogador + 3"
+      "animais de Hunter e Falconer contam como vaga (proposta: não contam)"
     ],
     "historical_party_limit_evidence": "beta-2015-player-statement",
-    "historical_research": "docs/sistemas/barracao-e-grupo.md"
+    "historical_research": "docs/sistemas/barracao-e-grupo.md",
+    "revised_at": "2026-11-15",
+    "revision_note": "Proprietário reduziu o grupo de 5 para 4 no total; coincide com as quatro vagas iniciais do barracão."
   },
   "control": {
     "model": "stances-and-simple-orders",

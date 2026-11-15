@@ -43,8 +43,8 @@ Para o recorte de março–abril de 2016, o dado mais próximo é o **máximo 50
 
 Esta seção é proposta do projeto, não história. O [modelo de bots](../projeto-solo/companheiros-e-bots.md) usa o barracão como fonte principal de companheiros. A pesquisa mostra três pontos de contato com o original:
 
-1. **Quatro vagas iniciais** dão o jogador + 3 personagens. Um grupo de 5 exige comprar vagas ou completar com bots do servidor, o que combina com a decisão de usar os dois tipos.
-2. **Animais também ocupavam vagas.** No projeto, é preciso decidir se continuam ocupando vaga no barracão e se contam no limite de 4 bots.
+1. **Quatro vagas iniciais** dão o jogador + 3 personagens, exatamente o grupo de 4 escolhido pelo proprietário.
+2. **Animais também ocupavam vagas.** No projeto, é preciso decidir se continuam ocupando vaga no barracão e se contam no limite de 3 bots.
 3. **O nível de equipe já premiava ter vários personagens evoluídos.** Junto com as três opções de divisão de experiência, ele pode ser reaproveitado na progressão dos bots, sem criar um sistema novo.
 
-**Próximo passo recomendado:** decidir os pontos 1 e 2 (vagas do barracão e animais no limite de bots) e, depois, escrever os perfis de comportamento das três bases.
+**Próximo passo recomendado:** decidir o ponto 2 (animais no limite de bots) quando a implementação começar.

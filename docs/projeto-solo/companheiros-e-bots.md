@@ -13,7 +13,7 @@ O proprietário escolheu as quatro bases do sistema. São **decisões de design*
 | Ponto | Decisão | O que continua aberto |
 | --- | --- | --- |
 | **Origem dos bots** | **Dois tipos:** personagens do próprio barracão (a equipe da conta) como regra, e bots gerados pelo servidor para completar o grupo ou para tarefas específicas. | Como se obtêm os bots do servidor (recrutamento em NPC, contrato, custo), se têm classe e equipamento fixos e se podem ser trocados. |
-| **Tamanho do grupo** | **Jogador + até 4 bots**, grupo de 5. Amigos que entram ocupam vagas de bot. | O limite de 5 só tem fonte do beta de 2015 ([pesquisa](../sistemas/barracao-e-grupo.md)); decidir se animais de Hunter e Falconer contam como vaga. |
+| **Tamanho do grupo** | **Grupo de 4 no total: jogador + até 3 bots** (revisão do proprietário, 15/11/2026, que substitui o grupo de 5). Amigos que entram ocupam vagas de bot. | Animais de Hunter e Falconer: proposta de não contarem como vaga de bot, pendente de decisão. |
 | **Controle** | **Posturas + ordens simples.** Posturas: seguir, agressivo, defensivo, passivo. Ordens: atacar o alvo, recuar/reagrupar, manter posição. As habilidades saem de um **perfil por classe**. | Interface (atalhos, menu, comandos de chat) e o conteúdo de cada perfil. |
 | **Progressão** | **Ganham experiência junto** com o grupo e seguem as mesmas regras de ranks e círculos do jogador. | Divisão de experiência entre jogador e bots; progressão dos bots do servidor. |
 | Jogadores reais | Amigos podem jogar juntos, com ou sem bots. | Regras de grupo misto e divisão de recompensas. |
@@ -21,7 +21,7 @@ O proprietário escolheu as quatro bases do sistema. São **decisões de design*
 
 ### Por que o barracão
 
-O barracão já reunia vários personagens da mesma conta numa equipe. Usá-lo como fonte dos bots **reaproveita um sistema original**: o jogador escolhe classe, build e equipamento de cada companheiro com as mesmas regras do próprio personagem. A [pesquisa do barracão e do grupo](../sistemas/barracao-e-grupo.md) mostra quatro vagas iniciais, animais ocupando vagas e um bônus de experiência por nível de equipe, com fontes de 2016 majoritariamente de jogadores. Quatro vagas dão o jogador + 3; completar o grupo de 5 exige comprar vagas ou usar bots do servidor. As três opções originais de divisão de experiência (separada, igual, por nível) podem servir à progressão dos bots.
+O barracão já reunia vários personagens da mesma conta numa equipe. Usá-lo como fonte dos bots **reaproveita um sistema original**: o jogador escolhe classe, build e equipamento de cada companheiro com as mesmas regras do próprio personagem. A [pesquisa do barracão e do grupo](../sistemas/barracao-e-grupo.md) mostra quatro vagas iniciais, animais ocupando vagas e um bônus de experiência por nível de equipe, com fontes de 2016 majoritariamente de jogadores. As quatro vagas iniciais do barracão coincidem com o grupo de 4 escolhido: o jogador + 3 personagens, sem compra de vagas. As três opções originais de divisão de experiência (separada, igual, por nível) podem servir à progressão dos bots.
 
 ### Perfis por classe
 
@@ -55,10 +55,12 @@ Pardoner e Chaplain também tinham serviços e efeitos para o grupo, mas estão 
 
 ## Próximos estudos ligados a esta decisão
 
-- Decidir as vagas do barracão para bots e se os animais contam no limite de 4.
+- Decidir se os animais de Hunter e Falconer contam no limite de 3 bots (proposta: não contam).
 - Definir a obtenção e as regras dos bots do servidor.
 - Escrever os perfis de comportamento das três bases.
 - Reavaliar as habilidades de grupo das classes selecionadas com bots como destinatários.
 - Separar habilidades de **guilda** (Templar) das habilidades de **grupo**.
 
-**Próximo passo recomendado:** decidir as vagas do barracão e os animais no limite de bots; depois, escrever os perfis de comportamento das três bases.
+**Etapa de conceito encerrada (15/11/2026).** O proprietário considerou a estrutura suficiente por ora. Perfis de comportamento, interface e técnica ficam para quando houver implementação; o foco passa a balanceamento de fórmulas, classes e progressão.
+
+**Próximo passo recomendado:** montar o esqueleto de progressão solo (níveis, ranks e círculos) a partir das tabelas de 2016 já documentadas.

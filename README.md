@@ -12,7 +12,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 **Scout será classe base da versão solo**, aproveitando a separação posterior das árvores. O [estudo de suporte e cura sem magia](docs/projeto-solo/scout-e-suporte-sem-magia.md) avalia classes físicas e adaptações por itens, alquimia e medicina de campo.
 
-**Com bots, sem deusas:** o jogo terá até 4 bots aliados (do barracão ou do servidor), controlados por posturas e ordens simples, e amigos opcionais ([modelo de grupo](docs/projeto-solo/companheiros-e-bots.md)). As deusas sairão da adaptação, e as estátuas darão lugar a outro transporte ([inventário](docs/projeto-solo/remocao-das-deusas.md)).
+**Com bots, sem deusas:** o jogo terá grupos de 4: o jogador e até 3 bots aliados (do barracão ou do servidor), controlados por posturas e ordens simples, e amigos opcionais ([modelo de grupo](docs/projeto-solo/companheiros-e-bots.md)). As deusas sairão da adaptação, e as estátuas darão lugar a outro transporte ([inventário](docs/projeto-solo/remocao-das-deusas.md)).
 
 **Kit base de Scout (ratificado):** cinco habilidades oficiais posteriores de adaga, pistola e esquiva em C1, mais Camouflage, Perspective Distortion e Scan de 2016; as três de arco ficam no acervo. [Comparação e opções](docs/projeto-solo/scout-kit-base.md).
 

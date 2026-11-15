@@ -18,7 +18,7 @@ O corte nominal de classes híbridas continua em construção. Monk e Paladin t�
 
 **15/11/2026 — Reaproveitar ao máximo o original.** Classes, habilidades, consumíveis e recursos existentes têm prioridade sobre novos sistemas. A recuperação começa pelas poções do jogo; sua suficiência será avaliada no balanceamento solo. Especialistas de suporte/consumíveis são possibilidades complementares, sem necessidade já estabelecida de criar um novo kit de cura.
 
-**15/11/2026 — Jogo com bots aliados, não solo puro.** O caso principal é um jogador acompanhado de bots aliados controlados pelo servidor, como no projeto anterior do proprietário em Ragnarok. Amigos também poderão jogar juntos. Personagens no mapa controlados pelo servidor, com interação limitada, ficam como expansão futura. Especificação inicial do mesmo dia: bots do barracão e do servidor, jogador + até 4 bots, posturas com ordens simples e experiência compartilhada. [Modelo de grupo e efeitos nas classes](companheiros-e-bots.md).
+**15/11/2026 — Jogo com bots aliados, não solo puro.** O caso principal é um jogador acompanhado de bots aliados controlados pelo servidor, como no projeto anterior do proprietário em Ragnarok. Amigos também poderão jogar juntos. Personagens no mapa controlados pelo servidor, com interação limitada, ficam como expansão futura. Especificação inicial do mesmo dia: bots do barracão e do servidor, grupo de 4 (jogador + até 3 bots), posturas com ordens simples e experiência compartilhada. [Modelo de grupo e efeitos nas classes](companheiros-e-bots.md).
 
 **15/11/2026 — Remoção das deusas.** As deusas sairão da história e do mundo da adaptação. As estátuas de teletransporte e salvamento serão substituídas, com preferência por um sistema de carroças ou outro meio que tenha arte disponível no jogo. A remoção deve repor as funções de jogo das estátuas. [Inventário inicial](remocao-das-deusas.md).
 
@@ -93,4 +93,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** decidir as vagas do barracão para bots e escrever os perfis de comportamento das três bases; depois, pesquisar a arte de transporte que substituirá as estátuas.
+**15/11/2026 — Grupo de 4 e mudança de foco.** O grupo passa a ter 4 personagens no total (jogador + até 3 bots), o que coincide com as quatro vagas iniciais do barracão. O conceito de bots fica encerrado por ora; o foco passa a balanceamento de fórmulas, classes e progressão.
+
+**Próximo passo recomendado:** montar o esqueleto de progressão solo (níveis, ranks e círculos) a partir das tabelas de 2016 já documentadas.
