@@ -54,7 +54,7 @@ Contra um alvo com 150 de esquiva, a chance de errar fica em (150 − 130)<sup>0
 
 | # | Tema | Proposta | Situação |
 | --- | --- | --- | --- |
-| 1 | INT de preparados | Manter o caminho mágico do Melia como o **caminho dos preparados**: o ataque vem do INT, ignora esquiva, bloqueio e crítico e usa a defesa mágica. As 26 habilidades levantadas já usam esse caminho. | Proposta |
+| 1 | INT de preparados | Manter o caminho mágico do Melia como o **caminho dos preparados**: o ataque vem do INT **mais a arma principal**, ignora esquiva, bloqueio e crítico e usa a defesa mágica. As 26 habilidades levantadas já usam esse caminho. | **Arma principal somada: decidido em 15/11/2026.** Caminho mágico: proposta. |
 | 2 | Cura de preparados | A cura de poções e medicina (Sprinkle HP/SP Potion, Healing Factor) **escala com INT**. A Sabedoria continua cuidando do SP e da recuperação natural. | **Decidido em 15/11/2026.** Fórmula a definir. |
 | 3 | CON e defesa | **CON soma defesa física e mágica**, como diz o guia oficial atual. Valor inicial: +2 de cada defesa por ponto de CON. | **Decidido em 15/11/2026.** Valor sujeito a balanceamento. |
 | 4 | DEX e crítico | Hoje a DEX só aumenta o dano do crítico, não a chance. Pesquisar como era em 2016 antes de mudar. | Pendente de fonte |

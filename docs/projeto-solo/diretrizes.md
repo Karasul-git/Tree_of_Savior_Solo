@@ -129,4 +129,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Crescimento das habilidades.** Cada nível de habilidade soma 10% do fator do nível 1, e os monstros foram calibrados para habilidades no nível 5 (HP dos monstros e chefes cerca de 21% maior que na versão anterior). [Resumo](resumo-do-balanceamento.md).
 
-**Próximo passo recomendado:** resolver a defesa mágica dos monstros.
+**15/11/2026 — Preparados e defesa mágica.** O ataque de preparados passa a somar a arma principal (sem ela, quem foca INT teria um quarto do ataque de quem foca STR). A defesa mágica dos monstros segue a mesma meta da física.
+
+**Próximo passo recomendado:** definir a cura de preparados e avaliar as poções originais.

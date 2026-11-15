@@ -44,6 +44,17 @@
       "decided_at": "2026-11-15",
       "rule": "Cada nível de habilidade soma 10% do fator do nível 1 (após a divisão por 10). Mediana: nível 1 = 151%, nível 5 = 211%, nível 10 = 287%, nível 15 = 362%.",
       "calibration": "Monstros e chefes calibrados para habilidades no nível 5 (211%)."
+    },
+    "preparation_attack_includes_weapon": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "rule": "Ataque de preparados = 20 + nível + 2 × INT + ⌊INT ÷ 10⌋ × (nível × 0,05) + ataque da arma principal",
+      "reason": "Sem a arma, quem foca INT teria cerca de um quarto do ataque de quem foca STR (329 contra 1.301 no nível 120)."
+    },
+    "monster_mdef": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "rule": "Mesma meta da defesa física (redução de ~25%)."
     }
   }
 }

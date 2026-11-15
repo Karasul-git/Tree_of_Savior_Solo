@@ -319,7 +319,8 @@
     "rules": {
       "def": "Defesa do monstro = ataque do personagem de referência ÷ 3 (reduz ~25% do dano no modelo percentual)",
       "atk": "Ataque que faz o golpe tirar 7,5% do HP do personagem de referência (couro) no modelo percentual",
-      "hit": "Precisão = esquiva do Warrior de referência − 12 (Warrior desvia ~5%; Archer e Scout, 8% a 15%)"
+      "hit": "Precisão = esquiva do Warrior de referência − 12 (Warrior desvia ~5%; Archer e Scout, 8% a 15%)",
+      "mdef": "Defesa mágica = mesma meta da defesa física (reduz ~25% do ataque de preparados, que agora soma a arma principal)"
     },
     "table": [
       {
@@ -332,7 +333,10 @@
         "target_atk": 251,
         "target_def": 70,
         "target_hit": 0,
-        "melia_hit": 18
+        "melia_hit": 18,
+        "target_mdef": 70,
+        "melia_mdef": 68,
+        "mdef_mult": 1.03
       },
       {
         "level": 40,
@@ -344,7 +348,10 @@
         "target_atk": 584,
         "target_def": 154,
         "target_hit": 1,
-        "melia_hit": 50
+        "melia_hit": 50,
+        "target_mdef": 154,
+        "melia_mdef": 210,
+        "mdef_mult": 0.73
       },
       {
         "level": 75,
@@ -356,7 +363,10 @@
         "target_atk": 1083,
         "target_def": 273,
         "target_hit": 10,
-        "melia_hit": 83
+        "melia_hit": 83,
+        "target_mdef": 273,
+        "melia_mdef": 598,
+        "mdef_mult": 0.46
       },
       {
         "level": 120,
@@ -368,7 +378,10 @@
         "target_atk": 1777,
         "target_def": 434,
         "target_hit": 21,
-        "melia_hit": 128
+        "melia_hit": 128,
+        "target_mdef": 434,
+        "melia_mdef": 1165,
+        "mdef_mult": 0.37
       },
       {
         "level": 170,
@@ -380,7 +393,10 @@
         "target_atk": 2617,
         "target_def": 618,
         "target_hit": 34,
-        "melia_hit": 176
+        "melia_hit": 176,
+        "target_mdef": 618,
+        "melia_mdef": 1694,
+        "mdef_mult": 0.36
       },
       {
         "level": 220,
@@ -392,7 +408,10 @@
         "target_atk": 3544,
         "target_def": 805,
         "target_hit": 46,
-        "melia_hit": 220
+        "melia_hit": 220,
+        "target_mdef": 805,
+        "melia_mdef": 2647,
+        "mdef_mult": 0.3
       },
       {
         "level": 270,
@@ -404,7 +423,10 @@
         "target_atk": 4527,
         "target_def": 1002,
         "target_hit": 58,
-        "melia_hit": 272
+        "melia_hit": 272,
+        "target_mdef": 1002,
+        "melia_mdef": 2728,
+        "mdef_mult": 0.37
       }
     ],
     "reference_skill_level": 5

@@ -13,7 +13,7 @@
 | Kit de Scout | Opção B: 5 habilidades posteriores em C1, Camouflage e Perspective Distortion em C2, Scan em C3. | [Kit base de Scout](scout-kit-base.md) |
 | Pontos | 1 ponto de atributo por nível (279 até o 280), com bônus por investimento; 1 ponto de habilidade por nível de classe. Pontos extras de história e estátuas realocados. | [Pontos por nível](pontos-por-nivel.md) |
 | Atributos | STR: ataque físico e precisão. CON: HP e defesas (+2 de cada defesa por ponto). INT: potência de preparados. SPR, agora **Sabedoria**: SP e recuperação. DEX: crítico e esquiva. | [Pontos por nível](pontos-por-nivel.md) |
-| INT | Dano e cura de química, medicina e consumíveis; deve crescer para outras habilidades. | [Magia e INT](habilidades-magicas-e-int.md) |
+| INT | Dano e cura de química, medicina e consumíveis; deve crescer para outras habilidades. O ataque de preparados soma a arma principal. | [Magia e INT](habilidades-magicas-e-int.md) |
 | Escala das habilidades | Fatores das habilidades do Melia divididos por 10. Cada nível de habilidade soma 10% do fator do nível 1 (nível 1 = 151%, nível 5 = 211%, nível 15 = 362%). Monstros calibrados para o nível 5. | [Fórmulas de dano](formulas-de-dano.md) |
 | Defesa | Redução = defesa ÷ (defesa + ataque do golpe), no máximo 75%, para jogadores e monstros. | [Comparação das bases](comparacao-das-bases.md) |
 | Arma secundária | Adaga ou pistola somam 20% do próprio ataque ao ataque geral; o valor inteiro vale nas habilidades que as usam. | [Curva de equipamentos](curva-de-equipamentos.md) |
@@ -42,9 +42,9 @@
 | `system/conf/world/jobs.conf` | `job_max_rank` de 4 para 7. |
 | `system/db/exp.txt` (e cliente) | Nova tabela de experiência e 7 ranks de 15 níveis de classe. [Curva](curva-de-experiencia.md) |
 | `system/db/features.txt` | Desligar `NoStatByLevel` e `IncreasedStatRatio` para voltar aos pontos livres. |
-| `calc_character.cs` | CON na defesa; cura de preparados com INT; regra da arma secundária; bônus por investimento, se ainda não existir. |
+| `calc_character.cs` | CON na defesa; ataque de preparados com a arma principal; cura de preparados com INT; regra da arma secundária; bônus por investimento, se ainda não existir. |
 | `calc_combat.cs` | Defesa percentual com limite de 75% no lugar da subtração. |
-| `calc_monster.cs` | Multiplicadores de HP, ataque, defesa e precisão por nível; ajuste de HP pelo tamanho do grupo em chefes e masmorras. |
+| `calc_monster.cs` | Multiplicadores de HP, ataque, defesa, defesa mágica e precisão por nível; ajuste de HP pelo tamanho do grupo em chefes e masmorras. |
 | `system/db/skills.txt` ou cálculo de habilidades | Fatores das habilidades divididos por 10; crescimento por nível de 10% do fator do nível 1. |
 | Localização do cliente e do servidor | Nome "Sabedoria" para SPR. |
 
@@ -53,7 +53,7 @@
 Revisando o conjunto, estes pontos precisam de atenção antes dos testes:
 
 1. ~~**Nível das habilidades.**~~ **Resolvido em 15/11/2026:** crescimento de 10% por nível e calibragem no nível 5. Sozinho: 6 a 11 habilidades com a habilidade no nível 1, 4 a 8 no nível 5, 3 a 6 no 10 e 2 a 5 no 15.
-2. **Defesa mágica dos monstros.** O ajuste foi calculado para a defesa física. Os preparados (INT) usam a defesa mágica, que ainda não tem multiplicador.
+2. ~~**Defesa mágica dos monstros.**~~ **Resolvido em 15/11/2026:** o ataque de preparados soma a arma principal, e a defesa mágica dos monstros segue a mesma meta da física. [Tabela](curva-de-equipamentos.md).
 3. **Equipamento melhor que o comum.** Toda a conta usa equipamento de grau 01. Itens de grau mais alto e melhorias deixam o personagem mais forte que a referência.
 4. **Crítico.** A chance de crítico hoje não depende da DEX, e a resistência a crítico dos monstros não foi calibrada. Falta a fonte de 2016.
 5. **Chefe jogando sozinho.** O HP cai com o grupo, mas o ataque não. Sem tanque, cada golpe tira 15% a 25% do HP.
@@ -62,8 +62,8 @@ Revisando o conjunto, estes pontos precisam de atenção antes dos testes:
 
 ## Pendências principais
 
-- Resolver os pontos acima, começando pela **defesa mágica**, que muda os números da calibragem.
+- Resolver os pontos restantes, começando pela **cura e pelas poções**, que mexem no ritmo de caça.
 - Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - Medir no jogo o ritmo de habilidades e de caça e ajustar as tabelas.
 
-**Próximo passo recomendado:** resolver o ponto 2 (defesa mágica dos monstros), para que os preparados de INT fiquem na mesma meta das habilidades físicas.
+**Próximo passo recomendado:** resolver o ponto 7 (cura e poções): a fórmula da cura com INT e se as poções originais bastam.

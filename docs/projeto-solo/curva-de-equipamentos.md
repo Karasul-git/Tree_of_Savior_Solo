@@ -93,6 +93,23 @@ Calculada com fator de referência de **211%**, o de uma habilidade no **nível 
 
 Os valores-alvo são a mediana esperada para um monstro comum daquele nível. Cada monstro mantém suas diferenças em relação aos outros, porque o ajuste é um multiplicador.
 
+### Defesa mágica dos monstros
+
+**15/11/2026 — decisões do proprietário.**
+
+- **O ataque de preparados soma a arma principal:** 20 + nível + 2 × INT + extra a cada 10 pontos + ataque da arma principal. Sem a arma, quem foca INT teria cerca de um quarto do ataque de quem foca STR: no nível 120, 329 contra 1.301. Com a arma, chega a ~1.250.
+- **A defesa mágica dos monstros segue a mesma meta da física:** reduz cerca de 25% do ataque de preparados.
+
+| Nível | Defesa mágica no Melia | Defesa mágica alvo | Multiplicador |
+| --- | --- | --- | --- |
+| 15 | 68 | 70 | 1.03× |
+| 40 | 210 | 154 | 0.73× |
+| 75 | 598 | 273 | 0.46× |
+| 120 | 1.165 | 434 | 0.37× |
+| 170 | 1.694 | 618 | 0.36× |
+| 220 | 2.647 | 805 | 0.3× |
+| 270 | 2.728 | 1.002 | 0.37× |
+
 ## Outras armas
 
 Separando por tipo, grau e nível, todas as armas do Melia caem em **duas curvas**. [F124](../fontes.md#f124)
