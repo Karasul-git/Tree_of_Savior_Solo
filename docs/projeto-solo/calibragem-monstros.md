@@ -57,4 +57,6 @@ Tentei estimar o ataque e a defesa do personagem com as armas e armaduras do Mel
 - Definir metas para elites, chefes e masmorras.
 - Testar no servidor.
 
-**Próximo passo recomendado:** definir a **curva de equipamentos**: quanto ataque uma arma comum e quanta defesa uma armadura comum devem dar em cada nível. Com ela, os multiplicadores dos monstros saem por conta.
+A curva e os multiplicadores calculados estão em [Curva de equipamentos](curva-de-equipamentos.md). O cálculo mostrou que a escala atual das habilidades do Melia exige decidir antes entre reduzir os fatores das habilidades ou multiplicar muito o HP dos monstros.
+
+**Próximo passo recomendado:** decidir a escala das habilidades.

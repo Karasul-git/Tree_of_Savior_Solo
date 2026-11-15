@@ -46,6 +46,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Habilidades mágicas e o novo INT](docs/projeto-solo/habilidades-magicas-e-int.md)
 - [Fórmulas de dano](docs/projeto-solo/formulas-de-dano.md)
 - [Calibragem dos monstros](docs/projeto-solo/calibragem-monstros.md)
+- [Curva de equipamentos](docs/projeto-solo/curva-de-equipamentos.md)
 - [Companheiros, bots e grupo](docs/projeto-solo/companheiros-e-bots.md)
 - [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)

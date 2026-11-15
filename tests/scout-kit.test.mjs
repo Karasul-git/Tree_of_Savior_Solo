@@ -92,3 +92,11 @@ test('as metas de calibragem dos monstros seguem as decisões do proprietário',
   assert.deepEqual(c.targets.damage_per_hit_pct_of_hp_non_tank, [5, 10]);
   for (const b of c.bands) assert.equal(b.target_hit_min, Math.round(b.player_hp_no_gear * 0.05));
 });
+
+test('a curva de equipamentos cresce por nível e mantém a decisão de escala pendente', () => {
+  const e = read('data/proposals/equipment-curve.json');
+  const sword = Object.values(e.equipment_curve.one_handed_sword_avg_atk.grade02);
+  for (let i = 1; i < sword.length; i++) assert.ok(sword[i] > sword[i - 1]);
+  assert.equal(e.status, 'proposal-pending-skill-scale-decision');
+  assert.ok(e.results.every(r => r.mult_hp_F150 < r.mult_hp_F2000));
+});

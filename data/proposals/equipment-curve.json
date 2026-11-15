@@ -1,0 +1,309 @@
+{
+  "reviewed_at": "2026-11-15",
+  "source_id": "F124",
+  "status": "proposal-pending-skill-scale-decision",
+  "equipment_curve": {
+    "tiers": [
+      1,
+      15,
+      40,
+      75,
+      120,
+      170,
+      220,
+      270,
+      315
+    ],
+    "one_handed_sword_avg_atk": {
+      "grade01_common": {
+        "1": 37,
+        "15": 141,
+        "40": 327,
+        "75": 586.5,
+        "120": 920.5,
+        "170": 1292,
+        "220": 1663,
+        "270": "2034 (estimado)"
+      },
+      "grade02": {
+        "1": 41,
+        "15": 156.5,
+        "40": 363,
+        "75": 651.5,
+        "120": 1023,
+        "170": 1435.5,
+        "220": 1848,
+        "270": 2260.5
+      }
+    },
+    "armor_def_grade01": {
+      "leather": {
+        "body": [
+          19,
+          64,
+          145,
+          259,
+          405,
+          567,
+          729,
+          891,
+          1036
+        ],
+        "legs": [
+          19,
+          64,
+          145,
+          259,
+          405,
+          567,
+          729,
+          891,
+          1036
+        ],
+        "hands": [
+          12,
+          43,
+          97,
+          172,
+          270,
+          378,
+          486,
+          594,
+          691
+        ],
+        "feet": [
+          12,
+          43,
+          97,
+          172,
+          270,
+          378,
+          486,
+          594,
+          691
+        ]
+      },
+      "cloth": {
+        "body": [
+          null,
+          43,
+          97,
+          172,
+          270,
+          378,
+          486,
+          594,
+          691
+        ],
+        "hands": [
+          null,
+          28,
+          64,
+          115,
+          180,
+          252,
+          324,
+          396,
+          460
+        ]
+      },
+      "iron": {
+        "body": [
+          null,
+          86,
+          194,
+          345,
+          540,
+          756,
+          972,
+          1188,
+          1382
+        ],
+        "hands": [
+          null,
+          57,
+          129,
+          230,
+          360,
+          504,
+          648,
+          792,
+          921
+        ]
+      }
+    },
+    "shield_def": {
+      "grade01": [
+        51,
+        172,
+        388,
+        691,
+        1080,
+        1512,
+        1944,
+        2376,
+        2764
+      ]
+    }
+  },
+  "reference_character": "Swordsman com 60% dos pontos em STR e 40% em CON (com bônus por investimento), espada comum (grau 01) e armadura de couro grau 01 nas quatro partes, sem escudo; CON soma +2 de defesa por ponto.",
+  "assumptions": {
+    "monster_def_absorbs_pct_of_player_atk": 25,
+    "monster_atk_target_pct_of_player_hp": 7.5,
+    "skills_to_kill": "4 membros × 3,5 habilidades",
+    "melia_skill_factor_median": {
+      "lv1_pct": 1506,
+      "lv5_pct": 2819,
+      "n": 154
+    }
+  },
+  "results": [
+    {
+      "level": 15,
+      "weapon_atk": 141,
+      "armor_def": 214,
+      "player_atk": 210,
+      "player_def": 276,
+      "player_hp": 1597,
+      "melia_mon_hp": 515,
+      "melia_mon_atk": 174,
+      "melia_mon_def": 82,
+      "target_mon_def": 52,
+      "target_mon_atk": 396,
+      "mult_atk": 2.28,
+      "mult_def": 0.64,
+      "target_mon_hp_F150": 3318,
+      "mult_hp_F150": 6.44,
+      "target_mon_hp_F200": 4424,
+      "mult_hp_F200": 8.59,
+      "target_mon_hp_F2000": 44006,
+      "mult_hp_F2000": 85.45
+    },
+    {
+      "level": 40,
+      "weapon_atk": 327,
+      "armor_def": 484,
+      "player_atk": 462,
+      "player_def": 595,
+      "player_hp": 3861,
+      "melia_mon_hp": 1621,
+      "melia_mon_atk": 325,
+      "melia_mon_def": 202,
+      "target_mon_def": 115,
+      "target_mon_atk": 885,
+      "mult_atk": 2.72,
+      "mult_def": 0.57,
+      "target_mon_hp_F150": 7287,
+      "mult_hp_F150": 4.5,
+      "target_mon_hp_F200": 9716,
+      "mult_hp_F200": 5.99,
+      "target_mon_hp_F2000": 96978,
+      "mult_hp_F2000": 59.83
+    },
+    {
+      "level": 75,
+      "weapon_atk": 586.5,
+      "armor_def": 862,
+      "player_atk": 819,
+      "player_def": 1040,
+      "player_hp": 7362,
+      "melia_mon_hp": 5242,
+      "melia_mon_atk": 973,
+      "melia_mon_def": 588,
+      "target_mon_def": 205,
+      "target_mon_atk": 1592,
+      "mult_atk": 1.64,
+      "mult_def": 0.35,
+      "target_mon_hp_F150": 12894,
+      "mult_hp_F150": 2.46,
+      "target_mon_hp_F200": 17192,
+      "mult_hp_F200": 3.28,
+      "target_mon_hp_F2000": 172000,
+      "mult_hp_F2000": 32.82
+    },
+    {
+      "level": 120,
+      "weapon_atk": 920.5,
+      "armor_def": 1350,
+      "player_atk": 1301,
+      "player_def": 1617,
+      "player_hp": 12408,
+      "melia_mon_hp": 14797,
+      "melia_mon_atk": 2154,
+      "melia_mon_def": 1191,
+      "target_mon_def": 325,
+      "target_mon_atk": 2548,
+      "mult_atk": 1.18,
+      "mult_def": 0.27,
+      "target_mon_hp_F150": 20496,
+      "mult_hp_F150": 1.39,
+      "target_mon_hp_F200": 27328,
+      "mult_hp_F200": 1.85,
+      "target_mon_hp_F2000": 273273,
+      "mult_hp_F2000": 18.47
+    },
+    {
+      "level": 170,
+      "weapon_atk": 1292,
+      "armor_def": 1890,
+      "player_atk": 1853,
+      "player_def": 2257,
+      "player_hp": 18734,
+      "melia_mon_hp": 35721,
+      "melia_mon_atk": 3449,
+      "melia_mon_def": 1950,
+      "target_mon_def": 463,
+      "target_mon_atk": 3662,
+      "mult_atk": 1.06,
+      "mult_def": 0.24,
+      "target_mon_hp_F150": 29190,
+      "mult_hp_F150": 0.82,
+      "target_mon_hp_F200": 38920,
+      "mult_hp_F200": 1.09,
+      "target_mon_hp_F2000": 389193,
+      "mult_hp_F2000": 10.9
+    },
+    {
+      "level": 220,
+      "weapon_atk": 1663,
+      "armor_def": 2430,
+      "player_atk": 2416,
+      "player_def": 2897,
+      "player_hp": 25998,
+      "melia_mon_hp": 49981,
+      "melia_mon_atk": 4668,
+      "melia_mon_def": 2168,
+      "target_mon_def": 604,
+      "target_mon_atk": 4847,
+      "mult_atk": 1.04,
+      "mult_def": 0.28,
+      "target_mon_hp_F150": 38052,
+      "mult_hp_F150": 0.76,
+      "target_mon_hp_F200": 50736,
+      "mult_hp_F200": 1.02,
+      "target_mon_hp_F2000": 507318,
+      "mult_hp_F2000": 10.15
+    },
+    {
+      "level": 270,
+      "weapon_atk": 2034.2,
+      "armor_def": 2970,
+      "player_atk": 3007,
+      "player_def": 3537,
+      "player_hp": 33884,
+      "melia_mon_hp": 84025,
+      "melia_mon_atk": 4459,
+      "melia_mon_def": 2738,
+      "target_mon_def": 752,
+      "target_mon_atk": 6078,
+      "mult_atk": 1.36,
+      "mult_def": 0.27,
+      "target_mon_hp_F150": 47355,
+      "mult_hp_F150": 0.56,
+      "target_mon_hp_F200": 63140,
+      "mult_hp_F200": 0.75,
+      "target_mon_hp_F2000": 631470,
+      "mult_hp_F2000": 7.52
+    }
+  ]
+}
