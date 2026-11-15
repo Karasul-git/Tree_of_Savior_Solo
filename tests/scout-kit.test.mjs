@@ -88,7 +88,7 @@ test('as decisões das fórmulas de dano ficam registradas', () => {
 test('as metas de calibragem dos monstros seguem as decisões do proprietário', () => {
   const c = read('data/proposals/monster-calibration.json');
   assert.equal(c.targets.group_size, 4);
-  assert.deepEqual(c.targets.skills_per_member_to_kill_normal, [3, 4]);
+  assert.deepEqual(c.targets.skills_per_member_to_kill_normal, [1, 2]);
   assert.deepEqual(c.targets.damage_per_hit_pct_of_hp_non_tank, [5, 10]);
   for (const b of c.bands) assert.equal(b.target_hit_min, Math.round(b.player_hp_no_gear * 0.05));
 });

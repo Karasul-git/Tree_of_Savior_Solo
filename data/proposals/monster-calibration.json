@@ -5,18 +5,20 @@
   "targets": {
     "group_size": 4,
     "skills_per_member_to_kill_normal": [
-      3,
-      4
+      1,
+      2
     ],
     "damage_per_hit_pct_of_hp_non_tank": [
       5,
       10
     ],
-    "decided_at": "2026-11-15"
+    "decided_at": "2026-11-15",
+    "revised_at": "2026-11-15",
+    "revision_note": "Proprietário reduziu de 3–4 para 1–2 habilidades por membro, pensando também em jogar sem o grupo; sozinho, um monstro comum cai com 4 a 8 habilidades."
   },
   "build_assumption": "Personagem de referência: 40% dos pontos em CON, sem equipamento; HP pela fórmula atual do Melia.",
   "formulas": {
-    "monster_hp": "HP_alvo(L) = 4 × (3 a 4) × D(L), sendo D(L) o dano médio de uma habilidade do personagem no nível L",
+    "monster_hp": "HP_alvo(L) = 4 × (1 a 2) × D(L), sendo D(L) o dano médio de uma habilidade do personagem no nível L",
     "monster_atk": "ATK_alvo(L) = DEF_jogador(L) + (5% a 10%) × HP_jogador(L)"
   },
   "bands": [

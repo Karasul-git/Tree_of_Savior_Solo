@@ -109,8 +109,8 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Fórmulas de dano.** As fórmulas atuais do Melia estão registradas, com seis propostas. O proprietário decidiu que a cura de preparados escala com INT e que CON soma defesa física e mágica (+2 por ponto como valor inicial). [Fórmulas](formulas-de-dano.md).
 
-**15/11/2026 — Metas dos monstros.** Um monstro comum de campo deve aguentar 3 a 4 habilidades de cada membro do grupo de 4, e cada golpe dele deve tirar 5% a 10% do HP de um personagem que não seja o tanque. Os números finais dependem da curva de equipamentos. [Calibragem](calibragem-monstros.md).
+**15/11/2026 — Metas dos monstros.** Um monstro comum de campo deve aguentar 1 a 2 habilidades de cada membro do grupo de 4 (revisto de 3 a 4, pensando também em jogar sem o grupo), e cada golpe dele deve tirar 5% a 10% do HP de um personagem que não seja o tanque. Os números finais dependem da curva de equipamentos. [Calibragem](calibragem-monstros.md).
 
-**15/11/2026 — Curva de equipamentos.** As armas e armaduras do Melia formam escadas limpas por grau e nível de item. Com elas, a calibragem mostrou que a escala atual das habilidades (~1.500% a 2.800%) exigiria monstros com 7 a 85 vezes mais HP. Com uma escala de 150% a 200%, os multiplicadores ficam pequenos. [Curva e resultados](curva-de-equipamentos.md).
+**15/11/2026 — Curva de equipamentos.** As armas e armaduras do Melia formam escadas limpas por grau e nível de item. Com elas, a calibragem mostrou que a escala atual das habilidades (~1.500% a 2.800%) exigiria monstros com 3 a 37 vezes mais HP. Com uma escala de 150% a 200%, os multiplicadores ficam pequenos. [Curva e resultados](curva-de-equipamentos.md).
 
 **Próximo passo recomendado:** decidir a escala das habilidades; a recomendação é reduzi-la.

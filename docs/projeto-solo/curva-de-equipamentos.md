@@ -47,7 +47,7 @@ Swordsman com 60% dos pontos em STR e 40% em CON (com o bônus por investimento)
 
 ## O que a calibragem mostrou
 
-Para cumprir as metas (3 a 4 habilidades de cada membro do grupo de 4; cada golpe tirando 5% a 10% do HP), usei duas hipóteses:
+Para cumprir as metas (**1 a 2 habilidades de cada membro** do grupo de 4, meta revista pelo proprietário; cada golpe tirando 5% a 10% do HP), usei duas hipóteses:
 
 - **A defesa do monstro absorve cerca de 25% do ataque do personagem.** Com as defesas atuais do Melia, ela absorvia quase tudo nos níveis médios.
 - **O golpe do monstro tira 7,5% do HP**, o meio da meta.
@@ -56,18 +56,19 @@ O ponto decisivo é a **escala das habilidades**. No Melia, a mediana do fator d
 
 | Nível | HP do monstro no Melia | Multiplicador de HP com a escala atual (~2.000%) | Multiplicador de HP com escala de 150% a 200% | Ataque do monstro → alvo | Defesa do monstro → alvo |
 | --- | --- | --- | --- | --- | --- |
-| 15 | 515 | 85.45× | 6.44× – 8.59× | 174 → 396 (2.28×) | 82 → 52 (0.64×) |
-| 40 | 1.621 | 59.83× | 4.5× – 5.99× | 325 → 885 (2.72×) | 202 → 115 (0.57×) |
-| 75 | 5.242 | 32.82× | 2.46× – 3.28× | 973 → 1.592 (1.64×) | 588 → 205 (0.35×) |
-| 120 | 14.797 | 18.47× | 1.39× – 1.85× | 2.154 → 2.548 (1.18×) | 1.191 → 325 (0.27×) |
-| 170 | 35.721 | 10.9× | 0.82× – 1.09× | 3.449 → 3.662 (1.06×) | 1.950 → 463 (0.24×) |
-| 220 | 49.981 | 10.15× | 0.76× – 1.02× | 4.668 → 4.847 (1.04×) | 2.168 → 604 (0.28×) |
-| 270 | 84.025 | 7.52× | 0.56× – 0.75× | 4.459 → 6.078 (1.36×) | 2.738 → 752 (0.27×) |
+| 15 | 515 | 36.82× | 2.76× – 3.68× | 174 → 396 (2.28×) | 82 → 52 (0.64×) |
+| 40 | 1.621 | 25.69× | 1.93× – 2.57× | 325 → 885 (2.72×) | 202 → 115 (0.57×) |
+| 75 | 5.242 | 14.06× | 1.05× – 1.41× | 973 → 1.592 (1.64×) | 588 → 205 (0.35×) |
+| 120 | 14.797 | 7.92× | 0.59× – 0.79× | 2.154 → 2.548 (1.18×) | 1.191 → 325 (0.27×) |
+| 170 | 35.721 | 4.67× | 0.35× – 0.47× | 3.449 → 3.662 (1.06×) | 1.950 → 463 (0.24×) |
+| 220 | 49.981 | 4.35× | 0.33× – 0.44× | 4.668 → 4.847 (1.04×) | 2.168 → 604 (0.28×) |
+| 270 | 84.025 | 3.22× | 0.24× – 0.32× | 4.459 → 6.078 (1.36×) | 2.738 → 752 (0.27×) |
 
 **Leitura:**
 
-- **Com a escala atual**, os monstros precisariam de **7 a 85 vezes** mais HP, com um salto enorme entre os níveis. É difícil de equilibrar e de testar.
-- **Com uma escala de 150% a 200%**, mais próxima da ideia de 2016 (em que a habilidade somava um valor fixo ao ataque), o HP dos monstros fica **perto do atual entre os níveis 120 e 220** e um pouco abaixo no 270. Os níveis até 75 precisam de 2,5 a 9 vezes mais HP, porque hoje os monstros iniciais foram feitos para cair num golpe.
+- **Com a escala atual**, os monstros precisariam de **3 a 37 vezes** mais HP, com um salto grande entre os níveis.
+- **Com uma escala de 150% a 200%**, mais próxima da ideia de 2016 (em que a habilidade somava um valor fixo ao ataque), os monstros até o nível 40 precisam de 2 a 4 vezes mais HP; no nível 75 ficam perto do atual; dali em diante, precisam de **menos HP do que hoje** (um quarto a quatro quintos).
+- **Sozinho**, o jogador derruba um monstro comum com 4 a 8 habilidades; com o grupo, cada um usa 1 ou 2.
 - O **ataque dos monstros** precisa de 1 a 2,7 vezes o atual, e a **defesa**, de um quarto a dois terços.
 
 ## Decisão pendente
@@ -75,7 +76,7 @@ O ponto decisivo é a **escala das habilidades**. No Melia, a mediana do fator d
 | Opção | O que muda | Efeito |
 | --- | --- | --- |
 | **A · Reduzir a escala das habilidades (recomendado)** | Dividir o fator das habilidades do Melia por cerca de 10, para a faixa de 150% a 200%. | Monstros com multiplicadores pequenos e estáveis; mais perto do ritmo de 2016. |
-| B · Manter a escala atual | Multiplicar o HP dos monstros por 7 a 85, conforme o nível. | Muda menos as habilidades, mas os monstros ficam com números enormes e desiguais. |
+| B · Manter a escala atual | Multiplicar o HP dos monstros por 3 a 37, conforme o nível. | Muda menos as habilidades, mas os monstros ficam com números enormes e desiguais. |
 
 ## Pendências
 

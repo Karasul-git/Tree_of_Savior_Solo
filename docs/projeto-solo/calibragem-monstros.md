@@ -8,7 +8,7 @@
 
 | Meta | Decisão |
 | --- | --- |
-| Resistência de um monstro comum de campo | **3 a 4 habilidades de cada membro** do grupo de 4, no mesmo nível. Cada monstro pede um pouco de luta. |
+| Resistência de um monstro comum de campo | **1 a 2 habilidades de cada membro** do grupo de 4, no mesmo nível (revisto no mesmo dia; antes eram 3 a 4). Sozinho, o jogador derruba um monstro comum com 4 a 8 habilidades. |
 | Dano de um golpe de monstro comum | **5% a 10% do HP** de um personagem do mesmo nível que não seja o tanque. Morre com 10 a 20 golpes. |
 
 ## Como os monstros funcionam no Melia
@@ -35,7 +35,7 @@ Monstros hostis com experiência, num intervalo de ±10 níveis. A última colun
 
 As duas metas viram duas fórmulas:
 
-- **HP do monstro** = 4 membros × 3 a 4 habilidades × dano médio de uma habilidade do personagem naquele nível.
+- **HP do monstro** = 4 membros × 1 a 2 habilidades × dano médio de uma habilidade do personagem naquele nível.
 - **Ataque do monstro** = defesa do personagem + 5% a 10% do HP do personagem naquele nível.
 
 As duas dependem de quanto ataque e defesa o personagem tem em cada nível, e isso vem principalmente do **equipamento**.

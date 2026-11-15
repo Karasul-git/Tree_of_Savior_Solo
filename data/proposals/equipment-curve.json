@@ -150,7 +150,7 @@
   "assumptions": {
     "monster_def_absorbs_pct_of_player_atk": 25,
     "monster_atk_target_pct_of_player_hp": 7.5,
-    "skills_to_kill": "4 membros × 3,5 habilidades",
+    "skills_to_kill": "4 membros × 1,5 habilidades (meta revista em 15/11/2026: 1 a 2 de cada membro)",
     "melia_skill_factor_median": {
       "lv1_pct": 1506,
       "lv5_pct": 2819,
@@ -172,12 +172,12 @@
       "target_mon_atk": 396,
       "mult_atk": 2.28,
       "mult_def": 0.64,
-      "target_mon_hp_F150": 3318,
-      "mult_hp_F150": 6.44,
-      "target_mon_hp_F200": 4424,
-      "mult_hp_F200": 8.59,
-      "target_mon_hp_F2000": 44006,
-      "mult_hp_F2000": 85.45
+      "target_mon_hp_F150": 1422,
+      "mult_hp_F150": 2.76,
+      "target_mon_hp_F200": 1896,
+      "mult_hp_F200": 3.68,
+      "target_mon_hp_F2000": 18960,
+      "mult_hp_F2000": 36.82
     },
     {
       "level": 40,
@@ -193,12 +193,12 @@
       "target_mon_atk": 885,
       "mult_atk": 2.72,
       "mult_def": 0.57,
-      "target_mon_hp_F150": 7287,
-      "mult_hp_F150": 4.5,
-      "target_mon_hp_F200": 9716,
-      "mult_hp_F200": 5.99,
-      "target_mon_hp_F2000": 96978,
-      "mult_hp_F2000": 59.83
+      "target_mon_hp_F150": 3123,
+      "mult_hp_F150": 1.93,
+      "target_mon_hp_F200": 4164,
+      "mult_hp_F200": 2.57,
+      "target_mon_hp_F2000": 41640,
+      "mult_hp_F2000": 25.69
     },
     {
       "level": 75,
@@ -214,12 +214,12 @@
       "target_mon_atk": 1592,
       "mult_atk": 1.64,
       "mult_def": 0.35,
-      "target_mon_hp_F150": 12894,
-      "mult_hp_F150": 2.46,
-      "target_mon_hp_F200": 17192,
-      "mult_hp_F200": 3.28,
-      "target_mon_hp_F2000": 172000,
-      "mult_hp_F2000": 32.82
+      "target_mon_hp_F150": 5526,
+      "mult_hp_F150": 1.05,
+      "target_mon_hp_F200": 7368,
+      "mult_hp_F200": 1.41,
+      "target_mon_hp_F2000": 73680,
+      "mult_hp_F2000": 14.06
     },
     {
       "level": 120,
@@ -235,12 +235,12 @@
       "target_mon_atk": 2548,
       "mult_atk": 1.18,
       "mult_def": 0.27,
-      "target_mon_hp_F150": 20496,
-      "mult_hp_F150": 1.39,
-      "target_mon_hp_F200": 27328,
-      "mult_hp_F200": 1.85,
-      "target_mon_hp_F2000": 273273,
-      "mult_hp_F2000": 18.47
+      "target_mon_hp_F150": 8784,
+      "mult_hp_F150": 0.59,
+      "target_mon_hp_F200": 11712,
+      "mult_hp_F200": 0.79,
+      "target_mon_hp_F2000": 117120,
+      "mult_hp_F2000": 7.92
     },
     {
       "level": 170,
@@ -256,12 +256,12 @@
       "target_mon_atk": 3662,
       "mult_atk": 1.06,
       "mult_def": 0.24,
-      "target_mon_hp_F150": 29190,
-      "mult_hp_F150": 0.82,
-      "target_mon_hp_F200": 38920,
-      "mult_hp_F200": 1.09,
-      "target_mon_hp_F2000": 389193,
-      "mult_hp_F2000": 10.9
+      "target_mon_hp_F150": 12510,
+      "mult_hp_F150": 0.35,
+      "target_mon_hp_F200": 16680,
+      "mult_hp_F200": 0.47,
+      "target_mon_hp_F2000": 166800,
+      "mult_hp_F2000": 4.67
     },
     {
       "level": 220,
@@ -277,12 +277,12 @@
       "target_mon_atk": 4847,
       "mult_atk": 1.04,
       "mult_def": 0.28,
-      "target_mon_hp_F150": 38052,
-      "mult_hp_F150": 0.76,
-      "target_mon_hp_F200": 50736,
-      "mult_hp_F200": 1.02,
-      "target_mon_hp_F2000": 507318,
-      "mult_hp_F2000": 10.15
+      "target_mon_hp_F150": 16308,
+      "mult_hp_F150": 0.33,
+      "target_mon_hp_F200": 21744,
+      "mult_hp_F200": 0.44,
+      "target_mon_hp_F2000": 217440,
+      "mult_hp_F2000": 4.35
     },
     {
       "level": 270,
@@ -298,12 +298,12 @@
       "target_mon_atk": 6078,
       "mult_atk": 1.36,
       "mult_def": 0.27,
-      "target_mon_hp_F150": 47355,
-      "mult_hp_F150": 0.56,
-      "target_mon_hp_F200": 63140,
-      "mult_hp_F200": 0.75,
-      "target_mon_hp_F2000": 631470,
-      "mult_hp_F2000": 7.52
+      "target_mon_hp_F150": 20295,
+      "mult_hp_F150": 0.24,
+      "target_mon_hp_F200": 27060,
+      "mult_hp_F200": 0.32,
+      "target_mon_hp_F2000": 270600,
+      "mult_hp_F2000": 3.22
     }
   ]
 }
