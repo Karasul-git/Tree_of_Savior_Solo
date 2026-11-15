@@ -121,4 +121,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Modelo de defesa.** A defesa passa a reduzir uma fração do golpe (defesa ÷ (defesa + ataque), máximo de 75%). Com ataque, defesa e precisão dos monstros recalculados, o tanque leva ~5% por golpe, o Warrior de duas mãos ~7,5% e Archer e Scout 9% a 10%, desviando de 8% a 15%. [Comparação](comparacao-das-bases.md).
 
-**Próximo passo recomendado:** definir as metas de elites, chefes e masmorras.
+**15/11/2026 — Chefes, elites e masmorras.** Lutas contra chefes de 1 a 2 minutos com o grupo de 4; golpe de chefe tirando 15% a 25% do HP de quem não é tanque; chefes e masmorras ajustados ao tamanho do grupo; elites como no Melia. [Metas](chefes-elites-masmorras.md).
+
+**Próximo passo recomendado:** montar a curva de experiência.

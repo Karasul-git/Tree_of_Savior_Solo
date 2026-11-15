@@ -131,4 +131,4 @@ Ataque da arma, sem atributos. O Scout, cuja árvore usa espada de uma mão com 
 
 A [comparação das três bases](comparacao-das-bases.md) usa estas curvas.
 
-**Próximo passo recomendado:** definir as metas de elites, chefes e masmorras.
+**Próximo passo recomendado:** montar a curva de experiência; as metas de chefes já estão em [Elites, chefes e masmorras](chefes-elites-masmorras.md).

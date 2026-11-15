@@ -1,0 +1,152 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "owner-targets-numbers-provisional",
+  "source_id": "F124",
+  "decisions": {
+    "boss_fight_duration_s": [
+      60,
+      120
+    ],
+    "boss_hit_pct_hp_non_tank": [
+      15,
+      25
+    ],
+    "scale_by_group_size": true,
+    "elite": "keep Melia (150% HP/SP e atributos, 200% de experiência)",
+    "decided_at": "2026-11-15"
+  },
+  "assumptions": {
+    "skill_cadence_s": 2.0,
+    "boss_hit_reference_pct": 20,
+    "defense_model": "ratio",
+    "group_scaling": "HP do chefe = HP para 4 × (membros ÷ 4); ataque não muda"
+  },
+  "results": [
+    {
+      "level": 15,
+      "skill_damage": 276,
+      "boss_hp_group4": [
+        33075,
+        66150
+      ],
+      "boss_hp_solo": [
+        8269,
+        16538
+      ],
+      "boss_atk": 497,
+      "boss_def": 70,
+      "melia_boss_hp_median": 3508,
+      "melia_boss_atk_median": 178,
+      "n_melia_bosses": 28,
+      "boss_hp_vs_normal": 19.9
+    },
+    {
+      "level": 40,
+      "skill_damage": 606,
+      "boss_hp_group4": [
+        72765,
+        145530
+      ],
+      "boss_hp_solo": [
+        18191,
+        36382
+      ],
+      "boss_atk": 1166,
+      "boss_def": 154,
+      "melia_boss_hp_median": 14037,
+      "melia_boss_atk_median": 435,
+      "n_melia_bosses": 26,
+      "boss_hp_vs_normal": 20.0
+    },
+    {
+      "level": 75,
+      "skill_damage": 1075,
+      "boss_hp_group4": [
+        128992,
+        257985
+      ],
+      "boss_hp_solo": [
+        32248,
+        64496
+      ],
+      "boss_atk": 2176,
+      "boss_def": 273,
+      "melia_boss_hp_median": 42892,
+      "melia_boss_atk_median": 1452,
+      "n_melia_bosses": 22,
+      "boss_hp_vs_normal": 20.0
+    },
+    {
+      "level": 120,
+      "skill_damage": 1708,
+      "boss_hp_group4": [
+        204908,
+        409815
+      ],
+      "boss_hp_solo": [
+        51227,
+        102454
+      ],
+      "boss_atk": 3597,
+      "boss_def": 434,
+      "melia_boss_hp_median": 117392,
+      "melia_boss_atk_median": 2710,
+      "n_melia_bosses": 43,
+      "boss_hp_vs_normal": 20.0
+    },
+    {
+      "level": 170,
+      "skill_damage": 2432,
+      "boss_hp_group4": [
+        291848,
+        583695
+      ],
+      "boss_hp_solo": [
+        72962,
+        145924
+      ],
+      "boss_atk": 5333,
+      "boss_def": 618,
+      "melia_boss_hp_median": 225641,
+      "melia_boss_atk_median": 4514,
+      "n_melia_bosses": 13,
+      "boss_hp_vs_normal": 20.0
+    },
+    {
+      "level": 220,
+      "skill_damage": 3171,
+      "boss_hp_group4": [
+        380520,
+        761040
+      ],
+      "boss_hp_solo": [
+        95130,
+        190260
+      ],
+      "boss_atk": 7271,
+      "boss_def": 805,
+      "melia_boss_hp_median": 426938,
+      "melia_boss_atk_median": 7452,
+      "n_melia_bosses": 6,
+      "boss_hp_vs_normal": 20.0
+    },
+    {
+      "level": 270,
+      "skill_damage": 3947,
+      "boss_hp_group4": [
+        473602,
+        947205
+      ],
+      "boss_hp_solo": [
+        118401,
+        236801
+      ],
+      "boss_atk": 9342,
+      "boss_def": 1002,
+      "melia_boss_hp_median": 595028,
+      "melia_boss_atk_median": 5084,
+      "n_melia_bosses": 2,
+      "boss_hp_vs_normal": 20.0
+    }
+  ]
+}

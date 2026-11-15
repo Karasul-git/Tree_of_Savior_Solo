@@ -65,4 +65,4 @@ As curvas das outras armas também estão lá.
 
 A tabela foi recalculada com o modelo de defesa percentual. [Comparação das bases](comparacao-das-bases.md).
 
-**Próximo passo recomendado:** definir as metas de elites, chefes e masmorras.
+**Próximo passo recomendado:** montar a curva de experiência; as metas de chefes já estão em [Elites, chefes e masmorras](chefes-elites-masmorras.md).

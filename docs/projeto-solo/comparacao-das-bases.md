@@ -69,6 +69,7 @@ O resultado anterior, com a defesa subtraída, continua guardado nos dados para 
 
 - Pesquisar o efeito da DEX na chance de crítico em 2016 e revisar o peso do crítico.
 - Testar no servidor depois da fase 1.
-- Definir metas de elites, chefes e masmorras.
 
-**Próximo passo recomendado:** definir as metas de **elites, chefes e masmorras**, que ainda não têm números. Depois disso, o balanceamento básico de combate fica completo no papel.
+As metas de chefes estão em [Elites, chefes e masmorras](chefes-elites-masmorras.md).
+
+**Próximo passo recomendado:** montar a curva de experiência.

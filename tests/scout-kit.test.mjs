@@ -121,3 +121,10 @@ test('o modelo de defesa percentual deixa o tanque resistente sem imunidade', ()
     assert.ok(r.skills_to_kill_solo >= 4 && r.skills_to_kill_solo <= 8);
   }
 });
+
+test('as metas de chefes seguem as decisões do proprietário e escalam com o grupo', () => {
+  const b = read('data/proposals/boss-targets.json');
+  assert.deepEqual(b.decisions.boss_fight_duration_s, [60, 120]);
+  assert.equal(b.decisions.scale_by_group_size, true);
+  for (const r of b.results) assert.equal(Math.round(r.boss_hp_group4[0] / 4), r.boss_hp_solo[0]);
+});
