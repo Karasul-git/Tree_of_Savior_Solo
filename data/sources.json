@@ -1418,5 +1418,41 @@
     "url": "https://treeofsavior.com/page/class/view.php?c=Templar",
     "supports": "Referência atual de comandos, bandeiras e ataques; inclui também invocação de defensor ancestral, que não foi selecionada para reaproveitamento.",
     "limitations": "Página sem data de revisão. Não comprova o kit de lançamento ou uma adaptação já implementada. A seleção de habilidades é uma proposta separada; números e círculos não foram importados."
+  },
+  {
+    "id": "F113",
+    "title": "Guia oficial · Developing Your Character",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Função de jogo das estátuas de Zemyna, para o inventário de remoção das deusas",
+    "url": "https://treeofsavior.com/page/guide/view.php?n=10",
+    "supports": "Pontos de atributo bônus podem vir de missões ou das estátuas da deusa Zemyna e são distribuídos livremente.",
+    "limitations": "Página sem data visível. Não comprova a quantidade de estátuas, de pontos ou o comportamento exato em março–abril de 2016. Não trata de teletransporte ou salvamento."
+  },
+  {
+    "id": "F114",
+    "title": "Evento de novos jogadores · recompensas com Klaipeda Warp Scroll",
+    "author": "IMC Games",
+    "published": "2017-04-04",
+    "accessed": "2026-11-15",
+    "kind": "official-later",
+    "scope": "Existência de pergaminho de teletransporte como item, para reaproveitamento sem estátuas",
+    "url": "https://treeofsavior.com/news/?n=913",
+    "supports": "Recompensa de nível 10: \"Klaipeda Warp Scroll\", pergaminho que teletransporta diretamente para Klaipeda.",
+    "limitations": "Notícia de 2017, posterior ao recorte. Não comprova disponibilidade, preço ou vendedores em 2016, nem cobre outros destinos."
+  },
+  {
+    "id": "F115",
+    "title": "4Gamer · evento japonês de carimbos nas estátuas (out. 2016)",
+    "author": "4Gamer.net",
+    "published": "2016-10-12",
+    "accessed": "2026-11-15",
+    "kind": "press-later",
+    "scope": "Indício de cobrança pelo teletransporte nas estátuas",
+    "url": "https://www.4gamer.net/games/132/G013290/20161012104/",
+    "supports": "O evento dispensava a taxa de teletransporte das estátuas, o que indica que o uso normal tinha custo.",
+    "limitations": "Servidor japonês, outubro de 2016, fora do recorte iToS. Leitura indireta de texto em japonês; não informa o valor da taxa."
   }
 ]

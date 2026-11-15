@@ -18,6 +18,10 @@ O corte nominal de classes híbridas continua em construção. Monk e Paladin t�
 
 **15/11/2026 — Reaproveitar ao máximo o original.** Classes, habilidades, consumíveis e recursos existentes têm prioridade sobre novos sistemas. A recuperação começa pelas poções do jogo; sua suficiência será avaliada no balanceamento solo. Especialistas de suporte/consumíveis são possibilidades complementares, sem necessidade já estabelecida de criar um novo kit de cura.
 
+**15/11/2026 — Jogo com bots aliados, não solo puro.** O caso principal é um jogador acompanhado de bots aliados controlados pelo servidor, como no projeto anterior do proprietário em Ragnarok. Amigos também poderão jogar juntos. Personagens no mapa controlados pelo servidor, com interação limitada, ficam como expansão futura. [Modelo de grupo e efeitos nas classes](companheiros-e-bots.md).
+
+**15/11/2026 — Remoção das deusas.** As deusas sairão da história e do mundo da adaptação. As estátuas de teletransporte e salvamento serão substituídas, com preferência por um sistema de carroças ou outro meio que tenha arte disponível no jogo. A remoção deve repor as funções de jogo das estátuas. [Inventário inicial](remocao-das-deusas.md).
+
 ## Seleção solo já definida
 
 | Classe ou ramo | Decisão atual | O que continua aberto |
@@ -87,4 +91,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** revisar Energy Blast e os cinco efeitos pendentes de Paladin antes de fechar as adaptações de suporte.
+**Próximo passo recomendado:** definir o kit base de Scout. Depois, especificar o grupo de bots e pesquisar a arte de transporte que substituirá as estátuas.

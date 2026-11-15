@@ -12,6 +12,8 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 **Scout será classe base da versão solo**, aproveitando a separação posterior das árvores. O [estudo de suporte e cura sem magia](docs/projeto-solo/scout-e-suporte-sem-magia.md) avalia classes físicas e adaptações por itens, alquimia e medicina de campo.
 
+**Com bots, sem deusas:** o jogo terá bots aliados controlados pelo servidor e amigos opcionais ([modelo de grupo](docs/projeto-solo/companheiros-e-bots.md)). As deusas sairão da adaptação, e as estátuas darão lugar a outro transporte ([inventário](docs/projeto-solo/remocao-das-deusas.md)).
+
 **Seleção solo atual:** Alchemist e Plague Doctor entram em Scout; Linker e Thaumaturge ficam removidos. Templar permanece no ramo de Swordsman, para o qual **Warrior** é o nome provisório sugerido. [Decisões e pendências](docs/projeto-solo/diretrizes.md).
 
 ## Explore as árvores de classes
@@ -35,6 +37,8 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Árvores do projeto solo](docs/classes/catalogo-2016.md)
 - [Acervo original de classes e habilidades](docs/classes/catalogo-2016.md?view=2016)
 - [Diretrizes da versão solo](docs/projeto-solo/diretrizes.md)
+- [Companheiros, bots e grupo](docs/projeto-solo/companheiros-e-bots.md)
+- [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)
 - [Como funcionavam ranks e círculos](docs/sistemas/ranks-e-circulos.md)
 - [Qual lançamento estamos documentando?](docs/recorte-historico.md)

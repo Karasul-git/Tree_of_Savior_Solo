@@ -948,3 +948,18 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F112 · Templar · comparação oficial atual
 
 [Templar · comparação oficial atual](https://treeofsavior.com/page/class/view.php?c=Templar) — IMC Games, sem revisão datada; consulta em 15/11/2026. Referência atual de comandos, bandeiras e ataques; inclui também invocação de defensor ancestral, que não foi selecionada para reaproveitamento. **Limite:** Página sem data de revisão. Não comprova o kit de lançamento ou uma adaptação já implementada. A seleção de habilidades é uma proposta separada; números e círculos não foram importados.
+
+<a id="f113"></a>
+### F113 · Guia oficial · Developing Your Character
+
+[Just getting started? : Developing Your Character](https://treeofsavior.com/page/guide/view.php?n=10) — IMC Games, sem data visível; consulta em 15/11/2026. Pontos de atributo bônus vêm de missões ou das estátuas da deusa Zemyna. **Limite:** não comprova quantidades nem o comportamento exato em março–abril de 2016; não trata de teletransporte ou salvamento.
+
+<a id="f114"></a>
+### F114 · Evento de novos jogadores · Klaipeda Warp Scroll
+
+[First-Time Player Event: Recruiting New Saviors!](https://treeofsavior.com/news/?n=913) — IMC Games, 04/04/2017; consulta em 15/11/2026. Lista o pergaminho que teletransporta diretamente para Klaipeda como recompensa de nível 10. **Limite:** posterior ao recorte; não comprova disponibilidade, preço ou vendedores em 2016.
+
+<a id="f115"></a>
+### F115 · 4Gamer · evento de carimbos nas estátuas
+
+[Artigo da 4Gamer.net](https://www.4gamer.net/games/132/G013290/20161012104/) — 12/10/2016; consulta em 15/11/2026. O evento japonês dispensava a taxa de teletransporte das estátuas, indicando que o uso normal era cobrado. **Limite:** servidor japonês, fora do recorte iToS; leitura indireta, sem valor da taxa.

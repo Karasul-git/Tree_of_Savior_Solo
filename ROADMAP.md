@@ -80,3 +80,15 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Comparar recursos existentes posteriores de Scout, Alchemist e Templar, separados do histórico.
 - [ ] Revisar Energy Blast e os efeitos sagrados de Paladin.
 - [ ] Definir a referência do kit base de Scout e o aproveitamento de comando de Templar no solo.
+
+## Modelo de grupo e remoção das deusas
+
+- [x] Registrar o modelo de jogo: jogador com bots aliados do servidor e amigos opcionais.
+- [x] Registrar a remoção das deusas e o inventário inicial das funções das estátuas.
+- [ ] Definir o kit base de Scout.
+- [ ] Especificar o grupo de bots: tamanho, classes possíveis, ordens e progressão.
+- [ ] Reavaliar habilidades de grupo e separar as de guilda (Templar) das de grupo.
+- [ ] Pesquisar arte original de carroças, cavalos ou NPCs de transporte.
+- [ ] Documentar o ponto de retorno após derrota e as estátuas de Zemyna em 2016.
+- [ ] Inventariar premissa, revelações, NPCs e itens ligados às deusas.
+- [ ] Futuro: personagens de mapa controlados pelo servidor, com interação limitada.
