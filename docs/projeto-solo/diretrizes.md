@@ -109,4 +109,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Fórmulas de dano.** As fórmulas atuais do Melia estão registradas, com seis propostas. O proprietário decidiu que a cura de preparados escala com INT e que CON soma defesa física e mágica (+2 por ponto como valor inicial). [Fórmulas](formulas-de-dano.md).
 
-**Próximo passo recomendado:** calibrar os monstros para grupos de 4.
+**15/11/2026 — Metas dos monstros.** Um monstro comum de campo deve aguentar 3 a 4 habilidades de cada membro do grupo de 4, e cada golpe dele deve tirar 5% a 10% do HP de um personagem que não seja o tanque. Os números finais dependem da curva de equipamentos. [Calibragem](calibragem-monstros.md).
+
+**Próximo passo recomendado:** definir a curva de equipamentos.

@@ -105,7 +105,9 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Definir o novo papel do INT: potência de preparados.
 - [x] Registrar as fórmulas de dano do Melia e propostas para o projeto.
 - [x] Decidir cura de preparados com INT e CON na defesa (aceitas em 15/11/2026).
-- [ ] Calibrar monstros para grupos de 4 e curva de experiência.
+- [x] Metas de calibragem dos monstros para grupos de 4 (decisões do proprietário).
+- [ ] Curva de equipamentos (ataque e defesa por nível).
+- [ ] Multiplicadores dos monstros por faixa de nível e curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - [ ] Confirmar como o cliente atual exibe ranks e círculos.
 

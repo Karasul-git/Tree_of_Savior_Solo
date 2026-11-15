@@ -72,4 +72,6 @@ Descrição dos atributos no guia oficial atual: [F113](../fontes.md#f113).
 
 As decisões estão em [damage-formulas.json](../../data/proposals/damage-formulas.json).
 
-**Próximo passo recomendado:** calibrar os monstros para grupos de 4, a partir das fórmulas de monstros do Melia.
+A calibragem está em [Calibragem dos monstros](calibragem-monstros.md).
+
+**Próximo passo recomendado:** definir a curva de equipamentos, que fecha a calibragem dos monstros.
