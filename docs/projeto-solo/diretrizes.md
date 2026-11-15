@@ -56,10 +56,10 @@ A revisão de 15/11/2026 usa os ranks de 2016 como referência, com três hipót
 
 Antes de alterar a tabela, apresentar as faltas, excessos e candidatas. A distribuição navegável de 12/9/9 permanece como referência provisória anterior a essa reestruturação.
 
-- **Escolhidas para estudo:** Appraiser e Mergen para Archer; Ardito, Sheriff e Clown para Scout. São preferências de seleção, sem ranks, círculos ou kits adaptados aprovados.
+- **Escolhidas para estudo:** Appraiser, Mergen e Arbalester para Archer; Ardito, Sheriff e Clown para Scout. São preferências de seleção, sem ranks, círculos ou kits adaptados aprovados.
 - **Reserva:** Pied Piper, apenas se necessário.
 - **Fora da seleção atual:** Miko e Hwarang.
-- **Sexta adição ainda pendente:** uma classe para Archer. Arbalester, Tiger Hunter e Matross são alternativas pesquisadas, não escolhas aprovadas.
+- **Sexta candidata escolhida pelo proprietário:** Arbalester, completando o trio de Archer. Tiger Hunter e Matross permanecem alternativas não selecionadas.
 
 Warrior tem excesso de uma opção em R4 e falta de uma em R5; transferir Paladin de R4 para R5 é uma possibilidade ainda não aplicada. Archer precisa de mais uma opção em cada R4, R5 e R6. Scout precisa de mais uma opção em cada R2, R3 e R4. [Conferência e alternativas](ranks-e-especializacoes.md).
 
@@ -77,4 +77,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** comparar a sexta candidata de Archer e revisar os kits das cinco preferidas antes de propor os novos pares por rank e seus círculos.
+**Próximo passo recomendado:** revisar as habilidades das seis candidatas escolhidas antes de propor os novos pares por rank e seus círculos.

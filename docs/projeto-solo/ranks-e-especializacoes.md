@@ -46,17 +46,17 @@ Scout era uma especialização de Archer em R4. Transformá-lo em base elimina e
 
 Mover Paladin de R4 para R5 resolveria Warrior sem acrescentar outra classe, mas continua sendo uma proposta não aplicada. Se adotarmos essa mudança, faltam seis inclusões: três em Archer e três em Scout.
 
-**Preferidas para estudo:** Appraiser e Mergen em Archer; Ardito, Sheriff e Clown em Scout. **Pied Piper fica como reserva, apenas se necessário. Miko e Hwarang ficam fora.** Essas preferências não aprovam automaticamente cada habilidade nem definem ranks e círculos.
+**Escolhidas para estudo:** Appraiser, Mergen e Arbalester em Archer; Ardito, Sheriff e Clown em Scout. **Pied Piper fica como reserva, apenas se necessário. Miko e Hwarang ficam fora.** Essas preferências não aprovam automaticamente cada habilidade nem definem ranks e círculos.
 
-Resta escolher uma terceira candidata de Archer. As referências oficiais atuais oferecem estas alternativas:
+**Arbalester foi escolhida pelo proprietário como a terceira candidata de Archer**, completando seis classes para estudo. A comparação abaixo preserva as referências pesquisadas; Tiger Hunter e Matross não foram selecionadas.
 
-| Alternativa ainda não escolhida | Identidade confirmada | Questão para nosso estudo |
+| Candidata e situação | Identidade confirmada | Questão para nosso estudo |
 | --- | --- | --- |
-| Arbalester | Besta, marcação, projéteis guiados e deslocamento. [F103](../fontes.md#f103) | Comparar com Quarrel Shooter e Mergen; avaliar a tecnologia de projéteis guiados e explosões. |
-| Tiger Hunter | Caça, rastreamento, camuflagem e disparos. [F104](../fontes.md#f104) | Comparar com Hunter e Musketeer; conferir equipamento, pois a descrição menciona mosquete e as habilidades exibem Pistol. |
-| Matross | Canhão, mobilidade e sabotagem. [F105](../fontes.md#f105) | Diferenciar de Cannoneer; avaliar a chamada de bombardeio naval no contexto solo. |
+| **Arbalester · escolhida para estudo** | Besta, marcação, projéteis guiados e deslocamento. [F103](../fontes.md#f103) | Comparar com Quarrel Shooter e Mergen; avaliar a tecnologia de projéteis guiados e explosões. |
+| Tiger Hunter · não selecionada | Caça, rastreamento, camuflagem e disparos. [F104](../fontes.md#f104) | Comparar com Hunter e Musketeer; conferir equipamento, pois a descrição menciona mosquete e as habilidades exibem Pistol. |
+| Matross · não selecionada | Canhão, mobilidade e sabotagem. [F105](../fontes.md#f105) | Diferenciar de Cannoneer; avaliar a chamada de bombardeio naval no contexto solo. |
 
-**Recomendação de pesquisa:** começar por Arbalester, como contraste de besta ao arco de Mergen. Isso não torna a classe automaticamente compatível com a proposta sem magia: os efeitos ainda precisam de inspeção. Todas as páginas são referências atuais, sem revisão datada; não comprovam kits de 2016 nem estabelecem círculos antigos para essas classes.
+**Direção escolhida:** estudar Arbalester, como contraste de besta ao arco de Mergen. Isso não torna a classe automaticamente compatível com a proposta sem magia: os efeitos ainda precisam de inspeção. Todas as páginas são referências atuais, sem revisão datada; não comprovam kits de 2016 nem estabelecem círculos antigos para essas classes.
 
 ## Monk em Warrior
 
@@ -97,4 +97,4 @@ Antecipar Rogue para R4 também pode antecipar seu acesso a círculos se adotarm
 
 O catálogo histórico permanece com 55 classes e 382 habilidades. O arquivo [classes-later.json](../../data/catalog/classes-later.json) guarda Assassin e Outlaw separadamente; [classes-solo.json](../../data/catalog/classes-solo.json) guarda os encaixes e ranks propostos. As 165 imagens do acervo anterior foram preservadas, com seis arquivos oficiais adicionais para as duas classes novas.
 
-**Próximo passo recomendado:** comparar a sexta candidata de Archer e revisar os kits das cinco preferidas para escolher as inclusões antes de redistribuir ranks e círculos.
+**Próximo passo recomendado:** revisar as habilidades das seis candidatas escolhidas para avaliar o reaproveitamento sem magia antes de redistribuir ranks e círculos.
