@@ -15,12 +15,53 @@ source_ids = {source['id'] for source in sources}
 if len(source_ids) != len(sources):
     errors.append('Duplicate source ID')
 for source in sources:
-    for field in ['id', 'title', 'author', 'published', 'scope', 'kind', 'url', 'supports', 'limitations']:
+    for field in ['id', 'title', 'author', 'scope', 'kind', 'url', 'supports', 'limitations']:
         if not source.get(field):
             errors.append(f'Missing source field {field}: {source.get("id")}')
-    date.fromisoformat(source['published'])
+    if source.get('published'):
+        date.fromisoformat(source['published'])
+    elif source.get('accessed'):
+        date.fromisoformat(source['accessed'])
+    else:
+        errors.append(f'Undated source without access date: {source["id"]}')
     if urlparse(source['url']).scheme != 'https':
         errors.append(f'Non-HTTPS source: {source["id"]}')
+
+for class_file in (ROOT / 'data/classes').glob('*.json'):
+    record = json.loads(class_file.read_text())
+    names = [skill['name'] for skill in record['skills']]
+    if len(names) != len(set(names)):
+        errors.append(f'Duplicate skill in {class_file.name}')
+    archived_count = 0
+    for skill in record['skills']:
+        for source_id in skill['evidence_ids']:
+            if source_id not in source_ids:
+                errors.append(f'Unknown skill source: {source_id}')
+        levels = skill.get('archived_levels', [])
+        if levels:
+            if [row['level'] for row in levels] != list(range(1, len(levels) + 1)):
+                errors.append(f'Incomplete archived level sequence: {skill["name"]}')
+            if skill.get('archive_evidence_id') not in source_ids:
+                errors.append(f'Missing archive source: {skill["name"]}')
+            for row in levels:
+                if row['cooldown_seconds'] < 0 or row['sp_cost'] < 0:
+                    errors.append(f'Invalid cooldown/SP: {skill["name"]}')
+            archived_count += len(levels)
+    if archived_count != record.get('snapshot_table_row_count', 0):
+        errors.append(f'Archived row count mismatch: {class_file.name}')
+    for attr in record.get('class_page_attribute_catalog', []):
+        if attr['circle_displayed'] not in [1, 2, 3] or attr['max_level_displayed'] < 1:
+            errors.append(f'Invalid archived attribute: {attr["name"]}')
+        for source_id in attr['evidence_ids']:
+            if source_id not in source_ids:
+                errors.append(f'Unknown attribute source: {source_id}')
+
+snapshot_file = ROOT / 'data/research/swordsman-snapshots.json'
+if snapshot_file.exists():
+    for snapshot in json.loads(snapshot_file.read_text()):
+        if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
+            errors.append('Invalid snapshot provenance')
+        date.fromisoformat(snapshot['captured_at'][:10])
 
 pages = list(ROOT.glob('*.md')) + list((ROOT / 'docs').rglob('*.md'))
 for page in pages:

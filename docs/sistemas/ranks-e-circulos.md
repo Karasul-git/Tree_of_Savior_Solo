@@ -2,6 +2,8 @@
 
 [Início](../../README.md) · [Classes](../classes/README.md)
 
+Para comparar com a versão posterior, veja [Do lançamento ao Re:Build](../historia/evolucao-das-classes.md). Esta página descreve apenas o sistema histórico.
+
 **Rank era a etapa do caminho; círculo era o investimento naquela classe.** O personagem começava em uma das quatro classes básicas. Ao atingir Class Level 15, podia avançar, escolhendo uma classe disponível ou outro círculo de uma classe acessível. Repetir uma classe permitia chegar a C2 e C3, preservando o que já havia aprendido. Esse funcionamento é explicado em uma discussão de 26/03/2016. [F01](../fontes.md#f01)
 
 ## Um exemplo de caminho

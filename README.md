@@ -21,13 +21,16 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Classes: índice da primeira edição](docs/classes/README.md)
 - [Como funcionavam ranks e círculos](docs/sistemas/ranks-e-circulos.md)
 - [Qual lançamento estamos documentando?](docs/recorte-historico.md)
+- [O que mudou do lançamento ao Re:Build?](docs/historia/evolucao-das-classes.md)
 - [Fontes e critérios de pesquisa](docs/fontes.md)
 - [Acervo das imagens originais](docs/imagens.md)
 - [Próximas etapas](ROADMAP.md)
 
 ## Primeira edição · Classes iniciais
 
-Esta entrega reúne as quatro classes de Rank 1, **30 habilidades organizadas por círculo** e imagens oficiais preservadas localmente. As fichas são uma reconstrução documental inicial, com pendências visíveis. Ainda não incluem todas as classes avançadas, valores numéricos, atributos e mudanças de cada patch.
+**Pesquisa de 15/11/2026:** [Swordsman recebeu uma revisão documental](docs/classes/swordsman.md), com nove capturas de 2016, [100 linhas por nível e 19 atributos catalogados](docs/classes/swordsman-valores-2016.md), além de uma comparação separada com o kit atual. A [história do sistema de classes](docs/historia/evolucao-das-classes.md) explica a ruptura do Re:Build. Os campos sem confirmação permanecem identificados.
+
+O acervo reúne as quatro classes de Rank 1, **30 habilidades organizadas por círculo** e imagens oficiais preservadas localmente. Swordsman possui tabelas arquivadas por nível; as demais fichas ainda estão na etapa inicial. Classes avançadas, armas, mestres, missões e mudanças de cada patch serão acrescentados conforme a conferência.
 
 O marco principal é a abertura internacional dos servidores de acesso antecipado em **29/03/2016**. Guias de março e abril ajudam a reconstruir a janela de lançamento, mas não comprovam, sozinhos, o estado exato de cada habilidade naquele dia. Informações de beta, kToS e versões posteriores recebem identificação própria.
 

@@ -1,0 +1,1548 @@
+{
+  "class_id": "swordsman",
+  "display_name": "Swordsman",
+  "tree": "Swordsman",
+  "first_rank": 1,
+  "edition": "iToS-launch-window-2016",
+  "target_date": "2016-03-29",
+  "documentary_window": "March-April 2016",
+  "reviewed_at": "2026-11-15",
+  "status": "archived-skill-tables-reviewed; equipment-npc-quest-and-client-patch-pending",
+  "launch_patch_verified": false,
+  "source_snapshot_version": "Eight ToSBase HTML captures, 2016-03-31 through 2016-04-15; not a client build",
+  "unknown_fields": [
+    "exact_client_build",
+    "region_of_original_database",
+    "status_implementation_vs_description",
+    "attribute_costs",
+    "client_attribute_limits_verification",
+    "equipment_matrix",
+    "master_npc",
+    "advancement_quest"
+  ],
+  "skills": [
+    {
+      "name": "Thrust",
+      "unlock_circle": 1,
+      "summary": "Perfuração; sem recarga no relato do período.",
+      "evidence_ids": [
+        "F02",
+        "F18"
+      ],
+      "status": "archived-table-verified; exact-launch-client-unverified",
+      "archived_levels": [
+        {
+          "level": 1,
+          "effects": {
+            "ataque_exibido": 56,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 8
+        },
+        {
+          "level": 2,
+          "effects": {
+            "ataque_exibido": 71,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 9
+        },
+        {
+          "level": 3,
+          "effects": {
+            "ataque_exibido": 86,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 10
+        },
+        {
+          "level": 4,
+          "effects": {
+            "ataque_exibido": 101,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 11
+        },
+        {
+          "level": 5,
+          "effects": {
+            "ataque_exibido": 116,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 12
+        },
+        {
+          "level": 6,
+          "effects": {
+            "ataque_exibido": 131,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 14
+        },
+        {
+          "level": 7,
+          "effects": {
+            "ataque_exibido": 146,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 15
+        },
+        {
+          "level": 8,
+          "effects": {
+            "ataque_exibido": 161,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 16
+        },
+        {
+          "level": 9,
+          "effects": {
+            "ataque_exibido": 176,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 17
+        },
+        {
+          "level": 10,
+          "effects": {
+            "ataque_exibido": 190,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 18
+        },
+        {
+          "level": 11,
+          "effects": {
+            "ataque_exibido": 205,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 20
+        },
+        {
+          "level": 12,
+          "effects": {
+            "ataque_exibido": 220,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 21
+        },
+        {
+          "level": 13,
+          "effects": {
+            "ataque_exibido": 235,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 22
+        },
+        {
+          "level": 14,
+          "effects": {
+            "ataque_exibido": 250,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 23
+        },
+        {
+          "level": 15,
+          "effects": {
+            "ataque_exibido": 265,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 1
+          },
+          "cooldown_seconds": 0,
+          "sp_cost": 24
+        }
+      ],
+      "archive_evidence_id": "F18",
+      "archive_capture": "20160415001434",
+      "client_parameters_verified": false
+    },
+    {
+      "name": "Bash",
+      "unlock_circle": 1,
+      "summary": "Derrubada via atributo.",
+      "evidence_ids": [
+        "F02",
+        "F09",
+        "F19"
+      ],
+      "status": "archived-table-verified; exact-launch-client-unverified",
+      "archived_levels": [
+        {
+          "level": 1,
+          "effects": {
+            "ataque_exibido": 54,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 8
+        },
+        {
+          "level": 2,
+          "effects": {
+            "ataque_exibido": 72,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 9
+        },
+        {
+          "level": 3,
+          "effects": {
+            "ataque_exibido": 89,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 10
+        },
+        {
+          "level": 4,
+          "effects": {
+            "ataque_exibido": 107,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 12
+        },
+        {
+          "level": 5,
+          "effects": {
+            "ataque_exibido": 124,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 13
+        },
+        {
+          "level": 6,
+          "effects": {
+            "ataque_exibido": 141,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 15
+        },
+        {
+          "level": 7,
+          "effects": {
+            "ataque_exibido": 159,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 16
+        },
+        {
+          "level": 8,
+          "effects": {
+            "ataque_exibido": 176,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 17
+        },
+        {
+          "level": 9,
+          "effects": {
+            "ataque_exibido": 194,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 19
+        },
+        {
+          "level": 10,
+          "effects": {
+            "ataque_exibido": 211,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 20
+        },
+        {
+          "level": 11,
+          "effects": {
+            "ataque_exibido": 229,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 22
+        },
+        {
+          "level": 12,
+          "effects": {
+            "ataque_exibido": 246,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 23
+        },
+        {
+          "level": 13,
+          "effects": {
+            "ataque_exibido": 263,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 24
+        },
+        {
+          "level": 14,
+          "effects": {
+            "ataque_exibido": 281,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 26
+        },
+        {
+          "level": 15,
+          "effects": {
+            "ataque_exibido": 298,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 0
+          },
+          "cooldown_seconds": 6,
+          "sp_cost": 27
+        }
+      ],
+      "archive_evidence_id": "F19",
+      "archive_capture": "20160402123240",
+      "client_parameters_verified": false
+    },
+    {
+      "name": "Gung Ho",
+      "unlock_circle": 1,
+      "summary": "Bônus fixo de ataque com redução de defesa.",
+      "evidence_ids": [
+        "F02",
+        "F20"
+      ],
+      "status": "archived-table-verified; exact-launch-client-unverified",
+      "archived_levels": [
+        {
+          "level": 1,
+          "effects": {
+            "bonus_ataque_fisico": 8,
+            "modificador_defesa_fisica": -2,
+            "duracao_segundos": 65
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 7
+        },
+        {
+          "level": 2,
+          "effects": {
+            "bonus_ataque_fisico": 11,
+            "modificador_defesa_fisica": -3,
+            "duracao_segundos": 70
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 8
+        },
+        {
+          "level": 3,
+          "effects": {
+            "bonus_ataque_fisico": 14,
+            "modificador_defesa_fisica": -3,
+            "duracao_segundos": 75
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 9
+        },
+        {
+          "level": 4,
+          "effects": {
+            "bonus_ataque_fisico": 17,
+            "modificador_defesa_fisica": -4,
+            "duracao_segundos": 80
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 11
+        },
+        {
+          "level": 5,
+          "effects": {
+            "bonus_ataque_fisico": 20,
+            "modificador_defesa_fisica": -4,
+            "duracao_segundos": 85
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 12
+        },
+        {
+          "level": 6,
+          "effects": {
+            "bonus_ataque_fisico": 23,
+            "modificador_defesa_fisica": -5,
+            "duracao_segundos": 90
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 14
+        },
+        {
+          "level": 7,
+          "effects": {
+            "bonus_ataque_fisico": 26,
+            "modificador_defesa_fisica": -6,
+            "duracao_segundos": 95
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 15
+        },
+        {
+          "level": 8,
+          "effects": {
+            "bonus_ataque_fisico": 29,
+            "modificador_defesa_fisica": -6,
+            "duracao_segundos": 100
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 16
+        },
+        {
+          "level": 9,
+          "effects": {
+            "bonus_ataque_fisico": 32,
+            "modificador_defesa_fisica": -7,
+            "duracao_segundos": 105
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 18
+        },
+        {
+          "level": 10,
+          "effects": {
+            "bonus_ataque_fisico": 35,
+            "modificador_defesa_fisica": -7,
+            "duracao_segundos": 110
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 19
+        },
+        {
+          "level": 11,
+          "effects": {
+            "bonus_ataque_fisico": 38,
+            "modificador_defesa_fisica": -8,
+            "duracao_segundos": 115
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 21
+        },
+        {
+          "level": 12,
+          "effects": {
+            "bonus_ataque_fisico": 41,
+            "modificador_defesa_fisica": -9,
+            "duracao_segundos": 120
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 22
+        },
+        {
+          "level": 13,
+          "effects": {
+            "bonus_ataque_fisico": 44,
+            "modificador_defesa_fisica": -9,
+            "duracao_segundos": 125
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 23
+        },
+        {
+          "level": 14,
+          "effects": {
+            "bonus_ataque_fisico": 47,
+            "modificador_defesa_fisica": -10,
+            "duracao_segundos": 130
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 25
+        },
+        {
+          "level": 15,
+          "effects": {
+            "bonus_ataque_fisico": 50,
+            "modificador_defesa_fisica": -10,
+            "duracao_segundos": 135
+          },
+          "cooldown_seconds": 40,
+          "sp_cost": 26
+        }
+      ],
+      "archive_evidence_id": "F20",
+      "archive_capture": "20160401165446",
+      "client_parameters_verified": false
+    },
+    {
+      "name": "Concentrate",
+      "unlock_circle": 1,
+      "summary": "Bônus limitado por acertos.",
+      "evidence_ids": [
+        "F02",
+        "F21"
+      ],
+      "status": "archived-table-verified; exact-launch-client-unverified",
+      "archived_levels": [
+        {
+          "level": 1,
+          "effects": {
+            "dano_adicional": 5,
+            "limite_acertos": 5,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 11
+        },
+        {
+          "level": 2,
+          "effects": {
+            "dano_adicional": 7,
+            "limite_acertos": 7,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 12
+        },
+        {
+          "level": 3,
+          "effects": {
+            "dano_adicional": 8,
+            "limite_acertos": 8,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 13
+        },
+        {
+          "level": 4,
+          "effects": {
+            "dano_adicional": 10,
+            "limite_acertos": 10,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 15
+        },
+        {
+          "level": 5,
+          "effects": {
+            "dano_adicional": 11,
+            "limite_acertos": 11,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 16
+        },
+        {
+          "level": 6,
+          "effects": {
+            "dano_adicional": 13,
+            "limite_acertos": 13,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 18
+        },
+        {
+          "level": 7,
+          "effects": {
+            "dano_adicional": 14,
+            "limite_acertos": 14,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 19
+        },
+        {
+          "level": 8,
+          "effects": {
+            "dano_adicional": 16,
+            "limite_acertos": 16,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 20
+        },
+        {
+          "level": 9,
+          "effects": {
+            "dano_adicional": 17,
+            "limite_acertos": 17,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 22
+        },
+        {
+          "level": 10,
+          "effects": {
+            "dano_adicional": 19,
+            "limite_acertos": 19,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 23
+        },
+        {
+          "level": 11,
+          "effects": {
+            "dano_adicional": 20,
+            "limite_acertos": 20,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 25
+        },
+        {
+          "level": 12,
+          "effects": {
+            "dano_adicional": 22,
+            "limite_acertos": 22,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 26
+        },
+        {
+          "level": 13,
+          "effects": {
+            "dano_adicional": 23,
+            "limite_acertos": 23,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 27
+        },
+        {
+          "level": 14,
+          "effects": {
+            "dano_adicional": 25,
+            "limite_acertos": 25,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 29
+        },
+        {
+          "level": 15,
+          "effects": {
+            "dano_adicional": 26,
+            "limite_acertos": 26,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 20,
+          "sp_cost": 30
+        }
+      ],
+      "archive_evidence_id": "F21",
+      "archive_capture": "20160331234627",
+      "client_parameters_verified": false
+    },
+    {
+      "name": "Pain Barrier",
+      "unlock_circle": 1,
+      "summary": "Proteção contra deslocamentos e stagger.",
+      "evidence_ids": [
+        "F02",
+        "F09",
+        "F22"
+      ],
+      "status": "archived-table-verified; exact-launch-client-unverified",
+      "archived_levels": [
+        {
+          "level": 1,
+          "effects": {
+            "duracao_segundos": 15
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 27
+        },
+        {
+          "level": 2,
+          "effects": {
+            "duracao_segundos": 16
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 30
+        },
+        {
+          "level": 3,
+          "effects": {
+            "duracao_segundos": 17
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 33
+        },
+        {
+          "level": 4,
+          "effects": {
+            "duracao_segundos": 18
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 37
+        },
+        {
+          "level": 5,
+          "effects": {
+            "duracao_segundos": 19
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 40
+        },
+        {
+          "level": 6,
+          "effects": {
+            "duracao_segundos": 20
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 44
+        },
+        {
+          "level": 7,
+          "effects": {
+            "duracao_segundos": 21
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 47
+        },
+        {
+          "level": 8,
+          "effects": {
+            "duracao_segundos": 22
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 50
+        },
+        {
+          "level": 9,
+          "effects": {
+            "duracao_segundos": 23
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 54
+        },
+        {
+          "level": 10,
+          "effects": {
+            "duracao_segundos": 24
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 57
+        },
+        {
+          "level": 11,
+          "effects": {
+            "duracao_segundos": 25
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 61
+        },
+        {
+          "level": 12,
+          "effects": {
+            "duracao_segundos": 26
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 64
+        },
+        {
+          "level": 13,
+          "effects": {
+            "duracao_segundos": 27
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 67
+        },
+        {
+          "level": 14,
+          "effects": {
+            "duracao_segundos": 28
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 71
+        },
+        {
+          "level": 15,
+          "effects": {
+            "duracao_segundos": 29
+          },
+          "cooldown_seconds": 39,
+          "sp_cost": 74
+        }
+      ],
+      "archive_evidence_id": "F22",
+      "archive_capture": "20160401170212",
+      "client_parameters_verified": false
+    },
+    {
+      "name": "Restrain",
+      "unlock_circle": 2,
+      "summary": "Controle por atordoamento, chance exata pendente.",
+      "evidence_ids": [
+        "F03",
+        "F23"
+      ],
+      "status": "archived-table-verified; exact-launch-client-unverified",
+      "archived_levels": [
+        {
+          "level": 1,
+          "effects": {
+            "chance_atordoamento_percentual": 4,
+            "modificador_hp_maximo": -164,
+            "duracao_segundos": 33
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 14
+        },
+        {
+          "level": 2,
+          "effects": {
+            "chance_atordoamento_percentual": 8,
+            "modificador_hp_maximo": -205,
+            "duracao_segundos": 36
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 15
+        },
+        {
+          "level": 3,
+          "effects": {
+            "chance_atordoamento_percentual": 12,
+            "modificador_hp_maximo": -246,
+            "duracao_segundos": 39
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 17
+        },
+        {
+          "level": 4,
+          "effects": {
+            "chance_atordoamento_percentual": 16,
+            "modificador_hp_maximo": -287,
+            "duracao_segundos": 42
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 19
+        },
+        {
+          "level": 5,
+          "effects": {
+            "chance_atordoamento_percentual": 20,
+            "modificador_hp_maximo": -328,
+            "duracao_segundos": 45
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 20
+        },
+        {
+          "level": 6,
+          "effects": {
+            "chance_atordoamento_percentual": 24,
+            "modificador_hp_maximo": -369,
+            "duracao_segundos": 48
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 22
+        },
+        {
+          "level": 7,
+          "effects": {
+            "chance_atordoamento_percentual": 28,
+            "modificador_hp_maximo": -411,
+            "duracao_segundos": 51
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 24
+        },
+        {
+          "level": 8,
+          "effects": {
+            "chance_atordoamento_percentual": 32,
+            "modificador_hp_maximo": -452,
+            "duracao_segundos": 54
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 25
+        },
+        {
+          "level": 9,
+          "effects": {
+            "chance_atordoamento_percentual": 36,
+            "modificador_hp_maximo": -493,
+            "duracao_segundos": 57
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 27
+        },
+        {
+          "level": 10,
+          "effects": {
+            "chance_atordoamento_percentual": 40,
+            "modificador_hp_maximo": -534,
+            "duracao_segundos": 60
+          },
+          "cooldown_seconds": 120,
+          "sp_cost": 29
+        }
+      ],
+      "archive_evidence_id": "F23",
+      "archive_capture": "20160405002148",
+      "client_parameters_verified": false
+    },
+    {
+      "name": "Pommel Beat",
+      "unlock_circle": 2,
+      "summary": "Golpe do tipo Strike.",
+      "evidence_ids": [
+        "F03",
+        "F24"
+      ],
+      "status": "archived-table-verified; exact-launch-client-unverified",
+      "archived_levels": [
+        {
+          "level": 1,
+          "effects": {
+            "ataque_exibido": 118,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 25,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 13
+        },
+        {
+          "level": 2,
+          "effects": {
+            "ataque_exibido": 146,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 30,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 14
+        },
+        {
+          "level": 3,
+          "effects": {
+            "ataque_exibido": 175,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 35,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 16
+        },
+        {
+          "level": 4,
+          "effects": {
+            "ataque_exibido": 203,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 40,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 18
+        },
+        {
+          "level": 5,
+          "effects": {
+            "ataque_exibido": 232,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 45,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 20
+        },
+        {
+          "level": 6,
+          "effects": {
+            "ataque_exibido": 260,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 50,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 22
+        },
+        {
+          "level": 7,
+          "effects": {
+            "ataque_exibido": 289,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 55,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 23
+        },
+        {
+          "level": 8,
+          "effects": {
+            "ataque_exibido": 317,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 60,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 25
+        },
+        {
+          "level": 9,
+          "effects": {
+            "ataque_exibido": 346,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 65,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 27
+        },
+        {
+          "level": 10,
+          "effects": {
+            "ataque_exibido": 374,
+            "dano_atributo_percentual": 0,
+            "defesa_ignorada": 70,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 14,
+          "sp_cost": 29
+        }
+      ],
+      "archive_evidence_id": "F24",
+      "archive_capture": "20160414164708",
+      "client_parameters_verified": false
+    },
+    {
+      "name": "Double Slash",
+      "unlock_circle": 3,
+      "summary": "Interação com sangramento e atributo de crítico.",
+      "evidence_ids": [
+        "F03",
+        "F25"
+      ],
+      "status": "archived-table-verified; exact-launch-client-unverified",
+      "archived_levels": [
+        {
+          "level": 1,
+          "effects": {
+            "ataque_exibido": 253,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 21,
+          "sp_cost": 15
+        },
+        {
+          "level": 2,
+          "effects": {
+            "ataque_exibido": 322,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 21,
+          "sp_cost": 17
+        },
+        {
+          "level": 3,
+          "effects": {
+            "ataque_exibido": 391,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 21,
+          "sp_cost": 19
+        },
+        {
+          "level": 4,
+          "effects": {
+            "ataque_exibido": 460,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 21,
+          "sp_cost": 21
+        },
+        {
+          "level": 5,
+          "effects": {
+            "ataque_exibido": 530,
+            "dano_atributo_percentual": 0,
+            "razao_ataque_aoe": 2
+          },
+          "cooldown_seconds": 21,
+          "sp_cost": 23
+        }
+      ],
+      "archive_evidence_id": "F25",
+      "archive_capture": "20160413041759",
+      "client_parameters_verified": false
+    }
+  ],
+  "attributes": [
+    {
+      "name": "Weapon Swap",
+      "effect": "Troca de conjunto de armas.",
+      "evidence_ids": [
+        "F02"
+      ],
+      "requirements": null
+    },
+    {
+      "name": "Bash: Knockdown",
+      "effect": "Derrubada.",
+      "evidence_ids": [
+        "F02",
+        "F09"
+      ],
+      "requirements": {
+        "skill": "Bash",
+        "level": 3
+      }
+    },
+    {
+      "name": "Gung Ho: Enhance",
+      "effect": "Melhoria do buff.",
+      "evidence_ids": [
+        "F02"
+      ],
+      "requirements": null
+    },
+    {
+      "name": "Concentrate: Enhance",
+      "effect": "Melhoria do bônus.",
+      "evidence_ids": [
+        "F02"
+      ],
+      "requirements": null
+    }
+  ],
+  "numeric_evidence": [
+    {
+      "subject": "Thrust",
+      "field": "cooldown_seconds",
+      "value": 0,
+      "evidence_ids": [
+        "F02"
+      ],
+      "context": "Relato de abril; não é extração do cliente de 29/03."
+    },
+    {
+      "subject": "Bash: Knockdown",
+      "field": "required_bash_level",
+      "value": 3,
+      "evidence_ids": [
+        "F02",
+        "F09"
+      ],
+      "context": "Requisito descrito por guias contemporâneos."
+    },
+    {
+      "subject": "Bash",
+      "field": "overheat_uses",
+      "value": 3,
+      "evidence_ids": [
+        "F03"
+      ],
+      "context": "Registro do manual de Cathexis; patch exato pendente."
+    }
+  ],
+  "current_comparison": {
+    "accessed": "2026-11-15",
+    "evidence_ids": [
+      "F10"
+    ],
+    "listed_skills": [
+      "Bash",
+      "Bear",
+      "Gung Ho",
+      "Liberate",
+      "Pain Barrier",
+      "Thrust"
+    ],
+    "note": "Ausência nesta página não implica remoção de todo o jogo; não importar efeitos ou números atuais para a edição histórica."
+  },
+  "snapshot_table_row_count": 100,
+  "archived_attributes": [
+    {
+      "name": "Thrust: Continuous Attack",
+      "summary": "Ataques consecutivos; chance de 1% por nível de atributo.",
+      "requirement": "C1",
+      "evidence_ids": [
+        "F18"
+      ]
+    },
+    {
+      "name": "Thrust: Enhance",
+      "summary": "Dano aumentado em 1% por nível de atributo.",
+      "requirement": "C1",
+      "evidence_ids": [
+        "F18"
+      ]
+    },
+    {
+      "name": "Thrust: Bleeding",
+      "summary": "Sangramento por 5 s em alvos atordoados; escala indicada com STR.",
+      "requirement": "C2",
+      "evidence_ids": [
+        "F18"
+      ]
+    },
+    {
+      "name": "Bash: Knockdown",
+      "summary": "Acrescenta derrubada.",
+      "requirement": "Bash nível 3",
+      "evidence_ids": [
+        "F19"
+      ]
+    },
+    {
+      "name": "Bash: Splash",
+      "summary": "AoE Attack Ratio aumentado em 1 por nível de atributo.",
+      "requirement": "C2",
+      "evidence_ids": [
+        "F19"
+      ]
+    },
+    {
+      "name": "Bash: Enhance",
+      "summary": "Dano aumentado em 1% por nível de atributo.",
+      "requirement": "C1",
+      "evidence_ids": [
+        "F19"
+      ]
+    },
+    {
+      "name": "Bash: Specialty",
+      "summary": "Dano de Bash aumentado em 28 por nível de atributo.",
+      "requirement": "C3",
+      "evidence_ids": [
+        "F19"
+      ]
+    },
+    {
+      "name": "Gung Ho: Enhance",
+      "summary": "Aumenta em 1 por nível tanto o bônus ofensivo quanto a redução defensiva.",
+      "requirement": "Gung Ho nível 3",
+      "evidence_ids": [
+        "F20"
+      ]
+    },
+    {
+      "name": "Concentrate: Enhance",
+      "summary": "Dano adicional aumentado em 2 por nível de atributo.",
+      "requirement": "Concentrate nível 3",
+      "evidence_ids": [
+        "F21"
+      ]
+    },
+    {
+      "name": "Restrain: Slow",
+      "summary": "Lentidão após o atordoamento; duração adicional de 3 s por nível.",
+      "requirement": "C2",
+      "evidence_ids": [
+        "F23"
+      ]
+    },
+    {
+      "name": "Pommel Beat: Enhance",
+      "summary": "Dano aumentado em 1% por nível de atributo.",
+      "requirement": "C2",
+      "evidence_ids": [
+        "F24"
+      ]
+    },
+    {
+      "name": "Double Slash: Critical",
+      "summary": "Chance de crítico da habilidade aumentada em 7% por nível de atributo.",
+      "requirement": "C3",
+      "evidence_ids": [
+        "F25"
+      ]
+    },
+    {
+      "name": "Double Slash: Enhance",
+      "summary": "Dano aumentado em 1% por nível de atributo.",
+      "requirement": "C3",
+      "evidence_ids": [
+        "F25"
+      ]
+    }
+  ],
+  "class_page_attribute_catalog": [
+    {
+      "name": "Cloth Mastery: Magic",
+      "max_level_displayed": 50,
+      "circle_displayed": 1,
+      "applies_to": "All",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "class",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Increased Maximum Buff Count",
+      "max_level_displayed": 1,
+      "circle_displayed": 1,
+      "applies_to": "All",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "class",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Leather Mastery: Dexterity",
+      "max_level_displayed": 50,
+      "circle_displayed": 1,
+      "applies_to": "All",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "class",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Plate Mastery: Defense",
+      "max_level_displayed": 50,
+      "circle_displayed": 1,
+      "applies_to": "All",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "class",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Provoke",
+      "max_level_displayed": 10,
+      "circle_displayed": 1,
+      "applies_to": "All",
+      "type_displayed": "Active",
+      "use_modifier_displayed": "",
+      "category": "class",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Weapon Swap",
+      "max_level_displayed": 1,
+      "circle_displayed": 2,
+      "applies_to": "All",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "class",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Bash: Enhance",
+      "max_level_displayed": 100,
+      "circle_displayed": 1,
+      "applies_to": "Bash",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Bash: Knockdown",
+      "max_level_displayed": 1,
+      "circle_displayed": 1,
+      "applies_to": "Bash",
+      "type_displayed": "Active",
+      "use_modifier_displayed": "CD +2s | SP +2 |",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Bash: Specialty",
+      "max_level_displayed": 3,
+      "circle_displayed": 3,
+      "applies_to": "Bash",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Bash: Splash",
+      "max_level_displayed": 3,
+      "circle_displayed": 2,
+      "applies_to": "Bash",
+      "type_displayed": "Active",
+      "use_modifier_displayed": "SP +5 |",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Concentrate: Enhance",
+      "max_level_displayed": 50,
+      "circle_displayed": 1,
+      "applies_to": "Concentrate",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Double Slash: Critical",
+      "max_level_displayed": 5,
+      "circle_displayed": 3,
+      "applies_to": "Double Slash",
+      "type_displayed": "Active",
+      "use_modifier_displayed": "SP +8 |",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Double Slash: Enhance",
+      "max_level_displayed": 100,
+      "circle_displayed": 3,
+      "applies_to": "Double Slash",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Gung Ho: Enhance",
+      "max_level_displayed": 50,
+      "circle_displayed": 1,
+      "applies_to": "Gung Ho",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Pommel Beat: Enhance",
+      "max_level_displayed": 100,
+      "circle_displayed": 2,
+      "applies_to": "Pommel Beat",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Restrain: Slow",
+      "max_level_displayed": 4,
+      "circle_displayed": 2,
+      "applies_to": "Restrain",
+      "type_displayed": "Active",
+      "use_modifier_displayed": "SP +8 |",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Thrust: Bleeding",
+      "max_level_displayed": 1,
+      "circle_displayed": 2,
+      "applies_to": "Thrust",
+      "type_displayed": "Active",
+      "use_modifier_displayed": "SP +5 |",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Thrust: Continuous Attack",
+      "max_level_displayed": 5,
+      "circle_displayed": 1,
+      "applies_to": "Thrust",
+      "type_displayed": "Active",
+      "use_modifier_displayed": "SP +3 |",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "name": "Thrust: Enhance",
+      "max_level_displayed": 100,
+      "circle_displayed": 1,
+      "applies_to": "Thrust",
+      "type_displayed": "Passive",
+      "use_modifier_displayed": "",
+      "category": "skill",
+      "evidence_ids": [
+        "F26"
+      ]
+    }
+  ],
+  "snapshot_attribute_count": 19
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "tosbase_skill_id": 10001,
+    "skill": "Thrust",
+    "source_id": "F18",
+    "captured_at": "2016-04-15T00:14:34Z",
+    "archive_url": "https://web.archive.org/web/20160415001434id_/http://www.tosbase.com/database/skills/10001/",
+    "original_url": "http://www.tosbase.com/database/skills/10001/",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "ad87010afd4b5b08b542adfd9cbd77a55e5b999fca07ff279378394c7d044e21",
+    "level_count": 15,
+    "client_build_verified": false
+  },
+  {
+    "tosbase_skill_id": 10002,
+    "skill": "Bash",
+    "source_id": "F19",
+    "captured_at": "2016-04-02T12:32:40Z",
+    "archive_url": "https://web.archive.org/web/20160402123240id_/http://www.tosbase.com:80/database/skills/10002/",
+    "original_url": "http://www.tosbase.com:80/database/skills/10002/",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "b80336dca941e6e930c85c8bcc12ec9a359e5ca8e0d9622a0e7ffb04d89d265c",
+    "level_count": 15,
+    "client_build_verified": false
+  },
+  {
+    "tosbase_skill_id": 10003,
+    "skill": "Gung Ho",
+    "source_id": "F20",
+    "captured_at": "2016-04-01T16:54:46Z",
+    "archive_url": "https://web.archive.org/web/20160401165446id_/http://www.tosbase.com:80/database/skills/10003/",
+    "original_url": "http://www.tosbase.com:80/database/skills/10003/",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "a3fb9f95a5b50e6141d4bdb63ab0eaab53547f3e4af628f728abde349e4c71af",
+    "level_count": 15,
+    "client_build_verified": false
+  },
+  {
+    "tosbase_skill_id": 10004,
+    "skill": "Concentrate",
+    "source_id": "F21",
+    "captured_at": "2016-03-31T23:46:27Z",
+    "archive_url": "https://web.archive.org/web/20160331234627id_/http://www.tosbase.com:80/database/skills/10004/",
+    "original_url": "http://www.tosbase.com:80/database/skills/10004/",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "4c1d48268c038edd8f51558a0ff1be102bc7f28118a413265d81b5c7eb64df98",
+    "level_count": 15,
+    "client_build_verified": false
+  },
+  {
+    "tosbase_skill_id": 10005,
+    "skill": "Pain Barrier",
+    "source_id": "F22",
+    "captured_at": "2016-04-01T17:02:12Z",
+    "archive_url": "https://web.archive.org/web/20160401170212id_/http://www.tosbase.com:80/database/skills/10005/",
+    "original_url": "http://www.tosbase.com:80/database/skills/10005/",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "0397c4b6f4536ecf84b2a20166af16ce45044d7ff07cea7c68e07550d85b0861",
+    "level_count": 15,
+    "client_build_verified": false
+  },
+  {
+    "tosbase_skill_id": 10006,
+    "skill": "Restrain",
+    "source_id": "F23",
+    "captured_at": "2016-04-05T00:21:48Z",
+    "archive_url": "https://web.archive.org/web/20160405002148id_/http://www.tosbase.com:80/database/skills/10006",
+    "original_url": "http://www.tosbase.com:80/database/skills/10006",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "f5f12ba0460eb8a6d0b6ab4411c2f8e61e88588a7fd410b83a62ef473076e7d6",
+    "level_count": 10,
+    "client_build_verified": false
+  },
+  {
+    "tosbase_skill_id": 10007,
+    "skill": "Pommel Beat",
+    "source_id": "F24",
+    "captured_at": "2016-04-14T16:47:08Z",
+    "archive_url": "https://web.archive.org/web/20160414164708id_/http://www.tosbase.com/database/skills/10007/",
+    "original_url": "http://www.tosbase.com/database/skills/10007/",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "fafc01da02259c783050cab75b531c73979e20b41517f1af0c951e7d3ff2f4fd",
+    "level_count": 10,
+    "client_build_verified": false
+  },
+  {
+    "tosbase_skill_id": 10008,
+    "skill": "Double Slash",
+    "source_id": "F25",
+    "captured_at": "2016-04-13T04:17:59Z",
+    "archive_url": "https://web.archive.org/web/20160413041759id_/http://www.tosbase.com:80/database/skills/10008",
+    "original_url": "http://www.tosbase.com:80/database/skills/10008",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "d3376c4971065448c8087e8be7e9664219ee133d0e69b8a10eebdecdf4621683",
+    "level_count": 5,
+    "client_build_verified": false
+  },
+  {
+    "skill": null,
+    "kind": "class-page",
+    "source_id": "F26",
+    "captured_at": "2016-04-14T10:12:11Z",
+    "archive_url": "https://web.archive.org/web/20160414101211id_/http://www.tosbase.com:80/game/classes/Swordsman",
+    "original_url": "http://www.tosbase.com:80/game/classes/Swordsman",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "388255522b29aa698fdd0492e9e127c34252784d2ebfd16b01c98635a056957c",
+    "attribute_count": 19,
+    "client_build_verified": false
+  }
+]

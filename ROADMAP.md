@@ -8,6 +8,10 @@
 - [x] Quatro fichas iniciais, com habilidades agrupadas por círculo.
 - [x] Imagens oficiais locais e manifesto de procedência.
 - [x] Verificação de links locais, integridade das imagens e referências.
+- [x] Primeira revisão documental de Swordsman: habilidades, atributos iniciais e comparação com o presente.
+- [x] Oito capturas de 2016 para Swordsman: 100 linhas por nível e 13 atributos descritos, com datas próprias.
+- [x] Ficha de classe de 14/04/2016: seis atributos gerais e limites exibidos dos 13 atributos de habilidades.
+- [x] Cronologia da reforma do combate e do sistema de classes, separada das fichas de lançamento.
 - [ ] Confirmar detalhes pendentes das quatro classes com snapshots do período.
 - [ ] Identificar imagens comprovadamente usadas no cliente ou site em 2016.
 - [ ] Completar atributos, equipamentos permitidos, números, mestres e missões de avanço.

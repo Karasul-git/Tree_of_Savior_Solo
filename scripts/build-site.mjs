@@ -6,6 +6,7 @@ import { Marked } from 'marked';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const repoURL = 'https://github.com/Karasul-git/Tree_of_Savior_Solo';
+const sourceCount = JSON.parse(await readFile(path.join(root, 'data/sources.json'), 'utf8')).length;
 const classes = [
   { slug: 'swordsman', name: 'Swordsman', pt: 'Espadachim', note: 'O primeiro passo na linha de frente.', role: 'COMBATE PRÓXIMO', count: 8, color: 'red' },
   { slug: 'wizard', name: 'Wizard', pt: 'Mago', note: 'Magia, controle e novas possibilidades.', role: 'MAGIA E CONTROLE', count: 8, color: 'blue' },
@@ -16,8 +17,10 @@ const documents = [
   ['README.md', 'Início'],
   ['docs/classes/README.md', 'Classes iniciais'],
   ...classes.map(c => [`docs/classes/${c.slug}.md`, `${c.name} · ${c.pt}`]),
+  ['docs/classes/swordsman-valores-2016.md', 'Swordsman · Tabelas de 2016'],
   ['docs/sistemas/ranks-e-circulos.md', 'Ranks e círculos'],
   ['docs/recorte-historico.md', 'O lançamento de 2016'],
+  ['docs/historia/evolucao-das-classes.md', 'Do lançamento ao Re:Build'],
   ['docs/fontes.md', 'Fontes da pesquisa'],
   ['docs/imagens.md', 'Imagens originais'],
   ['ROADMAP.md', 'Próximas etapas'],
@@ -37,7 +40,7 @@ function shell(title, current, content, toc = [], classInfo) {
   const nav = [
     group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/index.html', '<span>✦</span> Classes iniciais')]),
     group('ESCOLHA UM CAMINHO', classes.map(c => link(`docs/classes/${c.slug}.html`, `<img src="${base}docs/assets/classes/${c.slug}/icon.png" alt="" width="27" height="27"> ${c.name}`))),
-    group('ENTENDA A ÉPOCA', [link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/recorte-historico.html', 'O lançamento de 2016')]),
+    group('ENTENDA A ÉPOCA', [link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build')]),
     group('PRESERVAR A MEMÓRIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('ROADMAP.html', 'Próximas etapas'), link('CONTRIBUTING.html', 'Como contribuir')]),
   ].join('');
   return `<!doctype html>
@@ -48,13 +51,13 @@ function shell(title, current, content, toc = [], classInfo) {
 <script src="${base}search-index.js" defer></script><script src="${base}assets/app.js" defer></script></head>
 <body><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 <aside id="sidebar" class="sidebar"><a class="brand" href="${base}index.html"><img src="${base}docs/assets/classes/cleric/icon.png" width="45" height="45" alt=""><span>TREE OF SAVIOR<small>MEMÓRIAS DO LANÇAMENTO</small></span></a>
-<div class="edition"><span class="status-dot"></span> iToS · Edição 2016 <span>v0.2</span></div>
+<div class="edition"><span class="status-dot"></span> iToS · Edição 2016 <span>v0.3</span></div>
 <nav aria-label="Navegação principal">${nav}</nav><div class="sidebar-bottom"><span>Um mundo que vale guardar.</span><a href="${repoURL}" target="_blank" rel="noopener noreferrer">Projeto no GitHub ↗</a></div></aside>
 <button id="menu-shade" tabindex="-1" aria-label="Fechar menu"></button>
 <div class="page-shell"><header class="topbar"><div class="topbar-left"><button id="menu-toggle" class="icon-button" aria-label="Abrir menu" aria-controls="sidebar" aria-expanded="false">☰</button><span class="breadcrumb">O acervo <span>/</span> <strong>${escape(title)}</strong></span></div>
 <button class="search-button" data-search-open><span aria-hidden="true">⌕</span> Buscar no acervo <kbd>/</kbd></button></header>
 <main id="conteudo" tabindex="-1" class="${current === 'index.html' ? 'home' : 'document-layout'}">
-${current !== 'index.html' ? `<div class="document-top"><span class="eyebrow">${classInfo ? 'CLASSES DO LANÇAMENTO · RANK 1' : 'BIBLIOTECA · EDIÇÃO HISTÓRICA'}</span><span class="document-badge">${classInfo ? 'Ficha inicial' : 'Acervo em construção'}</span></div>` : ''}
+${current !== 'index.html' ? `<div class="document-top"><span class="eyebrow">${classInfo ? 'CLASSES DO LANÇAMENTO · RANK 1' : 'BIBLIOTECA · EDIÇÃO HISTÓRICA'}</span><span class="document-badge">${classInfo?.slug === 'swordsman' ? 'Revisão documental' : classInfo ? 'Ficha inicial' : 'Acervo em construção'}</span></div>` : ''}
 ${current !== 'index.html' ? `<div class="article-grid"><article class="prose">${content}</article><aside class="toc" aria-label="Nesta página"><p>NESTA PÁGINA</p>${toc.map(item => `<a href="#${item.id}">${escape(item.title)}</a>`).join('')}<div class="toc-note">História com fontes.<br>Incertezas à vista.</div></aside></div>` : content}
 </main><footer class="footer"><span>Tree of Savior · Memórias do lançamento</span><span>Projeto de fãs · Imagens © IMC Games</span><a href="${base}docs/versao-navegavel.html">Sobre esta versão</a><button id="back-top">Voltar ao topo ↑</button></footer></div>
 <dialog id="search-dialog" aria-labelledby="search-title"><div class="search-dialog-heading"><h2 id="search-title">Explore o acervo</h2><button class="icon-button" data-search-close aria-label="Fechar busca">×</button></div><label class="sr-only" for="search-input">Buscar uma classe, habilidade ou assunto</label><input id="search-input" type="search" placeholder="Classe, habilidade, círculo…" autocomplete="off"><p id="search-status" role="status" aria-live="polite">Procure uma classe, habilidade ou assunto da wiki.</p><ul id="search-results"></ul><p class="search-hint">Busca nos documentos desta edição · <kbd>Esc</kbd> para fechar</p></dialog>
@@ -64,7 +67,7 @@ ${current !== 'index.html' ? `<div class="article-grid"><article class="prose">$
 function home() {
   return `<section class="hero"><div class="hero-copy"><div class="eyebrow"><span class="tiny-leaf">❧</span> ARQUIVO HISTÓRICO · 2016</div><h1>Um mundo inteiro.<br><em>Um novo começo.</em></h1><p>Reencontre o Tree of Savior do lançamento.<br>Os primeiros caminhos, as antigas escolhas e a vontade<br class="wide-break"> de descobrir o que havia no próximo mapa.</p><div class="hero-actions"><a class="button primary" href="docs/classes/index.html">Explorar as classes <span>↗</span></a><a class="text-link" href="docs/recorte-historico.html">Conheça esta edição <span>→</span></a></div><div class="hero-caption"><span class="status-dot"></span> Uma memória de cada vez. Uma fonte para cada descoberta.</div></div>
 <div class="hero-art" aria-label="Personagens oficiais de Cleric e Swordsman"><div class="art-ring"></div><span class="art-star star-one">✦</span><span class="art-star star-two">✧</span><div class="art-land"></div><img class="hero-cleric" src="docs/assets/classes/cleric/female.gif" alt="Cleric, personagem oficial"><img class="hero-swordsman" src="docs/assets/classes/swordsman/female.gif" alt="Swordsman, personagem oficial"><div class="art-label"><span>AS PRIMEIRAS ESCOLHAS</span><strong>É aqui que tudo começa.</strong></div></div></section>
-<section class="archive-strip" aria-label="Cobertura da edição"><div><strong>04</strong><span>classes iniciais</span></div><div><strong>30</strong><span>habilidades catalogadas</span></div><div><strong>09</strong><span>fontes documentadas</span></div><a href="docs/recorte-historico.html"><span>MARCO DA EDIÇÃO</span><strong>29 de março, 2016 <span>↗</span></strong></a></section>
+<section class="archive-strip" aria-label="Cobertura da edição"><div><strong>04</strong><span>classes iniciais</span></div><div><strong>30</strong><span>habilidades catalogadas</span></div><div><strong>${String(sourceCount).padStart(2,'0')}</strong><span>fontes documentadas</span></div><a href="docs/recorte-historico.html"><span>MARCO DA EDIÇÃO</span><strong>29 de março, 2016 <span>↗</span></strong></a></section>
 <section class="classes-section"><div class="section-heading"><div><span class="eyebrow">A PRIMEIRA ESCOLHA</span><h2>Qual será o seu caminho?</h2></div><span class="section-note">Quatro árvores. Muitas histórias.</span></div><div class="class-grid">${classes.map((c, i) => `<a class="class-card ${c.color}" href="docs/classes/${c.slug}.html"><div class="class-card-top"><span>0${i + 1} / RANK 1</span><img src="docs/assets/classes/${c.slug}/icon.png" alt="Emblema de ${c.name}" width="54" height="54"></div><div class="card-character"><span class="character-halo"></span><img src="docs/assets/classes/${c.slug}/${c.slug === 'wizard' ? 'male' : 'female'}.gif" alt="Visual oficial de ${c.name}" loading="lazy"></div><span class="class-role">${c.role}</span><h3>${c.name}</h3><p>${c.note}</p><div class="class-card-bottom"><span>C1 – C3 <span>·</span> ${c.count} habilidades</span><span class="card-arrow">↗</span></div></a>`).join('')}</div></section>
 <section class="reading-grid"><a class="reading-card" href="docs/sistemas/ranks-e-circulos.html"><span class="reading-number">I.</span><div><span class="eyebrow">AS REGRAS DE OUTRO TEMPO</span><h3>Ranks, círculos e possibilidades</h3><p>Entenda como cada avanço construía um personagem diferente.</p></div><span>→</span></a><a class="reading-card" href="docs/fontes.html"><span class="reading-number">II.</span><div><span class="eyebrow">PRESERVAR COM CUIDADO</span><h3>De onde vêm as lembranças?</h3><p>Guias da época, imagens oficiais e dúvidas que continuam abertas.</p></div><span>→</span></a></section>
 <aside class="archive-note"><span class="note-symbol">✧</span><div><strong>Um acervo vivo, com a história no lugar certo.</strong><p>Esta primeira edição cobre as quatro classes iniciais. Dados do beta, patches posteriores e adaptações solo são identificados separadamente. <a href="ROADMAP.html">Veja os próximos capítulos →</a></p></div></aside>`;

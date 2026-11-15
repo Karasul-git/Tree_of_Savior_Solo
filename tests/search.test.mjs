@@ -25,3 +25,11 @@ test('as pendências e suas fontes podem ser encontradas pela busca', () => {
   assert.ok(result.some(page => page.path.endsWith('cleric.html')));
   assert.ok(result.some(page => page.path.endsWith('fontes.html')));
 });
+
+test('a mudança de sistema tem um documento próprio encontrável na pesquisa', () => {
+  assert.ok(findPages(pages, 'Re:Build').some(page => page.path.endsWith('evolucao-das-classes.html')));
+});
+
+test('a tabela histórica recuperada pode ser encontrada sem conhecer o nome do arquivo', () => {
+  assert.ok(findPages(pages, 'Swordsman tabelas 2016').some(page => page.path.endsWith('swordsman-valores-2016.html')));
+});
