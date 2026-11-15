@@ -121,6 +121,26 @@ for entry in catalog_classes:
     skill_count += len(skills)
 if skill_count != catalog['skill_count']:
     errors.append('Catalog skill count mismatch')
+later = json.loads((ROOT / 'data/catalog/classes-later.json').read_text())
+later_ids = [entry['id'] for entry in later['classes']]
+if len(later_ids) != len(set(later_ids)) or len(later_ids) != later['class_count'] or set(later_ids) & set(catalog_ids):
+    errors.append('Invalid later class count/IDs or overlap with historical catalog')
+for entry in later['classes']:
+    if entry.get('first_rank') is not None or not entry.get('edition') or not entry.get('skills'):
+        errors.append(f'Later class missing version or assigned a historical rank: {entry["id"]}')
+    date.fromisoformat(entry['accessed'])
+    date.fromisoformat(entry['introduced_in_itos'])
+    if not (ROOT / f'docs/classes/catalogo/{entry["id"]}.md').exists():
+        errors.append(f'Missing later class page: {entry["id"]}')
+    if len({s['name'] for s in entry['skills']}) != len(entry['skills']):
+        errors.append('Duplicate later skill')
+    for record in [entry, *entry['skills']]:
+        if not record['summary'] or any(source not in source_ids for source in record['evidence_ids']):
+            errors.append('Missing later summary/evidence')
+    if any('circle' in s for s in entry['skills']):
+        errors.append('Later skills assigned old-system circles')
+all_ids = catalog_ids + later_ids
+historical_ranks = {c['id']: c['first_rank'] for c in catalog_classes}
 solo = json.loads((ROOT / 'data/catalog/classes-solo.json').read_text())
 solo_ids = []
 base_ids = []
@@ -132,8 +152,12 @@ for base in solo['bases']:
     solo_ids.append(base['source_class_id'])
     for entry in base['classes']:
         solo_ids.append(entry['class_id'])
-        if entry['class_id'] not in catalog_ids or entry['placement_status'] not in ['defined', 'proposed']:
+        if entry['class_id'] not in all_ids or entry['placement_status'] not in ['defined', 'proposed']:
             errors.append('Invalid solo class reference/status')
+        if entry.get('solo_rank') not in range(2, 8) or entry.get('rank_status') not in ['historical-reference', 'proposed']:
+            errors.append('Invalid solo rank/status')
+        if entry.get('rank_status') == 'historical-reference' and entry['solo_rank'] != historical_ranks.get(entry['class_id']):
+            errors.append('Solo rank labeled historical differs from historical rank')
         if entry['placement_status'] == 'defined':
             defined.add(entry['class_id'])
 if base_ids != ['warrior', 'archer', 'scout'] or len(solo_ids) != len(set(solo_ids)):
@@ -145,6 +169,10 @@ if set(solo_ids) & (set(solo['removed_class_ids']) | set(solo['pending_class_ids
 for snapshot in json.loads((ROOT / 'data/research/catalog-snapshots.json').read_text()):
     if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
         errors.append('Invalid catalog snapshot provenance')
+for snapshot in json.loads((ROOT / 'data/research/later-snapshots.json').read_text()):
+    if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
+        errors.append('Invalid later snapshot provenance')
+    date.fromisoformat(snapshot['retrieved_at'])
 
 pages = list(ROOT.glob('*.md')) + list((ROOT / 'docs').rglob('*.md'))
 for page in pages:
@@ -168,7 +196,7 @@ for page in pages:
 
 manifest_path = ROOT / 'data/assets.json'
 assets = json.loads(manifest_path.read_text()) if manifest_path.exists() else []
-expected = {(name, role) for name in catalog_ids
+expected = {(name, role) for name in all_ids
             for role in ['icon', 'female', 'male']}
 actual = {(asset['class_id'], asset['role']) for asset in assets}
 if actual != expected or len(assets) != len(expected):

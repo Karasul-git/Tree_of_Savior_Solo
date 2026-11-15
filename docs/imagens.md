@@ -32,3 +32,7 @@ Atualizações das imagens devem ser revistas no diff. Não substituir o acervo 
 ## Créditos
 
 Tree of Savior, personagens, emblemas e sprites são de **IMC Games Co., Ltd.** A inclusão no repositório não altera os direitos sobre esses materiais, não os coloca em domínio público e não implica vínculo oficial com a desenvolvedora.
+
+## Classes posteriores pesquisadas
+
+Assassin e Outlaw acrescentam seis arquivos oficiais originais (emblemas e dois visuais por classe), preservados sem alterações: **171 arquivos ao todo**, dos quais 165 pertencem às referências do catálogo de 2016. As novas classes são de 2019; seus arquivos vieram do site oficial atual em 15/11/2026, sem confirmação de identidade exata em 2019. A procedência e os hashes estão no mesmo manifesto. Fontes: [F101](fontes.md#f101) e [F102](fontes.md#f102).

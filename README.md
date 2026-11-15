@@ -16,7 +16,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 ## Explore as árvores de classes
 
-**[Abrir árvores do projeto solo](docs/classes/catalogo-2016.md)** — escolha Warrior (nome provisório), Archer ou Scout e veja suas especializações logo abaixo. A proposta tem 10, 9 e 7 especializações, com posições definidas e propostas identificadas. As fichas mantêm o caminho de volta à árvore e seus filtros.
+**[Abrir árvores do projeto solo](docs/classes/catalogo-2016.md)** — escolha Warrior (nome provisório), Archer ou Scout e veja suas especializações logo abaixo. A proposta tem 12, 9 e 9 especializações organizadas por rank, com posições e ranks propostos identificados. Monk e Paladin entram como candidatos em Warrior; Assassin e Outlaw entram como candidatos posteriores em Scout. [Estudo de cobertura e adaptações](docs/projeto-solo/ranks-e-especializacoes.md). As fichas mantêm o caminho de volta à árvore e seus filtros.
 
 **[Consultar o original de 2016](docs/classes/catalogo-2016.md?view=2016)** — quatro bases, 55 classes, 382 habilidades resumidas e 165 imagens originais. A organização histórica continua preservada. [Mapa da proposta solo](data/catalog/classes-solo.json).
 

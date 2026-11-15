@@ -1262,5 +1262,41 @@
     "url": "https://forum.treeofsavior.com/t/on-changes-for-future-patches/186473",
     "supports": "Menciona poções comuns de HP e SP existentes no período.",
     "limitations": "Texto de sugestões: propostas de troca/comércio não são regras implementadas. Não comprova requisitos de todas as poções nem seus valores."
+  },
+  {
+    "id": "F100",
+    "title": "Scheduled Maintenance for January 15, 2019",
+    "author": "IMC Games",
+    "published": "2019-01-14",
+    "accessed": "2026-11-15",
+    "kind": "official-later",
+    "scope": "iToS · atualização Re:Build de 15/01/2019",
+    "url": "https://treeofsavior.com/page/news/view.php?n=1582",
+    "supports": "Remoção dos sistemas de ranks e círculos; adição de Assassin e Outlaw à nova árvore de Scout.",
+    "limitations": "Não atribui ranks antigos às classes novas. A data de publicação é 14/01; a manutenção é de 15/01/2019."
+  },
+  {
+    "id": "F101",
+    "title": "Assassin · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Classe posterior a 2016 · referência de identidade, habilidades e imagens",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Assassin",
+    "supports": "Identidade, nomes e funções gerais de habilidades; emblema e visuais oficiais de Assassin.",
+    "limitations": "Página atual sem revisão datada. Não comprova o kit exato do lançamento de 2019; não fornece ranks nem círculos de 2016."
+  },
+  {
+    "id": "F102",
+    "title": "Outlaw · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Classe posterior a 2016 · referência de identidade, habilidades e imagens",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Outlaw",
+    "supports": "Identidade, nomes e funções gerais de habilidades; emblema e visuais oficiais de Outlaw.",
+    "limitations": "Página atual sem revisão datada. Não comprova o kit exato do lançamento de 2019; não fornece ranks nem círculos de 2016."
   }
 ]

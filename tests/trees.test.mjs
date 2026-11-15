@@ -2,21 +2,22 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { treeBases, soloMembership, readTreeState, treeQuery, branchEntries, treeVisibleCount,
-  renderTreeBranches, renderClassContext, renderTreeViews, renderTreeSidebar, renderTreePage } from '../web/trees.mjs';
+  renderTreeBranches, renderClassContext, renderTreeViews, renderTreeSidebar, renderTreePage, treeRankCoverage } from '../web/trees.mjs';
 
 const catalog = JSON.parse(readFileSync(new URL('../data/catalog/classes-2016.json', import.meta.url)));
+catalog.later_classes = JSON.parse(readFileSync(new URL('../data/catalog/classes-later.json', import.meta.url))).classes;
 const solo = JSON.parse(readFileSync(new URL('../data/catalog/classes-solo.json', import.meta.url)));
 const soloState = readTreeState('', catalog, solo);
 
-test('a entrada solo tem 10/9/7 especializações e somente três posições definidas', () => {
+test('a entrada solo tem 12/9/9 especializações e somente três posições definidas', () => {
   assert.equal(soloState.view, 'solo');
-  assert.deepEqual(treeBases(catalog, solo).map(b => b.classes.length), [10, 9, 7]);
-  assert.equal(treeVisibleCount(catalog, solo, soloState).total, 26);
-  assert.equal(new Set(solo.bases.flatMap(b => [b.source_class_id, ...b.classes.map(c => c.class_id)])).size, 29);
+  assert.deepEqual(treeBases(catalog, solo).map(b => b.classes.length), [12, 9, 9]);
+  assert.equal(treeVisibleCount(catalog, solo, soloState).total, 30);
+  assert.equal(new Set(solo.bases.flatMap(b => [b.source_class_id, ...b.classes.map(c => c.class_id)])).size, 33);
   assert.deepEqual(solo.bases.flatMap(b => b.classes.filter(c => c.placement_status === 'defined').map(c => c.class_id)).sort(), ['alchemist', 'plague-doctor', 'templar']);
   assert.equal(soloMembership(solo, 'linker'), null);
   assert.equal(soloMembership(solo, 'thaumaturge'), null);
-  assert.equal(soloMembership(solo, 'monk'), null);
+  assert.equal(soloMembership(solo, 'monk').base.id, 'warrior');
 });
 
 test('a ficha de Alchemist volta para Scout com busca e visual preservados', () => {
@@ -53,7 +54,7 @@ test('busca, ranks históricos e classes ocultas continuam combináveis', () => 
   const oldLink = readTreeState('?tree=Wizard&rank=6', catalog, solo);
   assert.equal(oldLink.view, '2016');
   assert.equal(oldLink.base, 'wizard');
-  assert.equal(readTreeState('?view=solo&rank=7&kind=hidden', catalog, solo).rank, '');
+  assert.equal(readTreeState('?view=solo&rank=7&kind=hidden', catalog, solo).rank, '7');
 });
 
 test('links diretos reconhecem a base e classes fora do solo abrem a referência histórica', () => {
@@ -88,4 +89,46 @@ test('a saída publicada inclui dados de árvore, controles e três entradas sol
   for (const base of ['warrior', 'archer', 'scout']) assert.ok(home.includes(`view=solo&amp;base=${base}#arvore`));
   const ref = readFileSync(new URL('../dist/docs/classes/catalogo/linker.html', import.meta.url), 'utf8');
   assert.ok(ref.includes('Original de 2016 · Wizard'));
+});
+
+test('as três bases cobrem R2–R7 e os ranks propostos não alteram a história', () => {
+  for (const base of solo.bases) {
+    assert.ok(treeRankCoverage(catalog, base).every(r => r.count > 0));
+  }
+  assert.deepEqual(treeRankCoverage(catalog, solo.bases[0]).map(r => r.count), [2, 2, 3, 1, 2, 2]);
+  assert.deepEqual(treeRankCoverage(catalog, solo.bases[2]).filter(r => r.proposed).map(r => r.rank), [2, 3, 4]);
+  const state = readTreeState('?view=solo&base=scout&rank=4', catalog, solo);
+  assert.deepEqual(branchEntries(catalog, solo.bases[2], state).map(c => c.id), ['rogue']);
+  assert.equal(catalog.classes.find(c => c.id === 'rogue').first_rank, 5);
+  const historical = readTreeState('?view=2016&base=archer&rank=5&query=rogue', catalog, solo);
+  assert.deepEqual(branchEntries(catalog, treeBases(catalog, solo, '2016')[2], historical).map(c => c.id), ['rogue']);
+  const html = renderTreeBranches(catalog, solo, state, '../../');
+  assert.ok(html.includes('Rank solo proposto'));
+  assert.ok(html.includes('Original: Archer · R5'));
+});
+
+test('classes posteriores abrem Scout com versão explícita e não entram em 2016', () => {
+  assert.equal(catalog.classes.length, 55);
+  for (const id of ['assassin', 'outlaw']) {
+    assert.ok(!treeBases(catalog, solo, '2016').some(b => b.classes.some(c => c.class_id === id)));
+    const state = readTreeState('?view=2016', catalog, solo, id);
+    assert.equal(state.view, 'solo');
+    assert.equal(state.base, 'scout');
+    const html = renderClassContext(catalog, solo, state, id, '../../../');
+    assert.ok(html.includes('Habilidades da página oficial atual'));
+    const page = readFileSync(new URL(`../dist/docs/classes/catalogo/${id}.html`, import.meta.url), 'utf8');
+    assert.ok(page.includes('Não pertence ao catálogo de 2016'));
+    assert.ok(page.includes('data-class-id="' + id + '"'));
+  }
+});
+
+test('a detecção de lacunas funciona antes de se propor novos ranks', () => {
+  const scout = solo.bases[2];
+  const oldScout = { ...scout, classes: scout.classes.filter(c => !['assassin', 'outlaw'].includes(c.class_id))
+    .map(c => c.class_id === 'rogue' ? { ...c, solo_rank: 5, rank_status: 'historical-reference' } : c) };
+  assert.deepEqual(treeRankCoverage(catalog, oldScout).filter(r => !r.count).map(r => r.rank), [2, 3, 4]);
+  const oldSolo = { ...solo, bases: [oldScout] };
+  const html = renderTreeBranches(catalog, oldSolo, { view: 'solo', visual: 'female' }, '../../');
+  assert.ok(html.includes('Lacunas: R2, R3, R4'));
+  assert.equal((html.match(/Sem especialização neste rank/g) || []).length, 3);
 });

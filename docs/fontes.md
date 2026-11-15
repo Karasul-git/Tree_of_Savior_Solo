@@ -883,3 +883,18 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 **Uso:** menção a poções comuns de HP e SP no período.
 
 **Limite:** texto de sugestões; propostas de comércio não são regras implementadas. Não estabelece requisitos de uso nem valores de todas as poções.
+
+<a id="f100"></a>
+### F100 · Scheduled Maintenance for January 15, 2019
+
+[Scheduled Maintenance for January 15, 2019](https://treeofsavior.com/page/news/view.php?n=1582) — IMC Games, 2019-01-14; consulta em 15/11/2026. Remoção dos sistemas de ranks e círculos; adição de Assassin e Outlaw à nova árvore de Scout. **Limite:** Não atribui ranks antigos às classes novas. A data de publicação é 14/01; a manutenção é de 15/01/2019.
+
+<a id="f101"></a>
+### F101 · Assassin · página oficial atual
+
+[Assassin · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Assassin) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, nomes e funções gerais de habilidades; emblema e visuais oficiais de Assassin. **Limite:** Página atual sem revisão datada. Não comprova o kit exato do lançamento de 2019; não fornece ranks nem círculos de 2016.
+
+<a id="f102"></a>
+### F102 · Outlaw · página oficial atual
+
+[Outlaw · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Outlaw) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, nomes e funções gerais de habilidades; emblema e visuais oficiais de Outlaw. **Limite:** Página atual sem revisão datada. Não comprova o kit exato do lançamento de 2019; não fornece ranks nem círculos de 2016.

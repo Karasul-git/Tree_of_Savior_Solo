@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "F100",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "98e633f059e2fef474f601709d81158a4c9cebaaa09ca8fa5238194f75272033",
+    "bytes": 76424,
+    "url": "https://treeofsavior.com/page/news/view.php?n=1582"
+  },
+  {
+    "source_id": "F101",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "358c987de3e12611f7ddc34918fc39761508fd5842c501c5f54e9a74e2e2ea1c",
+    "bytes": 15808,
+    "url": "https://treeofsavior.com/page/class/view.php?c=Assassin"
+  },
+  {
+    "source_id": "F102",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "f1af4b49da4029cdf1bcb91ff34982f3f82e7a867e604be9e4ba3122e31709a5",
+    "bytes": 17452,
+    "url": "https://treeofsavior.com/page/class/view.php?c=Outlaw"
+  }
+]

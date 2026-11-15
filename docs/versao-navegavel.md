@@ -4,6 +4,8 @@
 
 A wiki também é um site estático, gerado a partir dos documentos Markdown do repositório. Inclui navegação entre as classes, índice dentro dos artigos, busca por conteúdo e galerias de imagens oficiais.
 
+A visão solo organiza Warrior, Archer e Scout por rank, com filtro e quadro de cobertura. Ela distingue ranks de referência e ranks propostos. A visão de 2016 mantém suas quatro árvores; Assassin e Outlaw possuem fichas posteriores separadas. [Pesquisa e decisões de organização](projeto-solo/ranks-e-especializacoes.md).
+
 [Versão navegável privada no Sites](https://tos-solo-memorias-karasul.lucas-sousa-caldas.chatgpt.site). Essa publicação exige a conta proprietária. O conteúdo-fonte permanece no repositório público informado pelo proprietário.
 
 ## Publicação pelo GitHub Pages

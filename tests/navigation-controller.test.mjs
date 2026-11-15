@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import vm from 'node:vm';
 
 const catalog = JSON.parse(readFileSync(new URL('../data/catalog/classes-2016.json', import.meta.url)));
+catalog.later_classes = JSON.parse(readFileSync(new URL('../data/catalog/classes-later.json', import.meta.url))).classes;
 const solo = JSON.parse(readFileSync(new URL('../data/catalog/classes-solo.json', import.meta.url)));
 const code = readFileSync(new URL('../dist/assets/app.js', import.meta.url), 'utf8');
 
@@ -22,11 +23,11 @@ function mount(url, classId = '', mobile = false) {
   }
   for (const id of ['search-dialog', 'search-input', 'search-results', 'search-status', 'menu-toggle', 'sidebar', 'menu-shade', 'back-top', 'sidebar-tree', 'nav-tree-views', 'edition-view']) nodes.set('#' + id, node());
   if (classId) nodes.set('#class-tree-context', node());
-  else for (const id of ['catalog-filters', 'tree-views', 'tree-bases', 'tree-branches', 'tree-intro', 'catalog-count', 'arvore']) nodes.set('#' + id, node());
+  else for (const id of ['catalog-filters', 'tree-views', 'tree-bases', 'tree-branches', 'tree-intro', 'catalog-count', 'arvore', 'rank-coverage', 'rank-filter-label']) nodes.set('#' + id, node());
   nodes.set('[data-search-close]', node());
   const fields = Object.fromEntries(['query', 'rank', 'kind', 'visual'].map(key => [key, { value: key === 'visual' ? 'female' : '', disabled: false }]));
   if (!classId) nodes.get('#catalog-filters').elements = { namedItem: key => fields[key] };
-  const historical = ['rank', 'kind'].map(key => ({ hidden: true, querySelector: () => fields[key] }));
+  const historical = ['kind'].map(key => ({ hidden: true, querySelector: () => fields[key] }));
   const doc = {
     documentElement: { dataset: { root: classId ? '../../../' : '../../', classId } },
     body: { classList: { remove() {}, contains: () => false } },
@@ -56,14 +57,14 @@ function mount(url, classId = '', mobile = false) {
 
 test('selecionar Scout, filtrar poções e voltar restaura a árvore, a busca e o visual', () => {
   const app = mount('https://example.test/docs/classes/catalogo-2016.html');
-  assert.equal(app.nodes.get('#catalog-count').textContent, '26 de 26 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '30 de 30 especializações');
   app.click('?view=solo&base=scout#arvore', { base: 'scout' });
-  assert.equal(app.nodes.get('#catalog-count').textContent, '7 de 7 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '9 de 9 especializações');
   app.fields.query.value = 'pocoes';
   app.fields.visual.value = 'male';
   app.filter();
   const restore = app.sandbox.location.href;
-  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 7 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 9 especializações');
   assert.ok(app.nodes.get('#tree-branches').innerHTML.includes('/alchemist/male.gif'));
   const detail = mount('https://example.test/docs/classes/catalogo/alchemist.html' + app.sandbox.location.search, 'alchemist');
   assert.ok(detail.nodes.get('#class-tree-context').innerHTML.includes('base=scout&query=pocoes&visual=male#arvore'));
@@ -71,12 +72,13 @@ test('selecionar Scout, filtrar poções e voltar restaura a árvore, a busca e 
   app.pop(restore);
   assert.equal(app.fields.query.value, 'pocoes');
   assert.equal(app.fields.visual.value, 'male');
-  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 7 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 9 especializações');
 });
 
 test('alternar a visão limpa filtros, habilita os controles históricos e permite reset', () => {
   const app = mount('https://example.test/docs/classes/catalogo-2016.html?view=solo&base=scout&query=pocoes&visual=male');
-  assert.equal(app.fields.rank.disabled, true);
+  assert.equal(app.fields.rank.disabled, false);
+  assert.equal(app.fields.kind.disabled, true);
   app.click('?view=2016', { view: '2016' });
   assert.equal(app.fields.query.value, '');
   assert.equal(app.fields.rank.disabled, false);
@@ -94,5 +96,22 @@ test('selecionar uma base pelo menu móvel fecha o painel e leva foco à árvore
   app.click('?view=solo&base=warrior#arvore', { base: 'warrior' }, true);
   assert.equal(app.nodes.get('#sidebar').inert, true);
   assert.equal(app.nodes.get('#arvore').focused, true);
-  assert.equal(app.nodes.get('#catalog-count').textContent, '10 de 10 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '12 de 12 especializações');
+});
+
+test('filtro de rank solo persiste em URL, retorno da ficha e navegação para trás', () => {
+  const app = mount('https://example.test/docs/classes/catalogo-2016.html?view=solo&base=scout');
+  app.fields.rank.value = '4';
+  app.filter();
+  const restore = app.sandbox.location.href;
+  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 9 especializações');
+  assert.ok(app.nodes.get('#tree-branches').innerHTML.includes('data-catalog-entry="rogue"'));
+  const detail = mount('https://example.test/docs/classes/catalogo/rogue.html' + app.sandbox.location.search, 'rogue');
+  assert.ok(detail.nodes.get('#class-tree-context').innerHTML.includes('base=scout&rank=4#arvore'));
+  app.click('?view=2016', { view: '2016' });
+  assert.equal(app.fields.rank.value, '');
+  app.pop(restore);
+  assert.equal(app.fields.rank.value, '4');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 9 especializações');
+  assert.ok(app.nodes.get('#rank-coverage').innerHTML.includes('Scout tinha lacunas em R2–R4'));
 });

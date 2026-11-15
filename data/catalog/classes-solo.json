@@ -10,43 +10,75 @@
       "classes": [
         {
           "class_id": "highlander",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 2,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "peltasta",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 2,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "barbarian",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 3,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "hoplite",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 3,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "cataphract",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 4,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "rodelero",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 4,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "doppelsoeldner",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 6,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "fencer",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 6,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "dragoon",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 7,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "templar",
-          "placement_status": "defined"
+          "placement_status": "defined",
+          "solo_rank": 7,
+          "rank_status": "historical-reference"
+        },
+        {
+          "class_id": "paladin",
+          "placement_status": "proposed",
+          "solo_rank": 4,
+          "rank_status": "historical-reference"
+        },
+        {
+          "class_id": "monk",
+          "placement_status": "proposed",
+          "solo_rank": 5,
+          "rank_status": "historical-reference"
         }
       ]
     },
@@ -58,39 +90,57 @@
       "classes": [
         {
           "class_id": "quarrel-shooter",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 2,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "ranger",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 2,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "hunter",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 3,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "sapper",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 3,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "wugushi",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 4,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "fletcher",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 5,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "falconer",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 6,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "cannoneer",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 7,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "musketeer",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 7,
+          "rank_status": "historical-reference"
         }
       ]
     },
@@ -102,31 +152,57 @@
       "classes": [
         {
           "class_id": "rogue",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 4,
+          "rank_status": "proposed"
         },
         {
           "class_id": "schwarzer-reiter",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 6,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "corsair",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 5,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "squire",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 5,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "shinobi",
-          "placement_status": "proposed"
+          "placement_status": "proposed",
+          "solo_rank": 7,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "alchemist",
-          "placement_status": "defined"
+          "placement_status": "defined",
+          "solo_rank": 6,
+          "rank_status": "historical-reference"
         },
         {
           "class_id": "plague-doctor",
-          "placement_status": "defined"
+          "placement_status": "defined",
+          "solo_rank": 7,
+          "rank_status": "historical-reference"
+        },
+        {
+          "class_id": "assassin",
+          "placement_status": "proposed",
+          "solo_rank": 2,
+          "rank_status": "proposed"
+        },
+        {
+          "class_id": "outlaw",
+          "placement_status": "proposed",
+          "solo_rank": 3,
+          "rank_status": "proposed"
         }
       ]
     }
@@ -135,9 +211,6 @@
     "linker",
     "thaumaturge"
   ],
-  "pending_class_ids": [
-    "monk",
-    "paladin"
-  ],
-  "notes": "Posições propostas não aprovam adaptações de habilidades. Classes posteriores ficam fora desta etapa."
+  "pending_class_ids": [],
+  "notes": "Ranks solo organizam a proposta até R7; não definem níveis, círculos, pré-requisitos ou habilidades adaptadas. Assassin R2, Outlaw R3 e Rogue R4 são propostas provisórias escolhidas pelo proprietário; Rogue continua R5 no catálogo histórico. Monk e Paladin têm encaixe proposto em Warrior, com revisão de habilidades pendente."
 }

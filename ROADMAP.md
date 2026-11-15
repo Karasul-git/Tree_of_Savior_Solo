@@ -28,7 +28,11 @@
 - [x] Estudo inicial de suporte físico, cura por itens e classes ressignificáveis.
 - [ ] Inventariar primeiro o suporte e os consumíveis originais, priorizando reaproveitamento e a revisão de Templar, Squire e Corsair.
 - [x] Definir Alchemist e Plague Doctor em Scout; remover Linker/Thaumaturge e manter Templar no ramo de combate próximo.
-- [x] Publicar distribuição provisória de 10/9/7 especializações, distinguindo posições definidas e propostas.
+- [x] Publicar distribuição provisória de 12/9/9 especializações, distinguindo posições definidas e propostas.
+- [x] Organização por rank com quadro de cobertura e filtros nas duas visões.
+- [x] Estudo de Monk/Paladin em Warrior e Assassin/Outlaw em Scout, com fontes e imagens oficiais adicionais.
+- [ ] Validar Assassin R2, Outlaw R3 e Rogue R4 e estudar o impacto nos círculos.
+- [ ] Revisar habilidades de Monk e Paladin para reaproveitamento sem magia.
 - [x] Navegação solo por bases com árvore abaixo da seleção, menu hierárquico e retorno contextual das fichas.
 - [x] Visão histórica separada, preservando as quatro árvores e as 55 classes.
 - [ ] Revisar visualmente as posições propostas e avaliar Warrior como nome final da base de combate próximo.

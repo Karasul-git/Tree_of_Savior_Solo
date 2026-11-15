@@ -1,0 +1,135 @@
+{
+  "edition": "later-classes-research",
+  "class_count": 2,
+  "classes": [
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "tree": "Scout",
+      "first_rank": null,
+      "hidden": false,
+      "summary": "Combatente de adagas, emboscadas, fumaça e preparados Hasisas.",
+      "skills": [
+        {
+          "name": "Annihilation",
+          "summary": "Ataques rápidos próximos, com ocultação e proteção durante a execução.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Behead",
+          "summary": "Golpe de adaga que provoca sangramento.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Hallucination Smoke",
+          "summary": "Fumaça que prejudica a visão, a precisão e a esquiva.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Hasisas",
+          "summary": "Preparado que melhora temporariamente capacidades físicas e ataques críticos.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Instant Acceleration",
+          "summary": "Avanço rápido para atingir um inimigo distante.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Piercing Heart",
+          "summary": "Estocada que atravessa parte da defesa e impede recuperação de HP.",
+          "evidence_ids": [
+            "F101"
+          ]
+        }
+      ],
+      "introduced_in_itos": "2019-01-15",
+      "edition": "post-ReBuild; current-official-reference",
+      "accessed": "2026-11-15",
+      "evidence_ids": [
+        "F100",
+        "F101"
+      ],
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Assassin",
+      "client_build_verified": false
+    },
+    {
+      "id": "outlaw",
+      "name": "Outlaw",
+      "tree": "Scout",
+      "first_rank": null,
+      "hidden": false,
+      "summary": "Lutador de rua com provocação, esquiva, areia, tijolos, adaga e pistola.",
+      "skills": [
+        {
+          "name": "Aggress",
+          "summary": "Provoca inimigos e reduz sua esquiva.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Brick Smash",
+          "summary": "Golpe com tijolo que pode atordoar e enfraquece críticos inimigos.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Bully",
+          "summary": "Aumenta a esquiva e a ameaça gerada ao evitar ataques.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Blindfire",
+          "summary": "Disparos que intimidam; compartilha recarga com Mangle.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Mangle",
+          "summary": "Cortes de adaga que intimidam; compartilha recarga com Blindfire.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Rampage",
+          "summary": "Ataque em área com efeitos de esquiva e risco após o uso.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Throw Sand",
+          "summary": "Areia que cega, silencia e prejudica precisão e esquiva.",
+          "evidence_ids": [
+            "F102"
+          ]
+        }
+      ],
+      "introduced_in_itos": "2019-01-15",
+      "edition": "post-ReBuild; current-official-reference",
+      "accessed": "2026-11-15",
+      "evidence_ids": [
+        "F100",
+        "F102"
+      ],
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Outlaw",
+      "client_build_verified": false
+    }
+  ]
+}

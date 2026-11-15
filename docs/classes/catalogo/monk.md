@@ -34,3 +34,7 @@ Fonte das habilidades: [F86](../../fontes.md#f86), captura de **2016-03-30**. Os
 Esta ficha de panorama inclui os círculos compatíveis com o limite de **Rank 7**, com classes ocultas em C1. Não introduzimos habilidades de círculos de expansão posterior. Nomes históricos foram preservados, inclusive quando a grafia difere de guias ou versões mais novas.
 
 A adaptação solo **removerá classes mágicas**. Esta página preserva o original para consulta; a seleção nominal e o tratamento de híbridos estão nas [diretrizes do projeto](../../projeto-solo/diretrizes.md).
+
+## Proposta solo em Warrior
+
+O estudo de 15/11/2026 propõe esta classe em Warrior, preservando seu rank histórico como referência. A posição ainda é proposta e o kit contém efeitos sobrenaturais; a transferência não aprova automaticamente todas as habilidades. [Estudo de ranks e reaproveitamento](../../projeto-solo/ranks-e-especializacoes.md).

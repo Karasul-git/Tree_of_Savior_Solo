@@ -42,7 +42,7 @@ input.addEventListener('input', () => {
     const item = document.createElement('li');
     const link = document.createElement('a');
     const classId = page.path.match(/docs\/classes\/(?:catalogo\/)?([^/]+)\.html$/)?.[1];
-    link.href = root + page.path + (treeCatalog.classes.some(c => c.id === classId) ? treeQuery(readTreeState(treeQuery(navigationState), treeCatalog, treeSolo, classId)) : '');
+    link.href = root + page.path + (treeRecords(treeCatalog).some(c => c.id === classId) ? treeQuery(readTreeState(treeQuery(navigationState), treeCatalog, treeSolo, classId)) : '');
     const title = document.createElement('strong');
     title.textContent = page.title;
     const snippet = document.createElement('span');
@@ -109,9 +109,9 @@ function updateTreeUI() {
     document.querySelector('#tree-views').innerHTML = renderTreeViews(navigationState, root);
     document.querySelector('#tree-bases').innerHTML = renderBaseChoices(treeCatalog, treeSolo, navigationState, root);
     document.querySelector('#tree-branches').innerHTML = renderTreeBranches(treeCatalog, treeSolo, navigationState, root);
-    document.querySelector('#tree-intro').textContent = navigationState.view === 'solo'
-      ? 'Três bases, 26 especializações. Uma distribuição em construção, com posições definidas e propostas.'
-      : 'Quatro bases e 51 especializações do catálogo histórico de 2016, incluindo três classes ocultas.';
+    document.querySelector('#tree-intro').textContent = treeIntro(treeCatalog, treeSolo, navigationState.view);
+    document.querySelector('#rank-coverage').innerHTML = renderRankCoverage(treeCatalog, treeSolo, navigationState, root);
+    document.querySelector('#rank-filter-label').textContent = navigationState.view === 'solo' ? 'Rank da proposta solo' : 'Primeiro rank histórico';
     const counts = treeVisibleCount(treeCatalog, treeSolo, navigationState);
     document.querySelector('#catalog-count').textContent = `${counts.visible} de ${counts.total} especializações`;
     for (const key of ['query', 'rank', 'kind', 'visual']) {
@@ -128,7 +128,7 @@ function updateTreeUI() {
     const target = new URL(link.getAttribute('href'), location.href);
     if (target.origin !== location.origin) continue;
     const id = target.pathname.match(/docs\/classes\/(?:catalogo\/)?([^/]+)\.html$/)?.[1];
-    if (!treeCatalog.classes.some(c => c.id === id)) continue;
+    if (!treeRecords(treeCatalog).some(c => c.id === id)) continue;
     if (!link.hasAttribute('data-class-link') && target.searchParams.has('view')) continue;
     const state = readTreeState(treeQuery(navigationState), treeCatalog, treeSolo, id);
     target.search = treeQuery(state);
