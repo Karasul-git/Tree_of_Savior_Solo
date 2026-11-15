@@ -898,3 +898,18 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F102 · Outlaw · página oficial atual
 
 [Outlaw · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Outlaw) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, nomes e funções gerais de habilidades; emblema e visuais oficiais de Outlaw. **Limite:** Página atual sem revisão datada. Não comprova o kit exato do lançamento de 2019; não fornece ranks nem círculos de 2016.
+
+<a id="f103"></a>
+### F103 · Arbalester · página oficial atual
+
+[Arbalester · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Arbalester) — IMC Games, sem data de revisão; consulta em 15/11/2026. Besta, tecnologia de projéteis guiados, marcação e deslocamento. **Limite:** Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte.
+
+<a id="f104"></a>
+### F104 · Tiger Hunter · página oficial atual
+
+[Tiger Hunter · página oficial atual](https://treeofsavior.com/page/class/view.php?c=TigerHunter) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade de caçador, camuflagem, rastreamento e disparos. A apresentação menciona mosquete, enquanto habilidades exibem a categoria Pistol. **Limite:** Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte.
+
+<a id="f105"></a>
+### F105 · Matross · página oficial atual
+
+[Matross · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Matross) — IMC Games, sem data de revisão; consulta em 15/11/2026. Combate de canhão com mobilidade e sabotagem, incluindo chamada de bombardeio naval. **Limite:** Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte.

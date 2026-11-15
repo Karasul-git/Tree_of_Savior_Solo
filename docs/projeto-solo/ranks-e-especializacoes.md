@@ -32,7 +32,31 @@ Scout era uma especialização de Archer em R4. Transformá-lo em base elimina e
 
 **Proposta provisória escolhida pelo proprietário para Scout:** Assassin R2, Outlaw R3 e Rogue antecipado de R5 para R4. Escolhemos uma reorganização mínima para visualizar cobertura completa sem acrescentar uma terceira classe apenas para fechar a tabela. A sequência não significa que Assassin evolui para Outlaw ou Rogue. Não é uma decisão final de balanceamento nem uma atribuição oficial de ranks.
 
-**Alternativa para comparação, caso a proposta seja revista:** manter Rogue R5 e estudar uma terceira classe posterior. Outra possibilidade é redistribuir uma das especializações já selecionadas, após comparar seus kits. Não precisamos igualar o número de classes entre as três bases.
+**Alternativa para comparação, caso a proposta seja revista:** manter Rogue R5 e estudar uma terceira classe posterior. Outra possibilidade é redistribuir uma das especializações já selecionadas, após comparar seus kits. Essa alternativa antecede a nova meta de duas opções por rank, registrada abaixo.
+
+## Nova meta e preferências: antes de mudar a tabela
+
+**Revisão do proprietário em 15/11/2026:** manter ranks e círculos e oferecer duas especializações novas por rank de R2 a R7 em cada base. A tabela acima permanece na distribuição anterior enquanto estudamos as inclusões; nenhum rank novo foi aplicado nesta revisão.
+
+| Base | Falta uma opção em | Excesso de uma opção em |
+| --- | --- | --- |
+| Warrior | R5, com Monk | R4, com Cataphract, Rodelero e Paladin |
+| Archer | R4, R5 e R6 | Nenhum |
+| Scout | R2, R3 e R4 | Nenhum |
+
+Mover Paladin de R4 para R5 resolveria Warrior sem acrescentar outra classe, mas continua sendo uma proposta não aplicada. Se adotarmos essa mudança, faltam seis inclusões: três em Archer e três em Scout.
+
+**Preferidas para estudo:** Appraiser e Mergen em Archer; Ardito, Sheriff e Clown em Scout. **Pied Piper fica como reserva, apenas se necessário. Miko e Hwarang ficam fora.** Essas preferências não aprovam automaticamente cada habilidade nem definem ranks e círculos.
+
+Resta escolher uma terceira candidata de Archer. As referências oficiais atuais oferecem estas alternativas:
+
+| Alternativa ainda não escolhida | Identidade confirmada | Questão para nosso estudo |
+| --- | --- | --- |
+| Arbalester | Besta, marcação, projéteis guiados e deslocamento. [F103](../fontes.md#f103) | Comparar com Quarrel Shooter e Mergen; avaliar a tecnologia de projéteis guiados e explosões. |
+| Tiger Hunter | Caça, rastreamento, camuflagem e disparos. [F104](../fontes.md#f104) | Comparar com Hunter e Musketeer; conferir equipamento, pois a descrição menciona mosquete e as habilidades exibem Pistol. |
+| Matross | Canhão, mobilidade e sabotagem. [F105](../fontes.md#f105) | Diferenciar de Cannoneer; avaliar a chamada de bombardeio naval no contexto solo. |
+
+**Recomendação de pesquisa:** começar por Arbalester, como contraste de besta ao arco de Mergen. Isso não torna a classe automaticamente compatível com a proposta sem magia: os efeitos ainda precisam de inspeção. Todas as páginas são referências atuais, sem revisão datada; não comprovam kits de 2016 nem estabelecem círculos antigos para essas classes.
 
 ## Monk em Warrior
 
@@ -73,4 +97,4 @@ Antecipar Rogue para R4 também pode antecipar seu acesso a círculos se adotarm
 
 O catálogo histórico permanece com 55 classes e 382 habilidades. O arquivo [classes-later.json](../../data/catalog/classes-later.json) guarda Assassin e Outlaw separadamente; [classes-solo.json](../../data/catalog/classes-solo.json) guarda os encaixes e ranks propostos. As 165 imagens do acervo anterior foram preservadas, com seis arquivos oficiais adicionais para as duas classes novas.
 
-**Próximo passo recomendado:** revisar os kits de Monk e Paladin habilidade por habilidade, classificando o que pode permanecer sem magia e o que exige alteração, enquanto validamos os três ranks propostos de Scout.
+**Próximo passo recomendado:** comparar a sexta candidata de Archer e revisar os kits das cinco preferidas para escolher as inclusões antes de redistribuir ranks e círculos.

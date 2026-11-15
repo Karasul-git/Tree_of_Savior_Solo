@@ -1298,5 +1298,41 @@
     "url": "https://treeofsavior.com/page/class/view.php?c=Outlaw",
     "supports": "Identidade, nomes e funções gerais de habilidades; emblema e visuais oficiais de Outlaw.",
     "limitations": "Página atual sem revisão datada. Não comprova o kit exato do lançamento de 2019; não fornece ranks nem círculos de 2016."
+  },
+  {
+    "id": "F103",
+    "title": "Arbalester · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Pesquisa de alternativa posterior para Archer; sem inclusão aprovada",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Arbalester",
+    "supports": "Besta, tecnologia de projéteis guiados, marcação e deslocamento.",
+    "limitations": "Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte."
+  },
+  {
+    "id": "F104",
+    "title": "Tiger Hunter · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Pesquisa de alternativa posterior para Archer; sem inclusão aprovada",
+    "url": "https://treeofsavior.com/page/class/view.php?c=TigerHunter",
+    "supports": "Identidade de caçador, camuflagem, rastreamento e disparos. A apresentação menciona mosquete, enquanto habilidades exibem a categoria Pistol.",
+    "limitations": "Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte."
+  },
+  {
+    "id": "F105",
+    "title": "Matross · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Pesquisa de alternativa posterior para Archer; sem inclusão aprovada",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Matross",
+    "supports": "Combate de canhão com mobilidade e sabotagem, incluindo chamada de bombardeio naval.",
+    "limitations": "Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte."
   }
 ]

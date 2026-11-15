@@ -36,7 +36,7 @@ O corte nominal de classes híbridas continua em construção. Monk e Paladin t�
 
 ## Distribuição provisória para navegação
 
-A revisão do proprietário definiu a visão solo como entrada principal e autorizou uma distribuição provisória para visualizar os ramos. O [mapa de navegação](../../data/catalog/classes-solo.json) mantém 12 especializações em Warrior, 9 em Archer e 9 em Scout. Preservar identidade tem prioridade sobre igualar contagens.
+A revisão do proprietário definiu a visão solo como entrada principal e autorizou uma distribuição provisória para visualizar os ramos. O [mapa de navegação](../../data/catalog/classes-solo.json) mantém 12 especializações em Warrior, 9 em Archer e 9 em Scout. Esta é a distribuição anterior à nova meta de duas opções por rank; a reestruturação ainda não foi aplicada.
 
 - **Warrior, nome provisório:** Highlander, Peltasta, Barbarian, Hoplite, Cataphract, Rodelero, Doppelsoeldner, Fencer, Dragoon, Templar, Paladin e Monk.
 - **Archer:** Quarrel Shooter, Ranger, Hunter, Sapper, Wugushi, Fletcher, Falconer, Cannoneer e Musketeer.
@@ -49,6 +49,19 @@ Templar, Alchemist e Plague Doctor têm **posição definida**. As demais posiç
 ## Organização por rank
 
 A revisão de 15/11/2026 usa os ranks de 2016 como referência, com três hipóteses em Scout: Assassin R2, Outlaw R3 e Rogue R4 (historicamente R5). Warrior e Archer têm opções de R2 a R7; Scout também cobre esses ranks se adotarmos a hipótese. Esses ranks não aprovam círculos, níveis, pré-requisitos nem habilidades solo. [Pesquisa, tabela completa e alternativas](ranks-e-especializacoes.md).
+
+## Revisão: duas opções por rank e candidatas posteriores
+
+**15/11/2026 — Direção escolhida pelo proprietário:** preservar ranks e círculos e trabalhar com **duas especializações novas por rank de R2 a R7 em cada base**, além da base em R1. Repetir o círculo de uma classe anterior continua sendo outra forma de investir um avanço. A meta é de 12 especializações por árvore; não significa escolher todas no mesmo personagem.
+
+Antes de alterar a tabela, apresentar as faltas, excessos e candidatas. A distribuição navegável de 12/9/9 permanece como referência provisória anterior a essa reestruturação.
+
+- **Escolhidas para estudo:** Appraiser e Mergen para Archer; Ardito, Sheriff e Clown para Scout. São preferências de seleção, sem ranks, círculos ou kits adaptados aprovados.
+- **Reserva:** Pied Piper, apenas se necessário.
+- **Fora da seleção atual:** Miko e Hwarang.
+- **Sexta adição ainda pendente:** uma classe para Archer. Arbalester, Tiger Hunter e Matross são alternativas pesquisadas, não escolhas aprovadas.
+
+Warrior tem excesso de uma opção em R4 e falta de uma em R5; transferir Paladin de R4 para R5 é uma possibilidade ainda não aplicada. Archer precisa de mais uma opção em cada R4, R5 e R6. Scout precisa de mais uma opção em cada R2, R3 e R4. [Conferência e alternativas](ranks-e-especializacoes.md).
 
 ## Ordem de trabalho escolhida
 
@@ -64,4 +77,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** revisar as habilidades de Monk e Paladin para definir o reaproveitamento sem magia e validar os ranks propostos de Scout.
+**Próximo passo recomendado:** comparar a sexta candidata de Archer e revisar os kits das cinco preferidas antes de propor os novos pares por rank e seus círculos.
