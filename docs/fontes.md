@@ -847,3 +847,30 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 **Uso:** Anúncio de Rank 8 como expansão futura, apoiando sua separação do recorte de março–abril.
 
 **Limite:** Previsão de atualização, não data efetiva de implantação; não fornece valores do lançamento.
+
+<a id="f96"></a>
+### F96 · Re:Build - Rank System Changes Pt. 2
+
+[Re:Build - Rank System Changes Pt. 2](https://treeofsavior.com/page/news/view.php?n=1535) — IMC Games / STAFF_Ines. Registro: 2018-11-26. Consulta: 15/11/2026.
+
+**Uso:** Tabela de Scout com Rogue, Linker, Schwarzer Reiter, Squire, Shinobi, Thaumaturge, Enchanter e Corsair.
+
+**Limite:** Referência posterior, não árvore de 2016 nem aprovação de importação automática para o projeto solo.
+
+<a id="f97"></a>
+### F97 · Re:Build - FAQ 3
+
+[Re:Build - FAQ 3](https://treeofsavior.com/page/news/view.php?n=1577) — IMC Games / STAFF_Bob. Registro: 2019-01-23. Consulta: 15/11/2026.
+
+**Uso:** Adição de Sprinkle HP Potion e Sprinkle SP Potion para reforçar o papel de suporte de Alchemist.
+
+**Limite:** Habilidades posteriores ao lançamento; não importar como prova de 2016 ou como especificação já implementada na versão solo.
+
+<a id="f98"></a>
+### F98 · Alchemist · página oficial atual
+
+[Alchemist · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Alchemist) — IMC Games. Registro: data de publicação não informada. Consulta: 15/11/2026.
+
+**Uso:** Descrição de aplicação de poções de HP/SP em si e no grupo; fabricação por Tincturing.
+
+**Limite:** Página sem revisão datada e com classificação mágica. Serve de referência posterior para design, não como kit mundano ou ficha de lançamento.

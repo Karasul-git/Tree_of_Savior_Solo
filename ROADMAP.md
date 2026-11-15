@@ -24,6 +24,10 @@
 - [x] Panorama das 55 classes até Rank 7, com 382 habilidades resumidas.
 - [x] Emblemas e visuais feminino/masculino: 165 imagens oficiais locais.
 - [x] Catálogo navegável com filtros e busca por habilidades.
+- [x] Registrar Scout como base com árvore própria na versão solo.
+- [x] Estudo inicial de suporte físico, cura por itens e classes ressignificáveis.
+- [ ] Comparar kits de Squire, Alchemist e médico de campo, e mapear seus destinos na árvore solo.
+- [ ] Escolher o sistema de avanço e validar a nova base Scout no cliente/servidor.
 - [ ] Consolidar a seleção nominal da versão solo e o tratamento de classes híbridas.
 
 ## Etapa 2 · Aprofundar as classes selecionadas

@@ -1214,5 +1214,41 @@
     "url": "https://treeofsavior.com/page/news/view.php?n=610",
     "supports": "Anúncio de Rank 8 como expansão futura, apoiando sua separação do recorte de março–abril.",
     "limitations": "Previsão de atualização, não data efetiva de implantação; não fornece valores do lançamento."
+  },
+  {
+    "id": "F96",
+    "title": "Re:Build - Rank System Changes Pt. 2",
+    "author": "IMC Games / STAFF_Ines",
+    "published": "2018-11-26",
+    "accessed": "2026-11-15",
+    "kind": "official-later",
+    "scope": "Arquitetura de classes no anúncio de Re:Build, posterior ao lançamento",
+    "url": "https://treeofsavior.com/page/news/view.php?n=1535",
+    "supports": "Tabela de Scout com Rogue, Linker, Schwarzer Reiter, Squire, Shinobi, Thaumaturge, Enchanter e Corsair.",
+    "limitations": "Referência posterior, não árvore de 2016 nem aprovação de importação automática para o projeto solo."
+  },
+  {
+    "id": "F97",
+    "title": "Re:Build - FAQ 3",
+    "author": "IMC Games / STAFF_Bob",
+    "published": "2019-01-23",
+    "accessed": "2026-11-15",
+    "kind": "official-later",
+    "scope": "Explicação oficial de habilidades e papéis após Re:Build",
+    "url": "https://treeofsavior.com/page/news/view.php?n=1577",
+    "supports": "Adição de Sprinkle HP Potion e Sprinkle SP Potion para reforçar o papel de suporte de Alchemist.",
+    "limitations": "Habilidades posteriores ao lançamento; não importar como prova de 2016 ou como especificação já implementada na versão solo."
+  },
+  {
+    "id": "F98",
+    "title": "Alchemist · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Referência contemporânea de funcionamento por poções",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Alchemist",
+    "supports": "Descrição de aplicação de poções de HP/SP em si e no grupo; fabricação por Tincturing.",
+    "limitations": "Página sem revisão datada e com classificação mágica. Serve de referência posterior para design, não como kit mundano ou ficha de lançamento."
   }
 ]

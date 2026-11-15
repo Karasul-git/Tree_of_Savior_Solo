@@ -10,6 +10,8 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 **Direção solo:** remover classes mágicas. O catálogo preserva as classes originais para consulta; a seleção nominal e os casos híbridos estão nas [diretrizes do projeto](docs/projeto-solo/diretrizes.md).
 
+**Scout será classe base da versão solo**, aproveitando a separação posterior das árvores. O [estudo de suporte e cura sem magia](docs/projeto-solo/scout-e-suporte-sem-magia.md) avalia classes físicas e adaptações por itens, alquimia e medicina de campo.
+
 ## Explore todas as classes
 
 **[Abrir catálogo de 2016](docs/classes/catalogo-2016.md)** — 55 classes, 382 habilidades com resumos em português e 165 imagens originais. A versão navegável permite filtrar por árvore/rank, buscar habilidades e alternar os visuais.
