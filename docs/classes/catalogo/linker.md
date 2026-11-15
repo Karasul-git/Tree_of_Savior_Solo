@@ -32,3 +32,5 @@ Fonte das habilidades: [F55](../../fontes.md#f55), captura de **2016-03-31**. Os
 Esta ficha de panorama inclui os círculos compatíveis com o limite de **Rank 7**, com classes ocultas em C1. Não introduzimos habilidades de círculos de expansão posterior. Nomes históricos foram preservados, inclusive quando a grafia difere de guias ou versões mais novas.
 
 A adaptação solo **removerá classes mágicas**. Esta página preserva o original para consulta; a seleção nominal e o tratamento de híbridos estão nas [diretrizes do projeto](../../projeto-solo/diretrizes.md).
+
+**Decisão solo de 15/11/2026:** Linker fica removido da seleção solo. Esta ficha preserva sua referência histórica. [Ver seleção consolidada](../../projeto-solo/diretrizes.md).

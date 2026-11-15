@@ -2,9 +2,18 @@
 
 [Diretrizes solo](diretrizes.md) · [Catálogo histórico](../classes/catalogo-2016.md) · [Fontes](../fontes.md)
 
-**Estudo de 15/11/2026.** Scout como classe base e árvore própria é uma decisão do projeto. As distribuições e transformações abaixo são propostas de design, apoiadas por referências históricas e posteriores identificadas separadamente.
+**Estudo de 15/11/2026.** Scout como classe base e árvore própria é uma decisão do projeto. A seleção aprovada está abaixo; as transformações de habilidades continuam propostas de design, apoiadas por referências históricas e posteriores identificadas separadamente.
 
 **Orientação posterior do proprietário:** reaproveitar o máximo do original. Poções existentes são o ponto de partida para recuperação; a necessidade de habilidades adicionais ainda não foi demonstrada. As conversões deste estudo são alternativas exploratórias. A próxima etapa passa a ser revisar recursos originais e a organização das classes, antes de criar novos kits.
+
+## Resultado da revisão do proprietário
+
+- **Alchemist e Plague Doctor entram em Scout.** A seleção de classe está aprovada; os detalhes de adaptação não estão definidos.
+- **Linker e Thaumaturge saem da seleção solo.** As sugestões anteriores de convertê-los em outros ofícios ficam descartadas nesta etapa.
+- **Enchanter permanece fora**, pelo critério de magia. Classes posteriores serão avaliadas em outra oportunidade.
+- **Templar permanece no ramo de Swordsman**, para o qual **Warrior** é o nome provisório sugerido. Ele já pertencia a esse ramo em 2016; a decisão preserva sua posição e abre a discussão do nome da base.
+
+O catálogo histórico mantém os nomes e as árvores originais. [Seleção e pendências consolidadas](diretrizes.md).
 
 ## A separação de Scout pode ser aproveitada
 
@@ -52,13 +61,11 @@ Há um precedente posterior particularmente útil: o FAQ oficial de janeiro de 2
 | Alchemist | Alquimista / boticário | Preparados, coleta, tratamento de materiais e serviços. | Remover projéteis de energia e efeitos dimensionais ou substituí-los por outras habilidades. |
 | Plague Doctor | Médico de campo | Máscara, fumigação, prevenção e tratamento de estados. | Cura instantânea sobrenatural e propagação de efeitos exigem redesenho; curativos e aplicação de preparados são propostas novas. |
 | Priest / Cleric | Socorrista | Função de recuperação e proteção. | Círculos sagrados e ressurreição não se preservam por renomeação; eventual reanimação precisaria de regras próprias. |
-| Thaumaturge | Preparador / especialista em estimulantes | Função de reforçar capacidades. | Crescer membros, trocar atributos e controlar círculos mágicos exigem substituição de mecânicas e efeitos. |
-| Linker | Coordenador tático | Coordenação e preparação de alvos. | Compartilhar dano à distância continua sobrenatural; marcações e vulnerabilidades seriam outro desenho. |
 | Dievdirbys | Artesão de dispositivos | Instalar estruturas para sustentar uma posição. | Transporte divino, invulnerabilidade e estátuas ofensivas mágicas exigem revisão profunda. |
 
-As colunas de identidade e adaptação são sugestões deste estudo. As funções originais estão nas fichas [Alchemist](../classes/catalogo/alchemist.md), [Plague Doctor](../classes/catalogo/plague-doctor.md), [Priest](../classes/catalogo/priest.md), [Cleric](../classes/catalogo/cleric.md), [Thaumaturge](../classes/catalogo/thaumaturge.md), [Linker](../classes/catalogo/linker.md) e [Dievdirbys](../classes/catalogo/dievdirbys.md). Uma animação reaproveitável não garante um efeito adequado à nova proposta.
+As colunas de identidade e adaptação são sugestões deste estudo. As funções originais estão nas fichas [Alchemist](../classes/catalogo/alchemist.md), [Plague Doctor](../classes/catalogo/plague-doctor.md), [Priest](../classes/catalogo/priest.md), [Cleric](../classes/catalogo/cleric.md) e [Dievdirbys](../classes/catalogo/dievdirbys.md). Somente Alchemist e Plague Doctor foram selecionados para Scout; os outros exemplos não são inclusões aprovadas. Uma animação reaproveitável não garante um efeito adequado à nova proposta.
 
-**Prioridade revisada:** avaliar Templar, Squire e Corsair como suportes originais, além dos consumíveis disponíveis. Alchemist e Plague Doctor continuam candidatos independentes e sem destino definido. Uma eventual relação de progressão entre eles seria uma adaptação nossa; não existia como sequência de classes em 2016. [F61](../fontes.md#f61) · [F92](../fontes.md#f92)
+**Prioridade revisada:** consolidar a árvore solo e reaproveitar habilidades de suporte e consumíveis originais. Alchemist e Plague Doctor ficam em Scout como classes independentes. Uma eventual relação de progressão entre eles seria uma decisão adicional; não existia como sequência de classes em 2016. [F61](../fontes.md#f61) · [F92](../fontes.md#f92)
 
 ## Como a cura pode funcionar num jogo solo?
 
@@ -85,4 +92,4 @@ Essas regras precisam ser testadas contra duração dos confrontos, dano recebid
 
 Não há implementação de gameplay nesta atualização da wiki. Sem o cliente e a base técnica definidos, a viabilidade de cada mudança continua pendente.
 
-**Próximo passo recomendado:** revisar este estudo, levantar o suporte e os consumíveis originais e reavaliar a organização das classes. Novos kits só devem entrar depois dessa comparação de reaproveitamento.
+**Próximo passo recomendado:** montar a distribuição inicial das classes físicas entre Warrior (nome provisório), Archer e Scout. Depois, comparar habilidades originais de Alchemist e Plague Doctor para escolher o reaproveitamento com menos alterações.

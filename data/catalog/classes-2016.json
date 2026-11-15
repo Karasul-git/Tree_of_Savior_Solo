@@ -1134,7 +1134,7 @@
       "archive_url": "https://web.archive.org/web/20160330104305id_/http://www.tosbase.com:80/game/classes/Templar",
       "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Templar",
       "image_historical_status": "official-current-asset; 2016 identity unverified",
-      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "solo_selection": "selected-for-melee-branch; Warrior-name-provisional",
       "client_build_verified": false
     },
     {
@@ -1540,7 +1540,7 @@
       "archive_url": "https://web.archive.org/web/20160331171322id_/http://www.tosbase.com:80/game/classes/Linker",
       "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Linker",
       "image_historical_status": "official-current-asset; 2016 identity unverified",
-      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "solo_selection": "removed-from-solo",
       "client_build_verified": false
     },
     {
@@ -1798,7 +1798,7 @@
       "archive_url": "https://web.archive.org/web/20160331180347id_/http://www.tosbase.com:80/game/classes/Thaumaturge",
       "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Thaumaturge",
       "image_historical_status": "official-current-asset; 2016 identity unverified",
-      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "solo_selection": "removed-from-solo",
       "client_build_verified": false
     },
     {
@@ -2074,7 +2074,7 @@
       "archive_url": "https://web.archive.org/web/20160330104344id_/http://www.tosbase.com:80/game/classes/Alchemist",
       "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Alchemist",
       "image_historical_status": "official-current-asset; 2016 identity unverified",
-      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "solo_selection": "selected-for-scout; original-skill-review-pending",
       "client_build_verified": false
     },
     {
@@ -4548,7 +4548,7 @@
       "archive_url": "https://web.archive.org/web/20160330112352id_/http://www.tosbase.com:80/game/classes/Plague-Doctor",
       "official_image_page": "https://treeofsavior.com/page/class/view.php?c=PlagueDoctor",
       "image_historical_status": "official-current-asset; 2016 identity unverified",
-      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "solo_selection": "selected-for-scout; original-skill-review-pending",
       "client_build_verified": false
     }
   ]

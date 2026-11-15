@@ -12,6 +12,8 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 **Scout será classe base da versão solo**, aproveitando a separação posterior das árvores. O [estudo de suporte e cura sem magia](docs/projeto-solo/scout-e-suporte-sem-magia.md) avalia classes físicas e adaptações por itens, alquimia e medicina de campo.
 
+**Seleção solo atual:** Alchemist e Plague Doctor entram em Scout; Linker e Thaumaturge ficam removidos. Templar permanece no ramo de Swordsman, para o qual **Warrior** é o nome provisório sugerido. [Decisões e pendências](docs/projeto-solo/diretrizes.md).
+
 ## Explore todas as classes
 
 **[Abrir catálogo de 2016](docs/classes/catalogo-2016.md)** — 55 classes, 382 habilidades com resumos em português e 165 imagens originais. A versão navegável permite filtrar por árvore/rank, buscar habilidades e alternar os visuais.

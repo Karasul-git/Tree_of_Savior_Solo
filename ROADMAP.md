@@ -27,7 +27,9 @@
 - [x] Registrar Scout como base com árvore própria na versão solo.
 - [x] Estudo inicial de suporte físico, cura por itens e classes ressignificáveis.
 - [ ] Inventariar primeiro o suporte e os consumíveis originais, priorizando reaproveitamento e a revisão de Templar, Squire e Corsair.
-- [ ] Reavaliar as bases e o destino de Alchemist/Plague Doctor; três bases é uma hipótese, sem sequência de evolução definida entre os especialistas.
+- [x] Definir Alchemist e Plague Doctor em Scout; remover Linker/Thaumaturge e manter Templar no ramo de combate próximo.
+- [ ] Consolidar as demais classes nos três ramos de trabalho e avaliar Warrior como nome da base de combate próximo.
+- [ ] Comparar as habilidades originais de Alchemist e Plague Doctor para adaptação mínima, sem sequência de evolução presumida.
 - [ ] Escolher o sistema de avanço e validar a nova base Scout no cliente/servidor.
 - [ ] Consolidar a seleção nominal da versão solo e o tratamento de classes híbridas.
 
