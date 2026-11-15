@@ -1,62 +1,34 @@
 # Ranks e especializações do projeto solo
 
-[Árvores navegáveis](../classes/catalogo-2016.md) · [Diretrizes solo](diretrizes.md) · [Sistema histórico](../sistemas/ranks-e-circulos.md)
+[Árvores navegáveis](../classes/catalogo-2016.md) · [Seis classes e círculos](seis-classes-habilidades-e-circulos.md) · [Diretrizes](diretrizes.md)
 
-**Estudo de 15/11/2026.** Organizar por rank ajuda a enxergar as escolhas disponíveis ao longo da progressão. A proposta trabalha até **Rank 7**, o limite do nosso catálogo de lançamento. Cada base ocupa R1; as demais classes são especializações. Não são sete classes obrigatórias nem uma cadeia de evolução entre especializações.
+**Proposta revisada em 15/11/2026:** preservar ranks e círculos, com **duas especializações novas disponíveis por rank de R2 a R7 em cada base**. Cada árvore tem 12 especializações, além da base em R1. O personagem não escolhe todas; também pode investir um avanço em outro círculo de uma classe anterior.
 
-## O que havia e o que falta
+## Proposta atual por primeiro rank disponível
 
-Mantendo os primeiros ranks de 2016 na distribuição anterior:
+Asterisco identifica rank solo proposto. Os demais ranks usam 2016 como referência, sem certificar balanceamento ou compatibilidade de habilidades. Só as posições de Templar, Alchemist e Plague Doctor já estavam definidas; as seis novas classes foram escolhidas para estudo e seus encaixes continuam propostos.
 
-| Base solo | Lacunas anteriores | Resultado da revisão |
-| --- | --- | --- |
-| Warrior, nome provisório | R5 | Monk R5 preenche a lacuna; Paladin R4 amplia as escolhas de combate e proteção. |
-| Archer | Nenhuma entre R2 e R7 | Mantém as nove especializações e seus ranks de referência. |
-| Scout | R2, R3 e R4 | Assassin e Outlaw oferecem duas opções posteriores; cobrir três lacunas exige outra decisão. |
-
-Scout era uma especialização de Archer em R4. Transformá-lo em base elimina essa escolha avançada, mas não cria automaticamente especializações nos ranks anteriores. As lacunas vêm da nossa redistribuição; não indicam falha na árvore original.
-
-## Mapa proposto por primeiro rank
-
-**Warrior 12 / Archer 9 / Scout 9 especializações.** Rank 1 contém as três bases. Asterisco identifica rank solo proposto, sem equivalência histórica. Todos os encaixes são propostas, salvo as posições de Templar, Alchemist e Plague Doctor já definidas pelo proprietário.
-
-| Rank | Warrior | Archer | Scout |
+| Rank | Warrior, nome provisório | Archer | Scout |
 | --- | --- | --- | --- |
-| 1 · base | Warrior, referência Swordsman | Archer | Scout, promovido de R4 a base |
-| 2 | Highlander, Peltasta | Quarrel Shooter, Ranger | Assassin* |
-| 3 | Barbarian, Hoplite | Hunter, Sapper | Outlaw* |
-| 4 | Cataphract, Rodelero, **Paladin** | Wugushi | Rogue* |
-| 5 | **Monk** | Fletcher | Corsair, Squire |
-| 6 | Doppelsoeldner, Fencer | Falconer | Schwarzer Reiter, Alchemist |
+| 1 · base | Warrior, referência Swordsman | Archer | Scout, promovido a base |
+| 2 | Highlander, Peltasta | Quarrel Shooter, Ranger | Assassin*, Clown* |
+| 3 | Barbarian, Hoplite | Hunter, Sapper | Outlaw*, Sheriff* |
+| 4 | Cataphract, Rodelero | Wugushi, Appraiser* | Rogue*, Ardito* |
+| 5 | Paladin*, Monk | Fletcher, Arbalester* | Corsair, Squire |
+| 6 | Doppelsoeldner, Fencer | Falconer, Mergen* | Schwarzer Reiter, Alchemist |
 | 7 | Dragoon, Templar | Cannoneer, Musketeer | Shinobi, Plague Doctor |
 
-**Proposta provisória escolhida pelo proprietário para Scout:** Assassin R2, Outlaw R3 e Rogue antecipado de R5 para R4. Escolhemos uma reorganização mínima para visualizar cobertura completa sem acrescentar uma terceira classe apenas para fechar a tabela. A sequência não significa que Assassin evolui para Outlaw ou Rogue. Não é uma decisão final de balanceamento nem uma atribuição oficial de ranks.
+**Diferenças em relação à tabela anterior:** Paladin passa de R4 para R5 na proposta, ao lado de Monk. Archer recebe Appraiser R4, Arbalester R5 e Mergen R6. Scout recebe Clown R2, Sheriff R3 e Ardito R4. Assassin R2, Outlaw R3 e Rogue R4 continuam provisórios como antes.
 
-**Alternativa para comparação, caso a proposta seja revista:** manter Rogue R5 e estudar uma terceira classe posterior. Outra possibilidade é redistribuir uma das especializações já selecionadas, após comparar seus kits. Essa alternativa antecede a nova meta de duas opções por rank, registrada abaixo.
+O Paladin histórico continua Cleric R4 e Rogue continua Archer R5. As seis referências posteriores não receberam ranks de 2016 inventados. Suas datas de introdução e antigos requisitos não foram reconstruídos neste estudo.
 
-## Nova meta e preferências: antes de mudar a tabela
+## Por que essas inclusões?
 
-**Revisão do proprietário em 15/11/2026:** manter ranks e círculos e oferecer duas especializações novas por rank de R2 a R7 em cada base. A tabela acima permanece na distribuição anterior enquanto estudamos as inclusões; nenhum rank novo foi aplicado nesta revisão.
+Na distribuição anterior, Warrior tinha três opções em R4 e apenas Monk em R5. Archer tinha uma vaga em cada R4, R5 e R6; Scout, em cada R2, R3 e R4. A mudança proposta de Paladin resolve Warrior; as seis candidatas escolhidas completam os pares nas outras duas bases.
 
-| Base | Falta uma opção em | Excesso de uma opção em |
-| --- | --- | --- |
-| Warrior | R5, com Monk | R4, com Cataphract, Rodelero e Paladin |
-| Archer | R4, R5 e R6 | Nenhum |
-| Scout | R2, R3 e R4 | Nenhum |
+[Imagens, 36 habilidades, análise sem magia e círculos propostos das seis candidatas](seis-classes-habilidades-e-circulos.md).
 
-Mover Paladin de R4 para R5 resolveria Warrior sem acrescentar outra classe, mas continua sendo uma proposta não aplicada. Se adotarmos essa mudança, faltam seis inclusões: três em Archer e três em Scout.
-
-**Escolhidas para estudo:** Appraiser, Mergen e Arbalester em Archer; Ardito, Sheriff e Clown em Scout. **Pied Piper fica como reserva, apenas se necessário. Miko e Hwarang ficam fora.** Essas preferências não aprovam automaticamente cada habilidade nem definem ranks e círculos.
-
-**Arbalester foi escolhida pelo proprietário como a terceira candidata de Archer**, completando seis classes para estudo. A comparação abaixo preserva as referências pesquisadas; Tiger Hunter e Matross não foram selecionadas.
-
-| Candidata e situação | Identidade confirmada | Questão para nosso estudo |
-| --- | --- | --- |
-| **Arbalester · escolhida para estudo** | Besta, marcação, projéteis guiados e deslocamento. [F103](../fontes.md#f103) | Comparar com Quarrel Shooter e Mergen; avaliar a tecnologia de projéteis guiados e explosões. |
-| Tiger Hunter · não selecionada | Caça, rastreamento, camuflagem e disparos. [F104](../fontes.md#f104) | Comparar com Hunter e Musketeer; conferir equipamento, pois a descrição menciona mosquete e as habilidades exibem Pistol. |
-| Matross · não selecionada | Canhão, mobilidade e sabotagem. [F105](../fontes.md#f105) | Diferenciar de Cannoneer; avaliar a chamada de bombardeio naval no contexto solo. |
-
-**Direção escolhida:** estudar Arbalester, como contraste de besta ao arco de Mergen. Isso não torna a classe automaticamente compatível com a proposta sem magia: os efeitos ainda precisam de inspeção. Todas as páginas são referências atuais, sem revisão datada; não comprovam kits de 2016 nem estabelecem círculos antigos para essas classes.
+Pied Piper permanece como reserva, apenas se necessário. Miko e Hwarang ficam fora da seleção atual. Tiger Hunter e Matross não foram escolhidas. A inclusão na árvore não aprova automaticamente cada habilidade.
 
 ## Monk em Warrior
 
@@ -70,7 +42,7 @@ Isso não torna o kit inteiro mundano. Energy Blast canaliza energia; Golden Bel
 
 ## Paladin em Warrior
 
-**Proposta de encaixe: Warrior R4. Origem: Cleric R4**, captura de 31/03/2016 [F84](../fontes.md#f84). O catálogo registra sete habilidades até C3.
+**Proposta de encaixe: Warrior R5. Origem: Cleric R4**, captura de 31/03/2016 [F84](../fontes.md#f84). O catálogo registra sete habilidades até C3.
 
 Smite e Conviction oferecem combate de impacto; proteção e resistência combinam tematicamente com Warrior. Entretanto, **o Paladin de 2016 não é um suporte físico pronto**: Restoration usa uma aura, Resist Elements concede resistência/anulação, Turn Undead pode matar instantaneamente, Conversion converte inimigos e Barrier cria uma barreira protetora.
 
@@ -91,10 +63,10 @@ Essas páginas são referências posteriores, consultadas em 15/11/2026. Não co
 
 ## Cobertura não é equilíbrio
 
-Ter uma opção em cada rank é apenas uma verificação estrutural. Não garante igualdade de poder, variedade de armas, suporte, compatibilidade de montaria ou uma boa experiência solo. As contagens são de **primeira disponibilidade**, não de todas as escolhas de círculo que poderiam existir em um avanço.
+Dois caminhos novos por rank são uma meta estrutural. Isso não garante igualdade de poder, variedade de armas, suporte ou utilidade solo. Os círculos propostos das seis candidatas estão no estudo próprio; as habilidades originais continuam separadas dessa proposta.
 
-Antecipar Rogue para R4 também pode antecipar seu acesso a círculos se adotarmos literalmente as regras antigas. Nesta etapa, **nenhum círculo, nível de desbloqueio, requisito, fórmula ou missão solo foi definido**. A avaliação da progressão deverá considerar esse efeito antes de adotar o mapa como regra de jogo.
+No limite de R7, uma classe iniciada em R5 pode atingir C3; uma iniciada em R6 pode atingir C2; uma iniciada em R7 fica em C1. Antecipar uma classe pode antecipar seus círculos: Rogue R4 e os novos encaixes exigem revisão por esse motivo. Ocultas históricas tinham regras próprias; a progressão solo delas ainda será estudada.
 
-O catálogo histórico permanece com 55 classes e 382 habilidades. O arquivo [classes-later.json](../../data/catalog/classes-later.json) guarda Assassin e Outlaw separadamente; [classes-solo.json](../../data/catalog/classes-solo.json) guarda os encaixes e ranks propostos. As 165 imagens do acervo anterior foram preservadas, com seis arquivos oficiais adicionais para as duas classes novas.
+O catálogo histórico permanece com 55 classes e 382 habilidades. As oito referências posteriores têm 49 habilidades principais resumidas e 24 imagens oficiais adicionais; o acervo visual completo passa a 189 arquivos originais. Nenhuma regra desta proposta foi implementada em servidor ou testada em cliente.
 
-**Próximo passo recomendado:** revisar as habilidades das seis candidatas escolhidas para avaliar o reaproveitamento sem magia antes de redistribuir ranks e círculos.
+**Próximo passo recomendado:** revisar as habilidades pendentes das seis candidatas e validar os círculos propostos antes de fixar números e requisitos.

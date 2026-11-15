@@ -1,6 +1,6 @@
 {
   "edition": "later-classes-research",
-  "class_count": 2,
+  "class_count": 8,
   "classes": [
     {
       "id": "assassin",
@@ -129,6 +129,372 @@
         "F102"
       ],
       "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Outlaw",
+      "client_build_verified": false
+    },
+    {
+      "id": "appraiser",
+      "name": "Appraiser",
+      "tree": "Archer",
+      "first_rank": null,
+      "hidden": true,
+      "summary": "Avaliação de itens, observação de inimigos e uso de lentes.",
+      "skills": [
+        {
+          "name": "Identify",
+          "summary": "Identifica itens em uma loja.",
+          "evidence_ids": [
+            "F106"
+          ]
+        },
+        {
+          "name": "Expose Weakness",
+          "summary": "Expõe fraquezas e favorece críticos.",
+          "evidence_ids": [
+            "F106"
+          ]
+        },
+        {
+          "name": "Devaluation",
+          "summary": "Reduz defesas do alvo.",
+          "evidence_ids": [
+            "F106"
+          ]
+        },
+        {
+          "name": "High Scale Magnifying Glass",
+          "summary": "Melhora precisão e penetração de bloqueio.",
+          "evidence_ids": [
+            "F106"
+          ]
+        },
+        {
+          "name": "Huge Magnifier",
+          "summary": "Causa dano e espalha Devaluation.",
+          "evidence_ids": [
+            "F106"
+          ]
+        },
+        {
+          "name": "Triplet Lense",
+          "summary": "Lentes atacam inimigos automaticamente.",
+          "evidence_ids": [
+            "F106"
+          ]
+        }
+      ],
+      "introduced_in_itos": null,
+      "origin_note": "Referência posterior à janela de março–abril de 2016; página oficial atual.",
+      "edition": "post-launch-window; current-official-reference",
+      "accessed": "2026-11-15",
+      "evidence_ids": [
+        "F106"
+      ],
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Appraiser",
+      "client_build_verified": false
+    },
+    {
+      "id": "mergen",
+      "name": "Mergen",
+      "tree": "Archer",
+      "first_rank": null,
+      "hidden": false,
+      "summary": "Arco de duas mãos e ataques contra grupos.",
+      "skills": [
+        {
+          "name": "Arrow Sprinkle",
+          "summary": "Lança uma chuva de flechas em área.",
+          "evidence_ids": [
+            "F107"
+          ]
+        },
+        {
+          "name": "Down Fall",
+          "summary": "Flechas caem sobre um alvo.",
+          "evidence_ids": [
+            "F107"
+          ]
+        },
+        {
+          "name": "Targeted Arrow",
+          "summary": "Dispara várias flechas mirando o inimigo.",
+          "evidence_ids": [
+            "F107"
+          ]
+        },
+        {
+          "name": "Triple Arrow",
+          "summary": "Três flechas explodem ao atingir.",
+          "evidence_ids": [
+            "F107"
+          ]
+        },
+        {
+          "name": "Spread Shot",
+          "summary": "Dispara em leque com ricochetes.",
+          "evidence_ids": [
+            "F107"
+          ]
+        },
+        {
+          "name": "Zenith",
+          "summary": "Treinamento aumenta a área de ataques.",
+          "evidence_ids": [
+            "F107"
+          ]
+        }
+      ],
+      "introduced_in_itos": null,
+      "origin_note": "Referência posterior à janela de março–abril de 2016; página oficial atual.",
+      "edition": "post-launch-window; current-official-reference",
+      "accessed": "2026-11-15",
+      "evidence_ids": [
+        "F107"
+      ],
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Mergen",
+      "client_build_verified": false
+    },
+    {
+      "id": "arbalester",
+      "name": "Arbalester",
+      "tree": "Archer",
+      "first_rank": null,
+      "hidden": false,
+      "summary": "Besta, marcação de alvos, mobilidade e projéteis guiados.",
+      "skills": [
+        {
+          "name": "Dark Judgement",
+          "summary": "Explosão marca inimigos.",
+          "evidence_ids": [
+            "F103"
+          ]
+        },
+        {
+          "name": "Dead Zone",
+          "summary": "Flechas atingem a área próxima.",
+          "evidence_ids": [
+            "F103"
+          ]
+        },
+        {
+          "name": "Escape",
+          "summary": "Recua, dispara e deixa uma marca.",
+          "evidence_ids": [
+            "F103"
+          ]
+        },
+        {
+          "name": "Fanwise Shots",
+          "summary": "Dispara vários projéteis em leque.",
+          "evidence_ids": [
+            "F103"
+          ]
+        },
+        {
+          "name": "Guided Shot",
+          "summary": "Dispara projéteis e marca alvos.",
+          "evidence_ids": [
+            "F103"
+          ]
+        },
+        {
+          "name": "Shining Burst",
+          "summary": "Dispara girando e permite movimento.",
+          "evidence_ids": [
+            "F103"
+          ]
+        }
+      ],
+      "introduced_in_itos": null,
+      "origin_note": "Referência posterior à janela de março–abril de 2016; página oficial atual.",
+      "edition": "post-launch-window; current-official-reference",
+      "accessed": "2026-11-15",
+      "evidence_ids": [
+        "F103"
+      ],
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Arbalester",
+      "client_build_verified": false
+    },
+    {
+      "id": "ardito",
+      "name": "Ardito",
+      "tree": "Scout",
+      "first_rank": null,
+      "hidden": false,
+      "summary": "Adagas, granadas, preparados e combate de assalto.",
+      "skills": [
+        {
+          "name": "Granata",
+          "summary": "Lança uma granada em área.",
+          "evidence_ids": [
+            "F108"
+          ]
+        },
+        {
+          "name": "Invasione",
+          "summary": "Estoca e interage com Gunpowder.",
+          "evidence_ids": [
+            "F108"
+          ]
+        },
+        {
+          "name": "Recupero",
+          "summary": "Seringa recupera HP e stamina próprios.",
+          "evidence_ids": [
+            "F108"
+          ]
+        },
+        {
+          "name": "Ritirarsi",
+          "summary": "Recua após soltar uma granada; evita dano.",
+          "evidence_ids": [
+            "F108"
+          ]
+        },
+        {
+          "name": "Taglio",
+          "summary": "Avança cortando e ganha mobilidade.",
+          "evidence_ids": [
+            "F108"
+          ]
+        },
+        {
+          "name": "Tre Granate",
+          "summary": "Lança três coquetéis incendiários.",
+          "evidence_ids": [
+            "F108"
+          ]
+        }
+      ],
+      "introduced_in_itos": null,
+      "origin_note": "Referência posterior à janela de março–abril de 2016; página oficial atual.",
+      "edition": "post-launch-window; current-official-reference",
+      "accessed": "2026-11-15",
+      "evidence_ids": [
+        "F108"
+      ],
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Ardito",
+      "client_build_verified": false
+    },
+    {
+      "id": "sheriff",
+      "name": "Sheriff",
+      "tree": "Scout",
+      "first_rank": null,
+      "hidden": false,
+      "summary": "Pistolas, mobilidade, precisão e duelo.",
+      "skills": [
+        {
+          "name": "Aiming Shot",
+          "summary": "Tiro inevitável remove benefícios inimigos.",
+          "evidence_ids": [
+            "F109"
+          ]
+        },
+        {
+          "name": "Fanning",
+          "summary": "Dispara alternando pistolas.",
+          "evidence_ids": [
+            "F109"
+          ]
+        },
+        {
+          "name": "Peacemaker",
+          "summary": "Explosivo prejudica o alvo.",
+          "evidence_ids": [
+            "F109"
+          ]
+        },
+        {
+          "name": "Quick Draw",
+          "summary": "Saca e dispara rapidamente.",
+          "evidence_ids": [
+            "F109"
+          ]
+        },
+        {
+          "name": "Redemption",
+          "summary": "Melhora esquiva e movimento.",
+          "evidence_ids": [
+            "F109"
+          ]
+        },
+        {
+          "name": "Westraid",
+          "summary": "Recarga concede acertos garantidos.",
+          "evidence_ids": [
+            "F109"
+          ]
+        }
+      ],
+      "introduced_in_itos": null,
+      "origin_note": "Referência posterior à janela de março–abril de 2016; página oficial atual.",
+      "edition": "post-launch-window; current-official-reference",
+      "accessed": "2026-11-15",
+      "evidence_ids": [
+        "F109"
+      ],
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Sheriff",
+      "client_build_verified": false
+    },
+    {
+      "id": "clown",
+      "name": "Clown",
+      "tree": "Scout",
+      "first_rank": null,
+      "hidden": false,
+      "summary": "Facas arremessadas, movimentação e truques de combate.",
+      "skills": [
+        {
+          "name": "Climax",
+          "summary": "Arremessa facas e ativa facas no chão.",
+          "evidence_ids": [
+            "F110"
+          ]
+        },
+        {
+          "name": "Clown Walk",
+          "summary": "Passos confundem e limitam movimento inimigo.",
+          "evidence_ids": [
+            "F110"
+          ]
+        },
+        {
+          "name": "Fatal Roulette",
+          "summary": "Gira arremessando facas.",
+          "evidence_ids": [
+            "F110"
+          ]
+        },
+        {
+          "name": "Replica",
+          "summary": "Lança facas que caem e reagem a habilidades.",
+          "evidence_ids": [
+            "F110"
+          ]
+        },
+        {
+          "name": "Spinning Knife",
+          "summary": "Arremessa uma faca com trajetória de retorno.",
+          "evidence_ids": [
+            "F110"
+          ]
+        },
+        {
+          "name": "Trick or Treat",
+          "summary": "Espalha facas e aplica bônus ou penalidades.",
+          "evidence_ids": [
+            "F110"
+          ]
+        }
+      ],
+      "introduced_in_itos": null,
+      "origin_note": "Referência posterior à janela de março–abril de 2016; página oficial atual.",
+      "edition": "post-launch-window; current-official-reference",
+      "accessed": "2026-11-15",
+      "evidence_ids": [
+        "F110"
+      ],
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Clown",
       "client_build_verified": false
     }
   ]

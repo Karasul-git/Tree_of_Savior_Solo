@@ -1,0 +1,277 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "proposed-not-implemented-in-game",
+  "max_rank": 7,
+  "classes": [
+    {
+      "class_id": "appraiser",
+      "base_id": "archer",
+      "solo_rank": 4,
+      "max_circle_in_scope": 3,
+      "status": "proposed",
+      "skills": [
+        {
+          "name": "Identify",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "Preservar identificação; conferir a utilidade da loja na economia solo."
+        },
+        {
+          "name": "Expose Weakness",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "A leitura de pontos vulneráveis combina com observação e treinamento."
+        },
+        {
+          "name": "Devaluation",
+          "circle_proposed": 2,
+          "assessment": "review",
+          "note": "Conferir como enfraquecer equipamento sem atribuir poder sobrenatural à lupa."
+        },
+        {
+          "name": "High Scale Magnifying Glass",
+          "circle_proposed": 2,
+          "assessment": "reuse",
+          "note": "Pode manter a identidade de análise e mira."
+        },
+        {
+          "name": "Huge Magnifier",
+          "circle_proposed": 3,
+          "assessment": "review",
+          "note": "Inspecionar dano e animação; a propagação do efeito ainda não tem explicação mundana definida."
+        },
+        {
+          "name": "Triplet Lense",
+          "circle_proposed": 3,
+          "assessment": "hold",
+          "note": "Lentes autônomas não têm mecanismo físico confirmado; não inventar um substituto agora."
+        }
+      ]
+    },
+    {
+      "class_id": "mergen",
+      "base_id": "archer",
+      "solo_rank": 6,
+      "max_circle_in_scope": 2,
+      "status": "proposed",
+      "skills": [
+        {
+          "name": "Arrow Sprinkle",
+          "circle_proposed": 2,
+          "assessment": "reuse",
+          "note": "Preservar a ideia de uma salva; conferir a origem visual dos projéteis."
+        },
+        {
+          "name": "Down Fall",
+          "circle_proposed": 2,
+          "assessment": "reuse",
+          "note": "Manter disparos balísticos se a animação sustentar a leitura física."
+        },
+        {
+          "name": "Targeted Arrow",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "Oferece um ataque dirigido logo no primeiro círculo."
+        },
+        {
+          "name": "Triple Arrow",
+          "circle_proposed": 2,
+          "assessment": "review",
+          "note": "Avaliar munição explosiva original e seus efeitos; a interpretação química ainda é proposta."
+        },
+        {
+          "name": "Spread Shot",
+          "circle_proposed": 1,
+          "assessment": "review",
+          "note": "Verificar se ricochetes e efeitos visuais podem permanecer como técnica física."
+        },
+        {
+          "name": "Zenith",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "Preservar como domínio técnico; valores modernos não serão importados."
+        }
+      ]
+    },
+    {
+      "class_id": "arbalester",
+      "base_id": "archer",
+      "solo_rank": 5,
+      "max_circle_in_scope": 3,
+      "status": "proposed",
+      "skills": [
+        {
+          "name": "Dark Judgement",
+          "circle_proposed": 3,
+          "assessment": "review",
+          "note": "Inspecionar a explosão e seu recurso material antes de adotar uma explicação química."
+        },
+        {
+          "name": "Dead Zone",
+          "circle_proposed": 2,
+          "assessment": "reuse",
+          "note": "Pode funcionar como uma sequência de disparos."
+        },
+        {
+          "name": "Escape",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "Mobilidade e posicionamento combinam com a besta."
+        },
+        {
+          "name": "Fanwise Shots",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "Reaproveitar a técnica de disparo."
+        },
+        {
+          "name": "Guided Shot",
+          "circle_proposed": 2,
+          "assessment": "review",
+          "note": "A fonte cita tecnologia de guiagem; seu mecanismo precisa ser inspecionado."
+        },
+        {
+          "name": "Shining Burst",
+          "circle_proposed": 3,
+          "assessment": "reuse",
+          "note": "Conferir animação e equipamento; não exige criar um novo sistema."
+        }
+      ]
+    },
+    {
+      "class_id": "ardito",
+      "base_id": "scout",
+      "solo_rank": 4,
+      "max_circle_in_scope": 3,
+      "status": "proposed",
+      "skills": [
+        {
+          "name": "Granata",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "Preservar explosivos como itens, com consumo e disponibilidade a conferir."
+        },
+        {
+          "name": "Invasione",
+          "circle_proposed": 1,
+          "assessment": "review",
+          "note": "Revisar a interação que amplia o ataque; não importar automaticamente os bônus atuais."
+        },
+        {
+          "name": "Recupero",
+          "circle_proposed": 2,
+          "assessment": "reuse",
+          "note": "É autocura existente por recurso material; não transforma Ardito em curador de grupo."
+        },
+        {
+          "name": "Ritirarsi",
+          "circle_proposed": 2,
+          "assessment": "review",
+          "note": "Distinguir uma janela de esquiva de proteção sobrenatural; inspecionar a animação."
+        },
+        {
+          "name": "Taglio",
+          "circle_proposed": 3,
+          "assessment": "reuse",
+          "note": "Pode manter a identidade de movimento e ataque."
+        },
+        {
+          "name": "Tre Granate",
+          "circle_proposed": 3,
+          "assessment": "reuse",
+          "note": "Fogo por combustível não implica magia; confirmar recursos e efeitos originais."
+        }
+      ]
+    },
+    {
+      "class_id": "sheriff",
+      "base_id": "scout",
+      "solo_rank": 3,
+      "max_circle_in_scope": 3,
+      "status": "proposed",
+      "skills": [
+        {
+          "name": "Aiming Shot",
+          "circle_proposed": 3,
+          "assessment": "review",
+          "note": "Acerto garantido e remoção genérica de benefícios exigem revisão de regras."
+        },
+        {
+          "name": "Fanning",
+          "circle_proposed": 2,
+          "assessment": "reuse",
+          "note": "Preservar técnica de disparo; conferir equipamento e animação."
+        },
+        {
+          "name": "Peacemaker",
+          "circle_proposed": 2,
+          "assessment": "review",
+          "note": "Avaliar explosivo, silêncio e redução de defesa sem presumir que todo efeito já seja mundano."
+        },
+        {
+          "name": "Quick Draw",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "Ataque inicial de pistola com identidade clara."
+        },
+        {
+          "name": "Redemption",
+          "circle_proposed": 1,
+          "assessment": "reuse",
+          "note": "Tratar como técnica evasiva, conferindo efeitos visuais."
+        },
+        {
+          "name": "Westraid",
+          "circle_proposed": 3,
+          "assessment": "review",
+          "note": "A recarga é material; a garantia absoluta de acerto precisa ser avaliada."
+        }
+      ]
+    },
+    {
+      "class_id": "clown",
+      "base_id": "scout",
+      "solo_rank": 2,
+      "max_circle_in_scope": 3,
+      "status": "proposed",
+      "skills": [
+        {
+          "name": "Climax",
+          "circle_proposed": 3,
+          "assessment": "review",
+          "note": "O ataque direto pode ser físico; a ativação autônoma de facas precisa de inspeção."
+        },
+        {
+          "name": "Clown Walk",
+          "circle_proposed": 1,
+          "assessment": "review",
+          "note": "Avaliar distração e controle; imobilização automática pode exigir ajuste."
+        },
+        {
+          "name": "Fatal Roulette",
+          "circle_proposed": 2,
+          "assessment": "reuse",
+          "note": "Preservar a técnica de lançamento e conferir a interação com facas no chão."
+        },
+        {
+          "name": "Replica",
+          "circle_proposed": 3,
+          "assessment": "review",
+          "note": "A queda pode permanecer; as facas voltando sozinhas aos alvos exigem revisão."
+        },
+        {
+          "name": "Spinning Knife",
+          "circle_proposed": 1,
+          "assessment": "review",
+          "note": "Inspecionar o retorno e as ativações no chão; não presumir telecinese como aceitável."
+        },
+        {
+          "name": "Trick or Treat",
+          "circle_proposed": 2,
+          "assessment": "review",
+          "note": "Conferir a leitura de truque material e os recursos usados, sem criar ferramentas novas."
+        }
+      ]
+    }
+  ]
+}

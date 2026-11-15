@@ -57,14 +57,14 @@ function mount(url, classId = '', mobile = false) {
 
 test('selecionar Scout, filtrar poções e voltar restaura a árvore, a busca e o visual', () => {
   const app = mount('https://example.test/docs/classes/catalogo-2016.html');
-  assert.equal(app.nodes.get('#catalog-count').textContent, '30 de 30 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '36 de 36 especializações');
   app.click('?view=solo&base=scout#arvore', { base: 'scout' });
-  assert.equal(app.nodes.get('#catalog-count').textContent, '9 de 9 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '12 de 12 especializações');
   app.fields.query.value = 'pocoes';
   app.fields.visual.value = 'male';
   app.filter();
   const restore = app.sandbox.location.href;
-  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 9 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 12 especializações');
   assert.ok(app.nodes.get('#tree-branches').innerHTML.includes('/alchemist/male.gif'));
   const detail = mount('https://example.test/docs/classes/catalogo/alchemist.html' + app.sandbox.location.search, 'alchemist');
   assert.ok(detail.nodes.get('#class-tree-context').innerHTML.includes('base=scout&query=pocoes&visual=male#arvore'));
@@ -72,7 +72,7 @@ test('selecionar Scout, filtrar poções e voltar restaura a árvore, a busca e 
   app.pop(restore);
   assert.equal(app.fields.query.value, 'pocoes');
   assert.equal(app.fields.visual.value, 'male');
-  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 9 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 12 especializações');
 });
 
 test('alternar a visão limpa filtros, habilita os controles históricos e permite reset', () => {
@@ -104,7 +104,7 @@ test('filtro de rank solo persiste em URL, retorno da ficha e navegação para t
   app.fields.rank.value = '4';
   app.filter();
   const restore = app.sandbox.location.href;
-  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 9 especializações');
+  assert.equal(app.nodes.get('#catalog-count').textContent, '2 de 12 especializações');
   assert.ok(app.nodes.get('#tree-branches').innerHTML.includes('data-catalog-entry="rogue"'));
   const detail = mount('https://example.test/docs/classes/catalogo/rogue.html' + app.sandbox.location.search, 'rogue');
   assert.ok(detail.nodes.get('#class-tree-context').innerHTML.includes('base=scout&rank=4#arvore'));
@@ -112,6 +112,6 @@ test('filtro de rank solo persiste em URL, retorno da ficha e navegação para t
   assert.equal(app.fields.rank.value, '');
   app.pop(restore);
   assert.equal(app.fields.rank.value, '4');
-  assert.equal(app.nodes.get('#catalog-count').textContent, '1 de 9 especializações');
-  assert.ok(app.nodes.get('#rank-coverage').innerHTML.includes('Scout tinha lacunas em R2–R4'));
+  assert.equal(app.nodes.get('#catalog-count').textContent, '2 de 12 especializações');
+  assert.ok(app.nodes.get('#rank-coverage').innerHTML.includes('Meta: duas especializações por rank'));
 });

@@ -19,5 +19,47 @@
     "html_sha256": "f1af4b49da4029cdf1bcb91ff34982f3f82e7a867e604be9e4ba3122e31709a5",
     "bytes": 17452,
     "url": "https://treeofsavior.com/page/class/view.php?c=Outlaw"
+  },
+  {
+    "source_id": "F106",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "191549ec6230e3f4f7e2774cb74aea9e2a5a9f59e15d7dbf08a81fc3d0df47e0",
+    "bytes": 13090,
+    "url": "https://treeofsavior.com/page/class/view.php?c=Appraiser"
+  },
+  {
+    "source_id": "F107",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "28013f05b346e6cacea972e6c305cfbc05691b26c8dc8448504a3cec89acdb83",
+    "bytes": 14177,
+    "url": "https://treeofsavior.com/page/class/view.php?c=Mergen"
+  },
+  {
+    "source_id": "F103",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "26a63d4ebc77a321684c221beb77636ffa23159c2e8efb0da25403f0fb47cbe3",
+    "bytes": 14155,
+    "url": "https://treeofsavior.com/page/class/view.php?c=Arbalester"
+  },
+  {
+    "source_id": "F108",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "01c5839f15aead8eae9d2c2877a2d4358bdee261ba8fa94f2943c1909b03e922",
+    "bytes": 15858,
+    "url": "https://treeofsavior.com/page/class/view.php?c=Ardito"
+  },
+  {
+    "source_id": "F109",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "71e8d4da97198a3a5dcce1b5f571474bb2a8babdfa28813b45df4cef40f2c85a",
+    "bytes": 14766,
+    "url": "https://treeofsavior.com/page/class/view.php?c=Sheriff"
+  },
+  {
+    "source_id": "F110",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "003ec4b203aa84fd0c665c39e9d501420081e1954c7d655c7bdc061d37152623",
+    "bytes": 14439,
+    "url": "https://treeofsavior.com/page/class/view.php?c=Clown"
   }
 ]

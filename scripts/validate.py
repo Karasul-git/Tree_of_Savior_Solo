@@ -129,7 +129,10 @@ for entry in later['classes']:
     if entry.get('first_rank') is not None or not entry.get('edition') or not entry.get('skills'):
         errors.append(f'Later class missing version or assigned a historical rank: {entry["id"]}')
     date.fromisoformat(entry['accessed'])
-    date.fromisoformat(entry['introduced_in_itos'])
+    if entry.get('introduced_in_itos'):
+        date.fromisoformat(entry['introduced_in_itos'])
+    elif not entry.get('origin_note'):
+        errors.append('Later reference missing origin context when introduction date is unknown')
     if not (ROOT / f'docs/classes/catalogo/{entry["id"]}.md').exists():
         errors.append(f'Missing later class page: {entry["id"]}')
     if len({s['name'] for s in entry['skills']}) != len(entry['skills']):
@@ -166,6 +169,31 @@ if defined != {'templar', 'alchemist', 'plague-doctor'}:
     errors.append('Solo placement status differs from approved decisions')
 if set(solo_ids) & (set(solo['removed_class_ids']) | set(solo['pending_class_ids'])):
     errors.append('Removed/pending class assigned to solo tree')
+if solo.get('options_per_rank') == 2:
+    for base in solo['bases']:
+        for rank in range(2, 8):
+            if sum(c['solo_rank'] == rank for c in base['classes']) != 2:
+                errors.append(f'Solo rank must have two options: {base["id"]}/R{rank}')
+proposal = json.loads((ROOT / 'data/proposals/six-classes-solo.json').read_text())
+proposal_ids = [c['class_id'] for c in proposal['classes']]
+if len(proposal_ids) != len(set(proposal_ids)) or set(proposal_ids) != {'appraiser', 'mergen', 'arbalester', 'ardito', 'sheriff', 'clown'}:
+    errors.append('Invalid six-class proposal set')
+for c in proposal['classes']:
+    reference = next((r for r in later['classes'] if r['id'] == c['class_id']), None)
+    base = next((b for b in solo['bases'] if b['id'] == c['base_id']), None)
+    position = next((p for p in (base or {}).get('classes', []) if p['class_id'] == c['class_id']), None)
+    if not reference or not position or position['solo_rank'] != c['solo_rank'] or c['status'] != 'proposed':
+        errors.append('Proposal differs from solo arrangement')
+        continue
+    cap = min(3, 8 - c['solo_rank'])
+    if c['max_circle_in_scope'] != cap:
+        errors.append('Proposal circle cap exceeds rank-7 scope')
+    names = [s['name'] for s in c['skills']]
+    if len(names) != len(set(names)) or set(names) != {s['name'] for s in reference['skills']}:
+        errors.append('Proposal skills differ from reference inventory')
+    for s in c['skills']:
+        if s['circle_proposed'] not in range(1, cap + 1) or s['assessment'] not in ['reuse', 'review', 'hold'] or not s['note']:
+            errors.append('Invalid skill proposal circle, assessment or note')
 for snapshot in json.loads((ROOT / 'data/research/catalog-snapshots.json').read_text()):
     if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
         errors.append('Invalid catalog snapshot provenance')

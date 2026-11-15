@@ -25,6 +25,7 @@ const documents = [
   ...catalog.classes.map(c => [`docs/classes/catalogo/${c.id}.md`, `${c.name} · Panorama de 2016`]),
   ...catalog.later_classes.map(c => [`docs/classes/catalogo/${c.id}.md`, `${c.name} · Referência posterior`]),
   ['docs/projeto-solo/ranks-e-especializacoes.md', 'Ranks e especializações solo'],
+  ['docs/projeto-solo/seis-classes-habilidades-e-circulos.md', 'Seis classes · Habilidades e círculos propostos'],
   ['docs/projeto-solo/diretrizes.md', 'Diretrizes da versão solo'],
   ['docs/projeto-solo/scout-e-suporte-sem-magia.md', 'Scout e suporte sem magia'],
   ...classes.map(c => [`docs/classes/${c.slug}.md`, `${c.name} · ${c.pt}`]),
@@ -52,7 +53,7 @@ function shell(title, current, content, toc = [], classInfo) {
   const contextClass = allClasses.find(c => current === `docs/classes/catalogo/${c.id}.html` || current === `docs/classes/${c.id}.html`);
   const treeState = readTreeState('', catalog, solo, contextClass?.id);
   const nav = [
-    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/ranks-e-especializacoes.html', 'Ranks e especializações solo'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
+    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/ranks-e-especializacoes.html', 'Ranks e especializações solo'), link('docs/projeto-solo/seis-classes-habilidades-e-circulos.html', 'Seis classes e círculos'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
     `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
     group('ENTENDA A ÉPOCA', [link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build')]),
     group('PRESERVAR A MEMÓRIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('ROADMAP.html', 'Próximas etapas'), link('CONTRIBUTING.html', 'Como contribuir')]),
@@ -65,7 +66,7 @@ function shell(title, current, content, toc = [], classInfo) {
 <script src="${base}search-index.js" defer></script><script src="${base}tree-data.js" defer></script><script src="${base}assets/app.js" defer></script></head>
 <body><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 <aside id="sidebar" class="sidebar"><a class="brand" href="${base}index.html"><img src="${base}docs/assets/classes/scout/icon.png" width="45" height="45" alt=""><span>TREE OF SAVIOR<small>MEMÓRIAS DO LANÇAMENTO</small></span></a>
-<div class="edition"><span class="status-dot"></span> <span id="edition-view">${treeState.view === 'solo' ? 'Projeto solo' : 'Original de 2016'}</span> <span>v0.6</span></div>
+<div class="edition"><span class="status-dot"></span> <span id="edition-view">${treeState.view === 'solo' ? 'Projeto solo' : 'Original de 2016'}</span> <span>v0.7</span></div>
 <nav aria-label="Navegação principal">${nav}</nav><div class="sidebar-bottom"><span>Um mundo que vale guardar.</span><a href="${repoURL}" target="_blank" rel="noopener noreferrer">Projeto no GitHub ↗</a></div></aside>
 <button id="menu-shade" tabindex="-1" aria-label="Fechar menu"></button>
 <div class="page-shell"><header class="topbar"><div class="topbar-left"><button id="menu-toggle" class="icon-button" aria-label="Abrir menu" aria-controls="sidebar" aria-expanded="false">☰</button><span class="breadcrumb">O acervo <span>/</span> <strong>${escape(title)}</strong></span></div>
@@ -153,7 +154,7 @@ const manifest = JSON.parse(await readFile(path.join(root, 'data/assets.json'), 
 for (const c of allClasses.map(c => ({ slug: c.id, name: c.name, historical: Boolean(c.first_rank) }))) {
   const current = `docs/assets/classes/${c.slug}/index.html`;
   const assets = manifest.filter(asset => asset.class_id === c.slug);
-  const content = `<h1>Acervo visual · ${c.name}</h1><p>Arquivos originais da IMC Games preservados nesta edição. A identidade dos arquivos com a versão de ${c.historical ? '2016' : '2019'} ainda não foi comprovada.</p><p><a href="../../../classes/catalogo/${c.slug}.html">Voltar à ficha de ${c.name}</a> · <a href="../../../imagens.html">Procedência das imagens</a></p><div class="asset-gallery">${assets.map(asset => `<figure><img src="${path.posix.basename(asset.path)}" alt="${escape(c.name + ' · ' + asset.role)}"><figcaption>${escape(asset.role)} · ${asset.bytes.toLocaleString('pt-BR')} bytes<br><a href="${escape(asset.source_url)}">Origem oficial ↗</a></figcaption></figure>`).join('')}</div>`;
+  const content = `<h1>Acervo visual · ${c.name}</h1><p>Arquivos originais da IMC Games preservados nesta edição. A identidade dos arquivos com ${c.historical ? 'a versão de 2016' : 'uma edição antiga correspondente'} ainda não foi comprovada.</p><p><a href="../../../classes/catalogo/${c.slug}.html">Voltar à ficha de ${c.name}</a> · <a href="../../../imagens.html">Procedência das imagens</a></p><div class="asset-gallery">${assets.map(asset => `<figure><img src="${path.posix.basename(asset.path)}" alt="${escape(c.name + ' · ' + asset.role)}"><figcaption>${escape(asset.role)} · ${asset.bytes.toLocaleString('pt-BR')} bytes<br><a href="${escape(asset.source_url)}">Origem oficial ↗</a></figcaption></figure>`).join('')}</div>`;
   await writeFile(path.join(dist, current), shell(`Imagens de ${c.name}`, current, content));
 }
 await writeFile(path.join(dist, 'search-index.js'), 'window.WIKI_SEARCH=' + JSON.stringify(searchIndex).replaceAll('<', '\\u003c') + ';\n');

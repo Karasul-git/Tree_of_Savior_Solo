@@ -1306,9 +1306,9 @@
     "published": null,
     "accessed": "2026-11-15",
     "kind": "official-current",
-    "scope": "Pesquisa de alternativa posterior para Archer; sem inclusão aprovada",
+    "scope": "Referência posterior à janela de lançamento: identidade, habilidades e imagens",
     "url": "https://treeofsavior.com/page/class/view.php?c=Arbalester",
-    "supports": "Besta, tecnologia de projéteis guiados, marcação e deslocamento.",
+    "supports": "Identidade, seis habilidades principais, emblema e visuais oficiais de Arbalester.",
     "limitations": "Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte."
   },
   {
@@ -1334,5 +1334,65 @@
     "url": "https://treeofsavior.com/page/class/view.php?c=Matross",
     "supports": "Combate de canhão com mobilidade e sabotagem, incluindo chamada de bombardeio naval.",
     "limitations": "Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte."
+  },
+  {
+    "id": "F106",
+    "title": "Appraiser · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Referência posterior à janela de lançamento: identidade, habilidades e imagens",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Appraiser",
+    "supports": "Identidade, seis habilidades principais, emblema e visuais oficiais de Appraiser.",
+    "limitations": "Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas."
+  },
+  {
+    "id": "F107",
+    "title": "Mergen · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Referência posterior à janela de lançamento: identidade, habilidades e imagens",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Mergen",
+    "supports": "Identidade, seis habilidades principais, emblema e visuais oficiais de Mergen.",
+    "limitations": "Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas."
+  },
+  {
+    "id": "F108",
+    "title": "Ardito · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Referência posterior à janela de lançamento: identidade, habilidades e imagens",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Ardito",
+    "supports": "Identidade, seis habilidades principais, emblema e visuais oficiais de Ardito.",
+    "limitations": "Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas."
+  },
+  {
+    "id": "F109",
+    "title": "Sheriff · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Referência posterior à janela de lançamento: identidade, habilidades e imagens",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Sheriff",
+    "supports": "Identidade, seis habilidades principais, emblema e visuais oficiais de Sheriff.",
+    "limitations": "Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas."
+  },
+  {
+    "id": "F110",
+    "title": "Clown · página oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Referência posterior à janela de lançamento: identidade, habilidades e imagens",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Clown",
+    "supports": "Identidade, seis habilidades principais, emblema e visuais oficiais de Clown.",
+    "limitations": "Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas."
   }
 ]

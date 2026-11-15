@@ -913,3 +913,28 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F105 · Matross · página oficial atual
 
 [Matross · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Matross) — IMC Games, sem data de revisão; consulta em 15/11/2026. Combate de canhão com mobilidade e sabotagem, incluindo chamada de bombardeio naval. **Limite:** Página atual sem revisão datada; não comprova kit histórico nem fornece ranks e círculos antigos. Compatibilidade sem magia é avaliação de projeto, não classificação garantida pela fonte.
+
+<a id="f106"></a>
+### F106 · Appraiser · página oficial atual
+
+[Appraiser · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Appraiser) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, seis habilidades principais, emblema e visuais oficiais de Appraiser. **Limite:** Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas.
+
+<a id="f107"></a>
+### F107 · Mergen · página oficial atual
+
+[Mergen · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Mergen) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, seis habilidades principais, emblema e visuais oficiais de Mergen. **Limite:** Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas.
+
+<a id="f108"></a>
+### F108 · Ardito · página oficial atual
+
+[Ardito · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Ardito) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, seis habilidades principais, emblema e visuais oficiais de Ardito. **Limite:** Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas.
+
+<a id="f109"></a>
+### F109 · Sheriff · página oficial atual
+
+[Sheriff · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Sheriff) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, seis habilidades principais, emblema e visuais oficiais de Sheriff. **Limite:** Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas.
+
+<a id="f110"></a>
+### F110 · Clown · página oficial atual
+
+[Clown · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Clown) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, seis habilidades principais, emblema e visuais oficiais de Clown. **Limite:** Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas.

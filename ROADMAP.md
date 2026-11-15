@@ -28,7 +28,7 @@
 - [x] Estudo inicial de suporte físico, cura por itens e classes ressignificáveis.
 - [ ] Inventariar primeiro o suporte e os consumíveis originais, priorizando reaproveitamento e a revisão de Templar, Squire e Corsair.
 - [x] Definir Alchemist e Plague Doctor em Scout; remover Linker/Thaumaturge e manter Templar no ramo de combate próximo.
-- [x] Publicar distribuição provisória de 12/9/9 especializações, distinguindo posições definidas e propostas.
+- [x] Publicar distribuição provisória de 12/12/12 especializações, distinguindo posições definidas e propostas.
 - [x] Organização por rank com quadro de cobertura e filtros nas duas visões.
 - [x] Estudo de Monk/Paladin em Warrior e Assassin/Outlaw em Scout, com fontes e imagens oficiais adicionais.
 - [ ] Validar Assassin R2, Outlaw R3 e Rogue R4 e estudar o impacto nos círculos.
@@ -63,3 +63,11 @@ Após a seleção solo, pesquisar um par por vez. As fichas de panorama abaixo j
 Mapas e rotas de grind; monstros, spawns e drops; equipamentos e receitas; NPCs e missões; atributos e fórmulas; economia e sistemas. A cobertura será medida por área, sem chamar o acervo de completo antes da verificação.
 
 As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki preserva a referência histórica.
+
+## Seis candidatas posteriores · estudo inicial
+
+- [x] Appraiser, Mergen, Arbalester, Ardito, Sheriff e Clown: 18 imagens oficiais, 36 habilidades principais e avaliações sem magia.
+- [x] Publicar proposta de duas especializações novas por rank, com a mudança proposta de Paladin para R5.
+- [x] Separar círculos propostos dos dados oficiais atuais, respeitando o teto de R7.
+- [ ] Revisar Triplet Lense, facas reativas, guiagem de projéteis e demais efeitos pendentes.
+- [ ] Validar os pares e círculos antes de definir pontos, níveis e números.

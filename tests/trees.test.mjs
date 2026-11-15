@@ -9,11 +9,11 @@ catalog.later_classes = JSON.parse(readFileSync(new URL('../data/catalog/classes
 const solo = JSON.parse(readFileSync(new URL('../data/catalog/classes-solo.json', import.meta.url)));
 const soloState = readTreeState('', catalog, solo);
 
-test('a entrada solo tem 12/9/9 especializações e somente três posições definidas', () => {
+test('a entrada solo tem 12/12/12 especializações e somente três posições definidas', () => {
   assert.equal(soloState.view, 'solo');
-  assert.deepEqual(treeBases(catalog, solo).map(b => b.classes.length), [12, 9, 9]);
-  assert.equal(treeVisibleCount(catalog, solo, soloState).total, 30);
-  assert.equal(new Set(solo.bases.flatMap(b => [b.source_class_id, ...b.classes.map(c => c.class_id)])).size, 33);
+  assert.deepEqual(treeBases(catalog, solo).map(b => b.classes.length), [12, 12, 12]);
+  assert.equal(treeVisibleCount(catalog, solo, soloState).total, 36);
+  assert.equal(new Set(solo.bases.flatMap(b => [b.source_class_id, ...b.classes.map(c => c.class_id)])).size, 39);
   assert.deepEqual(solo.bases.flatMap(b => b.classes.filter(c => c.placement_status === 'defined').map(c => c.class_id)).sort(), ['alchemist', 'plague-doctor', 'templar']);
   assert.equal(soloMembership(solo, 'linker'), null);
   assert.equal(soloMembership(solo, 'thaumaturge'), null);
@@ -95,9 +95,9 @@ test('as três bases cobrem R2–R7 e os ranks propostos não alteram a históri
   for (const base of solo.bases) {
     assert.ok(treeRankCoverage(catalog, base).every(r => r.count > 0));
   }
-  assert.deepEqual(treeRankCoverage(catalog, solo.bases[0]).map(r => r.count), [2, 2, 3, 1, 2, 2]);
+  assert.deepEqual(treeRankCoverage(catalog, solo.bases[0]).map(r => r.count), [2, 2, 2, 2, 2, 2]);
   assert.deepEqual(treeRankCoverage(catalog, solo.bases[2]).filter(r => r.proposed).map(r => r.rank), [2, 3, 4]);
-  const state = readTreeState('?view=solo&base=scout&rank=4', catalog, solo);
+  const state = readTreeState('?view=solo&base=scout&query=rogue&rank=4', catalog, solo);
   assert.deepEqual(branchEntries(catalog, solo.bases[2], state).map(c => c.id), ['rogue']);
   assert.equal(catalog.classes.find(c => c.id === 'rogue').first_rank, 5);
   const historical = readTreeState('?view=2016&base=archer&rank=5&query=rogue', catalog, solo);
@@ -109,22 +109,22 @@ test('as três bases cobrem R2–R7 e os ranks propostos não alteram a históri
 
 test('classes posteriores abrem Scout com versão explícita e não entram em 2016', () => {
   assert.equal(catalog.classes.length, 55);
-  for (const id of ['assassin', 'outlaw']) {
+  for (const id of catalog.later_classes.map(c => c.id)) {
     assert.ok(!treeBases(catalog, solo, '2016').some(b => b.classes.some(c => c.class_id === id)));
     const state = readTreeState('?view=2016', catalog, solo, id);
     assert.equal(state.view, 'solo');
-    assert.equal(state.base, 'scout');
+    assert.equal(state.base, catalog.later_classes.find(c => c.id === id).tree.toLowerCase());
     const html = renderClassContext(catalog, solo, state, id, '../../../');
     assert.ok(html.includes('Habilidades da página oficial atual'));
     const page = readFileSync(new URL(`../dist/docs/classes/catalogo/${id}.html`, import.meta.url), 'utf8');
-    assert.ok(page.includes('Não pertence ao catálogo de 2016'));
+    assert.ok(page.includes('Não pertence ao catálogo de 2016') || page.includes('Fora do recorte de março–abril de 2016'));
     assert.ok(page.includes('data-class-id="' + id + '"'));
   }
 });
 
 test('a detecção de lacunas funciona antes de se propor novos ranks', () => {
   const scout = solo.bases[2];
-  const oldScout = { ...scout, classes: scout.classes.filter(c => !['assassin', 'outlaw'].includes(c.class_id))
+  const oldScout = { ...scout, classes: scout.classes.filter(c => !['assassin', 'outlaw', 'clown', 'sheriff', 'ardito'].includes(c.class_id))
     .map(c => c.class_id === 'rogue' ? { ...c, solo_rank: 5, rank_status: 'historical-reference' } : c) };
   assert.deepEqual(treeRankCoverage(catalog, oldScout).filter(r => !r.count).map(r => r.rank), [2, 3, 4]);
   const oldSolo = { ...solo, bases: [oldScout] };

@@ -36,4 +36,4 @@ A adaptação solo **removerá classes mágicas**. Esta página preserva o origi
 
 ## Proposta solo em Warrior
 
-O estudo de 15/11/2026 propõe esta classe em Warrior, preservando seu rank histórico como referência. A posição ainda é proposta e o kit contém efeitos sobrenaturais; a transferência não aprova automaticamente todas as habilidades. [Estudo de ranks e reaproveitamento](../../projeto-solo/ranks-e-especializacoes.md).
+O estudo de 15/11/2026 propõe esta classe em Warrior, com R5 solo proposto e R4 histórico preservado como referência. A posição ainda é proposta e o kit contém efeitos sobrenaturais; a transferência não aprova automaticamente todas as habilidades. [Estudo de ranks e reaproveitamento](../../projeto-solo/ranks-e-especializacoes.md).

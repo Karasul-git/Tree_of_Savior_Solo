@@ -71,8 +71,8 @@
         {
           "class_id": "paladin",
           "placement_status": "proposed",
-          "solo_rank": 4,
-          "rank_status": "historical-reference"
+          "solo_rank": 5,
+          "rank_status": "proposed"
         },
         {
           "class_id": "monk",
@@ -141,6 +141,24 @@
           "placement_status": "proposed",
           "solo_rank": 7,
           "rank_status": "historical-reference"
+        },
+        {
+          "class_id": "appraiser",
+          "placement_status": "proposed",
+          "solo_rank": 4,
+          "rank_status": "proposed"
+        },
+        {
+          "class_id": "mergen",
+          "placement_status": "proposed",
+          "solo_rank": 6,
+          "rank_status": "proposed"
+        },
+        {
+          "class_id": "arbalester",
+          "placement_status": "proposed",
+          "solo_rank": 5,
+          "rank_status": "proposed"
         }
       ]
     },
@@ -203,6 +221,24 @@
           "placement_status": "proposed",
           "solo_rank": 3,
           "rank_status": "proposed"
+        },
+        {
+          "class_id": "ardito",
+          "placement_status": "proposed",
+          "solo_rank": 4,
+          "rank_status": "proposed"
+        },
+        {
+          "class_id": "sheriff",
+          "placement_status": "proposed",
+          "solo_rank": 3,
+          "rank_status": "proposed"
+        },
+        {
+          "class_id": "clown",
+          "placement_status": "proposed",
+          "solo_rank": 2,
+          "rank_status": "proposed"
         }
       ]
     }
@@ -212,5 +248,6 @@
     "thaumaturge"
   ],
   "pending_class_ids": [],
-  "notes": "Ranks solo organizam a proposta até R7; não definem níveis, círculos, pré-requisitos ou habilidades adaptadas. Assassin R2, Outlaw R3 e Rogue R4 são propostas provisórias escolhidas pelo proprietário; Rogue continua R5 no catálogo histórico. Monk e Paladin têm encaixe proposto em Warrior, com revisão de habilidades pendente."
+  "notes": "Proposta de duas especializações por rank de R2 a R7 em cada base. As seis classes escolhidas para estudo e Paladin R5 têm ranks propostos; sem alteração do catálogo histórico. Círculos das seis candidatas estão em data/proposals/six-classes-solo.json e não são habilidades implementadas no jogo.",
+  "options_per_rank": 2
 }
