@@ -52,4 +52,6 @@
 - Definir habilidades especiais e fases dos chefes.
 - Estrutura das masmorras (salas, duração, recompensas).
 
-**Próximo passo recomendado:** com o combate básico fechado no papel, montar a **curva de experiência**: quanta experiência cada nível pede e quanto os monstros dão, para chegar ao nível 280 no ritmo que você quiser.
+A [curva de experiência](curva-de-experiencia.md) foi montada em seguida.
+
+**Próximo passo recomendado:** reunir o balanceamento numa página-resumo.

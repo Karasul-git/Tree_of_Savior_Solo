@@ -1,0 +1,2057 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "owner-targets-numbers-provisional",
+  "source_id": "F124",
+  "decisions": {
+    "total_hours_to_280": 150,
+    "pace": "fast-early-slow-late",
+    "exp_split": "equal",
+    "rank_levels": {
+      "R1": 1,
+      "R2": 15,
+      "R3": 45,
+      "R4": 80,
+      "R5": 115,
+      "R6": 155,
+      "R7": 200
+    },
+    "decided_at": "2026-11-15"
+  },
+  "model": {
+    "minutes_per_level": "2 + a × nível^1,5",
+    "a": 0.01616,
+    "kills_per_minute_solo": 4,
+    "note": "Sozinho, ~15 s por monstro (4 a 8 habilidades a cada 2 s, mais deslocamento). Em grupo, o grupo mata 4× mais rápido e a experiência é dividida igualmente, então o ritmo por membro é o mesmo.",
+    "monster_exp": "Experiência mediana dos monstros do Melia por nível, sem alteração; a tabela de níveis é que muda."
+  },
+  "milestone_hours": {
+    "1": 0,
+    "15": 0.55,
+    "45": 2.89,
+    "80": 8.7,
+    "115": 18.91,
+    "155": 37.1,
+    "200": 67.19,
+    "280": 150.0
+  },
+  "class_exp_by_rank": [
+    {
+      "rank": 1,
+      "from_level": 1,
+      "to_level": 15,
+      "hours": 0.6,
+      "job_exp_per_monster": 74,
+      "class_exp_per_class_level": 651,
+      "class_exp_total": 9768
+    },
+    {
+      "rank": 2,
+      "from_level": 15,
+      "to_level": 45,
+      "hours": 2.3,
+      "job_exp_per_monster": 216,
+      "class_exp_per_class_level": 8087,
+      "class_exp_total": 121306
+    },
+    {
+      "rank": 3,
+      "from_level": 45,
+      "to_level": 80,
+      "hours": 5.8,
+      "job_exp_per_monster": 544,
+      "class_exp_per_class_level": 50570,
+      "class_exp_total": 758554
+    },
+    {
+      "rank": 4,
+      "from_level": 80,
+      "to_level": 115,
+      "hours": 10.2,
+      "job_exp_per_monster": 1038,
+      "class_exp_per_class_level": 169568,
+      "class_exp_total": 2543515
+    },
+    {
+      "rank": 5,
+      "from_level": 115,
+      "to_level": 155,
+      "hours": 18.2,
+      "job_exp_per_monster": 1974,
+      "class_exp_per_class_level": 574513,
+      "class_exp_total": 8617694
+    },
+    {
+      "rank": 6,
+      "from_level": 155,
+      "to_level": 200,
+      "hours": 30.1,
+      "job_exp_per_monster": 2587,
+      "class_exp_per_class_level": 1245485,
+      "class_exp_total": 18682279
+    },
+    {
+      "rank": 7,
+      "from_level": 200,
+      "to_level": 280,
+      "hours": 82.8,
+      "job_exp_per_monster": 6180,
+      "class_exp_per_class_level": 8188253,
+      "class_exp_total": 122823792
+    }
+  ],
+  "base_exp_table": [
+    {
+      "level": 1,
+      "minutes": 2.02,
+      "monster_exp": 80,
+      "exp_to_next": 645,
+      "melia_exp_to_next": 8
+    },
+    {
+      "level": 2,
+      "minutes": 2.05,
+      "monster_exp": 80,
+      "exp_to_next": 655,
+      "melia_exp_to_next": 272
+    },
+    {
+      "level": 3,
+      "minutes": 2.08,
+      "monster_exp": 80,
+      "exp_to_next": 667,
+      "melia_exp_to_next": 462
+    },
+    {
+      "level": 4,
+      "minutes": 2.13,
+      "monster_exp": 80,
+      "exp_to_next": 681,
+      "melia_exp_to_next": 702
+    },
+    {
+      "level": 5,
+      "minutes": 2.18,
+      "monster_exp": 80,
+      "exp_to_next": 698,
+      "melia_exp_to_next": 990
+    },
+    {
+      "level": 6,
+      "minutes": 2.24,
+      "monster_exp": 81,
+      "exp_to_next": 725,
+      "melia_exp_to_next": 1326
+    },
+    {
+      "level": 7,
+      "minutes": 2.3,
+      "monster_exp": 82,
+      "exp_to_next": 754,
+      "melia_exp_to_next": 1691
+    },
+    {
+      "level": 8,
+      "minutes": 2.37,
+      "monster_exp": 83,
+      "exp_to_next": 785,
+      "melia_exp_to_next": 2200
+    },
+    {
+      "level": 9,
+      "minutes": 2.44,
+      "monster_exp": 83,
+      "exp_to_next": 809,
+      "melia_exp_to_next": 2640
+    },
+    {
+      "level": 10,
+      "minutes": 2.51,
+      "monster_exp": 85,
+      "exp_to_next": 854,
+      "melia_exp_to_next": 3120
+    },
+    {
+      "level": 11,
+      "minutes": 2.59,
+      "monster_exp": 83,
+      "exp_to_next": 860,
+      "melia_exp_to_next": 3640
+    },
+    {
+      "level": 12,
+      "minutes": 2.67,
+      "monster_exp": 118,
+      "exp_to_next": 1261,
+      "melia_exp_to_next": 4200
+    },
+    {
+      "level": 13,
+      "minutes": 2.76,
+      "monster_exp": 121,
+      "exp_to_next": 1335,
+      "melia_exp_to_next": 4800
+    },
+    {
+      "level": 14,
+      "minutes": 2.85,
+      "monster_exp": 123,
+      "exp_to_next": 1400,
+      "melia_exp_to_next": 5406
+    },
+    {
+      "level": 15,
+      "minutes": 2.94,
+      "monster_exp": 128,
+      "exp_to_next": 1505,
+      "melia_exp_to_next": 6084
+    },
+    {
+      "level": 16,
+      "minutes": 3.03,
+      "monster_exp": 138,
+      "exp_to_next": 1675,
+      "melia_exp_to_next": 1755
+    },
+    {
+      "level": 17,
+      "minutes": 3.13,
+      "monster_exp": 144,
+      "exp_to_next": 1804,
+      "melia_exp_to_next": 4510
+    },
+    {
+      "level": 18,
+      "minutes": 3.23,
+      "monster_exp": 147,
+      "exp_to_next": 1902,
+      "melia_exp_to_next": 7138
+    },
+    {
+      "level": 19,
+      "minutes": 3.34,
+      "monster_exp": 157,
+      "exp_to_next": 2096,
+      "melia_exp_to_next": 9765
+    },
+    {
+      "level": 20,
+      "minutes": 3.45,
+      "monster_exp": 165,
+      "exp_to_next": 2274,
+      "melia_exp_to_next": 12502
+    },
+    {
+      "level": 21,
+      "minutes": 3.56,
+      "monster_exp": 170,
+      "exp_to_next": 2417,
+      "melia_exp_to_next": 15288
+    },
+    {
+      "level": 22,
+      "minutes": 3.67,
+      "monster_exp": 176,
+      "exp_to_next": 2582,
+      "melia_exp_to_next": 18156
+    },
+    {
+      "level": 23,
+      "minutes": 3.78,
+      "monster_exp": 186,
+      "exp_to_next": 2814,
+      "melia_exp_to_next": 21147
+    },
+    {
+      "level": 24,
+      "minutes": 3.9,
+      "monster_exp": 194,
+      "exp_to_next": 3026,
+      "melia_exp_to_next": 24696
+    },
+    {
+      "level": 25,
+      "minutes": 4.02,
+      "monster_exp": 198,
+      "exp_to_next": 3184,
+      "melia_exp_to_next": 28014
+    },
+    {
+      "level": 26,
+      "minutes": 4.14,
+      "monster_exp": 198,
+      "exp_to_next": 3281,
+      "melia_exp_to_next": 31380
+    },
+    {
+      "level": 27,
+      "minutes": 4.27,
+      "monster_exp": 201,
+      "exp_to_next": 3431,
+      "melia_exp_to_next": 34844
+    },
+    {
+      "level": 28,
+      "minutes": 4.39,
+      "monster_exp": 203,
+      "exp_to_next": 3568,
+      "melia_exp_to_next": 38464
+    },
+    {
+      "level": 29,
+      "minutes": 4.52,
+      "monster_exp": 211,
+      "exp_to_next": 3818,
+      "melia_exp_to_next": 42174
+    },
+    {
+      "level": 30,
+      "minutes": 4.66,
+      "monster_exp": 220,
+      "exp_to_next": 4097,
+      "melia_exp_to_next": 46036
+    },
+    {
+      "level": 31,
+      "minutes": 4.79,
+      "monster_exp": 228,
+      "exp_to_next": 4368,
+      "melia_exp_to_next": 49980
+    },
+    {
+      "level": 32,
+      "minutes": 4.93,
+      "monster_exp": 238,
+      "exp_to_next": 4689,
+      "melia_exp_to_next": 54750
+    },
+    {
+      "level": 33,
+      "minutes": 5.06,
+      "monster_exp": 243,
+      "exp_to_next": 4922,
+      "melia_exp_to_next": 58950
+    },
+    {
+      "level": 34,
+      "minutes": 5.2,
+      "monster_exp": 250,
+      "exp_to_next": 5204,
+      "melia_exp_to_next": 63294
+    },
+    {
+      "level": 35,
+      "minutes": 5.35,
+      "monster_exp": 257,
+      "exp_to_next": 5496,
+      "melia_exp_to_next": 67703
+    },
+    {
+      "level": 36,
+      "minutes": 5.49,
+      "monster_exp": 268,
+      "exp_to_next": 5886,
+      "melia_exp_to_next": 72252
+    },
+    {
+      "level": 37,
+      "minutes": 5.64,
+      "monster_exp": 278,
+      "exp_to_next": 6268,
+      "melia_exp_to_next": 76941
+    },
+    {
+      "level": 38,
+      "minutes": 5.79,
+      "monster_exp": 292,
+      "exp_to_next": 6757,
+      "melia_exp_to_next": 81685
+    },
+    {
+      "level": 39,
+      "minutes": 5.94,
+      "monster_exp": 316,
+      "exp_to_next": 7503,
+      "melia_exp_to_next": 86565
+    },
+    {
+      "level": 40,
+      "minutes": 6.09,
+      "monster_exp": 364,
+      "exp_to_next": 8864,
+      "melia_exp_to_next": 92610
+    },
+    {
+      "level": 41,
+      "minutes": 6.24,
+      "monster_exp": 395,
+      "exp_to_next": 9863,
+      "melia_exp_to_next": 97796
+    },
+    {
+      "level": 42,
+      "minutes": 6.4,
+      "monster_exp": 427,
+      "exp_to_next": 10929,
+      "melia_exp_to_next": 103024
+    },
+    {
+      "level": 43,
+      "minutes": 6.56,
+      "monster_exp": 448,
+      "exp_to_next": 11749,
+      "melia_exp_to_next": 108384
+    },
+    {
+      "level": 44,
+      "minutes": 6.72,
+      "monster_exp": 454,
+      "exp_to_next": 12197,
+      "melia_exp_to_next": 113778
+    },
+    {
+      "level": 45,
+      "minutes": 6.88,
+      "monster_exp": 494,
+      "exp_to_next": 13591,
+      "melia_exp_to_next": 119400
+    },
+    {
+      "level": 46,
+      "minutes": 7.04,
+      "monster_exp": 509,
+      "exp_to_next": 14337,
+      "melia_exp_to_next": 7752
+    },
+    {
+      "level": 47,
+      "minutes": 7.21,
+      "monster_exp": 520,
+      "exp_to_next": 14990,
+      "melia_exp_to_next": 19635
+    },
+    {
+      "level": 48,
+      "minutes": 7.37,
+      "monster_exp": 538,
+      "exp_to_next": 15869,
+      "melia_exp_to_next": 30174
+    },
+    {
+      "level": 49,
+      "minutes": 7.54,
+      "monster_exp": 548,
+      "exp_to_next": 16534,
+      "melia_exp_to_next": 40221
+    },
+    {
+      "level": 50,
+      "minutes": 7.71,
+      "monster_exp": 556,
+      "exp_to_next": 17154,
+      "melia_exp_to_next": 50172
+    },
+    {
+      "level": 51,
+      "minutes": 7.89,
+      "monster_exp": 572,
+      "exp_to_next": 18042,
+      "melia_exp_to_next": 59890
+    },
+    {
+      "level": 52,
+      "minutes": 8.06,
+      "monster_exp": 572,
+      "exp_to_next": 18440,
+      "melia_exp_to_next": 69690
+    },
+    {
+      "level": 53,
+      "minutes": 8.24,
+      "monster_exp": 573,
+      "exp_to_next": 18875,
+      "melia_exp_to_next": 79560
+    },
+    {
+      "level": 54,
+      "minutes": 8.41,
+      "monster_exp": 574,
+      "exp_to_next": 19315,
+      "melia_exp_to_next": 89369
+    },
+    {
+      "level": 55,
+      "minutes": 8.59,
+      "monster_exp": 588,
+      "exp_to_next": 20207,
+      "melia_exp_to_next": 100162
+    },
+    {
+      "level": 56,
+      "minutes": 8.77,
+      "monster_exp": 598,
+      "exp_to_next": 20983,
+      "melia_exp_to_next": 110236
+    },
+    {
+      "level": 57,
+      "minutes": 8.95,
+      "monster_exp": 628,
+      "exp_to_next": 22493,
+      "melia_exp_to_next": 120582
+    },
+    {
+      "level": 58,
+      "minutes": 9.14,
+      "monster_exp": 633,
+      "exp_to_next": 23137,
+      "melia_exp_to_next": 130944
+    },
+    {
+      "level": 59,
+      "minutes": 9.32,
+      "monster_exp": 639,
+      "exp_to_next": 23830,
+      "melia_exp_to_next": 141310
+    },
+    {
+      "level": 60,
+      "minutes": 9.51,
+      "monster_exp": 674,
+      "exp_to_next": 25640,
+      "melia_exp_to_next": 151932
+    },
+    {
+      "level": 61,
+      "minutes": 9.7,
+      "monster_exp": 683,
+      "exp_to_next": 26497,
+      "melia_exp_to_next": 162676
+    },
+    {
+      "level": 62,
+      "minutes": 9.89,
+      "monster_exp": 692,
+      "exp_to_next": 27373,
+      "melia_exp_to_next": 173672
+    },
+    {
+      "level": 63,
+      "minutes": 10.08,
+      "monster_exp": 692,
+      "exp_to_next": 27903,
+      "melia_exp_to_next": 185982
+    },
+    {
+      "level": 64,
+      "minutes": 10.27,
+      "monster_exp": 692,
+      "exp_to_next": 28438,
+      "melia_exp_to_next": 197259
+    },
+    {
+      "level": 65,
+      "minutes": 10.47,
+      "monster_exp": 692,
+      "exp_to_next": 28977,
+      "melia_exp_to_next": 208637
+    },
+    {
+      "level": 66,
+      "minutes": 10.66,
+      "monster_exp": 710,
+      "exp_to_next": 30287,
+      "melia_exp_to_next": 220255
+    },
+    {
+      "level": 67,
+      "minutes": 10.86,
+      "monster_exp": 725,
+      "exp_to_next": 31501,
+      "melia_exp_to_next": 231966
+    },
+    {
+      "level": 68,
+      "minutes": 11.06,
+      "monster_exp": 747,
+      "exp_to_next": 33051,
+      "melia_exp_to_next": 243764
+    },
+    {
+      "level": 69,
+      "minutes": 11.26,
+      "monster_exp": 766,
+      "exp_to_next": 34507,
+      "melia_exp_to_next": 255794
+    },
+    {
+      "level": 70,
+      "minutes": 11.46,
+      "monster_exp": 796,
+      "exp_to_next": 36502,
+      "melia_exp_to_next": 268056
+    },
+    {
+      "level": 71,
+      "minutes": 11.67,
+      "monster_exp": 835,
+      "exp_to_next": 38970,
+      "melia_exp_to_next": 282048
+    },
+    {
+      "level": 72,
+      "minutes": 11.87,
+      "monster_exp": 845,
+      "exp_to_next": 40129,
+      "melia_exp_to_next": 294670
+    },
+    {
+      "level": 73,
+      "minutes": 12.08,
+      "monster_exp": 886,
+      "exp_to_next": 42808,
+      "melia_exp_to_next": 307360
+    },
+    {
+      "level": 74,
+      "minutes": 12.29,
+      "monster_exp": 928,
+      "exp_to_next": 45609,
+      "melia_exp_to_next": 320274
+    },
+    {
+      "level": 75,
+      "minutes": 12.5,
+      "monster_exp": 938,
+      "exp_to_next": 46885,
+      "melia_exp_to_next": 333248
+    },
+    {
+      "level": 76,
+      "minutes": 12.71,
+      "monster_exp": 1004,
+      "exp_to_next": 51030,
+      "melia_exp_to_next": 346442
+    },
+    {
+      "level": 77,
+      "minutes": 12.92,
+      "monster_exp": 1037,
+      "exp_to_next": 53586,
+      "melia_exp_to_next": 359856
+    },
+    {
+      "level": 78,
+      "minutes": 13.13,
+      "monster_exp": 1037,
+      "exp_to_next": 54472,
+      "melia_exp_to_next": 373320
+    },
+    {
+      "level": 79,
+      "minutes": 13.35,
+      "monster_exp": 1060,
+      "exp_to_next": 56590,
+      "melia_exp_to_next": 389250
+    },
+    {
+      "level": 80,
+      "minutes": 13.56,
+      "monster_exp": 1060,
+      "exp_to_next": 57507,
+      "melia_exp_to_next": 403025
+    },
+    {
+      "level": 81,
+      "minutes": 13.78,
+      "monster_exp": 1083,
+      "exp_to_next": 59697,
+      "melia_exp_to_next": 417012
+    },
+    {
+      "level": 82,
+      "minutes": 14.0,
+      "monster_exp": 1106,
+      "exp_to_next": 61932,
+      "melia_exp_to_next": 431211
+    },
+    {
+      "level": 83,
+      "minutes": 14.22,
+      "monster_exp": 1129,
+      "exp_to_next": 64215,
+      "melia_exp_to_next": 445622
+    },
+    {
+      "level": 84,
+      "minutes": 14.44,
+      "monster_exp": 1138,
+      "exp_to_next": 65735,
+      "melia_exp_to_next": 460062
+    },
+    {
+      "level": 85,
+      "minutes": 14.66,
+      "monster_exp": 1165,
+      "exp_to_next": 68333,
+      "melia_exp_to_next": 474895
+    },
+    {
+      "level": 86,
+      "minutes": 14.89,
+      "monster_exp": 1177,
+      "exp_to_next": 70092,
+      "melia_exp_to_next": 20757
+    },
+    {
+      "level": 87,
+      "minutes": 15.11,
+      "monster_exp": 1177,
+      "exp_to_next": 71153,
+      "melia_exp_to_next": 52060
+    },
+    {
+      "level": 88,
+      "minutes": 15.34,
+      "monster_exp": 1218,
+      "exp_to_next": 74736,
+      "melia_exp_to_next": 79296
+    },
+    {
+      "level": 89,
+      "minutes": 15.57,
+      "monster_exp": 1218,
+      "exp_to_next": 75847,
+      "melia_exp_to_next": 104954
+    },
+    {
+      "level": 90,
+      "minutes": 15.8,
+      "monster_exp": 1250,
+      "exp_to_next": 78987,
+      "melia_exp_to_next": 129556
+    },
+    {
+      "level": 91,
+      "minutes": 16.03,
+      "monster_exp": 1250,
+      "exp_to_next": 80140,
+      "melia_exp_to_next": 153648
+    },
+    {
+      "level": 92,
+      "minutes": 16.26,
+      "monster_exp": 1272,
+      "exp_to_next": 82730,
+      "melia_exp_to_next": 177400
+    },
+    {
+      "level": 93,
+      "minutes": 16.49,
+      "monster_exp": 1300,
+      "exp_to_next": 85763,
+      "melia_exp_to_next": 200990
+    },
+    {
+      "level": 94,
+      "minutes": 16.73,
+      "monster_exp": 1430,
+      "exp_to_next": 95680,
+      "melia_exp_to_next": 225295
+    },
+    {
+      "level": 95,
+      "minutes": 16.96,
+      "monster_exp": 1470,
+      "exp_to_next": 99742,
+      "melia_exp_to_next": 248814
+    },
+    {
+      "level": 96,
+      "minutes": 17.2,
+      "monster_exp": 1538,
+      "exp_to_next": 105813,
+      "melia_exp_to_next": 272118
+    },
+    {
+      "level": 97,
+      "minutes": 17.44,
+      "monster_exp": 1566,
+      "exp_to_next": 109231,
+      "melia_exp_to_next": 295400
+    },
+    {
+      "level": 98,
+      "minutes": 17.68,
+      "monster_exp": 1651,
+      "exp_to_next": 116741,
+      "melia_exp_to_next": 318861
+    },
+    {
+      "level": 99,
+      "minutes": 17.92,
+      "monster_exp": 1709,
+      "exp_to_next": 122486,
+      "melia_exp_to_next": 342280
+    },
+    {
+      "level": 100,
+      "minutes": 18.16,
+      "monster_exp": 1738,
+      "exp_to_next": 126246,
+      "melia_exp_to_next": 365645
+    },
+    {
+      "level": 101,
+      "minutes": 18.4,
+      "monster_exp": 1758,
+      "exp_to_next": 129407,
+      "melia_exp_to_next": 389382
+    },
+    {
+      "level": 102,
+      "minutes": 18.65,
+      "monster_exp": 1821,
+      "exp_to_next": 135824,
+      "melia_exp_to_next": 414918
+    },
+    {
+      "level": 103,
+      "minutes": 18.89,
+      "monster_exp": 1878,
+      "exp_to_next": 141919,
+      "melia_exp_to_next": 438816
+    },
+    {
+      "level": 104,
+      "minutes": 19.14,
+      "monster_exp": 1946,
+      "exp_to_next": 148977,
+      "melia_exp_to_next": 462848
+    },
+    {
+      "level": 105,
+      "minutes": 19.39,
+      "monster_exp": 1917,
+      "exp_to_next": 148657,
+      "melia_exp_to_next": 487008
+    },
+    {
+      "level": 106,
+      "minutes": 19.64,
+      "monster_exp": 1932,
+      "exp_to_next": 151744,
+      "melia_exp_to_next": 511290
+    },
+    {
+      "level": 107,
+      "minutes": 19.89,
+      "monster_exp": 1950,
+      "exp_to_next": 155109,
+      "melia_exp_to_next": 535921
+    },
+    {
+      "level": 108,
+      "minutes": 20.14,
+      "monster_exp": 1950,
+      "exp_to_next": 157069,
+      "melia_exp_to_next": 560428
+    },
+    {
+      "level": 109,
+      "minutes": 20.39,
+      "monster_exp": 2013,
+      "exp_to_next": 164177,
+      "melia_exp_to_next": 585280
+    },
+    {
+      "level": 110,
+      "minutes": 20.64,
+      "monster_exp": 2050,
+      "exp_to_next": 169274,
+      "melia_exp_to_next": 612796
+    },
+    {
+      "level": 111,
+      "minutes": 20.9,
+      "monster_exp": 2209,
+      "exp_to_next": 184655,
+      "melia_exp_to_next": 637928
+    },
+    {
+      "level": 112,
+      "minutes": 21.15,
+      "monster_exp": 2192,
+      "exp_to_next": 185478,
+      "melia_exp_to_next": 663390
+    },
+    {
+      "level": 113,
+      "minutes": 21.41,
+      "monster_exp": 2142,
+      "exp_to_next": 183450,
+      "melia_exp_to_next": 688940
+    },
+    {
+      "level": 114,
+      "minutes": 21.67,
+      "monster_exp": 2174,
+      "exp_to_next": 188436,
+      "melia_exp_to_next": 714818
+    },
+    {
+      "level": 115,
+      "minutes": 21.93,
+      "monster_exp": 2207,
+      "exp_to_next": 193586,
+      "melia_exp_to_next": 740776
+    },
+    {
+      "level": 116,
+      "minutes": 22.19,
+      "monster_exp": 2207,
+      "exp_to_next": 195886,
+      "melia_exp_to_next": 766804
+    },
+    {
+      "level": 117,
+      "minutes": 22.45,
+      "monster_exp": 2224,
+      "exp_to_next": 199722,
+      "melia_exp_to_next": 793156
+    },
+    {
+      "level": 118,
+      "minutes": 22.71,
+      "monster_exp": 2241,
+      "exp_to_next": 203604,
+      "melia_exp_to_next": 822784
+    },
+    {
+      "level": 119,
+      "minutes": 22.98,
+      "monster_exp": 2274,
+      "exp_to_next": 209003,
+      "melia_exp_to_next": 849592
+    },
+    {
+      "level": 120,
+      "minutes": 23.24,
+      "monster_exp": 2302,
+      "exp_to_next": 214016,
+      "melia_exp_to_next": 876460
+    },
+    {
+      "level": 121,
+      "minutes": 23.51,
+      "monster_exp": 2308,
+      "exp_to_next": 217030,
+      "melia_exp_to_next": 903640
+    },
+    {
+      "level": 122,
+      "minutes": 23.78,
+      "monster_exp": 2377,
+      "exp_to_next": 226059,
+      "melia_exp_to_next": 931128
+    },
+    {
+      "level": 123,
+      "minutes": 24.04,
+      "monster_exp": 2481,
+      "exp_to_next": 238612,
+      "melia_exp_to_next": 958664
+    },
+    {
+      "level": 124,
+      "minutes": 24.31,
+      "monster_exp": 2718,
+      "exp_to_next": 264334,
+      "melia_exp_to_next": 986508
+    },
+    {
+      "level": 125,
+      "minutes": 24.58,
+      "monster_exp": 2648,
+      "exp_to_next": 260391,
+      "melia_exp_to_next": 1014388
+    },
+    {
+      "level": 126,
+      "minutes": 24.86,
+      "monster_exp": 2878,
+      "exp_to_next": 286135,
+      "melia_exp_to_next": 1046410
+    },
+    {
+      "level": 127,
+      "minutes": 25.13,
+      "monster_exp": 2925,
+      "exp_to_next": 293997,
+      "melia_exp_to_next": 1074700
+    },
+    {
+      "level": 128,
+      "minutes": 25.4,
+      "monster_exp": 3019,
+      "exp_to_next": 306750,
+      "melia_exp_to_next": 1103290
+    },
+    {
+      "level": 129,
+      "minutes": 25.68,
+      "monster_exp": 3019,
+      "exp_to_next": 310069,
+      "melia_exp_to_next": 1132184
+    },
+    {
+      "level": 130,
+      "minutes": 25.95,
+      "monster_exp": 3067,
+      "exp_to_next": 318382,
+      "melia_exp_to_next": 1161372
+    },
+    {
+      "level": 131,
+      "minutes": 26.23,
+      "monster_exp": 3115,
+      "exp_to_next": 326816,
+      "melia_exp_to_next": 1190580
+    },
+    {
+      "level": 132,
+      "minutes": 26.51,
+      "monster_exp": 3163,
+      "exp_to_next": 335368,
+      "melia_exp_to_next": 1220084
+    },
+    {
+      "level": 133,
+      "minutes": 26.79,
+      "monster_exp": 3213,
+      "exp_to_next": 344256,
+      "melia_exp_to_next": 1249600
+    },
+    {
+      "level": 134,
+      "minutes": 27.07,
+      "monster_exp": 3261,
+      "exp_to_next": 353052,
+      "melia_exp_to_next": 1283832
+    },
+    {
+      "level": 135,
+      "minutes": 27.35,
+      "monster_exp": 3386,
+      "exp_to_next": 370392,
+      "melia_exp_to_next": 1314000
+    },
+    {
+      "level": 136,
+      "minutes": 27.63,
+      "monster_exp": 3462,
+      "exp_to_next": 382613,
+      "melia_exp_to_next": 97312
+    },
+    {
+      "level": 137,
+      "minutes": 27.91,
+      "monster_exp": 3565,
+      "exp_to_next": 398035,
+      "melia_exp_to_next": 243312
+    },
+    {
+      "level": 138,
+      "minutes": 28.2,
+      "monster_exp": 3695,
+      "exp_to_next": 416751,
+      "melia_exp_to_next": 369224
+    },
+    {
+      "level": 139,
+      "minutes": 28.48,
+      "monster_exp": 3721,
+      "exp_to_next": 423929,
+      "melia_exp_to_next": 486600
+    },
+    {
+      "level": 140,
+      "minutes": 28.77,
+      "monster_exp": 3695,
+      "exp_to_next": 425198,
+      "melia_exp_to_next": 599168
+    },
+    {
+      "level": 141,
+      "minutes": 29.06,
+      "monster_exp": 3721,
+      "exp_to_next": 432467,
+      "melia_exp_to_next": 710648
+    },
+    {
+      "level": 142,
+      "minutes": 29.34,
+      "monster_exp": 3432,
+      "exp_to_next": 402836,
+      "melia_exp_to_next": 817540
+    },
+    {
+      "level": 143,
+      "minutes": 29.63,
+      "monster_exp": 3155,
+      "exp_to_next": 373975,
+      "melia_exp_to_next": 922676
+    },
+    {
+      "level": 144,
+      "minutes": 29.92,
+      "monster_exp": 3136,
+      "exp_to_next": 375365,
+      "melia_exp_to_next": 1026608
+    },
+    {
+      "level": 145,
+      "minutes": 30.22,
+      "monster_exp": 3215,
+      "exp_to_next": 388568,
+      "melia_exp_to_next": 1129304
+    },
+    {
+      "level": 146,
+      "minutes": 30.51,
+      "monster_exp": 3276,
+      "exp_to_next": 399772,
+      "melia_exp_to_next": 1231336
+    },
+    {
+      "level": 147,
+      "minutes": 30.8,
+      "monster_exp": 3316,
+      "exp_to_next": 408545,
+      "melia_exp_to_next": 1332352
+    },
+    {
+      "level": 148,
+      "minutes": 31.1,
+      "monster_exp": 3357,
+      "exp_to_next": 417549,
+      "melia_exp_to_next": 1433584
+    },
+    {
+      "level": 149,
+      "minutes": 31.39,
+      "monster_exp": 3357,
+      "exp_to_next": 421515,
+      "melia_exp_to_next": 1538840
+    },
+    {
+      "level": 150,
+      "minutes": 31.69,
+      "monster_exp": 3482,
+      "exp_to_next": 441339,
+      "melia_exp_to_next": 1639440
+    },
+    {
+      "level": 151,
+      "minutes": 31.98,
+      "monster_exp": 3523,
+      "exp_to_next": 450726,
+      "melia_exp_to_next": 1739864
+    },
+    {
+      "level": 152,
+      "minutes": 32.28,
+      "monster_exp": 3544,
+      "exp_to_next": 457642,
+      "melia_exp_to_next": 1840408
+    },
+    {
+      "level": 153,
+      "minutes": 32.58,
+      "monster_exp": 3608,
+      "exp_to_next": 470226,
+      "melia_exp_to_next": 1940728
+    },
+    {
+      "level": 154,
+      "minutes": 32.88,
+      "monster_exp": 3693,
+      "exp_to_next": 485741,
+      "melia_exp_to_next": 2041468
+    },
+    {
+      "level": 155,
+      "minutes": 33.18,
+      "monster_exp": 3761,
+      "exp_to_next": 499217,
+      "melia_exp_to_next": 2141940
+    },
+    {
+      "level": 156,
+      "minutes": 33.49,
+      "monster_exp": 3736,
+      "exp_to_next": 500416,
+      "melia_exp_to_next": 2242800
+    },
+    {
+      "level": 157,
+      "minutes": 33.79,
+      "monster_exp": 3810,
+      "exp_to_next": 514949,
+      "melia_exp_to_next": 2350624
+    },
+    {
+      "level": 158,
+      "minutes": 34.09,
+      "monster_exp": 3867,
+      "exp_to_next": 527359,
+      "melia_exp_to_next": 2452136
+    },
+    {
+      "level": 159,
+      "minutes": 34.4,
+      "monster_exp": 3911,
+      "exp_to_next": 538133,
+      "melia_exp_to_next": 2553976
+    },
+    {
+      "level": 160,
+      "minutes": 34.7,
+      "monster_exp": 3911,
+      "exp_to_next": 542922,
+      "melia_exp_to_next": 2655808
+    },
+    {
+      "level": 161,
+      "minutes": 35.01,
+      "monster_exp": 4028,
+      "exp_to_next": 564112,
+      "melia_exp_to_next": 2758304
+    },
+    {
+      "level": 162,
+      "minutes": 35.32,
+      "monster_exp": 4278,
+      "exp_to_next": 604395,
+      "melia_exp_to_next": 2860752
+    },
+    {
+      "level": 163,
+      "minutes": 35.63,
+      "monster_exp": 4380,
+      "exp_to_next": 624219,
+      "melia_exp_to_next": 2963496
+    },
+    {
+      "level": 164,
+      "minutes": 35.94,
+      "monster_exp": 4380,
+      "exp_to_next": 629649,
+      "melia_exp_to_next": 3066864
+    },
+    {
+      "level": 165,
+      "minutes": 36.25,
+      "monster_exp": 4484,
+      "exp_to_next": 650176,
+      "melia_exp_to_next": 3179432
+    },
+    {
+      "level": 166,
+      "minutes": 36.56,
+      "monster_exp": 4908,
+      "exp_to_next": 717777,
+      "melia_exp_to_next": 3283936
+    },
+    {
+      "level": 167,
+      "minutes": 36.87,
+      "monster_exp": 4908,
+      "exp_to_next": 723918,
+      "melia_exp_to_next": 3388320
+    },
+    {
+      "level": 168,
+      "minutes": 37.19,
+      "monster_exp": 5071,
+      "exp_to_next": 754323,
+      "melia_exp_to_next": 3493664
+    },
+    {
+      "level": 169,
+      "minutes": 37.5,
+      "monster_exp": 5016,
+      "exp_to_next": 752455,
+      "melia_exp_to_next": 3598864
+    },
+    {
+      "level": 170,
+      "minutes": 37.82,
+      "monster_exp": 5284,
+      "exp_to_next": 799328,
+      "melia_exp_to_next": 3705024
+    },
+    {
+      "level": 171,
+      "minutes": 38.13,
+      "monster_exp": 5475,
+      "exp_to_next": 835153,
+      "melia_exp_to_next": 3811376
+    },
+    {
+      "level": 172,
+      "minutes": 38.45,
+      "monster_exp": 5475,
+      "exp_to_next": 842104,
+      "melia_exp_to_next": 3918296
+    },
+    {
+      "level": 173,
+      "minutes": 38.77,
+      "monster_exp": 5475,
+      "exp_to_next": 849076,
+      "melia_exp_to_next": 4036232
+    },
+    {
+      "level": 174,
+      "minutes": 39.09,
+      "monster_exp": 5668,
+      "exp_to_next": 886246,
+      "melia_exp_to_next": 4144128
+    },
+    {
+      "level": 175,
+      "minutes": 39.41,
+      "monster_exp": 5866,
+      "exp_to_next": 924718,
+      "melia_exp_to_next": 4252560
+    },
+    {
+      "level": 176,
+      "minutes": 39.73,
+      "monster_exp": 5370,
+      "exp_to_next": 853426,
+      "melia_exp_to_next": 4361536
+    },
+    {
+      "level": 177,
+      "minutes": 40.05,
+      "monster_exp": 5071,
+      "exp_to_next": 812440,
+      "melia_exp_to_next": 4471024
+    },
+    {
+      "level": 178,
+      "minutes": 40.38,
+      "monster_exp": 5016,
+      "exp_to_next": 810108,
+      "melia_exp_to_next": 4581072
+    },
+    {
+      "level": 179,
+      "minutes": 40.7,
+      "monster_exp": 4935,
+      "exp_to_next": 803419,
+      "melia_exp_to_next": 4691216
+    },
+    {
+      "level": 180,
+      "minutes": 41.02,
+      "monster_exp": 5502,
+      "exp_to_next": 902873,
+      "melia_exp_to_next": 4802288
+    },
+    {
+      "level": 181,
+      "minutes": 41.35,
+      "monster_exp": 4943,
+      "exp_to_next": 817581,
+      "melia_exp_to_next": 4926096
+    },
+    {
+      "level": 182,
+      "minutes": 41.68,
+      "monster_exp": 4993,
+      "exp_to_next": 832373,
+      "melia_exp_to_next": 5038368
+    },
+    {
+      "level": 183,
+      "minutes": 42.0,
+      "monster_exp": 4993,
+      "exp_to_next": 838913,
+      "melia_exp_to_next": 5151152
+    },
+    {
+      "level": 184,
+      "minutes": 42.33,
+      "monster_exp": 5043,
+      "exp_to_next": 853937,
+      "melia_exp_to_next": 5264032
+    },
+    {
+      "level": 185,
+      "minutes": 42.66,
+      "monster_exp": 5071,
+      "exp_to_next": 865357,
+      "melia_exp_to_next": 5377776
+    },
+    {
+      "level": 186,
+      "minutes": 42.99,
+      "monster_exp": 5094,
+      "exp_to_next": 876009,
+      "melia_exp_to_next": 220800
+    },
+    {
+      "level": 187,
+      "minutes": 43.32,
+      "monster_exp": 5144,
+      "exp_to_next": 891419,
+      "melia_exp_to_next": 550736
+    },
+    {
+      "level": 188,
+      "minutes": 43.66,
+      "monster_exp": 5144,
+      "exp_to_next": 898248,
+      "melia_exp_to_next": 836336
+    },
+    {
+      "level": 189,
+      "minutes": 43.99,
+      "monster_exp": 5246,
+      "exp_to_next": 923043,
+      "melia_exp_to_next": 1100528
+    },
+    {
+      "level": 190,
+      "minutes": 44.32,
+      "monster_exp": 6618,
+      "exp_to_next": 1173281,
+      "melia_exp_to_next": 1352560
+    },
+    {
+      "level": 191,
+      "minutes": 44.66,
+      "monster_exp": 6831,
+      "exp_to_next": 1220185,
+      "melia_exp_to_next": 1595920
+    },
+    {
+      "level": 192,
+      "minutes": 44.99,
+      "monster_exp": 7011,
+      "exp_to_next": 1261744,
+      "melia_exp_to_next": 1833296
+    },
+    {
+      "level": 193,
+      "minutes": 45.33,
+      "monster_exp": 7414,
+      "exp_to_next": 1344244,
+      "melia_exp_to_next": 2065456
+    },
+    {
+      "level": 194,
+      "minutes": 45.67,
+      "monster_exp": 7489,
+      "exp_to_next": 1367943,
+      "melia_exp_to_next": 2294336
+    },
+    {
+      "level": 195,
+      "minutes": 46.0,
+      "monster_exp": 7602,
+      "exp_to_next": 1398863,
+      "melia_exp_to_next": 2519872
+    },
+    {
+      "level": 196,
+      "minutes": 46.34,
+      "monster_exp": 7641,
+      "exp_to_next": 1416399,
+      "melia_exp_to_next": 2749328
+    },
+    {
+      "level": 197,
+      "minutes": 46.68,
+      "monster_exp": 7641,
+      "exp_to_next": 1426784,
+      "melia_exp_to_next": 2970960
+    },
+    {
+      "level": 198,
+      "minutes": 47.02,
+      "monster_exp": 7641,
+      "exp_to_next": 1437195,
+      "melia_exp_to_next": 3190752
+    },
+    {
+      "level": 199,
+      "minutes": 47.36,
+      "monster_exp": 7641,
+      "exp_to_next": 1447633,
+      "melia_exp_to_next": 3409440
+    },
+    {
+      "level": 200,
+      "minutes": 47.71,
+      "monster_exp": 7869,
+      "exp_to_next": 1501606,
+      "melia_exp_to_next": 3627056
+    },
+    {
+      "level": 201,
+      "minutes": 48.05,
+      "monster_exp": 7869,
+      "exp_to_next": 1512409,
+      "melia_exp_to_next": 3843504
+    },
+    {
+      "level": 202,
+      "minutes": 48.39,
+      "monster_exp": 8023,
+      "exp_to_next": 1553050,
+      "melia_exp_to_next": 4059200
+    },
+    {
+      "level": 203,
+      "minutes": 48.74,
+      "monster_exp": 8023,
+      "exp_to_next": 1564119,
+      "melia_exp_to_next": 4274544
+    },
+    {
+      "level": 204,
+      "minutes": 49.08,
+      "monster_exp": 8023,
+      "exp_to_next": 1575216,
+      "melia_exp_to_next": 4499744
+    },
+    {
+      "level": 205,
+      "minutes": 49.43,
+      "monster_exp": 8023,
+      "exp_to_next": 1586340,
+      "melia_exp_to_next": 4714736
+    },
+    {
+      "level": 206,
+      "minutes": 49.78,
+      "monster_exp": 8100,
+      "exp_to_next": 1612824,
+      "melia_exp_to_next": 4929264
+    },
+    {
+      "level": 207,
+      "minutes": 50.13,
+      "monster_exp": 8938,
+      "exp_to_next": 1792134,
+      "melia_exp_to_next": 5143744
+    },
+    {
+      "level": 208,
+      "minutes": 50.48,
+      "monster_exp": 9144,
+      "exp_to_next": 1846210,
+      "melia_exp_to_next": 5358192
+    },
+    {
+      "level": 209,
+      "minutes": 50.83,
+      "monster_exp": 9185,
+      "exp_to_next": 1867347,
+      "melia_exp_to_next": 5572992
+    },
+    {
+      "level": 210,
+      "minutes": 51.18,
+      "monster_exp": 9477,
+      "exp_to_next": 1940012,
+      "melia_exp_to_next": 5787232
+    },
+    {
+      "level": 211,
+      "minutes": 51.53,
+      "monster_exp": 9226,
+      "exp_to_next": 1901609,
+      "melia_exp_to_next": 6002256
+    },
+    {
+      "level": 212,
+      "minutes": 51.88,
+      "monster_exp": 9020,
+      "exp_to_next": 1871868,
+      "melia_exp_to_next": 6230768
+    },
+    {
+      "level": 213,
+      "minutes": 52.23,
+      "monster_exp": 8896,
+      "exp_to_next": 1858708,
+      "melia_exp_to_next": 6446368
+    },
+    {
+      "level": 214,
+      "minutes": 52.59,
+      "monster_exp": 8494,
+      "exp_to_next": 1786749,
+      "melia_exp_to_next": 6662176
+    },
+    {
+      "level": 215,
+      "minutes": 52.94,
+      "monster_exp": 8311,
+      "exp_to_next": 1760056,
+      "melia_exp_to_next": 6878240
+    },
+    {
+      "level": 216,
+      "minutes": 53.3,
+      "monster_exp": 7446,
+      "exp_to_next": 1587470,
+      "melia_exp_to_next": 7094560
+    },
+    {
+      "level": 217,
+      "minutes": 53.66,
+      "monster_exp": 7475,
+      "exp_to_next": 1604316,
+      "melia_exp_to_next": 7311552
+    },
+    {
+      "level": 218,
+      "minutes": 54.01,
+      "monster_exp": 8059,
+      "exp_to_next": 1741181,
+      "melia_exp_to_next": 7528704
+    },
+    {
+      "level": 219,
+      "minutes": 54.37,
+      "monster_exp": 8094,
+      "exp_to_next": 1760343,
+      "melia_exp_to_next": 7746560
+    },
+    {
+      "level": 220,
+      "minutes": 54.73,
+      "monster_exp": 8896,
+      "exp_to_next": 1947547,
+      "melia_exp_to_next": 7981408
+    },
+    {
+      "level": 221,
+      "minutes": 55.09,
+      "monster_exp": 9102,
+      "exp_to_next": 2005750,
+      "melia_exp_to_next": 8200864
+    },
+    {
+      "level": 222,
+      "minutes": 55.45,
+      "monster_exp": 9226,
+      "exp_to_next": 2046388,
+      "melia_exp_to_next": 8420000
+    },
+    {
+      "level": 223,
+      "minutes": 55.81,
+      "monster_exp": 9309,
+      "exp_to_next": 2078261,
+      "melia_exp_to_next": 8640192
+    },
+    {
+      "level": 224,
+      "minutes": 56.18,
+      "monster_exp": 9309,
+      "exp_to_next": 2091755,
+      "melia_exp_to_next": 8860992
+    },
+    {
+      "level": 225,
+      "minutes": 56.54,
+      "monster_exp": 9393,
+      "exp_to_next": 2124275,
+      "melia_exp_to_next": 9082336
+    },
+    {
+      "level": 226,
+      "minutes": 56.9,
+      "monster_exp": 9646,
+      "exp_to_next": 2195537,
+      "melia_exp_to_next": 9304224
+    },
+    {
+      "level": 227,
+      "minutes": 57.27,
+      "monster_exp": 10074,
+      "exp_to_next": 2307655,
+      "melia_exp_to_next": 9526720
+    },
+    {
+      "level": 228,
+      "minutes": 57.63,
+      "monster_exp": 8767,
+      "exp_to_next": 2021081,
+      "melia_exp_to_next": 9769600
+    },
+    {
+      "level": 229,
+      "minutes": 58.0,
+      "monster_exp": 8731,
+      "exp_to_next": 2025578,
+      "melia_exp_to_next": 9993504
+    },
+    {
+      "level": 230,
+      "minutes": 58.37,
+      "monster_exp": 8767,
+      "exp_to_next": 2046807,
+      "melia_exp_to_next": 10218400
+    },
+    {
+      "level": 231,
+      "minutes": 58.73,
+      "monster_exp": 8695,
+      "exp_to_next": 2042797,
+      "melia_exp_to_next": 10443776
+    },
+    {
+      "level": 232,
+      "minutes": 59.1,
+      "monster_exp": 8767,
+      "exp_to_next": 2072646,
+      "melia_exp_to_next": 10670144
+    },
+    {
+      "level": 233,
+      "minutes": 59.47,
+      "monster_exp": 8767,
+      "exp_to_next": 2085607,
+      "melia_exp_to_next": 10896512
+    },
+    {
+      "level": 234,
+      "minutes": 59.84,
+      "monster_exp": 8767,
+      "exp_to_next": 2098596,
+      "melia_exp_to_next": 11124320
+    },
+    {
+      "level": 235,
+      "minutes": 60.21,
+      "monster_exp": 8767,
+      "exp_to_next": 2111613,
+      "melia_exp_to_next": 11375104
+    },
+    {
+      "level": 236,
+      "minutes": 60.59,
+      "monster_exp": 8767,
+      "exp_to_next": 2124658,
+      "melia_exp_to_next": 704736
+    },
+    {
+      "level": 237,
+      "minutes": 60.96,
+      "monster_exp": 9595,
+      "exp_to_next": 2339628,
+      "melia_exp_to_next": 1756064
+    },
+    {
+      "level": 238,
+      "minutes": 61.33,
+      "monster_exp": 9595,
+      "exp_to_next": 2353965,
+      "melia_exp_to_next": 2657696
+    },
+    {
+      "level": 239,
+      "minutes": 61.71,
+      "monster_exp": 9884,
+      "exp_to_next": 2439666,
+      "melia_exp_to_next": 3494048
+    },
+    {
+      "level": 240,
+      "minutes": 62.08,
+      "monster_exp": 10779,
+      "exp_to_next": 2676753,
+      "melia_exp_to_next": 4289440
+    },
+    {
+      "level": 241,
+      "minutes": 62.46,
+      "monster_exp": 9884,
+      "exp_to_next": 2469359,
+      "melia_exp_to_next": 5056768
+    },
+    {
+      "level": 242,
+      "minutes": 62.84,
+      "monster_exp": 10000,
+      "exp_to_next": 2513407,
+      "melia_exp_to_next": 5802432
+    },
+    {
+      "level": 243,
+      "minutes": 63.21,
+      "monster_exp": 8767,
+      "exp_to_next": 2216741,
+      "melia_exp_to_next": 6544320
+    },
+    {
+      "level": 244,
+      "minutes": 63.59,
+      "monster_exp": 8664,
+      "exp_to_next": 2203806,
+      "melia_exp_to_next": 7261056
+    },
+    {
+      "level": 245,
+      "minutes": 63.97,
+      "monster_exp": 8592,
+      "exp_to_next": 2198518,
+      "melia_exp_to_next": 7967328
+    },
+    {
+      "level": 246,
+      "minutes": 64.35,
+      "monster_exp": 8658,
+      "exp_to_next": 2228559,
+      "melia_exp_to_next": 8664480
+    },
+    {
+      "level": 247,
+      "minutes": 64.73,
+      "monster_exp": 8658,
+      "exp_to_next": 2241739,
+      "melia_exp_to_next": 9353952
+    },
+    {
+      "level": 248,
+      "minutes": 65.11,
+      "monster_exp": 8658,
+      "exp_to_next": 2254945,
+      "melia_exp_to_next": 10036736
+    },
+    {
+      "level": 249,
+      "minutes": 65.49,
+      "monster_exp": 8756,
+      "exp_to_next": 2293852,
+      "melia_exp_to_next": 10714176
+    },
+    {
+      "level": 250,
+      "minutes": 65.88,
+      "monster_exp": 8888,
+      "exp_to_next": 2342045,
+      "melia_exp_to_next": 11387328
+    },
+    {
+      "level": 251,
+      "minutes": 66.26,
+      "monster_exp": 8922,
+      "exp_to_next": 2364695,
+      "melia_exp_to_next": 12078400
+    },
+    {
+      "level": 252,
+      "minutes": 66.64,
+      "monster_exp": 9021,
+      "exp_to_next": 2404805,
+      "melia_exp_to_next": 12745472
+    },
+    {
+      "level": 253,
+      "minutes": 67.03,
+      "monster_exp": 9122,
+      "exp_to_next": 2445784,
+      "melia_exp_to_next": 13408832
+    },
+    {
+      "level": 254,
+      "minutes": 67.42,
+      "monster_exp": 9189,
+      "exp_to_next": 2477933,
+      "melia_exp_to_next": 14070272
+    },
+    {
+      "level": 255,
+      "minutes": 67.8,
+      "monster_exp": 9223,
+      "exp_to_next": 2501368,
+      "melia_exp_to_next": 14729024
+    },
+    {
+      "level": 256,
+      "minutes": 68.19,
+      "monster_exp": 9290,
+      "exp_to_next": 2533936,
+      "melia_exp_to_next": 15386304
+    },
+    {
+      "level": 257,
+      "minutes": 68.58,
+      "monster_exp": 9358,
+      "exp_to_next": 2567015,
+      "melia_exp_to_next": 16042368
+    },
+    {
+      "level": 258,
+      "minutes": 68.97,
+      "monster_exp": 9426,
+      "exp_to_next": 2600334,
+      "melia_exp_to_next": 16696704
+    },
+    {
+      "level": 259,
+      "minutes": 69.36,
+      "monster_exp": 9495,
+      "exp_to_next": 2634171,
+      "melia_exp_to_next": 17381696
+    },
+    {
+      "level": 260,
+      "minutes": 69.75,
+      "monster_exp": 9598,
+      "exp_to_next": 2677737,
+      "melia_exp_to_next": 18035648
+    },
+    {
+      "level": 261,
+      "minutes": 70.14,
+      "monster_exp": 9632,
+      "exp_to_next": 2702296,
+      "melia_exp_to_next": 18688896
+    },
+    {
+      "level": 262,
+      "minutes": 70.53,
+      "monster_exp": 9736,
+      "exp_to_next": 2746738,
+      "melia_exp_to_next": 19341824
+    },
+    {
+      "level": 263,
+      "minutes": 70.92,
+      "monster_exp": 9771,
+      "exp_to_next": 2771962,
+      "melia_exp_to_next": 19994304
+    },
+    {
+      "level": 264,
+      "minutes": 71.32,
+      "monster_exp": 9875,
+      "exp_to_next": 2817008,
+      "melia_exp_to_next": 20647168
+    },
+    {
+      "level": 265,
+      "minutes": 71.71,
+      "monster_exp": 10204,
+      "exp_to_next": 2926951,
+      "melia_exp_to_next": 21299392
+    },
+    {
+      "level": 266,
+      "minutes": 72.11,
+      "monster_exp": 11732,
+      "exp_to_next": 3383783,
+      "melia_exp_to_next": 21952448
+    },
+    {
+      "level": 267,
+      "minutes": 72.5,
+      "monster_exp": 11726,
+      "exp_to_next": 3400612,
+      "melia_exp_to_next": 22644928
+    },
+    {
+      "level": 268,
+      "minutes": 72.9,
+      "monster_exp": 10192,
+      "exp_to_next": 2971905,
+      "melia_exp_to_next": 23299008
+    },
+    {
+      "level": 269,
+      "minutes": 73.3,
+      "monster_exp": 10263,
+      "exp_to_next": 3008913,
+      "melia_exp_to_next": 23954176
+    },
+    {
+      "level": 270,
+      "minutes": 73.69,
+      "monster_exp": 10334,
+      "exp_to_next": 3046178,
+      "melia_exp_to_next": 24609216
+    },
+    {
+      "level": 271,
+      "minutes": 74.09,
+      "monster_exp": 10334,
+      "exp_to_next": 3062657,
+      "melia_exp_to_next": 25265344
+    },
+    {
+      "level": 272,
+      "minutes": 74.49,
+      "monster_exp": 10334,
+      "exp_to_next": 3079167,
+      "melia_exp_to_next": 25921984
+    },
+    {
+      "level": 273,
+      "minutes": 74.89,
+      "monster_exp": 10334,
+      "exp_to_next": 3095707,
+      "melia_exp_to_next": 26579456
+    },
+    {
+      "level": 274,
+      "minutes": 75.29,
+      "monster_exp": 10334,
+      "exp_to_next": 3112277,
+      "melia_exp_to_next": 27237952
+    },
+    {
+      "level": 275,
+      "minutes": 75.69,
+      "monster_exp": 10478,
+      "exp_to_next": 3172477,
+      "melia_exp_to_next": 27944192
+    },
+    {
+      "level": 276,
+      "minutes": 76.1,
+      "monster_exp": 10550,
+      "exp_to_next": 3211255,
+      "melia_exp_to_next": 28605440
+    },
+    {
+      "level": 277,
+      "minutes": 76.5,
+      "monster_exp": 10622,
+      "exp_to_next": 3250296,
+      "melia_exp_to_next": 29267584
+    },
+    {
+      "level": 278,
+      "minutes": 76.9,
+      "monster_exp": 10658,
+      "exp_to_next": 3278526,
+      "melia_exp_to_next": 29931136
+    },
+    {
+      "level": 279,
+      "minutes": 77.31,
+      "monster_exp": 10767,
+      "exp_to_next": 3329478,
+      "melia_exp_to_next": 30595456
+    }
+  ]
+}

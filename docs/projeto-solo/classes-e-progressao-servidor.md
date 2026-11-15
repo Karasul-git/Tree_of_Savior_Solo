@@ -21,7 +21,7 @@
 | Nível máximo do personagem | 280 no acesso antecipado de 2016. | **280** como referência inicial. | Proposta | [F126](../fontes.md#f126) |
 | Pontos de habilidade | 1 por nível de classe, segundo jogadores do beta. | 1 por nível de classe. | Pendente de fonte de 2016 | [F128](../fontes.md#f128) |
 | Pontos de atributo | Distribuição livre por nível antes do Re:Build. | Voltar à distribuição livre. No Melia, desligar `NoStatByLevel`. | Quantidade por nível pendente | [F124](../fontes.md#f124) |
-| Curva de experiência | Não documentada nesta wiki. | A definir no balanceamento, considerando grupos de 4. | Pendente | — |
+| Curva de experiência | Não documentada nesta wiki. | ~150 horas até o 280, R7 no nível 200, experiência dividida igualmente no grupo. [Curva de experiência](curva-de-experiencia.md). | Metas decididas; números provisórios | — |
 
 ### O que muda no Melia
 

@@ -128,3 +128,12 @@ test('as metas de chefes seguem as decisões do proprietário e escalam com o gr
   assert.equal(b.decisions.scale_by_group_size, true);
   for (const r of b.results) assert.equal(Math.round(r.boss_hp_group4[0] / 4), r.boss_hp_solo[0]);
 });
+
+test('a curva de experiência fecha em 150 horas com R7 no nível 200', () => {
+  const x = read('data/proposals/exp-curve.json');
+  assert.equal(x.base_exp_table.length, 279);
+  assert.ok(Math.abs(x.milestone_hours['280'] - 150) < 0.5);
+  assert.equal(x.decisions.rank_levels.R7, 200);
+  assert.equal(x.decisions.exp_split, 'equal');
+  for (let i = 1; i < x.base_exp_table.length; i++) assert.ok(x.base_exp_table[i].minutes > x.base_exp_table[i - 1].minutes);
+});
