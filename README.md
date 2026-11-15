@@ -14,6 +14,8 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 **Com bots, sem deusas:** o jogo terá bots aliados controlados pelo servidor e amigos opcionais ([modelo de grupo](docs/projeto-solo/companheiros-e-bots.md)). As deusas sairão da adaptação, e as estátuas darão lugar a outro transporte ([inventário](docs/projeto-solo/remocao-das-deusas.md)).
 
+**Kit base de Scout (proposta):** cinco habilidades oficiais posteriores de adaga, pistola e esquiva em C1, mais Camouflage, Perspective Distortion e Scan de 2016; as três de arco ficam no acervo. [Comparação e opções](docs/projeto-solo/scout-kit-base.md).
+
 **Seleção solo atual:** Alchemist e Plague Doctor entram em Scout; Linker e Thaumaturge ficam removidos. Templar permanece no ramo de Swordsman, para o qual **Warrior** é o nome provisório sugerido. [Decisões e pendências](docs/projeto-solo/diretrizes.md).
 
 ## Explore as árvores de classes
@@ -37,6 +39,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Árvores do projeto solo](docs/classes/catalogo-2016.md)
 - [Acervo original de classes e habilidades](docs/classes/catalogo-2016.md?view=2016)
 - [Diretrizes da versão solo](docs/projeto-solo/diretrizes.md)
+- [Scout · kit base proposto](docs/projeto-solo/scout-kit-base.md)
 - [Companheiros, bots e grupo](docs/projeto-solo/companheiros-e-bots.md)
 - [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)

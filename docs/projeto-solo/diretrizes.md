@@ -22,6 +22,8 @@ O corte nominal de classes híbridas continua em construção. Monk e Paladin t�
 
 **15/11/2026 — Remoção das deusas.** As deusas sairão da história e do mundo da adaptação. As estátuas de teletransporte e salvamento serão substituídas, com preferência por um sistema de carroças ou outro meio que tenha arte disponível no jogo. A remoção deve repor as funções de jogo das estátuas. [Inventário inicial](remocao-das-deusas.md).
 
+**15/11/2026 — Kit base de Scout em proposta.** A opção recomendada combina as cinco habilidades oficiais posteriores (Dagger Slash, Oblique Fire, Cloaking, Free Step, Double Attack) com Camouflage, Perspective Distortion e Scan de 2016, usando espada de uma mão e adaga ou pistola. As habilidades de arco ficam no acervo. Aguarda ratificação. [Comparação e opções](scout-kit-base.md).
+
 ## Seleção solo já definida
 
 | Classe ou ramo | Decisão atual | O que continua aberto |
@@ -91,4 +93,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** definir o kit base de Scout. Depois, especificar o grupo de bots e pesquisar a arte de transporte que substituirá as estátuas.
+**Próximo passo recomendado:** ratificar o kit base de Scout. Depois, especificar o grupo de bots e pesquisar a arte de transporte que substituirá as estátuas.

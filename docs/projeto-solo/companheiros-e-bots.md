@@ -27,7 +27,7 @@ Várias pendências do [quadro de disponibilidade](disponibilidade-das-classes.m
 | [Squire](../classes/catalogo/squire.md) | Weapon/Armor Maintenance, Repair, Base Camp, Refreshment Table | Serviços e acampamento passam a atender o grupo inteiro. | Base Camp inclui transporte; ver o [inventário das deusas](remocao-das-deusas.md). | [F46](../fontes.md#f46) |
 | [Paladin](../classes/catalogo/paladin.md) | Restoration, Barrier, Resist Elements | Efeitos de área para aliados ficam relevantes. | A revisão temática (efeitos sagrados) continua aberta. | [F84](../fontes.md#f84) |
 | [Hunter](../classes/catalogo/hunter.md) e [Falconer](../classes/catalogo/falconer.md) | Comandos de companheiros animais | Animais somam-se aos bots no grupo. | Avaliar o número total de aliados controlados. | [F69](../fontes.md#f69), [F75](../fontes.md#f75) |
-| Base [Scout](../classes/catalogo/scout.md) | Perspective Distortion e efeitos de apoio | Possíveis alvos aliados passam a existir. | O kit base de Scout continua indefinido. | [F71](../fontes.md#f71) |
+| Base [Scout](../classes/catalogo/scout.md) | Perspective Distortion e efeitos de apoio | Possíveis alvos aliados passam a existir. | Ver a [proposta de kit base](scout-kit-base.md), ainda sem ratificação. | [F71](../fontes.md#f71) |
 
 Pardoner e Chaplain também tinham serviços e efeitos para o grupo, mas estão fora da seleção solo pelo critério de magia. A decisão sobre bots não os traz de volta.
 
@@ -38,4 +38,4 @@ Pardoner e Chaplain também tinham serviços e efeitos para o grupo, mas estão 
 - Separar habilidades de **guilda** (Templar) das habilidades de **grupo**.
 - Registrar, quando houver, a referência técnica do projeto de Ragnarok usado como inspiração.
 
-**Próximo passo recomendado:** definir o kit base de Scout. Em seguida, especificar o grupo de bots (tamanho e controle) antes de rever as habilidades de grupo.
+**Próximo passo recomendado:** ratificar o [kit base de Scout](scout-kit-base.md). Em seguida, especificar o grupo de bots (tamanho e controle) antes de rever as habilidades de grupo.

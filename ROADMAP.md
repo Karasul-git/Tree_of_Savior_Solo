@@ -85,7 +85,8 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 
 - [x] Registrar o modelo de jogo: jogador com bots aliados do servidor e amigos opcionais.
 - [x] Registrar a remoção das deusas e o inventário inicial das funções das estátuas.
-- [ ] Definir o kit base de Scout.
+- [x] Comparar os kits de Scout de 2016 e posterior e publicar proposta de kit base.
+- [ ] Ratificar o kit base de Scout e conferir Perspective Distortion, Scan e animações.
 - [ ] Especificar o grupo de bots: tamanho, classes possíveis, ordens e progressão.
 - [ ] Reavaliar habilidades de grupo e separar as de guilda (Templar) das de grupo.
 - [ ] Pesquisar arte original de carroças, cavalos ou NPCs de transporte.
