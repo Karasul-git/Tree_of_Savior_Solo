@@ -97,6 +97,7 @@ test('a curva de equipamentos cresce por nível e mantém a decisão de escala p
   const e = read('data/proposals/equipment-curve.json');
   const sword = Object.values(e.equipment_curve.one_handed_sword_avg_atk.grade02);
   for (let i = 1; i < sword.length; i++) assert.ok(sword[i] > sword[i - 1]);
-  assert.equal(e.status, 'proposal-pending-skill-scale-decision');
+  assert.equal(e.status, 'skill-scale-decided-A');
+  assert.equal(e.monster_multipliers.table.length, 7);
   assert.ok(e.results.every(r => r.mult_hp_F150 < r.mult_hp_F2000));
 });

@@ -71,18 +71,34 @@ O ponto decisivo é a **escala das habilidades**. No Melia, a mediana do fator d
 - **Sozinho**, o jogador derruba um monstro comum com 4 a 8 habilidades; com o grupo, cada um usa 1 ou 2.
 - O **ataque dos monstros** precisa de 1 a 2,7 vezes o atual, e a **defesa**, de um quarto a dois terços.
 
-## Decisão pendente
+## Decisão: reduzir a escala das habilidades (opção A)
 
-| Opção | O que muda | Efeito |
-| --- | --- | --- |
-| **A · Reduzir a escala das habilidades (recomendado)** | Dividir o fator das habilidades do Melia por cerca de 10, para a faixa de 150% a 200%. | Monstros com multiplicadores pequenos e estáveis; mais perto do ritmo de 2016. |
-| B · Manter a escala atual | Multiplicar o HP dos monstros por 3 a 37, conforme o nível. | Muda menos as habilidades, mas os monstros ficam com números enormes e desiguais. |
+**15/11/2026 — decisão do proprietário.** Os fatores das habilidades do Melia serão **divididos por 10**. A mediana das habilidades de ataque da árvore solo passa de ~1.506% para **~151%** no nível 1 e de ~2.819% para **~282%** no nível 5. A opção B (multiplicar o HP dos monstros por 3 a 37) foi descartada.
+
+<a id="tabela-de-ajustes-dos-monstros"></a>
+
+## Tabela de ajustes dos monstros
+
+Calculada com fator de referência de **175%** (meio da faixa de 150% a 200%). Os multiplicadores se aplicam aos valores atuais de cada monstro, pelas funções `SCR_Get_MON_*` do Melia. Entre os níveis da tabela, o ajuste é interpolado em linha reta pelo nível do monstro; abaixo de 15 usa o valor de 15, e acima de 270, o de 270.
+
+| Nível | HP | Ataque | Defesa | HP alvo | Ataque alvo | Defesa alvo |
+| --- | --- | --- | --- | --- | --- | --- |
+| 15 | 3.22× | 2.28× | 0.64× | 1.659 | 396 | 52 |
+| 40 | 2.25× | 2.72× | 0.57× | 3.644 | 885 | 115 |
+| 75 | 1.23× | 1.64× | 0.35× | 6.447 | 1.592 | 205 |
+| 120 | 0.69× | 1.18× | 0.27× | 10.248 | 2.548 | 325 |
+| 170 | 0.41× | 1.06× | 0.24× | 14.595 | 3.662 | 463 |
+| 220 | 0.38× | 1.04× | 0.28× | 19.026 | 4.847 | 604 |
+| 270 | 0.28× | 1.36× | 0.27× | 23.678 | 6.078 | 752 |
+
+Os valores-alvo são a mediana esperada para um monstro comum daquele nível. Cada monstro mantém suas diferenças em relação aos outros, porque o ajuste é um multiplicador.
 
 ## Pendências
 
-- Decidir a escala das habilidades.
+- Aplicar a divisão dos fatores das habilidades no servidor (`skills.txt` ou função de cálculo).
+- Metas para elites, chefes e masmorras.
 - Conferir os valores de armas e armaduras de 2016.
 - Definir as curvas das outras armas (arco, besta, pistola, adaga, lança).
 - Fechar a tabela de multiplicadores por faixa de nível e testar no servidor.
 
-**Próximo passo recomendado:** decidir a escala das habilidades. A recomendação é a opção A.
+**Próximo passo recomendado:** montar as curvas das outras armas (arco, besta, pistola, adaga e lança), seguindo o mesmo método.

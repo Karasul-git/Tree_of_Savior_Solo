@@ -60,6 +60,7 @@ Contra um alvo com 150 de esquiva, a chance de errar fica em (150 − 130)<sup>0
 | 4 | DEX e crítico | Hoje a DEX só aumenta o dano do crítico, não a chance. Pesquisar como era em 2016 antes de mudar. | Pendente de fonte |
 | 5 | Elementos | Os multiplicadores de elemento só valem para habilidades mágicas. Fogo e veneno de preparados continuam usando essa tabela. | Proposta |
 | 6 | Grupo de 4 | O lado dos monstros (HP, ataque, defesa e esquiva) precisa ser calibrado para 1 jogador + 3 bots. | Próxima etapa |
+| 7 | Escala das habilidades | Fatores das habilidades do Melia **divididos por 10** (faixa de 150% a 200%). | **Decidido em 15/11/2026** (opção A). |
 
 Descrição dos atributos no guia oficial atual: [F113](../fontes.md#f113).
 

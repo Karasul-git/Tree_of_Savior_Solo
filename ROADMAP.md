@@ -107,7 +107,8 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Decidir cura de preparados com INT e CON na defesa (aceitas em 15/11/2026).
 - [x] Metas de calibragem dos monstros para grupos de 4 (decisões do proprietário).
 - [x] Curva de equipamentos comuns (arma de uma mão e armaduras) a partir do Melia.
-- [ ] Decidir a escala das habilidades (reduzir fatores ou multiplicar HP dos monstros).
+- [x] Decidir a escala das habilidades: opção A, fatores divididos por 10.
+- [x] Tabela de ajustes dos monstros por faixa de nível (HP, ataque, defesa).
 - [ ] Curvas das outras armas e conferência com 2016.
 - [ ] Multiplicadores dos monstros por faixa de nível e curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).

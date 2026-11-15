@@ -1,7 +1,7 @@
 {
   "reviewed_at": "2026-11-15",
   "source_id": "F124",
-  "status": "proposal-pending-skill-scale-decision",
+  "status": "skill-scale-decided-A",
   "equipment_curve": {
     "tiers": [
       1,
@@ -305,5 +305,80 @@
       "target_mon_hp_F2000": 270600,
       "mult_hp_F2000": 3.22
     }
-  ]
+  ],
+  "skill_scale_decision": {
+    "option": "A",
+    "decided_at": "2026-11-15",
+    "rule": "Dividir o fator das habilidades do Melia por 10 (mediana passa de ~1.506% para ~151% no nível 1 e de ~2.819% para ~282% no nível 5).",
+    "reference_factor_pct": 175
+  },
+  "monster_multipliers": {
+    "reference_factor_pct": 175,
+    "interpolation": "Linear pelo nível do monstro entre os níveis da tabela; abaixo de 15 usa o valor de 15 e acima de 270 o de 270.",
+    "table": [
+      {
+        "level": 15,
+        "hp_mult": 3.22,
+        "atk_mult": 2.28,
+        "def_mult": 0.64,
+        "target_hp": 1659,
+        "target_atk": 396,
+        "target_def": 52
+      },
+      {
+        "level": 40,
+        "hp_mult": 2.25,
+        "atk_mult": 2.72,
+        "def_mult": 0.57,
+        "target_hp": 3644,
+        "target_atk": 885,
+        "target_def": 115
+      },
+      {
+        "level": 75,
+        "hp_mult": 1.23,
+        "atk_mult": 1.64,
+        "def_mult": 0.35,
+        "target_hp": 6447,
+        "target_atk": 1592,
+        "target_def": 205
+      },
+      {
+        "level": 120,
+        "hp_mult": 0.69,
+        "atk_mult": 1.18,
+        "def_mult": 0.27,
+        "target_hp": 10248,
+        "target_atk": 2548,
+        "target_def": 325
+      },
+      {
+        "level": 170,
+        "hp_mult": 0.41,
+        "atk_mult": 1.06,
+        "def_mult": 0.24,
+        "target_hp": 14595,
+        "target_atk": 3662,
+        "target_def": 463
+      },
+      {
+        "level": 220,
+        "hp_mult": 0.38,
+        "atk_mult": 1.04,
+        "def_mult": 0.28,
+        "target_hp": 19026,
+        "target_atk": 4847,
+        "target_def": 604
+      },
+      {
+        "level": 270,
+        "hp_mult": 0.28,
+        "atk_mult": 1.36,
+        "def_mult": 0.27,
+        "target_hp": 23678,
+        "target_atk": 6078,
+        "target_def": 752
+      }
+    ]
+  }
 }
