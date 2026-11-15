@@ -1028,3 +1028,13 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F128 · Fórum oficial · guia de classes, ranks e habilidades (beta)
 
 [Fórum oficial · guia de classes, ranks e habilidades (beta)](https://forum.treeofsavior.com/t/any-newbiess-guide-about-classes-rank-and-skills/11881) — Antarex e respostas de jogadores, 29/07/2015; consulta em 15/11/2026. Jogadores do beta de 2015 dizem que o nível de classe vai até 15 por rank e que cada nível de classe dá 1 ponto de habilidade. **Limite:** Beta fechado de 2015, antes do recorte; relatos de jogadores. O limite de nível citado (200) era o do beta.
+
+<a id="f129"></a>
+### F129 · Fórum oficial · How many Stat Points per Level?
+
+[Fórum oficial · How many Stat Points per Level?](https://forum.treeofsavior.com/t/how-many-stat-points-per-level--/40663) — montiblanc e respostas de jogadores, 17/09/2015; consulta em 15/11/2026. Jogadores do beta dizem: 1 ponto de atributo por nível, ponto extra em intervalos de investimento, 1 ponto por missão secundária de revelação, cerca de 18 pela história principal e cerca de 6 pelas estátuas. **Limite:** Beta de 2015, relatos sem fonte oficial; os intervalos de bônus não são detalhados.
+
+<a id="f130"></a>
+### F130 · Fórum oficial · Bonus stat points distribution
+
+[Fórum oficial · Bonus stat points distribution](https://forum.treeofsavior.com/t/guide-bonus-stat-points-distribution-updated-8-28-15/35417) — Dynemanti e respostas de jogadores, 28/08/2015; consulta em 15/11/2026. Regra extraída de dados por jogadores: +1 ponto a cada 5 investidos até 50, a cada 4 até 150, a cada 3 até 300, a cada 2 até 500 e 2 por ponto acima disso. **Limite:** Beta de 2015; a própria discussão diverge sobre contar ou não os atributos iniciais da classe. Não comprova o valor em março–abril de 2016.

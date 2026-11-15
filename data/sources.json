@@ -1428,8 +1428,8 @@
     "kind": "official-current",
     "scope": "Função de jogo das estátuas de Zemyna, para o inventário de remoção das deusas",
     "url": "https://treeofsavior.com/page/guide/view.php?n=10",
-    "supports": "Pontos de atributo bônus podem vir de missões ou das estátuas da deusa Zemyna e são distribuídos livremente.",
-    "limitations": "Página sem data visível. Não comprova a quantidade de estátuas, de pontos ou o comportamento exato em março–abril de 2016. Não trata de teletransporte ou salvamento."
+    "supports": "Pontos de atributo bônus podem vir de missões ou das estátuas da deusa Zemyna e são distribuídos livremente. A mesma página descreve os cinco atributos do jogo atual: STR (ataque físico), CON (HP e defesas), INT (ataque mágico), SPR (recuperação, SP e crítico mágico) e DEX (velocidade de ataque e crítico físico); nessa versão os pontos são distribuídos automaticamente.",
+    "limitations": "Página sem data visível. Não comprova a quantidade de estátuas, de pontos ou o comportamento exato em março–abril de 2016. Não trata de teletransporte ou salvamento. A distribuição automática e o nível máximo 470 descritos ali são posteriores ao Re:Build."
   },
   {
     "id": "F114",
@@ -1610,5 +1610,29 @@
     "url": "https://forum.treeofsavior.com/t/any-newbiess-guide-about-classes-rank-and-skills/11881",
     "supports": "Jogadores do beta de 2015 dizem que o nível de classe vai até 15 por rank e que cada nível de classe dá 1 ponto de habilidade.",
     "limitations": "Beta fechado de 2015, antes do recorte; relatos de jogadores. O limite de nível citado (200) era o do beta."
+  },
+  {
+    "id": "F129",
+    "title": "Fórum oficial · How many Stat Points per Level?",
+    "author": "montiblanc e respostas de jogadores",
+    "published": "2015-09-17",
+    "accessed": "2026-11-15",
+    "kind": "beta-comparison",
+    "scope": "Pontos de atributo por nível e pontos extras antes do Re:Build",
+    "url": "https://forum.treeofsavior.com/t/how-many-stat-points-per-level--/40663",
+    "supports": "Jogadores do beta dizem: 1 ponto de atributo por nível, ponto extra em intervalos de investimento, 1 ponto por missão secundária de revelação, cerca de 18 pela história principal e cerca de 6 pelas estátuas.",
+    "limitations": "Beta de 2015, relatos sem fonte oficial; os intervalos de bônus não são detalhados."
+  },
+  {
+    "id": "F130",
+    "title": "Fórum oficial · Bonus stat points distribution",
+    "author": "Dynemanti e respostas de jogadores",
+    "published": "2015-08-28",
+    "accessed": "2026-11-15",
+    "kind": "beta-comparison",
+    "scope": "Bônus por investimento em atributos",
+    "url": "https://forum.treeofsavior.com/t/guide-bonus-stat-points-distribution-updated-8-28-15/35417",
+    "supports": "Regra extraída de dados por jogadores: +1 ponto a cada 5 investidos até 50, a cada 4 até 150, a cada 3 até 300, a cada 2 até 500 e 2 por ponto acima disso.",
+    "limitations": "Beta de 2015; a própria discussão diverge sobre contar ou não os atributos iniciais da classe. Não comprova o valor em março–abril de 2016."
   }
 ]

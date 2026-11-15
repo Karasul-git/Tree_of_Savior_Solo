@@ -99,4 +99,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Fase 0 iniciada.** A [tabela das 39 classes no formato do Melia](classes-e-progressao-servidor.md) mostra 9 classes sem mudança, 26 com mudança de rank e 4 com mudança de rank e árvore. O esqueleto de progressão propõe R7, 15 níveis de classe por rank, círculos até C3 e nível máximo 280.
 
-**Próximo passo recomendado:** definir os pontos de atributo e de habilidade por nível, base das fórmulas de balanceamento.
+**15/11/2026 — Pontos por nível.** O proprietário decidiu ressignificar o INT, manter o bônus por investimento e realocar os pontos extras de história, revelações e estátuas. Proposta: 1 ponto de atributo por nível e 1 ponto de habilidade por nível de classe. [Detalhes](pontos-por-nivel.md).
+
+**Próximo passo recomendado:** listar as habilidades da árvore solo que usam ataque mágico, para definir o novo papel do INT.

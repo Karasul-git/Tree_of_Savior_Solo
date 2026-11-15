@@ -58,3 +58,11 @@ test('a tabela da fase 0 cobre as 39 classes solo com ranks e círculos coerente
   assert.deepEqual(map.classes.filter(r => r.changes_needed.includes('tree')).map(r => r.class_id).sort(),
     ['alchemist', 'monk', 'paladin', 'plague-doctor']);
 });
+
+test('os pontos por nível registram as decisões do proprietário e somam corretamente', () => {
+  const pts = read('data/proposals/points-per-level.json');
+  assert.deepEqual(pts.decisions, { int: 'repurpose', investment_bonus: 'keep', extra_points: 'relocate' });
+  assert.equal(pts.attribute_points.from_levels, pts.attribute_points.max_level - 1);
+  assert.equal(pts.skill_points.total_at_r7, 7 * pts.skill_points.class_levels_per_rank * pts.skill_points.per_class_level);
+  assert.equal(pts.examples.bonus_for_150, 35);
+});

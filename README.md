@@ -42,6 +42,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Scout · kit base proposto](docs/projeto-solo/scout-kit-base.md)
 - [Estrutura do servidor](docs/projeto-solo/servidor-estrutura.md)
 - [Classes e progressão no servidor](docs/projeto-solo/classes-e-progressao-servidor.md)
+- [Pontos de atributo e de habilidade](docs/projeto-solo/pontos-por-nivel.md)
 - [Companheiros, bots e grupo](docs/projeto-solo/companheiros-e-bots.md)
 - [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)

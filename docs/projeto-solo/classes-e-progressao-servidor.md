@@ -94,4 +94,6 @@
 - Verificar se o cliente atual aceita classes de outra árvore e ranks escalonados sem mudar os arquivos dele.
 - Definir a curva de experiência para grupos de 4.
 
-**Próximo passo recomendado:** definir a quantidade de pontos de atributo e de habilidade por nível, que é a base das fórmulas.
+Os pontos por nível foram detalhados em [Pontos de atributo e de habilidade](pontos-por-nivel.md).
+
+**Próximo passo recomendado:** listar as habilidades da árvore solo que usam ataque mágico, para definir o novo papel do INT.

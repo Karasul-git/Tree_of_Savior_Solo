@@ -1,0 +1,82 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "owner-decisions-numbers-provisional",
+  "decisions": {
+    "int": "repurpose",
+    "investment_bonus": "keep",
+    "extra_points": "relocate"
+  },
+  "attribute_points": {
+    "per_level": 1,
+    "max_level": 280,
+    "from_levels": 279,
+    "investment_bonus_ranges": [
+      {
+        "up_to": 50,
+        "every": 5
+      },
+      {
+        "up_to": 150,
+        "every": 4
+      },
+      {
+        "up_to": 300,
+        "every": 3
+      },
+      {
+        "up_to": 500,
+        "every": 2
+      }
+    ],
+    "investment_bonus_counts_base_stats": null,
+    "extra_reference": {
+      "main_story": 18,
+      "statues": 6,
+      "revelation_subquests_each": 1,
+      "revelation_count": null
+    },
+    "source_ids": [
+      "F129",
+      "F130"
+    ]
+  },
+  "skill_points": {
+    "per_class_level": 1,
+    "class_levels_per_rank": 15,
+    "total_at_r7": 105,
+    "source_ids": [
+      "F128"
+    ]
+  },
+  "base_stats_reference": {
+    "source_id": "F124",
+    "note": "Valores do Melia, posteriores ao Re:Build; só ponto de partida.",
+    "swordsman": {
+      "str": 7,
+      "con": 7,
+      "int": 2,
+      "spr": 3,
+      "dex": 6
+    },
+    "archer": {
+      "str": 8,
+      "con": 4,
+      "int": 2,
+      "spr": 3,
+      "dex": 8
+    },
+    "scout": {
+      "str": 6,
+      "con": 5,
+      "int": 2,
+      "spr": 3,
+      "dex": 9
+    }
+  },
+  "examples": {
+    "bonus_for_50": 10,
+    "bonus_for_100": 22,
+    "bonus_for_150": 35,
+    "bonus_for_279": 78
+  }
+}
