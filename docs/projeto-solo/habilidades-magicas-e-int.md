@@ -91,4 +91,6 @@ Por isso, das três ideias da página de pontos, a que cobre o que existe é **I
 - Decidir o destino de Turn Undead, Conversion e Resist Elements na revisão de Paladin.
 - Verificar se Alchemistic Missile entra no kit, já que o estudo de suporte sugeria substituir projéteis de energia.
 
-**Próximo passo recomendado:** montar as fórmulas de dano: como STR, DEX e o INT de preparados viram dano, e quanto os monstros precisam aguentar com um grupo de 4.
+As fórmulas atuais e as propostas estão em [Fórmulas de dano](formulas-de-dano.md).
+
+**Próximo passo recomendado:** decidir as propostas pendentes das fórmulas de dano.

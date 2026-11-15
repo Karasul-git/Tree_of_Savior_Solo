@@ -103,7 +103,9 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Fase 0: pontos de atributo e de habilidade por nível (proposta, com decisões do proprietário).
 - [x] Levantar as habilidades mágicas da árvore solo (26, em quatro classes).
 - [x] Definir o novo papel do INT: potência de preparados.
-- [ ] Fórmulas de dano e curva de experiência.
+- [x] Registrar as fórmulas de dano do Melia e propostas para o projeto.
+- [ ] Decidir cura de preparados com INT e CON na defesa.
+- [ ] Calibrar monstros para grupos de 4 e curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - [ ] Confirmar como o cliente atual exibe ranks e círculos.
 

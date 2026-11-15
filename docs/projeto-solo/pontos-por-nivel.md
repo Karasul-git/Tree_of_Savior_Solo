@@ -82,4 +82,6 @@ Os bots seguem as mesmas regras. Como a distribuição é livre, cada classe vai
 - Definir se os atributos iniciais contam no bônus por investimento.
 - Definir o nível máximo de cada habilidade por círculo.
 
-**Próximo passo recomendado:** montar as fórmulas de dano com o INT de preparados.
+As fórmulas estão em [Fórmulas de dano](formulas-de-dano.md).
+
+**Próximo passo recomendado:** decidir as propostas pendentes das fórmulas de dano.
