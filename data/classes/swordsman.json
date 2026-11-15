@@ -7,18 +7,18 @@
   "target_date": "2016-03-29",
   "documentary_window": "March-April 2016",
   "reviewed_at": "2026-11-15",
-  "status": "archived-skill-tables-reviewed; equipment-npc-quest-and-client-patch-pending",
+  "status": "archived-skills-equipment-and-npc-reviewed; advancement-conditions-and-client-patch-pending",
   "launch_patch_verified": false,
-  "source_snapshot_version": "Eight ToSBase HTML captures, 2016-03-31 through 2016-04-15; not a client build",
+  "source_snapshot_version": "Nine class/skill captures and four equipment captures from March-April 2016; official translation commit of 2016-04-15; not a client build",
   "unknown_fields": [
     "exact_client_build",
     "region_of_original_database",
     "status_implementation_vs_description",
     "attribute_costs",
     "client_attribute_limits_verification",
-    "equipment_matrix",
-    "master_npc",
-    "advancement_quest"
+    "complete_equipment_and_skill_stance_matrix",
+    "master_coordinates_and_services",
+    "advancement_quest_activation_and_circle_mapping"
   ],
   "skills": [
     {
@@ -1544,5 +1544,157 @@
       ]
     }
   ],
-  "snapshot_attribute_count": 19
+  "snapshot_attribute_count": 19,
+  "masters": [
+    {
+      "name": "Rashua",
+      "role": "Swordsman Master",
+      "location": "Klaipeda",
+      "label_key": "ETC_20150317_009204",
+      "location_key": "QUEST_JOBSTEP_20150317_001389",
+      "evidence_ids": [
+        "F27",
+        "F28"
+      ],
+      "client_verified": false
+    },
+    {
+      "name": "Codill",
+      "role": "Swordsman Submaster",
+      "location": "Orsha",
+      "label_key": "ETC_20151022_016440",
+      "location_evidence_ids": [
+        "F29",
+        "F36"
+      ],
+      "evidence_ids": [
+        "F27",
+        "F29",
+        "F36"
+      ],
+      "caveat": "Orsha text in QUEST_UNUSED is not proof of active quest; launch-day player report supports presence of submaster.",
+      "client_verified": false
+    }
+  ],
+  "equipment_examples": [
+    {
+      "name": "Artie Saif",
+      "type_displayed": "One-handed Sword",
+      "required_level_displayed": 120,
+      "required_classes_displayed": [
+        "Swordsman",
+        "Wizard",
+        "Cleric"
+      ],
+      "slot_interpretation": "main-hand",
+      "slot_evidence_ids": [
+        "F30"
+      ],
+      "evidence_ids": [
+        "F31"
+      ],
+      "client_verified": false
+    },
+    {
+      "name": "Battle Hammer",
+      "type_displayed": "One-handed Blunt Weapon",
+      "required_level_displayed": 75,
+      "required_classes_displayed": [
+        "Swordsman",
+        "Wizard",
+        "Cleric"
+      ],
+      "slot_interpretation": "main-hand",
+      "slot_evidence_ids": [
+        "F30"
+      ],
+      "evidence_ids": [
+        "F32"
+      ],
+      "client_verified": false
+    },
+    {
+      "name": "Aston Shield",
+      "type_displayed": "Shield",
+      "required_level_displayed": 15,
+      "required_classes_displayed": [
+        "All"
+      ],
+      "slot_interpretation": "off-hand",
+      "slot_evidence_ids": [
+        "F30"
+      ],
+      "evidence_ids": [
+        "F33"
+      ],
+      "client_verified": false
+    },
+    {
+      "name": "Arde Dagger",
+      "type_displayed": "Dagger",
+      "required_level_displayed": 75,
+      "required_classes_displayed": [
+        "All"
+      ],
+      "slot_interpretation": "off-hand",
+      "slot_evidence_ids": [
+        "F30"
+      ],
+      "evidence_ids": [
+        "F34"
+      ],
+      "client_verified": false
+    }
+  ],
+  "advancement": {
+    "starting_circle": "C1 selected at character creation; not an advancement quest reward",
+    "class_level_requirement": 15,
+    "requirement_evidence_ids": [
+      "F01",
+      "F36"
+    ],
+    "quest_text_source_ids": [
+      "F28"
+    ],
+    "quest_text_records": [
+      {
+        "objective_summary": "Coletar corações de Stone Orca em Crystal Mine 1F e retornar ao mestre.",
+        "string_keys": [
+          "QUEST_JOBSTEP_20150317_001641",
+          "QUEST_JOBSTEP_20150317_001642",
+          "QUEST_JOBSTEP_20150317_001643",
+          "QUEST_JOBSTEP_20150317_001644",
+          "QUEST_JOBSTEP_20150317_001645"
+        ],
+        "circle": null,
+        "quest_id": null,
+        "required_count": null,
+        "active_in_launch_client": null
+      },
+      {
+        "objective_summary": "Derrotar Minotaur em Mage Tower 3F e retornar ao mestre.",
+        "string_keys": [
+          "QUEST_JOBSTEP_20150317_001559",
+          "QUEST_JOBSTEP_20150317_001561",
+          "QUEST_JOBSTEP_20150317_001562"
+        ],
+        "circle": null,
+        "quest_id": null,
+        "required_count": null,
+        "active_in_launch_client": null
+      },
+      {
+        "objective_summary": "Enfrentar Glizardon em Tenet Church B1 como prova de aprendizado.",
+        "string_keys": [
+          "QUEST_JOBSTEP_20150729_003040"
+        ],
+        "circle": null,
+        "quest_id": null,
+        "required_count": null,
+        "active_in_launch_client": null
+      }
+    ],
+    "unused_texts_are_not_active_quest_proof": true,
+    "client_verified": false
+  }
 }

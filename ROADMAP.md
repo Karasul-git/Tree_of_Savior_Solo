@@ -12,6 +12,8 @@
 - [x] Oito capturas de 2016 para Swordsman: 100 linhas por nível e 13 atributos descritos, com datas próprias.
 - [x] Ficha de classe de 14/04/2016: seis atributos gerais e limites exibidos dos 13 atributos de habilidades.
 - [x] Cronologia da reforma do combate e do sistema de classes, separada das fichas de lançamento.
+- [x] Swordsman: quatro listas de equipamento de abril de 2016, nomes dos mestres e textos de avanço preservados na tradução histórica.
+- [ ] Swordsman: conferir requisitos efetivos de missões, vínculo a círculo/rank, coordenadas dos mestres e compatibilidade completa de equipamento no cliente.
 - [ ] Confirmar detalhes pendentes das quatro classes com snapshots do período.
 - [ ] Identificar imagens comprovadamente usadas no cliente ou site em 2016.
 - [ ] Completar atributos, equipamentos permitidos, números, mestres e missões de avanço.

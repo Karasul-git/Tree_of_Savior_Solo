@@ -226,3 +226,93 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 **Uso:** Dezenove atributos listados, círculos e limites exibidos; matriz de habilidades da classe.
 
 **Limite:** Círculo exibido no banco não substitui a auditoria dos requisitos efetivos no cliente. Custos de aprendizado e mestre não foram obtidos nesta captura.
+
+<a id="f27"></a>
+### F27 · Tradução oficial · ETC.tsv · revisão de 15/04/2016
+
+[Tradução oficial · ETC.tsv · revisão de 15/04/2016](https://github.com/Treeofsavior/EnglishTranslation/blob/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master/ETC.tsv) — Treeofsavior / colaboradores da tradução. Registro/revisão: 2016-04-15. Consulta: 15/11/2026.
+
+**Uso:** Rótulos de Rashua e Codill
+
+**Limite:** Nomes de NPCs; não comprova sozinho posição, serviços ou ativação.
+
+<a id="f28"></a>
+### F28 · Tradução oficial · QUEST_JOBSTEP.tsv · revisão de 15/04/2016
+
+[Tradução oficial · QUEST_JOBSTEP.tsv · revisão de 15/04/2016](https://github.com/Treeofsavior/EnglishTranslation/blob/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master/QUEST_JOBSTEP.tsv) — Treeofsavior / colaboradores da tradução. Registro/revisão: 2016-04-15. Consulta: 15/11/2026.
+
+**Uso:** Mestre em Klaipeda e textos de provas de avanço
+
+**Limite:** Textos incluem variantes antigas; sem condições de execução, quantidades ou vínculo seguro a C2/C3.
+
+<a id="f29"></a>
+### F29 · Tradução oficial · QUEST_UNUSED.tsv · revisão de 15/04/2016
+
+[Tradução oficial · QUEST_UNUSED.tsv · revisão de 15/04/2016](https://github.com/Treeofsavior/EnglishTranslation/blob/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master/QUEST_UNUSED.tsv) — Treeofsavior / colaboradores da tradução. Registro/revisão: 2016-04-15. Consulta: 15/11/2026.
+
+**Uso:** Textos classificados como não utilizados, incluindo submestre de Orsha
+
+**Limite:** Não tratar como roteiro ativo: o arquivo se chama QUEST_UNUSED.
+
+<a id="f30"></a>
+### F30 · Tradução oficial · UI.tsv · revisão de 15/04/2016
+
+[Tradução oficial · UI.tsv · revisão de 15/04/2016](https://github.com/Treeofsavior/EnglishTranslation/blob/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master/UI.tsv) — Treeofsavior / colaboradores da tradução. Registro/revisão: 2016-04-15. Consulta: 15/11/2026.
+
+**Uso:** Slots de equipamento e atalho Alt+Z
+
+**Limite:** Regra geral de interface; não é uma matriz de permissões por classe.
+
+<a id="f31"></a>
+### F31 · ToSBase · sword · lista detalhada arquivada em 2016-04-04
+
+[ToSBase · sword · lista detalhada arquivada em 2016-04-04](https://web.archive.org/web/20160404115649id_/http://www.tosbase.com:80/database/items/equipment/sword/?view=details) — ToSBase / Internet Archive. Captura: 2016-04-04T11:56:49Z. Consulta: 15/11/2026.
+
+**Uso:** Tipo, nível e requisito de classe exibidos; exemplo: Artie Saif.
+
+**Limite:** Banco comunitário; não certifica build ou região do cliente. Requisito de classe não prova que todas as habilidades aceitem o equipamento.
+
+<a id="f32"></a>
+### F32 · ToSBase · mace · lista detalhada arquivada em 2016-04-01
+
+[ToSBase · mace · lista detalhada arquivada em 2016-04-01](https://web.archive.org/web/20160401170127id_/http://www.tosbase.com:80/database/items/equipment/mace/?view=details) — ToSBase / Internet Archive. Captura: 2016-04-01T17:01:27Z. Consulta: 15/11/2026.
+
+**Uso:** Tipo, nível e requisito de classe exibidos; exemplo: Battle Hammer.
+
+**Limite:** Banco comunitário; não certifica build ou região do cliente. Requisito de classe não prova que todas as habilidades aceitem o equipamento.
+
+<a id="f33"></a>
+### F33 · ToSBase · shield · lista detalhada arquivada em 2016-04-04
+
+[ToSBase · shield · lista detalhada arquivada em 2016-04-04](https://web.archive.org/web/20160404111217id_/http://www.tosbase.com:80/database/items/equipment/shield/?view=details) — ToSBase / Internet Archive. Captura: 2016-04-04T11:12:17Z. Consulta: 15/11/2026.
+
+**Uso:** Tipo, nível e requisito de classe exibidos; exemplo: Aston Shield.
+
+**Limite:** Banco comunitário; não certifica build ou região do cliente. Requisito de classe não prova que todas as habilidades aceitem o equipamento.
+
+<a id="f34"></a>
+### F34 · ToSBase · dagger · lista detalhada arquivada em 2016-04-01
+
+[ToSBase · dagger · lista detalhada arquivada em 2016-04-01](https://web.archive.org/web/20160401165430id_/http://www.tosbase.com:80/database/items/equipment/dagger/?view=details) — ToSBase / Internet Archive. Captura: 2016-04-01T16:54:30Z. Consulta: 15/11/2026.
+
+**Uso:** Tipo, nível e requisito de classe exibidos; exemplo: Arde Dagger.
+
+**Limite:** Banco comunitário; não certifica build ou região do cliente. Requisito de classe não prova que todas as habilidades aceitem o equipamento.
+
+<a id="f35"></a>
+### F35 · Can't Equip 2H Swords · resposta 19 de 09/04/2016
+
+[Can't Equip 2H Swords · resposta 19 de 09/04/2016](https://forum.treeofsavior.com/t/cant-equip-2h-swords/23573/19) — kleiz_20. Registro/revisão: 2016-04-09. Consulta: 15/11/2026.
+
+**Uso:** Aprendizado do atributo de espada de duas mãos por especializações, com exemplos Highlander e Barbarian.
+
+**Limite:** Relato de jogador; não demonstra lista exaustiva de classes nem substitui requisitos do cliente.
+
+<a id="f36"></a>
+### F36 · Can't advance class? · discussão de 29/03/2016
+
+[Can't advance class? · discussão de 29/03/2016](https://steamcommunity.com/app/372000/discussions/0/365163537812904652/) — ivanp3000 e participantes. Registro/revisão: 2016-03-29. Consulta: 15/11/2026.
+
+**Uso:** Relato de Class Level 15, botão de avanço e visita a submestres de Swordsman/Peltasta em Orsha.
+
+**Limite:** Discussão de falha no avanço; não usar respostas conflitantes como guia completo ou supor que NPC sem missão não existia.

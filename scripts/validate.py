@@ -29,6 +29,19 @@ for source in sources:
 
 for class_file in (ROOT / 'data/classes').glob('*.json'):
     record = json.loads(class_file.read_text())
+    def check_evidence(value):
+        if isinstance(value, dict):
+            for key, nested in value.items():
+                if key == 'evidence_ids' or key.endswith(('_evidence_ids', '_source_ids')):
+                    for source_id in nested:
+                        if source_id not in source_ids:
+                            errors.append(f'Unknown class evidence in {class_file.name}: {source_id}')
+                else:
+                    check_evidence(nested)
+        elif isinstance(value, list):
+            for nested in value:
+                check_evidence(nested)
+    check_evidence(record)
     names = [skill['name'] for skill in record['skills']]
     if len(names) != len(set(names)):
         errors.append(f'Duplicate skill in {class_file.name}')
@@ -62,6 +75,18 @@ if snapshot_file.exists():
         if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
             errors.append('Invalid snapshot provenance')
         date.fromisoformat(snapshot['captured_at'][:10])
+
+equipment_research = ROOT / 'data/research/swordsman-equipment-advancement.json'
+if equipment_research.exists():
+    research = json.loads(equipment_research.read_text())
+    for entry in research['files']:
+        if entry['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', entry['sha256']):
+            errors.append('Invalid equipment/advancement provenance')
+        if entry.get('commit_sha') and not re.fullmatch('[a-f0-9]{40}', entry['commit_sha']):
+            errors.append('Invalid translation revision')
+        if entry.get('captured_at'):
+            date.fromisoformat(entry['captured_at'][:10])
+        date.fromisoformat(entry['retrieved_at'])
 
 pages = list(ROOT.glob('*.md')) + list((ROOT / 'docs').rglob('*.md'))
 for page in pages:

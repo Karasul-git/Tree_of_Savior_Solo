@@ -28,7 +28,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 ## Primeira edição · Classes iniciais
 
-**Pesquisa de 15/11/2026:** [Swordsman recebeu uma revisão documental](docs/classes/swordsman.md), com nove capturas de 2016, [100 linhas por nível e 19 atributos catalogados](docs/classes/swordsman-valores-2016.md), além de uma comparação separada com o kit atual. A [história do sistema de classes](docs/historia/evolucao-das-classes.md) explica a ruptura do Re:Build. Os campos sem confirmação permanecem identificados.
+**Pesquisa de 15/11/2026:** [Swordsman recebeu uma revisão documental](docs/classes/swordsman.md), com nove capturas de 2016, [100 linhas por nível e 19 atributos catalogados](docs/classes/swordsman-valores-2016.md), além de uma comparação separada com o kit atual. A nova pesquisa de [armas, mestres e avanços](docs/classes/swordsman-equipamentos-e-avancos-2016.md) acrescenta quatro listas de equipamento arquivadas e uma revisão histórica da tradução oficial. A [história do sistema de classes](docs/historia/evolucao-das-classes.md) explica a ruptura do Re:Build. Os campos sem confirmação permanecem identificados.
 
 O acervo reúne as quatro classes de Rank 1, **30 habilidades organizadas por círculo** e imagens oficiais preservadas localmente. Swordsman possui tabelas arquivadas por nível; as demais fichas ainda estão na etapa inicial. Classes avançadas, armas, mestres, missões e mudanças de cada patch serão acrescentados conforme a conferência.
 

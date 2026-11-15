@@ -66,4 +66,4 @@ O guia moderno documenta materiais de aprimoramento obtidos em Goddess Raids e, 
 - Não transferimos tabelas modernas para preencher lacunas de 2016.
 - Os dados de Swordsman têm referências e números ausentes explicitamente identificados.
 
-**Próximo passo recomendado:** conferir armas permitidas, mestre e missão de avanço de Swordsman em fontes de 2016. As tabelas por nível já foram recuperadas; Highlander e Peltasta serão a próxima comparação entre escolhas, usando o mesmo método de pesquisa.
+**Próximo passo recomendado:** pesquisar Highlander e Peltasta. As tabelas de Swordsman já foram recuperadas, e a pesquisa de [armas, mestres e avanços](../classes/swordsman-equipamentos-e-avancos-2016.md) separa os dados encontrados das condições de missões ainda pendentes.

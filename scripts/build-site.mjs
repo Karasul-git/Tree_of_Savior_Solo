@@ -18,6 +18,7 @@ const documents = [
   ['docs/classes/README.md', 'Classes iniciais'],
   ...classes.map(c => [`docs/classes/${c.slug}.md`, `${c.name} · ${c.pt}`]),
   ['docs/classes/swordsman-valores-2016.md', 'Swordsman · Tabelas de 2016'],
+  ['docs/classes/swordsman-equipamentos-e-avancos-2016.md', 'Swordsman · Armas, mestres e avanços'],
   ['docs/sistemas/ranks-e-circulos.md', 'Ranks e círculos'],
   ['docs/recorte-historico.md', 'O lançamento de 2016'],
   ['docs/historia/evolucao-das-classes.md', 'Do lançamento ao Re:Build'],

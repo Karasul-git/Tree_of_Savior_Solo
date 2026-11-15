@@ -1,0 +1,157 @@
+{
+  "reviewed_at": "2026-11-15",
+  "translation_commit": "392ef21adf4fc2edb5267c323265000539991899",
+  "client_build_verified": false,
+  "files": [
+    {
+      "source_id": "F27",
+      "kind": "translation",
+      "url": "https://github.com/Treeofsavior/EnglishTranslation/blob/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master/ETC.tsv",
+      "commit_sha": "392ef21adf4fc2edb5267c323265000539991899",
+      "repository_path": "EnglishTranslation-master/ETC.tsv",
+      "sha256": "5772733e723bb5dcd6a2148ad8aba190498298858db5cec09948f069045075e8",
+      "retrieved_at": "2026-11-15",
+      "client_build_verified": false
+    },
+    {
+      "source_id": "F28",
+      "kind": "translation",
+      "url": "https://github.com/Treeofsavior/EnglishTranslation/blob/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master/QUEST_JOBSTEP.tsv",
+      "commit_sha": "392ef21adf4fc2edb5267c323265000539991899",
+      "repository_path": "EnglishTranslation-master/QUEST_JOBSTEP.tsv",
+      "sha256": "58905cc6877b2e7c15241925912e5ea40b8c9da64dc759c171a9cef57542dd0f",
+      "retrieved_at": "2026-11-15",
+      "client_build_verified": false
+    },
+    {
+      "source_id": "F29",
+      "kind": "translation",
+      "url": "https://github.com/Treeofsavior/EnglishTranslation/blob/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master/QUEST_UNUSED.tsv",
+      "commit_sha": "392ef21adf4fc2edb5267c323265000539991899",
+      "repository_path": "EnglishTranslation-master/QUEST_UNUSED.tsv",
+      "sha256": "c89218bfe2f53704aad15ac7467b5bed32c9287584f0fea2c2f09c16dd3e32f7",
+      "retrieved_at": "2026-11-15",
+      "client_build_verified": false
+    },
+    {
+      "source_id": "F30",
+      "kind": "translation",
+      "url": "https://github.com/Treeofsavior/EnglishTranslation/blob/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master/UI.tsv",
+      "commit_sha": "392ef21adf4fc2edb5267c323265000539991899",
+      "repository_path": "EnglishTranslation-master/UI.tsv",
+      "sha256": "ad3079dde396622bd1e0319b38507cfff72e2576a14db83469e8b11b3bc567b2",
+      "retrieved_at": "2026-11-15",
+      "client_build_verified": false
+    },
+    {
+      "source_id": "F31",
+      "kind": "archived-equipment",
+      "url": "https://web.archive.org/web/20160404115649id_/http://www.tosbase.com:80/database/items/equipment/sword/?view=details",
+      "captured_at": "2016-04-04T11:56:49Z",
+      "original_url": "http://www.tosbase.com:80/database/items/equipment/sword/?view=details",
+      "sha256": "472bd1e8bd486c47e107e0ae5e84a0aec848492a02a874db2fd22a3e9d7d3cbd",
+      "retrieved_at": "2026-11-15",
+      "client_build_verified": false
+    },
+    {
+      "source_id": "F32",
+      "kind": "archived-equipment",
+      "url": "https://web.archive.org/web/20160401170127id_/http://www.tosbase.com:80/database/items/equipment/mace/?view=details",
+      "captured_at": "2016-04-01T17:01:27Z",
+      "original_url": "http://www.tosbase.com:80/database/items/equipment/mace/?view=details",
+      "sha256": "f8846bf1a6db28baedf94b247572cffde98de5797195b202f279ff30748ea526",
+      "retrieved_at": "2026-11-15",
+      "client_build_verified": false
+    },
+    {
+      "source_id": "F33",
+      "kind": "archived-equipment",
+      "url": "https://web.archive.org/web/20160404111217id_/http://www.tosbase.com:80/database/items/equipment/shield/?view=details",
+      "captured_at": "2016-04-04T11:12:17Z",
+      "original_url": "http://www.tosbase.com:80/database/items/equipment/shield/?view=details",
+      "sha256": "2c6ee31ed9eaba9d73705aaba50f9089489965cc2cc01b6f3201c865eae9c075",
+      "retrieved_at": "2026-11-15",
+      "client_build_verified": false
+    },
+    {
+      "source_id": "F34",
+      "kind": "archived-equipment",
+      "url": "https://web.archive.org/web/20160401165430id_/http://www.tosbase.com:80/database/items/equipment/dagger/?view=details",
+      "captured_at": "2016-04-01T16:54:30Z",
+      "original_url": "http://www.tosbase.com:80/database/items/equipment/dagger/?view=details",
+      "sha256": "f05c863093006f910e700d14ced97bba9184c6e7abcaa42b82016a1104aba434",
+      "retrieved_at": "2026-11-15",
+      "client_build_verified": false
+    }
+  ],
+  "equipment_examples": [
+    {
+      "name": "Artie Saif",
+      "type_displayed": "One-handed Sword",
+      "required_level_displayed": 120,
+      "required_classes_displayed": [
+        "Swordsman",
+        "Wizard",
+        "Cleric"
+      ],
+      "slot_interpretation": "main-hand",
+      "slot_evidence_ids": [
+        "F30"
+      ],
+      "evidence_ids": [
+        "F31"
+      ],
+      "client_verified": false
+    },
+    {
+      "name": "Battle Hammer",
+      "type_displayed": "One-handed Blunt Weapon",
+      "required_level_displayed": 75,
+      "required_classes_displayed": [
+        "Swordsman",
+        "Wizard",
+        "Cleric"
+      ],
+      "slot_interpretation": "main-hand",
+      "slot_evidence_ids": [
+        "F30"
+      ],
+      "evidence_ids": [
+        "F32"
+      ],
+      "client_verified": false
+    },
+    {
+      "name": "Aston Shield",
+      "type_displayed": "Shield",
+      "required_level_displayed": 15,
+      "required_classes_displayed": [
+        "All"
+      ],
+      "slot_interpretation": "off-hand",
+      "slot_evidence_ids": [
+        "F30"
+      ],
+      "evidence_ids": [
+        "F33"
+      ],
+      "client_verified": false
+    },
+    {
+      "name": "Arde Dagger",
+      "type_displayed": "Dagger",
+      "required_level_displayed": 75,
+      "required_classes_displayed": [
+        "All"
+      ],
+      "slot_interpretation": "off-hand",
+      "slot_evidence_ids": [
+        "F30"
+      ],
+      "evidence_ids": [
+        "F34"
+      ],
+      "client_verified": false
+    }
+  ]
+}

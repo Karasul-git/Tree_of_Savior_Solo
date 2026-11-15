@@ -62,7 +62,7 @@ As fontes F18–F25 cobrem 31/03 a 15/04/2016. Foram recuperadas as tabelas comp
 
 A árvore incluía especializações com requisitos próprios. Um exemplo de Autentist combina Swordsman C1, Highlander C3, Hoplite C2 e Dragoon C1. O uso de armas e as sinergias são discutidos no contexto do caminho inteiro; isso não prova que Swordsman C1, sozinho, equipasse qualquer arma da árvore. [F09](../fontes.md#f09)
 
-A matriz de armas da classe inicial, a localização e a identidade do mestre, e as condições da missão de avanço continuam em conferência. Não importamos essa matriz de um emulador atual.
+**Pesquisa ampliada:** [armas, mestres e avanços em 2016](swordsman-equipamentos-e-avancos-2016.md). As listas arquivadas comprovam exemplos de espada de uma mão, maça, escudo e adaga permitidos para a árvore. A tradução histórica preserva Rashua em Klaipeda e o nome Codill para o submestre; há um relato de sua presença em Orsha. Os textos de provas de avanço estão identificados, com a ligação exata a círculo/rank ainda pendente. [F27](../fontes.md#f27) · [F28](../fontes.md#f28) · [F31](../fontes.md#f31) · [F32](../fontes.md#f32) · [F33](../fontes.md#f33) · [F34](../fontes.md#f34) · [F36](../fontes.md#f36)
 
 ## O que mudou na classe atual
 
@@ -74,9 +74,9 @@ O mesmo nome também não garante a mesma regra: efeitos adicionais de Pain Barr
 
 - Limites, custos e tempos dos atributos, além do que está descrito nas capturas.
 - Validar no cliente da edição as tabelas recuperadas e as interações descritas.
-- Equipamentos permitidos, NPC mestre e missão de avanço.
+- Matriz completa de equipamentos e posturas; coordenadas/serviços dos mestres e condições efetivas das missões de avanço.
 - Diferenças em relação aos betas de 2015.
 
 **Leitura para o futuro solo:** a utilidade de resistência a interrupções merece testes de campo. Isso é uma pauta de adaptação futura, não uma mudança desta ficha histórica.
 
-**Próximo passo recomendado:** conferir armas permitidas, mestre e missão de avanço de Swordsman em fontes da mesma época. Depois, aplicar o modelo de capturas a Highlander e Peltasta.
+**Próximo passo recomendado:** pesquisar Highlander e Peltasta, começando por armas e habilidades por círculo. As lacunas de requisitos e missões de Swordsman seguem registradas na pesquisa ampliada.
