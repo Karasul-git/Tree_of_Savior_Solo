@@ -101,4 +101,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Pontos por nível.** O proprietário decidiu ressignificar o INT, manter o bônus por investimento e realocar os pontos extras de história, revelações e estátuas. Proposta: 1 ponto de atributo por nível e 1 ponto de habilidade por nível de classe. [Detalhes](pontos-por-nivel.md).
 
-**Próximo passo recomendado:** listar as habilidades da árvore solo que usam ataque mágico, para definir o novo papel do INT.
+**15/11/2026 — Habilidades mágicas restantes.** Nos dados do servidor, 26 habilidades de quatro classes usam magia: Monk, Paladin, Alchemist e Plague Doctor. Todo o dano e a cura mágicos que sobram vêm de química e medicina. [Levantamento](habilidades-magicas-e-int.md).
+
+**Próximo passo recomendado:** escolher o papel do INT; a recomendação é potência de preparados.

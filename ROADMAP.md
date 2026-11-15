@@ -101,6 +101,7 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Avaliar base técnica: Melia, cliente atual da Steam, dados e lacunas (grupo e bots).
 - [x] Fase 0: tabela das 39 classes no formato do Melia e esqueleto de progressão (rascunho).
 - [x] Fase 0: pontos de atributo e de habilidade por nível (proposta, com decisões do proprietário).
+- [x] Levantar as habilidades mágicas da árvore solo (26, em quatro classes).
 - [ ] Definir o novo papel do INT e a curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - [ ] Confirmar como o cliente atual exibe ranks e círculos.

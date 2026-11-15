@@ -96,4 +96,4 @@
 
 Os pontos por nível foram detalhados em [Pontos de atributo e de habilidade](pontos-por-nivel.md).
 
-**Próximo passo recomendado:** listar as habilidades da árvore solo que usam ataque mágico, para definir o novo papel do INT.
+**Próximo passo recomendado:** escolher o papel do INT com base no [levantamento das habilidades mágicas](habilidades-magicas-e-int.md).

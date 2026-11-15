@@ -32,7 +32,7 @@ Descrições do guia oficial atual. [F113](../fontes.md#f113) Os valores por pon
 - **Técnica com dispositivos:** explosivos, armadilhas e munições especiais (Sapper, Cannoneer, Ardito).
 - **Precisão técnica:** acerto ou dano de habilidades que hoje usam ataque mágico.
 
-Antes de escolher, será preciso listar quais habilidades da árvore solo ainda usam ataque mágico.
+O [levantamento das habilidades mágicas](habilidades-magicas-e-int.md) mostra que o dano e a cura mágicos restantes vêm de química e medicina de Alchemist e Plague Doctor.
 
 ## Pontos de atributo
 
@@ -81,4 +81,4 @@ Os bots seguem as mesmas regras. Como a distribuição é livre, cada classe vai
 - Escolher o novo papel do INT, depois de listar as habilidades que usam ataque mágico.
 - Definir o nível máximo de cada habilidade por círculo.
 
-**Próximo passo recomendado:** listar as habilidades da árvore solo que ainda usam ataque mágico. Essa lista mostra qual papel do INT faz mais sentido e já prepara as fórmulas de dano.
+**Próximo passo recomendado:** escolher o papel do INT com base no [levantamento das habilidades mágicas](habilidades-magicas-e-int.md).
