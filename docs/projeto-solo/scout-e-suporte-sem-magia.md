@@ -4,6 +4,8 @@
 
 **Estudo de 15/11/2026.** Scout como classe base e árvore própria é uma decisão do projeto. As distribuições e transformações abaixo são propostas de design, apoiadas por referências históricas e posteriores identificadas separadamente.
 
+**Orientação posterior do proprietário:** reaproveitar o máximo do original. Poções existentes são o ponto de partida para recuperação; a necessidade de habilidades adicionais ainda não foi demonstrada. As conversões deste estudo são alternativas exploratórias. A próxima etapa passa a ser revisar recursos originais e a organização das classes, antes de criar novos kits.
+
 ## A separação de Scout pode ser aproveitada
 
 No Re:Build, Scout passou a reunir adagas, pistolas e suporte ao grupo, com classes transferidas de outras árvores. A documentação oficial também distingue esse suporte da cura e da religião. Portanto, Scout oferece uma boa referência de organização, mas sua criação não resolve sozinha a recuperação de HP. [F12](../fontes.md#f12)
@@ -27,6 +29,7 @@ A composição posterior é documentada em [F96](../fontes.md#f96). Assassin, Ou
 | [Peltasta](../classes/catalogo/peltasta.md) | Provocação, bloqueio e escudo. | Absorver pressão e proteger a posição. | Não repõe diretamente o HP perdido. |
 | [Rodelero](../classes/catalogo/rodelero.md) | Interrupções, deslocamento e enfraquecimento. | Evitar ataques e abrir oportunidades. | Controle não substitui recuperação. |
 | [Corsair](../classes/catalogo/corsair.md) | Gancho, bandeira e pilhagem. | Controle e apoio econômico/ofensivo. | Não é curador. |
+| [Templar](../classes/catalogo/templar.md) | Battle Orders fortalece STR de membros próximos da guilda. | Comando e reforço coletivo. | Era voltado a guildas; utilidade e condições no solo precisam ser avaliadas. |
 | [Hunter](../classes/catalogo/hunter.md) e [Falconer](../classes/catalogo/falconer.md) | Comandos de companheiros, controle e apoio em área. | Reduzir pressão e facilitar ataques. | Dependem dos companheiros; não oferecem um kit de cura. |
 | [Wugushi](../classes/catalogo/wugushi.md) | Venenos e Detoxify. | Especialista em toxinas e antídotos. | Remover veneno não recupera automaticamente HP nem limpa todos os estados. |
 
@@ -55,11 +58,13 @@ Há um precedente posterior particularmente útil: o FAQ oficial de janeiro de 2
 
 As colunas de identidade e adaptação são sugestões deste estudo. As funções originais estão nas fichas [Alchemist](../classes/catalogo/alchemist.md), [Plague Doctor](../classes/catalogo/plague-doctor.md), [Priest](../classes/catalogo/priest.md), [Cleric](../classes/catalogo/cleric.md), [Thaumaturge](../classes/catalogo/thaumaturge.md), [Linker](../classes/catalogo/linker.md) e [Dievdirbys](../classes/catalogo/dievdirbys.md). Uma animação reaproveitável não garante um efeito adequado à nova proposta.
 
-**Prioridade sugerida:** Squire, Alchemist e médico de campo. Cobrem preparação, consumíveis e atendimento durante a luta com mudanças temáticas mais claras. As demais conversões ficam como alternativas, sem necessidade de salvar toda classe mágica.
+**Prioridade revisada:** avaliar Templar, Squire e Corsair como suportes originais, além dos consumíveis disponíveis. Alchemist e Plague Doctor continuam candidatos independentes e sem destino definido. Uma eventual relação de progressão entre eles seria uma adaptação nossa; não existia como sequência de classes em 2016. [F61](../fontes.md#f61) · [F92](../fontes.md#f92)
 
 ## Como a cura pode funcionar num jogo solo?
 
-Proposta inicial, sem números definidos:
+O jogo já possuía poções de HP e SP no período: a discussão contemporânea em F99 menciona esses consumíveis comuns. Primeiro devemos conferir disponibilidade, requisitos e recuperação na edição escolhida, e testar sua suficiência para as builds solo. [F99](../fontes.md#f99)
+
+As ideias abaixo permanecem como alternativas, sem números ou implantação definidos:
 
 - **Recursos básicos para todos:** poções, comida e descanso acessíveis por exploração, receitas e comércio. Nenhuma build deveria exigir um personagem alternativo alquimista.
 - **Especialização de cura:** maior eficiência, aplicação em aliados e variedade de preparados, sem tornar a classe obrigatória para sobreviver.
@@ -80,4 +85,4 @@ Essas regras precisam ser testadas contra duração dos confrontos, dano recebid
 
 Não há implementação de gameplay nesta atualização da wiki. Sem o cliente e a base técnica definidos, a viabilidade de cada mudança continua pendente.
 
-**Próximo passo recomendado:** desenhar três kits curtos — Squire, Alchemist e médico de campo — e uma matriz de suporte/cura para comparar sobreposição, autonomia solo e custo de adaptação.
+**Próximo passo recomendado:** revisar este estudo, levantar o suporte e os consumíveis originais e reavaliar a organização das classes. Novos kits só devem entrar depois dessa comparação de reaproveitamento.

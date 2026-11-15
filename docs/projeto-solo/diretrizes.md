@@ -16,6 +16,10 @@ O corte nominal de classes híbridas ainda não foi especificado. Casos como Mon
 
 [Estudo de Scout, suporte físico e cura por itens](scout-e-suporte-sem-magia.md).
 
+**15/11/2026 — Reaproveitar ao máximo o original.** Classes, habilidades, consumíveis e recursos existentes têm prioridade sobre novos sistemas. A recuperação começa pelas poções do jogo; sua suficiência será avaliada no balanceamento solo. Especialistas de suporte/consumíveis são possibilidades complementares, sem necessidade já estabelecida de criar um novo kit de cura.
+
+**Organização em avaliação:** Swordsman, Archer e Scout como três bases de combate é uma hipótese de trabalho. A árvore final e a posição de Alchemist e Plague Doctor continuam indefinidas. Essas duas classes eram independentes, respectivamente de Wizard e Cleric; tratá-las como uma sequência seria uma mudança do projeto, não uma progressão original.
+
 ## Ordem de trabalho escolhida
 
 1. Reunir o panorama de todas as classes do lançamento: emblemas, personagens, identidade e habilidades.
@@ -30,4 +34,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** comparar kits conceituais de Squire, Alchemist e médico de campo, com meios básicos de recuperação disponíveis a todas as builds; depois definir sua posição na árvore solo.
+**Próximo passo recomendado:** revisar o estudo e inventariar os suportes e consumíveis originais, incluindo Templar, Squire e Corsair; depois reavaliar a organização das bases e o destino dos especialistas, antes de desenhar novos kits.

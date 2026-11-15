@@ -1250,5 +1250,17 @@
     "url": "https://treeofsavior.com/page/class/view.php?c=Alchemist",
     "supports": "Descrição de aplicação de poções de HP/SP em si e no grupo; fabricação por Tincturing.",
     "limitations": "Página sem revisão datada e com classificação mágica. Serve de referência posterior para design, não como kit mundano ou ficha de lançamento."
+  },
+  {
+    "id": "F99",
+    "title": "On Changes for Future Patches",
+    "author": "redlevia",
+    "published": "2016-04-10",
+    "accessed": "2026-11-15",
+    "kind": "player-period",
+    "scope": "Discussão de consumíveis na janela de lançamento",
+    "url": "https://forum.treeofsavior.com/t/on-changes-for-future-patches/186473",
+    "supports": "Menciona poções comuns de HP e SP existentes no período.",
+    "limitations": "Texto de sugestões: propostas de troca/comércio não são regras implementadas. Não comprova requisitos de todas as poções nem seus valores."
   }
 ]

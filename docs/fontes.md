@@ -874,3 +874,12 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 **Uso:** Descrição de aplicação de poções de HP/SP em si e no grupo; fabricação por Tincturing.
 
 **Limite:** Página sem revisão datada e com classificação mágica. Serve de referência posterior para design, não como kit mundano ou ficha de lançamento.
+
+<a id="f99"></a>
+### F99 · On Changes for Future Patches
+
+[Discussão de 10/04/2016](https://forum.treeofsavior.com/t/on-changes-for-future-patches/186473) — redlevia. Consulta: 15/11/2026.
+
+**Uso:** menção a poções comuns de HP e SP no período.
+
+**Limite:** texto de sugestões; propostas de comércio não são regras implementadas. Não estabelece requisitos de uso nem valores de todas as poções.
