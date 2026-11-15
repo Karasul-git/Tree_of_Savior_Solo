@@ -125,4 +125,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Curva de experiência.** Cerca de 150 horas até o nível 280, ritmo rápido no início e lento no fim, experiência dividida igualmente no grupo e ranks nos níveis 1, 15, 45, 80, 115, 155 e 200 (R7 com cerca de 67 horas). [Curva](curva-de-experiencia.md).
 
-**Próximo passo recomendado:** reunir o balanceamento numa página-resumo.
+**15/11/2026 — Resumo do balanceamento.** As decisões, os números de referência, as mudanças no Melia e sete pontos que ainda não conversam entre si estão reunidos numa página. [Resumo](resumo-do-balanceamento.md).
+
+**Próximo passo recomendado:** resolver o nível das habilidades na calibragem e a defesa mágica dos monstros.

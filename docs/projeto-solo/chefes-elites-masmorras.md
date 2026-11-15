@@ -54,4 +54,4 @@
 
 A [curva de experiência](curva-de-experiencia.md) foi montada em seguida.
 
-**Próximo passo recomendado:** reunir o balanceamento numa página-resumo.
+**Próximo passo recomendado:** ver o [resumo do balanceamento](resumo-do-balanceamento.md).

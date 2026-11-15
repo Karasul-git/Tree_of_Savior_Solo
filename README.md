@@ -40,6 +40,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Acervo original de classes e habilidades](docs/classes/catalogo-2016.md?view=2016)
 - [Diretrizes da versão solo](docs/projeto-solo/diretrizes.md)
 - [Scout · kit base proposto](docs/projeto-solo/scout-kit-base.md)
+- [Resumo do balanceamento](docs/projeto-solo/resumo-do-balanceamento.md)
 - [Estrutura do servidor](docs/projeto-solo/servidor-estrutura.md)
 - [Classes e progressão no servidor](docs/projeto-solo/classes-e-progressao-servidor.md)
 - [Pontos de atributo e de habilidade](docs/projeto-solo/pontos-por-nivel.md)

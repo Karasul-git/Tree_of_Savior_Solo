@@ -55,4 +55,6 @@ A tabela do projeto pede bem menos experiência que a atual do Melia, porque o j
 - Aplicar a tabela no servidor (`exp.txt`) e no cliente.
 - Definir a experiência de missões, chefes e masmorras dentro da mesma curva.
 
-**Próximo passo recomendado:** revisar o conjunto do balanceamento numa página-resumo, com todas as decisões e números num lugar só, para servir de guia quando o servidor estiver rodando.
+O [resumo do balanceamento](resumo-do-balanceamento.md) reúne esta curva com as outras decisões.
+
+**Próximo passo recomendado:** resolver o nível das habilidades na calibragem.
