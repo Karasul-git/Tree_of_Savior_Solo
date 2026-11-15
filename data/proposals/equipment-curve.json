@@ -313,7 +313,7 @@
     "reference_factor_pct": 175
   },
   "monster_multipliers": {
-    "reference_factor_pct": 175,
+    "reference_factor_pct": 211,
     "defense_model": "ratio",
     "interpolation": "Linear pelo nível do monstro entre os níveis da tabela; abaixo de 15 usa o valor de 15 e acima de 270 o de 270.",
     "rules": {
@@ -324,11 +324,11 @@
     "table": [
       {
         "level": 15,
-        "hp_mult": 3.22,
+        "hp_mult": 3.88,
         "atk_mult": 1.44,
         "def_mult": 0.85,
         "hit_mult": 0.0,
-        "target_hp": 1659,
+        "target_hp": 2000,
         "target_atk": 251,
         "target_def": 70,
         "target_hit": 0,
@@ -336,11 +336,11 @@
       },
       {
         "level": 40,
-        "hp_mult": 2.25,
+        "hp_mult": 2.71,
         "atk_mult": 1.8,
         "def_mult": 0.76,
         "hit_mult": 0.02,
-        "target_hp": 3644,
+        "target_hp": 4394,
         "target_atk": 584,
         "target_def": 154,
         "target_hit": 1,
@@ -348,11 +348,11 @@
       },
       {
         "level": 75,
-        "hp_mult": 1.23,
+        "hp_mult": 1.48,
         "atk_mult": 1.11,
         "def_mult": 0.46,
         "hit_mult": 0.12,
-        "target_hp": 6447,
+        "target_hp": 7773,
         "target_atk": 1083,
         "target_def": 273,
         "target_hit": 10,
@@ -360,11 +360,11 @@
       },
       {
         "level": 120,
-        "hp_mult": 0.69,
+        "hp_mult": 0.83,
         "atk_mult": 0.83,
         "def_mult": 0.36,
         "hit_mult": 0.16,
-        "target_hp": 10248,
+        "target_hp": 12356,
         "target_atk": 1777,
         "target_def": 434,
         "target_hit": 21,
@@ -372,11 +372,11 @@
       },
       {
         "level": 170,
-        "hp_mult": 0.41,
+        "hp_mult": 0.49,
         "atk_mult": 0.76,
         "def_mult": 0.32,
         "hit_mult": 0.19,
-        "target_hp": 14595,
+        "target_hp": 17597,
         "target_atk": 2617,
         "target_def": 618,
         "target_hit": 34,
@@ -384,11 +384,11 @@
       },
       {
         "level": 220,
-        "hp_mult": 0.38,
+        "hp_mult": 0.46,
         "atk_mult": 0.76,
         "def_mult": 0.37,
         "hit_mult": 0.21,
-        "target_hp": 19026,
+        "target_hp": 22940,
         "target_atk": 3544,
         "target_def": 805,
         "target_hit": 46,
@@ -396,17 +396,18 @@
       },
       {
         "level": 270,
-        "hp_mult": 0.28,
+        "hp_mult": 0.34,
         "atk_mult": 1.02,
         "def_mult": 0.37,
         "hit_mult": 0.22,
-        "target_hp": 23678,
+        "target_hp": 28549,
         "target_atk": 4527,
         "target_def": 1002,
         "target_hit": 58,
         "melia_hit": 272
       }
-    ]
+    ],
+    "reference_skill_level": 5
   },
   "weapon_curves": {
     "tiers": [

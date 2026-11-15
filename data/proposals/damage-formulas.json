@@ -38,6 +38,12 @@
       "decided_at": "2026-11-15",
       "rule": "redução = defesa ÷ (defesa + ataque do golpe), máximo de 75%; vale para jogadores e monstros",
       "replaces": "subtração da defesa do Melia"
+    },
+    "skill_level_growth": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "rule": "Cada nível de habilidade soma 10% do fator do nível 1 (após a divisão por 10). Mediana: nível 1 = 151%, nível 5 = 211%, nível 10 = 287%, nível 15 = 362%.",
+      "calibration": "Monstros e chefes calibrados para habilidades no nível 5 (211%)."
     }
   }
 }

@@ -62,6 +62,7 @@ Contra um alvo com 150 de esquiva, a chance de errar fica em (150 − 130)<sup>0
 | 6 | Grupo de 4 | O lado dos monstros (HP, ataque, defesa e esquiva) precisa ser calibrado para 1 jogador + 3 bots. | Próxima etapa |
 | 7 | Escala das habilidades | Fatores das habilidades do Melia **divididos por 10** (faixa de 150% a 200%). | **Decidido em 15/11/2026** (opção A). |
 | 8 | Modelo de defesa | A defesa **reduz uma fração** do golpe: defesa ÷ (defesa + ataque do golpe), máximo de 75%. Substitui a subtração do Melia, para jogadores e monstros. | **Decidido em 15/11/2026.** |
+| 9 | Crescimento por nível de habilidade | Cada nível soma 10% do fator do nível 1: nível 1 = 151%, nível 5 = 211%, nível 15 = 362% (mediana). Monstros calibrados para o nível 5. | **Decidido em 15/11/2026.** |
 
 Descrição dos atributos no guia oficial atual: [F113](../fontes.md#f113).
 

@@ -19,19 +19,20 @@
     "skill_cadence_s": 2.0,
     "boss_hit_reference_pct": 20,
     "defense_model": "ratio",
-    "group_scaling": "HP do chefe = HP para 4 × (membros ÷ 4); ataque não muda"
+    "group_scaling": "HP do chefe = HP para 4 × (membros ÷ 4); ataque não muda",
+    "reference_skill_factor_pct": 211
   },
   "results": [
     {
       "level": 15,
-      "skill_damage": 276,
+      "skill_damage": 333,
       "boss_hp_group4": [
-        33075,
-        66150
+        39879,
+        79758
       ],
       "boss_hp_solo": [
-        8269,
-        16538
+        9970,
+        19940
       ],
       "boss_atk": 497,
       "boss_def": 70,
@@ -42,14 +43,14 @@
     },
     {
       "level": 40,
-      "skill_damage": 606,
+      "skill_damage": 731,
       "boss_hp_group4": [
-        72765,
-        145530
+        87734,
+        175468
       ],
       "boss_hp_solo": [
-        18191,
-        36382
+        21933,
+        43866
       ],
       "boss_atk": 1166,
       "boss_def": 154,
@@ -60,14 +61,14 @@
     },
     {
       "level": 75,
-      "skill_damage": 1075,
+      "skill_damage": 1296,
       "boss_hp_group4": [
-        128992,
-        257985
+        155527,
+        311056
       ],
       "boss_hp_solo": [
-        32248,
-        64496
+        38882,
+        77764
       ],
       "boss_atk": 2176,
       "boss_def": 273,
@@ -78,14 +79,14 @@
     },
     {
       "level": 120,
-      "skill_damage": 1708,
+      "skill_damage": 2059,
       "boss_hp_group4": [
-        204908,
-        409815
+        247061,
+        494120
       ],
       "boss_hp_solo": [
-        51227,
-        102454
+        61765,
+        123530
       ],
       "boss_atk": 3597,
       "boss_def": 434,
@@ -96,14 +97,14 @@
     },
     {
       "level": 170,
-      "skill_damage": 2432,
+      "skill_damage": 2932,
       "boss_hp_group4": [
-        291848,
-        583695
+        351885,
+        703769
       ],
       "boss_hp_solo": [
-        72962,
-        145924
+        87971,
+        175943
       ],
       "boss_atk": 5333,
       "boss_def": 618,
@@ -114,14 +115,14 @@
     },
     {
       "level": 220,
-      "skill_damage": 3171,
+      "skill_damage": 3823,
       "boss_hp_group4": [
-        380520,
-        761040
+        458798,
+        917597
       ],
       "boss_hp_solo": [
-        95130,
-        190260
+        114700,
+        229399
       ],
       "boss_atk": 7271,
       "boss_def": 805,
@@ -132,14 +133,14 @@
     },
     {
       "level": 270,
-      "skill_damage": 3947,
+      "skill_damage": 4759,
       "boss_hp_group4": [
-        473602,
-        947205
+        571029,
+        1142059
       ],
       "boss_hp_solo": [
-        118401,
-        236801
+        142758,
+        285514
       ],
       "boss_atk": 9342,
       "boss_def": 1002,

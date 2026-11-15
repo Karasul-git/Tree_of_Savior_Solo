@@ -127,4 +127,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Resumo do balanceamento.** As decisões, os números de referência, as mudanças no Melia e sete pontos que ainda não conversam entre si estão reunidos numa página. [Resumo](resumo-do-balanceamento.md).
 
-**Próximo passo recomendado:** resolver o nível das habilidades na calibragem e a defesa mágica dos monstros.
+**15/11/2026 — Crescimento das habilidades.** Cada nível de habilidade soma 10% do fator do nível 1, e os monstros foram calibrados para habilidades no nível 5 (HP dos monstros e chefes cerca de 21% maior que na versão anterior). [Resumo](resumo-do-balanceamento.md).
+
+**Próximo passo recomendado:** resolver a defesa mágica dos monstros.

@@ -117,7 +117,8 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Metas de elites, chefes e masmorras (decisões do proprietário).
 - [x] Curva de experiência até o nível 280 (metas do proprietário).
 - [x] Página-resumo do balanceamento, com mudanças no Melia e pontos de atenção.
-- [ ] Resolver nível das habilidades na calibragem e defesa mágica dos monstros.
+- [x] Crescimento das habilidades: 10% por nível, calibragem no nível 5.
+- [ ] Defesa mágica dos monstros para os preparados de INT.
 - [ ] Estrutura das masmorras e habilidades dos chefes.
 - [ ] Conferir valores de armas e armaduras com 2016.
 - [ ] Multiplicadores dos monstros por faixa de nível e curva de experiência.

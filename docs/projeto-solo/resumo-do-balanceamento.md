@@ -14,7 +14,7 @@
 | Pontos | 1 ponto de atributo por nível (279 até o 280), com bônus por investimento; 1 ponto de habilidade por nível de classe. Pontos extras de história e estátuas realocados. | [Pontos por nível](pontos-por-nivel.md) |
 | Atributos | STR: ataque físico e precisão. CON: HP e defesas (+2 de cada defesa por ponto). INT: potência de preparados. SPR, agora **Sabedoria**: SP e recuperação. DEX: crítico e esquiva. | [Pontos por nível](pontos-por-nivel.md) |
 | INT | Dano e cura de química, medicina e consumíveis; deve crescer para outras habilidades. | [Magia e INT](habilidades-magicas-e-int.md) |
-| Escala das habilidades | Fatores das habilidades do Melia divididos por 10 (faixa de 150% a 200%). | [Curva de equipamentos](curva-de-equipamentos.md) |
+| Escala das habilidades | Fatores das habilidades do Melia divididos por 10. Cada nível de habilidade soma 10% do fator do nível 1 (nível 1 = 151%, nível 5 = 211%, nível 15 = 362%). Monstros calibrados para o nível 5. | [Fórmulas de dano](formulas-de-dano.md) |
 | Defesa | Redução = defesa ÷ (defesa + ataque do golpe), no máximo 75%, para jogadores e monstros. | [Comparação das bases](comparacao-das-bases.md) |
 | Arma secundária | Adaga ou pistola somam 20% do próprio ataque ao ataque geral; o valor inteiro vale nas habilidades que as usam. | [Curva de equipamentos](curva-de-equipamentos.md) |
 | Monstros comuns | 1 a 2 habilidades de cada membro do grupo (4 a 8 sozinho); golpe de 5% a 10% do HP de quem não é tanque. | [Calibragem dos monstros](calibragem-monstros.md) |
@@ -27,8 +27,8 @@
 | Item | Valor |
 | --- | --- |
 | Espada comum / arma de duas mãos | 921 / 1.088 de ataque |
-| Monstro comum (meta) | 10.248 de HP, 1.777 de ataque, 434 de defesa |
-| Chefe com grupo de 4 (meta) | 205 mil a 410 mil de HP, 3.597 de ataque |
+| Monstro comum (meta) | 12.356 de HP, 1.777 de ataque, 434 de defesa |
+| Chefe com grupo de 4 (meta) | 247 mil a 494 mil de HP, 3.597 de ataque |
 | Warrior de escudo e placa | Reduz 64% do golpe, leva ~5% do HP por golpe |
 | Archer ou Scout | Leva ~9% do HP por golpe e desvia de ~12% |
 | Habilidades para derrubar um monstro comum sozinho | 5 a 6 em qualquer base |
@@ -45,14 +45,14 @@
 | `calc_character.cs` | CON na defesa; cura de preparados com INT; regra da arma secundária; bônus por investimento, se ainda não existir. |
 | `calc_combat.cs` | Defesa percentual com limite de 75% no lugar da subtração. |
 | `calc_monster.cs` | Multiplicadores de HP, ataque, defesa e precisão por nível; ajuste de HP pelo tamanho do grupo em chefes e masmorras. |
-| `system/db/skills.txt` ou cálculo de habilidades | Fatores das habilidades divididos por 10. |
+| `system/db/skills.txt` ou cálculo de habilidades | Fatores das habilidades divididos por 10; crescimento por nível de 10% do fator do nível 1. |
 | Localização do cliente e do servidor | Nome "Sabedoria" para SPR. |
 
 ## Pontos que ainda não conversam entre si
 
 Revisando o conjunto, estes pontos precisam de atenção antes dos testes:
 
-1. **Nível das habilidades.** A calibragem usou um fator médio de 175%. Com a divisão por 10, uma habilidade no nível 5 chega a ~282%. Conforme o jogador investe pontos, os monstros vão cair mais rápido que a meta. É preciso decidir se a meta vale para habilidades de nível baixo ou médio.
+1. ~~**Nível das habilidades.**~~ **Resolvido em 15/11/2026:** crescimento de 10% por nível e calibragem no nível 5. Sozinho: 6 a 11 habilidades com a habilidade no nível 1, 4 a 8 no nível 5, 3 a 6 no 10 e 2 a 5 no 15.
 2. **Defesa mágica dos monstros.** O ajuste foi calculado para a defesa física. Os preparados (INT) usam a defesa mágica, que ainda não tem multiplicador.
 3. **Equipamento melhor que o comum.** Toda a conta usa equipamento de grau 01. Itens de grau mais alto e melhorias deixam o personagem mais forte que a referência.
 4. **Crítico.** A chance de crítico hoje não depende da DEX, e a resistência a crítico dos monstros não foi calibrada. Falta a fonte de 2016.
@@ -62,8 +62,8 @@ Revisando o conjunto, estes pontos precisam de atenção antes dos testes:
 
 ## Pendências principais
 
-- Resolver os pontos acima, começando pelo **nível das habilidades** e pela **defesa mágica**, que mudam os números da calibragem.
+- Resolver os pontos acima, começando pela **defesa mágica**, que muda os números da calibragem.
 - Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - Medir no jogo o ritmo de habilidades e de caça e ajustar as tabelas.
 
-**Próximo passo recomendado:** resolver o ponto 1 (nível das habilidades). Ele decide se a calibragem vale para o começo ou para o meio do investimento em cada habilidade.
+**Próximo passo recomendado:** resolver o ponto 2 (defesa mágica dos monstros), para que os preparados de INT fiquem na mesma meta das habilidades físicas.

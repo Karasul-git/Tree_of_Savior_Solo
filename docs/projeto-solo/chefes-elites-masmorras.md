@@ -15,7 +15,7 @@
 
 ## Como os números foram calculados
 
-- **Dano do grupo:** cada membro usa uma habilidade a cada 2 segundos, em média, contando recargas e ataques básicos. É uma hipótese, a ser conferida no servidor.
+- **Dano do grupo:** habilidades no nível 5 (211%); cada membro usa uma habilidade a cada 2 segundos, em média, contando recargas e ataques básicos. É uma hipótese, a ser conferida no servidor.
 - **HP do chefe** = duração da luta × dano do grupo.
 - **Ataque do chefe:** o que faz um golpe tirar 20% do HP do personagem de referência (couro), já com a defesa percentual.
 - **Defesa do chefe:** a mesma dos monstros comuns (reduz ~25% do dano).
@@ -25,13 +25,13 @@
 
 | Nível | HP com grupo de 4 | HP sozinho | Ataque | Defesa | HP mediano dos chefes no Melia hoje |
 | --- | --- | --- | --- | --- | --- |
-| 15 | 33.075 – 66.150 | 8.269 – 16.538 | 497 | 70 | 3.508 |
-| 40 | 72.765 – 145.530 | 18.191 – 36.382 | 1.166 | 154 | 14.037 |
-| 75 | 128.992 – 257.985 | 32.248 – 64.496 | 2.176 | 273 | 42.892 |
-| 120 | 204.908 – 409.815 | 51.227 – 102.454 | 3.597 | 434 | 117.392 |
-| 170 | 291.848 – 583.695 | 72.962 – 145.924 | 5.333 | 618 | 225.641 |
-| 220 | 380.520 – 761.040 | 95.130 – 190.260 | 7.271 | 805 | 426.938 |
-| 270 | 473.602 – 947.205 | 118.401 – 236.801 | 9.342 | 1.002 | 595.028 |
+| 15 | 39.879 – 79.758 | 9.970 – 19.940 | 497 | 70 | 3.508 |
+| 40 | 87.734 – 175.468 | 21.933 – 43.866 | 1.166 | 154 | 14.037 |
+| 75 | 155.527 – 311.056 | 38.882 – 77.764 | 2.176 | 273 | 42.892 |
+| 120 | 247.061 – 494.120 | 61.765 – 123.530 | 3.597 | 434 | 117.392 |
+| 170 | 351.885 – 703.769 | 87.971 – 175.943 | 5.333 | 618 | 225.641 |
+| 220 | 458.798 – 917.597 | 114.700 – 229.399 | 7.271 | 805 | 426.938 |
+| 270 | 571.029 – 1.142.059 | 142.758 – 285.514 | 9.342 | 1.002 | 595.028 |
 
 **Leitura:**
 

@@ -99,6 +99,7 @@ test('a curva de equipamentos cresce por nível e mantém a decisão de escala p
   for (let i = 1; i < sword.length; i++) assert.ok(sword[i] > sword[i - 1]);
   assert.equal(e.status, 'skill-scale-decided-A');
   assert.equal(e.monster_multipliers.table.length, 7);
+  assert.equal(e.monster_multipliers.reference_factor_pct, 211);
   assert.ok(e.results.every(r => r.mult_hp_F150 < r.mult_hp_F2000));
 });
 
