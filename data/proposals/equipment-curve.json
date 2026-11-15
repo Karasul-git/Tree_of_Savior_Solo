@@ -711,8 +711,9 @@
     }
   ],
   "offhand_proposal": {
-    "status": "pending-owner-decision",
+    "status": "decided",
     "recommended": "Adaga ou pistola na mão secundária somam só 20% do próprio ataque ao ataque geral; o ataque inteiro vale nas habilidades que usam a arma secundária.",
-    "reason": "Deixa espada + adaga perto de uma arma de duas mãos (1,18× a 1,2×), em vez de 2×."
+    "reason": "Deixa espada + adaga perto de uma arma de duas mãos (1,18× a 1,2×), em vez de 2×.",
+    "decided_at": "2026-11-15"
   }
 }

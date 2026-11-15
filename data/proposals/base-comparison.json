@@ -1,0 +1,163 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "preliminary-comparison",
+  "source_id": "F124",
+  "builds": {
+    "Warrior (espada + escudo, placa)": "60% STR, 40% CON",
+    "Warrior (duas mãos, couro)": "60% STR, 40% CON",
+    "Archer (arco, couro)": "50% STR, 20% CON, 30% DEX",
+    "Scout (espada + adaga 20%, couro)": "50% STR, 20% CON, 30% DEX"
+  },
+  "assumptions": "Atributos iniciais e taxa de HP do Melia; equipamento comum (grau 01); monstro-alvo da tabela de ajustes; fator de habilidade 175%; sem crítico nem esquiva nas contas de dano.",
+  "results": [
+    {
+      "base": "Warrior (espada + escudo, placa)",
+      "level": 40,
+      "atk": 462,
+      "def_": 1145,
+      "hp": 3861,
+      "dodge": 13,
+      "crit_atk": 24,
+      "dmg_per_skill": 607,
+      "skills_to_kill_solo": 6.0,
+      "hit_pct_hp": 0.0
+    },
+    {
+      "base": "Warrior (espada + escudo, placa)",
+      "level": 120,
+      "atk": 1301,
+      "def_": 3147,
+      "hp": 12408,
+      "dodge": 33,
+      "crit_atk": 24,
+      "dmg_per_skill": 1709,
+      "skills_to_kill_solo": 6.0,
+      "hit_pct_hp": 0.0
+    },
+    {
+      "base": "Warrior (espada + escudo, placa)",
+      "level": 220,
+      "atk": 2416,
+      "def_": 5651,
+      "hp": 25998,
+      "dodge": 58,
+      "crit_atk": 24,
+      "dmg_per_skill": 3171,
+      "skills_to_kill_solo": 6.0,
+      "hit_pct_hp": 0.0
+    },
+    {
+      "base": "Warrior (duas mãos, couro)",
+      "level": 40,
+      "atk": 521,
+      "def_": 595,
+      "hp": 3861,
+      "dodge": 13,
+      "crit_atk": 24,
+      "dmg_per_skill": 710,
+      "skills_to_kill_solo": 5.1,
+      "hit_pct_hp": 7.5
+    },
+    {
+      "base": "Warrior (duas mãos, couro)",
+      "level": 120,
+      "atk": 1469,
+      "def_": 1617,
+      "hp": 12408,
+      "dodge": 33,
+      "crit_atk": 24,
+      "dmg_per_skill": 2002,
+      "skills_to_kill_solo": 5.1,
+      "hit_pct_hp": 7.5
+    },
+    {
+      "base": "Warrior (duas mãos, couro)",
+      "level": 220,
+      "atk": 2718,
+      "def_": 2897,
+      "hp": 25998,
+      "dodge": 58,
+      "crit_atk": 24,
+      "dmg_per_skill": 3700,
+      "skills_to_kill_solo": 5.1,
+      "hit_pct_hp": 7.5
+    },
+    {
+      "base": "Archer (arco, couro)",
+      "level": 40,
+      "atk": 513,
+      "def_": 570,
+      "hp": 3321,
+      "dodge": 24,
+      "crit_atk": 107,
+      "dmg_per_skill": 696,
+      "skills_to_kill_solo": 5.2,
+      "hit_pct_hp": 9.5
+    },
+    {
+      "base": "Archer (arco, couro)",
+      "level": 120,
+      "atk": 1429,
+      "def_": 1554,
+      "hp": 10048,
+      "dodge": 64,
+      "crit_atk": 253,
+      "dmg_per_skill": 1932,
+      "skills_to_kill_solo": 5.3,
+      "hit_pct_hp": 9.9
+    },
+    {
+      "base": "Archer (arco, couro)",
+      "level": 220,
+      "atk": 2642,
+      "def_": 2782,
+      "hp": 19634,
+      "dodge": 113,
+      "crit_atk": 427,
+      "dmg_per_skill": 3567,
+      "skills_to_kill_solo": 5.3,
+      "hit_pct_hp": 10.5
+    },
+    {
+      "base": "Scout (espada + adaga 20%, couro)",
+      "level": 40,
+      "atk": 513,
+      "def_": 572,
+      "hp": 3331,
+      "dodge": 24,
+      "crit_atk": 111,
+      "dmg_per_skill": 697,
+      "skills_to_kill_solo": 5.2,
+      "hit_pct_hp": 9.4
+    },
+    {
+      "base": "Scout (espada + adaga 20%, couro)",
+      "level": 120,
+      "atk": 1442,
+      "def_": 1556,
+      "hp": 10074,
+      "dodge": 65,
+      "crit_atk": 257,
+      "dmg_per_skill": 1954,
+      "skills_to_kill_solo": 5.2,
+      "hit_pct_hp": 9.9
+    },
+    {
+      "base": "Scout (espada + adaga 20%, couro)",
+      "level": 220,
+      "atk": 2658,
+      "def_": 2784,
+      "hp": 19683,
+      "dodge": 114,
+      "crit_atk": 431,
+      "dmg_per_skill": 3594,
+      "skills_to_kill_solo": 5.3,
+      "hit_pct_hp": 10.5
+    }
+  ],
+  "findings": {
+    "damage": "As quatro configurações derrubam um monstro comum sozinhas com 5 a 6 habilidades (meta: 4 a 8).",
+    "tank_immunity": "Com defesa subtraída do ataque, o Warrior de placa e escudo tem mais defesa que o ataque dos monstros e recebe 1 de dano.",
+    "dodge": "A esquiva de Archer e Scout (64–65 no nível 120) fica abaixo da precisão dos monstros do Melia nessa faixa; sem ajuste, a esquiva não funciona."
+  }
+}

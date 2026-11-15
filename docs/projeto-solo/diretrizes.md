@@ -117,4 +117,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Curvas das outras armas.** Armas de uma mão seguem a mesma curva da espada; as de duas mãos dão cerca de 18% a mais. No Melia, a arma secundária soma o ataque inteiro, o que daria ao Scout o dobro do ataque de arma do Warrior com escudo. [Curvas](curva-de-equipamentos.md).
 
-**Próximo passo recomendado:** decidir quanto a arma secundária soma ao ataque geral; a proposta é 20%.
+**15/11/2026 — Arma secundária e comparação das bases.** A arma secundária soma 20% do próprio ataque ao ataque geral (decisão do proprietário). A comparação mostrou dano equilibrado entre as bases, mas o Warrior de escudo e placa ficaria imune com a defesa subtraída do ataque. [Comparação](comparacao-das-bases.md).
+
+**Próximo passo recomendado:** decidir o modelo de defesa.

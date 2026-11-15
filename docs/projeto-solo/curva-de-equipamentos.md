@@ -120,14 +120,15 @@ No Melia, o ataque de **todos os itens equipados é somado**. O cálculo própri
 
 Ataque da arma, sem atributos. O Scout, cuja árvore usa espada de uma mão com adaga ou pistola, teria o dobro do ataque de arma do Warrior com escudo.
 
-**Proposta, aguardando decisão do proprietário:** a arma secundária soma só **20% do próprio ataque** ao ataque geral, e o valor inteiro vale nas habilidades que usam a arma secundária (cortes de adaga, tiros de pistola). Assim, espada + adaga fica em torno de 1,2×, perto de uma arma de duas mãos, e o escudo continua trocando ataque por defesa.
+**Decidido em 15/11/2026 pelo proprietário:** a arma secundária soma só **20% do próprio ataque** ao ataque geral, e o valor inteiro vale nas habilidades que usam a arma secundária (cortes de adaga, tiros de pistola). Assim, espada + adaga fica em torno de 1,2×, perto de uma arma de duas mãos, e o escudo continua trocando ataque por defesa.
 
 ## Pendências
 
 - Aplicar a divisão dos fatores das habilidades no servidor (`skills.txt` ou função de cálculo).
 - Metas para elites, chefes e masmorras.
 - Conferir os valores de armas e armaduras de 2016.
-- Decidir quanto a arma secundária soma ao ataque geral.
 - Fechar a tabela de multiplicadores por faixa de nível e testar no servidor.
 
-**Próximo passo recomendado:** decidir a regra da arma secundária. A recomendação é somar 20% do ataque dela ao ataque geral.
+A [comparação das três bases](comparacao-das-bases.md) usa estas curvas.
+
+**Próximo passo recomendado:** decidir o modelo de defesa.
