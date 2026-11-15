@@ -220,4 +220,4 @@ A ficha de classe acrescenta seis atributos gerais aos treze atributos de habili
 
 CD indica recarga; SP indica consumo de uso, não custo de aprendizado. Weapon Swap aparece como círculo 2 nesta captura: registramos esse campo sem concluir, só por ele, como a troca de armas era efetivamente liberada no cliente. Esse ponto continua em conferência.
 
-**Próximo passo recomendado:** conferir os requisitos de armas, o mestre e a missão de avanço de Swordsman em evidências do mesmo período, antes de encerrar a ficha.
+**Próximo passo recomendado:** consultar o [catálogo de classes](catalogo-2016.md) e consolidar a seleção solo sem magia, conforme as [diretrizes](../projeto-solo/diretrizes.md). O aprofundamento individual será retomado depois dessa visão geral.

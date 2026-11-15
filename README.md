@@ -8,7 +8,13 @@ GitHub Pages está preparado, mas aguarda ativação pelo proprietário em **Set
 
 Classes, caminhos e pequenas descobertas de uma época em que atravessar o próximo mapa já era uma aventura. Este acervo nasce para preservar essa experiência e, futuramente, servir de referência para um projeto solo.
 
-## Escolha seu primeiro caminho
+**Direção solo:** remover classes mágicas. O catálogo preserva as classes originais para consulta; a seleção nominal e os casos híbridos estão nas [diretrizes do projeto](docs/projeto-solo/diretrizes.md).
+
+## Explore todas as classes
+
+**[Abrir catálogo de 2016](docs/classes/catalogo-2016.md)** — 55 classes, 382 habilidades com resumos em português e 165 imagens originais. A versão navegável permite filtrar por árvore/rank, buscar habilidades e alternar os visuais.
+
+## As quatro árvores históricas
 
 | Swordsman | Wizard | Archer | Cleric |
 | :---: | :---: | :---: | :---: |
@@ -18,6 +24,8 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 ## Explore a wiki
 
+- [Catálogo: todas as classes e habilidades](docs/classes/catalogo-2016.md)
+- [Diretrizes da versão solo](docs/projeto-solo/diretrizes.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)
 - [Como funcionavam ranks e círculos](docs/sistemas/ranks-e-circulos.md)
 - [Qual lançamento estamos documentando?](docs/recorte-historico.md)
@@ -26,11 +34,11 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Acervo das imagens originais](docs/imagens.md)
 - [Próximas etapas](ROADMAP.md)
 
-## Primeira edição · Classes iniciais
+## Cobertura atual
 
 **Pesquisa de 15/11/2026:** [Swordsman recebeu uma revisão documental](docs/classes/swordsman.md), com nove capturas de 2016, [100 linhas por nível e 19 atributos catalogados](docs/classes/swordsman-valores-2016.md), além de uma comparação separada com o kit atual. A nova pesquisa de [armas, mestres e avanços](docs/classes/swordsman-equipamentos-e-avancos-2016.md) acrescenta quatro listas de equipamento arquivadas e uma revisão histórica da tradução oficial. A [história do sistema de classes](docs/historia/evolucao-das-classes.md) explica a ruptura do Re:Build. Os campos sem confirmação permanecem identificados.
 
-O acervo reúne as quatro classes de Rank 1, **30 habilidades organizadas por círculo** e imagens oficiais preservadas localmente. Swordsman possui tabelas arquivadas por nível; as demais fichas ainda estão na etapa inicial. Classes avançadas, armas, mestres, missões e mudanças de cada patch serão acrescentados conforme a conferência.
+O panorama reúne **55 classes até Rank 7 e 382 habilidades organizadas por círculo**, com 165 imagens oficiais locais. Cada classe tem uma ficha de identidade e funções. Swordsman mantém também a revisão detalhada já feita; números, atributos, armas e missões das outras classes ficam para depois da seleção solo.
 
 O marco principal é a abertura internacional dos servidores de acesso antecipado em **29/03/2016**. Guias de março e abril ajudam a reconstruir a janela de lançamento, mas não comprovam, sozinhos, o estado exato de cada habilidade naquele dia. Informações de beta, kToS e versões posteriores recebem identificação própria.
 

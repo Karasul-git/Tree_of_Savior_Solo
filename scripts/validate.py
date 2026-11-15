@@ -88,10 +88,47 @@ if equipment_research.exists():
             date.fromisoformat(entry['captured_at'][:10])
         date.fromisoformat(entry['retrieved_at'])
 
+catalog_path = ROOT / 'data/catalog/classes-2016.json'
+catalog = json.loads(catalog_path.read_text())
+catalog_classes = catalog['classes']
+catalog_ids = [entry['id'] for entry in catalog_classes]
+if len(catalog_ids) != len(set(catalog_ids)) or len(catalog_ids) != catalog['class_count']:
+    errors.append('Invalid catalog class count or duplicate class ID')
+if set(catalog['trees']) != {'Swordsman', 'Wizard', 'Archer', 'Cleric'}:
+    errors.append('Unexpected launch tree set')
+skill_count = 0
+for entry in catalog_classes:
+    rank = entry['first_rank']
+    if entry['tree'] not in catalog['trees'] or rank not in range(1, 8):
+        errors.append(f'Invalid launch tree/rank: {entry["name"]}')
+    cap = 1 if entry['hidden'] else min(3, 8 - rank)
+    if entry['max_circle_in_catalog'] != cap:
+        errors.append(f'Invalid catalog circle cap: {entry["name"]}')
+    date.fromisoformat(entry['captured_at'][:10])
+    if not ('2016-03-29' <= entry['captured_at'][:10] <= '2016-04-30'):
+        errors.append(f'Catalog capture outside documentary window: {entry["name"]}')
+    if not (ROOT / f'docs/classes/catalogo/{entry["id"]}.md').exists():
+        errors.append(f'Missing catalog page: {entry["name"]}')
+    skills = entry['skills']
+    if not skills or len({skill['tosbase_id'] for skill in skills}) != len(skills):
+        errors.append(f'Invalid catalog skill set: {entry["name"]}')
+    for record in [entry, *skills]:
+        if not record['summary'] or any(source not in source_ids for source in record['evidence_ids']):
+            errors.append(f'Missing catalog summary/evidence: {entry["name"]}')
+    for skill in skills:
+        if skill['circle'] not in range(1, cap + 1):
+            errors.append(f'Post-rank-7 skill in catalog: {entry["name"]}/{skill["name"]}')
+    skill_count += len(skills)
+if skill_count != catalog['skill_count']:
+    errors.append('Catalog skill count mismatch')
+for snapshot in json.loads((ROOT / 'data/research/catalog-snapshots.json').read_text()):
+    if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
+        errors.append('Invalid catalog snapshot provenance')
+
 pages = list(ROOT.glob('*.md')) + list((ROOT / 'docs').rglob('*.md'))
 for page in pages:
     body = re.sub(r'```.*?```', '', page.read_text(), flags=re.S)
-    for source_id in re.findall(r'\[(F\d{2})\]', body):
+    for source_id in re.findall(r'\[(F\d{2,})\]', body):
         if source_id not in source_ids:
             errors.append(f'Unknown source {source_id}: {page.relative_to(ROOT)}')
     for target in re.findall(r'!?\[[^\]]*\]\(([^\s)]+)\)', body):
@@ -110,11 +147,11 @@ for page in pages:
 
 manifest_path = ROOT / 'data/assets.json'
 assets = json.loads(manifest_path.read_text()) if manifest_path.exists() else []
-expected = {(name, role) for name in ['swordsman', 'wizard', 'archer', 'cleric']
+expected = {(name, role) for name in catalog_ids
             for role in ['icon', 'female', 'male']}
 actual = {(asset['class_id'], asset['role']) for asset in assets}
-if actual != expected or len(assets) != 12:
-    errors.append('Expected exactly 12 class images with unique class/role pairs')
+if actual != expected or len(assets) != len(expected):
+    errors.append('Expected an icon and both character sprites for every catalog class')
 for asset in assets:
     path = (ROOT / asset['path']).resolve()
     if not path.is_relative_to(ROOT) or not path.exists():

@@ -91,3 +91,32 @@ topButton.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   document.querySelector('main').focus({ preventScroll: true });
 });
+
+const catalogForm = document.querySelector('#catalog-filters');
+if (catalogForm) {
+  const entries = [...document.querySelectorAll('[data-catalog-entry]')];
+  const count = document.querySelector('#catalog-count');
+  const empty = document.querySelector('#catalog-empty');
+  function updateCatalog() {
+    const data = new FormData(catalogForm);
+    const filters = Object.fromEntries(data);
+    let visible = 0;
+    for (const entry of entries) {
+      const match = matchesCatalogEntry(entry.dataset, filters);
+      entry.hidden = !match;
+      if (match) visible++;
+      const sprite = entry.querySelector('[data-catalog-sprite]');
+      const role = filters.visual === 'male' ? 'male' : 'female';
+      const target = sprite.dataset[role];
+      if (sprite.getAttribute('src') !== target) sprite.src = target;
+      sprite.alt = `${entry.dataset.name} · visual ${role === 'male' ? 'masculino' : 'feminino'} oficial`;
+    }
+    count.textContent = `${visible} de ${entries.length} classes`;
+    empty.hidden = visible !== 0;
+  }
+  catalogForm.addEventListener('submit', event => event.preventDefault());
+  catalogForm.addEventListener('input', updateCatalog);
+  catalogForm.addEventListener('change', updateCatalog);
+  catalogForm.addEventListener('reset', () => setTimeout(updateCatalog, 0));
+  updateCatalog();
+}

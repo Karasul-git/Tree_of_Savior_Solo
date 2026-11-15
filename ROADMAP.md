@@ -18,9 +18,17 @@
 - [ ] Identificar imagens comprovadamente usadas no cliente ou site em 2016.
 - [ ] Completar atributos, equipamentos permitidos, números, mestres e missões de avanço.
 
-## Etapa 2 · As primeiras especializações
+## Prioridade atual · Conhecer antes de aprofundar
 
-Pesquisar um par por vez; publicar cada ficha com fontes e imagens próprias.
+- [x] Registrar a remoção de classes mágicas como direção da versão solo.
+- [x] Panorama das 55 classes até Rank 7, com 382 habilidades resumidas.
+- [x] Emblemas e visuais feminino/masculino: 165 imagens oficiais locais.
+- [x] Catálogo navegável com filtros e busca por habilidades.
+- [ ] Consolidar a seleção nominal da versão solo e o tratamento de classes híbridas.
+
+## Etapa 2 · Aprofundar as classes selecionadas
+
+Após a seleção solo, pesquisar um par por vez. As fichas de panorama abaixo já estão no catálogo; os itens seguintes se referem ao aprofundamento. Classes mágicas não terão prioridade de adaptação solo.
 
 - [ ] Highlander e Peltasta.
 - [ ] Pyromancer e Cryomancer.
@@ -29,8 +37,10 @@ Pesquisar um par por vez; publicar cada ficha com fontes e imagens próprias.
 
 ## Etapa 3 · Toda a árvore do lançamento
 
-- [ ] Conferir roster por rank, incluindo classes ocultas e requisitos.
-- [ ] Expandir as fichas até o limite comprovado da edição histórica.
+- [x] Reunir o roster documental até Rank 7, incluindo três classes ocultas.
+- [ ] Auditar disponibilidade exata e requisitos no cliente da edição.
+- [x] Publicar fichas de panorama até os círculos compatíveis com Rank 7.
+- [ ] Aprofundar as fichas selecionadas e validar os parâmetros no cliente.
 - [ ] Documentar mudanças do beta para o acesso antecipado e para o acesso gratuito.
 - [ ] Acrescentar diagramas de progressão a partir dos dados conferidos.
 

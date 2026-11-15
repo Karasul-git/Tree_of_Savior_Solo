@@ -1,6 +1,8 @@
-# Classes · Os quatro primeiros caminhos
+# Classes · As quatro árvores históricas
 
 [Início](../../README.md) · [Ranks e círculos](../sistemas/ranks-e-circulos.md)
+
+**[Explore o catálogo completo: 55 classes, 382 habilidades e imagens originais](catalogo-2016.md).** A adaptação solo removerá classes mágicas, conforme as [diretrizes](../projeto-solo/diretrizes.md); este índice descreve o original.
 
 No lançamento internacional, a primeira escolha colocava o personagem em uma de quatro árvores. O avanço combinava novas classes e círculos adicionais de uma classe já aprendida. O conjunto formava a build; uma classe inicial não descrevia sozinha o personagem inteiro. [F01](../fontes.md#f01)
 
@@ -23,4 +25,4 @@ As tabelas listam quando uma habilidade se tornava disponível, não seu nível 
 
 ## A próxima camada
 
-O próximo lote de pesquisa cobre Highlander e Peltasta; Pyromancer e Cryomancer; Ranger e Quarrel Shooter; Priest e Krivis. As fichas avançadas serão acrescentadas conforme as evidências forem conferidas. [Acompanhe o escopo](../../ROADMAP.md).
+O panorama de todas as classes está disponível no catálogo. A próxima etapa é definir a seleção solo sem magia e só então aprofundar as classes escolhidas. [Acompanhe o escopo](../../ROADMAP.md).

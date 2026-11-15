@@ -66,4 +66,4 @@ O guia moderno documenta materiais de aprimoramento obtidos em Goddess Raids e, 
 - Não transferimos tabelas modernas para preencher lacunas de 2016.
 - Os dados de Swordsman têm referências e números ausentes explicitamente identificados.
 
-**Próximo passo recomendado:** pesquisar Highlander e Peltasta. As tabelas de Swordsman já foram recuperadas, e a pesquisa de [armas, mestres e avanços](../classes/swordsman-equipamentos-e-avancos-2016.md) separa os dados encontrados das condições de missões ainda pendentes.
+**Próximo passo recomendado:** consultar o [catálogo de classes](../classes/catalogo-2016.md) e consolidar a seleção solo sem magia, conforme as [diretrizes](../projeto-solo/diretrizes.md). O aprofundamento individual será retomado depois dessa visão geral.

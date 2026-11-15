@@ -15,7 +15,7 @@ test('uma habilidade removida da versão atual continua encontrável no acervo h
 });
 
 test('a busca exige todos os termos e prioriza o título da classe', () => {
-  assert.equal(findPages(pages, 'archer')[0].path, 'docs/classes/archer.html');
+  assert.equal(findPages(pages, 'archer')[0].path, 'docs/classes/catalogo/archer.html');
   assert.equal(findPages(pages, 'archer termo-inexistente-xyz').length, 0);
   assert.equal(findPages(pages, '  ').length, 0);
 });

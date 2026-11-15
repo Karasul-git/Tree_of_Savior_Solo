@@ -1,0 +1,560 @@
+[
+  {
+    "source_id": "F37",
+    "kind": "class-overview",
+    "captured_at": "2016-03-30T11:05:26Z",
+    "archive_url": "https://web.archive.org/web/20160330110526id_/http://www.tosbase.com:80/game/classes",
+    "html_sha256": "7092903a8f634427afc979a201e456aed86a4269096a137a5016d5b4d4e89bf8",
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F38",
+    "kind": "class-page",
+    "class_id": "swordsman",
+    "captured_at": "2016-03-31T18:00:20Z",
+    "archive_url": "https://web.archive.org/web/20160331180020id_/http://www.tosbase.com:80/game/classes/Swordsman",
+    "html_sha256": "ccdd387bfee02f1551f6483f7709944b64e2dfbdeb8661797071dc91ea0d94bc",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F39",
+    "kind": "class-page",
+    "class_id": "highlander",
+    "captured_at": "2016-03-30T10:52:56Z",
+    "archive_url": "https://web.archive.org/web/20160330105256id_/http://www.tosbase.com:80/game/classes/Highlander",
+    "html_sha256": "fa8b9bbc80ffeca7da66c9cbb9f16288117da37be91e025246baa90dc71c41c6",
+    "skill_count": 9,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F40",
+    "kind": "class-page",
+    "class_id": "peltasta",
+    "captured_at": "2016-04-02T21:58:03Z",
+    "archive_url": "https://web.archive.org/web/20160402215803id_/http://www.tosbase.com:80/game/classes/Peltasta",
+    "html_sha256": "766896cf97959feb1289f527a27bc8b1a9e11a064e99dc19ec7c3ba33849d9c5",
+    "skill_count": 9,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F41",
+    "kind": "class-page",
+    "class_id": "barbarian",
+    "captured_at": "2016-04-01T12:01:54Z",
+    "archive_url": "https://web.archive.org/web/20160401120154id_/http://www.tosbase.com:80/game/classes/Barbarian",
+    "html_sha256": "88616c10b2f2c2fd4de1b945a321e69b4b611a7226fce060f0ec55ca9c1877de",
+    "skill_count": 9,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F42",
+    "kind": "class-page",
+    "class_id": "hoplite",
+    "captured_at": "2016-04-05T00:43:25Z",
+    "archive_url": "https://web.archive.org/web/20160405004325id_/http://www.tosbase.com:80/game/classes/Hoplite",
+    "html_sha256": "515df09ff1ef8cd410cafd92c63ae23c578ec3248314ed744d326b3e3358bdc2",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F43",
+    "kind": "class-page",
+    "class_id": "cataphract",
+    "captured_at": "2016-04-01T12:05:11Z",
+    "archive_url": "https://web.archive.org/web/20160401120511id_/http://www.tosbase.com:80/game/classes/Cataphract",
+    "html_sha256": "192646bb3411e71616071497703b7ab2da6b2ae6e58bd6c526d8f96960d4b28b",
+    "skill_count": 6,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F44",
+    "kind": "class-page",
+    "class_id": "rodelero",
+    "captured_at": "2016-04-05T13:53:12Z",
+    "archive_url": "https://web.archive.org/web/20160405135312id_/http://www.tosbase.com:80/game/classes/Rodelero",
+    "html_sha256": "7b4d7cf90d4f1f9fb70fcd6a0866dbf8dd89a22ede71e2e6604671f44356442a",
+    "skill_count": 9,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F45",
+    "kind": "class-page",
+    "class_id": "corsair",
+    "captured_at": "2016-04-05T00:16:57Z",
+    "archive_url": "https://web.archive.org/web/20160405001657id_/http://www.tosbase.com:80/game/classes/Corsair",
+    "html_sha256": "2c12be74a9edad15ea36ffe2ad74e36c03bb323ed717151d2d0ebbc620e1d112",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F46",
+    "kind": "class-page",
+    "class_id": "squire",
+    "captured_at": "2016-04-01T12:11:34Z",
+    "archive_url": "https://web.archive.org/web/20160401121134id_/http://www.tosbase.com:80/game/classes/Squire",
+    "html_sha256": "fe63701457b76e870414f951b4ae8bcc7e33c54b36ad219834acacd0d0d22e6f",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F47",
+    "kind": "class-page",
+    "class_id": "doppelsoeldner",
+    "captured_at": "2016-03-30T11:39:32Z",
+    "archive_url": "https://web.archive.org/web/20160330113932id_/http://www.tosbase.com:80/game/classes/Doppelsoeldner",
+    "html_sha256": "048233d4ae057522c4901ffe0b4603da10843b09b63502ace2dc8d9c43e3d803",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F48",
+    "kind": "class-page",
+    "class_id": "fencer",
+    "captured_at": "2016-03-30T11:18:01Z",
+    "archive_url": "https://web.archive.org/web/20160330111801id_/http://www.tosbase.com:80/game/classes/Fencer",
+    "html_sha256": "b384156444ec6d25e21fda27a6944de4215ea286fafc30837f5a4a2155f609d9",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F49",
+    "kind": "class-page",
+    "class_id": "dragoon",
+    "captured_at": "2016-03-30T11:37:15Z",
+    "archive_url": "https://web.archive.org/web/20160330113715id_/http://www.tosbase.com:80/game/classes/Dragoon",
+    "html_sha256": "bc39a03fcccaa5d2f9ee9243bfdf0a988c9388a0ba8278c4513179bc65133400",
+    "skill_count": 4,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F50",
+    "kind": "class-page",
+    "class_id": "templar",
+    "captured_at": "2016-03-30T10:43:05Z",
+    "archive_url": "https://web.archive.org/web/20160330104305id_/http://www.tosbase.com:80/game/classes/Templar",
+    "html_sha256": "4a7265ef21e82bf7ce95621cd2bed951518f91bdea1e6b0d465d928103b10c4d",
+    "skill_count": 5,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F51",
+    "kind": "class-page",
+    "class_id": "shinobi",
+    "captured_at": "2016-03-30T10:44:51Z",
+    "archive_url": "https://web.archive.org/web/20160330104451id_/http://www.tosbase.com:80/game/classes/Shinobi",
+    "html_sha256": "f74e025aba74fef0419747ebbfafeb876c70218def04fa206a7cf95a89b85c7c",
+    "skill_count": 5,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F52",
+    "kind": "class-page",
+    "class_id": "wizard",
+    "captured_at": "2016-04-02T22:21:22Z",
+    "archive_url": "https://web.archive.org/web/20160402222122id_/http://www.tosbase.com:80/game/classes/Wizard",
+    "html_sha256": "3aa9dcefeba95d2f8f525643fbb0c574f40a5ce54527e90a65f84e8dda63fa87",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F53",
+    "kind": "class-page",
+    "class_id": "cryomancer",
+    "captured_at": "2016-04-02T21:55:39Z",
+    "archive_url": "https://web.archive.org/web/20160402215539id_/http://www.tosbase.com:80/game/classes/Cryomancer",
+    "html_sha256": "0a6a986eedabed672e19b7e891d8bfd33192080dd0102663f3b846035ef22482",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F54",
+    "kind": "class-page",
+    "class_id": "pyromancer",
+    "captured_at": "2016-04-01T12:11:59Z",
+    "archive_url": "https://web.archive.org/web/20160401121159id_/http://www.tosbase.com:80/game/classes/Pyromancer",
+    "html_sha256": "09e970a714b0f3ffc489ce81c76154a5c236bec08474dd6d8c1da1a96eb2dae3",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F55",
+    "kind": "class-page",
+    "class_id": "linker",
+    "captured_at": "2016-03-31T17:13:22Z",
+    "archive_url": "https://web.archive.org/web/20160331171322id_/http://www.tosbase.com:80/game/classes/Linker",
+    "html_sha256": "c9808c54e8737713071c16410e181633b541cbd83261a82c40093a18b3d47219",
+    "skill_count": 6,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F56",
+    "kind": "class-page",
+    "class_id": "psychokino",
+    "captured_at": "2016-03-31T16:57:41Z",
+    "archive_url": "https://web.archive.org/web/20160331165741id_/http://www.tosbase.com:80/game/classes/Psychokino",
+    "html_sha256": "9e9e95c2c6252da81f16b0f637995c3a47dd0a0cc461dea79ff35e8c47afe14c",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F57",
+    "kind": "class-page",
+    "class_id": "elementalist",
+    "captured_at": "2016-04-02T22:13:52Z",
+    "archive_url": "https://web.archive.org/web/20160402221352id_/http://www.tosbase.com:80/game/classes/Elementalist",
+    "html_sha256": "58bc41006b52c8dd19387c2a1dd505430b14eed6c84817d5cc6e952f9012a7fd",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F58",
+    "kind": "class-page",
+    "class_id": "thaumaturge",
+    "captured_at": "2016-03-31T18:03:47Z",
+    "archive_url": "https://web.archive.org/web/20160331180347id_/http://www.tosbase.com:80/game/classes/Thaumaturge",
+    "html_sha256": "d0bd3b5ade167c77f66108f779c43d441e9da48ac6061159e7aea3b93961be73",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F59",
+    "kind": "class-page",
+    "class_id": "chronomancer",
+    "captured_at": "2016-04-02T22:21:17Z",
+    "archive_url": "https://web.archive.org/web/20160402222117id_/http://www.tosbase.com:80/game/classes/Chronomancer",
+    "html_sha256": "3d611ca142965d1f03ba1b10442e674b51581b121a219f241d9e8c012ffaacd2",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F60",
+    "kind": "class-page",
+    "class_id": "sorcerer",
+    "captured_at": "2016-03-31T17:05:12Z",
+    "archive_url": "https://web.archive.org/web/20160331170512id_/http://www.tosbase.com:80/game/classes/Sorcerer",
+    "html_sha256": "586869a81e263dfd33d3dcd9a4cb456fe73ac27a9241adabf02b5eef7367c00a",
+    "skill_count": 10,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F61",
+    "kind": "class-page",
+    "class_id": "alchemist",
+    "captured_at": "2016-03-30T10:43:44Z",
+    "archive_url": "https://web.archive.org/web/20160330104344id_/http://www.tosbase.com:80/game/classes/Alchemist",
+    "html_sha256": "11f27c2f135d22fa41d0002682971e8d034c9dbe763f7f2297cb167185d51cca",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F62",
+    "kind": "class-page",
+    "class_id": "necromancer",
+    "captured_at": "2016-04-01T12:04:23Z",
+    "archive_url": "https://web.archive.org/web/20160401120423id_/http://www.tosbase.com:80/game/classes/Necromancer",
+    "html_sha256": "6a3d8b4cd350d03171dcf5ccefac23633690b2e47fff017acef40eeacc6f2b52",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F63",
+    "kind": "class-page",
+    "class_id": "rune-caster",
+    "captured_at": "2016-03-30T00:13:54Z",
+    "archive_url": "https://web.archive.org/web/20160330001354id_/http://www.tosbase.com:80/game/classes/Rune-Caster/",
+    "html_sha256": "3d365765cf4f929ca0b911adc4c61a25630bbba1e8292d12040354bf684d4427",
+    "skill_count": 5,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F64",
+    "kind": "class-page",
+    "class_id": "featherfoot",
+    "captured_at": "2016-03-31T16:47:12Z",
+    "archive_url": "https://web.archive.org/web/20160331164712id_/http://www.tosbase.com:80/game/classes/Featherfoot",
+    "html_sha256": "a982f3752833c45319cecdab4cc5f7ca349cd5cffead45b458ee9da2a45ac456",
+    "skill_count": 5,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F65",
+    "kind": "class-page",
+    "class_id": "warlock",
+    "captured_at": "2016-03-30T11:08:41Z",
+    "archive_url": "https://web.archive.org/web/20160330110841id_/http://www.tosbase.com:80/game/classes/Warlock",
+    "html_sha256": "2573f8318001d149b95886c2338f71a40fd59153ade7361e297ef3245b145a0e",
+    "skill_count": 5,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F66",
+    "kind": "class-page",
+    "class_id": "archer",
+    "captured_at": "2016-04-05T00:16:44Z",
+    "archive_url": "https://web.archive.org/web/20160405001644id_/http://www.tosbase.com:80/game/classes/Archer",
+    "html_sha256": "9af3650af4ca254ce98a14c23ff2cdf74fb7966d4abf4ee91e75610c77c271b7",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F67",
+    "kind": "class-page",
+    "class_id": "quarrel-shooter",
+    "captured_at": "2016-04-05T13:29:40Z",
+    "archive_url": "https://web.archive.org/web/20160405132940id_/http://www.tosbase.com:80/game/classes/Quarrel-Shooter",
+    "html_sha256": "1a573826db9360712e6bc1f278b1345afcf70cfa299bb0c86352635e692592fc",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F68",
+    "kind": "class-page",
+    "class_id": "ranger",
+    "captured_at": "2016-04-01T12:11:23Z",
+    "archive_url": "https://web.archive.org/web/20160401121123id_/http://www.tosbase.com:80/game/classes/Ranger",
+    "html_sha256": "d3da6b3df644fa18fed97fd95b60b4fa2713f678c67f200179a87676ef1a483f",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F69",
+    "kind": "class-page",
+    "class_id": "hunter",
+    "captured_at": "2016-04-05T00:45:31Z",
+    "archive_url": "https://web.archive.org/web/20160405004531id_/http://www.tosbase.com:80/game/classes/Hunter",
+    "html_sha256": "bec7cb3b73b837463e6e738f634bd721afce3d02e52649373fee8e7b43d90ef9",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F70",
+    "kind": "class-page",
+    "class_id": "sapper",
+    "captured_at": "2016-04-05T13:43:31Z",
+    "archive_url": "https://web.archive.org/web/20160405134331id_/http://www.tosbase.com:80/game/classes/Sapper",
+    "html_sha256": "615d60738b08bd983866b6e18053b2ce1bb1a29d228d47366f78311631929400",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F71",
+    "kind": "class-page",
+    "class_id": "scout",
+    "captured_at": "2016-04-05T00:46:38Z",
+    "archive_url": "https://web.archive.org/web/20160405004638id_/http://www.tosbase.com:80/game/classes/Scout",
+    "html_sha256": "bf7a6e2b6558dd900f05fa75b5cd9e45843d39b8331b1aaeb079b0b6a073f151",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F72",
+    "kind": "class-page",
+    "class_id": "wugushi",
+    "captured_at": "2016-04-05T00:43:30Z",
+    "archive_url": "https://web.archive.org/web/20160405004330id_/http://www.tosbase.com:80/game/classes/Wugushi",
+    "html_sha256": "d04b332d2e606dfb7bce7630e3ee2543877fe6494912e4d092b871c2b064f2c6",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F73",
+    "kind": "class-page",
+    "class_id": "fletcher",
+    "captured_at": "2016-04-05T00:57:29Z",
+    "archive_url": "https://web.archive.org/web/20160405005729id_/http://www.tosbase.com:80/game/classes/Fletcher",
+    "html_sha256": "2b120c1c771c024675faa119b28a75936f8f75ca305ff12ab04422dde30b6cd4",
+    "skill_count": 6,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F74",
+    "kind": "class-page",
+    "class_id": "rogue",
+    "captured_at": "2016-04-01T12:11:29Z",
+    "archive_url": "https://web.archive.org/web/20160401121129id_/http://www.tosbase.com:80/game/classes/Rogue",
+    "html_sha256": "a2bf3baf2d4483ef7cf4c82b1eb6da053de1ce92ea0a88c3d1b3d15401c19e9c",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F75",
+    "kind": "class-page",
+    "class_id": "falconer",
+    "captured_at": "2016-04-05T13:46:53Z",
+    "archive_url": "https://web.archive.org/web/20160405134653id_/http://www.tosbase.com:80/game/classes/Falconer",
+    "html_sha256": "e36f3b926c56ba4149d4982edb95a5967c424df4189914a95d7aaded2f6d9893",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F76",
+    "kind": "class-page",
+    "class_id": "schwarzer-reiter",
+    "captured_at": "2016-03-30T11:15:50Z",
+    "archive_url": "https://web.archive.org/web/20160330111550id_/http://www.tosbase.com:80/game/classes/Schwarzer-Reiter",
+    "html_sha256": "6657d2bd2ed9e6c7743cc9e793418acdb19b888ef76e12c8863c914f3e3014b4",
+    "skill_count": 5,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F77",
+    "kind": "class-page",
+    "class_id": "cannoneer",
+    "captured_at": "2016-04-02T22:27:02Z",
+    "archive_url": "https://web.archive.org/web/20160402222702id_/http://www.tosbase.com:80/game/classes/Cannoneer",
+    "html_sha256": "9bfbf9c9dd4adcf10dcf5e3283d59739dd5839775cd87762efa6df0eb74d1296",
+    "skill_count": 4,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F78",
+    "kind": "class-page",
+    "class_id": "musketeer",
+    "captured_at": "2016-03-30T10:53:06Z",
+    "archive_url": "https://web.archive.org/web/20160330105306id_/http://www.tosbase.com:80/game/classes/Musketeer",
+    "html_sha256": "54eb3378bc728e91995c60ddbdabbc6fc12cb283404ac00c72a688a12133856b",
+    "skill_count": 6,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F79",
+    "kind": "class-page",
+    "class_id": "cleric",
+    "captured_at": "2016-03-31T16:47:07Z",
+    "archive_url": "https://web.archive.org/web/20160331164707id_/http://www.tosbase.com:80/game/classes/Cleric",
+    "html_sha256": "71c5e575e0c00e82f592bb493117aa201c646a098b6a086b75958ce3c1ee9592",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F80",
+    "kind": "class-page",
+    "class_id": "krivis",
+    "captured_at": "2016-03-30T11:39:37Z",
+    "archive_url": "https://web.archive.org/web/20160330113937id_/http://www.tosbase.com:80/game/classes/Krivis",
+    "html_sha256": "9965a7cae222aa02d7b7382827ad41778e8b48d1db3538ae6776684089877481",
+    "skill_count": 6,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F81",
+    "kind": "class-page",
+    "class_id": "priest",
+    "captured_at": "2016-03-30T10:48:16Z",
+    "archive_url": "https://web.archive.org/web/20160330104816id_/http://www.tosbase.com:80/game/classes/Priest",
+    "html_sha256": "d59df714d3682e48a63c35b65da4c02870aa0aa3d952261d823db0d96ff9aad8",
+    "skill_count": 9,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F82",
+    "kind": "class-page",
+    "class_id": "bokor",
+    "captured_at": "2016-04-05T00:36:01Z",
+    "archive_url": "https://web.archive.org/web/20160405003601id_/http://www.tosbase.com:80/game/classes/Bokor",
+    "html_sha256": "7c52ac2665f146109a26ec68e4798ff815880a218b3b957e21b1545e7b341a42",
+    "skill_count": 9,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F83",
+    "kind": "class-page",
+    "class_id": "dievdirbys",
+    "captured_at": "2016-03-31T17:21:41Z",
+    "archive_url": "https://web.archive.org/web/20160331172141id_/http://www.tosbase.com:80/game/classes/Dievdirbys",
+    "html_sha256": "babeede6e1d7e09c1042bd05ba0b90397098b56302d87701e8e9163baf8a6657",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F84",
+    "kind": "class-page",
+    "class_id": "paladin",
+    "captured_at": "2016-03-31T17:13:27Z",
+    "archive_url": "https://web.archive.org/web/20160331171327id_/http://www.tosbase.com:80/game/classes/Paladin",
+    "html_sha256": "0e730b3de2ab45cdafbdf58acfd1341e63a0cb79b78809805023a048aa243610",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F85",
+    "kind": "class-page",
+    "class_id": "sadhu",
+    "captured_at": "2016-04-01T12:01:27Z",
+    "archive_url": "https://web.archive.org/web/20160401120127id_/http://www.tosbase.com:80/game/classes/Sadhu",
+    "html_sha256": "67e4f4e277a7d426fc810d647c9a8ddb6dcb4b704747d77ddda0ea3cc8ce8cd7",
+    "skill_count": 6,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F86",
+    "kind": "class-page",
+    "class_id": "monk",
+    "captured_at": "2016-03-30T11:14:51Z",
+    "archive_url": "https://web.archive.org/web/20160330111451id_/http://www.tosbase.com:80/game/classes/Monk",
+    "html_sha256": "c74131cf221c2eae131625f52bf77b8264a2083dc9bf95c1bfba225e024c39e9",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F87",
+    "kind": "class-page",
+    "class_id": "pardoner",
+    "captured_at": "2016-03-31T17:43:55Z",
+    "archive_url": "https://web.archive.org/web/20160331174355id_/http://www.tosbase.com:80/game/classes/Pardoner",
+    "html_sha256": "0f694a208bd2075d625a313abfa6d1153d4339134bf5d39736c651e0b09e74a0",
+    "skill_count": 7,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F88",
+    "kind": "class-page",
+    "class_id": "chaplain",
+    "captured_at": "2016-04-06T22:16:18Z",
+    "archive_url": "https://web.archive.org/web/20160406221618id_/http://www.tosbase.com:80/game/classes/Chaplain",
+    "html_sha256": "0f28a070f3373e1d4018a6f8b2bea6d6ac0f351e73e49172a4f538a2f2d5050c",
+    "skill_count": 4,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F89",
+    "kind": "class-page",
+    "class_id": "druid",
+    "captured_at": "2016-04-05T00:18:40Z",
+    "archive_url": "https://web.archive.org/web/20160405001840id_/http://www.tosbase.com:80/game/classes/Druid",
+    "html_sha256": "96aba7d5967ff9fe2875c908270b2c8fd47493b690975eaa33bf674a6a9931c5",
+    "skill_count": 6,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F90",
+    "kind": "class-page",
+    "class_id": "oracle",
+    "captured_at": "2016-04-05T13:52:51Z",
+    "archive_url": "https://web.archive.org/web/20160405135251id_/http://www.tosbase.com:80/game/classes/Oracle",
+    "html_sha256": "521f3b972efc3766080de0d2acd5c391a200a9ad891affcf7ce5927ecf740a94",
+    "skill_count": 8,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F91",
+    "kind": "class-page",
+    "class_id": "kabbalist",
+    "captured_at": "2016-03-30T11:37:20Z",
+    "archive_url": "https://web.archive.org/web/20160330113720id_/http://www.tosbase.com:80/game/classes/Kabbalist",
+    "html_sha256": "956c195869204557fd790167a312591588f633f97ce9ac2747ecead6d7c5b5a2",
+    "skill_count": 6,
+    "client_build_verified": false
+  },
+  {
+    "source_id": "F92",
+    "kind": "class-page",
+    "class_id": "plague-doctor",
+    "captured_at": "2016-03-30T11:23:52Z",
+    "archive_url": "https://web.archive.org/web/20160330112352id_/http://www.tosbase.com:80/game/classes/Plague-Doctor",
+    "html_sha256": "2975211ca0c65f29e9d261b6aacce4a8f287ed63e41bbdffb43443b04911afc3",
+    "skill_count": 6,
+    "client_build_verified": false
+  }
+]

@@ -79,4 +79,4 @@ O mesmo nome também não garante a mesma regra: efeitos adicionais de Pain Barr
 
 **Leitura para o futuro solo:** a utilidade de resistência a interrupções merece testes de campo. Isso é uma pauta de adaptação futura, não uma mudança desta ficha histórica.
 
-**Próximo passo recomendado:** pesquisar Highlander e Peltasta, começando por armas e habilidades por círculo. As lacunas de requisitos e missões de Swordsman seguem registradas na pesquisa ampliada.
+**Próximo passo recomendado:** consultar o [catálogo de classes](catalogo-2016.md) e consolidar a seleção solo sem magia, conforme as [diretrizes](../projeto-solo/diretrizes.md). O aprofundamento individual será retomado depois dessa visão geral.

@@ -1,0 +1,4555 @@
+{
+  "edition": "iToS-launch-window-2016",
+  "reviewed_at": "2026-11-15",
+  "max_rank": 7,
+  "class_count": 55,
+  "skill_count": 382,
+  "trees": [
+    "Swordsman",
+    "Wizard",
+    "Archer",
+    "Cleric"
+  ],
+  "solo_policy": "docs/projeto-solo/diretrizes.md",
+  "historical_availability_status": "documentary-window; exact-launch-client-unverified",
+  "classes": [
+    {
+      "id": "swordsman",
+      "name": "Swordsman",
+      "tree": "Swordsman",
+      "first_rank": 1,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Base de combate próximo, com golpes simples, reforços de ataque e resistência a interrupções.",
+      "skills": [
+        {
+          "tosbase_id": 10001,
+          "name": "Thrust",
+          "circle": 1,
+          "summary": "Estocada que causa dano perfurante.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "tosbase_id": 10002,
+          "name": "Bash",
+          "circle": 1,
+          "summary": "Golpe de corte forte.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "tosbase_id": 10003,
+          "name": "Gung Ho",
+          "circle": 1,
+          "summary": "Aumenta ataque físico em troca de defesa.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "tosbase_id": 10004,
+          "name": "Concentrate",
+          "circle": 1,
+          "summary": "Acrescenta dano aos ataques.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "tosbase_id": 10005,
+          "name": "Pain Barrier",
+          "circle": 1,
+          "summary": "Resiste a empurrões, quedas e interrupções.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "tosbase_id": 10006,
+          "name": "Restrain",
+          "circle": 2,
+          "summary": "Troca HP máximo por chance de atordoar atacando.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "tosbase_id": 10007,
+          "name": "Pommel Beat",
+          "circle": 2,
+          "summary": "Pancada do cabo, favorecida contra alvos atordoados.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "tosbase_id": 10008,
+          "name": "Double Slash",
+          "circle": 3,
+          "summary": "Corte que ganha dano contra alvos sangrando.",
+          "evidence_ids": [
+            "F38"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F38"
+      ],
+      "captured_at": "2016-03-31T18:00:20Z",
+      "archive_url": "https://web.archive.org/web/20160331180020id_/http://www.tosbase.com:80/game/classes/Swordsman",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Swordsman",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "highlander",
+      "name": "Highlander",
+      "tree": "Swordsman",
+      "first_rank": 2,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Espadachim que combina cortes, sangramento e enfraquecimento da defesa para preparar novos ataques.",
+      "skills": [
+        {
+          "tosbase_id": 10201,
+          "name": "Wagon Wheel",
+          "circle": 1,
+          "summary": "Golpe ascendente que lança o inimigo.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "tosbase_id": 10202,
+          "name": "Cartar Stroke",
+          "circle": 1,
+          "summary": "Acumula força para uma pancada no chão.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "tosbase_id": 10203,
+          "name": "Crown",
+          "circle": 1,
+          "summary": "Pancada que reduz INT e SPR do alvo.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "tosbase_id": 10204,
+          "name": "Cross Guard",
+          "circle": 1,
+          "summary": "Bloqueia com a arma e expõe o alvo a perfuração.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "tosbase_id": 10205,
+          "name": "Moulinet",
+          "circle": 2,
+          "summary": "Sequência de cortes com espada.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "tosbase_id": 10207,
+          "name": "Skyliner",
+          "circle": 2,
+          "summary": "Corte favorecido contra inimigos sangrando.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "tosbase_id": 10208,
+          "name": "Crosscut",
+          "circle": 2,
+          "summary": "Corte em cruz que provoca sangramento.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "tosbase_id": 10206,
+          "name": "Skull Swing",
+          "circle": 3,
+          "summary": "Golpe que aplica quebra de armadura.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "tosbase_id": 10209,
+          "name": "Vertical Slash",
+          "circle": 3,
+          "summary": "Corte favorecido por defesa reduzida e efeitos negativos.",
+          "evidence_ids": [
+            "F39"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F39"
+      ],
+      "captured_at": "2016-03-30T10:52:56Z",
+      "archive_url": "https://web.archive.org/web/20160330105256id_/http://www.tosbase.com:80/game/classes/Highlander",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Highlander",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "peltasta",
+      "name": "Peltasta",
+      "tree": "Swordsman",
+      "first_rank": 2,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Especialista em escudo, provocação e bloqueio, capaz de reunir inimigos e proteger sua posição.",
+      "skills": [
+        {
+          "tosbase_id": 10101,
+          "name": "Umbo Blow",
+          "circle": 1,
+          "summary": "Pancada de escudo favorecida após um bloqueio.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "tosbase_id": 10102,
+          "name": "Rim Blow",
+          "circle": 1,
+          "summary": "Golpe da borda, favorecido contra congelados ou petrificados.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "tosbase_id": 10103,
+          "name": "Swash Buckling",
+          "circle": 1,
+          "summary": "Provoca inimigos próximos para que persigam você.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "tosbase_id": 10104,
+          "name": "Guardian",
+          "circle": 1,
+          "summary": "Troca ataque por defesa; incompatível com Gung Ho.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "tosbase_id": 10105,
+          "name": "Shield Lob",
+          "circle": 2,
+          "summary": "Arremessa o escudo e perde defesa até recuperá-lo.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "tosbase_id": 10106,
+          "name": "High Guard",
+          "circle": 2,
+          "summary": "Postura de bloqueio que sacrifica ataque e crítico.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "tosbase_id": 10107,
+          "name": "Butterfly",
+          "circle": 3,
+          "summary": "Sequência de ataques com espada e escudo.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "tosbase_id": 10108,
+          "name": "Umbo Thrust",
+          "circle": 3,
+          "summary": "Pancada capaz de anular temporariamente a armadura.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "tosbase_id": 10109,
+          "name": "Langort",
+          "circle": 3,
+          "summary": "Bloqueia e ataca com espada e escudo.",
+          "evidence_ids": [
+            "F40"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F40"
+      ],
+      "captured_at": "2016-04-02T21:58:03Z",
+      "archive_url": "https://web.archive.org/web/20160402215803id_/http://www.tosbase.com:80/game/classes/Peltasta",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Peltasta",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "barbarian",
+      "name": "Barbarian",
+      "tree": "Swordsman",
+      "first_rank": 3,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Combatente agressivo que acumula força, atordoa e avança com ataques de grande impacto.",
+      "skills": [
+        {
+          "tosbase_id": 10401,
+          "name": "Embowel",
+          "circle": 1,
+          "summary": "Perfura e chuta o inimigo para longe.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "tosbase_id": 10404,
+          "name": "Stomping Kick",
+          "circle": 1,
+          "summary": "Pisoteio aéreo influenciado pelo salto e pelas botas.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "tosbase_id": 10411,
+          "name": "Cleave",
+          "circle": 1,
+          "summary": "Golpe giratório favorecido contra inimigos atordoados.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "tosbase_id": 10409,
+          "name": "Helm Chopper",
+          "circle": 1,
+          "summary": "Pancada na cabeça que atordoa.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "tosbase_id": 10405,
+          "name": "Warcry",
+          "circle": 2,
+          "summary": "Reduz a defesa próxima e fortalece seu ataque.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "tosbase_id": 10406,
+          "name": "Frenzy",
+          "circle": 2,
+          "summary": "Ataques repetidos ao mesmo alvo acumulam força.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "tosbase_id": 10410,
+          "name": "Seism",
+          "circle": 2,
+          "summary": "Abalo com chance de atordoamento.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "tosbase_id": 10407,
+          "name": "Giant Swing",
+          "circle": 3,
+          "summary": "Gira um inimigo e o arremessa.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "tosbase_id": 10408,
+          "name": "Pouncing",
+          "circle": 3,
+          "summary": "Avança atacando com cortes contínuos.",
+          "evidence_ids": [
+            "F41"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F41"
+      ],
+      "captured_at": "2016-04-01T12:01:54Z",
+      "archive_url": "https://web.archive.org/web/20160401120154id_/http://www.tosbase.com:80/game/classes/Barbarian",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Barbarian",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "hoplite",
+      "name": "Hoplite",
+      "tree": "Swordsman",
+      "first_rank": 3,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Lanceiro de estocadas e postura crítica, com ataques que exploram o tamanho e a vulnerabilidade do alvo.",
+      "skills": [
+        {
+          "tosbase_id": 10301,
+          "name": "Stabbing",
+          "circle": 1,
+          "summary": "Série de estocadas de lança.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "tosbase_id": 10302,
+          "name": "Pierce",
+          "circle": 1,
+          "summary": "Perfura; alvos maiores recebem mais acertos.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "tosbase_id": 10303,
+          "name": "Finestra",
+          "circle": 1,
+          "summary": "Aumenta crítico e bloqueio, reduzindo esquiva.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "tosbase_id": 10304,
+          "name": "Synchro Thrusting",
+          "circle": 1,
+          "summary": "Contra-ataque combinado de lança e escudo.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "tosbase_id": 10305,
+          "name": "Long Stride",
+          "circle": 2,
+          "summary": "Salta até o alvo causando dano.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "tosbase_id": 10307,
+          "name": "Spear Lunge",
+          "circle": 2,
+          "summary": "Torna o alvo vulnerável a perfuração.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "tosbase_id": 10306,
+          "name": "Spear Throw",
+          "circle": 3,
+          "summary": "Arremessa a lança; recuperá-la restaura o ataque reduzido.",
+          "evidence_ids": [
+            "F42"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F42"
+      ],
+      "captured_at": "2016-04-05T00:43:25Z",
+      "archive_url": "https://web.archive.org/web/20160405004325id_/http://www.tosbase.com:80/game/classes/Hoplite",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Hoplite",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "cataphract",
+      "name": "Cataphract",
+      "tree": "Swordsman",
+      "first_rank": 4,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Lanceiro montado que combina mobilidade, investidas e ataques durante deslocamento.",
+      "skills": [
+        {
+          "tosbase_id": 10601,
+          "name": "Impaler",
+          "circle": 1,
+          "summary": "Empala um inimigo e o usa contra outros.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "tosbase_id": 10602,
+          "name": "Earth Wave",
+          "circle": 1,
+          "summary": "Pancada no chão após acumular força.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "tosbase_id": 10603,
+          "name": "Trot",
+          "circle": 1,
+          "summary": "Aumenta a velocidade enquanto montado.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "tosbase_id": 10604,
+          "name": "Steed Charge",
+          "circle": 1,
+          "summary": "Investida frontal montada.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "tosbase_id": 10605,
+          "name": "Doom Spike",
+          "circle": 2,
+          "summary": "Estocada de lança carregada.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "tosbase_id": 10606,
+          "name": "Rush",
+          "circle": 3,
+          "summary": "Gira a lança sobre a cabeça, atingindo ao redor.",
+          "evidence_ids": [
+            "F43"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F43"
+      ],
+      "captured_at": "2016-04-01T12:05:11Z",
+      "archive_url": "https://web.archive.org/web/20160401120511id_/http://www.tosbase.com:80/game/classes/Cataphract",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Cataphract",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "rodelero",
+      "name": "Rodelero",
+      "tree": "Swordsman",
+      "first_rank": 4,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Lutador de escudo que interrompe, desloca e enfraquece adversários com controle próximo.",
+      "skills": [
+        {
+          "tosbase_id": 10501,
+          "name": "Shield Charge",
+          "circle": 1,
+          "summary": "Investida de escudo que empurra e derruba.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "tosbase_id": 10502,
+          "name": "Montano",
+          "circle": 1,
+          "summary": "Corte baixo com chance de paralisar.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "tosbase_id": 10503,
+          "name": "Targe Smash",
+          "circle": 1,
+          "summary": "Pancada de escudo com chance de cegar.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "tosbase_id": 10504,
+          "name": "Shield Push",
+          "circle": 1,
+          "summary": "Interrompe e desequilibra o alvo.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "tosbase_id": 10507,
+          "name": "Shield Shoving",
+          "circle": 1,
+          "summary": "Vira o inimigo e interrompe suas ações.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "tosbase_id": 10508,
+          "name": "Shield Bash",
+          "circle": 2,
+          "summary": "Pancada que embaralha temporariamente os atributos inimigos.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "tosbase_id": 10505,
+          "name": "Slithering",
+          "circle": 2,
+          "summary": "Avança agachado com evasão e finaliza atacando.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "tosbase_id": 10506,
+          "name": "Shooting Star",
+          "circle": 3,
+          "summary": "Sequência ofensiva de espada e escudo.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "tosbase_id": 10509,
+          "name": "High Kick",
+          "circle": 3,
+          "summary": "Chute que aumenta o dano de impacto recebido.",
+          "evidence_ids": [
+            "F44"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F44"
+      ],
+      "captured_at": "2016-04-05T13:53:12Z",
+      "archive_url": "https://web.archive.org/web/20160405135312id_/http://www.tosbase.com:80/game/classes/Rodelero",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Rodelero",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "corsair",
+      "name": "Corsair",
+      "tree": "Swordsman",
+      "first_rank": 5,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Pirata de gancho, pilhagem e duas armas, com sequências de adaga e acesso posterior à pistola.",
+      "skills": [
+        {
+          "tosbase_id": 10801,
+          "name": "Jolly Roger",
+          "circle": 1,
+          "summary": "Bandeira pirata com apoio ao grupo e chance de pilhagem.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "tosbase_id": 10802,
+          "name": "Iron Hook",
+          "circle": 1,
+          "summary": "Prende inimigos com um gancho.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "tosbase_id": 10803,
+          "name": "Keel Hauling",
+          "circle": 1,
+          "summary": "Arrasta e machuca alvos presos pelo gancho.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "tosbase_id": 10804,
+          "name": "Unlock Chest",
+          "circle": 1,
+          "summary": "Abre baús de baixo nível com chave.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "tosbase_id": 10807,
+          "name": "Dust Devil",
+          "circle": 1,
+          "summary": "Giro com duas armas que prende brevemente o alvo.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "tosbase_id": 10805,
+          "name": "Double Weapon Assault",
+          "circle": 2,
+          "summary": "Combina ataques básicos com ataques de adaga.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "tosbase_id": 10808,
+          "name": "Hexen Dropper",
+          "circle": 2,
+          "summary": "Sequência perfurante usando uma arma em cada mão.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "tosbase_id": 10809,
+          "name": "Pistol Shot",
+          "circle": 3,
+          "summary": "Dispara a pistola repetidamente contra inimigos à frente.",
+          "evidence_ids": [
+            "F45"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F45"
+      ],
+      "captured_at": "2016-04-05T00:16:57Z",
+      "archive_url": "https://web.archive.org/web/20160405001657id_/http://www.tosbase.com:80/game/classes/Corsair",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Corsair",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "squire",
+      "name": "Squire",
+      "tree": "Swordsman",
+      "first_rank": 5,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Ofício de manutenção e apoio: reparos, melhorias temporárias, acampamento e refeições para o grupo.",
+      "skills": [
+        {
+          "tosbase_id": 10704,
+          "name": "Arrest",
+          "circle": 1,
+          "summary": "Imobiliza inimigos com uma amarra.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "tosbase_id": 10703,
+          "name": "Repair",
+          "circle": 1,
+          "summary": "Abre uma loja de reparo de equipamentos.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "tosbase_id": 10701,
+          "name": "Weapon Maintenance",
+          "circle": 1,
+          "summary": "Serviço que melhora temporariamente o ataque de armas.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "tosbase_id": 10702,
+          "name": "Armor Maintenance",
+          "circle": 1,
+          "summary": "Serviço que melhora temporariamente a defesa de equipamentos.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "tosbase_id": 10705,
+          "name": "Base Camp",
+          "circle": 2,
+          "summary": "Monta acampamento com armazenamento, transporte e suporte.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "tosbase_id": 10706,
+          "name": "Refreshment Table",
+          "circle": 2,
+          "summary": "Prepara comidas de reforço junto ao acampamento.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "tosbase_id": 10707,
+          "name": "Penalty Reduction",
+          "circle": 3,
+          "summary": "Reduz penalidades de ficar incapacitado.",
+          "evidence_ids": [
+            "F46"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F46"
+      ],
+      "captured_at": "2016-04-01T12:11:34Z",
+      "archive_url": "https://web.archive.org/web/20160401121134id_/http://www.tosbase.com:80/game/classes/Squire",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Squire",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "doppelsoeldner",
+      "name": "Doppelsoeldner",
+      "tree": "Swordsman",
+      "first_rank": 6,
+      "hidden": false,
+      "max_circle_in_catalog": 2,
+      "summary": "Atacante de espada que aceita mais risco para aumentar pressão ofensiva e executar ataques giratórios.",
+      "skills": [
+        {
+          "tosbase_id": 11004,
+          "name": "Punish",
+          "circle": 1,
+          "summary": "Perfura um inimigo caído.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "tosbase_id": 11001,
+          "name": "Deeds of Valor",
+          "circle": 1,
+          "summary": "Receber dano aumenta ataque e velocidade, sacrificando defesa.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "tosbase_id": 11002,
+          "name": "Mordschlag",
+          "circle": 1,
+          "summary": "Pancada usando o cabo da espada.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "tosbase_id": 11003,
+          "name": "Double Pay Earn",
+          "circle": 1,
+          "summary": "Busca EXP e saque dobrados sob risco aumentado.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "tosbase_id": 11005,
+          "name": "Cyclone",
+          "circle": 1,
+          "summary": "Ataque giratório contínuo com a arma.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "tosbase_id": 11006,
+          "name": "Zornhau",
+          "circle": 2,
+          "summary": "Corte forte que aplica choque.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "tosbase_id": 11008,
+          "name": "Zucken",
+          "circle": 2,
+          "summary": "Cortes laterais favorecidos contra alvos sob choque.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "tosbase_id": 11007,
+          "name": "Redel",
+          "circle": 2,
+          "summary": "Sequência de cortes contra o alvo à frente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F47"
+      ],
+      "captured_at": "2016-03-30T11:39:32Z",
+      "archive_url": "https://web.archive.org/web/20160330113932id_/http://www.tosbase.com:80/game/classes/Doppelsoeldner",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Doppelsoeldner",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "fencer",
+      "name": "Fencer",
+      "tree": "Swordsman",
+      "first_rank": 6,
+      "hidden": false,
+      "max_circle_in_catalog": 2,
+      "summary": "Duelista de rapieira, com estocadas rápidas, esquivas, aparos e exposição do adversário.",
+      "skills": [
+        {
+          "tosbase_id": 11102,
+          "name": "Lunge",
+          "circle": 1,
+          "summary": "Estocada que aumenta esquiva e expõe o alvo a cortes.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "tosbase_id": 11103,
+          "name": "Sept Etoiles",
+          "circle": 1,
+          "summary": "Série rápida de estocadas.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "tosbase_id": 11104,
+          "name": "Attaque Coquille",
+          "circle": 1,
+          "summary": "Expõe o alvo a ataques perfurantes que ignoram defesa.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "tosbase_id": 11105,
+          "name": "Esquive Toucher",
+          "circle": 1,
+          "summary": "Movimento evasivo acompanhado de estocadas.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "tosbase_id": 11107,
+          "name": "Flanconnade",
+          "circle": 1,
+          "summary": "Corte ascendente que também protege contra um ataque.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "tosbase_id": 11101,
+          "name": "Attaque Composee",
+          "circle": 2,
+          "summary": "Estocada frontal de rapieira.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "tosbase_id": 11106,
+          "name": "Preparation",
+          "circle": 2,
+          "summary": "Prepara defesa e fortalece a próxima perfuração.",
+          "evidence_ids": [
+            "F48"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F48"
+      ],
+      "captured_at": "2016-03-30T11:18:01Z",
+      "archive_url": "https://web.archive.org/web/20160330111801id_/http://www.tosbase.com:80/game/classes/Fencer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Fencer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "dragoon",
+      "name": "Dragoon",
+      "tree": "Swordsman",
+      "first_rank": 7,
+      "hidden": false,
+      "max_circle_in_catalog": 1,
+      "summary": "Lanceiro de ataques poderosos, arremessos e golpes ascendentes contra grupos ou alvos resistentes.",
+      "skills": [
+        {
+          "tosbase_id": 11401,
+          "name": "Dragontooth",
+          "circle": 1,
+          "summary": "Ataque de lança usando rotação.",
+          "evidence_ids": [
+            "F49"
+          ]
+        },
+        {
+          "tosbase_id": 11402,
+          "name": "Serpentine",
+          "circle": 1,
+          "summary": "Sequência de golpes de lança à frente.",
+          "evidence_ids": [
+            "F49"
+          ]
+        },
+        {
+          "tosbase_id": 11403,
+          "name": "Gae Bulg",
+          "circle": 1,
+          "summary": "Arremessa a lança e expõe alvos a dano físico.",
+          "evidence_ids": [
+            "F49"
+          ]
+        },
+        {
+          "tosbase_id": 11404,
+          "name": "Dragon Soar",
+          "circle": 1,
+          "summary": "Ataque ascendente que lança o inimigo.",
+          "evidence_ids": [
+            "F49"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F49"
+      ],
+      "captured_at": "2016-03-30T11:37:15Z",
+      "archive_url": "https://web.archive.org/web/20160330113715id_/http://www.tosbase.com:80/game/classes/Dragoon",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Dragoon",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "templar",
+      "name": "Templar",
+      "tree": "Swordsman",
+      "first_rank": 7,
+      "hidden": false,
+      "max_circle_in_catalog": 1,
+      "summary": "Classe voltada à liderança de guilda, com transporte de membros, torre e reforços coletivos.",
+      "skills": [
+        {
+          "tosbase_id": 11501,
+          "name": "Summon Guild Member",
+          "circle": 1,
+          "summary": "Traz um membro da guilda com sua permissão.",
+          "evidence_ids": [
+            "F50"
+          ]
+        },
+        {
+          "tosbase_id": 11502,
+          "name": "Warp To Guild Member",
+          "circle": 1,
+          "summary": "Teleporta até um membro da guilda.",
+          "evidence_ids": [
+            "F50"
+          ]
+        },
+        {
+          "tosbase_id": 11503,
+          "name": "Build Guild Tower",
+          "circle": 1,
+          "summary": "Libera funções da torre e progressão da guilda.",
+          "evidence_ids": [
+            "F50"
+          ]
+        },
+        {
+          "tosbase_id": 11504,
+          "name": "Reduce Craft Time",
+          "circle": 1,
+          "summary": "Bandeira que acelera fabricação perto da torre.",
+          "evidence_ids": [
+            "F50"
+          ]
+        },
+        {
+          "tosbase_id": 11505,
+          "name": "Battle Orders",
+          "circle": 1,
+          "summary": "Aumenta STR dos membros próximos ao líder.",
+          "evidence_ids": [
+            "F50"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F50"
+      ],
+      "captured_at": "2016-03-30T10:43:05Z",
+      "archive_url": "https://web.archive.org/web/20160330104305id_/http://www.tosbase.com:80/game/classes/Templar",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Templar",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "shinobi",
+      "name": "Shinobi",
+      "tree": "Swordsman",
+      "first_rank": 7,
+      "hidden": true,
+      "max_circle_in_catalog": 1,
+      "summary": "Classe oculta de kunais, clones, contra-ataques e explosões; reúne combate físico e técnicas sobrenaturais.",
+      "skills": [
+        {
+          "tosbase_id": 11205,
+          "name": "Kunai",
+          "circle": 1,
+          "summary": "Arremessa kunais contra múltiplos inimigos.",
+          "evidence_ids": [
+            "F51"
+          ]
+        },
+        {
+          "tosbase_id": 11202,
+          "name": "Bunshin no Jutsu",
+          "circle": 1,
+          "summary": "Cria clones que acompanham ações e habilidades.",
+          "evidence_ids": [
+            "F51"
+          ]
+        },
+        {
+          "tosbase_id": 11203,
+          "name": "Mokuton no Jutsu",
+          "circle": 1,
+          "summary": "Engana o atacante com um tronco e contra-ataca.",
+          "evidence_ids": [
+            "F51"
+          ]
+        },
+        {
+          "tosbase_id": 11204,
+          "name": "Katon no Jutsu",
+          "circle": 1,
+          "summary": "Ataca com explosões de pólvora.",
+          "evidence_ids": [
+            "F51"
+          ]
+        },
+        {
+          "tosbase_id": 11201,
+          "name": "Mijin no Jutsu",
+          "circle": 1,
+          "summary": "Explosão próxima que também fere o próprio usuário.",
+          "evidence_ids": [
+            "F51"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F51"
+      ],
+      "captured_at": "2016-03-30T10:44:51Z",
+      "archive_url": "https://web.archive.org/web/20160330104451id_/http://www.tosbase.com:80/game/classes/Shinobi",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Shinobi",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "wizard",
+      "name": "Wizard",
+      "tree": "Wizard",
+      "first_rank": 1,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Base de magia, proteção e controle, com opções posteriores para acelerar ou sustentar a conjuração.",
+      "skills": [
+        {
+          "tosbase_id": 20001,
+          "name": "Energy Bolt",
+          "circle": 1,
+          "summary": "Projétil mágico cujo dano cresce com a carga.",
+          "evidence_ids": [
+            "F52"
+          ]
+        },
+        {
+          "tosbase_id": 20002,
+          "name": "Lethargy",
+          "circle": 1,
+          "summary": "Aplica letargia ao inimigo.",
+          "evidence_ids": [
+            "F52"
+          ]
+        },
+        {
+          "tosbase_id": 20003,
+          "name": "Sleep",
+          "circle": 1,
+          "summary": "Adormece o alvo até o limite de ataques recebidos.",
+          "evidence_ids": [
+            "F52"
+          ]
+        },
+        {
+          "tosbase_id": 20004,
+          "name": "Reflect Shield",
+          "circle": 1,
+          "summary": "Escudo protetor que reflete dano ao agressor.",
+          "evidence_ids": [
+            "F52"
+          ]
+        },
+        {
+          "tosbase_id": 20005,
+          "name": "Earthquake",
+          "circle": 1,
+          "summary": "Abalo mágico de terra à frente.",
+          "evidence_ids": [
+            "F52"
+          ]
+        },
+        {
+          "tosbase_id": 20006,
+          "name": "Surespell",
+          "circle": 2,
+          "summary": "Protege a conjuração contra interrupções por ataques.",
+          "evidence_ids": [
+            "F52"
+          ]
+        },
+        {
+          "tosbase_id": 20007,
+          "name": "Magic Missile",
+          "circle": 3,
+          "summary": "Dispara projéteis mágicos que geram novos acertos.",
+          "evidence_ids": [
+            "F52"
+          ]
+        },
+        {
+          "tosbase_id": 20008,
+          "name": "Quick Cast",
+          "circle": 3,
+          "summary": "Reduz o tempo de conjuração.",
+          "evidence_ids": [
+            "F52"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F52"
+      ],
+      "captured_at": "2016-04-02T22:21:22Z",
+      "archive_url": "https://web.archive.org/web/20160402222122id_/http://www.tosbase.com:80/game/classes/Wizard",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Wizard",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "cryomancer",
+      "name": "Cryomancer",
+      "tree": "Wizard",
+      "first_rank": 2,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Mago de gelo focado em congelamento, paredes e agrupamento de inimigos.",
+      "skills": [
+        {
+          "tosbase_id": 20201,
+          "name": "Ice Bolt",
+          "circle": 1,
+          "summary": "Projétil gelado com chance de congelar.",
+          "evidence_ids": [
+            "F53"
+          ]
+        },
+        {
+          "tosbase_id": 20202,
+          "name": "Ice Pike",
+          "circle": 1,
+          "summary": "Espinhos de gelo em linha, com chance de congelamento.",
+          "evidence_ids": [
+            "F53"
+          ]
+        },
+        {
+          "tosbase_id": 20203,
+          "name": "Ice Wall",
+          "circle": 1,
+          "summary": "Ergue uma parede de gelo para conter inimigos.",
+          "evidence_ids": [
+            "F53"
+          ]
+        },
+        {
+          "tosbase_id": 20204,
+          "name": "Ice Blast",
+          "circle": 1,
+          "summary": "Explode gelo contra um alvo congelado.",
+          "evidence_ids": [
+            "F53"
+          ]
+        },
+        {
+          "tosbase_id": 20205,
+          "name": "Subzero Shield",
+          "circle": 2,
+          "summary": "Defesa de gelo que pode congelar agressores.",
+          "evidence_ids": [
+            "F53"
+          ]
+        },
+        {
+          "tosbase_id": 20206,
+          "name": "Gust",
+          "circle": 2,
+          "summary": "Rajada que empurra e pode romper congelamento.",
+          "evidence_ids": [
+            "F53"
+          ]
+        },
+        {
+          "tosbase_id": 20207,
+          "name": "Snow Rolling",
+          "circle": 3,
+          "summary": "Avança numa bola de neve esmagando inimigos.",
+          "evidence_ids": [
+            "F53"
+          ]
+        },
+        {
+          "tosbase_id": 20208,
+          "name": "Frost Pillar",
+          "circle": 3,
+          "summary": "Árvore de gelo que atrai e pode congelar.",
+          "evidence_ids": [
+            "F53"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F53"
+      ],
+      "captured_at": "2016-04-02T21:55:39Z",
+      "archive_url": "https://web.archive.org/web/20160402215539id_/http://www.tosbase.com:80/game/classes/Cryomancer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Cryomancer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "pyromancer",
+      "name": "Pyromancer",
+      "tree": "Wizard",
+      "first_rank": 2,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Mago de fogo que cria áreas persistentes, barreiras flamejantes e reforços de ataque.",
+      "skills": [
+        {
+          "tosbase_id": 20101,
+          "name": "Fireball",
+          "circle": 1,
+          "summary": "Invoca uma esfera de fogo que queima ao contato.",
+          "evidence_ids": [
+            "F54"
+          ]
+        },
+        {
+          "tosbase_id": 20102,
+          "name": "Fire Wall",
+          "circle": 1,
+          "summary": "Barreira flamejante que machuca quem se aproxima.",
+          "evidence_ids": [
+            "F54"
+          ]
+        },
+        {
+          "tosbase_id": 20103,
+          "name": "Enchant Fire",
+          "circle": 1,
+          "summary": "Acrescenta fogo aos ataques do grupo.",
+          "evidence_ids": [
+            "F54"
+          ]
+        },
+        {
+          "tosbase_id": 20104,
+          "name": "Flare",
+          "circle": 1,
+          "summary": "Provoca uma explosão em inimigo incendiado.",
+          "evidence_ids": [
+            "F54"
+          ]
+        },
+        {
+          "tosbase_id": 20107,
+          "name": "Flame Ground",
+          "circle": 1,
+          "summary": "Área de fogo que causa dano contínuo.",
+          "evidence_ids": [
+            "F54"
+          ]
+        },
+        {
+          "tosbase_id": 20105,
+          "name": "Fire Pillar",
+          "circle": 2,
+          "summary": "Pilar de fogo ofensivo.",
+          "evidence_ids": [
+            "F54"
+          ]
+        },
+        {
+          "tosbase_id": 20106,
+          "name": "Hell Breath",
+          "circle": 3,
+          "summary": "Jato frontal de fogo mantido continuamente.",
+          "evidence_ids": [
+            "F54"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F54"
+      ],
+      "captured_at": "2016-04-01T12:11:59Z",
+      "archive_url": "https://web.archive.org/web/20160401121159id_/http://www.tosbase.com:80/game/classes/Pyromancer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Pyromancer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "linker",
+      "name": "Linker",
+      "tree": "Wizard",
+      "first_rank": 3,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Especialista em conexões que compartilha dano entre inimigos e efeitos entre aliados.",
+      "skills": [
+        {
+          "tosbase_id": 20401,
+          "name": "Unbind",
+          "circle": 1,
+          "summary": "Desfaz as ligações ativas.",
+          "evidence_ids": [
+            "F55"
+          ]
+        },
+        {
+          "tosbase_id": 20402,
+          "name": "Physical Link",
+          "circle": 1,
+          "summary": "Divide dano recebido entre aliados conectados.",
+          "evidence_ids": [
+            "F55"
+          ]
+        },
+        {
+          "tosbase_id": 20403,
+          "name": "Joint Penalty",
+          "circle": 1,
+          "summary": "Faz inimigos ligados compartilharem o dano.",
+          "evidence_ids": [
+            "F55"
+          ]
+        },
+        {
+          "tosbase_id": 20404,
+          "name": "Hangman's Knot",
+          "circle": 1,
+          "summary": "Aperta a ligação e agrupa os inimigos conectados.",
+          "evidence_ids": [
+            "F55"
+          ]
+        },
+        {
+          "tosbase_id": 20405,
+          "name": "Spiritual Chain",
+          "circle": 2,
+          "summary": "Conecta aliados para compartilhar efeitos benéficos.",
+          "evidence_ids": [
+            "F55"
+          ]
+        },
+        {
+          "tosbase_id": 20406,
+          "name": "Umbilical Cord",
+          "circle": 3,
+          "summary": "Compartilha os maiores atributos entre aliados conectados.",
+          "evidence_ids": [
+            "F55"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F55"
+      ],
+      "captured_at": "2016-03-31T17:13:22Z",
+      "archive_url": "https://web.archive.org/web/20160331171322id_/http://www.tosbase.com:80/game/classes/Linker",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Linker",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "psychokino",
+      "name": "Psychokino",
+      "tree": "Wizard",
+      "first_rank": 3,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Controlador de psicocinese que move, suspende e concentra inimigos para causar dano.",
+      "skills": [
+        {
+          "tosbase_id": 20301,
+          "name": "Psychic Pressure",
+          "circle": 1,
+          "summary": "Canaliza dano contínuo por psicocinese.",
+          "evidence_ids": [
+            "F56"
+          ]
+        },
+        {
+          "tosbase_id": 20302,
+          "name": "Telekinesis",
+          "circle": 1,
+          "summary": "Ergue e arremessa um alvo usando poder mental.",
+          "evidence_ids": [
+            "F56"
+          ]
+        },
+        {
+          "tosbase_id": 20303,
+          "name": "Swap",
+          "circle": 1,
+          "summary": "Troca de posição com o inimigo.",
+          "evidence_ids": [
+            "F56"
+          ]
+        },
+        {
+          "tosbase_id": 20304,
+          "name": "Teleportation",
+          "circle": 1,
+          "summary": "Teleporta para um local aleatório.",
+          "evidence_ids": [
+            "F56"
+          ]
+        },
+        {
+          "tosbase_id": 20305,
+          "name": "Magnetic Force",
+          "circle": 2,
+          "summary": "Agrupa inimigos e os faz colidir.",
+          "evidence_ids": [
+            "F56"
+          ]
+        },
+        {
+          "tosbase_id": 20306,
+          "name": "Raise",
+          "circle": 3,
+          "summary": "Suspende inimigos, tratando-os temporariamente como voadores.",
+          "evidence_ids": [
+            "F56"
+          ]
+        },
+        {
+          "tosbase_id": 20307,
+          "name": "Gravity Pole",
+          "circle": 3,
+          "summary": "Campo gravitacional em linha que puxa inimigos.",
+          "evidence_ids": [
+            "F56"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F56"
+      ],
+      "captured_at": "2016-03-31T16:57:41Z",
+      "archive_url": "https://web.archive.org/web/20160331165741id_/http://www.tosbase.com:80/game/classes/Psychokino",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Psychokino",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "elementalist",
+      "name": "Elementalist",
+      "tree": "Wizard",
+      "first_rank": 4,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Conjurador ofensivo que combina relâmpagos, gelo, fogo e grandes áreas de dano.",
+      "skills": [
+        {
+          "tosbase_id": 20601,
+          "name": "Electrocute",
+          "circle": 1,
+          "summary": "Descarga elétrica contra inimigos à frente.",
+          "evidence_ids": [
+            "F57"
+          ]
+        },
+        {
+          "tosbase_id": 20602,
+          "name": "Stone Curse",
+          "circle": 1,
+          "summary": "Petrifica temporariamente um alvo.",
+          "evidence_ids": [
+            "F57"
+          ]
+        },
+        {
+          "tosbase_id": 20603,
+          "name": "Hail",
+          "circle": 1,
+          "summary": "Chuva de gelo que causa dano contínuo.",
+          "evidence_ids": [
+            "F57"
+          ]
+        },
+        {
+          "tosbase_id": 20604,
+          "name": "Prominence",
+          "circle": 1,
+          "summary": "Chama móvel que percorre a área aleatoriamente.",
+          "evidence_ids": [
+            "F57"
+          ]
+        },
+        {
+          "tosbase_id": 20605,
+          "name": "Meteor",
+          "circle": 2,
+          "summary": "Derruba um meteoro na área escolhida.",
+          "evidence_ids": [
+            "F57"
+          ]
+        },
+        {
+          "tosbase_id": 20607,
+          "name": "Freezing Sphere",
+          "circle": 2,
+          "summary": "Arremessa uma esfera de gelo.",
+          "evidence_ids": [
+            "F57"
+          ]
+        },
+        {
+          "tosbase_id": 20606,
+          "name": "Rain",
+          "circle": 3,
+          "summary": "Cria chuva com efeitos na área escolhida.",
+          "evidence_ids": [
+            "F57"
+          ]
+        },
+        {
+          "tosbase_id": 20608,
+          "name": "Frost Cloud",
+          "circle": 3,
+          "summary": "Área gelada de dano contínuo.",
+          "evidence_ids": [
+            "F57"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F57"
+      ],
+      "captured_at": "2016-04-02T22:13:52Z",
+      "archive_url": "https://web.archive.org/web/20160402221352id_/http://www.tosbase.com:80/game/classes/Elementalist",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Elementalist",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "thaumaturge",
+      "name": "Thaumaturge",
+      "tree": "Wizard",
+      "first_rank": 4,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Manipula tamanho e atributos de corpos, alterando ataque, resistência e recompensas dos monstros.",
+      "skills": [
+        {
+          "tosbase_id": 20501,
+          "name": "Swell Left Arm",
+          "circle": 1,
+          "summary": "Amplia a mão principal e fortalece o ataque do grupo.",
+          "evidence_ids": [
+            "F58"
+          ]
+        },
+        {
+          "tosbase_id": 20502,
+          "name": "Shrink Body",
+          "circle": 1,
+          "summary": "Reduz o tamanho do alvo.",
+          "evidence_ids": [
+            "F58"
+          ]
+        },
+        {
+          "tosbase_id": 20503,
+          "name": "Swell Body",
+          "circle": 1,
+          "summary": "Aumenta tamanho e HP inimigos, dobrando EXP e saque.",
+          "evidence_ids": [
+            "F58"
+          ]
+        },
+        {
+          "tosbase_id": 20504,
+          "name": "Transpose",
+          "circle": 1,
+          "summary": "Troca INT e CON.",
+          "evidence_ids": [
+            "F58"
+          ]
+        },
+        {
+          "tosbase_id": 20505,
+          "name": "Reversi",
+          "circle": 2,
+          "summary": "Assume controle de um círculo mágico inimigo.",
+          "evidence_ids": [
+            "F58"
+          ]
+        },
+        {
+          "tosbase_id": 20506,
+          "name": "Swell Right Arm",
+          "circle": 2,
+          "summary": "Amplia a mão secundária e melhora seu ataque.",
+          "evidence_ids": [
+            "F58"
+          ]
+        },
+        {
+          "tosbase_id": 20507,
+          "name": "Swell Brain",
+          "circle": 3,
+          "summary": "Aumenta a cabeça e a INT do grupo.",
+          "evidence_ids": [
+            "F58"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F58"
+      ],
+      "captured_at": "2016-03-31T18:03:47Z",
+      "archive_url": "https://web.archive.org/web/20160331180347id_/http://www.tosbase.com:80/game/classes/Thaumaturge",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Thaumaturge",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "chronomancer",
+      "name": "Chronomancer",
+      "tree": "Wizard",
+      "first_rank": 5,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Suporte temporal que altera velocidade, recargas e estados anteriores do campo.",
+      "skills": [
+        {
+          "tosbase_id": 20801,
+          "name": "Quicken",
+          "circle": 1,
+          "summary": "Acelera os ataques do grupo.",
+          "evidence_ids": [
+            "F59"
+          ]
+        },
+        {
+          "tosbase_id": 20802,
+          "name": "Reincarnate",
+          "circle": 1,
+          "summary": "Faz um monstro derrotado reaparecer no local.",
+          "evidence_ids": [
+            "F59"
+          ]
+        },
+        {
+          "tosbase_id": 20803,
+          "name": "Stop",
+          "circle": 1,
+          "summary": "Congela o tempo dos monstros, que não recebem dano.",
+          "evidence_ids": [
+            "F59"
+          ]
+        },
+        {
+          "tosbase_id": 20804,
+          "name": "Slow",
+          "circle": 1,
+          "summary": "Desacelera o movimento dos inimigos.",
+          "evidence_ids": [
+            "F59"
+          ]
+        },
+        {
+          "tosbase_id": 20805,
+          "name": "Haste",
+          "circle": 2,
+          "summary": "Acelera o movimento do grupo.",
+          "evidence_ids": [
+            "F59"
+          ]
+        },
+        {
+          "tosbase_id": 20806,
+          "name": "Backmasking",
+          "circle": 3,
+          "summary": "Restaura temporariamente um estado anterior da área.",
+          "evidence_ids": [
+            "F59"
+          ]
+        },
+        {
+          "tosbase_id": 20807,
+          "name": "Pass",
+          "circle": 3,
+          "summary": "Reduz recargas de habilidades do grupo.",
+          "evidence_ids": [
+            "F59"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F59"
+      ],
+      "captured_at": "2016-04-02T22:21:17Z",
+      "archive_url": "https://web.archive.org/web/20160402222117id_/http://www.tosbase.com:80/game/classes/Chronomancer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Chronomancer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "sorcerer",
+      "name": "Sorcerer",
+      "tree": "Wizard",
+      "first_rank": 5,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Invocador de demônios por cartas, com comandos, montaria e controle de suas criaturas.",
+      "skills": [
+        {
+          "tosbase_id": 20701,
+          "name": "Summoning",
+          "circle": 1,
+          "summary": "Invoca um demônio a partir da carta do grimório.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20706,
+          "name": "Summon Familiar",
+          "circle": 1,
+          "summary": "Invoca familiares que avançam e explodem no inimigo.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20707,
+          "name": "Summon Salamion",
+          "circle": 1,
+          "summary": "Chama um demônio de fogo que acompanha o usuário.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20708,
+          "name": "Summon Servant",
+          "circle": 1,
+          "summary": "Chama um servo que oferece efeitos benéficos.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20702,
+          "name": "Attack Ground",
+          "circle": 2,
+          "summary": "Ordena ao demônio atacar uma área.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20703,
+          "name": "Riding",
+          "circle": 2,
+          "summary": "Permite montar e controlar o demônio invocado.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20704,
+          "name": "Morph",
+          "circle": 2,
+          "summary": "Troca a forma invocada pela carta secundária.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20705,
+          "name": "Hold",
+          "circle": 2,
+          "summary": "Ordena ao demônio guardar um ponto.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20709,
+          "name": "Evocation",
+          "circle": 3,
+          "summary": "Ataca usando o demônio da carta secundária.",
+          "evidence_ids": [
+            "F60"
+          ]
+        },
+        {
+          "tosbase_id": 20710,
+          "name": "Desmodus",
+          "circle": 3,
+          "summary": "Dispara morcegos contra os inimigos.",
+          "evidence_ids": [
+            "F60"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F60"
+      ],
+      "captured_at": "2016-03-31T17:05:12Z",
+      "archive_url": "https://web.archive.org/web/20160331170512id_/http://www.tosbase.com:80/game/classes/Sorcerer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Sorcerer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "alchemist",
+      "name": "Alchemist",
+      "tree": "Wizard",
+      "first_rank": 6,
+      "hidden": false,
+      "max_circle_in_catalog": 2,
+      "summary": "Ofício de alquimia: poções, combinações, despertar de itens e tratamento de gemas.",
+      "skills": [
+        {
+          "tosbase_id": 21001,
+          "name": "Combustion",
+          "circle": 1,
+          "summary": "Explode itens no chão para atingir inimigos próximos.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "tosbase_id": 21002,
+          "name": "Dig",
+          "circle": 1,
+          "summary": "Escava materiais para alquimia.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "tosbase_id": 21007,
+          "name": "Item Awakening",
+          "circle": 1,
+          "summary": "Desafio que revela uma propriedade oculta do item.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "tosbase_id": 21004,
+          "name": "Briquetting",
+          "circle": 1,
+          "summary": "Combina itens para alterar suas propriedades, com risco.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "tosbase_id": 21005,
+          "name": "Tincturing",
+          "circle": 1,
+          "summary": "Produz poções a partir de ervas.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "tosbase_id": 21006,
+          "name": "Magnum Opus",
+          "circle": 2,
+          "summary": "Combina materiais por alquimia para criar itens.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "tosbase_id": 21003,
+          "name": "Gem Roasting",
+          "circle": 2,
+          "summary": "Abre serviço que reduz penalidades de gemas.",
+          "evidence_ids": [
+            "F61"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F61"
+      ],
+      "captured_at": "2016-03-30T10:43:44Z",
+      "archive_url": "https://web.archive.org/web/20160330104344id_/http://www.tosbase.com:80/game/classes/Alchemist",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Alchemist",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "necromancer",
+      "name": "Necromancer",
+      "tree": "Wizard",
+      "first_rank": 6,
+      "hidden": false,
+      "max_circle_in_catalog": 2,
+      "summary": "Usa cadáveres como recurso para criaturas, esqueletos, torres e ataques de restos mortais.",
+      "skills": [
+        {
+          "tosbase_id": 20901,
+          "name": "Gather Corpse",
+          "circle": 1,
+          "summary": "Recolhe cadáveres como recurso.",
+          "evidence_ids": [
+            "F62"
+          ]
+        },
+        {
+          "tosbase_id": 20902,
+          "name": "Create Shoggoth",
+          "circle": 1,
+          "summary": "Cria uma criatura a partir de cartas do Necronomicon.",
+          "evidence_ids": [
+            "F62"
+          ]
+        },
+        {
+          "tosbase_id": 20903,
+          "name": "Flesh Cannon",
+          "circle": 1,
+          "summary": "Bombardeia uma área com partes de cadáveres.",
+          "evidence_ids": [
+            "F62"
+          ]
+        },
+        {
+          "tosbase_id": 20904,
+          "name": "Flesh Hoop",
+          "circle": 1,
+          "summary": "Partes de cadáveres orbitam o usuário e causam dano.",
+          "evidence_ids": [
+            "F62"
+          ]
+        },
+        {
+          "tosbase_id": 20907,
+          "name": "Dirty Pole",
+          "circle": 1,
+          "summary": "Ergue restos mortais que deterioram inimigos próximos.",
+          "evidence_ids": [
+            "F62"
+          ]
+        },
+        {
+          "tosbase_id": 20906,
+          "name": "Disinter",
+          "circle": 2,
+          "summary": "Recolhe restos onde um inimigo morreu.",
+          "evidence_ids": [
+            "F62"
+          ]
+        },
+        {
+          "tosbase_id": 20908,
+          "name": "Corpse Tower",
+          "circle": 2,
+          "summary": "Constrói uma torre ofensiva feita de cadáveres.",
+          "evidence_ids": [
+            "F62"
+          ]
+        },
+        {
+          "tosbase_id": 20909,
+          "name": "Raise Dead",
+          "circle": 2,
+          "summary": "Invoca soldados esqueletos que seguem e combatem.",
+          "evidence_ids": [
+            "F62"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F62"
+      ],
+      "captured_at": "2016-04-01T12:04:23Z",
+      "archive_url": "https://web.archive.org/web/20160401120423id_/http://www.tosbase.com:80/game/classes/Necromancer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Necromancer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "rune-caster",
+      "name": "Rune Caster",
+      "tree": "Wizard",
+      "first_rank": 6,
+      "hidden": true,
+      "max_circle_in_catalog": 1,
+      "summary": "Classe oculta de runas que reúne grandes ataques, fortalecimento elemental e transformação em gigante.",
+      "skills": [
+        {
+          "tosbase_id": 21301,
+          "name": "Rune of Destruction",
+          "circle": 1,
+          "summary": "Explosão mágica que repercute entre inimigos próximos.",
+          "evidence_ids": [
+            "F63"
+          ]
+        },
+        {
+          "tosbase_id": 21302,
+          "name": "Rune of Ice",
+          "circle": 1,
+          "summary": "Fortalece certas magias de gelo do grupo.",
+          "evidence_ids": [
+            "F63"
+          ]
+        },
+        {
+          "tosbase_id": 21303,
+          "name": "Rune of Giants",
+          "circle": 1,
+          "summary": "Transforma aliados em gigantes com habilidades limitadas.",
+          "evidence_ids": [
+            "F63"
+          ]
+        },
+        {
+          "tosbase_id": 21304,
+          "name": "Rune of Justice",
+          "circle": 1,
+          "summary": "Ataque mágico frontal em linha.",
+          "evidence_ids": [
+            "F63"
+          ]
+        },
+        {
+          "tosbase_id": 21305,
+          "name": "Rune of Protection",
+          "circle": 1,
+          "summary": "Aumenta a resistência do grupo a estados negativos.",
+          "evidence_ids": [
+            "F63"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F63"
+      ],
+      "captured_at": "2016-03-30T00:13:54Z",
+      "archive_url": "https://web.archive.org/web/20160330001354id_/http://www.tosbase.com:80/game/classes/Rune-Caster/",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=RuneCaster",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "featherfoot",
+      "name": "Featherfoot",
+      "tree": "Wizard",
+      "first_rank": 7,
+      "hidden": false,
+      "max_circle_in_catalog": 1,
+      "summary": "Praticante de maldições e drenagem de vida, com ataques de osso e efeitos sangrentos.",
+      "skills": [
+        {
+          "tosbase_id": 21101,
+          "name": "Blood Bath",
+          "circle": 1,
+          "summary": "Ataque que extrai sangue curativo de certos monstros.",
+          "evidence_ids": [
+            "F64"
+          ]
+        },
+        {
+          "tosbase_id": 21102,
+          "name": "Blood Sucking",
+          "circle": 1,
+          "summary": "Drena vida de feras, demônios e insetos.",
+          "evidence_ids": [
+            "F64"
+          ]
+        },
+        {
+          "tosbase_id": 21103,
+          "name": "Bone Pointing",
+          "circle": 1,
+          "summary": "Invoca um osso que ataca e amaldiçoa.",
+          "evidence_ids": [
+            "F64"
+          ]
+        },
+        {
+          "tosbase_id": 21104,
+          "name": "Ngadhundi",
+          "circle": 1,
+          "summary": "Facada de osso que aplica deterioração ao inimigo.",
+          "evidence_ids": [
+            "F64"
+          ]
+        },
+        {
+          "tosbase_id": 21105,
+          "name": "Kurdaitcha",
+          "circle": 1,
+          "summary": "Deixa pegadas sangrentas que amaldiçoam ao contato.",
+          "evidence_ids": [
+            "F64"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F64"
+      ],
+      "captured_at": "2016-03-31T16:47:12Z",
+      "archive_url": "https://web.archive.org/web/20160331164712id_/http://www.tosbase.com:80/game/classes/Featherfoot",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Featherfoot",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "warlock",
+      "name": "Warlock",
+      "tree": "Wizard",
+      "first_rank": 7,
+      "hidden": false,
+      "max_circle_in_catalog": 1,
+      "summary": "Mago de trevas que cria e comanda espíritos ofensivos em torno de mortes e áreas de combate.",
+      "skills": [
+        {
+          "tosbase_id": 21201,
+          "name": "Pole of Agony",
+          "circle": 1,
+          "summary": "Ergue um pilar de trevas que causa dano contínuo.",
+          "evidence_ids": [
+            "F65"
+          ]
+        },
+        {
+          "tosbase_id": 21202,
+          "name": "Invocation",
+          "circle": 1,
+          "summary": "Mortes inimigas originam espíritos ofensivos no campo.",
+          "evidence_ids": [
+            "F65"
+          ]
+        },
+        {
+          "tosbase_id": 21203,
+          "name": "Dark Theurge",
+          "circle": 1,
+          "summary": "Invoca espíritos protetores ao redor do usuário.",
+          "evidence_ids": [
+            "F65"
+          ]
+        },
+        {
+          "tosbase_id": 21204,
+          "name": "Mastema",
+          "circle": 1,
+          "summary": "Ataque sombrio que expõe o alvo a dano sagrado.",
+          "evidence_ids": [
+            "F65"
+          ]
+        },
+        {
+          "tosbase_id": 21205,
+          "name": "Evil Sacrifice",
+          "circle": 1,
+          "summary": "Envia os espíritos contra inimigos de uma área.",
+          "evidence_ids": [
+            "F65"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F65"
+      ],
+      "captured_at": "2016-03-30T11:08:41Z",
+      "archive_url": "https://web.archive.org/web/20160330110841id_/http://www.tosbase.com:80/game/classes/Warlock",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Warlock",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "archer",
+      "name": "Archer",
+      "tree": "Archer",
+      "first_rank": 1,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Base de combate à distância, com múltiplos disparos, posicionamento e posturas de tiro.",
+      "skills": [
+        {
+          "tosbase_id": 30004,
+          "name": "Swift Step",
+          "circle": 1,
+          "summary": "Melhora movimento e esquiva durante deslocamento.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "tosbase_id": 30001,
+          "name": "Multi Shot",
+          "circle": 1,
+          "summary": "Dispara várias flechas na área escolhida.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "tosbase_id": 30002,
+          "name": "Full Draw",
+          "circle": 1,
+          "summary": "Tiro carregado que prende inimigos ao terreno.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "tosbase_id": 30005,
+          "name": "Oblique Shot",
+          "circle": 1,
+          "summary": "Flecha que ricocheteia para um inimigo próximo.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "tosbase_id": 30003,
+          "name": "Kneeling Shot",
+          "circle": 2,
+          "summary": "Postura ajoelhada que melhora ataque, velocidade e alcance.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "tosbase_id": 30006,
+          "name": "Heavy Shot",
+          "circle": 2,
+          "summary": "Disparo forte que empurra o alvo.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "tosbase_id": 30007,
+          "name": "Twin Arrows",
+          "circle": 3,
+          "summary": "Dispara duas flechas contra o alvo.",
+          "evidence_ids": [
+            "F66"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F66"
+      ],
+      "captured_at": "2016-04-05T00:16:44Z",
+      "archive_url": "https://web.archive.org/web/20160405001644id_/http://www.tosbase.com:80/game/classes/Archer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Archer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "quarrel-shooter",
+      "name": "Quarrel Shooter",
+      "tree": "Archer",
+      "first_rank": 2,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Atirador de besta que combina defesa de posição, estrepes, pedras e ataques básicos em movimento.",
+      "skills": [
+        {
+          "tosbase_id": 30201,
+          "name": "Deploy Pavise",
+          "circle": 1,
+          "summary": "Instala escudo que protege e atrai ataques.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "tosbase_id": 30202,
+          "name": "Scatter Caltrops",
+          "circle": 1,
+          "summary": "Espalha estrepes que machucam quem os pisa.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "tosbase_id": 30203,
+          "name": "Stone Picking",
+          "circle": 1,
+          "summary": "Recolhe pedras para usar como munição.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "tosbase_id": 30204,
+          "name": "Stone Shot",
+          "circle": 1,
+          "summary": "Dispara pedra que empurra e pode atordoar.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "tosbase_id": 30205,
+          "name": "Rapid Fire",
+          "circle": 2,
+          "summary": "Carrega a besta e dispara em sequência.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "tosbase_id": 30206,
+          "name": "Teardown",
+          "circle": 2,
+          "summary": "Demole obstáculos e machuca inimigos próximos.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "tosbase_id": 30207,
+          "name": "Running Shot",
+          "circle": 3,
+          "summary": "Fortalece e acelera ataques básicos durante movimento.",
+          "evidence_ids": [
+            "F67"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F67"
+      ],
+      "captured_at": "2016-04-05T13:29:40Z",
+      "archive_url": "https://web.archive.org/web/20160405132940id_/http://www.tosbase.com:80/game/classes/Quarrel-Shooter",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=QuarrelShooter",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "tree": "Archer",
+      "first_rank": 2,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Arqueiro ofensivo que alterna rajadas, tiros perfurantes e flechas de múltiplos acertos.",
+      "skills": [
+        {
+          "tosbase_id": 30101,
+          "name": "Barrage",
+          "circle": 1,
+          "summary": "Rajada de flechas em leque frontal.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "tosbase_id": 30102,
+          "name": "High Anchoring",
+          "circle": 1,
+          "summary": "Tiro perfurante contra inimigos em linha.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "tosbase_id": 30103,
+          "name": "Critical Shot",
+          "circle": 1,
+          "summary": "Disparo com chance elevada de crítico.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "tosbase_id": 30104,
+          "name": "Steady Aim",
+          "circle": 1,
+          "summary": "Postura que aumenta dano de projéteis.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "tosbase_id": 30105,
+          "name": "Time Bomb Arrow",
+          "circle": 2,
+          "summary": "Flecha com explosivo de detonação retardada.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "tosbase_id": 30106,
+          "name": "Bounce Shot",
+          "circle": 3,
+          "summary": "Flecha que se divide e atinge inimigos próximos.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "tosbase_id": 30107,
+          "name": "Spiral Arrow",
+          "circle": 3,
+          "summary": "Flecha giratória com múltiplos acertos.",
+          "evidence_ids": [
+            "F68"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F68"
+      ],
+      "captured_at": "2016-04-01T12:11:23Z",
+      "archive_url": "https://web.archive.org/web/20160401121123id_/http://www.tosbase.com:80/game/classes/Ranger",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Ranger",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter",
+      "tree": "Archer",
+      "first_rank": 3,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Combate por meio do companheiro, comandando imobilizações, investidas, busca e perseguição.",
+      "skills": [
+        {
+          "tosbase_id": 30401,
+          "name": "Coursing",
+          "circle": 1,
+          "summary": "Companheiro segura o alvo e enfraquece sua defesa.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "tosbase_id": 30402,
+          "name": "Snatching",
+          "circle": 1,
+          "summary": "Companheiro derruba um voador e provoca sangramento.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "tosbase_id": 30404,
+          "name": "Praise",
+          "circle": 1,
+          "summary": "Reforça ataque, precisão e crítico do companheiro.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "tosbase_id": 30405,
+          "name": "Pointing",
+          "circle": 1,
+          "summary": "Companheiro distrai o alvo, reduzindo esquiva e precisão.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "tosbase_id": 30403,
+          "name": "Rush Dog",
+          "circle": 1,
+          "summary": "Ordena uma investida ofensiva do companheiro.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "tosbase_id": 30406,
+          "name": "Retrieve",
+          "circle": 2,
+          "summary": "Companheiro arrasta o inimigo até você.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "tosbase_id": 30407,
+          "name": "Hounding",
+          "circle": 2,
+          "summary": "Companheiro procura inimigos escondidos.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "tosbase_id": 30408,
+          "name": "Growling",
+          "circle": 3,
+          "summary": "Companheiro intimida e impede aproximação.",
+          "evidence_ids": [
+            "F69"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F69"
+      ],
+      "captured_at": "2016-04-05T00:45:31Z",
+      "archive_url": "https://web.archive.org/web/20160405004531id_/http://www.tosbase.com:80/game/classes/Hunter",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Hunter",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "sapper",
+      "name": "Sapper",
+      "tree": "Archer",
+      "first_rank": 3,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Armador de explosivos e armadilhas para controlar passagens e causar dano em área.",
+      "skills": [
+        {
+          "tosbase_id": 30301,
+          "name": "Stake Stockades",
+          "circle": 1,
+          "summary": "Armadilha de estacas que fere ao contato.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "tosbase_id": 30305,
+          "name": "Conceal",
+          "circle": 1,
+          "summary": "Esconde uma armadilha preparada.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "tosbase_id": 30302,
+          "name": "Claymore",
+          "circle": 1,
+          "summary": "Instala explosivo acionado ao reutilizar a habilidade.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "tosbase_id": 30303,
+          "name": "Punji Stake",
+          "circle": 1,
+          "summary": "Armadilha que arremessa inimigos para longe.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "tosbase_id": 30304,
+          "name": "Detonate Traps",
+          "circle": 1,
+          "summary": "Explode armadilhas e círculos mágicos próximos.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "tosbase_id": 30306,
+          "name": "Broom Trap",
+          "circle": 2,
+          "summary": "Armadilha giratória que atinge uma área.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "tosbase_id": 30307,
+          "name": "Collar Bomb",
+          "circle": 2,
+          "summary": "Prende bomba que explode ao contato com outro inimigo.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "tosbase_id": 30308,
+          "name": "Spike Shooter",
+          "circle": 3,
+          "summary": "Armadilha de fio que dispara flechas.",
+          "evidence_ids": [
+            "F70"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F70"
+      ],
+      "captured_at": "2016-04-05T13:43:31Z",
+      "archive_url": "https://web.archive.org/web/20160405134331id_/http://www.tosbase.com:80/game/classes/Sapper",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Sapper",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "tree": "Archer",
+      "first_rank": 4,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Especialização histórica de Archer: furtividade, reconhecimento, sinalizadores e tiros que ricocheteiam.",
+      "skills": [
+        {
+          "tosbase_id": 30601,
+          "name": "Camouflage",
+          "circle": 1,
+          "summary": "Esconde o usuário num barril e absorve ataques físicos.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "tosbase_id": 30602,
+          "name": "Flu Flu",
+          "circle": 1,
+          "summary": "Flecha sonora que assusta inimigos próximos.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "tosbase_id": 30603,
+          "name": "Flare Shot",
+          "circle": 1,
+          "summary": "Dispara sinalizador que danifica inimigos na área.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "tosbase_id": 30604,
+          "name": "Cloaking",
+          "circle": 1,
+          "summary": "Oculta o usuário até atacar ou saltar.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "tosbase_id": 30605,
+          "name": "Perspective Distortion",
+          "circle": 2,
+          "summary": "Permite que aliados ataquem além de seu alcance.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "tosbase_id": 30606,
+          "name": "Scan",
+          "circle": 3,
+          "summary": "Revela itens e inimigos escondidos.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "tosbase_id": 30608,
+          "name": "Split Arrow",
+          "circle": 3,
+          "summary": "Flecha que ricocheteia para dois inimigos próximos.",
+          "evidence_ids": [
+            "F71"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F71"
+      ],
+      "captured_at": "2016-04-05T00:46:38Z",
+      "archive_url": "https://web.archive.org/web/20160405004638id_/http://www.tosbase.com:80/game/classes/Scout",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Scout",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "wugushi",
+      "name": "Wugushi",
+      "tree": "Archer",
+      "first_rank": 4,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Especialista em venenos duradouros, contágio e poças tóxicas, com antídotos e insetos venenosos.",
+      "skills": [
+        {
+          "tosbase_id": 30501,
+          "name": "Detoxify",
+          "circle": 1,
+          "summary": "Remove veneno ou reduz sua duração.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "tosbase_id": 30502,
+          "name": "Needle Blow",
+          "circle": 1,
+          "summary": "Disparo venenoso que causa dano prolongado.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "tosbase_id": 30503,
+          "name": "Bewitch",
+          "circle": 1,
+          "summary": "Confunde um inimigo envenenado.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "tosbase_id": 30504,
+          "name": "Wugong Gu",
+          "circle": 1,
+          "summary": "Veneno que se espalha quando o alvo é atacado.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "tosbase_id": 30507,
+          "name": "Zhendu",
+          "circle": 1,
+          "summary": "Envenena o próximo ataque das armas do grupo.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "tosbase_id": 30505,
+          "name": "Throw Gu Pot",
+          "circle": 2,
+          "summary": "Arremessa um pote e cria uma poça venenosa.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "tosbase_id": 30506,
+          "name": "Jincan Gu",
+          "circle": 3,
+          "summary": "Aplica veneno que gera insetos após derrotar alvos.",
+          "evidence_ids": [
+            "F72"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F72"
+      ],
+      "captured_at": "2016-04-05T00:43:30Z",
+      "archive_url": "https://web.archive.org/web/20160405004330id_/http://www.tosbase.com:80/game/classes/Wugushi",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Wugushi",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "fletcher",
+      "name": "Fletcher",
+      "tree": "Archer",
+      "first_rank": 5,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Artesão de flechas especiais que explora sangramento, armadura, explosões e áreas de fogo.",
+      "skills": [
+        {
+          "tosbase_id": 30801,
+          "name": "Broadhead",
+          "circle": 1,
+          "summary": "Flecha de ponta larga que provoca sangramento.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "tosbase_id": 30802,
+          "name": "Bodkin Point",
+          "circle": 1,
+          "summary": "Flecha que reduz defesa e desfaz proteção mágica.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "tosbase_id": 30803,
+          "name": "Barbed Arrow",
+          "circle": 1,
+          "summary": "Acertos variam conforme o tipo de armadura inimiga.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "tosbase_id": 30804,
+          "name": "Crossfire",
+          "circle": 1,
+          "summary": "Flecha que produz uma explosão em cruz.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "tosbase_id": 30805,
+          "name": "Magic Arrow",
+          "circle": 2,
+          "summary": "Flecha que deixa chamas causando dano na área.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "tosbase_id": 30806,
+          "name": "Divine Machine Arrow",
+          "circle": 3,
+          "summary": "Flecha explosiva com dano colateral retardado.",
+          "evidence_ids": [
+            "F73"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F73"
+      ],
+      "captured_at": "2016-04-05T00:57:29Z",
+      "archive_url": "https://web.archive.org/web/20160405005729id_/http://www.tosbase.com:80/game/classes/Fletcher",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Fletcher",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "tree": "Archer",
+      "first_rank": 5,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Emboscador de ataques pelas costas, enganos, adaga e aproveitamento de armadilhas inimigas.",
+      "skills": [
+        {
+          "tosbase_id": 30701,
+          "name": "Sneak Hit",
+          "circle": 1,
+          "summary": "Melhora a chance de crítico ao atacar pelas costas.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "tosbase_id": 30702,
+          "name": "Feint",
+          "circle": 1,
+          "summary": "Engana o alvo e reduz sua esquiva.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "tosbase_id": 30703,
+          "name": "Capture",
+          "circle": 1,
+          "summary": "Rouba armadilhas e círculos para usá-los depois.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "tosbase_id": 30704,
+          "name": "Vendetta",
+          "circle": 1,
+          "summary": "Morte pelo disparo provoca explosão e reforça STR do grupo.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "tosbase_id": 30705,
+          "name": "Evasion",
+          "circle": 2,
+          "summary": "Aumenta a esquiva do usuário.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "tosbase_id": 30707,
+          "name": "Lachrymator",
+          "circle": 2,
+          "summary": "Lança gás que cega inimigos na área.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "tosbase_id": 30708,
+          "name": "Backstab",
+          "circle": 2,
+          "summary": "Golpes de adaga com crítico elevado e possível atordoamento.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "tosbase_id": 30706,
+          "name": "Burrow",
+          "circle": 3,
+          "summary": "Esconde no solo; permite atacar sem se mover.",
+          "evidence_ids": [
+            "F74"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F74"
+      ],
+      "captured_at": "2016-04-01T12:11:29Z",
+      "archive_url": "https://web.archive.org/web/20160401121129id_/http://www.tosbase.com:80/game/classes/Rogue",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Rogue",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "falconer",
+      "name": "Falconer",
+      "tree": "Archer",
+      "first_rank": 6,
+      "hidden": false,
+      "max_circle_in_catalog": 2,
+      "summary": "Controla um falcão para reconhecimento de posição, ataques aéreos e apoio ao dano em área.",
+      "skills": [
+        {
+          "tosbase_id": 31001,
+          "name": "Call",
+          "circle": 1,
+          "summary": "Chama o falcão de volta.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "tosbase_id": 31002,
+          "name": "Roost",
+          "circle": 1,
+          "summary": "Instala um poleiro para o falcão aguardar ordens.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "tosbase_id": 31003,
+          "name": "Circling",
+          "circle": 1,
+          "summary": "Falcão reduz a defesa de área dos inimigos próximos.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "tosbase_id": 31004,
+          "name": "Hovering",
+          "circle": 1,
+          "summary": "Falcão ataca quem passa abaixo da área marcada.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "tosbase_id": 31005,
+          "name": "Pheasant",
+          "circle": 1,
+          "summary": "Ordena ataque do falcão numa área usando um boneco.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "tosbase_id": 31006,
+          "name": "Hanging Shot",
+          "circle": 1,
+          "summary": "Permite atacar pendurado no falcão, evitando golpes próximos.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "tosbase_id": 31008,
+          "name": "Sonic Strike",
+          "circle": 2,
+          "summary": "Ordena vários mergulhos ofensivos do falcão.",
+          "evidence_ids": [
+            "F75"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F75"
+      ],
+      "captured_at": "2016-04-05T13:46:53Z",
+      "archive_url": "https://web.archive.org/web/20160405134653id_/http://www.tosbase.com:80/game/classes/Falconer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Falconer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "schwarzer-reiter",
+      "name": "Schwarzer Reiter",
+      "tree": "Archer",
+      "first_rank": 6,
+      "hidden": false,
+      "max_circle_in_catalog": 2,
+      "summary": "Atirador montado que usa pistola e besta, mantendo pressão durante avanços e recuos.",
+      "skills": [
+        {
+          "tosbase_id": 30901,
+          "name": "Concentrated Fire",
+          "circle": 1,
+          "summary": "Sequência rápida de tiros contra um alvo.",
+          "evidence_ids": [
+            "F76"
+          ]
+        },
+        {
+          "tosbase_id": 30902,
+          "name": "Caracole",
+          "circle": 1,
+          "summary": "Dispara à frente e recua pelo impulso.",
+          "evidence_ids": [
+            "F76"
+          ]
+        },
+        {
+          "tosbase_id": 30903,
+          "name": "Limacon",
+          "circle": 1,
+          "summary": "Ataca à frente durante manobras montadas.",
+          "evidence_ids": [
+            "F76"
+          ]
+        },
+        {
+          "tosbase_id": 30904,
+          "name": "Retreat Shot",
+          "circle": 1,
+          "summary": "Dispara na direção oposta ao deslocamento.",
+          "evidence_ids": [
+            "F76"
+          ]
+        },
+        {
+          "tosbase_id": 30905,
+          "name": "Wild Shot",
+          "circle": 2,
+          "summary": "Combina tiros de besta e pistola.",
+          "evidence_ids": [
+            "F76"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F76"
+      ],
+      "captured_at": "2016-03-30T11:15:50Z",
+      "archive_url": "https://web.archive.org/web/20160330111550id_/http://www.tosbase.com:80/game/classes/Schwarzer-Reiter",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=SchwarzerReiter",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "cannoneer",
+      "name": "Cannoneer",
+      "tree": "Archer",
+      "first_rank": 7,
+      "hidden": false,
+      "max_circle_in_catalog": 1,
+      "summary": "Especialista em canhão, com explosões contra grupos, voadores e estruturas.",
+      "skills": [
+        {
+          "tosbase_id": 31101,
+          "name": "Cannon Shot",
+          "circle": 1,
+          "summary": "Disparo de canhão favorecido contra alvos no chão.",
+          "evidence_ids": [
+            "F77"
+          ]
+        },
+        {
+          "tosbase_id": 31102,
+          "name": "Shootdown",
+          "circle": 1,
+          "summary": "Disparo de canhão favorecido contra voadores.",
+          "evidence_ids": [
+            "F77"
+          ]
+        },
+        {
+          "tosbase_id": 31103,
+          "name": "Siege Burst",
+          "circle": 1,
+          "summary": "Bombardeio especialmente eficaz contra estruturas.",
+          "evidence_ids": [
+            "F77"
+          ]
+        },
+        {
+          "tosbase_id": 31104,
+          "name": "Cannon Blast",
+          "circle": 1,
+          "summary": "Explosão de canhão contra inimigos à frente.",
+          "evidence_ids": [
+            "F77"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F77"
+      ],
+      "captured_at": "2016-04-02T22:27:02Z",
+      "archive_url": "https://web.archive.org/web/20160402222702id_/http://www.tosbase.com:80/game/classes/Cannoneer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Cannoneer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "musketeer",
+      "name": "Musketeer",
+      "tree": "Archer",
+      "first_rank": 7,
+      "hidden": false,
+      "max_circle_in_catalog": 1,
+      "summary": "Atirador de mosquete com disparos de precisão, penetração e recursos para combate próximo.",
+      "skills": [
+        {
+          "tosbase_id": 31201,
+          "name": "Covering Fire",
+          "circle": 1,
+          "summary": "Rajada de cobertura sobre uma área.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "tosbase_id": 31202,
+          "name": "Headshot",
+          "circle": 1,
+          "summary": "Tiro na cabeça que reduz INT e SPR.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "tosbase_id": 31203,
+          "name": "Snipe",
+          "circle": 1,
+          "summary": "Tiro potente de longo alcance contra um alvo.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "tosbase_id": 31204,
+          "name": "Penetration Shot",
+          "circle": 1,
+          "summary": "Disparos em linha que podem empurrar inimigos.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "tosbase_id": 31205,
+          "name": "Butt Stroke",
+          "circle": 1,
+          "summary": "Pancada com a coronha contra um alvo próximo.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "tosbase_id": 31206,
+          "name": "Bayonet Thrust",
+          "circle": 1,
+          "summary": "Estocada de baioneta que pode empurrar.",
+          "evidence_ids": [
+            "F78"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F78"
+      ],
+      "captured_at": "2016-03-30T10:53:06Z",
+      "archive_url": "https://web.archive.org/web/20160330105306id_/http://www.tosbase.com:80/game/classes/Musketeer",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Musketeer",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "cleric",
+      "name": "Cleric",
+      "tree": "Cleric",
+      "first_rank": 1,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Base de cura e proteção por círculos, com dano sagrado e enfraquecimento de inimigos.",
+      "skills": [
+        {
+          "tosbase_id": 40001,
+          "name": "Heal",
+          "circle": 1,
+          "summary": "Cria áreas que curam aliados ou ferem inimigos terrestres.",
+          "evidence_ids": [
+            "F79"
+          ]
+        },
+        {
+          "tosbase_id": 40002,
+          "name": "Cure",
+          "circle": 1,
+          "summary": "Círculo que remove um estado negativo ou causa dano.",
+          "evidence_ids": [
+            "F79"
+          ]
+        },
+        {
+          "tosbase_id": 40003,
+          "name": "Safety Zone",
+          "circle": 1,
+          "summary": "Área protetora que bloqueia ataques recebidos.",
+          "evidence_ids": [
+            "F79"
+          ]
+        },
+        {
+          "tosbase_id": 40004,
+          "name": "Deprotected Zone",
+          "circle": 1,
+          "summary": "Círculo que reduz a defesa inimiga com o tempo.",
+          "evidence_ids": [
+            "F79"
+          ]
+        },
+        {
+          "tosbase_id": 40005,
+          "name": "Divine Might",
+          "circle": 2,
+          "summary": "Eleva temporariamente o nível das habilidades do grupo.",
+          "evidence_ids": [
+            "F79"
+          ]
+        },
+        {
+          "tosbase_id": 40006,
+          "name": "Fade",
+          "circle": 2,
+          "summary": "Faz monstros deixarem de considerar você uma ameaça.",
+          "evidence_ids": [
+            "F79"
+          ]
+        },
+        {
+          "tosbase_id": 40007,
+          "name": "Guardian Saint",
+          "circle": 3,
+          "summary": "Círculo que transfere dano do conjurador para outro alvo.",
+          "evidence_ids": [
+            "F79"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F79"
+      ],
+      "captured_at": "2016-03-31T16:47:07Z",
+      "archive_url": "https://web.archive.org/web/20160331164707id_/http://www.tosbase.com:80/game/classes/Cleric",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Cleric",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "krivis",
+      "name": "Krivis",
+      "tree": "Cleric",
+      "first_rank": 2,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Suporte ritual de relâmpagos, limite de benefícios e manutenção de efeitos do grupo.",
+      "skills": [
+        {
+          "tosbase_id": 40101,
+          "name": "Aukuras",
+          "circle": 1,
+          "summary": "Tocha sagrada que ajuda recuperação e reduz precisão inimiga.",
+          "evidence_ids": [
+            "F80"
+          ]
+        },
+        {
+          "tosbase_id": 40102,
+          "name": "Zalciai",
+          "circle": 1,
+          "summary": "Círculo que favorece o crítico aliado e prejudica inimigos.",
+          "evidence_ids": [
+            "F80"
+          ]
+        },
+        {
+          "tosbase_id": 40103,
+          "name": "Daino",
+          "circle": 1,
+          "summary": "Amplia o limite de efeitos benéficos do grupo.",
+          "evidence_ids": [
+            "F80"
+          ]
+        },
+        {
+          "tosbase_id": 40104,
+          "name": "Zaibas",
+          "circle": 1,
+          "summary": "Círculo ofensivo de relâmpagos.",
+          "evidence_ids": [
+            "F80"
+          ]
+        },
+        {
+          "tosbase_id": 40105,
+          "name": "Divine Stigma",
+          "circle": 2,
+          "summary": "Marca cuja morte do alvo fortalece STR e INT aliadas.",
+          "evidence_ids": [
+            "F80"
+          ]
+        },
+        {
+          "tosbase_id": 40106,
+          "name": "Melstis",
+          "circle": 3,
+          "summary": "Mantém temporariamente os efeitos benéficos do grupo.",
+          "evidence_ids": [
+            "F80"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F80"
+      ],
+      "captured_at": "2016-03-30T11:39:37Z",
+      "archive_url": "https://web.archive.org/web/20160330113937id_/http://www.tosbase.com:80/game/classes/Krivis",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Krivis",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "priest",
+      "name": "Priest",
+      "tree": "Cleric",
+      "first_rank": 2,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Suporte religioso de reforços, ressurreição, cura coletiva e proteção contra derrota.",
+      "skills": [
+        {
+          "tosbase_id": 40201,
+          "name": "Aspersion",
+          "circle": 1,
+          "summary": "Água benta que reforça defesa e fere inimigos.",
+          "evidence_ids": [
+            "F81"
+          ]
+        },
+        {
+          "tosbase_id": 40202,
+          "name": "Monstrance",
+          "circle": 1,
+          "summary": "Melhora DEX aliada e enfraquece defesa e esquiva inimigas.",
+          "evidence_ids": [
+            "F81"
+          ]
+        },
+        {
+          "tosbase_id": 40203,
+          "name": "Blessing",
+          "circle": 1,
+          "summary": "Acrescenta dano aos ataques de aliados.",
+          "evidence_ids": [
+            "F81"
+          ]
+        },
+        {
+          "tosbase_id": 40204,
+          "name": "Resurrection",
+          "circle": 1,
+          "summary": "Ressuscita um aliado derrotado.",
+          "evidence_ids": [
+            "F81"
+          ]
+        },
+        {
+          "tosbase_id": 40205,
+          "name": "Sacrament",
+          "circle": 2,
+          "summary": "Acrescenta um ataque de propriedade sagrada ao grupo.",
+          "evidence_ids": [
+            "F81"
+          ]
+        },
+        {
+          "tosbase_id": 40206,
+          "name": "Revive",
+          "circle": 2,
+          "summary": "Evita uma incapacitação em combate.",
+          "evidence_ids": [
+            "F81"
+          ]
+        },
+        {
+          "tosbase_id": 40209,
+          "name": "Mass Heal",
+          "circle": 2,
+          "summary": "Cura o usuário e aliados à frente.",
+          "evidence_ids": [
+            "F81"
+          ]
+        },
+        {
+          "tosbase_id": 40207,
+          "name": "Exorcise",
+          "circle": 3,
+          "summary": "Círculo de exorcismo que causa dano contínuo.",
+          "evidence_ids": [
+            "F81"
+          ]
+        },
+        {
+          "tosbase_id": 40210,
+          "name": "Stone Skin",
+          "circle": 3,
+          "summary": "Aumenta o bloqueio do grupo.",
+          "evidence_ids": [
+            "F81"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F81"
+      ],
+      "captured_at": "2016-03-30T10:48:16Z",
+      "archive_url": "https://web.archive.org/web/20160330104816id_/http://www.tosbase.com:80/game/classes/Priest",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Priest",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "bokor",
+      "name": "Bokor",
+      "tree": "Cleric",
+      "first_rank": 3,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Conjurador de maldições e zumbis, combinando dano remoto, comandos e sacrifício de invocações.",
+      "skills": [
+        {
+          "tosbase_id": 40301,
+          "name": "Hexing",
+          "circle": 1,
+          "summary": "Maldição que reduz defesa mágica e impede recuperação.",
+          "evidence_ids": [
+            "F82"
+          ]
+        },
+        {
+          "tosbase_id": 40302,
+          "name": "Effigy",
+          "circle": 1,
+          "summary": "Ataca à distância um alvo amaldiçoado.",
+          "evidence_ids": [
+            "F82"
+          ]
+        },
+        {
+          "tosbase_id": 40303,
+          "name": "Tet Mamak La",
+          "circle": 1,
+          "summary": "Usa uma caveira para orientar os zumbis.",
+          "evidence_ids": [
+            "F82"
+          ]
+        },
+        {
+          "tosbase_id": 40304,
+          "name": "Zombify",
+          "circle": 1,
+          "summary": "Círculo que transforma inimigos mortos em zumbis.",
+          "evidence_ids": [
+            "F82"
+          ]
+        },
+        {
+          "tosbase_id": 40305,
+          "name": "Mackangdal",
+          "circle": 2,
+          "summary": "Adia o dano recebido, cobrando o acumulado ao terminar.",
+          "evidence_ids": [
+            "F82"
+          ]
+        },
+        {
+          "tosbase_id": 40306,
+          "name": "Bwa Kayiman",
+          "circle": 2,
+          "summary": "Comanda uma marcha de zumbis que machuca ao contato.",
+          "evidence_ids": [
+            "F82"
+          ]
+        },
+        {
+          "tosbase_id": 40307,
+          "name": "Samediveve",
+          "circle": 2,
+          "summary": "Símbolo que reforça HP e movimento dos zumbis.",
+          "evidence_ids": [
+            "F82"
+          ]
+        },
+        {
+          "tosbase_id": 40308,
+          "name": "Ogouveve",
+          "circle": 3,
+          "summary": "Símbolo que reforça força e alcance de área dos zumbis.",
+          "evidence_ids": [
+            "F82"
+          ]
+        },
+        {
+          "tosbase_id": 40309,
+          "name": "Damballa",
+          "circle": 3,
+          "summary": "Detona zumbis para atingir inimigos próximos.",
+          "evidence_ids": [
+            "F82"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F82"
+      ],
+      "captured_at": "2016-04-05T00:36:01Z",
+      "archive_url": "https://web.archive.org/web/20160405003601id_/http://www.tosbase.com:80/game/classes/Bokor",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Bokor",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "dievdirbys",
+      "name": "Dievdirbys",
+      "tree": "Cleric",
+      "first_rank": 3,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Escultor de estátuas divinas que sustentam áreas de apoio, silêncio, transporte e proteção.",
+      "skills": [
+        {
+          "tosbase_id": 40401,
+          "name": "Carve Vakarine",
+          "circle": 1,
+          "summary": "Esculpe uma estátua que permite transporte entre áreas.",
+          "evidence_ids": [
+            "F83"
+          ]
+        },
+        {
+          "tosbase_id": 40402,
+          "name": "Statue of Goddess Zemyna",
+          "circle": 1,
+          "summary": "Estátua que reduz gasto de SP e ajuda recuperação.",
+          "evidence_ids": [
+            "F83"
+          ]
+        },
+        {
+          "tosbase_id": 40403,
+          "name": "Statue of Goddess Laima",
+          "circle": 1,
+          "summary": "Estátua que reduz recargas do grupo próximo.",
+          "evidence_ids": [
+            "F83"
+          ]
+        },
+        {
+          "tosbase_id": 40404,
+          "name": "Carve Attack",
+          "circle": 1,
+          "summary": "Golpes de entalhe favorecidos contra monstros Planta.",
+          "evidence_ids": [
+            "F83"
+          ]
+        },
+        {
+          "tosbase_id": 40405,
+          "name": "Carve Owl",
+          "circle": 2,
+          "summary": "Esculpe uma coruja ofensiva para defender a posição.",
+          "evidence_ids": [
+            "F83"
+          ]
+        },
+        {
+          "tosbase_id": 40406,
+          "name": "Carve World Tree",
+          "circle": 2,
+          "summary": "Árvore esculpida que silencia inimigos próximos.",
+          "evidence_ids": [
+            "F83"
+          ]
+        },
+        {
+          "tosbase_id": 40407,
+          "name": "Statue of Goddess Ausrine",
+          "circle": 3,
+          "summary": "Estátua cujo ritual concede proteção temporária contra dano.",
+          "evidence_ids": [
+            "F83"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F83"
+      ],
+      "captured_at": "2016-03-31T17:21:41Z",
+      "archive_url": "https://web.archive.org/web/20160331172141id_/http://www.tosbase.com:80/game/classes/Dievdirbys",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Dievdirbys",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "paladin",
+      "name": "Paladin",
+      "tree": "Cleric",
+      "first_rank": 4,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Combatente sagrado de impacto, recuperação e proteção elemental, com barreiras e conversão.",
+      "skills": [
+        {
+          "tosbase_id": 40601,
+          "name": "Smite",
+          "circle": 1,
+          "summary": "Pancada forte, favorecida contra demônios e mutantes.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "tosbase_id": 40602,
+          "name": "Restoration",
+          "circle": 1,
+          "summary": "Aura que melhora a recuperação de HP próxima.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "tosbase_id": 40603,
+          "name": "Resist Elements",
+          "circle": 1,
+          "summary": "Reforça resistências elementais e pode anular ataques.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "tosbase_id": 40604,
+          "name": "Turn Undead",
+          "circle": 1,
+          "summary": "Pode derrotar instantaneamente demônios e mutantes.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "tosbase_id": 40605,
+          "name": "Conversion",
+          "circle": 2,
+          "summary": "Círculo com chance de converter inimigos.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "tosbase_id": 40606,
+          "name": "Barrier",
+          "circle": 3,
+          "summary": "Barreira que afasta inimigos e protege aliados dentro.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "tosbase_id": 40607,
+          "name": "Conviction",
+          "circle": 3,
+          "summary": "Pancada que reduz resistências elementais do alvo.",
+          "evidence_ids": [
+            "F84"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F84"
+      ],
+      "captured_at": "2016-03-31T17:13:27Z",
+      "archive_url": "https://web.archive.org/web/20160331171327id_/http://www.tosbase.com:80/game/classes/Paladin",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Paladin",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "sadhu",
+      "name": "Sadhu",
+      "tree": "Cleric",
+      "first_rank": 4,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Combatente espiritual que separa corpo e alma para atacar, controlar e transferir capacidades.",
+      "skills": [
+        {
+          "tosbase_id": 40501,
+          "name": "Out of Body",
+          "circle": 1,
+          "summary": "Separa o espírito do corpo para agir nas proximidades.",
+          "evidence_ids": [
+            "F85"
+          ]
+        },
+        {
+          "tosbase_id": 40502,
+          "name": "Prakriti",
+          "circle": 1,
+          "summary": "Move o corpo até o espírito e os reúne.",
+          "evidence_ids": [
+            "F85"
+          ]
+        },
+        {
+          "tosbase_id": 40504,
+          "name": "Astral Body Explosion",
+          "circle": 1,
+          "summary": "Explosão espiritual que atinge inimigos próximos.",
+          "evidence_ids": [
+            "F85"
+          ]
+        },
+        {
+          "tosbase_id": 40503,
+          "name": "Vashita Siddhi",
+          "circle": 1,
+          "summary": "Enfraquece os atributos de inimigos próximos.",
+          "evidence_ids": [
+            "F85"
+          ]
+        },
+        {
+          "tosbase_id": 40505,
+          "name": "Possession",
+          "circle": 2,
+          "summary": "Imobiliza inimigos e causa dano sagrado.",
+          "evidence_ids": [
+            "F85"
+          ]
+        },
+        {
+          "tosbase_id": 40506,
+          "name": "Transmit Prana",
+          "circle": 3,
+          "summary": "Transfere capacidades a aliados à frente.",
+          "evidence_ids": [
+            "F85"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F85"
+      ],
+      "captured_at": "2016-04-01T12:01:27Z",
+      "archive_url": "https://web.archive.org/web/20160401120127id_/http://www.tosbase.com:80/game/classes/Sadhu",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Sadhu",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "monk",
+      "name": "Monk",
+      "tree": "Cleric",
+      "first_rank": 5,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Lutador de socos e golpes corporais, com técnicas de energia e defesa de caráter sobrenatural.",
+      "skills": [
+        {
+          "tosbase_id": 40701,
+          "name": "Iron Skin",
+          "circle": 1,
+          "summary": "Reflete ataques físicos usando o corpo endurecido.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "tosbase_id": 40702,
+          "name": "Double Punch",
+          "circle": 1,
+          "summary": "Sequência rápida de socos.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "tosbase_id": 40703,
+          "name": "Palm Strike",
+          "circle": 1,
+          "summary": "Golpe de palma que provoca ferimento interno.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "tosbase_id": 40704,
+          "name": "Hand Knife",
+          "circle": 1,
+          "summary": "Golpe forte com a lateral da mão.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "tosbase_id": 40706,
+          "name": "Energy Blast",
+          "circle": 2,
+          "summary": "Canaliza energia frontal que machuca e empurra.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "tosbase_id": 40705,
+          "name": "One Inch Punch",
+          "circle": 2,
+          "summary": "Soco próximo que drena HP e SP ao longo do tempo.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "tosbase_id": 40707,
+          "name": "God Finger Flick",
+          "circle": 2,
+          "summary": "Arremessa uma moeda com os dedos para causar dano.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "tosbase_id": 40708,
+          "name": "Golden Bell Shield",
+          "circle": 3,
+          "summary": "Concede invulnerabilidade temporária.",
+          "evidence_ids": [
+            "F86"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F86"
+      ],
+      "captured_at": "2016-03-30T11:14:51Z",
+      "archive_url": "https://web.archive.org/web/20160330111451id_/http://www.tosbase.com:80/game/classes/Monk",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Monk",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "pardoner",
+      "name": "Pardoner",
+      "tree": "Cleric",
+      "first_rank": 5,
+      "hidden": false,
+      "max_circle_in_catalog": 3,
+      "summary": "Ofício religioso que vende benefícios e pergaminhos, prolonga efeitos negativos e recebe oferendas.",
+      "skills": [
+        {
+          "tosbase_id": 40801,
+          "name": "Simony",
+          "circle": 1,
+          "summary": "Transforma habilidades permitidas em pergaminhos utilizáveis por outros.",
+          "evidence_ids": [
+            "F87"
+          ]
+        },
+        {
+          "tosbase_id": 40802,
+          "name": "Indulgentia",
+          "circle": 1,
+          "summary": "Ritual que remove estados negativos aliados ou causa dano.",
+          "evidence_ids": [
+            "F87"
+          ]
+        },
+        {
+          "tosbase_id": 40803,
+          "name": "Discerning Evil",
+          "circle": 1,
+          "summary": "Prolonga efeitos negativos sobre o alvo.",
+          "evidence_ids": [
+            "F87"
+          ]
+        },
+        {
+          "tosbase_id": 40808,
+          "name": "Increase Magic Defense",
+          "circle": 1,
+          "summary": "Aumenta temporariamente a defesa mágica do grupo.",
+          "evidence_ids": [
+            "F87"
+          ]
+        },
+        {
+          "tosbase_id": 40804,
+          "name": "Oblation",
+          "circle": 2,
+          "summary": "Abre uma caixa de oferendas para receber itens.",
+          "evidence_ids": [
+            "F87"
+          ]
+        },
+        {
+          "tosbase_id": 40805,
+          "name": "Spell Shop",
+          "circle": 2,
+          "summary": "Abre uma loja para vender efeitos benéficos.",
+          "evidence_ids": [
+            "F87"
+          ]
+        },
+        {
+          "tosbase_id": 40809,
+          "name": "Decatose",
+          "circle": 3,
+          "summary": "Usa dinheiro num ataque com chance de execução.",
+          "evidence_ids": [
+            "F87"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F87"
+      ],
+      "captured_at": "2016-03-31T17:43:55Z",
+      "archive_url": "https://web.archive.org/web/20160331174355id_/http://www.tosbase.com:80/game/classes/Pardoner",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Pardoner",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "chaplain",
+      "name": "Chaplain",
+      "tree": "Cleric",
+      "first_rank": 5,
+      "hidden": true,
+      "max_circle_in_catalog": 1,
+      "summary": "Classe oculta derivada de Priest, voltada a reforços sagrados nos ataques e apoio por capela.",
+      "skills": [
+        {
+          "tosbase_id": 41301,
+          "name": "Last Rites",
+          "circle": 1,
+          "summary": "Reforça ataques sagrados, especialmente sob HP baixo.",
+          "evidence_ids": [
+            "F88"
+          ]
+        },
+        {
+          "tosbase_id": 41302,
+          "name": "Deploy Capella",
+          "circle": 1,
+          "summary": "Capela temporária que reúne efeitos benéficos do Priest.",
+          "evidence_ids": [
+            "F88"
+          ]
+        },
+        {
+          "tosbase_id": 41303,
+          "name": "Magnus Exorcismus",
+          "circle": 1,
+          "summary": "Transforma Exorcise num pilar de dano sagrado contínuo.",
+          "evidence_ids": [
+            "F88"
+          ]
+        },
+        {
+          "tosbase_id": 41304,
+          "name": "Aspergillum",
+          "circle": 1,
+          "summary": "Acrescenta água benta aos ataques da arma.",
+          "evidence_ids": [
+            "F88"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F88"
+      ],
+      "captured_at": "2016-04-06T22:16:18Z",
+      "archive_url": "https://web.archive.org/web/20160406221618id_/http://www.tosbase.com:80/game/classes/Chaplain",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Chaplain",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "druid",
+      "name": "Druid",
+      "tree": "Cleric",
+      "first_rank": 6,
+      "hidden": false,
+      "max_circle_in_catalog": 2,
+      "summary": "Manipulador da natureza que usa vegetação, proteção e transformação em monstros.",
+      "skills": [
+        {
+          "tosbase_id": 40902,
+          "name": "Carnivory",
+          "circle": 1,
+          "summary": "Faz a vegetação da área atacar inimigos.",
+          "evidence_ids": [
+            "F89"
+          ]
+        },
+        {
+          "tosbase_id": 40906,
+          "name": "Chortasmata",
+          "circle": 1,
+          "summary": "Cria vegetação e transforma monstros na categoria Planta.",
+          "evidence_ids": [
+            "F89"
+          ]
+        },
+        {
+          "tosbase_id": 40903,
+          "name": "Shape Shifting",
+          "circle": 1,
+          "summary": "Assume a forma de certos monstros próximos.",
+          "evidence_ids": [
+            "F89"
+          ]
+        },
+        {
+          "tosbase_id": 40901,
+          "name": "Telepath",
+          "circle": 1,
+          "summary": "Controla a mente de um inimigo.",
+          "evidence_ids": [
+            "F89"
+          ]
+        },
+        {
+          "tosbase_id": 40905,
+          "name": "Sterea Trofh",
+          "circle": 2,
+          "summary": "Vegetação protetora para o usuário e aliados.",
+          "evidence_ids": [
+            "F89"
+          ]
+        },
+        {
+          "tosbase_id": 40904,
+          "name": "Transform",
+          "circle": 2,
+          "summary": "Retoma a última forma de monstro utilizada.",
+          "evidence_ids": [
+            "F89"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F89"
+      ],
+      "captured_at": "2016-04-05T00:18:40Z",
+      "archive_url": "https://web.archive.org/web/20160405001840id_/http://www.tosbase.com:80/game/classes/Druid",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Druid",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "tree": "Cleric",
+      "first_rank": 6,
+      "hidden": false,
+      "max_circle_in_catalog": 2,
+      "summary": "Suporte de previsão e alteração do destino: antecipa ataques, revela saque e transforma monstros.",
+      "skills": [
+        {
+          "tosbase_id": 41002,
+          "name": "Arcane Energy",
+          "circle": 1,
+          "summary": "Aumenta SP e stamina máximos do grupo.",
+          "evidence_ids": [
+            "F90"
+          ]
+        },
+        {
+          "tosbase_id": 41003,
+          "name": "Change",
+          "circle": 1,
+          "summary": "Troca o monstro por outro de nível semelhante.",
+          "evidence_ids": [
+            "F90"
+          ]
+        },
+        {
+          "tosbase_id": 41004,
+          "name": "Clairvoyance",
+          "circle": 1,
+          "summary": "Revela antecipadamente o item que o monstro deixará.",
+          "evidence_ids": [
+            "F90"
+          ]
+        },
+        {
+          "tosbase_id": 41005,
+          "name": "Counter Spell",
+          "circle": 1,
+          "summary": "Anula magia próxima ao usuário.",
+          "evidence_ids": [
+            "F90"
+          ]
+        },
+        {
+          "tosbase_id": 41006,
+          "name": "Forecast",
+          "circle": 1,
+          "summary": "Mostra onde os inimigos atacarão.",
+          "evidence_ids": [
+            "F90"
+          ]
+        },
+        {
+          "tosbase_id": 41007,
+          "name": "Resetting",
+          "circle": 1,
+          "summary": "Altera o item que um inimigo deixará.",
+          "evidence_ids": [
+            "F90"
+          ]
+        },
+        {
+          "tosbase_id": 41009,
+          "name": "Prophecy",
+          "circle": 1,
+          "summary": "Previne estados negativos de nível baixo no grupo.",
+          "evidence_ids": [
+            "F90"
+          ]
+        },
+        {
+          "tosbase_id": 41008,
+          "name": "Death Sentence",
+          "circle": 2,
+          "summary": "Condena o alvo à morte após uma espera.",
+          "evidence_ids": [
+            "F90"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F90"
+      ],
+      "captured_at": "2016-04-05T13:52:51Z",
+      "archive_url": "https://web.archive.org/web/20160405135251id_/http://www.tosbase.com:80/game/classes/Oracle",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Oracle",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "kabbalist",
+      "name": "Kabbalist",
+      "tree": "Cleric",
+      "first_rank": 7,
+      "hidden": false,
+      "max_circle_in_catalog": 1,
+      "summary": "Suporte de símbolos e números, com reforço de HP, retaliação e cálculo sobre nomes inimigos.",
+      "skills": [
+        {
+          "tosbase_id": 41201,
+          "name": "Revenged Sevenfold",
+          "circle": 1,
+          "summary": "Devolve um ataque inimigo com força multiplicada.",
+          "evidence_ids": [
+            "F91"
+          ]
+        },
+        {
+          "tosbase_id": 41203,
+          "name": "Ein Sof",
+          "circle": 1,
+          "summary": "Círculo que aumenta fortemente o HP máximo.",
+          "evidence_ids": [
+            "F91"
+          ]
+        },
+        {
+          "tosbase_id": 41204,
+          "name": "Merkabah",
+          "circle": 1,
+          "summary": "Invoca uma carruagem divina ofensiva.",
+          "evidence_ids": [
+            "F91"
+          ]
+        },
+        {
+          "tosbase_id": 41205,
+          "name": "Gematria",
+          "circle": 1,
+          "summary": "Calcula um número a partir do nome inimigo.",
+          "evidence_ids": [
+            "F91"
+          ]
+        },
+        {
+          "tosbase_id": 41206,
+          "name": "Notarikon",
+          "circle": 1,
+          "summary": "Calcula um número com as extremidades do nome inimigo.",
+          "evidence_ids": [
+            "F91"
+          ]
+        },
+        {
+          "tosbase_id": 41208,
+          "name": "Reduce Level",
+          "circle": 1,
+          "summary": "Reduz o nível do alvo conforme o número calculado.",
+          "evidence_ids": [
+            "F91"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F91"
+      ],
+      "captured_at": "2016-03-30T11:37:20Z",
+      "archive_url": "https://web.archive.org/web/20160330113720id_/http://www.tosbase.com:80/game/classes/Kabbalist",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=Kabbalist",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    },
+    {
+      "id": "plague-doctor",
+      "name": "Plague Doctor",
+      "tree": "Cleric",
+      "first_rank": 7,
+      "hidden": false,
+      "max_circle_in_catalog": 1,
+      "summary": "Especialista em estados negativos, cura reativa, prevenção, propagação de efeitos e incineração.",
+      "skills": [
+        {
+          "tosbase_id": 41101,
+          "name": "Healing Factor",
+          "circle": 1,
+          "summary": "Concede recuperação rápida de HP após sofrer dano.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "tosbase_id": 41102,
+          "name": "Incineration",
+          "circle": 1,
+          "summary": "Queima alvos afetados por estados negativos.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "tosbase_id": 41103,
+          "name": "Bloodletting",
+          "circle": 1,
+          "summary": "Protege contra certos estados negativos usando sangria.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "tosbase_id": 41104,
+          "name": "Fumigate",
+          "circle": 1,
+          "summary": "Nuvem de antídoto que remove estados negativos aliados.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "tosbase_id": 41105,
+          "name": "Pandemic",
+          "circle": 1,
+          "summary": "Espalha estados negativos do alvo para outros inimigos.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "tosbase_id": 41106,
+          "name": "Beak Mask",
+          "circle": 1,
+          "summary": "Máscara medicada que protege contra certos estados negativos.",
+          "evidence_ids": [
+            "F92"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F92"
+      ],
+      "captured_at": "2016-03-30T11:23:52Z",
+      "archive_url": "https://web.archive.org/web/20160330112352id_/http://www.tosbase.com:80/game/classes/Plague-Doctor",
+      "official_image_page": "https://treeofsavior.com/page/class/view.php?c=PlagueDoctor",
+      "image_historical_status": "official-current-asset; 2016 identity unverified",
+      "solo_selection": "not-classified; magical classes excluded by project direction",
+      "client_build_verified": false
+    }
+  ]
+}

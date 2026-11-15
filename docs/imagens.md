@@ -2,7 +2,9 @@
 
 [Início](../README.md)
 
-Esta edição contém **12 arquivos oficiais**: um emblema e dois sprites animados por classe inicial. São cópias locais dos arquivos servidos pela IMC Games, sem redesenho, geração por IA, corte ou recompressão. Isso evita depender de links de imagens em sites de terceiros para ler a wiki.
+Esta edição contém **165 arquivos oficiais**: um emblema e dois sprites animados para cada uma das 55 classes do catálogo. São cópias locais dos arquivos servidos pela IMC Games, sem redesenho, geração por IA, corte ou recompressão. Isso evita depender de links de imagens em sites de terceiros para ler a wiki.
+
+O [catálogo completo](classes/catalogo-2016.md) dá acesso aos visuais de todas as especializações. As quatro árvores iniciais permanecem abaixo como atalhos.
 
 | Classe | Página de origem | Arquivos locais |
 | --- | --- | --- |

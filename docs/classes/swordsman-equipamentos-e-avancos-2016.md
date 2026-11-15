@@ -71,4 +71,4 @@ Para fechar a conferência no cliente, faltam:
 - Missões efetivamente ativas, ligação a rank/círculo, contadores e recompensas.
 - Diferenças entre beta, rotas iniciais e o patch de 29/03/2016.
 
-**Próximo passo recomendado:** pesquisar Highlander e Peltasta com o mesmo recorte, começando pelas permissões de armas e habilidades por círculo. As lacunas de missões de Swordsman continuam registradas para o cruzamento com capturas ou dados da edição.
+**Próximo passo recomendado:** consultar o [catálogo de classes](catalogo-2016.md) e consolidar a seleção solo sem magia, conforme as [diretrizes](../projeto-solo/diretrizes.md). O aprofundamento individual será retomado depois dessa visão geral.
