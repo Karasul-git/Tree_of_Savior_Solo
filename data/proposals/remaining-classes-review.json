@@ -1,0 +1,2271 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "documentary-triage-not-gameplay-certification",
+  "class_count": 33,
+  "skill_count": 229,
+  "classes": [
+    {
+      "class_id": "swordsman",
+      "base_id": "warrior",
+      "solo_rank": 1,
+      "placement_status": "base",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Thrust",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "name": "Bash",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "name": "Gung Ho",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "name": "Concentrate",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "name": "Pain Barrier",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "name": "Restrain",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "name": "Pommel Beat",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F38"
+          ]
+        },
+        {
+          "name": "Double Slash",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F38"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F38"
+      ]
+    },
+    {
+      "class_id": "highlander",
+      "base_id": "warrior",
+      "solo_rank": 2,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Wagon Wheel",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "name": "Cartar Stroke",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "name": "Crown",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "name": "Cross Guard",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "name": "Moulinet",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "name": "Skyliner",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "name": "Crosscut",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "name": "Skull Swing",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        },
+        {
+          "name": "Vertical Slash",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F39"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F39"
+      ]
+    },
+    {
+      "class_id": "peltasta",
+      "base_id": "warrior",
+      "solo_rank": 2,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Umbo Blow",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "name": "Rim Blow",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "name": "Swash Buckling",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "name": "Guardian",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "name": "Shield Lob",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "name": "High Guard",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "name": "Butterfly",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "name": "Umbo Thrust",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        },
+        {
+          "name": "Langort",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F40"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F40"
+      ]
+    },
+    {
+      "class_id": "barbarian",
+      "base_id": "warrior",
+      "solo_rank": 3,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Embowel",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "name": "Stomping Kick",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "name": "Cleave",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "name": "Helm Chopper",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "name": "Warcry",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "name": "Frenzy",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "name": "Seism",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "name": "Giant Swing",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        },
+        {
+          "name": "Pouncing",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F41"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F41"
+      ]
+    },
+    {
+      "class_id": "hoplite",
+      "base_id": "warrior",
+      "solo_rank": 3,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Stabbing",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "name": "Pierce",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "name": "Finestra",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "name": "Synchro Thrusting",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "name": "Long Stride",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "name": "Spear Lunge",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F42"
+          ]
+        },
+        {
+          "name": "Spear Throw",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F42"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F42"
+      ]
+    },
+    {
+      "class_id": "cataphract",
+      "base_id": "warrior",
+      "solo_rank": 4,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Impaler",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "name": "Earth Wave",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "name": "Trot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "name": "Steed Charge",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "name": "Doom Spike",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F43"
+          ]
+        },
+        {
+          "name": "Rush",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F43"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F43"
+      ]
+    },
+    {
+      "class_id": "rodelero",
+      "base_id": "warrior",
+      "solo_rank": 4,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Shield Charge",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "name": "Montano",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "name": "Targe Smash",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "name": "Shield Push",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "name": "Shield Shoving",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "name": "Shield Bash",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "name": "Slithering",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "name": "Shooting Star",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        },
+        {
+          "name": "High Kick",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F44"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F44"
+      ]
+    },
+    {
+      "class_id": "doppelsoeldner",
+      "base_id": "warrior",
+      "solo_rank": 6,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Punish",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "name": "Deeds of Valor",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "name": "Mordschlag",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "name": "Double Pay Earn",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "name": "Cyclone",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "name": "Zornhau",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "name": "Zucken",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        },
+        {
+          "name": "Redel",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F47"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F47"
+      ]
+    },
+    {
+      "class_id": "fencer",
+      "base_id": "warrior",
+      "solo_rank": 6,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Lunge",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "name": "Sept Etoiles",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "name": "Attaque Coquille",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "name": "Esquive Toucher",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "name": "Flanconnade",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "name": "Attaque Composee",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F48"
+          ]
+        },
+        {
+          "name": "Preparation",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F48"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F48"
+      ]
+    },
+    {
+      "class_id": "dragoon",
+      "base_id": "warrior",
+      "solo_rank": 7,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Dragontooth",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F49"
+          ]
+        },
+        {
+          "name": "Serpentine",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F49"
+          ]
+        },
+        {
+          "name": "Gae Bulg",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F49"
+          ]
+        },
+        {
+          "name": "Dragon Soar",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F49"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F49"
+      ]
+    },
+    {
+      "class_id": "templar",
+      "base_id": "warrior",
+      "solo_rank": 7,
+      "placement_status": "defined",
+      "assessment": "system-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Summon Guild Member",
+          "assessment": "system-review",
+          "note": "Depende de outro membro de guilda e envolve transporte; função solo indefinida.",
+          "evidence_ids": [
+            "F50"
+          ]
+        },
+        {
+          "name": "Warp To Guild Member",
+          "assessment": "system-review",
+          "note": "Depende de outro membro de guilda e envolve transporte; função solo indefinida.",
+          "evidence_ids": [
+            "F50"
+          ]
+        },
+        {
+          "name": "Build Guild Tower",
+          "assessment": "system-review",
+          "note": "As funções originais de torre e progressão de guilda precisam de finalidade solo.",
+          "evidence_ids": [
+            "F50"
+          ]
+        },
+        {
+          "name": "Reduce Craft Time",
+          "assessment": "system-review",
+          "note": "O benefício de fabricação está ligado à torre; estudar reaproveitamento sem presumir que a dependência desapareça.",
+          "evidence_ids": [
+            "F50"
+          ]
+        },
+        {
+          "name": "Battle Orders",
+          "assessment": "system-review",
+          "note": "A referência de 2016 beneficia membros próximos ao mestre da guilda. Conferir aplicação ao próprio usuário; a versão atual é outra referência.",
+          "evidence_ids": [
+            "F50"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F50"
+      ]
+    },
+    {
+      "class_id": "paladin",
+      "base_id": "warrior",
+      "solo_rank": 5,
+      "placement_status": "proposed",
+      "assessment": "theme-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Smite",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "name": "Restoration",
+          "assessment": "theme-review",
+          "note": "Aura de recuperação: avaliar se a representação cabe sem magia; não criar nova cura por itens automaticamente.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "name": "Resist Elements",
+          "assessment": "theme-review",
+          "note": "Resistências e anulação elemental exigem definir representação compatível; o efeito não foi convertido em equipamento.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "name": "Turn Undead",
+          "assessment": "theme-review",
+          "note": "Execução instantânea contra tipos específicos tem origem sagrada; definir o destino da habilidade.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "name": "Conversion",
+          "assessment": "theme-review",
+          "note": "A fonte descreve círculo mágico que converte inimigos; renomear não basta para adaptar esse funcionamento.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "name": "Barrier",
+          "assessment": "theme-review",
+          "note": "Barreira que afasta inimigos e protege uma área: efeito e apresentação ainda precisam de adaptação.",
+          "evidence_ids": [
+            "F84"
+          ]
+        },
+        {
+          "name": "Conviction",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F84"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F84"
+      ]
+    },
+    {
+      "class_id": "monk",
+      "base_id": "warrior",
+      "solo_rank": 5,
+      "placement_status": "proposed",
+      "assessment": "theme-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Iron Skin",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "name": "Double Punch",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "name": "Palm Strike",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "name": "Hand Knife",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "name": "Energy Blast",
+          "assessment": "theme-review",
+          "note": "A descrição de 2016 canaliza energia frontal e a classifica como Physical/Holy. O tipo físico não resolve a representação sobrenatural; estudar destino sem inventar um golpe substituto.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "name": "One Inch Punch",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "name": "God Finger Flick",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F86"
+          ]
+        },
+        {
+          "name": "Golden Bell Shield",
+          "assessment": "animation-review",
+          "note": "Conferir se a invulnerabilidade aparece como técnica defensiva ou proteção sobrenatural; uma janela de defesa por si só não é veto.",
+          "evidence_ids": [
+            "F86"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F86"
+      ]
+    },
+    {
+      "class_id": "archer",
+      "base_id": "archer",
+      "solo_rank": 1,
+      "placement_status": "base",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Swift Step",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "name": "Multi Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "name": "Full Draw",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "name": "Oblique Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "name": "Kneeling Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "name": "Heavy Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F66"
+          ]
+        },
+        {
+          "name": "Twin Arrows",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F66"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F66"
+      ]
+    },
+    {
+      "class_id": "quarrel-shooter",
+      "base_id": "archer",
+      "solo_rank": 2,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Deploy Pavise",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "name": "Scatter Caltrops",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "name": "Stone Picking",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "name": "Stone Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "name": "Rapid Fire",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "name": "Teardown",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F67"
+          ]
+        },
+        {
+          "name": "Running Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F67"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F67"
+      ]
+    },
+    {
+      "class_id": "ranger",
+      "base_id": "archer",
+      "solo_rank": 2,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Barrage",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "name": "High Anchoring",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "name": "Critical Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "name": "Steady Aim",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "name": "Time Bomb Arrow",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "name": "Bounce Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F68"
+          ]
+        },
+        {
+          "name": "Spiral Arrow",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F68"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F68"
+      ]
+    },
+    {
+      "class_id": "hunter",
+      "base_id": "archer",
+      "solo_rank": 3,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Coursing",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "name": "Snatching",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "name": "Praise",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "name": "Pointing",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "name": "Rush Dog",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "name": "Retrieve",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "name": "Hounding",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F69"
+          ]
+        },
+        {
+          "name": "Growling",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F69"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F69"
+      ]
+    },
+    {
+      "class_id": "sapper",
+      "base_id": "archer",
+      "solo_rank": 3,
+      "placement_status": "proposed",
+      "assessment": "system-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Stake Stockades",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "name": "Conceal",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "name": "Claymore",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "name": "Punji Stake",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "name": "Detonate Traps",
+          "assessment": "system-review",
+          "note": "A referência inclui círculos mágicos. Preservar a detonação física e conferir os alvos válidos após as remoções.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "name": "Broom Trap",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "name": "Collar Bomb",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F70"
+          ]
+        },
+        {
+          "name": "Spike Shooter",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F70"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F70"
+      ]
+    },
+    {
+      "class_id": "wugushi",
+      "base_id": "archer",
+      "solo_rank": 4,
+      "placement_status": "proposed",
+      "assessment": "animation-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Detoxify",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "name": "Needle Blow",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "name": "Bewitch",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "name": "Wugong Gu",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "name": "Zhendu",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "name": "Throw Gu Pot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F72"
+          ]
+        },
+        {
+          "name": "Jincan Gu",
+          "assessment": "animation-review",
+          "note": "A fonte de 2016 descreve inseto venenoso após uma derrota. Conferir a representação de infestação antes de decidir sobre a animação.",
+          "evidence_ids": [
+            "F72"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F72"
+      ]
+    },
+    {
+      "class_id": "fletcher",
+      "base_id": "archer",
+      "solo_rank": 5,
+      "placement_status": "proposed",
+      "assessment": "system-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Broadhead",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "name": "Bodkin Point",
+          "assessment": "system-review",
+          "note": "Preservar perfuração e redução de defesa; revisar a interação adicional com proteção mágica.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "name": "Barbed Arrow",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "name": "Crossfire",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "name": "Magic Arrow",
+          "assessment": "compatible",
+          "note": "Apesar do nome, a descrição de 2016 apresenta uma flecha que deixa chamas. A leitura incendiária cabe no critério; o nome não foi usado como veto.",
+          "evidence_ids": [
+            "F73"
+          ]
+        },
+        {
+          "name": "Divine Machine Arrow",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F73"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F73"
+      ]
+    },
+    {
+      "class_id": "falconer",
+      "base_id": "archer",
+      "solo_rank": 6,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Call",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "name": "Roost",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "name": "Circling",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "name": "Hovering",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "name": "Pheasant",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "name": "Hanging Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F75"
+          ]
+        },
+        {
+          "name": "Sonic Strike",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F75"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F75"
+      ]
+    },
+    {
+      "class_id": "cannoneer",
+      "base_id": "archer",
+      "solo_rank": 7,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Cannon Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F77"
+          ]
+        },
+        {
+          "name": "Shootdown",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F77"
+          ]
+        },
+        {
+          "name": "Siege Burst",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F77"
+          ]
+        },
+        {
+          "name": "Cannon Blast",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F77"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F77"
+      ]
+    },
+    {
+      "class_id": "musketeer",
+      "base_id": "archer",
+      "solo_rank": 7,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Covering Fire",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "name": "Headshot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "name": "Snipe",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "name": "Penetration Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "name": "Butt Stroke",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F78"
+          ]
+        },
+        {
+          "name": "Bayonet Thrust",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F78"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F78"
+      ]
+    },
+    {
+      "class_id": "scout",
+      "base_id": "scout",
+      "solo_rank": 1,
+      "placement_status": "base",
+      "assessment": "system-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Camouflage",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "name": "Flu Flu",
+          "assessment": "system-review",
+          "note": "A ficha de 2016 usa arco; conferir se a base solo deve reaproveitar o ataque ou usar uma habilidade posterior já existente.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "name": "Flare Shot",
+          "assessment": "system-review",
+          "note": "A ficha de 2016 usa arco; comparar equipamento com a identidade de adagas e pistolas da base solo.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "name": "Cloaking",
+          "assessment": "animation-review",
+          "note": "Ocultação e camuflagem cabem como estilização; conferir a apresentação sem classificá-la automaticamente como magia.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "name": "Perspective Distortion",
+          "assessment": "system-review",
+          "note": "Conferir alvo, alcance e utilidade no próprio usuário antes de adaptar a base.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "name": "Scan",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F71"
+          ]
+        },
+        {
+          "name": "Split Arrow",
+          "assessment": "system-review",
+          "note": "A ficha de 2016 usa arco; não presumir compatibilidade com pistolas.",
+          "evidence_ids": [
+            "F71"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F71"
+      ]
+    },
+    {
+      "class_id": "rogue",
+      "base_id": "scout",
+      "solo_rank": 4,
+      "placement_status": "proposed",
+      "assessment": "system-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Sneak Hit",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "name": "Feint",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "name": "Capture",
+          "assessment": "system-review",
+          "note": "Preservar o uso de armadilhas físicas; revisar a parte que captura círculos mágicos.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "name": "Vendetta",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "name": "Evasion",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "name": "Lachrymator",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "name": "Backstab",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F74"
+          ]
+        },
+        {
+          "name": "Burrow",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F74"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F74"
+      ]
+    },
+    {
+      "class_id": "schwarzer-reiter",
+      "base_id": "scout",
+      "solo_rank": 6,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Concentrated Fire",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F76"
+          ]
+        },
+        {
+          "name": "Caracole",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F76"
+          ]
+        },
+        {
+          "name": "Limacon",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F76"
+          ]
+        },
+        {
+          "name": "Retreat Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F76"
+          ]
+        },
+        {
+          "name": "Wild Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F76"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F76"
+      ]
+    },
+    {
+      "class_id": "corsair",
+      "base_id": "scout",
+      "solo_rank": 5,
+      "placement_status": "proposed",
+      "assessment": "system-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Jolly Roger",
+          "assessment": "system-review",
+          "note": "Conferir gatilhos de grupo, pilhagem e benefícios no próprio usuário. A bandeira não apresenta veto temático por si só.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "name": "Iron Hook",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "name": "Keel Hauling",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "name": "Unlock Chest",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "name": "Dust Devil",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "name": "Double Weapon Assault",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "name": "Hexen Dropper",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F45"
+          ]
+        },
+        {
+          "name": "Pistol Shot",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F45"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F45"
+      ]
+    },
+    {
+      "class_id": "squire",
+      "base_id": "scout",
+      "solo_rank": 5,
+      "placement_status": "proposed",
+      "assessment": "system-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Arrest",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "name": "Repair",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "name": "Weapon Maintenance",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "name": "Armor Maintenance",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "name": "Base Camp",
+          "assessment": "system-review",
+          "note": "Preservar a função de acampamento; decidir separadamente o transporte/teleporte e a aplicação de benefícios no próprio usuário.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "name": "Refreshment Table",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F46"
+          ]
+        },
+        {
+          "name": "Penalty Reduction",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F46"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F46"
+      ]
+    },
+    {
+      "class_id": "shinobi",
+      "base_id": "scout",
+      "solo_rank": 7,
+      "placement_status": "proposed",
+      "assessment": "theme-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Kunai",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F51"
+          ]
+        },
+        {
+          "name": "Bunshin no Jutsu",
+          "assessment": "theme-review",
+          "note": "A fonte cria clones que acompanham ações. Não foi confirmado um recurso físico original que preserve esse funcionamento.",
+          "evidence_ids": [
+            "F51"
+          ]
+        },
+        {
+          "name": "Mokuton no Jutsu",
+          "assessment": "animation-review",
+          "note": "A descrição cita um engodo de tronco e contra-ataque; conferir a apresentação antes de presumir teleporte ou magia.",
+          "evidence_ids": [
+            "F51"
+          ]
+        },
+        {
+          "name": "Katon no Jutsu",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F51"
+          ]
+        },
+        {
+          "name": "Mijin no Jutsu",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F51"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F51"
+      ]
+    },
+    {
+      "class_id": "alchemist",
+      "base_id": "scout",
+      "solo_rank": 6,
+      "placement_status": "defined",
+      "assessment": "theme-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Combustion",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "name": "Dig",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "name": "Item Awakening",
+          "assessment": "theme-review",
+          "note": "A referência de 2016 exige combate em outra dimensão. A versão atual oferece loja de despertar, mas não comprova uma explicação mundana nem uma conversão já aprovada.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "name": "Briquetting",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "name": "Tincturing",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "name": "Magnum Opus",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F61"
+          ]
+        },
+        {
+          "name": "Gem Roasting",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F61"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F61"
+      ]
+    },
+    {
+      "class_id": "plague-doctor",
+      "base_id": "scout",
+      "solo_rank": 7,
+      "placement_status": "defined",
+      "assessment": "theme-review",
+      "reference_edition": "2016-documentary-window",
+      "skills": [
+        {
+          "name": "Healing Factor",
+          "assessment": "theme-review",
+          "note": "A regeneração pode ser estudada como tratamento, mas sua explicação e condições de aplicação ainda não foram definidas.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "name": "Incineration",
+          "assessment": "animation-review",
+          "note": "Conferir a origem visual das chamas; fogo e combustão podem caber sem magia.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "name": "Bloodletting",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "name": "Fumigate",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "name": "Pandemic",
+          "assessment": "system-review",
+          "note": "A propagação de estados pode representar contágio; revisar quais estados permanecem aplicáveis na versão solo.",
+          "evidence_ids": [
+            "F92"
+          ]
+        },
+        {
+          "name": "Beak Mask",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F92"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F92"
+      ]
+    },
+    {
+      "class_id": "assassin",
+      "base_id": "scout",
+      "solo_rank": 2,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "current-official-later",
+      "skills": [
+        {
+          "name": "Annihilation",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Behead",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Hallucination Smoke",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Hasisas",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Instant Acceleration",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F101"
+          ]
+        },
+        {
+          "name": "Piercing Heart",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F101"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F100",
+        "F101"
+      ]
+    },
+    {
+      "class_id": "outlaw",
+      "base_id": "scout",
+      "solo_rank": 3,
+      "placement_status": "proposed",
+      "assessment": "compatible",
+      "reference_edition": "current-official-later",
+      "skills": [
+        {
+          "name": "Aggress",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Brick Smash",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Bully",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Blindfire",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Mangle",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Rampage",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F102"
+          ]
+        },
+        {
+          "name": "Throw Sand",
+          "assessment": "compatible",
+          "note": "Identidade física, técnica, por itens ou companheiros compatível na triagem; sem certificação de funcionamento em cliente.",
+          "evidence_ids": [
+            "F102"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "F100",
+        "F102"
+      ]
+    }
+  ]
+}

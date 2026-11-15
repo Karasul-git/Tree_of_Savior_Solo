@@ -20,6 +20,8 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 **[Consultar o original de 2016](docs/classes/catalogo-2016.md?view=2016)** — quatro bases, 55 classes, 382 habilidades resumidas e 165 imagens originais. A organização histórica continua preservada. [Mapa da proposta solo](data/catalog/classes-solo.json).
 
+**[Situação das 39 classes propostas](docs/projeto-solo/disponibilidade-das-classes.md)** — revisão complementar de 33 classes e 229 habilidades, com pendências de tema, função solo e animações. A ideia de passiva para Triplet Lense continua sem efeito definido.
+
 ## As quatro árvores históricas
 
 | Swordsman | Wizard | Archer | Cleric |

@@ -1,0 +1,74 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "reference-options-not-selected-solo-kits",
+  "variants": [
+    {
+      "class_id": "scout",
+      "reference_edition": "current-official",
+      "source_id": "F111",
+      "purpose": "Comparar uma base de adagas/pistolas já existente com o Scout de arco de 2016.",
+      "skills": [
+        {
+          "name": "Cloaking",
+          "summary": "Ocultação temporária."
+        },
+        {
+          "name": "Dagger Slash",
+          "summary": "Cortes com adaga."
+        },
+        {
+          "name": "Double Attack",
+          "summary": "Críticos e ataques básicos múltiplos."
+        },
+        {
+          "name": "Free Step",
+          "summary": "Melhora a esquiva."
+        },
+        {
+          "name": "Oblique Fire",
+          "summary": "Tiro de pistola com ricochete e efeitos de movimento."
+        }
+      ]
+    },
+    {
+      "class_id": "alchemist",
+      "reference_edition": "post-ReBuild-current-official",
+      "source_id": "F98",
+      "purpose": "Opções existentes de aplicação de poções; o FAQ de 2019 já documenta sua adição (F97).",
+      "skills": [
+        {
+          "name": "Sprinkle HP Potion",
+          "summary": "Aplica poção produzida por Alchemist em si e no grupo para recuperar HP."
+        },
+        {
+          "name": "Sprinkle SP Potion",
+          "summary": "Aplica poção produzida por Alchemist em si e no grupo para recuperar SP."
+        }
+      ]
+    },
+    {
+      "class_id": "templar",
+      "reference_edition": "current-official",
+      "source_id": "F112",
+      "purpose": "Comparação parcial de comando e combate existentes; não importa o kit moderno inteiro.",
+      "skills": [
+        {
+          "name": "Advanced Orders",
+          "summary": "Comando de mobilidade e proteção ao grupo."
+        },
+        {
+          "name": "Battle Orders",
+          "summary": "Comando que melhora o dano do grupo."
+        },
+        {
+          "name": "Flag of Morale",
+          "summary": "Bandeira que aumenta o crítico mínimo de aliados."
+        },
+        {
+          "name": "Mortal Slash",
+          "summary": "Golpe frontal de espada com interações de combate."
+        }
+      ]
+    }
+  ]
+}

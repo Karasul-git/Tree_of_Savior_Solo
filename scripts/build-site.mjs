@@ -10,6 +10,7 @@ const repoURL = 'https://github.com/Karasul-git/Tree_of_Savior_Solo';
 const sourceCount = JSON.parse(await readFile(path.join(root, 'data/sources.json'), 'utf8')).length;
 const catalog = JSON.parse(await readFile(path.join(root, 'data/catalog/classes-2016.json'), 'utf8'));
 catalog.later_classes = JSON.parse(await readFile(path.join(root, 'data/catalog/classes-later.json'), 'utf8')).classes;
+catalog.solo_review = JSON.parse(await readFile(path.join(root, 'data/proposals/availability-summary.json'), 'utf8')).classes;
 const allClasses = [...catalog.classes, ...catalog.later_classes];
 const solo = JSON.parse(await readFile(path.join(root, 'data/catalog/classes-solo.json'), 'utf8'));
 const classes = [
@@ -26,6 +27,7 @@ const documents = [
   ...catalog.later_classes.map(c => [`docs/classes/catalogo/${c.id}.md`, `${c.name} · Referência posterior`]),
   ['docs/projeto-solo/ranks-e-especializacoes.md', 'Ranks e especializações solo'],
   ['docs/projeto-solo/seis-classes-habilidades-e-circulos.md', 'Seis classes · Habilidades e círculos propostos'],
+  ['docs/projeto-solo/disponibilidade-das-classes.md', 'Elenco proposto · Disponibilidade e pendências'],
   ['docs/projeto-solo/diretrizes.md', 'Diretrizes da versão solo'],
   ['docs/projeto-solo/scout-e-suporte-sem-magia.md', 'Scout e suporte sem magia'],
   ...classes.map(c => [`docs/classes/${c.slug}.md`, `${c.name} · ${c.pt}`]),
@@ -53,7 +55,7 @@ function shell(title, current, content, toc = [], classInfo) {
   const contextClass = allClasses.find(c => current === `docs/classes/catalogo/${c.id}.html` || current === `docs/classes/${c.id}.html`);
   const treeState = readTreeState('', catalog, solo, contextClass?.id);
   const nav = [
-    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/ranks-e-especializacoes.html', 'Ranks e especializações solo'), link('docs/projeto-solo/seis-classes-habilidades-e-circulos.html', 'Seis classes e círculos'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
+    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/disponibilidade-das-classes.html', 'Elenco e pendências'), link('docs/projeto-solo/ranks-e-especializacoes.html', 'Ranks e especializações solo'), link('docs/projeto-solo/seis-classes-habilidades-e-circulos.html', 'Seis classes e círculos'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
     `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
     group('ENTENDA A ÉPOCA', [link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build')]),
     group('PRESERVAR A MEMÓRIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('ROADMAP.html', 'Próximas etapas'), link('CONTRIBUTING.html', 'Como contribuir')]),
@@ -66,7 +68,7 @@ function shell(title, current, content, toc = [], classInfo) {
 <script src="${base}search-index.js" defer></script><script src="${base}tree-data.js" defer></script><script src="${base}assets/app.js" defer></script></head>
 <body><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 <aside id="sidebar" class="sidebar"><a class="brand" href="${base}index.html"><img src="${base}docs/assets/classes/scout/icon.png" width="45" height="45" alt=""><span>TREE OF SAVIOR<small>MEMÓRIAS DO LANÇAMENTO</small></span></a>
-<div class="edition"><span class="status-dot"></span> <span id="edition-view">${treeState.view === 'solo' ? 'Projeto solo' : 'Original de 2016'}</span> <span>v0.7</span></div>
+<div class="edition"><span class="status-dot"></span> <span id="edition-view">${treeState.view === 'solo' ? 'Projeto solo' : 'Original de 2016'}</span> <span>v0.8</span></div>
 <nav aria-label="Navegação principal">${nav}</nav><div class="sidebar-bottom"><span>Um mundo que vale guardar.</span><a href="${repoURL}" target="_blank" rel="noopener noreferrer">Projeto no GitHub ↗</a></div></aside>
 <button id="menu-shade" tabindex="-1" aria-label="Fechar menu"></button>
 <div class="page-shell"><header class="topbar"><div class="topbar-left"><button id="menu-toggle" class="icon-button" aria-label="Abrir menu" aria-controls="sidebar" aria-expanded="false">☰</button><span class="breadcrumb">O acervo <span>/</span> <strong>${escape(title)}</strong></span></div>

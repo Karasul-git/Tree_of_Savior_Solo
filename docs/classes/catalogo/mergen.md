@@ -33,14 +33,14 @@ Fonte: [F107](../../fontes.md#f107). São seis habilidades principais da seção
 
 | Habilidade | Círculo proposto | Avaliação | Motivo ou pendência |
 | --- | --- | --- | --- |
-| Arrow Sprinkle | C2 | Candidata a reaproveitamento | Preservar a ideia de uma salva; conferir a origem visual dos projéteis. |
-| Down Fall | C2 | Candidata a reaproveitamento | Manter disparos balísticos se a animação sustentar a leitura física. |
-| Targeted Arrow | C1 | Candidata a reaproveitamento | Oferece um ataque dirigido logo no primeiro círculo. |
-| Triple Arrow | C2 | Revisar | Avaliar munição explosiva original e seus efeitos; a interpretação química ainda é proposta. |
-| Spread Shot | C1 | Revisar | Verificar se ricochetes e efeitos visuais podem permanecer como técnica física. |
-| Zenith | C1 | Candidata a reaproveitamento | Preservar como domínio técnico; valores modernos não serão importados. |
+| Arrow Sprinkle | C2 | Compatível na triagem | Preservar a ideia de uma salva; conferir a origem visual dos projéteis. |
+| Down Fall | C2 | Compatível na triagem | Manter disparos balísticos se a animação sustentar a leitura física. |
+| Targeted Arrow | C1 | Compatível na triagem | Oferece um ataque dirigido logo no primeiro círculo. |
+| Triple Arrow | C2 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| Spread Shot | C1 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| Zenith | C1 | Compatível na triagem | Preservar como domínio técnico; valores modernos não serão importados. |
 
-Candidata a reaproveitamento significa compatibilidade temática inicial, sujeita à conferência de animação e cliente. Revisar exige decidir efeitos ou regras; suspender significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
+Compatível na triagem significa identidade aceita para o estudo, sem certificação de funcionamento no cliente. As quatro habilidades de facas marcadas dependem de animação. Suspensa significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
 
 Mergen começa em R6 nesta proposta: C1 em R6 e C2 mais cedo em R7. **C3 não cabe no recorte atual**; não criamos conteúdo além de R7. A descrição oficial de Zenith menciona Homing Arrow, ausente na lista principal da mesma página; essa divergência foi registrada, sem inventar uma sétima habilidade.
 

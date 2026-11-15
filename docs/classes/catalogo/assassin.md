@@ -36,3 +36,7 @@ Fonte: [F101](../../fontes.md#f101). Resumos editoriais; sem valores numéricos,
 O kit original tem recursos físicos e por itens que merecem reaproveitamento. Efeitos de ocultação, invulnerabilidade e demais exceções ainda exigem revisão, seguindo o critério de remover magia. A seleção visual não aprova todas as habilidades.
 
 **Próximo passo recomendado:** conferir o [mapa de ranks e suas hipóteses](../../projeto-solo/ranks-e-especializacoes.md), antes de definir progressão e números.
+
+## Triagem de disponibilidade solo
+
+**Sem impedimento temático evidente.** A identidade é compatível com o critério de combate físico estilizado. Essa triagem não certifica funcionamento em cliente nem altera as habilidades originais acima. [Situação do elenco e pendências](../../projeto-solo/disponibilidade-das-classes.md).

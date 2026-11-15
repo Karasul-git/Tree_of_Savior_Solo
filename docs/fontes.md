@@ -938,3 +938,13 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F110 · Clown · página oficial atual
 
 [Clown · página oficial atual](https://treeofsavior.com/page/class/view.php?c=Clown) — IMC Games, sem data de revisão; consulta em 15/11/2026. Identidade, seis habilidades principais, emblema e visuais oficiais de Clown. **Limite:** Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas.
+
+<a id="f111"></a>
+### F111 · Scout · comparação oficial atual
+
+[Scout · comparação oficial atual](https://treeofsavior.com/page/class/view.php?c=Scout) — IMC Games, sem revisão datada; consulta em 15/11/2026. Cinco habilidades principais atuais; referência de adaga, pistola e evasão para comparar com a base de arco de 2016. **Limite:** Página sem data de revisão. Não comprova o kit de lançamento ou uma adaptação já implementada. A seleção de habilidades é uma proposta separada; números e círculos não foram importados.
+
+<a id="f112"></a>
+### F112 · Templar · comparação oficial atual
+
+[Templar · comparação oficial atual](https://treeofsavior.com/page/class/view.php?c=Templar) — IMC Games, sem revisão datada; consulta em 15/11/2026. Referência atual de comandos, bandeiras e ataques; inclui também invocação de defensor ancestral, que não foi selecionada para reaproveitamento. **Limite:** Página sem data de revisão. Não comprova o kit de lançamento ou uma adaptação já implementada. A seleção de habilidades é uma proposta separada; números e círculos não foram importados.

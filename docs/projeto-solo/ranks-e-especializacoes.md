@@ -69,4 +69,6 @@ No limite de R7, uma classe iniciada em R5 pode atingir C3; uma iniciada em R6 p
 
 O catálogo histórico permanece com 55 classes e 382 habilidades. As oito referências posteriores têm 49 habilidades principais resumidas e 24 imagens oficiais adicionais; o acervo visual completo passa a 189 arquivos originais. Nenhuma regra desta proposta foi implementada em servidor ou testada em cliente.
 
-**Próximo passo recomendado:** revisar as habilidades pendentes das seis candidatas e validar os círculos propostos antes de fixar números e requisitos.
+[Situação atual das 39 classes e revisão complementar](disponibilidade-das-classes.md).
+
+**Próximo passo recomendado:** revisar Monk e Paladin antes de fechar adaptações de suporte e círculos.

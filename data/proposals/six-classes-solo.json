@@ -25,8 +25,8 @@
         {
           "name": "Devaluation",
           "circle_proposed": 2,
-          "assessment": "review",
-          "note": "Conferir como enfraquecer equipamento sem atribuir poder sobrenatural à lupa."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "High Scale Magnifying Glass",
@@ -37,14 +37,20 @@
         {
           "name": "Huge Magnifier",
           "circle_proposed": 3,
-          "assessment": "review",
-          "note": "Inspecionar dano e animação; a propagação do efeito ainda não tem explicação mundana definida."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Triplet Lense",
           "circle_proposed": 3,
           "assessment": "hold",
-          "note": "Lentes autônomas não têm mecanismo físico confirmado; não inventar um substituto agora."
+          "note": "Animação pendente. O proprietário sugeriu avaliar conversão em passiva óptica; nenhum efeito ou número foi definido.",
+          "animation_pending": true,
+          "passive_option": {
+            "status": "idea-only",
+            "effect": null,
+            "note": "Possível passiva baseada na lente já usada pela classe; requer definir função e conferir sobreposição com habilidades existentes."
+          }
         }
       ]
     },
@@ -76,14 +82,14 @@
         {
           "name": "Triple Arrow",
           "circle_proposed": 2,
-          "assessment": "review",
-          "note": "Avaliar munição explosiva original e seus efeitos; a interpretação química ainda é proposta."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Spread Shot",
           "circle_proposed": 1,
-          "assessment": "review",
-          "note": "Verificar se ricochetes e efeitos visuais podem permanecer como técnica física."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Zenith",
@@ -103,8 +109,8 @@
         {
           "name": "Dark Judgement",
           "circle_proposed": 3,
-          "assessment": "review",
-          "note": "Inspecionar a explosão e seu recurso material antes de adotar uma explicação química."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Dead Zone",
@@ -127,8 +133,8 @@
         {
           "name": "Guided Shot",
           "circle_proposed": 2,
-          "assessment": "review",
-          "note": "A fonte cita tecnologia de guiagem; seu mecanismo precisa ser inspecionado."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Shining Burst",
@@ -154,8 +160,8 @@
         {
           "name": "Invasione",
           "circle_proposed": 1,
-          "assessment": "review",
-          "note": "Revisar a interação que amplia o ataque; não importar automaticamente os bônus atuais."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Recupero",
@@ -166,8 +172,8 @@
         {
           "name": "Ritirarsi",
           "circle_proposed": 2,
-          "assessment": "review",
-          "note": "Distinguir uma janela de esquiva de proteção sobrenatural; inspecionar a animação."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Taglio",
@@ -193,8 +199,8 @@
         {
           "name": "Aiming Shot",
           "circle_proposed": 3,
-          "assessment": "review",
-          "note": "Acerto garantido e remoção genérica de benefícios exigem revisão de regras."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Fanning",
@@ -205,8 +211,8 @@
         {
           "name": "Peacemaker",
           "circle_proposed": 2,
-          "assessment": "review",
-          "note": "Avaliar explosivo, silêncio e redução de defesa sem presumir que todo efeito já seja mundano."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Quick Draw",
@@ -223,8 +229,8 @@
         {
           "name": "Westraid",
           "circle_proposed": 3,
-          "assessment": "review",
-          "note": "A recarga é material; a garantia absoluta de acerto precisa ser avaliada."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         }
       ]
     },
@@ -239,39 +245,48 @@
           "name": "Climax",
           "circle_proposed": 3,
           "assessment": "review",
-          "note": "O ataque direto pode ser físico; a ativação autônoma de facas precisa de inspeção."
+          "note": "Conferir arremessos, retorno e ativação das facas antes de decidir se o truque visual cabe na proposta. A inspeção fica para depois, conforme o proprietário.",
+          "review_scope": "animation",
+          "animation_pending": true
         },
         {
           "name": "Clown Walk",
           "circle_proposed": 1,
-          "assessment": "review",
-          "note": "Avaliar distração e controle; imobilização automática pode exigir ajuste."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         },
         {
           "name": "Fatal Roulette",
           "circle_proposed": 2,
-          "assessment": "reuse",
-          "note": "Preservar a técnica de lançamento e conferir a interação com facas no chão."
+          "assessment": "review",
+          "note": "Conferir arremessos, retorno e ativação das facas antes de decidir se o truque visual cabe na proposta. A inspeção fica para depois, conforme o proprietário.",
+          "review_scope": "animation",
+          "animation_pending": true
         },
         {
           "name": "Replica",
           "circle_proposed": 3,
           "assessment": "review",
-          "note": "A queda pode permanecer; as facas voltando sozinhas aos alvos exigem revisão."
+          "note": "Conferir arremessos, retorno e ativação das facas antes de decidir se o truque visual cabe na proposta. A inspeção fica para depois, conforme o proprietário.",
+          "review_scope": "animation",
+          "animation_pending": true
         },
         {
           "name": "Spinning Knife",
           "circle_proposed": 1,
           "assessment": "review",
-          "note": "Inspecionar o retorno e as ativações no chão; não presumir telecinese como aceitável."
+          "note": "Conferir arremessos, retorno e ativação das facas antes de decidir se o truque visual cabe na proposta. A inspeção fica para depois, conforme o proprietário.",
+          "review_scope": "animation",
+          "animation_pending": true
         },
         {
           "name": "Trick or Treat",
           "circle_proposed": 2,
-          "assessment": "review",
-          "note": "Conferir a leitura de truque material e os recursos usados, sem criar ferramentas novas."
+          "assessment": "reuse",
+          "note": "Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto."
         }
       ]
     }
-  ]
+  ],
+  "review_note": "Critério ajustado pelo proprietário: combate físico estilizado é aceito. Quatro habilidades de facas dependem de animações; Triplet Lense permanece pendente, com ideia de passiva ainda sem efeito."
 }

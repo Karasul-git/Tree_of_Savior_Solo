@@ -1394,5 +1394,29 @@
     "url": "https://treeofsavior.com/page/class/view.php?c=Clown",
     "supports": "Identidade, seis habilidades principais, emblema e visuais oficiais de Clown.",
     "limitations": "Página atual sem revisão datada. Não comprova o kit original de lançamento da classe, seus antigos ranks ou círculos. Avaliações sem magia e círculos solo são propostas editoriais separadas."
+  },
+  {
+    "id": "F111",
+    "title": "Scout · comparação oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Alternativas posteriores existentes para estudo solo, sem substituição dos dados de 2016",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Scout",
+    "supports": "Cinco habilidades principais atuais; referência de adaga, pistola e evasão para comparar com a base de arco de 2016.",
+    "limitations": "Página sem data de revisão. Não comprova o kit de lançamento ou uma adaptação já implementada. A seleção de habilidades é uma proposta separada; números e círculos não foram importados."
+  },
+  {
+    "id": "F112",
+    "title": "Templar · comparação oficial atual",
+    "author": "IMC Games",
+    "published": null,
+    "accessed": "2026-11-15",
+    "kind": "official-current",
+    "scope": "Alternativas posteriores existentes para estudo solo, sem substituição dos dados de 2016",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Templar",
+    "supports": "Referência atual de comandos, bandeiras e ataques; inclui também invocação de defensor ancestral, que não foi selecionada para reaproveitamento.",
+    "limitations": "Página sem data de revisão. Não comprova o kit de lançamento ou uma adaptação já implementada. A seleção de habilidades é uma proposta separada; números e círculos não foram importados."
   }
 ]

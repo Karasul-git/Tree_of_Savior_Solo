@@ -33,13 +33,13 @@ Fonte: [F110](../../fontes.md#f110). São seis habilidades principais da seção
 
 | Habilidade | Círculo proposto | Avaliação | Motivo ou pendência |
 | --- | --- | --- | --- |
-| Climax | C3 | Revisar | O ataque direto pode ser físico; a ativação autônoma de facas precisa de inspeção. |
-| Clown Walk | C1 | Revisar | Avaliar distração e controle; imobilização automática pode exigir ajuste. |
-| Fatal Roulette | C2 | Candidata a reaproveitamento | Preservar a técnica de lançamento e conferir a interação com facas no chão. |
-| Replica | C3 | Revisar | A queda pode permanecer; as facas voltando sozinhas aos alvos exigem revisão. |
-| Spinning Knife | C1 | Revisar | Inspecionar o retorno e as ativações no chão; não presumir telecinese como aceitável. |
-| Trick or Treat | C2 | Revisar | Conferir a leitura de truque material e os recursos usados, sem criar ferramentas novas. |
+| Climax | C3 | Conferir animação | Conferir arremessos, retorno e ativação das facas antes de decidir se o truque visual cabe na proposta. A inspeção fica para depois, conforme o proprietário. |
+| Clown Walk | C1 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| Fatal Roulette | C2 | Conferir animação | Conferir arremessos, retorno e ativação das facas antes de decidir se o truque visual cabe na proposta. A inspeção fica para depois, conforme o proprietário. |
+| Replica | C3 | Conferir animação | Conferir arremessos, retorno e ativação das facas antes de decidir se o truque visual cabe na proposta. A inspeção fica para depois, conforme o proprietário. |
+| Spinning Knife | C1 | Conferir animação | Conferir arremessos, retorno e ativação das facas antes de decidir se o truque visual cabe na proposta. A inspeção fica para depois, conforme o proprietário. |
+| Trick or Treat | C2 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
 
-Candidata a reaproveitamento significa compatibilidade temática inicial, sujeita à conferência de animação e cliente. Revisar exige decidir efeitos ou regras; suspender significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
+Compatível na triagem significa identidade aceita para o estudo, sem certificação de funcionamento no cliente. As quatro habilidades de facas marcadas dependem de animação. Suspensa significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
 
 **Próximo passo recomendado:** revisar os efeitos marcados e comparar os pares de rank no [estudo conjunto](../../projeto-solo/seis-classes-habilidades-e-circulos.md) antes de fechar progressão e números.

@@ -33,13 +33,13 @@ Fonte: [F103](../../fontes.md#f103). São seis habilidades principais da seção
 
 | Habilidade | Círculo proposto | Avaliação | Motivo ou pendência |
 | --- | --- | --- | --- |
-| Dark Judgement | C3 | Revisar | Inspecionar a explosão e seu recurso material antes de adotar uma explicação química. |
-| Dead Zone | C2 | Candidata a reaproveitamento | Pode funcionar como uma sequência de disparos. |
-| Escape | C1 | Candidata a reaproveitamento | Mobilidade e posicionamento combinam com a besta. |
-| Fanwise Shots | C1 | Candidata a reaproveitamento | Reaproveitar a técnica de disparo. |
-| Guided Shot | C2 | Revisar | A fonte cita tecnologia de guiagem; seu mecanismo precisa ser inspecionado. |
-| Shining Burst | C3 | Candidata a reaproveitamento | Conferir animação e equipamento; não exige criar um novo sistema. |
+| Dark Judgement | C3 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| Dead Zone | C2 | Compatível na triagem | Pode funcionar como uma sequência de disparos. |
+| Escape | C1 | Compatível na triagem | Mobilidade e posicionamento combinam com a besta. |
+| Fanwise Shots | C1 | Compatível na triagem | Reaproveitar a técnica de disparo. |
+| Guided Shot | C2 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| Shining Burst | C3 | Compatível na triagem | Conferir animação e equipamento; não exige criar um novo sistema. |
 
-Candidata a reaproveitamento significa compatibilidade temática inicial, sujeita à conferência de animação e cliente. Revisar exige decidir efeitos ou regras; suspender significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
+Compatível na triagem significa identidade aceita para o estudo, sem certificação de funcionamento no cliente. As quatro habilidades de facas marcadas dependem de animação. Suspensa significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
 
 **Próximo passo recomendado:** revisar os efeitos marcados e comparar os pares de rank no [estudo conjunto](../../projeto-solo/seis-classes-habilidades-e-circulos.md) antes de fechar progressão e números.

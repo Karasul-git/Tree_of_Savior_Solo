@@ -26,14 +26,14 @@ As listas cobrem a seção **SKILLS** das páginas consultadas. Não são audito
 ## Como avaliar a ausência de magia
 
 - **Candidata a reaproveitamento:** identidade material ou técnica, sujeita à conferência de animações, regras e cliente.
-- **Revisar:** o ataque ou tema é aproveitável, mas uma interação, efeito ou explicação precisa ser avaliada.
+- **Conferir animação:** as quatro habilidades de facas ainda dependem de inspeção visual; não foram excluídas automaticamente.
 - **Suspender por enquanto:** não tratar como habilidade jogável até resolver uma incompatibilidade. A marcação de círculo experimental não muda essa situação.
 
 Dano elemental não prova magia sozinho: granadas e combustível podem produzir fogo. Da mesma forma, esquiva com uma breve janela de proteção pode ser uma abstração de combate; ela não exige automaticamente excluir uma classe. A avaliação considera o efeito e sua apresentação. Não basta renomear um feitiço para torná-lo físico.
 
-A triagem editorial das 36 habilidades resultou em **19 candidatas a reaproveitamento, 16 para revisão e uma suspensa**. Esses números não representam uma validação em cliente.
+A triagem editorial das 36 habilidades resultou em **31 compatíveis na triagem, quatro pendentes de animação e uma suspensa**. Esses números não representam uma validação em cliente.
 
-**Achados principais:** Recupero, de Ardito, já oferece autocura por seringa; não é cura de grupo. Triplet Lense, de Appraiser, usa lentes autônomas e fica suspensa. Guiagem de Arbalester, ativações de facas no chão de Clown e acertos garantidos/remoção de benefícios de Sheriff exigem inspeção. Não foram criadas habilidades substitutas.
+**Achados principais:** Recupero, de Ardito, já oferece autocura por seringa; não é cura de grupo. Triplet Lense, de Appraiser, usa lentes autônomas e fica suspensa. As ativações e trajetórias de facas de Clown dependem de animações. Explosivos, guiagem, esquiva e efeitos de combate foram aceitos como estilização para o estudo. Não foram criadas habilidades substitutas.
 
 ## Proposta de pares e identidade
 
@@ -63,7 +63,7 @@ Esses pares não são evoluções obrigatórias nem escolhas mutuamente exclusiv
 
 Mergen entra em R6 e pode alcançar C2 em R7 se o jogador investir o avanço seguinte nela. **Não distribuímos habilidades em C3 para Mergen**, pois esse círculo exigiria R8. Arbalester R5 pode alcançar C3 em R7. Clown R2 pode chegar a C3 em R4; isso não libera automaticamente seu kit atual inteiro em R2.
 
-A descrição oficial de Zenith menciona Homing Arrow, mas essa habilidade não aparece na seção principal da página consultada. Registramos a divergência e não inventamos uma sétima entrada. Appraiser possui C3 experimental com uma habilidade em revisão e outra suspensa; esse círculo não está pronto para virar regra jogável.
+O proprietário sugeriu avaliar Triplet Lense como passiva ligada à lente de Appraiser; efeito, bônus e desbloqueio seguem indefinidos. A descrição oficial de Zenith menciona Homing Arrow, mas essa habilidade não aparece na seção principal da página consultada. Registramos a divergência e não inventamos uma sétima entrada. Appraiser possui C3 experimental com Triplet Lense suspensa; a possibilidade de passiva ainda não define um kit jogável.
 
 ## O que muda na navegação e o que falta
 
@@ -71,4 +71,6 @@ A árvore solo mostra a proposta de **12 especializações por base, duas em cad
 
 As seis classes adicionais continuam com posições e ranks propostos, mesmo tendo sido escolhidas para estudo. Pied Piper é reserva; Miko e Hwarang ficam fora. Monk, Paladin, Alchemist e Plague Doctor ainda exigem revisão própria de habilidades para a direção sem magia. A tabela de pares completa não certifica que todos os kits estejam adaptados.
 
-**Próximo passo recomendado:** revisar primeiro Triplet Lense, as facas reativas de Clown e os projéteis guiados de Arbalester; depois validar os círculos propostos antes de definir pontos, níveis e fórmulas.
+[Continuar para a revisão das outras 33 classes](disponibilidade-das-classes.md).
+
+**Próximo passo recomendado:** revisar Monk e Paladin no estudo complementar; as animações de facas e lentes continuam pendentes para uma etapa posterior.

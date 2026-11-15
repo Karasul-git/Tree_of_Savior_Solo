@@ -33,3 +33,7 @@ Esta ficha de panorama inclui os círculos compatíveis com o limite de **Rank 7
 A adaptação solo **removerá classes mágicas**. Esta página preserva o original para consulta; a seleção nominal e o tratamento de híbridos estão nas [diretrizes do projeto](../../projeto-solo/diretrizes.md).
 
 **Decisão solo de 15/11/2026:** Templar permanece no ramo de combate próximo, originalmente Swordsman. Warrior é o nome provisório sugerido para a base; habilidades ligadas à guilda ainda serão avaliadas para o solo. [Ver seleção consolidada](../../projeto-solo/diretrizes.md).
+
+## Triagem de disponibilidade solo
+
+**Revisão de função solo.** Pontos a revisar: Summon Guild Member, Warp To Guild Member, Build Guild Tower, Reduce Craft Time, Battle Orders. Essa triagem não certifica funcionamento em cliente nem altera as habilidades originais acima. [Situação do elenco e pendências](../../projeto-solo/disponibilidade-das-classes.md).

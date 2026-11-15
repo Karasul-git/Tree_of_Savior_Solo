@@ -33,13 +33,13 @@ Fonte: [F109](../../fontes.md#f109). São seis habilidades principais da seção
 
 | Habilidade | Círculo proposto | Avaliação | Motivo ou pendência |
 | --- | --- | --- | --- |
-| Aiming Shot | C3 | Revisar | Acerto garantido e remoção genérica de benefícios exigem revisão de regras. |
-| Fanning | C2 | Candidata a reaproveitamento | Preservar técnica de disparo; conferir equipamento e animação. |
-| Peacemaker | C2 | Revisar | Avaliar explosivo, silêncio e redução de defesa sem presumir que todo efeito já seja mundano. |
-| Quick Draw | C1 | Candidata a reaproveitamento | Ataque inicial de pistola com identidade clara. |
-| Redemption | C1 | Candidata a reaproveitamento | Tratar como técnica evasiva, conferindo efeitos visuais. |
-| Westraid | C3 | Revisar | A recarga é material; a garantia absoluta de acerto precisa ser avaliada. |
+| Aiming Shot | C3 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| Fanning | C2 | Compatível na triagem | Preservar técnica de disparo; conferir equipamento e animação. |
+| Peacemaker | C2 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| Quick Draw | C1 | Compatível na triagem | Ataque inicial de pistola com identidade clara. |
+| Redemption | C1 | Compatível na triagem | Tratar como técnica evasiva, conferindo efeitos visuais. |
+| Westraid | C3 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
 
-Candidata a reaproveitamento significa compatibilidade temática inicial, sujeita à conferência de animação e cliente. Revisar exige decidir efeitos ou regras; suspender significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
+Compatível na triagem significa identidade aceita para o estudo, sem certificação de funcionamento no cliente. As quatro habilidades de facas marcadas dependem de animação. Suspensa significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
 
 **Próximo passo recomendado:** revisar os efeitos marcados e comparar os pares de rank no [estudo conjunto](../../projeto-solo/seis-classes-habilidades-e-circulos.md) antes de fechar progressão e números.

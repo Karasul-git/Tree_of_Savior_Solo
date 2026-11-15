@@ -1,0 +1,201 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "triage-not-playable-certification",
+  "classes": [
+    {
+      "class_id": "swordsman",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "highlander",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "peltasta",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "barbarian",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "hoplite",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "cataphract",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "rodelero",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "doppelsoeldner",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "fencer",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "dragoon",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "templar",
+      "assessment": "system-review",
+      "pending_count": 5
+    },
+    {
+      "class_id": "paladin",
+      "assessment": "theme-review",
+      "pending_count": 5
+    },
+    {
+      "class_id": "monk",
+      "assessment": "theme-review",
+      "pending_count": 2
+    },
+    {
+      "class_id": "archer",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "quarrel-shooter",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "ranger",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "hunter",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "sapper",
+      "assessment": "system-review",
+      "pending_count": 1
+    },
+    {
+      "class_id": "wugushi",
+      "assessment": "animation-review",
+      "pending_count": 1
+    },
+    {
+      "class_id": "fletcher",
+      "assessment": "system-review",
+      "pending_count": 1
+    },
+    {
+      "class_id": "falconer",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "cannoneer",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "musketeer",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "scout",
+      "assessment": "system-review",
+      "pending_count": 5
+    },
+    {
+      "class_id": "rogue",
+      "assessment": "system-review",
+      "pending_count": 1
+    },
+    {
+      "class_id": "schwarzer-reiter",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "corsair",
+      "assessment": "system-review",
+      "pending_count": 1
+    },
+    {
+      "class_id": "squire",
+      "assessment": "system-review",
+      "pending_count": 1
+    },
+    {
+      "class_id": "shinobi",
+      "assessment": "theme-review",
+      "pending_count": 2
+    },
+    {
+      "class_id": "alchemist",
+      "assessment": "theme-review",
+      "pending_count": 1
+    },
+    {
+      "class_id": "plague-doctor",
+      "assessment": "theme-review",
+      "pending_count": 3
+    },
+    {
+      "class_id": "assassin",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "outlaw",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "appraiser",
+      "assessment": "theme-review",
+      "pending_count": 1
+    },
+    {
+      "class_id": "mergen",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "arbalester",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "ardito",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "sheriff",
+      "assessment": "compatible",
+      "pending_count": 0
+    },
+    {
+      "class_id": "clown",
+      "assessment": "animation-review",
+      "pending_count": 4
+    }
+  ]
+}

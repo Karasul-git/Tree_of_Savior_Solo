@@ -67,6 +67,12 @@ A proposta move Paladin de R4 para R5, acrescenta Appraiser R4, Arbalester R5 e 
 
 As seis fichas reúnem 18 imagens oficiais e 36 habilidades principais atuais, com avaliações de reaproveitamento, revisão e suspensão. Triplet Lense, de Appraiser, fica suspensa. Os círculos ficam separados da referência original; Mergen R6 só pode alcançar C2 até R7. [Abrir estudo e círculos propostos](seis-classes-habilidades-e-circulos.md).
 
+## Critério refinado e continuidade do estudo
+
+O proprietário aceita combate físico estilizado: explosivos, ricochetes, mira, esquiva e efeitos abstratos não são vetados por nome ou exagero visual. As animações de Climax, Fatal Roulette, Replica e Spinning Knife continuam pendentes; Triplet Lense segue suspensa e pode ser estudada como passiva, ainda sem efeito definido.
+
+A revisão complementar cobre as outras 33 classes e 229 habilidades. O [quadro de disponibilidade](disponibilidade-das-classes.md) organiza as 39 classes propostas, separando pendências temáticas, de função solo e de animação. Nenhuma classe foi certificada no cliente ou implementada em servidor.
+
 ## Ordem de trabalho escolhida
 
 1. Reunir o panorama de todas as classes do lançamento: emblemas, personagens, identidade e habilidades.
@@ -81,4 +87,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** revisar as habilidades pendentes e validar os círculos propostos antes de fechar níveis, pontos e requisitos.
+**Próximo passo recomendado:** revisar Energy Blast e os cinco efeitos pendentes de Paladin antes de fechar as adaptações de suporte.

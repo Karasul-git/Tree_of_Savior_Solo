@@ -34,3 +34,7 @@ Esta ficha de panorama inclui os círculos compatíveis com o limite de **Rank 7
 A adaptação solo **removerá classes mágicas**. Esta página preserva o original para consulta; a seleção nominal e o tratamento de híbridos estão nas [diretrizes do projeto](../../projeto-solo/diretrizes.md).
 
 **Decisão solo de 15/11/2026:** Plague Doctor entra na árvore Scout. A revisão das habilidades priorizará reaproveitamento e coerência sem magia; os detalhes continuam em estudo. [Ver seleção consolidada](../../projeto-solo/diretrizes.md).
+
+## Triagem de disponibilidade solo
+
+**Revisão temática.** Pontos a revisar: Healing Factor, Incineration, Pandemic. Essa triagem não certifica funcionamento em cliente nem altera as habilidades originais acima. [Situação do elenco e pendências](../../projeto-solo/disponibilidade-das-classes.md).

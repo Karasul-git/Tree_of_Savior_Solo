@@ -71,3 +71,12 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Separar círculos propostos dos dados oficiais atuais, respeitando o teto de R7.
 - [ ] Revisar Triplet Lense, facas reativas, guiagem de projéteis e demais efeitos pendentes.
 - [ ] Validar os pares e círculos antes de definir pontos, níveis e números.
+
+## Continuidade: disponibilidade do elenco
+
+- [x] Refinar a triagem das seis candidatas segundo o critério de combate físico estilizado do proprietário.
+- [x] Registrar facas e lentes como pendências visuais e a ideia de passiva de Triplet Lense, sem efeito definido.
+- [x] Revisar as outras 33 classes e 229 habilidades e publicar o quadro das 39 classes propostas.
+- [x] Comparar recursos existentes posteriores de Scout, Alchemist e Templar, separados do histórico.
+- [ ] Revisar Energy Blast e os efeitos sagrados de Paladin.
+- [ ] Definir a referência do kit base de Scout e o aproveitamento de comando de Templar no solo.

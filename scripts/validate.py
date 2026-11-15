@@ -194,12 +194,58 @@ for c in proposal['classes']:
     for s in c['skills']:
         if s['circle_proposed'] not in range(1, cap + 1) or s['assessment'] not in ['reuse', 'review', 'hold'] or not s['note']:
             errors.append('Invalid skill proposal circle, assessment or note')
+        if s.get('passive_option') and (s['assessment'] != 'hold' or s['passive_option']['status'] != 'idea-only' or s['passive_option']['effect'] is not None):
+            errors.append('Passive idea must remain pending without a defined effect')
+
+review = json.loads((ROOT / 'data/proposals/remaining-classes-review.json').read_text())
+reference_records = {r['id']: r for r in catalog_classes + later['classes']}
+positions = {b['source_class_id']: (b['id'], 1) for b in solo['bases']}
+positions.update({c['class_id']: (b['id'], c['solo_rank']) for b in solo['bases'] for c in b['classes']})
+review_ids = [c['class_id'] for c in review['classes']]
+if len(review_ids) != len(set(review_ids)) or set(review_ids) != set(solo_ids) - set(proposal_ids) or review['class_count'] != len(review_ids):
+    errors.append('Complementary review must cover every other selected class exactly once')
+review_skills = 0
+review_statuses = ['compatible', 'theme-review', 'system-review', 'animation-review']
+summary_expected = {}
+for c in review['classes']:
+    ref = reference_records.get(c['class_id'])
+    if not ref or positions.get(c['class_id']) != (c['base_id'], c['solo_rank']):
+        errors.append('Review class/rank differs from selection')
+        continue
+    if [s['name'] for s in c['skills']] != [s['name'] for s in ref['skills']]:
+        errors.append('Review must preserve the reference skill inventory')
+    status = next((s for s in review_statuses[1:] if any(r['assessment'] == s for r in c['skills'])), 'compatible')
+    if c['assessment'] != status:
+        errors.append('Review class summary differs from its pending skills')
+    for s in c['skills']:
+        if s['assessment'] not in review_statuses or not s['note'] or any(e not in source_ids for e in s['evidence_ids']):
+            errors.append('Invalid review assessment or evidence')
+    count = sum(s['assessment'] != 'compatible' for s in c['skills'])
+    summary_expected[c['class_id']] = (status, count)
+    review_skills += len(c['skills'])
+if review['skill_count'] != review_skills:
+    errors.append('Review skill count differs from inventory')
+for c in proposal['classes']:
+    status = 'theme-review' if any(s['assessment'] == 'hold' for s in c['skills']) else 'animation-review' if any(s['assessment'] == 'review' for s in c['skills']) else 'compatible'
+    summary_expected[c['class_id']] = (status, sum(s['assessment'] != 'reuse' for s in c['skills']))
+summary = json.loads((ROOT / 'data/proposals/availability-summary.json').read_text())['classes']
+if len(summary) != len(summary_expected) or {c['class_id']: (c['assessment'], c['pending_count']) for c in summary} != summary_expected:
+    errors.append('Availability summary differs from the two research inventories')
+for variant in json.loads((ROOT / 'data/research/later-reuse-options.json').read_text())['variants']:
+    if variant['class_id'] not in reference_records or variant['source_id'] not in source_ids or not variant['purpose']:
+        errors.append('Invalid later comparison source or class')
+    if any('circle' in s or not s['summary'] for s in variant['skills']):
+        errors.append('Later comparison must not invent historical circles')
 for snapshot in json.loads((ROOT / 'data/research/catalog-snapshots.json').read_text()):
     if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
         errors.append('Invalid catalog snapshot provenance')
 for snapshot in json.loads((ROOT / 'data/research/later-snapshots.json').read_text()):
     if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
         errors.append('Invalid later snapshot provenance')
+    date.fromisoformat(snapshot['retrieved_at'])
+for snapshot in json.loads((ROOT / 'data/research/availability-snapshots.json').read_text()):
+    if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
+        errors.append('Invalid availability comparison provenance')
     date.fromisoformat(snapshot['retrieved_at'])
 
 pages = list(ROOT.glob('*.md')) + list((ROOT / 'docs').rglob('*.md'))

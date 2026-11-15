@@ -37,3 +37,7 @@ A adaptação solo **removerá classes mágicas**. Esta página preserva o origi
 ## Proposta solo em Warrior
 
 O estudo de 15/11/2026 propõe esta classe em Warrior, com R5 solo proposto e R4 histórico preservado como referência. A posição ainda é proposta e o kit contém efeitos sobrenaturais; a transferência não aprova automaticamente todas as habilidades. [Estudo de ranks e reaproveitamento](../../projeto-solo/ranks-e-especializacoes.md).
+
+## Triagem de disponibilidade solo
+
+**Revisão temática.** Pontos a revisar: Restoration, Resist Elements, Turn Undead, Conversion, Barrier. Essa triagem não certifica funcionamento em cliente nem altera as habilidades originais acima. [Situação do elenco e pendências](../../projeto-solo/disponibilidade-das-classes.md).

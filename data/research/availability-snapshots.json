@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "F111",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Scout",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "0e649afafdb0edc8f81ebc3a32cb771a9fb12b8244a7ef5f875330dcb1ea9680",
+    "bytes": 14024
+  },
+  {
+    "source_id": "F112",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Templar",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "f831950013b7ae55603a6be2fa9ee9eb0b9084a07663101dc4805d46d0ecb394",
+    "bytes": 17092
+  },
+  {
+    "source_id": "F98",
+    "url": "https://treeofsavior.com/page/class/view.php?c=Alchemist",
+    "retrieved_at": "2026-11-15",
+    "html_sha256": "83ead73196307c953d730dcd86999248fa4a5a2c164fa73c317a1b2b4de35e52",
+    "bytes": 13129
+  }
+]

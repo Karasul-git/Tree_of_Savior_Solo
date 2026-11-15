@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { treeRankCoverage, readTreeState, branchEntries } from '../web/trees.mjs';
+import { treeRankCoverage, readTreeState, branchEntries, renderClassContext } from '../web/trees.mjs';
 
 const read = file => JSON.parse(readFileSync(new URL('../' + file, import.meta.url)));
 const catalog = read('data/catalog/classes-2016.json');
@@ -36,8 +36,41 @@ test('as 36 avaliações preservam o inventário atual e não inventam círculos
   const lens = proposal.classes.find(c => c.class_id === 'appraiser').skills.find(s => s.name === 'Triplet Lense');
   assert.equal(lens.assessment, 'hold');
   const appraiser = readFileSync(new URL('../dist/docs/classes/catalogo/appraiser.html', import.meta.url), 'utf8');
-  assert.ok(appraiser.includes('Suspender por enquanto'));
+  assert.ok(appraiser.includes('Pendente · suspensa por enquanto'));
   assert.ok(appraiser.includes('não a inclui no kit jogável'));
+});
+
+test('facas continuam pendentes de animação e a passiva de lentes não tem efeito aprovado', () => {
+  const clown = proposal.classes.find(c => c.class_id === 'clown');
+  assert.deepEqual(clown.skills.filter(s => s.assessment === 'review').map(s => s.name), ['Climax', 'Fatal Roulette', 'Replica', 'Spinning Knife']);
+  assert.ok(clown.skills.filter(s => s.assessment === 'review').every(s => s.review_scope === 'animation' && s.animation_pending));
+  const lens = proposal.classes.find(c => c.class_id === 'appraiser').skills.find(s => s.name === 'Triplet Lense');
+  assert.equal(lens.passive_option.status, 'idea-only');
+  assert.equal(lens.passive_option.effect, null);
+  assert.equal(lens.assessment, 'hold');
+  assert.ok(proposal.classes.find(c => c.class_id === 'mergen').skills.every(s => s.assessment === 'reuse'));
+});
+
+test('a revisão cobre as outras classes e diferencia nomes de magia, tema e função solo', () => {
+  const review = read('data/proposals/remaining-classes-review.json');
+  assert.equal(review.class_count, 33);
+  assert.equal(review.skill_count, 229);
+  const fletcher = review.classes.find(c => c.class_id === 'fletcher');
+  assert.equal(fletcher.skills.find(s => s.name === 'Magic Arrow').assessment, 'compatible');
+  const monk = review.classes.find(c => c.class_id === 'monk');
+  assert.equal(monk.skills.find(s => s.name === 'Energy Blast').assessment, 'theme-review');
+  assert.ok(review.classes.find(c => c.class_id === 'templar').skills.every(s => s.assessment === 'system-review'));
+  const summary = read('data/proposals/availability-summary.json');
+  const withReview = { ...catalog, solo_review: summary.classes };
+  const soloState = readTreeState('', withReview, solo, 'monk');
+  const context = renderClassContext(withReview, solo, soloState, 'monk', '../../../');
+  assert.ok(context.includes('Revisão temática'));
+  assert.ok(context.includes('sem certificação de funcionamento no cliente'));
+  const historical = renderClassContext(withReview, solo, readTreeState('?view=2016', withReview, solo, 'monk'), 'monk', '../../../');
+  assert.ok(!historical.includes('Revisão temática'));
+  const published = readFileSync(new URL('../dist/docs/projeto-solo/disponibilidade-das-classes.html', import.meta.url), 'utf8');
+  assert.ok(published.includes('39 classes'));
+  assert.ok(published.includes('229 habilidades'));
 });
 
 test('as 18 novas imagens têm procedência e todas as fichas publicadas têm os dois visuais', () => {

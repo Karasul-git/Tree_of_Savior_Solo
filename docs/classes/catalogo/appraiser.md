@@ -33,15 +33,19 @@ Fonte: [F106](../../fontes.md#f106). São seis habilidades principais da seção
 
 | Habilidade | Círculo proposto | Avaliação | Motivo ou pendência |
 | --- | --- | --- | --- |
-| Identify | C1 | Candidata a reaproveitamento | Preservar identificação; conferir a utilidade da loja na economia solo. |
-| Expose Weakness | C1 | Candidata a reaproveitamento | A leitura de pontos vulneráveis combina com observação e treinamento. |
-| Devaluation | C2 | Revisar | Conferir como enfraquecer equipamento sem atribuir poder sobrenatural à lupa. |
-| High Scale Magnifying Glass | C2 | Candidata a reaproveitamento | Pode manter a identidade de análise e mira. |
-| Huge Magnifier | C3 | Revisar | Inspecionar dano e animação; a propagação do efeito ainda não tem explicação mundana definida. |
-| Triplet Lense | C3 | Suspender por enquanto | Lentes autônomas não têm mecanismo físico confirmado; não inventar um substituto agora. |
+| Identify | C1 | Compatível na triagem | Preservar identificação; conferir a utilidade da loja na economia solo. |
+| Expose Weakness | C1 | Compatível na triagem | A leitura de pontos vulneráveis combina com observação e treinamento. |
+| Devaluation | C2 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| High Scale Magnifying Glass | C2 | Compatível na triagem | Pode manter a identidade de análise e mira. |
+| Huge Magnifier | C3 | Compatível na triagem | Compatível com o critério de combate físico estilizado aceito pelo proprietário. Explosivos, precisão, esquiva e efeitos de combate não são vetados por nome ou exagero visual; números continuam em aberto. |
+| Triplet Lense | C3 | Pendente · suspensa por enquanto | Animação pendente. O proprietário sugeriu avaliar conversão em passiva óptica; nenhum efeito ou número foi definido. |
 
-Candidata a reaproveitamento significa compatibilidade temática inicial, sujeita à conferência de animação e cliente. Revisar exige decidir efeitos ou regras; suspender significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
+Compatível na triagem significa identidade aceita para o estudo, sem certificação de funcionamento no cliente. As quatro habilidades de facas marcadas dependem de animação. Suspensa significa não tratar a habilidade como jogável enquanto a pendência existir. Não copiamos fórmulas atuais para o balanceamento solo.
 
 A página atual exige desbloqueio e menciona o segundo avanço. Isso não é um rank antigo nem um requisito solo já aprovado. **Triplet Lense permanece suspensa:** seu lugar experimental em C3 não a inclui no kit jogável.
 
 **Próximo passo recomendado:** revisar os efeitos marcados e comparar os pares de rank no [estudo conjunto](../../projeto-solo/seis-classes-habilidades-e-circulos.md) antes de fechar progressão e números.
+
+## Ideia de passiva ainda pendente
+
+O proprietário sugeriu estudar Triplet Lense como passiva ligada à lente já usada por Appraiser. A referência atual é ofensiva e ativa: converter em passiva exige definir outro funcionamento. **Nenhum bônus, efeito, fórmula ou desbloqueio de passiva foi aprovado ou implementado.**
