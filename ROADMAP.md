@@ -104,7 +104,7 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Levantar as habilidades mágicas da árvore solo (26, em quatro classes).
 - [x] Definir o novo papel do INT: potência de preparados.
 - [x] Registrar as fórmulas de dano do Melia e propostas para o projeto.
-- [ ] Decidir cura de preparados com INT e CON na defesa.
+- [x] Decidir cura de preparados com INT e CON na defesa (aceitas em 15/11/2026).
 - [ ] Calibrar monstros para grupos de 4 e curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - [ ] Confirmar como o cliente atual exibe ranks e círculos.

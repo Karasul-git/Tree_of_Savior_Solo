@@ -107,6 +107,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — SPR vira Sabedoria.** O atributo SPR (*Spirit*) passa a se chamar Sabedoria no projeto, com a mesma função de recuperação e SP.
 
-**15/11/2026 — Fórmulas de dano.** As fórmulas atuais do Melia estão registradas, com seis propostas. Duas aguardam decisão: cura de preparados escalando com INT e CON somando defesa. [Fórmulas](formulas-de-dano.md).
+**15/11/2026 — Fórmulas de dano.** As fórmulas atuais do Melia estão registradas, com seis propostas. O proprietário decidiu que a cura de preparados escala com INT e que CON soma defesa física e mágica (+2 por ponto como valor inicial). [Fórmulas](formulas-de-dano.md).
 
-**Próximo passo recomendado:** decidir essas duas propostas e calibrar os monstros para grupos de 4.
+**Próximo passo recomendado:** calibrar os monstros para grupos de 4.

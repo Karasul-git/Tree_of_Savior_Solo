@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-11-15",
+  "source_id": "F124",
+  "status": "owner-decisions-values-provisional",
+  "decisions": {
+    "preparations_use_magic_path": {
+      "status": "proposal",
+      "note": "Ataque de preparados vem do INT pelo caminho mágico do Melia."
+    },
+    "preparation_healing_scales_with_int": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "note": "Cura de poções e medicina (Sprinkle HP/SP Potion, Healing Factor) escala com INT; Sabedoria mantém SP e recuperação natural. Fórmula a definir."
+    },
+    "con_adds_defense": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "initial_value": "+2 de defesa física e mágica por ponto de CON, como no guia oficial atual (F113)",
+      "note": "Valor inicial sujeito a balanceamento."
+    },
+    "dex_crit_chance": {
+      "status": "pending-source"
+    },
+    "elements_for_preparations": {
+      "status": "proposal"
+    },
+    "monster_calibration_group_of_4": {
+      "status": "next"
+    }
+  }
+}

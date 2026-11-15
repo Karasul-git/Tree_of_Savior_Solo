@@ -77,3 +77,10 @@ test('o levantamento de magia só aponta classes da árvore solo e soma 26 habil
   assert.ok(magic.skills.every(s => ids.has(s.class_id)));
   assert.deepEqual([...new Set(magic.skills.map(s => s.class_id))].sort(), ['alchemist', 'monk', 'paladin', 'plague-doctor']);
 });
+
+test('as decisões das fórmulas de dano ficam registradas', () => {
+  const f = read('data/proposals/damage-formulas.json');
+  assert.equal(f.decisions.preparation_healing_scales_with_int.status, 'decided');
+  assert.equal(f.decisions.con_adds_defense.status, 'decided');
+  assert.equal(f.decisions.dex_crit_chance.status, 'pending-source');
+});

@@ -55,8 +55,8 @@ Contra um alvo com 150 de esquiva, a chance de errar fica em (150 − 130)<sup>0
 | # | Tema | Proposta | Situação |
 | --- | --- | --- | --- |
 | 1 | INT de preparados | Manter o caminho mágico do Melia como o **caminho dos preparados**: o ataque vem do INT, ignora esquiva, bloqueio e crítico e usa a defesa mágica. As 26 habilidades levantadas já usam esse caminho. | Proposta |
-| 2 | Cura de preparados | Fazer a cura de poções e medicina (Sprinkle HP/SP Potion, Healing Factor) **escalar com INT**. A Sabedoria continua cuidando do SP e da recuperação natural. | **Decisão do proprietário** |
-| 3 | CON e defesa | O guia oficial diz que CON aumenta as defesas, mas a fórmula do Melia não usa CON. Seguir o guia e somar CON à defesa física e mágica. | **Decisão do proprietário** |
+| 2 | Cura de preparados | A cura de poções e medicina (Sprinkle HP/SP Potion, Healing Factor) **escala com INT**. A Sabedoria continua cuidando do SP e da recuperação natural. | **Decidido em 15/11/2026.** Fórmula a definir. |
+| 3 | CON e defesa | **CON soma defesa física e mágica**, como diz o guia oficial atual. Valor inicial: +2 de cada defesa por ponto de CON. | **Decidido em 15/11/2026.** Valor sujeito a balanceamento. |
 | 4 | DEX e crítico | Hoje a DEX só aumenta o dano do crítico, não a chance. Pesquisar como era em 2016 antes de mudar. | Pendente de fonte |
 | 5 | Elementos | Os multiplicadores de elemento só valem para habilidades mágicas. Fogo e veneno de preparados continuam usando essa tabela. | Proposta |
 | 6 | Grupo de 4 | O lado dos monstros (HP, ataque, defesa e esquiva) precisa ser calibrado para 1 jogador + 3 bots. | Próxima etapa |
@@ -65,9 +65,11 @@ Descrição dos atributos no guia oficial atual: [F113](../fontes.md#f113).
 
 ## Pendências
 
-- Decidir as propostas 2 e 3.
+- Escrever a fórmula da cura de preparados com INT.
 - Pesquisar o efeito da DEX na chance de crítico em 2016.
 - Ler as fórmulas de monstros do Melia (`calc_monster.cs`) e propor a calibragem para grupos de 4.
 - Conferir no servidor se as fórmulas preliminares (esquiva, crítico, bloqueio) se comportam bem nos níveis do projeto, até 280.
 
-**Próximo passo recomendado:** decidir as propostas 2 (cura de preparados com INT) e 3 (CON somando defesa). Depois, calibrar os monstros para grupos de 4.
+As decisões estão em [damage-formulas.json](../../data/proposals/damage-formulas.json).
+
+**Próximo passo recomendado:** calibrar os monstros para grupos de 4, a partir das fórmulas de monstros do Melia.
