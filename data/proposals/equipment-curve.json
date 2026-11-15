@@ -380,5 +380,339 @@
         "target_def": 752
       }
     ]
+  },
+  "weapon_curves": {
+    "tiers": [
+      1,
+      15,
+      40,
+      75,
+      120,
+      170,
+      220,
+      270,
+      315
+    ],
+    "avg_atk_median": {
+      "Sword_01": [
+        37.0,
+        141.0,
+        327.0,
+        586.5,
+        920.5,
+        1292.0,
+        1663.0,
+        2034.0,
+        2369.0
+      ],
+      "Sword_02": [
+        41.0,
+        156.5,
+        363.0,
+        651.5,
+        1023.0,
+        1435.5,
+        1848.0,
+        2260.5,
+        2632.0
+      ],
+      "THSword_01": [
+        44.0,
+        166.5,
+        386.0,
+        693.5,
+        1088.0,
+        1526.5,
+        1965.5,
+        2404.0,
+        2799.0
+      ],
+      "THSword_02": [
+        49.0,
+        185.0,
+        429.0,
+        770.0,
+        1209.0,
+        1696.5,
+        2184.0,
+        2671.5,
+        3110.0
+      ],
+      "Spear_01": [
+        null,
+        null,
+        326.5,
+        586.5,
+        921.0,
+        1292.0,
+        1663.5,
+        2034.5,
+        2368.5
+      ],
+      "Spear_02": [
+        null,
+        null,
+        363.0,
+        652.0,
+        1023.0,
+        1435.5,
+        1848.0,
+        2260.5,
+        2632.0
+      ],
+      "THSpear_01": [
+        null,
+        null,
+        null,
+        693.0,
+        1088.5,
+        1527.0,
+        1965.5,
+        2404.5,
+        2799.0
+      ],
+      "THSpear_02": [
+        null,
+        null,
+        429.0,
+        770.0,
+        1209.0,
+        1696.5,
+        2184.0,
+        2671.5,
+        3110.0
+      ],
+      "Rapier_01": [
+        null,
+        141.0,
+        327.0,
+        587.0,
+        null,
+        1292.0,
+        1663.0,
+        2034.0,
+        2369.0
+      ],
+      "Rapier_02": [
+        null,
+        null,
+        null,
+        652.0,
+        1023.0,
+        1436.0,
+        1848.0,
+        2261.0,
+        2632.0
+      ],
+      "Mace_01": [
+        37.0,
+        141.0,
+        326.5,
+        586.5,
+        920.5,
+        1292.0,
+        1663.5,
+        2034.5,
+        2368.5
+      ],
+      "Mace_02": [
+        66.2,
+        156.5,
+        363.0,
+        651.5,
+        1023.0,
+        1435.5,
+        1848.0,
+        2260.5,
+        2631.5
+      ],
+      "THMace_01": [
+        null,
+        null,
+        null,
+        693.5,
+        1088.0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "THMace_02": [
+        null,
+        null,
+        null,
+        null,
+        1209.0,
+        1696.5,
+        2184.0,
+        2671.5,
+        3110.0
+      ],
+      "Bow_01": [
+        37.0,
+        141.0,
+        327.0,
+        586.5,
+        920.5,
+        1292.0,
+        1663.0,
+        2034.0,
+        2369.0
+      ],
+      "Bow_02": [
+        41.0,
+        156.5,
+        363.0,
+        651.5,
+        1023.0,
+        1435.5,
+        1848.0,
+        2260.5,
+        2632.0
+      ],
+      "THBow_01": [
+        44.0,
+        166.5,
+        386.0,
+        693.5,
+        1088.0,
+        1526.5,
+        1965.5,
+        2404.0,
+        2799.0
+      ],
+      "THBow_02": [
+        49.0,
+        185.0,
+        429.0,
+        770.0,
+        1209.0,
+        1696.5,
+        2184.0,
+        2671.5,
+        3110.0
+      ],
+      "Dagger_01": [
+        37.0,
+        141.0,
+        327.0,
+        null,
+        920.5,
+        1292.0,
+        1663.0,
+        2034.5,
+        2368.5
+      ],
+      "Dagger_02": [
+        null,
+        null,
+        null,
+        652.0,
+        1023.0,
+        1435.5,
+        1848.0,
+        2260.5,
+        2631.5
+      ],
+      "Pistol_01": [
+        37.0,
+        141.0,
+        327.0,
+        587.0,
+        null,
+        1292.0,
+        1663.0,
+        2034.5,
+        2368.5
+      ],
+      "Pistol_02": [
+        null,
+        null,
+        null,
+        652.0,
+        1023.0,
+        1435.5,
+        1848.0,
+        2260.5,
+        2631.5
+      ],
+      "Musket_01": [
+        null,
+        null,
+        null,
+        null,
+        1088.0,
+        null,
+        1966.0,
+        2404.5,
+        2799.0
+      ],
+      "Musket_02": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1696.5,
+        2184.0,
+        2671.5,
+        3110.5
+      ],
+      "Cannon_01": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1526.5,
+        1965.5,
+        2404.5,
+        2799.5
+      ],
+      "Cannon_02": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1696.5,
+        2074.8,
+        2671.5,
+        3110.0
+      ]
+    },
+    "pattern": "Armas de uma mão (Sword, Spear, Rapier, Mace, Bow = besta, Dagger, Pistol) seguem a mesma curva; armas de duas mãos (THSword, THSpear, THMace, THBow = arco, Musket, Cannon) dão cerca de 18% a mais.",
+    "offhand_issue": "No Melia, GetEquipProperties soma o ataque de todos os itens equipados; adaga ou pistola na mão secundária somam o ataque inteiro à arma principal. O cálculo próprio da mão secundária (MINPATK_SUB) está marcado como pendente no código."
+  },
+  "weapon_setups_weapon_atk": [
+    {
+      "level": 40,
+      "one_hand_shield": 327.0,
+      "two_hand": 386.0,
+      "one_hand_plus_offhand_melia": 654.0,
+      "ratio_two_hand": 1.18,
+      "ratio_offhand": 2.0
+    },
+    {
+      "level": 120,
+      "one_hand_shield": 920.5,
+      "two_hand": 1088.0,
+      "one_hand_plus_offhand_melia": 1841.0,
+      "ratio_two_hand": 1.18,
+      "ratio_offhand": 2.0
+    },
+    {
+      "level": 220,
+      "one_hand_shield": 1663.0,
+      "two_hand": 1965.5,
+      "one_hand_plus_offhand_melia": 3326.0,
+      "ratio_two_hand": 1.18,
+      "ratio_offhand": 2.0
+    }
+  ],
+  "offhand_proposal": {
+    "status": "pending-owner-decision",
+    "recommended": "Adaga ou pistola na mão secundária somam só 20% do próprio ataque ao ataque geral; o ataque inteiro vale nas habilidades que usam a arma secundária.",
+    "reason": "Deixa espada + adaga perto de uma arma de duas mãos (1,18× a 1,2×), em vez de 2×."
   }
 }

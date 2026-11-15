@@ -61,4 +61,6 @@ A curva e os multiplicadores calculados estão em [Curva de equipamentos](curva-
 
 A escala foi decidida (opção A: fatores divididos por 10), e a [tabela de ajustes](curva-de-equipamentos.md#ajustes-monstros) está pronta.
 
-**Próximo passo recomendado:** montar as curvas das outras armas.
+As curvas das outras armas também estão lá.
+
+**Próximo passo recomendado:** decidir quanto a arma secundária soma ao ataque geral.

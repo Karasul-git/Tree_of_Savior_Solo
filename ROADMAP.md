@@ -109,7 +109,9 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Curva de equipamentos comuns (arma de uma mão e armaduras) a partir do Melia.
 - [x] Decidir a escala das habilidades: opção A, fatores divididos por 10.
 - [x] Tabela de ajustes dos monstros por faixa de nível (HP, ataque, defesa).
-- [ ] Curvas das outras armas e conferência com 2016.
+- [x] Curvas das outras armas: uma mão (mesma curva) e duas mãos (~18% a mais).
+- [ ] Decidir quanto a arma secundária soma ao ataque geral (proposta: 20%).
+- [ ] Conferir valores de armas e armaduras com 2016.
 - [ ] Multiplicadores dos monstros por faixa de nível e curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - [ ] Confirmar como o cliente atual exibe ranks e círculos.

@@ -93,12 +93,41 @@ Calculada com fator de referência de **175%** (meio da faixa de 150% a 200%). O
 
 Os valores-alvo são a mediana esperada para um monstro comum daquele nível. Cada monstro mantém suas diferenças em relação aos outros, porque o ajuste é um multiplicador.
 
+## Outras armas
+
+Separando por tipo, grau e nível, todas as armas do Melia caem em **duas curvas**. [F124](../fontes.md#f124)
+
+| Ataque médio (grau 01, salvo indicação) | 15 | 40 | 75 | 120 | 170 | 220 | 270 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Uma mão (espada, lança, rapieira, maça, besta, adaga, pistola) | 141 | 327 | 586 | 920 | 1.292 | 1.663 | 2.034 |
+| Duas mãos (espada grande, lança, maça, arco, mosquete, canhão) | 166 | 386 | 694 | 1.088 | 1.526 | 1.966 | 2.404 |
+| Uma mão, grau 02 | 156 | 363 | 652 | 1.023 | 1.436 | 1.848 | 2.260 |
+| Duas mãos, grau 02 | 185 | 429 | 770 | 1.209 | 1.696 | 2.184 | 2.672 |
+
+- **Uma mão:** espada, lança, rapieira, maça, besta (`Bow`), adaga e pistola têm a mesma curva.
+- **Duas mãos:** espada grande, lança de duas mãos, maça de duas mãos, arco (`THBow`), mosquete e canhão dão **cerca de 18% a mais**.
+- Mosquete e canhão só aparecem a partir dos níveis 120 e 170; algumas armas não têm item comum em todos os níveis. Os vazios estão nos dados.
+
+### Mão secundária: o ponto que desequilibra
+
+No Melia, o ataque de **todos os itens equipados é somado**. O cálculo próprio da arma secundária (`MINPATK_SUB`) ainda está marcado como pendente no código. Por isso:
+
+| Nível | Uma mão + escudo | Duas mãos | Uma mão + adaga ou pistola (como o Melia soma hoje) |
+| --- | --- | --- | --- |
+| 40 | 327 | 386 (1,18×) | 654 (2×) |
+| 120 | 921 | 1.088 (1,18×) | 1.841 (2×) |
+| 220 | 1.663 | 1.966 (1,18×) | 3.326 (2×) |
+
+Ataque da arma, sem atributos. O Scout, cuja árvore usa espada de uma mão com adaga ou pistola, teria o dobro do ataque de arma do Warrior com escudo.
+
+**Proposta, aguardando decisão do proprietário:** a arma secundária soma só **20% do próprio ataque** ao ataque geral, e o valor inteiro vale nas habilidades que usam a arma secundária (cortes de adaga, tiros de pistola). Assim, espada + adaga fica em torno de 1,2×, perto de uma arma de duas mãos, e o escudo continua trocando ataque por defesa.
+
 ## Pendências
 
 - Aplicar a divisão dos fatores das habilidades no servidor (`skills.txt` ou função de cálculo).
 - Metas para elites, chefes e masmorras.
 - Conferir os valores de armas e armaduras de 2016.
-- Definir as curvas das outras armas (arco, besta, pistola, adaga, lança).
+- Decidir quanto a arma secundária soma ao ataque geral.
 - Fechar a tabela de multiplicadores por faixa de nível e testar no servidor.
 
-**Próximo passo recomendado:** montar as curvas das outras armas (arco, besta, pistola, adaga e lança), seguindo o mesmo método.
+**Próximo passo recomendado:** decidir a regra da arma secundária. A recomendação é somar 20% do ataque dela ao ataque geral.

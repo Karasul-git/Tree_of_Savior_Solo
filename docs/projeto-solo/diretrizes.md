@@ -115,4 +115,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Escala das habilidades.** O proprietário escolheu a opção A: os fatores das habilidades do Melia serão divididos por 10. A tabela de ajustes dos monstros por nível está pronta. [Tabela](curva-de-equipamentos.md).
 
-**Próximo passo recomendado:** montar as curvas das outras armas.
+**15/11/2026 — Curvas das outras armas.** Armas de uma mão seguem a mesma curva da espada; as de duas mãos dão cerca de 18% a mais. No Melia, a arma secundária soma o ataque inteiro, o que daria ao Scout o dobro do ataque de arma do Warrior com escudo. [Curvas](curva-de-equipamentos.md).
+
+**Próximo passo recomendado:** decidir quanto a arma secundária soma ao ataque geral; a proposta é 20%.

@@ -101,3 +101,12 @@ test('a curva de equipamentos cresce por nível e mantém a decisão de escala p
   assert.equal(e.monster_multipliers.table.length, 7);
   assert.ok(e.results.every(r => r.mult_hp_F150 < r.mult_hp_F2000));
 });
+
+test('as curvas de armas separam uma mão de duas mãos', () => {
+  const e = read('data/proposals/equipment-curve.json');
+  const c = e.weapon_curves.avg_atk_median;
+  const i = e.weapon_curves.tiers.indexOf(120);
+  for (const t of ['Bow_01', 'Dagger_01', 'Mace_01']) assert.equal(c[t][i], c.Sword_01[i]);
+  assert.ok(Math.abs(c.THBow_01[i] / c.Sword_01[i] - 1.18) < 0.01);
+  assert.equal(e.offhand_proposal.status, 'pending-owner-decision');
+});
