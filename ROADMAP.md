@@ -89,7 +89,9 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Ratificar o kit base de Scout (opção B).
 - [ ] Conferir no cliente Perspective Distortion, Scan e as animações de Cloaking e Camouflage.
 - [x] Especificar as bases do grupo de bots: origem, tamanho, controle e progressão.
-- [ ] Documentar com fonte o barracão e o limite de grupo de 2016.
+- [x] Pesquisar barracão, nível de equipe e grupo de 2016 (fontes majoritariamente de jogadores).
+- [ ] Confirmar com fonte de 2016 o limite de cinco membros e o máximo do nível de equipe.
+- [ ] Decidir vagas do barracão para bots e animais no limite de 4.
 - [ ] Definir obtenção e regras dos bots do servidor.
 - [ ] Escrever os perfis de comportamento das três bases.
 - [ ] Reavaliar habilidades de grupo e separar as de guilda (Templar) das de grupo.

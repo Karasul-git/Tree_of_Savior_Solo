@@ -37,6 +37,7 @@ const documents = [
   ['docs/classes/swordsman-valores-2016.md', 'Swordsman · Tabelas de 2016'],
   ['docs/classes/swordsman-equipamentos-e-avancos-2016.md', 'Swordsman · Armas, mestres e avanços'],
   ['docs/sistemas/ranks-e-circulos.md', 'Ranks e círculos'],
+  ['docs/sistemas/barracao-e-grupo.md', 'Barracão, equipe e grupo'],
   ['docs/recorte-historico.md', 'O lançamento de 2016'],
   ['docs/historia/evolucao-das-classes.md', 'Do lançamento ao Re:Build'],
   ['docs/fontes.md', 'Fontes da pesquisa'],
@@ -58,7 +59,7 @@ function shell(title, current, content, toc = [], classInfo) {
   const contextClass = allClasses.find(c => current === `docs/classes/catalogo/${c.id}.html` || current === `docs/classes/${c.id}.html`);
   const treeState = readTreeState('', catalog, solo, contextClass?.id);
   const nav = [
-    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/companheiros-e-bots.html', 'Bots e grupo'), link('docs/projeto-solo/remocao-das-deusas.html', 'Sem deusas'), link('docs/projeto-solo/disponibilidade-das-classes.html', 'Elenco e pendências'), link('docs/projeto-solo/ranks-e-especializacoes.html', 'Ranks e especializações solo'), link('docs/projeto-solo/seis-classes-habilidades-e-circulos.html', 'Seis classes e círculos'), link('docs/projeto-solo/scout-kit-base.html', 'Scout · kit base'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
+    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/companheiros-e-bots.html', 'Bots e grupo'), link('docs/sistemas/barracao-e-grupo.html', 'Barracão e grupo (2016)'), link('docs/projeto-solo/remocao-das-deusas.html', 'Sem deusas'), link('docs/projeto-solo/disponibilidade-das-classes.html', 'Elenco e pendências'), link('docs/projeto-solo/ranks-e-especializacoes.html', 'Ranks e especializações solo'), link('docs/projeto-solo/seis-classes-habilidades-e-circulos.html', 'Seis classes e círculos'), link('docs/projeto-solo/scout-kit-base.html', 'Scout · kit base'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
     `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
     group('ENTENDA A ÉPOCA', [link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build')]),
     group('PRESERVAR A MEMÓRIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('ROADMAP.html', 'Próximas etapas'), link('CONTRIBUTING.html', 'Como contribuir')]),

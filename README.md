@@ -44,6 +44,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)
 - [Como funcionavam ranks e círculos](docs/sistemas/ranks-e-circulos.md)
+- [Barracão, equipe e grupo no lançamento](docs/sistemas/barracao-e-grupo.md)
 - [Qual lançamento estamos documentando?](docs/recorte-historico.md)
 - [O que mudou do lançamento ao Re:Build?](docs/historia/evolucao-das-classes.md)
 - [Fontes e critérios de pesquisa](docs/fontes.md)

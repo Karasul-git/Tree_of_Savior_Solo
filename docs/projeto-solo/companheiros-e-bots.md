@@ -13,7 +13,7 @@ O proprietário escolheu as quatro bases do sistema. São **decisões de design*
 | Ponto | Decisão | O que continua aberto |
 | --- | --- | --- |
 | **Origem dos bots** | **Dois tipos:** personagens do próprio barracão (a equipe da conta) como regra, e bots gerados pelo servidor para completar o grupo ou para tarefas específicas. | Como se obtêm os bots do servidor (recrutamento em NPC, contrato, custo), se têm classe e equipamento fixos e se podem ser trocados. |
-| **Tamanho do grupo** | **Jogador + até 4 bots**, grupo de 5. Amigos que entram ocupam vagas de bot. | Confirmar com fonte o limite de grupo de 2016; decidir se animais de Hunter e Falconer contam como vaga. |
+| **Tamanho do grupo** | **Jogador + até 4 bots**, grupo de 5. Amigos que entram ocupam vagas de bot. | O limite de 5 só tem fonte do beta de 2015 ([pesquisa](../sistemas/barracao-e-grupo.md)); decidir se animais de Hunter e Falconer contam como vaga. |
 | **Controle** | **Posturas + ordens simples.** Posturas: seguir, agressivo, defensivo, passivo. Ordens: atacar o alvo, recuar/reagrupar, manter posição. As habilidades saem de um **perfil por classe**. | Interface (atalhos, menu, comandos de chat) e o conteúdo de cada perfil. |
 | **Progressão** | **Ganham experiência junto** com o grupo e seguem as mesmas regras de ranks e círculos do jogador. | Divisão de experiência entre jogador e bots; progressão dos bots do servidor. |
 | Jogadores reais | Amigos podem jogar juntos, com ou sem bots. | Regras de grupo misto e divisão de recompensas. |
@@ -21,7 +21,7 @@ O proprietário escolheu as quatro bases do sistema. São **decisões de design*
 
 ### Por que o barracão
 
-O barracão já reunia vários personagens da mesma conta numa equipe. Usá-lo como fonte dos bots **reaproveita um sistema original**: o jogador escolhe classe, build e equipamento de cada companheiro com as mesmas regras do próprio personagem. Os detalhes do barracão em março–abril de 2016 (vagas, nível de equipe, benefícios) **ainda não foram documentados com fonte** nesta wiki.
+O barracão já reunia vários personagens da mesma conta numa equipe. Usá-lo como fonte dos bots **reaproveita um sistema original**: o jogador escolhe classe, build e equipamento de cada companheiro com as mesmas regras do próprio personagem. A [pesquisa do barracão e do grupo](../sistemas/barracao-e-grupo.md) mostra quatro vagas iniciais, animais ocupando vagas e um bônus de experiência por nível de equipe, com fontes de 2016 majoritariamente de jogadores. Quatro vagas dão o jogador + 3; completar o grupo de 5 exige comprar vagas ou usar bots do servidor. As três opções originais de divisão de experiência (separada, igual, por nível) podem servir à progressão dos bots.
 
 ### Perfis por classe
 
@@ -55,10 +55,10 @@ Pardoner e Chaplain também tinham serviços e efeitos para o grupo, mas estão 
 
 ## Próximos estudos ligados a esta decisão
 
-- Documentar com fonte o barracão e o limite de grupo de março–abril de 2016.
+- Decidir as vagas do barracão para bots e se os animais contam no limite de 4.
 - Definir a obtenção e as regras dos bots do servidor.
 - Escrever os perfis de comportamento das três bases.
 - Reavaliar as habilidades de grupo das classes selecionadas com bots como destinatários.
 - Separar habilidades de **guilda** (Templar) das habilidades de **grupo**.
 
-**Próximo passo recomendado:** documentar com fonte o barracão e o limite de grupo de 2016 e, em seguida, escrever os perfis de comportamento das três bases.
+**Próximo passo recomendado:** decidir as vagas do barracão e os animais no limite de bots; depois, escrever os perfis de comportamento das três bases.

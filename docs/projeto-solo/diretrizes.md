@@ -93,4 +93,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** documentar o barracão e o limite de grupo de 2016 e escrever os perfis de comportamento das três bases; depois, pesquisar a arte de transporte que substituirá as estátuas.
+**Próximo passo recomendado:** decidir as vagas do barracão para bots e escrever os perfis de comportamento das três bases; depois, pesquisar a arte de transporte que substituirá as estátuas.

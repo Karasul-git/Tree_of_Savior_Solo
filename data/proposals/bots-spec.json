@@ -17,8 +17,11 @@
     "friends_take_bot_slots": true,
     "historical_party_limit_verified": false,
     "open": [
-      "animais de Hunter e Falconer contam como vaga"
-    ]
+      "animais de Hunter e Falconer contam como vaga",
+      "vagas do barracão: 4 iniciais dão jogador + 3"
+    ],
+    "historical_party_limit_evidence": "beta-2015-player-statement",
+    "historical_research": "docs/sistemas/barracao-e-grupo.md"
   },
   "control": {
     "model": "stances-and-simple-orders",
@@ -45,6 +48,10 @@
     "open": [
       "divisão de experiência",
       "progressão dos bots do servidor"
+    ],
+    "reuse_candidates": [
+      "team-level-exp-bonus",
+      "party-exp-sharing-options"
     ]
   },
   "profile_order": [

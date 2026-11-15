@@ -963,3 +963,43 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F115 · 4Gamer · evento de carimbos nas estátuas
 
 [Artigo da 4Gamer.net](https://www.4gamer.net/games/132/G013290/20161012104/) — 12/10/2016; consulta em 15/11/2026. O evento japonês dispensava a taxa de teletransporte das estátuas, indicando que o uso normal era cobrado. **Limite:** servidor japonês, fora do recorte iToS; leitura indireta, sem valor da taxa.
+
+<a id="f116"></a>
+### F116 · Fórum oficial · Information on Team Level
+
+[Fórum oficial · Information on Team Level](https://forum.treeofsavior.com/t/information-on-team-level/211131) — Rulke e respostas de jogadores, 22/04/2016; consulta em 15/11/2026. Jogadores relatam em abril de 2016 que o nível de equipe depende do nível dos personagens e companheiros (soma de nível²) e que vagas podiam ser compradas com TP. **Limite:** Relatos de jogadores, sem confirmação oficial; a fórmula e a compra de vagas não foram testadas nesta wiki. Benefícios não são descritos.
+
+<a id="f117"></a>
+### F117 · Fórum oficial · Benefits of Alts
+
+[Fórum oficial · Benefits of Alts](https://forum.treeofsavior.com/t/benefits-of-alts/168605) — PioPico e respostas de jogadores, 01/04/2016; consulta em 15/11/2026. Resposta de 01/04/2016 cita notas de atualização: a partir do nível 2, +1% de experiência por nível do barracão, inclusive para companheiros; máximo 50 e até 49%. **Limite:** Citação de notas de atualização feita por jogador; a nota original não foi conferida. Diverge do guia oficial atual (F123).
+
+<a id="f118"></a>
+### F118 · Steam · Group exp
+
+[Steam · Group exp](https://steamcommunity.com/app/372000/discussions/0/365163537817130767) — Zamperini e respostas de jogadores, 30/03/2016; consulta em 15/11/2026. Resposta de 31/03/2016 lista as opções do menu de grupo: receber separadamente, distribuição igual e escala por nível. **Limite:** Transcrição de jogador do menu do cliente; não descreve fórmulas.
+
+<a id="f119"></a>
+### F119 · Steam · Level range for exp sharing in parties
+
+[Steam · Level range for exp sharing in parties](https://steamcommunity.com/app/372000/discussions/0/357286033301726433/) — Mållgan e respostas de jogadores, 11/05/2016; consulta em 15/11/2026. Jogadores divergem em maio de 2016: uma resposta cita faixa de 12 níveis; outra diz que não há faixa máxima e que há penalidade contra monstros a mais de 5 níveis. **Limite:** Respostas contraditórias e sem fonte oficial; não usar como regra.
+
+<a id="f120"></a>
+### F120 · Steam · Char slots = companions slots
+
+[Steam · Char slots = companions slots](https://steamcommunity.com/app/372000/discussions/0/357286532028675046/) — LIyahLIweth e respostas de jogadores, 16/05/2016; consulta em 15/11/2026. Em maio de 2016, jogadores confirmam que cada companheiro ocupa uma vaga de personagem; algumas respostas dizem que não era possível comprar vagas. **Limite:** Relatos de jogadores; a impossibilidade de compra contradiz F116 e não foi confirmada.
+
+<a id="f121"></a>
+### F121 · Fórum oficial · +10% EXP for each party member
+
+[Fórum oficial · +10% EXP for each party member](https://forum.treeofsavior.com/t/can-we-have-10-exp-for-each-party-member-or-5/38664) — SheepPoop e respostas de jogadores, 22/08/2015; consulta em 15/11/2026. Resposta de 23/08/2015: "currently 5 is the max number of party members". **Limite:** Beta fechado de 2015, antes do recorte; afirmação de jogador. Não comprova o limite em março–abril de 2016.
+
+<a id="f122"></a>
+### F122 · Guia oficial · Create a Team/Character
+
+[Guia oficial · Create a Team/Character](https://treeofsavior.com/page/guide/view.php?n=5) — IMC Games, sem data visível; consulta em 15/11/2026. Quatro personagens por padrão; companheiros também ocupam vagas; nova vaga por 33 TP; barracão com até 40 personagens/companheiros. **Limite:** Página sem data; não comprova os valores de 2016.
+
+<a id="f123"></a>
+### F123 · Guia oficial · Lodge and Team Level
+
+[Guia oficial · Lodge and Team Level](https://treeofsavior.com/page/guide/view.php?n=7) — IMC Games, sem data visível; consulta em 15/11/2026. Nível de equipe vem dos personagens do barracão; +1% de experiência por nível a partir do 2, máximo 100; um companheiro por personagem (Falconer pode levar dois em certas condições). **Limite:** Página sem data e sujeita a atualizações; diverge do máximo 50 citado em 2016 (F117).
