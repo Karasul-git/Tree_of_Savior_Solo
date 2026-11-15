@@ -35,7 +35,8 @@
 - [ ] Revisar habilidades de Monk e Paladin para reaproveitamento sem magia.
 - [x] Navegação solo por bases com árvore abaixo da seleção, menu hierárquico e retorno contextual das fichas.
 - [x] Visão histórica separada, preservando as quatro árvores e as 55 classes.
-- [ ] Revisar visualmente as posições propostas e avaliar Warrior como nome final da base de combate próximo.
+- [x] Ratificar as 36 posições da árvore solo (15/11/2026).
+- [ ] Avaliar Warrior como nome final da base de combate próximo.
 - [ ] Comparar as habilidades originais de Alchemist e Plague Doctor para adaptação mínima, sem sequência de evolução presumida.
 - [ ] Escolher o sistema de avanço e validar a nova base Scout no cliente/servidor.
 - [ ] Consolidar a seleção nominal da versão solo e o tratamento de classes híbridas.
@@ -99,7 +100,7 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 
 - [x] Avaliar base técnica: Melia, cliente atual da Steam, dados e lacunas (grupo e bots).
 - [x] Fase 0: tabela das 39 classes no formato do Melia e esqueleto de progressão (rascunho).
-- [ ] Fase 0: ratificar posições da árvore, pontos por nível e curva de experiência.
+- [ ] Fase 0: pontos por nível e curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - [ ] Confirmar como o cliente atual exibe ranks e círculos.
 

@@ -67,4 +67,4 @@ O Melia segue o **cliente atual**, posterior ao Re:Build de 2018. O mantenedor e
 
 A fase 0 começou com a [tabela de classes e o esqueleto de progressão](classes-e-progressao-servidor.md).
 
-**Próximo passo recomendado:** ratificar as posições propostas da árvore e definir os pontos de atributo e habilidade por nível.
+**Próximo passo recomendado:** definir os pontos de atributo e de habilidade por nível.

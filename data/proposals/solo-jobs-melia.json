@@ -29,7 +29,7 @@
       "class_id": "highlander",
       "solo_base": "warrior",
       "solo_rank": 2,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 2,
       "melia": {
@@ -45,7 +45,7 @@
       "class_id": "peltasta",
       "solo_base": "warrior",
       "solo_rank": 2,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 2,
       "melia": {
@@ -61,7 +61,7 @@
       "class_id": "barbarian",
       "solo_base": "warrior",
       "solo_rank": 3,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 3,
       "melia": {
@@ -79,7 +79,7 @@
       "class_id": "hoplite",
       "solo_base": "warrior",
       "solo_rank": 3,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 3,
       "melia": {
@@ -97,7 +97,7 @@
       "class_id": "cataphract",
       "solo_base": "warrior",
       "solo_rank": 4,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 4,
       "melia": {
@@ -115,7 +115,7 @@
       "class_id": "rodelero",
       "solo_base": "warrior",
       "solo_rank": 4,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 4,
       "melia": {
@@ -133,7 +133,7 @@
       "class_id": "monk",
       "solo_base": "warrior",
       "solo_rank": 5,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Cleric",
       "historical_first_rank": 5,
       "melia": {
@@ -152,7 +152,7 @@
       "class_id": "paladin",
       "solo_base": "warrior",
       "solo_rank": 5,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Cleric",
       "historical_first_rank": 4,
       "melia": {
@@ -171,7 +171,7 @@
       "class_id": "doppelsoeldner",
       "solo_base": "warrior",
       "solo_rank": 6,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 6,
       "melia": {
@@ -189,7 +189,7 @@
       "class_id": "fencer",
       "solo_base": "warrior",
       "solo_rank": 6,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 6,
       "melia": {
@@ -207,7 +207,7 @@
       "class_id": "dragoon",
       "solo_base": "warrior",
       "solo_rank": 7,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 7,
       "melia": {
@@ -259,7 +259,7 @@
       "class_id": "quarrel-shooter",
       "solo_base": "archer",
       "solo_rank": 2,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 2,
       "melia": {
@@ -275,7 +275,7 @@
       "class_id": "ranger",
       "solo_base": "archer",
       "solo_rank": 2,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 2,
       "melia": {
@@ -291,7 +291,7 @@
       "class_id": "hunter",
       "solo_base": "archer",
       "solo_rank": 3,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 3,
       "melia": {
@@ -309,7 +309,7 @@
       "class_id": "sapper",
       "solo_base": "archer",
       "solo_rank": 3,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 3,
       "melia": {
@@ -327,7 +327,7 @@
       "class_id": "appraiser",
       "solo_base": "archer",
       "solo_rank": 4,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": null,
       "historical_first_rank": null,
       "melia": {
@@ -345,7 +345,7 @@
       "class_id": "wugushi",
       "solo_base": "archer",
       "solo_rank": 4,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 4,
       "melia": {
@@ -363,7 +363,7 @@
       "class_id": "arbalester",
       "solo_base": "archer",
       "solo_rank": 5,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": null,
       "historical_first_rank": null,
       "melia": {
@@ -381,7 +381,7 @@
       "class_id": "fletcher",
       "solo_base": "archer",
       "solo_rank": 5,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 5,
       "melia": {
@@ -399,7 +399,7 @@
       "class_id": "falconer",
       "solo_base": "archer",
       "solo_rank": 6,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 6,
       "melia": {
@@ -417,7 +417,7 @@
       "class_id": "mergen",
       "solo_base": "archer",
       "solo_rank": 6,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": null,
       "historical_first_rank": null,
       "melia": {
@@ -435,7 +435,7 @@
       "class_id": "cannoneer",
       "solo_base": "archer",
       "solo_rank": 7,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 7,
       "melia": {
@@ -453,7 +453,7 @@
       "class_id": "musketeer",
       "solo_base": "archer",
       "solo_rank": 7,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 7,
       "melia": {
@@ -487,7 +487,7 @@
       "class_id": "assassin",
       "solo_base": "scout",
       "solo_rank": 2,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": null,
       "historical_first_rank": null,
       "melia": {
@@ -503,7 +503,7 @@
       "class_id": "clown",
       "solo_base": "scout",
       "solo_rank": 2,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": null,
       "historical_first_rank": null,
       "melia": {
@@ -519,7 +519,7 @@
       "class_id": "outlaw",
       "solo_base": "scout",
       "solo_rank": 3,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": null,
       "historical_first_rank": null,
       "melia": {
@@ -537,7 +537,7 @@
       "class_id": "sheriff",
       "solo_base": "scout",
       "solo_rank": 3,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": null,
       "historical_first_rank": null,
       "melia": {
@@ -555,7 +555,7 @@
       "class_id": "ardito",
       "solo_base": "scout",
       "solo_rank": 4,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": null,
       "historical_first_rank": null,
       "melia": {
@@ -573,7 +573,7 @@
       "class_id": "rogue",
       "solo_base": "scout",
       "solo_rank": 4,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 5,
       "melia": {
@@ -591,7 +591,7 @@
       "class_id": "corsair",
       "solo_base": "scout",
       "solo_rank": 5,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 5,
       "melia": {
@@ -609,7 +609,7 @@
       "class_id": "squire",
       "solo_base": "scout",
       "solo_rank": 5,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 5,
       "melia": {
@@ -646,7 +646,7 @@
       "class_id": "schwarzer-reiter",
       "solo_base": "scout",
       "solo_rank": 6,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Archer",
       "historical_first_rank": 6,
       "melia": {
@@ -683,7 +683,7 @@
       "class_id": "shinobi",
       "solo_base": "scout",
       "solo_rank": 7,
-      "placement_status": "proposed",
+      "placement_status": "defined",
       "historical_tree": "Swordsman",
       "historical_first_rank": 7,
       "melia": {
@@ -697,5 +697,6 @@
         "rank"
       ]
     }
-  ]
+  ],
+  "tree_ratified_at": "2026-11-15"
 }

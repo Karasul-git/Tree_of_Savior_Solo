@@ -48,7 +48,7 @@ A revisão do proprietário definiu a visão solo como entrada principal e autor
 - **Archer:** Quarrel Shooter, Ranger, Hunter, Sapper, Wugushi, Fletcher, Falconer, Cannoneer, Musketeer, Appraiser, Arbalester e Mergen.
 - **Scout:** Rogue, Schwarzer Reiter, Corsair, Squire, Shinobi, Alchemist, Plague Doctor, Assassin, Outlaw, Clown, Sheriff e Ardito.
 
-Templar, Alchemist e Plague Doctor têm **posição definida**. As demais posições são **propostas**, sem aprovação automática de habilidades ou requisitos. A árvore mostra opções da mesma base, sem estabelecer evolução obrigatória entre especializações. Monk e Paladin mantêm suas fichas históricas de Cleric, mesmo com o encaixe proposto em Warrior. Assassin e Outlaw não fazem parte de 2016.
+**15/11/2026 — Árvore ratificada.** O proprietário ratificou as 36 posições de Warrior, Archer e Scout, base por base. A ratificação vale para posição e rank; habilidades adaptadas, círculos das classes posteriores e requisitos continuam em estudo. A árvore mostra opções da mesma base, sem estabelecer evolução obrigatória entre especializações. Monk e Paladin mantêm suas fichas históricas de Cleric, mesmo com o encaixe proposto em Warrior. Assassin e Outlaw não fazem parte de 2016.
 
 [Abrir as árvores solo](../classes/catalogo-2016.md) · [Abrir a visão de 2016](../classes/catalogo-2016.md?view=2016). Agrupamentos temáticos, como escudos, lanças e animais, ficam para outra etapa.
 
@@ -99,4 +99,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Fase 0 iniciada.** A [tabela das 39 classes no formato do Melia](classes-e-progressao-servidor.md) mostra 9 classes sem mudança, 26 com mudança de rank e 4 com mudança de rank e árvore. O esqueleto de progressão propõe R7, 15 níveis de classe por rank, círculos até C3 e nível máximo 280.
 
-**Próximo passo recomendado:** ratificar as posições propostas da árvore e definir os pontos de atributo e habilidade por nível.
+**Próximo passo recomendado:** definir os pontos de atributo e de habilidade por nível, base das fórmulas de balanceamento.

@@ -9,12 +9,13 @@ catalog.later_classes = JSON.parse(readFileSync(new URL('../data/catalog/classes
 const solo = JSON.parse(readFileSync(new URL('../data/catalog/classes-solo.json', import.meta.url)));
 const soloState = readTreeState('', catalog, solo);
 
-test('a entrada solo tem 12/12/12 especializações e somente três posições definidas', () => {
+test('a entrada solo tem 12/12/12 especializações, todas ratificadas', () => {
   assert.equal(soloState.view, 'solo');
   assert.deepEqual(treeBases(catalog, solo).map(b => b.classes.length), [12, 12, 12]);
   assert.equal(treeVisibleCount(catalog, solo, soloState).total, 36);
   assert.equal(new Set(solo.bases.flatMap(b => [b.source_class_id, ...b.classes.map(c => c.class_id)])).size, 39);
-  assert.deepEqual(solo.bases.flatMap(b => b.classes.filter(c => c.placement_status === 'defined').map(c => c.class_id)).sort(), ['alchemist', 'plague-doctor', 'templar']);
+  assert.equal(solo.bases.flatMap(b => b.classes.filter(c => c.placement_status === 'defined')).length, 36);
+  assert.equal(solo.status, 'ratified-tree');
   assert.equal(soloMembership(solo, 'linker'), null);
   assert.equal(soloMembership(solo, 'thaumaturge'), null);
   assert.equal(soloMembership(solo, 'monk').base.id, 'warrior');
@@ -91,19 +92,19 @@ test('a saída publicada inclui dados de árvore, controles e três entradas sol
   assert.ok(ref.includes('Original de 2016 · Wizard'));
 });
 
-test('as três bases cobrem R2–R7 e os ranks propostos não alteram a história', () => {
+test('as três bases cobrem R2–R7 e os ranks solo não alteram a história', () => {
   for (const base of solo.bases) {
     assert.ok(treeRankCoverage(catalog, base).every(r => r.count > 0));
   }
   assert.deepEqual(treeRankCoverage(catalog, solo.bases[0]).map(r => r.count), [2, 2, 2, 2, 2, 2]);
-  assert.deepEqual(treeRankCoverage(catalog, solo.bases[2]).filter(r => r.proposed).map(r => r.rank), [2, 3, 4]);
+  assert.deepEqual(treeRankCoverage(catalog, solo.bases[2]).filter(r => r.soloRank).map(r => r.rank), [2, 3, 4]);
   const state = readTreeState('?view=solo&base=scout&query=rogue&rank=4', catalog, solo);
   assert.deepEqual(branchEntries(catalog, solo.bases[2], state).map(c => c.id), ['rogue']);
   assert.equal(catalog.classes.find(c => c.id === 'rogue').first_rank, 5);
   const historical = readTreeState('?view=2016&base=archer&rank=5&query=rogue', catalog, solo);
   assert.deepEqual(branchEntries(catalog, treeBases(catalog, solo, '2016')[2], historical).map(c => c.id), ['rogue']);
   const html = renderTreeBranches(catalog, solo, state, '../../');
-  assert.ok(html.includes('Rank solo proposto'));
+  assert.ok(html.includes('Rank solo definido'));
   assert.ok(html.includes('Original: Archer · R5'));
 });
 

@@ -2,7 +2,7 @@
 
 [Estrutura do servidor](servidor-estrutura.md) · [Ranks e especializações solo](ranks-e-especializacoes.md) · [Ranks e círculos de 2016](../sistemas/ranks-e-circulos.md) · [Fontes](../fontes.md)
 
-**Fase 0, rascunho de 15/11/2026.** Esta página converte a árvore solo para os dados do [Melia](servidor-estrutura.md) e propõe o esqueleto de progressão. É uma tabela de trabalho: nada foi aplicado ou testado no servidor, e as posições propostas da árvore continuam sem ratificação. Os dados estão em [solo-jobs-melia.json](../../data/proposals/solo-jobs-melia.json).
+**Fase 0, rascunho de 15/11/2026.** Esta página converte a árvore solo para os dados do [Melia](servidor-estrutura.md) e propõe o esqueleto de progressão. É uma tabela de trabalho: nada foi aplicado ou testado no servidor, e a árvore foi ratificada pelo proprietário no mesmo dia. Os dados estão em [solo-jobs-melia.json](../../data/proposals/solo-jobs-melia.json).
 
 ## Resumo
 
@@ -39,17 +39,17 @@
 | Rank solo | Classe | Posição | Rank no Melia | Árvore no Melia | Círculo máximo até R7 | Mudança no servidor |
 | --- | --- | --- | --- | --- | --- | --- |
 | R1 | [Swordsman](../classes/catalogo/swordsman.md) | Definida | 1 | Swordsman | C3 | Nenhuma |
-| R2 | [Highlander](../classes/catalogo/highlander.md) | Proposta | 2 | Swordsman | C3 | Nenhuma |
-| R2 | [Peltasta](../classes/catalogo/peltasta.md) | Proposta | 2 | Swordsman | C3 | Nenhuma |
-| R3 | [Barbarian](../classes/catalogo/barbarian.md) | Proposta | 2 | Swordsman | C3 | rank 2 → 3 |
-| R3 | [Hoplite](../classes/catalogo/hoplite.md) | Proposta | 2 | Swordsman | C3 | rank 2 → 3 |
-| R4 | [Cataphract](../classes/catalogo/cataphract.md) | Proposta | 2 | Swordsman | C3 | rank 2 → 4 |
-| R4 | [Rodelero](../classes/catalogo/rodelero.md) | Proposta | 2 | Swordsman | C3 | rank 2 → 4 |
-| R5 | [Monk](../classes/catalogo/monk.md) | Proposta | 2 | Cleric | C3 | rank 2 → 5; árvore Cleric → Warrior |
-| R5 | [Paladin](../classes/catalogo/paladin.md) | Proposta | 2 | Cleric | C3 | rank 2 → 5; árvore Cleric → Warrior |
-| R6 | [Doppelsoeldner](../classes/catalogo/doppelsoeldner.md) | Proposta | 2 | Swordsman | C2 | rank 2 → 6 |
-| R6 | [Fencer](../classes/catalogo/fencer.md) | Proposta | 2 | Swordsman | C2 | rank 2 → 6 |
-| R7 | [Dragoon](../classes/catalogo/dragoon.md) | Proposta | 2 | Swordsman | C1 | rank 2 → 7 |
+| R2 | [Highlander](../classes/catalogo/highlander.md) | Definida | 2 | Swordsman | C3 | Nenhuma |
+| R2 | [Peltasta](../classes/catalogo/peltasta.md) | Definida | 2 | Swordsman | C3 | Nenhuma |
+| R3 | [Barbarian](../classes/catalogo/barbarian.md) | Definida | 2 | Swordsman | C3 | rank 2 → 3 |
+| R3 | [Hoplite](../classes/catalogo/hoplite.md) | Definida | 2 | Swordsman | C3 | rank 2 → 3 |
+| R4 | [Cataphract](../classes/catalogo/cataphract.md) | Definida | 2 | Swordsman | C3 | rank 2 → 4 |
+| R4 | [Rodelero](../classes/catalogo/rodelero.md) | Definida | 2 | Swordsman | C3 | rank 2 → 4 |
+| R5 | [Monk](../classes/catalogo/monk.md) | Definida | 2 | Cleric | C3 | rank 2 → 5; árvore Cleric → Warrior |
+| R5 | [Paladin](../classes/catalogo/paladin.md) | Definida | 2 | Cleric | C3 | rank 2 → 5; árvore Cleric → Warrior |
+| R6 | [Doppelsoeldner](../classes/catalogo/doppelsoeldner.md) | Definida | 2 | Swordsman | C2 | rank 2 → 6 |
+| R6 | [Fencer](../classes/catalogo/fencer.md) | Definida | 2 | Swordsman | C2 | rank 2 → 6 |
+| R7 | [Dragoon](../classes/catalogo/dragoon.md) | Definida | 2 | Swordsman | C1 | rank 2 → 7 |
 | R7 | [Templar](../classes/catalogo/templar.md) | Definida | 2 | Swordsman | C1 | rank 2 → 7 |
 
 ## Archer
@@ -57,42 +57,41 @@
 | Rank solo | Classe | Posição | Rank no Melia | Árvore no Melia | Círculo máximo até R7 | Mudança no servidor |
 | --- | --- | --- | --- | --- | --- | --- |
 | R1 | [Archer](../classes/catalogo/archer.md) | Definida | 1 | Archer | C3 | Nenhuma |
-| R2 | [Quarrel Shooter](../classes/catalogo/quarrel-shooter.md) | Proposta | 2 | Archer | C3 | Nenhuma |
-| R2 | [Ranger](../classes/catalogo/ranger.md) | Proposta | 2 | Archer | C3 | Nenhuma |
-| R3 | [Hunter](../classes/catalogo/hunter.md) | Proposta | 2 | Archer | C3 | rank 2 → 3 |
-| R3 | [Sapper](../classes/catalogo/sapper.md) | Proposta | 2 | Archer | C3 | rank 2 → 3 |
-| R4 | [Appraiser](../classes/catalogo/appraiser.md) | Proposta | 2 | Archer | C3 | rank 2 → 4 |
-| R4 | [Wugushi](../classes/catalogo/wugushi.md) | Proposta | 2 | Archer | C3 | rank 2 → 4 |
-| R5 | [Arbalester](../classes/catalogo/arbalester.md) | Proposta | 2 | Archer | C3 | rank 2 → 5 |
-| R5 | [Fletcher](../classes/catalogo/fletcher.md) | Proposta | 2 | Archer | C3 | rank 2 → 5 |
-| R6 | [Falconer](../classes/catalogo/falconer.md) | Proposta | 2 | Archer | C2 | rank 2 → 6 |
-| R6 | [Mergen](../classes/catalogo/mergen.md) | Proposta | 2 | Archer | C2 | rank 2 → 6 |
-| R7 | [Cannoneer](../classes/catalogo/cannoneer.md) | Proposta | 2 | Archer | C1 | rank 2 → 7 |
-| R7 | [Musketeer](../classes/catalogo/musketeer.md) | Proposta | 2 | Archer | C1 | rank 2 → 7 |
+| R2 | [Quarrel Shooter](../classes/catalogo/quarrel-shooter.md) | Definida | 2 | Archer | C3 | Nenhuma |
+| R2 | [Ranger](../classes/catalogo/ranger.md) | Definida | 2 | Archer | C3 | Nenhuma |
+| R3 | [Hunter](../classes/catalogo/hunter.md) | Definida | 2 | Archer | C3 | rank 2 → 3 |
+| R3 | [Sapper](../classes/catalogo/sapper.md) | Definida | 2 | Archer | C3 | rank 2 → 3 |
+| R4 | [Appraiser](../classes/catalogo/appraiser.md) | Definida | 2 | Archer | C3 | rank 2 → 4 |
+| R4 | [Wugushi](../classes/catalogo/wugushi.md) | Definida | 2 | Archer | C3 | rank 2 → 4 |
+| R5 | [Arbalester](../classes/catalogo/arbalester.md) | Definida | 2 | Archer | C3 | rank 2 → 5 |
+| R5 | [Fletcher](../classes/catalogo/fletcher.md) | Definida | 2 | Archer | C3 | rank 2 → 5 |
+| R6 | [Falconer](../classes/catalogo/falconer.md) | Definida | 2 | Archer | C2 | rank 2 → 6 |
+| R6 | [Mergen](../classes/catalogo/mergen.md) | Definida | 2 | Archer | C2 | rank 2 → 6 |
+| R7 | [Cannoneer](../classes/catalogo/cannoneer.md) | Definida | 2 | Archer | C1 | rank 2 → 7 |
+| R7 | [Musketeer](../classes/catalogo/musketeer.md) | Definida | 2 | Archer | C1 | rank 2 → 7 |
 
 ## Scout
 
 | Rank solo | Classe | Posição | Rank no Melia | Árvore no Melia | Círculo máximo até R7 | Mudança no servidor |
 | --- | --- | --- | --- | --- | --- | --- |
 | R1 | [Scout](../classes/catalogo/scout.md) | Definida | 1 | Scout | C3 | Nenhuma |
-| R2 | [Assassin](../classes/catalogo/assassin.md) | Proposta | 2 | Scout | C3 | Nenhuma |
-| R2 | [Clown](../classes/catalogo/clown.md) | Proposta | 2 | Scout | C3 | Nenhuma |
-| R3 | [Outlaw](../classes/catalogo/outlaw.md) | Proposta | 2 | Scout | C3 | rank 2 → 3 |
-| R3 | [Sheriff](../classes/catalogo/sheriff.md) | Proposta | 2 | Scout | C3 | rank 2 → 3 |
-| R4 | [Ardito](../classes/catalogo/ardito.md) | Proposta | 2 | Scout | C3 | rank 2 → 4 |
-| R4 | [Rogue](../classes/catalogo/rogue.md) | Proposta | 2 | Scout | C3 | rank 2 → 4 |
-| R5 | [Corsair](../classes/catalogo/corsair.md) | Proposta | 2 | Scout | C3 | rank 2 → 5 |
-| R5 | [Squire](../classes/catalogo/squire.md) | Proposta | 2 | Scout | C3 | rank 2 → 5 |
+| R2 | [Assassin](../classes/catalogo/assassin.md) | Definida | 2 | Scout | C3 | Nenhuma |
+| R2 | [Clown](../classes/catalogo/clown.md) | Definida | 2 | Scout | C3 | Nenhuma |
+| R3 | [Outlaw](../classes/catalogo/outlaw.md) | Definida | 2 | Scout | C3 | rank 2 → 3 |
+| R3 | [Sheriff](../classes/catalogo/sheriff.md) | Definida | 2 | Scout | C3 | rank 2 → 3 |
+| R4 | [Ardito](../classes/catalogo/ardito.md) | Definida | 2 | Scout | C3 | rank 2 → 4 |
+| R4 | [Rogue](../classes/catalogo/rogue.md) | Definida | 2 | Scout | C3 | rank 2 → 4 |
+| R5 | [Corsair](../classes/catalogo/corsair.md) | Definida | 2 | Scout | C3 | rank 2 → 5 |
+| R5 | [Squire](../classes/catalogo/squire.md) | Definida | 2 | Scout | C3 | rank 2 → 5 |
 | R6 | [Alchemist](../classes/catalogo/alchemist.md) | Definida | 2 | Wizard | C2 | rank 2 → 6; árvore Wizard → Scout |
-| R6 | [Schwarzer Reiter](../classes/catalogo/schwarzer-reiter.md) | Proposta | 2 | Scout | C2 | rank 2 → 6 |
+| R6 | [Schwarzer Reiter](../classes/catalogo/schwarzer-reiter.md) | Definida | 2 | Scout | C2 | rank 2 → 6 |
 | R7 | [Plague Doctor](../classes/catalogo/plague-doctor.md) | Definida | 2 | Cleric | C1 | rank 2 → 7; árvore Cleric → Scout |
-| R7 | [Shinobi](../classes/catalogo/shinobi.md) | Proposta | 2 | Scout | C1 | rank 2 → 7 |
+| R7 | [Shinobi](../classes/catalogo/shinobi.md) | Definida | 2 | Scout | C1 | rank 2 → 7 |
 
 ## Pendências
 
-- Ratificar as posições propostas da árvore antes de aplicar ranks no servidor.
 - Confirmar com fonte de 2016 os pontos de habilidade e de atributo por nível.
 - Verificar se o cliente atual aceita classes de outra árvore e ranks escalonados sem mudar os arquivos dele.
 - Definir a curva de experiência para grupos de 4.
 
-**Próximo passo recomendado:** ratificar as posições da árvore solo que ainda são propostas. Depois, definir a quantidade de pontos de atributo e de habilidade por nível, que é a base das fórmulas.
+**Próximo passo recomendado:** definir a quantidade de pontos de atributo e de habilidade por nível, que é a base das fórmulas.
