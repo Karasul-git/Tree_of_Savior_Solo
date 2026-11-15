@@ -40,6 +40,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Acervo original de classes e habilidades](docs/classes/catalogo-2016.md?view=2016)
 - [Diretrizes da versão solo](docs/projeto-solo/diretrizes.md)
 - [Scout · kit base proposto](docs/projeto-solo/scout-kit-base.md)
+- [Estrutura do servidor](docs/projeto-solo/servidor-estrutura.md)
 - [Companheiros, bots e grupo](docs/projeto-solo/companheiros-e-bots.md)
 - [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)

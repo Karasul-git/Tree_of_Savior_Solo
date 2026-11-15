@@ -1550,5 +1550,29 @@
     "url": "https://treeofsavior.com/page/guide/view.php?n=7",
     "supports": "Nível de equipe vem dos personagens do barracão; +1% de experiência por nível a partir do 2, máximo 100; um companheiro por personagem (Falconer pode levar dois em certas condições).",
     "limitations": "Página sem data e sujeita a atualizações; diverge do máximo 50 citado em 2016 (F117)."
+  },
+  {
+    "id": "F124",
+    "title": "Melia · repositório do emulador de servidor",
+    "author": "NoCode-NoLife e colaboradores",
+    "published": "2026-05-19",
+    "accessed": "2026-11-15",
+    "kind": "technical-reference",
+    "scope": "Base técnica candidata para o servidor do projeto",
+    "url": "https://github.com/NoCode-NoLife/melia/tree/67e93eeff654cc5c3adef3ad6854fb0ddba85b61",
+    "supports": "Servidor em C# (.NET 8+) com MySQL/MariaDB, licença GPL-3.0, compatível com o cliente internacional mais recente da Steam; dados de classes (jobs.txt, skilltree.txt), chaves de recursos por época (features.txt), pontos de ressurreição por cidade e suporte a círculos no código. Data é a do último commit inspecionado.",
+    "limitations": "O próprio projeto diz que ainda falta para ser \"truly playable\". Inspeção só de leitura, sem compilar nem executar. Não comprova o comportamento de 2016; os dados seguem o jogo posterior ao Re:Build."
+  },
+  {
+    "id": "F125",
+    "title": "Melia · discussão #167 sobre continuidade e versão do cliente",
+    "author": "Adephx, exectails e outros",
+    "published": "2021-08-27",
+    "accessed": "2026-11-15",
+    "kind": "technical-reference",
+    "scope": "Viabilidade de usar cliente antigo ou atual",
+    "url": "https://github.com/NoCode-NoLife/melia/discussions/167",
+    "supports": "O mantenedor explica que trabalhar com o cliente mais recente é o caminho mais fácil, porque um cliente antigo perde a captura de pacotes de servidores oficiais; também descreve como apontar o cliente para um servidor próprio.",
+    "limitations": "Discussão de 2021–2023; detalhes técnicos podem ter mudado."
   }
 ]

@@ -95,6 +95,13 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [ ] Decidir se animais contam no limite de 3 bots (proposta: não contam).
 - [x] Encerrar a etapa de conceito dos bots; perfis, interface e técnica ficam para a implementação.
 
+## Servidor
+
+- [x] Avaliar base técnica: Melia, cliente atual da Steam, dados e lacunas (grupo e bots).
+- [ ] Fase 0: tabelas de classes, círculos e progressão no formato do Melia.
+- [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
+- [ ] Confirmar como o cliente atual exibe ranks e círculos.
+
 ## Prioridade seguinte · Balanceamento
 
 - [ ] Esqueleto de progressão solo: níveis, ranks e círculos, partindo das tabelas de 2016.

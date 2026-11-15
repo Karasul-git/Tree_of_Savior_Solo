@@ -95,4 +95,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Grupo de 4 e mudança de foco.** O grupo passa a ter 4 personagens no total (jogador + até 3 bots), o que coincide com as quatro vagas iniciais do barracão. O conceito de bots fica encerrado por ora; o foco passa a balanceamento de fórmulas, classes e progressão.
 
-**Próximo passo recomendado:** montar o esqueleto de progressão solo (níveis, ranks e círculos) a partir das tabelas de 2016 já documentadas.
+**15/11/2026 — Estrutura do servidor.** O Melia é a base técnica candidata: servidor aberto em C#, compatível com o cliente atual da Steam, com as 39 classes da seleção nos dados e suporte a círculos no código. Grupo e bots precisarão ser construídos. [Estrutura e fases](servidor-estrutura.md).
+
+**Próximo passo recomendado:** montar a tabela de classes por rank e círculo no formato do Melia, junto com o esqueleto de progressão.

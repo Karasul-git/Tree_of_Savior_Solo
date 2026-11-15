@@ -1003,3 +1003,13 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F123 · Guia oficial · Lodge and Team Level
 
 [Guia oficial · Lodge and Team Level](https://treeofsavior.com/page/guide/view.php?n=7) — IMC Games, sem data visível; consulta em 15/11/2026. Nível de equipe vem dos personagens do barracão; +1% de experiência por nível a partir do 2, máximo 100; um companheiro por personagem (Falconer pode levar dois em certas condições). **Limite:** Página sem data e sujeita a atualizações; diverge do máximo 50 citado em 2016 (F117).
+
+<a id="f124"></a>
+### F124 · Melia · repositório do emulador de servidor
+
+[NoCode-NoLife/melia, commit 67e93ee](https://github.com/NoCode-NoLife/melia/tree/67e93eeff654cc5c3adef3ad6854fb0ddba85b61) — último commit inspecionado de 19/05/2026; consulta em 15/11/2026. Servidor em C# (.NET 8+) com MySQL/MariaDB, licença GPL-3.0, compatível com o cliente internacional atual da Steam; dados de classes, chaves de recursos por época e suporte a círculos. **Limite:** o projeto ainda não se considera plenamente jogável; inspeção só de leitura, sem execução; os dados seguem o jogo posterior ao Re:Build.
+
+<a id="f125"></a>
+### F125 · Melia · discussão #167
+
+[Anyone interested in continuing this project?](https://github.com/NoCode-NoLife/melia/discussions/167) — aberta em 27/08/2021, encerrada em 17/05/2023; consulta em 15/11/2026. O mantenedor recomenda o cliente mais recente, porque um cliente antigo perde a captura de pacotes, e descreve como apontar o cliente para um servidor próprio. **Limite:** detalhes técnicos podem ter mudado.
