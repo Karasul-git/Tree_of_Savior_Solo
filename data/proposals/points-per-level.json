@@ -78,5 +78,11 @@
     "bonus_for_100": 22,
     "bonus_for_150": 35,
     "bonus_for_279": 78
+  },
+  "int_role": {
+    "decision": "preparation-potency",
+    "decided_at": "2026-11-15",
+    "scope": "Dano e cura de química, medicina e consumíveis (explosões, fogo, veneno, poções aplicadas); valores e fórmulas pendentes.",
+    "affected_skills_source": "data/proposals/magic-skills-int.json"
   }
 }

@@ -71,7 +71,11 @@ As outras 35 classes não têm nenhuma habilidade mágica nesses dados.
 | Modafinil | Posterior | Apoio e defesa | Estimulante do kit atual. | Magic, ataque mágico |
 | Pandemic | 2016 e posterior | Controle | Espalha estados negativos do alvo para outros inimigos. | Magic, ataque mágico · Holy |
 
-## O que isso diz sobre o INT
+## Decisão: INT como potência de preparados
+
+**15/11/2026 — decisão do proprietário.** O INT passa a medir a **potência de preparados**: química, medicina e consumíveis. Ele aumenta o dano de explosões, fogo e veneno de Alchemist e Plague Doctor e a força das curas por poções e medicina. Os valores por ponto e as fórmulas ainda serão definidos.
+
+## Por que esse papel
 
 - **Todo o dano mágico restante vem de química:** itens que explodem, fogo, veneno e vapor de Alchemist e Plague Doctor.
 - **A cura também vem de preparados:** poções aplicadas, recuperação medicinal. A exceção é a aura de Paladin.
@@ -81,9 +85,8 @@ Por isso, das três ideias da página de pontos, a que cobre o que existe é **I
 
 ## Pendências
 
-- Escolher o papel do INT.
 - Conferir no cliente se a mudança do tipo de dano dessas habilidades funciona.
 - Decidir o destino de Turn Undead, Conversion e Resist Elements na revisão de Paladin.
 - Verificar se Alchemistic Missile entra no kit, já que o estudo de suporte sugeria substituir projéteis de energia.
 
-**Próximo passo recomendado:** escolher o papel do INT. Recomendo **potência de preparados**, que cobre todo o dano e a cura mágicos que sobraram na árvore. Depois disso, as fórmulas de dano podem ser montadas.
+**Próximo passo recomendado:** montar as fórmulas de dano: como STR, DEX e o INT de preparados viram dano, e quanto os monstros precisam aguentar com um grupo de 4.

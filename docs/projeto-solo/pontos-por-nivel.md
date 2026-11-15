@@ -10,7 +10,7 @@
 
 | Tema | Decisão |
 | --- | --- |
-| **INT** | **Ressignificar.** Sem classes mágicas, o INT ganhará outro papel físico ou técnico. O papel exato fica para a etapa de fórmulas. |
+| **INT** | **Potência de preparados** (decidido em seguida, no mesmo dia): química, medicina e consumíveis. [Levantamento e decisão](habilidades-magicas-e-int.md). |
 | **Bônus por investimento** | **Manter**, como no original. |
 | **Pontos extras de história, revelações e estátuas** | **Realocar** para missões, exploração e marcos do mapa, em quantidade parecida. |
 
@@ -20,13 +20,13 @@
 | --- | --- | --- |
 | STR | Ataque físico. | Mantém. |
 | CON | HP máximo e defesas. | Mantém. |
-| INT | Ataque mágico. | **Ressignificar.** |
+| INT | Ataque mágico. | **Potência de preparados.** |
 | SPR | Recuperação, SP máximo e crítico mágico. | Mantém recuperação e SP; o crítico mágico perde função. |
 | DEX | Velocidade de ataque e crítico físico. | Mantém. |
 
 Descrições do guia oficial atual. [F113](../fontes.md#f113) Os valores por ponto que ele traz são do jogo posterior e não foram adotados.
 
-### Ideias para o novo INT (sem decisão)
+### Ideias consideradas para o novo INT
 
 - **Potência de consumíveis e preparados:** poções, venenos e frascos de Alchemist e Plague Doctor.
 - **Técnica com dispositivos:** explosivos, armadilhas e munições especiais (Sapper, Cannoneer, Ardito).
@@ -78,7 +78,6 @@ Os bots seguem as mesmas regras. Como a distribuição é livre, cada classe vai
 
 - Confirmar os números com fonte de 2016.
 - Definir se os atributos iniciais contam no bônus por investimento.
-- Escolher o novo papel do INT, depois de listar as habilidades que usam ataque mágico.
 - Definir o nível máximo de cada habilidade por círculo.
 
-**Próximo passo recomendado:** escolher o papel do INT com base no [levantamento das habilidades mágicas](habilidades-magicas-e-int.md).
+**Próximo passo recomendado:** montar as fórmulas de dano com o INT de preparados.

@@ -65,6 +65,7 @@ test('os pontos por nível registram as decisões do proprietário e somam corre
   assert.equal(pts.attribute_points.from_levels, pts.attribute_points.max_level - 1);
   assert.equal(pts.skill_points.total_at_r7, 7 * pts.skill_points.class_levels_per_rank * pts.skill_points.per_class_level);
   assert.equal(pts.examples.bonus_for_150, 35);
+  assert.equal(pts.int_role.decision, 'preparation-potency');
 });
 
 test('o levantamento de magia só aponta classes da árvore solo e soma 26 habilidades', () => {

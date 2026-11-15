@@ -96,4 +96,4 @@
 
 Os pontos por nível foram detalhados em [Pontos de atributo e de habilidade](pontos-por-nivel.md).
 
-**Próximo passo recomendado:** escolher o papel do INT com base no [levantamento das habilidades mágicas](habilidades-magicas-e-int.md).
+**Próximo passo recomendado:** montar as fórmulas de dano, com o [INT como potência de preparados](habilidades-magicas-e-int.md).

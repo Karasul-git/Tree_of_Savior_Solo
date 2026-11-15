@@ -103,4 +103,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Habilidades mágicas restantes.** Nos dados do servidor, 26 habilidades de quatro classes usam magia: Monk, Paladin, Alchemist e Plague Doctor. Todo o dano e a cura mágicos que sobram vêm de química e medicina. [Levantamento](habilidades-magicas-e-int.md).
 
-**Próximo passo recomendado:** escolher o papel do INT; a recomendação é potência de preparados.
+**15/11/2026 — INT definido.** O INT passa a ser a potência de preparados: dano e cura de química, medicina e consumíveis.
+
+**Próximo passo recomendado:** montar as fórmulas de dano para um grupo de 4.
