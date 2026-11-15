@@ -83,6 +83,19 @@
     "decision": "preparation-potency",
     "decided_at": "2026-11-15",
     "scope": "Dano e cura de química, medicina e consumíveis (explosões, fogo, veneno, poções aplicadas); valores e fórmulas pendentes.",
-    "affected_skills_source": "data/proposals/magic-skills-int.json"
+    "affected_skills_source": "data/proposals/magic-skills-int.json",
+    "future_scope": "O proprietário prevê que o INT passe a afetar outras habilidades depois; a lista atual é o ponto de partida, não o limite."
+  },
+  "attribute_names": {
+    "decided_at": "2026-11-15",
+    "STR": null,
+    "CON": null,
+    "INT": null,
+    "DEX": null,
+    "SPR": {
+      "original": "Spirit",
+      "project_name_pt": "Sabedoria",
+      "note": "Mesma função (recuperação e SP); só o nome muda no projeto. Exibir o nome no cliente exige mudar os textos de localização."
+    }
   }
 }

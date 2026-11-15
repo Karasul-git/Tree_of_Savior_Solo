@@ -21,8 +21,10 @@
 | STR | Ataque físico. | Mantém. |
 | CON | HP máximo e defesas. | Mantém. |
 | INT | Ataque mágico. | **Potência de preparados.** |
-| SPR | Recuperação, SP máximo e crítico mágico. | Mantém recuperação e SP; o crítico mágico perde função. |
+| SPR → **Sabedoria** | Recuperação, SP máximo e crítico mágico. | **Passa a se chamar Sabedoria** (SPR vem de *Spirit*). Mantém recuperação e SP; o crítico mágico perde função. |
 | DEX | Velocidade de ataque e crítico físico. | Mantém. |
+
+**Nome de SPR (15/11/2026, decisão do proprietário):** o atributo passa a se chamar **Sabedoria** no projeto, com a mesma função. Para o nome aparecer no jogo, será preciso mudar os textos de localização do cliente e do servidor.
 
 Descrições do guia oficial atual. [F113](../fontes.md#f113) Os valores por ponto que ele traz são do jogo posterior e não foram adotados.
 

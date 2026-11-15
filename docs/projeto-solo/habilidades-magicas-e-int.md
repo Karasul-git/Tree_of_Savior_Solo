@@ -75,6 +75,8 @@ As outras 35 classes não têm nenhuma habilidade mágica nesses dados.
 
 **15/11/2026 — decisão do proprietário.** O INT passa a medir a **potência de preparados**: química, medicina e consumíveis. Ele aumenta o dano de explosões, fogo e veneno de Alchemist e Plague Doctor e a força das curas por poções e medicina. Os valores por ponto e as fórmulas ainda serão definidos.
 
+**O alcance do INT vai crescer.** O proprietário prevê que ele passe a afetar outras habilidades mais adiante. As 26 habilidades desta página são o ponto de partida, não o limite. Cada habilidade que passar a usar INT deve ser registrada aqui.
+
 ## Por que esse papel
 
 - **Todo o dano mágico restante vem de química:** itens que explodem, fogo, veneno e vapor de Alchemist e Plague Doctor.
