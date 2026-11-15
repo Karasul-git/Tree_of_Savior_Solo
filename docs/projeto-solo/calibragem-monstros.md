@@ -63,4 +63,6 @@ A escala foi decidida (opção A: fatores divididos por 10), e a [tabela de ajus
 
 As curvas das outras armas também estão lá.
 
-**Próximo passo recomendado:** decidir o modelo de defesa, apontado na [comparação das bases](comparacao-das-bases.md).
+A tabela foi recalculada com o modelo de defesa percentual. [Comparação das bases](comparacao-das-bases.md).
+
+**Próximo passo recomendado:** definir as metas de elites, chefes e masmorras.

@@ -32,6 +32,12 @@
       "decided_at": "2026-11-15",
       "option": "A",
       "note": "Fatores das habilidades do Melia divididos por 10, faixa de referência de 150% a 200%."
+    },
+    "defense_model": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "rule": "redução = defesa ÷ (defesa + ataque do golpe), máximo de 75%; vale para jogadores e monstros",
+      "replaces": "subtração da defesa do Melia"
     }
   }
 }

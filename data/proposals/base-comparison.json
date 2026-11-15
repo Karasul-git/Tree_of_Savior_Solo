@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-11-15",
-  "status": "preliminary-comparison",
+  "status": "comparison-with-ratio-defense",
   "source_id": "F124",
   "builds": {
     "Warrior (espada + escudo, placa)": "60% STR, 40% CON",
@@ -9,7 +9,13 @@
     "Scout (espada + adaga 20%, couro)": "50% STR, 20% CON, 30% DEX"
   },
   "assumptions": "Atributos iniciais e taxa de HP do Melia; equipamento comum (grau 01); monstro-alvo da tabela de ajustes; fator de habilidade 175%; sem crítico nem esquiva nas contas de dano.",
-  "results": [
+  "findings": {
+    "damage": "Todas derrubam um monstro comum sozinhas com 5 a 6 habilidades.",
+    "tank": "Warrior de placa e escudo reduz 61% a 66% de cada golpe e recebe ~5% do HP por golpe (~19 golpes para cair).",
+    "agile": "Archer e Scout recebem 9% a 10% por golpe, mas desviam de 8% a 15% dos golpes, conforme o nível.",
+    "offtank": "Warrior de duas mãos recebe 7,5% por golpe."
+  },
+  "results_subtraction_model": [
     {
       "base": "Warrior (espada + escudo, placa)",
       "level": 40,
@@ -155,9 +161,150 @@
       "hit_pct_hp": 10.5
     }
   ],
-  "findings": {
-    "damage": "As quatro configurações derrubam um monstro comum sozinhas com 5 a 6 habilidades (meta: 4 a 8).",
-    "tank_immunity": "Com defesa subtraída do ataque, o Warrior de placa e escudo tem mais defesa que o ataque dos monstros e recebe 1 de dano.",
-    "dodge": "A esquiva de Archer e Scout (64–65 no nível 120) fica abaixo da precisão dos monstros do Melia nessa faixa; sem ajuste, a esquiva não funciona."
-  }
+  "results": [
+    {
+      "base": "Warrior (espada + escudo, placa)",
+      "level": 40,
+      "atk": 462,
+      "def_": 1145,
+      "hp": 3861,
+      "reduction_pct": 66,
+      "hit_pct_hp": 5.1,
+      "dodge_pct": 5.0,
+      "skills_to_kill_solo": 6.0,
+      "hits_to_die": 19.6
+    },
+    {
+      "base": "Warrior (espada + escudo, placa)",
+      "level": 120,
+      "atk": 1301,
+      "def_": 3147,
+      "hp": 12408,
+      "reduction_pct": 64,
+      "hit_pct_hp": 5.2,
+      "dodge_pct": 5.0,
+      "skills_to_kill_solo": 6.0,
+      "hits_to_die": 19.3
+    },
+    {
+      "base": "Warrior (espada + escudo, placa)",
+      "level": 220,
+      "atk": 2416,
+      "def_": 5651,
+      "hp": 25998,
+      "reduction_pct": 61,
+      "hit_pct_hp": 5.3,
+      "dodge_pct": 5.0,
+      "skills_to_kill_solo": 6.0,
+      "hits_to_die": 19.0
+    },
+    {
+      "base": "Warrior (duas mãos, couro)",
+      "level": 40,
+      "atk": 521,
+      "def_": 595,
+      "hp": 3861,
+      "reduction_pct": 50,
+      "hit_pct_hp": 7.5,
+      "dodge_pct": 5.0,
+      "skills_to_kill_solo": 5.2,
+      "hits_to_die": 13.3
+    },
+    {
+      "base": "Warrior (duas mãos, couro)",
+      "level": 120,
+      "atk": 1469,
+      "def_": 1617,
+      "hp": 12408,
+      "reduction_pct": 48,
+      "hit_pct_hp": 7.5,
+      "dodge_pct": 5.0,
+      "skills_to_kill_solo": 5.2,
+      "hits_to_die": 13.3
+    },
+    {
+      "base": "Warrior (duas mãos, couro)",
+      "level": 220,
+      "atk": 2718,
+      "def_": 2897,
+      "hp": 25998,
+      "reduction_pct": 45,
+      "hit_pct_hp": 7.5,
+      "dodge_pct": 5.0,
+      "skills_to_kill_solo": 5.2,
+      "hits_to_die": 13.3
+    },
+    {
+      "base": "Archer (arco, couro)",
+      "level": 40,
+      "atk": 513,
+      "def_": 570,
+      "hp": 3321,
+      "reduction_pct": 49,
+      "hit_pct_hp": 8.9,
+      "dodge_pct": 7.7,
+      "skills_to_kill_solo": 5.3,
+      "hits_to_die": 11.2
+    },
+    {
+      "base": "Archer (arco, couro)",
+      "level": 120,
+      "atk": 1429,
+      "def_": 1554,
+      "hp": 10048,
+      "reduction_pct": 47,
+      "hit_pct_hp": 9.4,
+      "dodge_pct": 11.5,
+      "skills_to_kill_solo": 5.3,
+      "hits_to_die": 10.6
+    },
+    {
+      "base": "Archer (arco, couro)",
+      "level": 220,
+      "atk": 2642,
+      "def_": 2782,
+      "hp": 19634,
+      "reduction_pct": 44,
+      "hit_pct_hp": 10.1,
+      "dodge_pct": 15.4,
+      "skills_to_kill_solo": 5.4,
+      "hits_to_die": 9.9
+    },
+    {
+      "base": "Scout (espada + adaga 20%, couro)",
+      "level": 40,
+      "atk": 513,
+      "def_": 572,
+      "hp": 3331,
+      "reduction_pct": 49,
+      "hit_pct_hp": 8.9,
+      "dodge_pct": 7.7,
+      "skills_to_kill_solo": 5.3,
+      "hits_to_die": 11.3
+    },
+    {
+      "base": "Scout (espada + adaga 20%, couro)",
+      "level": 120,
+      "atk": 1442,
+      "def_": 1556,
+      "hp": 10074,
+      "reduction_pct": 47,
+      "hit_pct_hp": 9.4,
+      "dodge_pct": 11.7,
+      "skills_to_kill_solo": 5.3,
+      "hits_to_die": 10.6
+    },
+    {
+      "base": "Scout (espada + adaga 20%, couro)",
+      "level": 220,
+      "atk": 2658,
+      "def_": 2784,
+      "hp": 19683,
+      "reduction_pct": 44,
+      "hit_pct_hp": 10.1,
+      "dodge_pct": 15.5,
+      "skills_to_kill_solo": 5.3,
+      "hits_to_die": 9.9
+    }
+  ]
 }

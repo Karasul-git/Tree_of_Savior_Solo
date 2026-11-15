@@ -112,8 +112,9 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Curvas das outras armas: uma mão (mesma curva) e duas mãos (~18% a mais).
 - [x] Arma secundária soma 20% do próprio ataque ao ataque geral (decidido).
 - [x] Comparação preliminar das três bases.
-- [ ] Decidir o modelo de defesa (redução percentual com limite).
-- [ ] Ajustar a precisão dos monstros para a esquiva funcionar.
+- [x] Modelo de defesa: redução percentual com limite de 75% (decidido).
+- [x] Recalcular ataque, defesa e precisão dos monstros e refazer a comparação.
+- [ ] Metas de elites, chefes e masmorras.
 - [ ] Conferir valores de armas e armaduras com 2016.
 - [ ] Multiplicadores dos monstros por faixa de nível e curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).

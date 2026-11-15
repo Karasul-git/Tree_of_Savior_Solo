@@ -79,17 +79,17 @@ O ponto decisivo é a **escala das habilidades**. No Melia, a mediana do fator d
 
 ## Tabela de ajustes dos monstros
 
-Calculada com fator de referência de **175%** (meio da faixa de 150% a 200%). Os multiplicadores se aplicam aos valores atuais de cada monstro, pelas funções `SCR_Get_MON_*` do Melia. Entre os níveis da tabela, o ajuste é interpolado em linha reta pelo nível do monstro; abaixo de 15 usa o valor de 15, e acima de 270, o de 270.
+Calculada com fator de referência de **175%** (meio da faixa de 150% a 200%) e com o **modelo de defesa percentual** decidido depois (redução = defesa ÷ (defesa + ataque), máximo de 75%). Defesa: um terço do ataque do personagem de referência (reduz ~25%). Ataque: o que faz o golpe tirar 7,5% do HP do personagem de referência. Precisão: a esquiva do Warrior de referência menos 12. Os multiplicadores se aplicam aos valores atuais de cada monstro, pelas funções `SCR_Get_MON_*` do Melia. Entre os níveis da tabela, o ajuste é interpolado em linha reta pelo nível do monstro; abaixo de 15 usa o valor de 15, e acima de 270, o de 270.
 
-| Nível | HP | Ataque | Defesa | HP alvo | Ataque alvo | Defesa alvo |
-| --- | --- | --- | --- | --- | --- | --- |
-| 15 | 3.22× | 2.28× | 0.64× | 1.659 | 396 | 52 |
-| 40 | 2.25× | 2.72× | 0.57× | 3.644 | 885 | 115 |
-| 75 | 1.23× | 1.64× | 0.35× | 6.447 | 1.592 | 205 |
-| 120 | 0.69× | 1.18× | 0.27× | 10.248 | 2.548 | 325 |
-| 170 | 0.41× | 1.06× | 0.24× | 14.595 | 3.662 | 463 |
-| 220 | 0.38× | 1.04× | 0.28× | 19.026 | 4.847 | 604 |
-| 270 | 0.28× | 1.36× | 0.27× | 23.678 | 6.078 | 752 |
+| Nível | HP | Ataque | Defesa | Precisão | HP alvo | Ataque alvo | Defesa alvo | Precisão alvo |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 15 | 3.22× | 1.44× | 0.85× | 0.0× | 1.659 | 251 | 70 | 0 |
+| 40 | 2.25× | 1.8× | 0.76× | 0.02× | 3.644 | 584 | 154 | 1 |
+| 75 | 1.23× | 1.11× | 0.46× | 0.12× | 6.447 | 1.083 | 273 | 10 |
+| 120 | 0.69× | 0.83× | 0.36× | 0.16× | 10.248 | 1.777 | 434 | 21 |
+| 170 | 0.41× | 0.76× | 0.32× | 0.19× | 14.595 | 2.617 | 618 | 34 |
+| 220 | 0.38× | 0.76× | 0.37× | 0.21× | 19.026 | 3.544 | 805 | 46 |
+| 270 | 0.28× | 1.02× | 0.37× | 0.22× | 23.678 | 4.527 | 1.002 | 58 |
 
 Os valores-alvo são a mediana esperada para um monstro comum daquele nível. Cada monstro mantém suas diferenças em relação aos outros, porque o ajuste é um multiplicador.
 
@@ -131,4 +131,4 @@ Ataque da arma, sem atributos. O Scout, cuja árvore usa espada de uma mão com 
 
 A [comparação das três bases](comparacao-das-bases.md) usa estas curvas.
 
-**Próximo passo recomendado:** decidir o modelo de defesa.
+**Próximo passo recomendado:** definir as metas de elites, chefes e masmorras.

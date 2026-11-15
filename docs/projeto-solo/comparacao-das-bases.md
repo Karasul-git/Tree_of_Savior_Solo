@@ -34,20 +34,41 @@
 | Scout (espada + adaga 20%, couro) | 120 | 1.442 | 1.556 | 10.074 | 65 | 257 | 5.2 | 9,9% |
 | Scout (espada + adaga 20%, couro) | 220 | 2.658 | 2.784 | 19.683 | 114 | 431 | 5.3 | 10,5% |
 
+## Modelo de defesa (decidido)
+
+**15/11/2026 — decisão do proprietário.** A defesa deixa de ser subtraída do ataque. Agora ela **reduz uma fração do golpe**: redução = defesa ÷ (defesa + ataque do golpe), com **máximo de 75%**. A regra vale para jogadores e monstros. O ataque, a defesa e a precisão dos monstros foram recalculados para esse modelo (ver a [tabela de ajustes](curva-de-equipamentos.md#ajustes-monstros)).
+
+## Resultado com o novo modelo
+
+| Configuração | Nível | Defesa | Redução do golpe | Dano por golpe (% do HP) | Chance de desviar | Golpes para cair | Habilidades para derrubar sozinho |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Warrior (espada + escudo, placa) | 40 | 1.145 | 66% | 5,1% | 5,0% | 19,6 | 6,0 |
+| Warrior (espada + escudo, placa) | 120 | 3.147 | 64% | 5,2% | 5,0% | 19,3 | 6,0 |
+| Warrior (espada + escudo, placa) | 220 | 5.651 | 61% | 5,3% | 5,0% | 19,0 | 6,0 |
+| Warrior (duas mãos, couro) | 40 | 595 | 50% | 7,5% | 5,0% | 13,3 | 5,2 |
+| Warrior (duas mãos, couro) | 120 | 1.617 | 48% | 7,5% | 5,0% | 13,3 | 5,2 |
+| Warrior (duas mãos, couro) | 220 | 2.897 | 45% | 7,5% | 5,0% | 13,3 | 5,2 |
+| Archer (arco, couro) | 40 | 570 | 49% | 8,9% | 7,7% | 11,2 | 5,3 |
+| Archer (arco, couro) | 120 | 1.554 | 47% | 9,4% | 11,5% | 10,6 | 5,3 |
+| Archer (arco, couro) | 220 | 2.782 | 44% | 10,1% | 15,4% | 9,9 | 5,4 |
+| Scout (espada + adaga 20%, couro) | 40 | 572 | 49% | 8,9% | 7,7% | 11,3 | 5,3 |
+| Scout (espada + adaga 20%, couro) | 120 | 1.556 | 47% | 9,4% | 11,7% | 10,6 | 5,3 |
+| Scout (espada + adaga 20%, couro) | 220 | 2.784 | 44% | 10,1% | 15,5% | 9,9 | 5,3 |
+
 ## O que a comparação mostra
 
-- **O dano está equilibrado.** As quatro configurações derrubam um monstro comum sozinhas com 5 a 6 habilidades, dentro da meta de 4 a 8. Archer e Scout ficam praticamente iguais; o Warrior de duas mãos bate um pouco mais.
-- **O Warrior de escudo e placa fica imune.** No Melia, a defesa é **subtraída** do ataque do monstro. Como a defesa dele passa do ataque dos monstros, ele recebe 1 de dano por golpe. É um problema do modelo de defesa, não do Warrior.
-- **Archer e Scout recebem ~10% por golpe**, no limite de cima da meta, porque têm menos CON e menos HP.
-- **A esquiva não funciona ainda.** Archer e Scout têm mais esquiva, mas, nos níveis médios, ela fica abaixo da precisão dos monstros do Melia. A precisão dos monstros ainda não foi ajustada.
-- **O crítico pesa pouco.** O ataque crítico de Archer e Scout é maior, mas é somado ao dano, então muda pouco o resultado.
+- **O tanque funciona sem ficar imune.** O Warrior de escudo e placa reduz 61% a 66% de cada golpe, leva ~5% do HP e aguenta ~19 golpes.
+- **O Warrior de duas mãos** leva 7,5% por golpe e aguenta ~13.
+- **Archer e Scout** levam 9% a 10% por golpe, mas desviam de 8% a 15% dos golpes conforme o nível. Na média, ficam perto de 8% a 9% por golpe.
+- **O dano continua equilibrado:** todas as configurações derrubam um monstro comum sozinhas com 5 a 6 habilidades.
+- **Tudo dentro das metas:** monstro comum com 4 a 8 habilidades sozinho, e golpes entre 5% e 10% do HP.
 
-## Decisões necessárias
+O resultado anterior, com a defesa subtraída, continua guardado nos dados para comparação.
 
-| # | Tema | Proposta |
-| --- | --- | --- |
-| 1 | **Modelo de defesa** | Trocar a subtração por uma **redução percentual com limite**: redução = defesa ÷ (defesa + ataque do golpe), com máximo de 75%. No nível 120, a placa com escudo reduz cerca de 55% do golpe, e o couro, cerca de 38%. O tanque continua recebendo dano, e a defesa nunca zera um golpe. Se aprovado, o ataque dos monstros na tabela de ajustes precisa ser recalculado para o novo modelo. |
-| 2 | Precisão dos monstros | Incluir a precisão na tabela de ajustes, para que a esquiva de Archer e Scout evite cerca de 10% a 20% dos golpes. |
-| 3 | Peso do crítico | Revisar depois de pesquisar o efeito da DEX na chance de crítico em 2016. |
+## Pendências
 
-**Próximo passo recomendado:** decidir o modelo de defesa (proposta 1). É o que mais muda o equilíbrio entre as bases.
+- Pesquisar o efeito da DEX na chance de crítico em 2016 e revisar o peso do crítico.
+- Testar no servidor depois da fase 1.
+- Definir metas de elites, chefes e masmorras.
+
+**Próximo passo recomendado:** definir as metas de **elites, chefes e masmorras**, que ainda não têm números. Depois disso, o balanceamento básico de combate fica completo no papel.

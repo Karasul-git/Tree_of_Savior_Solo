@@ -110,3 +110,14 @@ test('as curvas de armas separam uma mão de duas mãos', () => {
   assert.ok(Math.abs(c.THBow_01[i] / c.Sword_01[i] - 1.18) < 0.01);
   assert.equal(e.offhand_proposal.status, 'decided');
 });
+
+test('o modelo de defesa percentual deixa o tanque resistente sem imunidade', () => {
+  const bc = read('data/proposals/base-comparison.json');
+  const f = read('data/proposals/damage-formulas.json');
+  assert.equal(f.decisions.defense_model.status, 'decided');
+  for (const r of bc.results) {
+    assert.ok(r.reduction_pct <= 75);
+    assert.ok(r.hit_pct_hp >= 4 && r.hit_pct_hp <= 11, `${r.base} ${r.level}`);
+    assert.ok(r.skills_to_kill_solo >= 4 && r.skills_to_kill_solo <= 8);
+  }
+});

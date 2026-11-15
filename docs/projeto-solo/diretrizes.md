@@ -119,4 +119,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Arma secundária e comparação das bases.** A arma secundária soma 20% do próprio ataque ao ataque geral (decisão do proprietário). A comparação mostrou dano equilibrado entre as bases, mas o Warrior de escudo e placa ficaria imune com a defesa subtraída do ataque. [Comparação](comparacao-das-bases.md).
 
-**Próximo passo recomendado:** decidir o modelo de defesa.
+**15/11/2026 — Modelo de defesa.** A defesa passa a reduzir uma fração do golpe (defesa ÷ (defesa + ataque), máximo de 75%). Com ataque, defesa e precisão dos monstros recalculados, o tanque leva ~5% por golpe, o Warrior de duas mãos ~7,5% e Archer e Scout 9% a 10%, desviando de 8% a 15%. [Comparação](comparacao-das-bases.md).
+
+**Próximo passo recomendado:** definir as metas de elites, chefes e masmorras.
