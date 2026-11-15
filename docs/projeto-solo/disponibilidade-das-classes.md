@@ -84,7 +84,7 @@ Somando as duas etapas: **24 classes sem impedimento temático evidente, seis co
 | Templar | Identidade de comando, bandeira e preparação. | As cinco habilidades de 2016 dependem de guilda, torre ou membros; não basta manter a classe na árvore para ela funcionar solo. |
 | Scout base | Camuflagem, reconhecimento e mobilidade. | O kit de 2016 inclui arco; a árvore solo precisa de uma base compatível com suas armas. |
 
-A base Scout agora tem uma [proposta de kit](scout-kit-base.md) com adagas e pistolas, ainda sem ratificação.
+A base Scout tem [kit ratificado](scout-kit-base.md) com adagas e pistolas (opção B); conferências no cliente continuam pendentes.
 
 Essas são pendências de habilidades, não exclusões automáticas de classes. Não inventamos técnicas substitutas nem transformamos uma nova ideia de passiva em efeito confirmado.
 

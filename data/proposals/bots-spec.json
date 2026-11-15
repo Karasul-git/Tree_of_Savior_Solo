@@ -1,0 +1,71 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "design-decisions-not-implemented",
+  "decided_by": "owner",
+  "origin": {
+    "decision": "both",
+    "primary": "barracks-team-characters",
+    "secondary": "server-generated-bots",
+    "open": [
+      "obtenção e custo dos bots do servidor",
+      "classe e equipamento fixos ou escolhidos"
+    ]
+  },
+  "party": {
+    "max_members": 5,
+    "max_bots": 4,
+    "friends_take_bot_slots": true,
+    "historical_party_limit_verified": false,
+    "open": [
+      "animais de Hunter e Falconer contam como vaga"
+    ]
+  },
+  "control": {
+    "model": "stances-and-simple-orders",
+    "stances": [
+      "follow",
+      "aggressive",
+      "defensive",
+      "passive"
+    ],
+    "orders": [
+      "attack-target",
+      "retreat-regroup",
+      "hold-position"
+    ],
+    "skills": "class-profile",
+    "open": [
+      "interface",
+      "conteúdo de cada perfil"
+    ]
+  },
+  "progression": {
+    "model": "shared-experience",
+    "same_rank_and_circle_rules": true,
+    "open": [
+      "divisão de experiência",
+      "progressão dos bots do servidor"
+    ]
+  },
+  "profile_order": [
+    [
+      "swordsman",
+      "archer",
+      "scout"
+    ],
+    [
+      "squire",
+      "templar",
+      "paladin",
+      "alchemist"
+    ],
+    [
+      "remaining-by-rank"
+    ]
+  ],
+  "dependencies": [
+    "substituto das estátuas para retorno após derrota",
+    "habilidades de guilda de Templar",
+    "base técnica com suporte a IA de aliados"
+  ]
+}

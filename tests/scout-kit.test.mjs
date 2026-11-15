@@ -28,5 +28,16 @@ test('a proposta não altera a ficha histórica de Scout', () => {
     ['Camouflage', 1], ['Flu Flu', 1], ['Flare Shot', 1], ['Cloaking', 1],
     ['Perspective Distortion', 2], ['Scan', 3], ['Split Arrow', 3],
   ]);
-  assert.equal(kit.status, 'proposal-not-ratified');
+  assert.equal(kit.status, 'ratified-design');
+  assert.equal(kit.ratified_option, 'B');
+});
+
+test('a especificação de bots registra as decisões do proprietário sem dar o limite de 2016 por confirmado', () => {
+  const bots = read('data/proposals/bots-spec.json');
+  assert.equal(bots.origin.decision, 'both');
+  assert.equal(bots.party.max_bots, 4);
+  assert.equal(bots.party.max_members, 5);
+  assert.equal(bots.party.historical_party_limit_verified, false);
+  assert.equal(bots.control.model, 'stances-and-simple-orders');
+  assert.equal(bots.progression.model, 'shared-experience');
 });

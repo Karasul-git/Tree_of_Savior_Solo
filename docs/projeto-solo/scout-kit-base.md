@@ -2,7 +2,7 @@
 
 [Diretrizes solo](diretrizes.md) · [Scout em 2016](../classes/catalogo/scout.md) · [Companheiros e bots](companheiros-e-bots.md) · [Elenco e pendências](disponibilidade-das-classes.md)
 
-**Estudo de 15/11/2026 · proposta, sem ratificação.** Scout é base da árvore solo por decisão do proprietário. Em 2016, porém, Scout era uma especialização de **Archer** (primeiro rank 4) e três das suas sete habilidades usavam arco. Esta página compara o kit de 2016 com o kit oficial posterior e propõe uma base que **reaproveita apenas habilidades existentes**, sem criar técnicas novas.
+**Estudo de 15/11/2026 · opção B ratificada pelo proprietário no mesmo dia.** Scout é base da árvore solo por decisão do proprietário. Em 2016, porém, Scout era uma especialização de **Archer** (primeiro rank 4) e três das suas sete habilidades usavam arco. Esta página compara o kit de 2016 com o kit oficial posterior e propõe uma base que **reaproveita apenas habilidades existentes**, sem criar técnicas novas.
 
 A ficha histórica não muda. Os dados da proposta estão em [scout-base-kit.json](../../data/proposals/scout-base-kit.json).
 
@@ -30,7 +30,7 @@ O anúncio do Re:Build (26/11/2018) descreve a árvore de Scout com **espada de 
 
 As especializações da árvore solo já usam essas armas: Rogue usa adagas (Backstab), Corsair usa adaga e pistola, Schwarzer Reiter usa pistola e Outlaw usa adaga e pistola. Squire, Alchemist e Plague Doctor não dependem de uma arma específica. Wild Shot, de Schwarzer Reiter, também usa **besta**, que é arma de Archer: é uma pendência própria dessa classe.
 
-**Proposta:** espada de uma mão (principal) + adaga ou pistola (secundária), armadura de couro. Isso não aprova a compatibilidade de equipamento no cliente.
+**Ratificado:** espada de uma mão (principal) + adaga ou pistola (secundária), armadura de couro. Isso não aprova a compatibilidade de equipamento no cliente.
 
 ## Opções avaliadas
 
@@ -40,11 +40,13 @@ As especializações da árvore solo já usam essas armas: Rogue usa adagas (Bac
 | **B · Posterior + 2016 sem arco (recomendada)** | Cinco habilidades atuais em C1; três de 2016 em C2–C3. | Usa só habilidades existentes, preserva identidade de reconhecimento e encaixa nos círculos. | Duas habilidades precisam de conferência de função. |
 | C · Kit de 2016 com arco | Manter o Scout histórico como base. | Fiel ao lançamento. | Três habilidades de arco contradizem a árvore de adagas e pistolas. |
 
-## Kit proposto (opção B)
+## Kit ratificado (opção B)
+
+O proprietário ratificou a opção B, incluindo os círculos abaixo e as armas propostas, como **direção de design**. A ratificação não certifica funcionamento no cliente nem define números.
 
 O formato segue o de Swordsman em 2016: **cinco habilidades em C1, duas em C2 e uma em C3**.
 
-| Círculo proposto | Habilidade | Origem | Função na base | Situação |
+| Círculo | Habilidade | Origem | Função na base | Situação |
 | --- | --- | --- | --- | --- |
 | C1 | Dagger Slash | Posterior | Ataque principal de adaga. | Reaproveitar |
 | C1 | Oblique Fire | Posterior | Ataque de pistola com ricochete; ocupa o papel de Split Arrow. | Reaproveitar |
@@ -61,9 +63,8 @@ Camouflage desce de C1 para C2 para abrir espaço ao núcleo de adaga e pistola.
 
 ## O que continua aberto
 
-- Ratificar a opção e os círculos propostos.
 - Conferir no cliente as animações de Cloaking e Camouflage e a utilidade de Perspective Distortion e Scan com bots.
 - Confirmar a compatibilidade de espada de uma mão, adaga e pistola com cada especialização da árvore.
 - Números, atributos, níveis e requisitos ficam para depois da seleção.
 
-**Próximo passo recomendado:** ratificar a opção B (ou ajustar a troca de Camouflage para C2). Depois, especificar o grupo de bots, já que Perspective Distortion e Cloaking dependem dele.
+**Próximo passo recomendado:** especificar o grupo de bots, já que Perspective Distortion e Cloaking dependem dele.

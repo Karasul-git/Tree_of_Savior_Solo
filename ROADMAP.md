@@ -86,8 +86,12 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Registrar o modelo de jogo: jogador com bots aliados do servidor e amigos opcionais.
 - [x] Registrar a remoção das deusas e o inventário inicial das funções das estátuas.
 - [x] Comparar os kits de Scout de 2016 e posterior e publicar proposta de kit base.
-- [ ] Ratificar o kit base de Scout e conferir Perspective Distortion, Scan e animações.
-- [ ] Especificar o grupo de bots: tamanho, classes possíveis, ordens e progressão.
+- [x] Ratificar o kit base de Scout (opção B).
+- [ ] Conferir no cliente Perspective Distortion, Scan e as animações de Cloaking e Camouflage.
+- [x] Especificar as bases do grupo de bots: origem, tamanho, controle e progressão.
+- [ ] Documentar com fonte o barracão e o limite de grupo de 2016.
+- [ ] Definir obtenção e regras dos bots do servidor.
+- [ ] Escrever os perfis de comportamento das três bases.
 - [ ] Reavaliar habilidades de grupo e separar as de guilda (Templar) das de grupo.
 - [ ] Pesquisar arte original de carroças, cavalos ou NPCs de transporte.
 - [ ] Documentar o ponto de retorno após derrota e as estátuas de Zemyna em 2016.

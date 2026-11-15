@@ -18,11 +18,11 @@ O corte nominal de classes híbridas continua em construção. Monk e Paladin t�
 
 **15/11/2026 — Reaproveitar ao máximo o original.** Classes, habilidades, consumíveis e recursos existentes têm prioridade sobre novos sistemas. A recuperação começa pelas poções do jogo; sua suficiência será avaliada no balanceamento solo. Especialistas de suporte/consumíveis são possibilidades complementares, sem necessidade já estabelecida de criar um novo kit de cura.
 
-**15/11/2026 — Jogo com bots aliados, não solo puro.** O caso principal é um jogador acompanhado de bots aliados controlados pelo servidor, como no projeto anterior do proprietário em Ragnarok. Amigos também poderão jogar juntos. Personagens no mapa controlados pelo servidor, com interação limitada, ficam como expansão futura. [Modelo de grupo e efeitos nas classes](companheiros-e-bots.md).
+**15/11/2026 — Jogo com bots aliados, não solo puro.** O caso principal é um jogador acompanhado de bots aliados controlados pelo servidor, como no projeto anterior do proprietário em Ragnarok. Amigos também poderão jogar juntos. Personagens no mapa controlados pelo servidor, com interação limitada, ficam como expansão futura. Especificação inicial do mesmo dia: bots do barracão e do servidor, jogador + até 4 bots, posturas com ordens simples e experiência compartilhada. [Modelo de grupo e efeitos nas classes](companheiros-e-bots.md).
 
 **15/11/2026 — Remoção das deusas.** As deusas sairão da história e do mundo da adaptação. As estátuas de teletransporte e salvamento serão substituídas, com preferência por um sistema de carroças ou outro meio que tenha arte disponível no jogo. A remoção deve repor as funções de jogo das estátuas. [Inventário inicial](remocao-das-deusas.md).
 
-**15/11/2026 — Kit base de Scout em proposta.** A opção recomendada combina as cinco habilidades oficiais posteriores (Dagger Slash, Oblique Fire, Cloaking, Free Step, Double Attack) com Camouflage, Perspective Distortion e Scan de 2016, usando espada de uma mão e adaga ou pistola. As habilidades de arco ficam no acervo. Aguarda ratificação. [Comparação e opções](scout-kit-base.md).
+**15/11/2026 — Kit base de Scout ratificado (opção B).** O kit combina as cinco habilidades oficiais posteriores (Dagger Slash, Oblique Fire, Cloaking, Free Step, Double Attack) com Camouflage, Perspective Distortion e Scan de 2016, usando espada de uma mão e adaga ou pistola. As habilidades de arco ficam no acervo. Conferências no cliente e números continuam pendentes. [Comparação e opções](scout-kit-base.md).
 
 ## Seleção solo já definida
 
@@ -93,4 +93,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** ratificar o kit base de Scout. Depois, especificar o grupo de bots e pesquisar a arte de transporte que substituirá as estátuas.
+**Próximo passo recomendado:** documentar o barracão e o limite de grupo de 2016 e escrever os perfis de comportamento das três bases; depois, pesquisar a arte de transporte que substituirá as estátuas.
