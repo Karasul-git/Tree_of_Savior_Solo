@@ -75,7 +75,7 @@ O ponto decisivo é a **escala das habilidades**. No Melia, a mediana do fator d
 
 **15/11/2026 — decisão do proprietário.** Os fatores das habilidades do Melia serão **divididos por 10**. A mediana das habilidades de ataque da árvore solo passa de ~1.506% para **~151%** no nível 1 e de ~2.819% para **~282%** no nível 5. A opção B (multiplicar o HP dos monstros por 3 a 37) foi descartada.
 
-<a id="tabela-de-ajustes-dos-monstros"></a>
+<a id="ajustes-monstros"></a>
 
 ## Tabela de ajustes dos monstros
 

@@ -59,6 +59,6 @@ Tentei estimar o ataque e a defesa do personagem com as armas e armaduras do Mel
 
 A curva e os multiplicadores calculados estão em [Curva de equipamentos](curva-de-equipamentos.md). O cálculo mostrou que a escala atual das habilidades do Melia exige decidir antes entre reduzir os fatores das habilidades ou multiplicar muito o HP dos monstros.
 
-A escala foi decidida (opção A: fatores divididos por 10), e a [tabela de ajustes](curva-de-equipamentos.md#tabela-de-ajustes-dos-monstros) está pronta.
+A escala foi decidida (opção A: fatores divididos por 10), e a [tabela de ajustes](curva-de-equipamentos.md#ajustes-monstros) está pronta.
 
 **Próximo passo recomendado:** montar as curvas das outras armas.
