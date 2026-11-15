@@ -1574,5 +1574,41 @@
     "url": "https://github.com/NoCode-NoLife/melia/discussions/167",
     "supports": "O mantenedor explica que trabalhar com o cliente mais recente é o caminho mais fácil, porque um cliente antigo perde a captura de pacotes de servidores oficiais; também descreve como apontar o cliente para um servidor próprio.",
     "limitations": "Discussão de 2021–2023; detalhes técnicos podem ter mudado."
+  },
+  {
+    "id": "F126",
+    "title": "Mein-MMO · primeiros jogadores no nível máximo",
+    "author": "Cortyn (Mein-MMO)",
+    "published": "2016-04-19",
+    "accessed": "2026-11-15",
+    "kind": "press-period",
+    "scope": "Limite de nível no acesso antecipado",
+    "url": "https://mein-mmo.de/en/tree-of-savior-erste-spieler-maximalstufe,74908",
+    "supports": "Em 19/04/2016, durante o acesso antecipado, a reportagem trata 280 como nível máximo de personagem e relata jogadores que o alcançaram em cerca de três semanas.",
+    "limitations": "Imprensa, não comunicado oficial; cita outro site como fonte. Não descreve a curva de experiência."
+  },
+  {
+    "id": "F127",
+    "title": "Fórum oficial · Heya all, I have some questions!",
+    "author": "chri87 e respostas de jogadores",
+    "published": "2016-03-20",
+    "accessed": "2026-11-15",
+    "kind": "player-period",
+    "scope": "Ranks e limite de nível esperados no lançamento",
+    "url": "https://forum.treeofsavior.com/t/heya-all-i-have-some-questions/152841",
+    "supports": "Resposta de jogador antes do lançamento: classes até o rank 7 e nível máximo 280 no acesso antecipado e no lançamento, como limite provisório.",
+    "limitations": "Expectativa de jogador antes da abertura; confirmar com F126."
+  },
+  {
+    "id": "F128",
+    "title": "Fórum oficial · guia de classes, ranks e habilidades (beta)",
+    "author": "Antarex e respostas de jogadores",
+    "published": "2015-07-29",
+    "accessed": "2026-11-15",
+    "kind": "beta-comparison",
+    "scope": "Níveis de classe e pontos de habilidade no beta fechado",
+    "url": "https://forum.treeofsavior.com/t/any-newbiess-guide-about-classes-rank-and-skills/11881",
+    "supports": "Jogadores do beta de 2015 dizem que o nível de classe vai até 15 por rank e que cada nível de classe dá 1 ponto de habilidade.",
+    "limitations": "Beta fechado de 2015, antes do recorte; relatos de jogadores. O limite de nível citado (200) era o do beta."
   }
 ]

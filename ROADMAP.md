@@ -98,13 +98,14 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 ## Servidor
 
 - [x] Avaliar base técnica: Melia, cliente atual da Steam, dados e lacunas (grupo e bots).
-- [ ] Fase 0: tabelas de classes, círculos e progressão no formato do Melia.
+- [x] Fase 0: tabela das 39 classes no formato do Melia e esqueleto de progressão (rascunho).
+- [ ] Fase 0: ratificar posições da árvore, pontos por nível e curva de experiência.
 - [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - [ ] Confirmar como o cliente atual exibe ranks e círculos.
 
 ## Prioridade seguinte · Balanceamento
 
-- [ ] Esqueleto de progressão solo: níveis, ranks e círculos, partindo das tabelas de 2016.
+- [x] Esqueleto de progressão solo: R7, 15 níveis de classe por rank, círculos até C3, nível 280 (proposta).
 - [ ] Fórmulas de atributos e dano: referência de 2016 separada das propostas solo.
 - [ ] Balanceamento das classes por rank, começando pelas três bases.
 - [ ] Definir obtenção e regras dos bots do servidor.

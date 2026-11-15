@@ -41,3 +41,20 @@ test('a especificação de bots registra as decisões do proprietário sem dar o
   assert.equal(bots.control.model, 'stances-and-simple-orders');
   assert.equal(bots.progression.model, 'shared-experience');
 });
+
+test('a tabela da fase 0 cobre as 39 classes solo com ranks e círculos coerentes', () => {
+  const map = read('data/proposals/solo-jobs-melia.json');
+  const solo = read('data/catalog/classes-solo.json');
+  assert.equal(map.classes.length, 39);
+  for (const base of solo.bases) {
+    for (const c of base.classes) {
+      const row = map.classes.find(r => r.class_id === c.class_id);
+      assert.ok(row, c.class_id);
+      assert.equal(row.solo_rank, c.solo_rank);
+      assert.equal(row.solo_base, base.id);
+    }
+  }
+  for (const row of map.classes) assert.equal(row.max_circle_at_r7, Math.min(3, 8 - row.solo_rank));
+  assert.deepEqual(map.classes.filter(r => r.changes_needed.includes('tree')).map(r => r.class_id).sort(),
+    ['alchemist', 'monk', 'paladin', 'plague-doctor']);
+});

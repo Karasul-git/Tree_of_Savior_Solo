@@ -1013,3 +1013,18 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F125 · Melia · discussão #167
 
 [Anyone interested in continuing this project?](https://github.com/NoCode-NoLife/melia/discussions/167) — aberta em 27/08/2021, encerrada em 17/05/2023; consulta em 15/11/2026. O mantenedor recomenda o cliente mais recente, porque um cliente antigo perde a captura de pacotes, e descreve como apontar o cliente para um servidor próprio. **Limite:** detalhes técnicos podem ter mudado.
+
+<a id="f126"></a>
+### F126 · Mein-MMO · primeiros jogadores no nível máximo
+
+[Mein-MMO · primeiros jogadores no nível máximo](https://mein-mmo.de/en/tree-of-savior-erste-spieler-maximalstufe,74908) — Cortyn (Mein-MMO), 19/04/2016; consulta em 15/11/2026. Em 19/04/2016, durante o acesso antecipado, a reportagem trata 280 como nível máximo de personagem e relata jogadores que o alcançaram em cerca de três semanas. **Limite:** Imprensa, não comunicado oficial; cita outro site como fonte. Não descreve a curva de experiência.
+
+<a id="f127"></a>
+### F127 · Fórum oficial · Heya all, I have some questions!
+
+[Fórum oficial · Heya all, I have some questions!](https://forum.treeofsavior.com/t/heya-all-i-have-some-questions/152841) — chri87 e respostas de jogadores, 20/03/2016; consulta em 15/11/2026. Resposta de jogador antes do lançamento: classes até o rank 7 e nível máximo 280 no acesso antecipado e no lançamento, como limite provisório. **Limite:** Expectativa de jogador antes da abertura; confirmar com F126.
+
+<a id="f128"></a>
+### F128 · Fórum oficial · guia de classes, ranks e habilidades (beta)
+
+[Fórum oficial · guia de classes, ranks e habilidades (beta)](https://forum.treeofsavior.com/t/any-newbiess-guide-about-classes-rank-and-skills/11881) — Antarex e respostas de jogadores, 29/07/2015; consulta em 15/11/2026. Jogadores do beta de 2015 dizem que o nível de classe vai até 15 por rank e que cada nível de classe dá 1 ponto de habilidade. **Limite:** Beta fechado de 2015, antes do recorte; relatos de jogadores. O limite de nível citado (200) era o do beta.

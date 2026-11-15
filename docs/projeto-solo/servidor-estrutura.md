@@ -65,4 +65,6 @@ O Melia segue o **cliente atual**, posterior ao Re:Build de 2018. O mantenedor e
 - **O cliente da Steam atualiza sozinho.** Uma atualização pode quebrar a compatibilidade com o Melia; vale manter uma cópia do cliente que funciona.
 - **O Melia está incompleto.** Partes do jogo podem não funcionar, e o projeto terá de acompanhar as atualizações dele ou manter uma versão própria.
 
-**Próximo passo recomendado:** fase 0. Montar, sem computador, a tabela de classes por rank e círculo da seleção solo no formato do `jobs.txt` do Melia, ao lado do esqueleto de progressão.
+A fase 0 começou com a [tabela de classes e o esqueleto de progressão](classes-e-progressao-servidor.md).
+
+**Próximo passo recomendado:** ratificar as posições propostas da árvore e definir os pontos de atributo e habilidade por nível.

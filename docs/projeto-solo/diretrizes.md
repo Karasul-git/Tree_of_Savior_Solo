@@ -97,4 +97,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Estrutura do servidor.** O Melia é a base técnica candidata: servidor aberto em C#, compatível com o cliente atual da Steam, com as 39 classes da seleção nos dados e suporte a círculos no código. Grupo e bots precisarão ser construídos. [Estrutura e fases](servidor-estrutura.md).
 
-**Próximo passo recomendado:** montar a tabela de classes por rank e círculo no formato do Melia, junto com o esqueleto de progressão.
+**15/11/2026 — Fase 0 iniciada.** A [tabela das 39 classes no formato do Melia](classes-e-progressao-servidor.md) mostra 9 classes sem mudança, 26 com mudança de rank e 4 com mudança de rank e árvore. O esqueleto de progressão propõe R7, 15 níveis de classe por rank, círculos até C3 e nível máximo 280.
+
+**Próximo passo recomendado:** ratificar as posições propostas da árvore e definir os pontos de atributo e habilidade por nível.
