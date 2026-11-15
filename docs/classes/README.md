@@ -2,16 +2,16 @@
 
 [Início](../../README.md) · [Ranks e círculos](../sistemas/ranks-e-circulos.md)
 
-**[Explore o catálogo completo: 55 classes, 382 habilidades e imagens originais](catalogo-2016.md).** A adaptação solo removerá classes mágicas, conforme as [diretrizes](../projeto-solo/diretrizes.md); este índice descreve o original.
+**[Explore o catálogo completo: 55 classes, 382 habilidades e imagens originais](catalogo-2016.md?view=2016).** A adaptação solo removerá classes mágicas, conforme as [diretrizes](../projeto-solo/diretrizes.md); este índice descreve o original.
 
 No lançamento internacional, a primeira escolha colocava o personagem em uma de quatro árvores. O avanço combinava novas classes e círculos adicionais de uma classe já aprendida. O conjunto formava a build; uma classe inicial não descrevia sozinha o personagem inteiro. [F01](../fontes.md#f01)
 
 | Classe inicial | Nome de leitura em português¹ | Identidade | Círculos documentados nesta edição |
 | --- | --- | --- | --- |
-| [Swordsman](swordsman.md) | Espadachim | Combate próximo e preparação física | C1, C2 e C3 |
-| [Wizard](wizard.md) | Mago | Magia, controle e preparação de conjuração | C1, C2 e C3 |
-| [Archer](archer.md) | Arqueiro | Combate à distância e posicionamento | C1, C2 e C3 |
-| [Cleric](cleric.md) | Clérigo | Cura, proteção e habilidades de apoio | C1, C2 e C3 |
+| [Swordsman](swordsman.md?view=2016&base=swordsman) | Espadachim | Combate próximo e preparação física | C1, C2 e C3 |
+| [Wizard](wizard.md?view=2016&base=wizard) | Mago | Magia, controle e preparação de conjuração | C1, C2 e C3 |
+| [Archer](archer.md?view=2016&base=archer) | Arqueiro | Combate à distância e posicionamento | C1, C2 e C3 |
+| [Cleric](cleric.md?view=2016&base=cleric) | Clérigo | Cura, proteção e habilidades de apoio | C1, C2 e C3 |
 
 ¹ Traduções editoriais para leitura. Os nomes ingleses são as chaves de referência; não se afirma que estas eram as traduções oficiais de 2016.
 

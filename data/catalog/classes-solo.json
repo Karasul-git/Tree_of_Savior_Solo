@@ -1,0 +1,143 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "provisional-distribution",
+  "bases": [
+    {
+      "id": "warrior",
+      "name": "Warrior",
+      "source_class_id": "swordsman",
+      "provisional_name": true,
+      "classes": [
+        {
+          "class_id": "highlander",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "peltasta",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "barbarian",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "hoplite",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "cataphract",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "rodelero",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "doppelsoeldner",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "fencer",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "dragoon",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "templar",
+          "placement_status": "defined"
+        }
+      ]
+    },
+    {
+      "id": "archer",
+      "name": "Archer",
+      "source_class_id": "archer",
+      "provisional_name": false,
+      "classes": [
+        {
+          "class_id": "quarrel-shooter",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "ranger",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "hunter",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "sapper",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "wugushi",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "fletcher",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "falconer",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "cannoneer",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "musketeer",
+          "placement_status": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "source_class_id": "scout",
+      "provisional_name": false,
+      "classes": [
+        {
+          "class_id": "rogue",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "schwarzer-reiter",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "corsair",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "squire",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "shinobi",
+          "placement_status": "proposed"
+        },
+        {
+          "class_id": "alchemist",
+          "placement_status": "defined"
+        },
+        {
+          "class_id": "plague-doctor",
+          "placement_status": "defined"
+        }
+      ]
+    }
+  ],
+  "removed_class_ids": [
+    "linker",
+    "thaumaturge"
+  ],
+  "pending_class_ids": [
+    "monk",
+    "paladin"
+  ],
+  "notes": "Posições propostas não aprovam adaptações de habilidades. Classes posteriores ficam fora desta etapa."
+}

@@ -28,7 +28,10 @@
 - [x] Estudo inicial de suporte físico, cura por itens e classes ressignificáveis.
 - [ ] Inventariar primeiro o suporte e os consumíveis originais, priorizando reaproveitamento e a revisão de Templar, Squire e Corsair.
 - [x] Definir Alchemist e Plague Doctor em Scout; remover Linker/Thaumaturge e manter Templar no ramo de combate próximo.
-- [ ] Consolidar as demais classes nos três ramos de trabalho e avaliar Warrior como nome da base de combate próximo.
+- [x] Publicar distribuição provisória de 10/9/7 especializações, distinguindo posições definidas e propostas.
+- [x] Navegação solo por bases com árvore abaixo da seleção, menu hierárquico e retorno contextual das fichas.
+- [x] Visão histórica separada, preservando as quatro árvores e as 55 classes.
+- [ ] Revisar visualmente as posições propostas e avaliar Warrior como nome final da base de combate próximo.
 - [ ] Comparar as habilidades originais de Alchemist e Plague Doctor para adaptação mínima, sem sequência de evolução presumida.
 - [ ] Escolher o sistema de avanço e validar a nova base Scout no cliente/servidor.
 - [ ] Consolidar a seleção nominal da versão solo e o tratamento de classes híbridas.

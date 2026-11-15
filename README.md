@@ -14,9 +14,11 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 **Seleção solo atual:** Alchemist e Plague Doctor entram em Scout; Linker e Thaumaturge ficam removidos. Templar permanece no ramo de Swordsman, para o qual **Warrior** é o nome provisório sugerido. [Decisões e pendências](docs/projeto-solo/diretrizes.md).
 
-## Explore todas as classes
+## Explore as árvores de classes
 
-**[Abrir catálogo de 2016](docs/classes/catalogo-2016.md)** — 55 classes, 382 habilidades com resumos em português e 165 imagens originais. A versão navegável permite filtrar por árvore/rank, buscar habilidades e alternar os visuais.
+**[Abrir árvores do projeto solo](docs/classes/catalogo-2016.md)** — escolha Warrior (nome provisório), Archer ou Scout e veja suas especializações logo abaixo. A proposta tem 10, 9 e 7 especializações, com posições definidas e propostas identificadas. As fichas mantêm o caminho de volta à árvore e seus filtros.
+
+**[Consultar o original de 2016](docs/classes/catalogo-2016.md?view=2016)** — quatro bases, 55 classes, 382 habilidades resumidas e 165 imagens originais. A organização histórica continua preservada. [Mapa da proposta solo](data/catalog/classes-solo.json).
 
 ## As quatro árvores históricas
 
@@ -28,7 +30,8 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 ## Explore a wiki
 
-- [Catálogo: todas as classes e habilidades](docs/classes/catalogo-2016.md)
+- [Árvores do projeto solo](docs/classes/catalogo-2016.md)
+- [Acervo original de classes e habilidades](docs/classes/catalogo-2016.md?view=2016)
 - [Diretrizes da versão solo](docs/projeto-solo/diretrizes.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)
 - [Como funcionavam ranks e círculos](docs/sistemas/ranks-e-circulos.md)

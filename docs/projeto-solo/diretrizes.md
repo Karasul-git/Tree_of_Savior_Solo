@@ -34,6 +34,18 @@ O corte nominal de classes híbridas continua em construção. Monk, Paladin e c
 
 **Classes posteriores:** possibilidades de reaproveitamento serão avaliadas depois. Não ampliar agora o catálogo de 2016 nem importar automaticamente todas as classes de Scout do Re:Build.
 
+## Distribuição provisória para navegação
+
+A revisão do proprietário definiu a visão solo como entrada principal e autorizou uma distribuição provisória para visualizar os ramos. O [mapa de navegação](../../data/catalog/classes-solo.json) mantém 10 especializações em Warrior, 9 em Archer e 7 em Scout. Preservar identidade tem prioridade sobre igualar contagens.
+
+- **Warrior, nome provisório:** Highlander, Peltasta, Barbarian, Hoplite, Cataphract, Rodelero, Doppelsoeldner, Fencer, Dragoon e Templar.
+- **Archer:** Quarrel Shooter, Ranger, Hunter, Sapper, Wugushi, Fletcher, Falconer, Cannoneer e Musketeer.
+- **Scout:** Rogue, Schwarzer Reiter, Corsair, Squire, Shinobi, Alchemist e Plague Doctor.
+
+Templar, Alchemist e Plague Doctor têm **posição definida**. As demais posições são **propostas**, sem aprovação automática de habilidades ou requisitos. A árvore mostra opções da mesma base, sem estabelecer evolução obrigatória entre especializações. Monk, Paladin e outras classes não selecionadas permanecem disponíveis no acervo histórico.
+
+[Abrir as árvores solo](../classes/catalogo-2016.md) · [Abrir a visão de 2016](../classes/catalogo-2016.md?view=2016). Agrupamentos temáticos, como escudos, lanças e animais, ficam para outra etapa.
+
 ## Ordem de trabalho escolhida
 
 1. Reunir o panorama de todas as classes do lançamento: emblemas, personagens, identidade e habilidades.
@@ -48,4 +60,4 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** organizar uma primeira distribuição das classes físicas restantes entre o ramo Warrior, Archer e Scout, preservando o máximo do original; depois comparar as habilidades existentes de Alchemist e Plague Doctor para adaptação mínima.
+**Próximo passo recomendado:** revisar a distribuição provisória usando a navegação por bases, para ajustar as posições propostas antes de aprofundar habilidades ou agrupamentos temáticos.

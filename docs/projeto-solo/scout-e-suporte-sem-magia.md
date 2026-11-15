@@ -92,4 +92,4 @@ Essas regras precisam ser testadas contra duração dos confrontos, dano recebid
 
 Não há implementação de gameplay nesta atualização da wiki. Sem o cliente e a base técnica definidos, a viabilidade de cada mudança continua pendente.
 
-**Próximo passo recomendado:** montar a distribuição inicial das classes físicas entre Warrior (nome provisório), Archer e Scout. Depois, comparar habilidades originais de Alchemist e Plague Doctor para escolher o reaproveitamento com menos alterações.
+**Próximo passo recomendado:** revisar a distribuição provisória nas [árvores solo](../classes/catalogo-2016.md), ajustando as posições propostas. Depois, comparar habilidades originais de Alchemist e Plague Doctor para escolher o reaproveitamento com menos alterações.

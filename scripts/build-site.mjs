@@ -2,12 +2,14 @@ import { readFile, writeFile, mkdir, rm, cp } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Marked } from 'marked';
+import { readTreeState, renderTreeSidebar, renderTreeViews, renderTreePage, renderClassContext } from '../web/trees.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const repoURL = 'https://github.com/Karasul-git/Tree_of_Savior_Solo';
 const sourceCount = JSON.parse(await readFile(path.join(root, 'data/sources.json'), 'utf8')).length;
 const catalog = JSON.parse(await readFile(path.join(root, 'data/catalog/classes-2016.json'), 'utf8'));
+const solo = JSON.parse(await readFile(path.join(root, 'data/catalog/classes-solo.json'), 'utf8'));
 const classes = [
   { slug: 'swordsman', name: 'Swordsman', pt: 'Espadachim', note: 'O primeiro passo na linha de frente.', role: 'COMBATE PRÓXIMO', count: 8, color: 'red' },
   { slug: 'wizard', name: 'Wizard', pt: 'Mago', note: 'Magia, controle e novas possibilidades.', role: 'MAGIA E CONTROLE', count: 8, color: 'blue' },
@@ -43,21 +45,23 @@ function shell(title, current, content, toc = [], classInfo) {
   const base = prefix + '/';
   const link = (file, text, extra = '') => `<a href="${base + file}" ${current === file ? 'aria-current="page" class="current"' : ''} ${extra}>${text}</a>`;
   const group = (label, items) => `<div class="nav-group"><p>${label}</p>${items.join('')}</div>`;
+  const contextClass = catalog.classes.find(c => current === `docs/classes/catalogo/${c.id}.html` || current === `docs/classes/${c.id}.html`);
+  const treeState = readTreeState('', catalog, solo, contextClass?.id);
   const nav = [
-    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/index.html', 'As quatro árvores'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
-    group('ESCOLHA UM CAMINHO', classes.map(c => link(`docs/classes/${c.slug}.html`, `<img src="${base}docs/assets/classes/${c.slug}/icon.png" alt="" width="27" height="27"> ${c.name}`))),
+    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
+    `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
     group('ENTENDA A ÉPOCA', [link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build')]),
     group('PRESERVAR A MEMÓRIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('ROADMAP.html', 'Próximas etapas'), link('CONTRIBUTING.html', 'Como contribuir')]),
   ].join('');
   return `<!doctype html>
-<html lang="pt-BR" data-root="${base}">
+<html lang="pt-BR" data-root="${base}" data-class-id="${contextClass?.id || ''}">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light">
 <title>${escape(title)} · Tree of Savior — Memórias</title><meta name="description" content="Wiki histórica em português sobre as classes e o mundo de Tree of Savior no lançamento internacional de 2016, com imagens oficiais e fontes documentadas.">
-<link rel="icon" href="${base}docs/assets/classes/cleric/icon.png"><link rel="stylesheet" href="${base}assets/style.css">
-<script src="${base}search-index.js" defer></script><script src="${base}assets/app.js" defer></script></head>
+<link rel="icon" href="${base}docs/assets/classes/scout/icon.png"><link rel="stylesheet" href="${base}assets/style.css">
+<script src="${base}search-index.js" defer></script><script src="${base}tree-data.js" defer></script><script src="${base}assets/app.js" defer></script></head>
 <body><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
-<aside id="sidebar" class="sidebar"><a class="brand" href="${base}index.html"><img src="${base}docs/assets/classes/cleric/icon.png" width="45" height="45" alt=""><span>TREE OF SAVIOR<small>MEMÓRIAS DO LANÇAMENTO</small></span></a>
-<div class="edition"><span class="status-dot"></span> iToS · Edição 2016 <span>v0.4</span></div>
+<aside id="sidebar" class="sidebar"><a class="brand" href="${base}index.html"><img src="${base}docs/assets/classes/scout/icon.png" width="45" height="45" alt=""><span>TREE OF SAVIOR<small>MEMÓRIAS DO LANÇAMENTO</small></span></a>
+<div class="edition"><span class="status-dot"></span> <span id="edition-view">${treeState.view === 'solo' ? 'Projeto solo' : 'Original de 2016'}</span> <span>v0.5</span></div>
 <nav aria-label="Navegação principal">${nav}</nav><div class="sidebar-bottom"><span>Um mundo que vale guardar.</span><a href="${repoURL}" target="_blank" rel="noopener noreferrer">Projeto no GitHub ↗</a></div></aside>
 <button id="menu-shade" tabindex="-1" aria-label="Fechar menu"></button>
 <div class="page-shell"><header class="topbar"><div class="topbar-left"><button id="menu-toggle" class="icon-button" aria-label="Abrir menu" aria-controls="sidebar" aria-expanded="false">☰</button><span class="breadcrumb">O acervo <span>/</span> <strong>${escape(title)}</strong></span></div>
@@ -71,24 +75,14 @@ ${current !== 'index.html' ? `<div class="article-grid"><article class="prose">$
 }
 
 function catalogPage() {
-  const cards = catalog.classes.map(c => {
-    const search = `${c.name} ${c.tree} ${c.summary} ${c.skills.map(s => `${s.name} ${s.summary}`).join(' ')}`;
-    const female = `../assets/classes/${c.id}/female.gif`;
-    const male = `../assets/classes/${c.id}/male.gif`;
-    return `<div role="listitem" data-catalog-entry data-name="${escape(c.name)}" data-tree="${escape(c.tree)}" data-rank="${c.first_rank}" data-hidden="${c.hidden}" data-search="${escape(search)}"><a class="catalog-card ${c.tree.toLowerCase()}" href="catalogo/${c.id}.html"><div class="catalog-card-head"><img src="../assets/classes/${c.id}/icon.png" alt="" width="40" height="40" loading="lazy"><span>${escape(c.tree)} · Rank ${c.first_rank}${c.hidden ? '<br><strong>Classe oculta</strong>' : ''}</span></div><div class="catalog-sprite"><img data-catalog-sprite data-female="${female}" data-male="${male}" src="${female}" alt="${escape(c.name)} · visual feminino oficial" loading="lazy" width="155" height="155"></div><h2>${escape(c.name)}</h2><p>${escape(c.summary)}</p><span class="catalog-card-foot">${c.skills.length} habilidades · C1${c.max_circle_in_catalog > 1 ? '–C' + c.max_circle_in_catalog : ''}<span aria-hidden="true">↗</span></span></a></div>`;
-  }).join('');
-  return `<div class="catalog-heading"><span class="eyebrow">UM PASSEIO PELO LANÇAMENTO</span><h1 id="catalogo">Todas as classes.<br><em>Um mundo de possibilidades.</em></h1><p>${catalog.class_count} classes, ${catalog.skill_count} habilidades resumidas e 165 imagens originais. Explore o que cada caminho fazia em 2016.</p></div>
-<div class="catalog-policy"><strong>Direção solo: Scout como base e suporte sem magia.</strong> Este catálogo preserva o jogo original. Classes mágicas serão removidas ou estudadas para ressignificação por itens e técnicas. <a href="../projeto-solo/scout-e-suporte-sem-magia.html">Scout, suporte e cura →</a></div>
-<form id="catalog-filters" class="catalog-filters" role="search" aria-label="Filtrar classes"><label class="catalog-query">Buscar classe, habilidade ou estilo<input type="search" name="query" placeholder="Lança, veneno, Cyclone, cura…" autocomplete="off"></label><label>Árvore de 2016<select name="tree"><option value="">Todas as árvores</option>${catalog.trees.map(tree => `<option>${tree}</option>`).join('')}</select></label><label>Primeiro rank<select name="rank"><option value="">Todos os ranks</option>${Array.from({length:7}, (_, i) => `<option value="${i+1}">Rank ${i+1}</option>`).join('')}</select></label><label>Tipo<select name="kind"><option value="">Todas as classes</option><option value="regular">Regulares</option><option value="hidden">Ocultas</option></select></label><label>Visual<select name="visual"><option value="female">Feminino</option><option value="male">Masculino</option></select></label><button type="reset">Limpar filtros</button></form>
-<div class="catalog-results"><p id="catalog-count" role="status" aria-live="polite">${catalog.class_count} de ${catalog.class_count} classes</p><a href="#recorte">Sobre o recorte histórico ↓</a></div><p id="catalog-empty" hidden>Nenhuma classe corresponde aos filtros. Experimente outro termo ou limpe os filtros.</p><div class="catalog-grid" role="list" aria-label="Classes do lançamento">${cards}</div>
-<section class="catalog-method" id="recorte"><h2>O que este catálogo preserva?</h2><p>Quatro árvores, até Rank 7, em março–abril de 2016: 52 classes regulares e três ocultas. Scout era uma especialização de Archer. As fichas apresentam os círculos que cabem no recorte e uma explicação de cada habilidade; números e atributos detalhados ficam para o aprofundamento.</p><p>As habilidades vêm de páginas arquivadas de 2016. Os visuais são arquivos originais da IMC disponíveis no site oficial atual; a identidade exata das imagens em 2016 ainda precisa de comprovação.</p><p><a href="../fontes.html#f37">Fontes e limites da pesquisa</a> · <a href="../imagens.html">Procedência das imagens</a> · <a href="../projeto-solo/diretrizes.html">Seleção para a versão solo</a></p></section>`;
+  return renderTreePage(catalog, solo, readTreeState('', catalog, solo), '../../');
 }
 
 function home() {
-  return `<section class="hero"><div class="hero-copy"><div class="eyebrow"><span class="tiny-leaf">❧</span> ARQUIVO HISTÓRICO · 2016</div><h1>Um mundo inteiro.<br><em>Um novo começo.</em></h1><p>Reencontre o Tree of Savior do lançamento.<br>Os primeiros caminhos, as antigas escolhas e a vontade<br class="wide-break"> de descobrir o que havia no próximo mapa.</p><div class="hero-actions"><a class="button primary" href="docs/classes/catalogo-2016.html">Explorar as classes <span>↗</span></a><a class="text-link" href="docs/recorte-historico.html">Conheça esta edição <span>→</span></a></div><div class="hero-caption"><span class="status-dot"></span> Uma memória de cada vez. Uma fonte para cada descoberta.</div></div>
-<div class="hero-art" aria-label="Personagens oficiais de Cleric e Swordsman"><div class="art-ring"></div><span class="art-star star-one">✦</span><span class="art-star star-two">✧</span><div class="art-land"></div><img class="hero-cleric" src="docs/assets/classes/cleric/female.gif" alt="Cleric, personagem oficial"><img class="hero-swordsman" src="docs/assets/classes/swordsman/female.gif" alt="Swordsman, personagem oficial"><div class="art-label"><span>AS PRIMEIRAS ESCOLHAS</span><strong>É aqui que tudo começa.</strong></div></div></section>
+  return `<section class="hero"><div class="hero-copy"><div class="eyebrow"><span class="tiny-leaf">❧</span> PROJETO SOLO · ACERVO 2016</div><h1>Um mundo inteiro.<br><em>Um novo começo.</em></h1><p>Explore Warrior, Archer e Scout.<br>As classes do nosso projeto e a memória de 2016,<br class="wide-break"> com a vontade de descobrir o próximo mapa.</p><div class="hero-actions"><a class="button primary" href="docs/classes/catalogo-2016.html">Explorar as classes <span>↗</span></a><a class="text-link" href="docs/recorte-historico.html">Conheça esta edição <span>→</span></a></div><div class="hero-caption"><span class="status-dot"></span> Uma memória de cada vez. Uma fonte para cada descoberta.</div></div>
+<div class="hero-art" aria-label="Personagens oficiais de Scout e Swordsman"><div class="art-ring"></div><span class="art-star star-one">✦</span><span class="art-star star-two">✧</span><div class="art-land"></div><img class="hero-scout" src="docs/assets/classes/scout/female.gif" alt="Scout, personagem oficial"><img class="hero-swordsman" src="docs/assets/classes/swordsman/female.gif" alt="Swordsman, personagem oficial"><div class="art-label"><span>AS PRIMEIRAS ESCOLHAS</span><strong>É aqui que tudo começa.</strong></div></div></section>
 <section class="archive-strip" aria-label="Cobertura da edição"><div><strong>${catalog.class_count}</strong><span>classes no catálogo</span></div><div><strong>${catalog.skill_count}</strong><span>habilidades resumidas</span></div><div><strong>${String(sourceCount).padStart(2,'0')}</strong><span>fontes documentadas</span></div><a href="docs/recorte-historico.html"><span>MARCO DA EDIÇÃO</span><strong>29 de março, 2016 <span>↗</span></strong></a></section>
-<section class="classes-section"><div class="section-heading"><div><span class="eyebrow">A PRIMEIRA ESCOLHA</span><h2>Qual será o seu caminho?</h2></div><span class="section-note">Quatro árvores. Muitas histórias.</span></div><div class="class-grid">${classes.map((c, i) => `<a class="class-card ${c.color}" href="docs/classes/${c.slug}.html"><div class="class-card-top"><span>0${i + 1} / RANK 1</span><img src="docs/assets/classes/${c.slug}/icon.png" alt="Emblema de ${c.name}" width="54" height="54"></div><div class="card-character"><span class="character-halo"></span><img src="docs/assets/classes/${c.slug}/${c.slug === 'wizard' ? 'male' : 'female'}.gif" alt="Visual oficial de ${c.name}" loading="lazy"></div><span class="class-role">${c.role}</span><h3>${c.name}</h3><p>${c.note}</p><div class="class-card-bottom"><span>C1 – C3 <span>·</span> ${c.count} habilidades</span><span class="card-arrow">↗</span></div></a>`).join('')}</div></section>
+<section class="classes-section"><div class="section-heading"><div><span class="eyebrow">A PRIMEIRA ESCOLHA</span><h2>Escolha sua base.</h2></div><a class="section-note" href="docs/classes/catalogo-2016.html?view=2016">Consultar o original de 2016 →</a></div><div class="class-grid solo-home-grid">${solo.bases.map((b, i) => `<a class="class-card ${['red','green','gold'][i]}" href="docs/classes/catalogo-2016.html?view=solo&amp;base=${b.id}#arvore"><div class="class-card-top"><span>0${i+1} / BASE SOLO</span><img src="docs/assets/classes/${b.source_class_id}/icon.png" alt="Emblema de ${b.name}" width="54" height="54"></div><div class="card-character"><span class="character-halo"></span><img src="docs/assets/classes/${b.source_class_id}/female.gif" alt="Visual oficial usado como referência de ${b.name}" loading="lazy"></div><span class="class-role">${b.provisional_name ? 'NOME PROVISÓRIO' : 'PROJETO SOLO'}</span><h3>${b.name}</h3><p>${['Armas, escudos e combate próximo.','Disparos, armadilhas e companheiros.','Mobilidade, ofícios e apoio por itens.'][i]}</p><div class="class-card-bottom"><span>${b.classes.length} especializações</span><span class="card-arrow">↓</span></div></a>`).join('')}</div></section>
 <section class="reading-grid"><a class="reading-card" href="docs/sistemas/ranks-e-circulos.html"><span class="reading-number">I.</span><div><span class="eyebrow">AS REGRAS DE OUTRO TEMPO</span><h3>Ranks, círculos e possibilidades</h3><p>Entenda como cada avanço construía um personagem diferente.</p></div><span>→</span></a><a class="reading-card" href="docs/fontes.html"><span class="reading-number">II.</span><div><span class="eyebrow">PRESERVAR COM CUIDADO</span><h3>De onde vêm as lembranças?</h3><p>Guias da época, imagens oficiais e dúvidas que continuam abertas.</p></div><span>→</span></a></section>
 <aside class="archive-note"><span class="note-symbol">✧</span><div><strong>Um acervo vivo, com a história no lugar certo.</strong><p>O catálogo reúne 55 classes da janela de lançamento. A versão solo removerá classes mágicas; o acervo preserva a referência original. <a href="ROADMAP.html">Veja os próximos capítulos →</a></p></div></aside>`;
 }
@@ -100,9 +94,11 @@ await cp(path.join(root, 'data'), path.join(dist, 'data'), { recursive: true });
 await cp(path.join(root, 'web/style.css'), path.join(dist, 'assets/style.css'));
 const searchCode = (await readFile(path.join(root, 'web/search.mjs'), 'utf8')).replaceAll('export function', 'function');
 const catalogCode = (await readFile(path.join(root, 'web/catalog.mjs'), 'utf8')).replace(/^import .*;\n/, '').replaceAll('export function', 'function');
+const treeCode = (await readFile(path.join(root, 'web/trees.mjs'), 'utf8')).replace(/^import .*;\n/gm, '').replaceAll('export function', 'function');
 const appCode = (await readFile(path.join(root, 'web/app.js'), 'utf8')).replace(/^import .*;\n/, '');
-await writeFile(path.join(dist, 'assets/app.js'), searchCode + '\n' + catalogCode + '\n' + appCode);
+await writeFile(path.join(dist, 'assets/app.js'), searchCode + '\n' + catalogCode + '\n' + treeCode + '\n' + appCode);
 await writeFile(path.join(dist, '.nojekyll'), '');
+await writeFile(path.join(dist, 'tree-data.js'), 'window.WIKI_CATALOG=' + JSON.stringify(catalog).replaceAll('<', '\\u003c') + ';window.WIKI_SOLO=' + JSON.stringify(solo).replaceAll('<', '\\u003c') + ';');
 const searchIndex = [];
 
 for (const [source, title] of documents) {
@@ -113,9 +109,12 @@ for (const [source, title] of documents) {
     const key = token.type === 'link' ? 'href' : token.type === 'image' ? 'href' : null;
     if (!key || !token[key] || /^(?:[a-z][a-z0-9+.-]*:|\/\/|#)/i.test(token[key])) return;
     const [local, anchor] = token[key].split('#');
-    const resolved = path.posix.normalize(path.posix.join(path.posix.dirname(source), local));
-    let target = local.endsWith('/') ? resolved.replace(/\/$/, '') + '/index.html' : outPath(resolved);
-    token[key] = (path.posix.relative(path.posix.dirname(current), target) || path.posix.basename(target)) + (anchor ? '#' + anchor : '');
+    const queryAt = local.indexOf('?');
+    const localPath = queryAt < 0 ? local : local.slice(0, queryAt);
+    const query = queryAt < 0 ? '' : local.slice(queryAt);
+    const resolved = path.posix.normalize(path.posix.join(path.posix.dirname(source), localPath));
+    let target = localPath.endsWith('/') ? resolved.replace(/\/$/, '') + '/index.html' : outPath(resolved);
+    token[key] = (path.posix.relative(path.posix.dirname(current), target) || path.posix.basename(target)) + query + (anchor ? '#' + anchor : '');
   }});
   let content = parser.parse(markdown);
   const toc = [];
@@ -131,6 +130,12 @@ for (const [source, title] of documents) {
   if (current === 'docs/classes/catalogo-2016.html') {
     content = catalogPage();
     toc.length = 0;
+  }
+  const contextEntry = catalog.classes.find(c => source === `docs/classes/catalogo/${c.id}.md` || source === `docs/classes/${c.id}.md`);
+  if (contextEntry) {
+    const treeRoot = (path.posix.relative(path.posix.dirname(current), '.') || '.') + '/';
+    const contextState = readTreeState('', catalog, solo, contextEntry.id);
+    content = `<div id="class-tree-context">${renderClassContext(catalog, solo, contextState, contextEntry.id, treeRoot)}</div>` + content;
   }
   const classInfo = classes.find(c => source === `docs/classes/${c.slug}.md`);
   if (classInfo) content = content.replace('<p><img', '<p class="class-emblem"><img');

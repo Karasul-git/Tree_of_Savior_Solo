@@ -121,6 +121,27 @@ for entry in catalog_classes:
     skill_count += len(skills)
 if skill_count != catalog['skill_count']:
     errors.append('Catalog skill count mismatch')
+solo = json.loads((ROOT / 'data/catalog/classes-solo.json').read_text())
+solo_ids = []
+base_ids = []
+defined = set()
+for base in solo['bases']:
+    base_ids.append(base['id'])
+    if base['source_class_id'] not in catalog_ids:
+        errors.append(f'Unknown solo base reference: {base["id"]}')
+    solo_ids.append(base['source_class_id'])
+    for entry in base['classes']:
+        solo_ids.append(entry['class_id'])
+        if entry['class_id'] not in catalog_ids or entry['placement_status'] not in ['defined', 'proposed']:
+            errors.append('Invalid solo class reference/status')
+        if entry['placement_status'] == 'defined':
+            defined.add(entry['class_id'])
+if base_ids != ['warrior', 'archer', 'scout'] or len(solo_ids) != len(set(solo_ids)):
+    errors.append('Unexpected solo bases or duplicate solo class')
+if defined != {'templar', 'alchemist', 'plague-doctor'}:
+    errors.append('Solo placement status differs from approved decisions')
+if set(solo_ids) & (set(solo['removed_class_ids']) | set(solo['pending_class_ids'])):
+    errors.append('Removed/pending class assigned to solo tree')
 for snapshot in json.loads((ROOT / 'data/research/catalog-snapshots.json').read_text()):
     if snapshot['source_id'] not in source_ids or not re.fullmatch('[a-f0-9]{64}', snapshot['html_sha256']):
         errors.append('Invalid catalog snapshot provenance')

@@ -1,6 +1,10 @@
 import { findPages } from './search.mjs';
 
 const root = document.documentElement.dataset.root;
+const treeCatalog = window.WIKI_CATALOG;
+const treeSolo = window.WIKI_SOLO;
+const currentClassId = document.documentElement.dataset.classId || '';
+let navigationState = readTreeState(location.search, treeCatalog, treeSolo, currentClassId);
 const dialog = document.querySelector('#search-dialog');
 const input = document.querySelector('#search-input');
 const results = document.querySelector('#search-results');
@@ -37,7 +41,8 @@ input.addEventListener('input', () => {
   for (const page of matches) {
     const item = document.createElement('li');
     const link = document.createElement('a');
-    link.href = root + page.path;
+    const classId = page.path.match(/docs\/classes\/(?:catalogo\/)?([^/]+)\.html$/)?.[1];
+    link.href = root + page.path + (treeCatalog.classes.some(c => c.id === classId) ? treeQuery(readTreeState(treeQuery(navigationState), treeCatalog, treeSolo, classId)) : '');
     const title = document.createElement('strong');
     title.textContent = page.title;
     const snippet = document.createElement('span');
@@ -93,30 +98,87 @@ topButton.addEventListener('click', () => {
 });
 
 const catalogForm = document.querySelector('#catalog-filters');
-if (catalogForm) {
-  const entries = [...document.querySelectorAll('[data-catalog-entry]')];
-  const count = document.querySelector('#catalog-count');
-  const empty = document.querySelector('#catalog-empty');
-  function updateCatalog() {
-    const data = new FormData(catalogForm);
-    const filters = Object.fromEntries(data);
-    let visible = 0;
-    for (const entry of entries) {
-      const match = matchesCatalogEntry(entry.dataset, filters);
-      entry.hidden = !match;
-      if (match) visible++;
-      const sprite = entry.querySelector('[data-catalog-sprite]');
-      const role = filters.visual === 'male' ? 'male' : 'female';
-      const target = sprite.dataset[role];
-      if (sprite.getAttribute('src') !== target) sprite.src = target;
-      sprite.alt = `${entry.dataset.name} · visual ${role === 'male' ? 'masculino' : 'feminino'} oficial`;
+
+function updateTreeUI() {
+  document.querySelector('#sidebar-tree').innerHTML = renderTreeSidebar(treeCatalog, treeSolo, navigationState, root, currentClassId);
+  document.querySelector('#nav-tree-views').innerHTML = renderTreeViews(navigationState, root);
+  document.querySelector('#edition-view').textContent = navigationState.view === 'solo' ? 'Projeto solo' : 'Original de 2016';
+  const context = document.querySelector('#class-tree-context');
+  if (context) context.innerHTML = renderClassContext(treeCatalog, treeSolo, navigationState, currentClassId, root);
+  if (catalogForm) {
+    document.querySelector('#tree-views').innerHTML = renderTreeViews(navigationState, root);
+    document.querySelector('#tree-bases').innerHTML = renderBaseChoices(treeCatalog, treeSolo, navigationState, root);
+    document.querySelector('#tree-branches').innerHTML = renderTreeBranches(treeCatalog, treeSolo, navigationState, root);
+    document.querySelector('#tree-intro').textContent = navigationState.view === 'solo'
+      ? 'Três bases, 26 especializações. Uma distribuição em construção, com posições definidas e propostas.'
+      : 'Quatro bases e 51 especializações do catálogo histórico de 2016, incluindo três classes ocultas.';
+    const counts = treeVisibleCount(treeCatalog, treeSolo, navigationState);
+    document.querySelector('#catalog-count').textContent = `${counts.visible} de ${counts.total} especializações`;
+    for (const key of ['query', 'rank', 'kind', 'visual']) {
+      const field = catalogForm.elements.namedItem(key);
+      if (field.value !== navigationState[key]) field.value = navigationState[key];
     }
-    count.textContent = `${visible} de ${entries.length} classes`;
-    empty.hidden = visible !== 0;
+    document.querySelectorAll('[data-historical-filter]').forEach(label => {
+      label.hidden = navigationState.view !== '2016';
+      label.querySelector('select').disabled = label.hidden;
+    });
   }
-  catalogForm.addEventListener('submit', event => event.preventDefault());
-  catalogForm.addEventListener('input', updateCatalog);
-  catalogForm.addEventListener('change', updateCatalog);
-  catalogForm.addEventListener('reset', () => setTimeout(updateCatalog, 0));
-  updateCatalog();
+  // Preserve the selected view and filters when following class references.
+  for (const link of document.querySelectorAll('a[href]')) {
+    const target = new URL(link.getAttribute('href'), location.href);
+    if (target.origin !== location.origin) continue;
+    const id = target.pathname.match(/docs\/classes\/(?:catalogo\/)?([^/]+)\.html$/)?.[1];
+    if (!treeCatalog.classes.some(c => c.id === id)) continue;
+    if (!link.hasAttribute('data-class-link') && target.searchParams.has('view')) continue;
+    const state = readTreeState(treeQuery(navigationState), treeCatalog, treeSolo, id);
+    target.search = treeQuery(state);
+    link.href = target.pathname + target.search + target.hash;
+  }
 }
+
+function storeTreeURL() {
+  history.replaceState(null, '', location.pathname + treeQuery(navigationState) + location.hash);
+}
+
+if (catalogForm) {
+  catalogForm.addEventListener('submit', event => event.preventDefault());
+  function applyFilters() {
+    const fields = Object.fromEntries(new FormData(catalogForm));
+    navigationState = readTreeState(treeQuery({ ...navigationState, ...fields }), treeCatalog, treeSolo);
+    storeTreeURL();
+    updateTreeUI();
+  }
+  catalogForm.addEventListener('input', applyFilters);
+  catalogForm.addEventListener('change', applyFilters);
+  catalogForm.addEventListener('reset', event => {
+    event.preventDefault();
+    navigationState = { ...navigationState, query: '', rank: '', kind: '', visual: 'female' };
+    storeTreeURL();
+    updateTreeUI();
+  });
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[data-tree-state]');
+    if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const target = new URL(link.href);
+    if (target.origin !== location.origin || target.pathname !== location.pathname) return;
+    event.preventDefault();
+    const fromMenu = Boolean(link.closest('#sidebar'));
+    const focusKey = link.dataset.base ? `[data-base="${link.dataset.base}"]` : `[data-view="${link.dataset.view}"]`;
+    const focusArea = fromMenu ? '#nav-tree-views, #sidebar-tree' : '#tree-views, #tree-bases';
+    navigationState = readTreeState(target.search, treeCatalog, treeSolo);
+    history.pushState(null, '', target.pathname + treeQuery(navigationState) + target.hash);
+    updateTreeUI();
+    if (fromMenu && matchMedia('(max-width: 900px)').matches) {
+      closeMenu();
+      document.querySelector('#arvore').focus({ preventScroll: true });
+    } else {
+      [...document.querySelectorAll(focusArea)].flatMap(area => [...area.querySelectorAll(focusKey)])[0]?.focus({ preventScroll: true });
+    }
+    if (target.hash === '#arvore') document.querySelector('#arvore').scrollIntoView({ block: 'start' });
+  });
+}
+window.addEventListener('popstate', () => {
+  navigationState = readTreeState(location.search, treeCatalog, treeSolo, currentClassId);
+  updateTreeUI();
+});
+updateTreeUI();
