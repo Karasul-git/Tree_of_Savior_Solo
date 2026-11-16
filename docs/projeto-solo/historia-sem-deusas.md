@@ -55,4 +55,6 @@ O jogador é um agente da coroa, ainda chamado de Revelator, enviado para **reun
 - Revisar o rascunho de premissa.
 - Inventariar os chefes demônios e os sprites que podem virar humanos ou mutantes.
 
-**Próximo passo recomendado:** revisar o rascunho de premissa e, em seguida, inventariar os chefes demônios e sprites que viram generais, campeões ou mutantes.
+O inventário dos chefes está em [Chefes da história](chefes-da-historia.md).
+
+**Próximo passo recomendado:** revisar o rascunho de premissa e conferir os sprites dos chefes.

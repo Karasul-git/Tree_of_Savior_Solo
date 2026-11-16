@@ -57,6 +57,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Companheiros, bots e grupo](docs/projeto-solo/companheiros-e-bots.md)
 - [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
 - [História sem deusas e sem demônios](docs/projeto-solo/historia-sem-deusas.md)
+- [Chefes da história](docs/projeto-solo/chefes-da-historia.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)
 - [Como funcionavam ranks e círculos](docs/sistemas/ranks-e-circulos.md)
 - [Barracão, equipe e grupo no lançamento](docs/sistemas/barracao-e-grupo.md)

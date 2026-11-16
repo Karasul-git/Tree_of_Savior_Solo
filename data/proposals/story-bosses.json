@@ -1,0 +1,154 @@
+{
+  "reviewed_at": "2026-11-16",
+  "status": "proposal-sprites-not-checked",
+  "source_ids": [
+    "F124",
+    "F140"
+  ],
+  "method": "Chefes (className boss_) até o nível 290 nos dados do Melia, raça Velnias (demônio), cujo nome aparece nos textos de missões de 15/04/2016. Classificação por nome, nível e textos; sprites não foram vistos.",
+  "counts": {
+    "boss_names_in_2016_text": 241,
+    "by_race": {
+      "Velnias": 79,
+      "Widling": 55,
+      "Forester": 51,
+      "Paramune": 36,
+      "Klaida": 18,
+      "None": 2
+    }
+  },
+  "generals": [
+    {
+      "name": "Gesti",
+      "className": "boss_gesti",
+      "level": 50,
+      "original": "Rainha Demônio; lançou a maldição da petrificação",
+      "proposal": "Braço direito de Giltine; a 'petrificação' vira arma feita com cristais da Árvore"
+    },
+    {
+      "name": "Kartas",
+      "className": "boss_durahan_Q1 (Kartas Hunter Dullahan)",
+      "level": 86,
+      "original": "Rei Demônio",
+      "proposal": "General de Giltine; o Dullahan vira seu cavaleiro de elite"
+    },
+    {
+      "name": "Hauberk",
+      "className": "boss_hauberk",
+      "level": null,
+      "original": "Senhor demônio despedaçado por Helgasercle; oferece contar onde está Vakarine",
+      "proposal": "Traidor da corte rival, preso e mutilado; negocia informações sobre as nobres desaparecidas"
+    },
+    {
+      "name": "Mirtis",
+      "className": "boss_mirtis",
+      "level": 22,
+      "original": "Senhora demônio de baixa posição, falhou missões de Giltine",
+      "proposal": "Agente fracassada tentando recuperar prestígio"
+    },
+    {
+      "name": "Marnox",
+      "className": "boss_Marnoks",
+      "level": 28,
+      "original": "Senhor demônio",
+      "proposal": "Comandante de vanguarda"
+    },
+    {
+      "name": "Rexipher",
+      "className": "boss_lecifer",
+      "level": 96,
+      "original": "O mais sábio dos senhores demônios, mal aproveitado por Gesti",
+      "proposal": "Estrategista do reino rival"
+    },
+    {
+      "name": "Zaura",
+      "className": "boss_Zawra",
+      "level": 103,
+      "original": "Prende Lada e constrói a Kruvina; versão 'fortalecida por Giltine'",
+      "proposal": "Carcereira de uma nobre; a Kruvina vira um dispositivo de cristal"
+    },
+    {
+      "name": "Helgasercle",
+      "className": "boss_helgasercle",
+      "level": 126,
+      "original": "Senhor demônio poderoso",
+      "proposal": "Comandante de alta patente"
+    },
+    {
+      "name": "Naktis",
+      "className": "boss_Naktis",
+      "level": 145,
+      "original": "Senhor demônio",
+      "proposal": "Comandante"
+    },
+    {
+      "name": "Blut",
+      "className": "boss_Blud",
+      "level": 153,
+      "original": "Senhor demônio",
+      "proposal": "Comandante"
+    },
+    {
+      "name": "Nuaele",
+      "className": "boss_Nuaelle",
+      "level": 156,
+      "original": "Senhor demônio",
+      "proposal": "Comandante"
+    }
+  ],
+  "mutated_champions": [
+    "Minotaur (níveis 33–116)",
+    "Green Minotaur (31)",
+    "Cyclops (17)",
+    "Netherbovine (21)",
+    "Harpeia e variantes (52–122)",
+    "Deathweaver (53) e Throneweaver (109–129)",
+    "Gorgon (70)",
+    "Red Lavenzard (87) e Lavenzard (250)",
+    "Drapeliun (90)",
+    "Riteris e variantes (142)",
+    "Fire Lord (127)",
+    "Dionys (159)",
+    "Dullahan (185)",
+    "Gargoyle (199)",
+    "Cerberus (200)",
+    "Nebulas (272)",
+    "Sparnasman (38)",
+    "Merregina (46)",
+    "Tomb Lord (67)"
+  ],
+  "supernatural_risk": [
+    {
+      "names": "Specter Monarch, Specter of Deceit, Rikaus",
+      "reason": "Espectros"
+    },
+    {
+      "names": "Grim Reaper",
+      "reason": "Ceifador"
+    },
+    {
+      "names": "Shadowgaler",
+      "reason": "Sombra"
+    },
+    {
+      "names": "Chapparition e variantes",
+      "reason": "Aparição"
+    },
+    {
+      "names": "Mummyghast e Necroventer",
+      "reason": "Mortos-vivos e necromancia"
+    },
+    {
+      "names": "Corrupted (Fallen Statue)",
+      "reason": "Estátua animada, ligada ao tema das estátuas"
+    },
+    {
+      "names": "Marionette",
+      "reason": "Boneco animado"
+    },
+    {
+      "names": "Unknocker",
+      "reason": "Conferir aparência"
+    }
+  ]
+}
