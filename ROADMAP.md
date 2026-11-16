@@ -121,6 +121,7 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Ataque de preparados soma a arma principal; defesa mágica dos monstros com a mesma meta da física.
 - [x] Cura de preparados com INT (+1% por ponto) e poções como base da sustentação.
 - [x] Estudo da economia das poções (silver cobre 12% a 19% do consumo).
+- [x] Pesquisa da economia de 2016: fontes e gastos de silver, poções e alquimia.
 - [ ] Decidir se o silver sai do jogo; se sair, fabricação de poções pela alquimia original.
 - [ ] Estrutura das masmorras e habilidades dos chefes.
 - [ ] Conferir valores de armas e armaduras com 2016.

@@ -1038,3 +1038,23 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F130 · Fórum oficial · Bonus stat points distribution
 
 [Fórum oficial · Bonus stat points distribution](https://forum.treeofsavior.com/t/guide-bonus-stat-points-distribution-updated-8-28-15/35417) — Dynemanti e respostas de jogadores, 28/08/2015; consulta em 15/11/2026. Regra extraída de dados por jogadores: +1 ponto a cada 5 investidos até 50, a cada 4 até 150, a cada 3 até 300, a cada 2 até 500 e 2 por ponto acima disso. **Limite:** Beta de 2015; a própria discussão diverge sobre contar ou não os atributos iniciais da classe. Não comprova o valor em março–abril de 2016.
+
+<a id="f131"></a>
+### F131 · Fórum oficial · What do you spend your silver on?
+
+[Fórum oficial · What do you spend your silver on?](https://forum.treeofsavior.com/t/what-do-you-spend-your-silver-on/183055) — whiningwillow e respostas de jogadores, 08/04/2016; consulta em 16/11/2026. Jogadores relatam em abril de 2016 gastos com poções (10 a 15 mil; 5 a 10 mil por masmorra), reparos (4 a 7 mil a cada 2 horas), atributos (8 a 20 mil a cada 2 ou 3 horas), pergaminhos de teletransporte e consumíveis de classe; um jogador diz ganhar ~200 mil de silver por hora caçando e cita poções de Alchemist vendidas no mercado por 1.200 a 1.500. **Limite:** Relatos de jogadores, só a primeira página foi lida; valores variam muito por jogador e build.
+
+<a id="f132"></a>
+### F132 · Fórum oficial · Looking at the economy
+
+[Fórum oficial · Looking at the economy](https://forum.treeofsavior.com/t/looking-at-the-economy/126628) — s_saini89 e respostas de jogadores, 06/01/2016; consulta em 16/11/2026. Jogadores apontam monstros como a maior fonte de silver; atributos e reparos como drenos; magos e arqueiros gastando muito em poções, enquanto espadachins e clérigos quase não gastavam ao subir de nível. **Limite:** Discussão de janeiro de 2016, antes do lançamento internacional; muitas falas são propostas, não regras do jogo.
+
+<a id="f133"></a>
+### F133 · Steam · How much silver do you put into attributes?
+
+[Steam · How much silver do you put into attributes?](https://steamcommunity.com/app/372000/discussions/0/365163686053868992/) — Izzy e respostas de jogadores, 04/04/2016; consulta em 16/11/2026. Em abril de 2016, jogadores citam ~15 mil de silver por ponto de atributo perto do nível 25 e atributos de dano com 100 níveis e custo muito alto. **Limite:** Relatos de jogadores; não há tabela oficial de custos.
+
+<a id="f134"></a>
+### F134 · Fórum oficial · [Guide] Alchemy for Beginners
+
+[Fórum oficial · [Guide] Alchemy for Beginners](https://forum.treeofsavior.com/t/guide-alchemy-for-beginners/419774) — emiliothalles, 09/07/2021; consulta em 16/11/2026. Tincturing faz a maioria das receitas do Alchemist; o nível do item é o nível da habilidade (até 15); cada receita de poção condensada rende 5 unidades (HP: frasco, Valerijonas e Dilgele; SP: frasco, Varnalesa e Uosis); algumas ervas vêm de NPC e outras só de monstros e mapas; custo médio de ~47,6 silver por poção de HP. **Limite:** Guia de 2021, muito posterior ao recorte; receitas e preços podem ter mudado desde 2016.

@@ -22,7 +22,7 @@ Hipóteses: 240 monstros por hora; 2 a 3 poções por minuto (120 a 180 por hora
 | 120 | 31,2 | 7.488 | Large HP Potion (360) | 43.200 – 64.800 | 12% – 17% |
 | 220 | 61,6 | 14.784 | Huge HP Potion (720) | 86.400 – 129.600 | 11% – 17% |
 
-**Leitura:** o silver da caça cobre só **12% a 19%** do gasto com poções. Com os números do Melia, a caça sozinho dá prejuízo, mesmo antes de contar equipamento, reparos e habilidades. A venda de itens ajuda, mas teria de render de 5 a 8 vezes o silver direto para fechar a conta.
+**Leitura:** o silver da caça cobre só **12% a 19%** do gasto com poções. Para comparação, um jogador relatava ganhar ~200 mil de silver por hora caçando em abril de 2016, muito acima dos 7 a 15 mil por hora dos dados atuais do Melia. Ver [Economia no lançamento](../sistemas/economia-2016.md). Com os números do Melia, a caça sozinho dá prejuízo, mesmo antes de contar equipamento, reparos e habilidades. A venda de itens ajuda, mas teria de render de 5 a 8 vezes o silver direto para fechar a conta.
 
 ## Caminhos
 
