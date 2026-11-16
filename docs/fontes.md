@@ -1058,3 +1058,28 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F134 · Fórum oficial · [Guide] Alchemy for Beginners
 
 [Fórum oficial · [Guide] Alchemy for Beginners](https://forum.treeofsavior.com/t/guide-alchemy-for-beginners/419774) — emiliothalles, 09/07/2021; consulta em 16/11/2026. Tincturing faz a maioria das receitas do Alchemist; o nível do item é o nível da habilidade (até 15); cada receita de poção condensada rende 5 unidades (HP: frasco, Valerijonas e Dilgele; SP: frasco, Varnalesa e Uosis); algumas ervas vêm de NPC e outras só de monstros e mapas; custo médio de ~47,6 silver por poção de HP. **Limite:** Guia de 2021, muito posterior ao recorte; receitas e preços podem ter mudado desde 2016.
+
+<a id="f135"></a>
+### F135 · Blog tievegold · TOS Rest Mode
+
+[Blog tievegold · TOS Rest Mode](https://tievegold.blogspot.com/2016/06/tos-rest-mode.html) — tievegold, 24/06/2016; consulta em 16/11/2026. O modo de descanso (tecla Insert) faz o personagem sentar e recuperar HP, SP e stamina mais rápido; sentado, é possível montar uma fogueira, que melhora ainda mais a recuperação e exige um reagente. **Limite:** Blog de jogador, junho de 2016, fora da janela de março–abril; não traz números.
+
+<a id="f136"></a>
+### F136 · Fórum oficial · SP Recovery system
+
+[Fórum oficial · SP Recovery system](https://forum.treeofsavior.com/t/sp-recovery-system/98432) — dl9vati e respostas de jogadores, 03/11/2015; consulta em 16/11/2026. Jogadores do beta descrevem a regeneração fora de combate a cada 20 segundos e o hábito de sentar e levantar a cada 10 a 20 segundos para recuperar HP e SP. **Limite:** Beta de 2015; relatos de jogadores.
+
+<a id="f137"></a>
+### F137 · Fórum oficial · A question for all the non-cleric classes
+
+[Fórum oficial · A question for all the non-cleric classes](https://forum.treeofsavior.com/t/a-question-for-all-the-non-cleric-classes/119184) — Raviel e respostas de jogadores, 19/11/2015; consulta em 16/11/2026. Jogadores dizem que as melhores poções da primeira cidade curavam só 5% a 10% do HP; que todas as classes precisavam sentar para recuperar HP; que lenha barata acelerava a recuperação; e que CON e SPR aumentavam a regeneração. **Limite:** Beta de 2015; relatos de jogadores.
+
+<a id="f138"></a>
+### F138 · Fórum oficial · Pots cooldown timer
+
+[Fórum oficial · Pots cooldown timer](https://forum.treeofsavior.com/t/pots-cooldown-timer/121788) — jr111 e respostas de jogadores, 26/11/2015; consulta em 16/11/2026. Jogadores citam recarga de 30 segundos nas poções, cura proporcional e escalando com CON e SPR; uma poção concentrada de nível 5 recuperava ~40% do HP de um personagem com muito CON. **Limite:** Beta de 2015; relatos de jogadores; não diz se a cura era instantânea ou ao longo do tempo.
+
+<a id="f139"></a>
+### F139 · Fórum oficial · % HP potion restoration
+
+[Fórum oficial · % HP potion restoration](https://forum.treeofsavior.com/t/hp-potion-restoration/183128) — Kenshiki e respostas de jogadores, 08/04/2016; consulta em 16/11/2026. Em abril de 2016, jogadores discutem que fogueiras e poções de Alchemist bastavam, e que parar para a fogueira acrescentava ~10 minutos a uma masmorra. **Limite:** Relatos de jogadores; a poção de 20% com recarga de 2 minutos é uma sugestão, não um item existente.

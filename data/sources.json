@@ -1682,5 +1682,65 @@
     "url": "https://forum.treeofsavior.com/t/guide-alchemy-for-beginners/419774",
     "supports": "Tincturing faz a maioria das receitas do Alchemist; o nível do item é o nível da habilidade (até 15); cada receita de poção condensada rende 5 unidades (HP: frasco, Valerijonas e Dilgele; SP: frasco, Varnalesa e Uosis); algumas ervas vêm de NPC e outras só de monstros e mapas; custo médio de ~47,6 silver por poção de HP.",
     "limitations": "Guia de 2021, muito posterior ao recorte; receitas e preços podem ter mudado desde 2016."
+  },
+  {
+    "id": "F135",
+    "title": "Blog tievegold · TOS Rest Mode",
+    "author": "tievegold",
+    "published": "2016-06-24",
+    "accessed": "2026-11-16",
+    "kind": "player-period",
+    "scope": "Modo de descanso e fogueira",
+    "url": "https://tievegold.blogspot.com/2016/06/tos-rest-mode.html",
+    "supports": "O modo de descanso (tecla Insert) faz o personagem sentar e recuperar HP, SP e stamina mais rápido; sentado, é possível montar uma fogueira, que melhora ainda mais a recuperação e exige um reagente.",
+    "limitations": "Blog de jogador, junho de 2016, fora da janela de março–abril; não traz números."
+  },
+  {
+    "id": "F136",
+    "title": "Fórum oficial · SP Recovery system",
+    "author": "dl9vati e respostas de jogadores",
+    "published": "2015-11-03",
+    "accessed": "2026-11-16",
+    "kind": "beta-comparison",
+    "scope": "Recuperação de SP fora de combate",
+    "url": "https://forum.treeofsavior.com/t/sp-recovery-system/98432",
+    "supports": "Jogadores do beta descrevem a regeneração fora de combate a cada 20 segundos e o hábito de sentar e levantar a cada 10 a 20 segundos para recuperar HP e SP.",
+    "limitations": "Beta de 2015; relatos de jogadores."
+  },
+  {
+    "id": "F137",
+    "title": "Fórum oficial · A question for all the non-cleric classes",
+    "author": "Raviel e respostas de jogadores",
+    "published": "2015-11-19",
+    "accessed": "2026-11-16",
+    "kind": "beta-comparison",
+    "scope": "Sobrevivência sem Cleric",
+    "url": "https://forum.treeofsavior.com/t/a-question-for-all-the-non-cleric-classes/119184",
+    "supports": "Jogadores dizem que as melhores poções da primeira cidade curavam só 5% a 10% do HP; que todas as classes precisavam sentar para recuperar HP; que lenha barata acelerava a recuperação; e que CON e SPR aumentavam a regeneração.",
+    "limitations": "Beta de 2015; relatos de jogadores."
+  },
+  {
+    "id": "F138",
+    "title": "Fórum oficial · Pots cooldown timer",
+    "author": "jr111 e respostas de jogadores",
+    "published": "2015-11-26",
+    "accessed": "2026-11-16",
+    "kind": "beta-comparison",
+    "scope": "Recarga e efeito das poções",
+    "url": "https://forum.treeofsavior.com/t/pots-cooldown-timer/121788",
+    "supports": "Jogadores citam recarga de 30 segundos nas poções, cura proporcional e escalando com CON e SPR; uma poção concentrada de nível 5 recuperava ~40% do HP de um personagem com muito CON.",
+    "limitations": "Beta de 2015; relatos de jogadores; não diz se a cura era instantânea ou ao longo do tempo."
+  },
+  {
+    "id": "F139",
+    "title": "Fórum oficial · % HP potion restoration",
+    "author": "Kenshiki e respostas de jogadores",
+    "published": "2016-04-08",
+    "accessed": "2026-11-16",
+    "kind": "player-period",
+    "scope": "Poções, fogueiras e masmorras no lançamento",
+    "url": "https://forum.treeofsavior.com/t/hp-potion-restoration/183128",
+    "supports": "Em abril de 2016, jogadores discutem que fogueiras e poções de Alchemist bastavam, e que parar para a fogueira acrescentava ~10 minutos a uma masmorra.",
+    "limitations": "Relatos de jogadores; a poção de 20% com recarga de 2 minutos é uma sugestão, não um item existente."
   }
 ]

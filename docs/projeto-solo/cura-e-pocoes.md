@@ -45,6 +45,8 @@ As três últimas colunas mostram quanto cada poção devolve por minuto, em % d
 - A **poção certa para o nível** cobre esse dano: HP Potion nos níveis baixos, Large HP Potion por volta do 120 e Huge HP Potion perto do 220. Isso significa usar **2 a 3 poções por minuto** sozinho.
 - **Em grupo**, a maior parte dos golpes vai para o tanque, e as curas de preparados (Sprinkle HP Potion) ajudam a distribuir o consumo.
 
+**Comparação com o original:** em 2016, as poções seguravam a luta e o descanso com fogueira recuperava entre as lutas. A conta acima supõe caça contínua só com poções. Ver [Recuperação no lançamento](../sistemas/recuperacao-2016.md).
+
 ## Pendências
 
 - **Economia:** com 2 a 3 poções por minuto sozinho, o preço das poções e o silver ganho por hora precisam fechar a conta.

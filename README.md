@@ -59,6 +59,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Como funcionavam ranks e círculos](docs/sistemas/ranks-e-circulos.md)
 - [Barracão, equipe e grupo no lançamento](docs/sistemas/barracao-e-grupo.md)
 - [Economia no lançamento](docs/sistemas/economia-2016.md)
+- [Recuperação no lançamento](docs/sistemas/recuperacao-2016.md)
 - [Qual lançamento estamos documentando?](docs/recorte-historico.md)
 - [O que mudou do lançamento ao Re:Build?](docs/historia/evolucao-das-classes.md)
 - [Fontes e critérios de pesquisa](docs/fontes.md)
