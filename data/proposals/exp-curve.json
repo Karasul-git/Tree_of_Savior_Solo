@@ -15,7 +15,9 @@
       "R6": 155,
       "R7": 200
     },
-    "decided_at": "2026-11-15"
+    "decided_at": "2026-11-15",
+    "monster_exp_bonus_pct": 50,
+    "monster_exp_bonus_decided_at": "2026-11-16"
   },
   "model": {
     "minutes_per_level": "2 + a × nível^1,5",

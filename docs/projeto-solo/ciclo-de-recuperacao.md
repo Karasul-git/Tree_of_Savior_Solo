@@ -36,13 +36,12 @@ A estrutura do original está toda lá. Falta ajustar o ritmo.
 ## Efeito em outras decisões
 
 - **Poções e economia.** O consumo cai das 2 a 3 poções por minuto da [conta anterior](cura-e-pocoes.md) para algumas por luta difícil. A [economia das poções](economia-das-pocoes.md) deixa de ser o problema central.
-- **Ritmo de caça e experiência.** Com descansos, o ritmo efetivo sozinho cai de ~4 para ~2,5 a 3 monstros por minuto. Para manter ~150 horas até o nível 280, a experiência por monstro precisaria subir **35% a 60%**, por exemplo com `exp_rate` entre 135% e 160%. Fica pendente de decisão e de teste.
+- **Ritmo de caça e experiência.** Com descansos, o ritmo efetivo sozinho cai de ~4 para ~2,5 a 3 monstros por minuto. Para manter ~150 horas até o nível 280, a experiência por monstro sobe **50%** (`exp_rate` 150%), por decisão do proprietário em 16/11/2026.
 - **Dano dos monstros.** Continua em 5% a 10% do HP por golpe. O ciclo absorve esse dano sem mudar a calibragem.
 
 ## Pendências
 
 - Testar o ritmo do ciclo e ajustar descanso e fogueira.
-- Decidir o ajuste de experiência que compensa os descansos.
 - Definir quais monstros deixam cair lenha.
 
-**Próximo passo recomendado:** decidir o ajuste de experiência que compensa os descansos, para manter as ~150 horas até o nível 280.
+**Próximo passo recomendado:** testar o ciclo no servidor, quando houver computador.

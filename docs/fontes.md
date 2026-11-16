@@ -1083,3 +1083,8 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F139 · Fórum oficial · % HP potion restoration
 
 [Fórum oficial · % HP potion restoration](https://forum.treeofsavior.com/t/hp-potion-restoration/183128) — Kenshiki e respostas de jogadores, 08/04/2016; consulta em 16/11/2026. Em abril de 2016, jogadores discutem que fogueiras e poções de Alchemist bastavam, e que parar para a fogueira acrescentava ~10 minutos a uma masmorra. **Limite:** Relatos de jogadores; a poção de 20% com recarga de 2 minutos é uma sugestão, não um item existente.
+
+<a id="f140"></a>
+### F140 · Tradução oficial em inglês · textos de missões (abril de 2016)
+
+[Treeofsavior/EnglishTranslation, commit 392ef21](https://github.com/Treeofsavior/EnglishTranslation/tree/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master) — IMC Games, 15/04/2016; consulta em 16/11/2026. Textos de missões e diálogos com a história do lançamento: Medzio Diena, Árvore Divina, deusas, Revelators, rei Zachariel, Giltine e os demônios. **Limite:** textos soltos, sem ordem de missão; podem incluir conteúdo inacessível no lançamento; a tradução tem erros. O resumo é editorial.

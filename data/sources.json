@@ -1742,5 +1742,17 @@
     "url": "https://forum.treeofsavior.com/t/hp-potion-restoration/183128",
     "supports": "Em abril de 2016, jogadores discutem que fogueiras e poções de Alchemist bastavam, e que parar para a fogueira acrescentava ~10 minutos a uma masmorra.",
     "limitations": "Relatos de jogadores; a poção de 20% com recarga de 2 minutos é uma sugestão, não um item existente."
+  },
+  {
+    "id": "F140",
+    "title": "Tradução oficial em inglês · textos de missões (abril de 2016)",
+    "author": "IMC Games / Treeofsavior/EnglishTranslation",
+    "published": "2016-04-15",
+    "accessed": "2026-11-16",
+    "kind": "official-repository-period",
+    "scope": "História e mundo do jogo no lançamento",
+    "url": "https://github.com/Treeofsavior/EnglishTranslation/tree/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master",
+    "supports": "Textos de missões e diálogos (QUEST.tsv, QUEST_LV_0100.tsv, QUEST_LV_0200.tsv, QUEST_LV_0300.tsv e ETC.tsv) no commit de 15/04/2016: Medzio Diena, Árvore Divina, deusas e seus domínios, Revelators e revelações, rei Zachariel, Giltine, reis e senhores demônios.",
+    "limitations": "Textos soltos, sem ordem de missão; podem incluir conteúdo que não estava acessível no lançamento. A tradução tem erros e variações de nomes. O resumo é editorial."
   }
 ]

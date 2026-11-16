@@ -124,7 +124,7 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Pesquisa da economia de 2016: fontes e gastos de silver, poções e alquimia.
 - [x] Pesquisa da recuperação em 2016: poções, descanso e fogueira.
 - [x] Sustentação revista: ciclo de recuperação do original (descanso, fogueira, poções proporcionais).
-- [ ] Ajuste de experiência para compensar os descansos.
+- [x] Experiência dos monstros +50% para compensar os descansos.
 - [ ] Lenha em drops de monstros.
 - [ ] Decidir se o silver sai do jogo; se sair, fabricação de poções pela alquimia original.
 - [ ] Estrutura das masmorras e habilidades dos chefes.
@@ -143,5 +143,7 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [ ] Reavaliar habilidades de grupo e separar as de guilda (Templar) das de grupo.
 - [ ] Pesquisar arte original de carroças, cavalos ou NPCs de transporte.
 - [ ] Documentar o ponto de retorno após derrota e as estátuas de Zemyna em 2016.
-- [ ] Inventariar premissa, revelações, NPCs e itens ligados às deusas.
+- [x] Resumo da história e do mundo de 2016 a partir dos textos oficiais.
+- [ ] Decidir quem substitui as deusas (princesas, rainhas ou outra figura).
+- [ ] Inventariar revelações, NPCs e itens ligados às deusas.
 - [ ] Futuro: personagens de mapa controlados pelo servidor, com interação limitada.

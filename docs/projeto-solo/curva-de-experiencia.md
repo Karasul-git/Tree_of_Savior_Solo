@@ -20,6 +20,8 @@
 - **Experiência dos monstros:** a mediana atual do Melia, sem mudança. Quem muda é a **tabela de experiência por nível**.
 - O próprio Melia avisa que a tabela de experiência precisa mudar **também no cliente**, que usa os valores locais para alguns cálculos.
 
+**16/11/2026:** com o [ciclo de recuperação](ciclo-de-recuperacao.md), a experiência dos monstros sobe **50%** (`exp_rate` 150%) para compensar o tempo de descanso e manter as ~150 horas.
+
 ## Marcos
 
 | Rank | Nível em que fica disponível | Tempo acumulado | Duração do rank | Experiência de classe por nível de classe |

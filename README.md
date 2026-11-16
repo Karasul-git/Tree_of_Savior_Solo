@@ -63,6 +63,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Recuperação no lançamento](docs/sistemas/recuperacao-2016.md)
 - [Qual lançamento estamos documentando?](docs/recorte-historico.md)
 - [O que mudou do lançamento ao Re:Build?](docs/historia/evolucao-das-classes.md)
+- [História e mundo no lançamento](docs/historia/historia-e-mundo.md)
 - [Fontes e critérios de pesquisa](docs/fontes.md)
 - [Acervo das imagens originais](docs/imagens.md)
 - [Próximas etapas](ROADMAP.md)

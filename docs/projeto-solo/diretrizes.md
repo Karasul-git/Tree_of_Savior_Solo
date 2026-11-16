@@ -137,4 +137,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **16/11/2026 — Ciclo de recuperação.** A sustentação segue o ciclo do original, substituindo a decisão de poções como base: poções proporcionais para segurar a luta, descanso sentado e fogueira para recuperar. O objetivo é manter as sensações do original, melhorando o que for preciso nos testes. [Ciclo](ciclo-de-recuperacao.md).
 
-**Próximo passo recomendado:** decidir o ajuste de experiência que compensa os descansos.
+**16/11/2026 — Experiência +50%.** A experiência dos monstros sobe 50% para compensar os descansos do ciclo de recuperação.
+
+**Próximo passo recomendado:** avaliar a história original para decidir o que substitui as deusas.

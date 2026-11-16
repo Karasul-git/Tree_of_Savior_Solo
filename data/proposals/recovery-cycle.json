@@ -44,6 +44,12 @@
       3.0
     ],
     "exp_curve_assumed": 4,
-    "consequence": "Para manter ~150 h até o 280, a experiência por monstro precisaria subir ~35% a 60% (exp_rate de 135% a 160%)"
+    "consequence": "Para manter ~150 h até o 280, a experiência por monstro precisaria subir ~35% a 60% (exp_rate de 135% a 160%)",
+    "exp_adjustment": {
+      "status": "decided",
+      "decided_at": "2026-11-16",
+      "exp_rate_pct": 150,
+      "note": "Experiência dos monstros +50% para compensar os descansos e manter ~150 h até o 280."
+    }
   }
 }

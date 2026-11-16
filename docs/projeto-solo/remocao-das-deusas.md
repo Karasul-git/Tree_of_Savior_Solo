@@ -18,6 +18,8 @@ O acervo histórico não muda: as fichas de 2016 mantêm nomes, habilidades e de
 | Habilidades de Dievdirbys | Estátuas de Vakarine, Zemyna, Laima e Ausrine. | Habilidades de 2016. | Classe fora da seleção solo pelo critério de magia; sem adaptação nesta etapa. | [F83](../fontes.md#f83) |
 | Temas religiosos de Paladin, Monk e Templar | Efeitos sagrados, bênçãos e comando de guilda. | Já registrados como revisão temática ou funcional. | Seguir a revisão do [quadro de disponibilidade](disponibilidade-das-classes.md). | [F84](../fontes.md#f84), [F86](../fontes.md#f86), [F50](../fontes.md#f50) |
 
+O resumo da história de 2016 está em [História e mundo no lançamento](../historia/historia-e-mundo.md).
+
 ## Ainda a inventariar
 
 Estes elementos dependem das deusas, mas ainda não foram pesquisados com fontes da época. A tabela registra **lacunas, não fatos confirmados**.
