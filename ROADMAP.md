@@ -144,6 +144,7 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [ ] Pesquisar arte original de carroças, cavalos ou NPCs de transporte.
 - [ ] Documentar o ponto de retorno após derrota e as estátuas de Zemyna em 2016.
 - [x] Resumo da história e do mundo de 2016 a partir dos textos oficiais.
-- [ ] Decidir quem substitui as deusas (princesas, rainhas ou outra figura).
+- [x] Direção da história: sem demônios (humanos e mutantes), reino rival e Árvore sem explicação.
+- [ ] Decidir quem substitui as deusas (princesas, rainhas ou outra figura) e a fonte das revelações.
 - [ ] Inventariar revelações, NPCs e itens ligados às deusas.
 - [ ] Futuro: personagens de mapa controlados pelo servidor, com interação limitada.

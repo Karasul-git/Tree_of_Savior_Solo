@@ -139,4 +139,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **16/11/2026 — Experiência +50%.** A experiência dos monstros sobe 50% para compensar os descansos do ciclo de recuperação.
 
-**Próximo passo recomendado:** avaliar a história original para decidir o que substitui as deusas.
+**16/11/2026 — História sem sobrenatural.** Não haverá demônios: os inimigos serão humanos, mutantes e criaturas transformadas; um reino rival invade e destrói; a Árvore vira um fenômeno sem explicação. As deusas podem virar princesas ou rainhas. [História do projeto](historia-sem-deusas.md).
+
+**Próximo passo recomendado:** decidir a rainha rival, a fonte das revelações e as princesas das regiões.
