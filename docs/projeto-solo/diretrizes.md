@@ -135,4 +135,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **16/11/2026 — Economia das poções.** Com os números do Melia, o silver da caça cobre só 12% a 19% do gasto com poções. O proprietário avalia remover a mecânica de silver. [Economia](economia-das-pocoes.md).
 
-**Próximo passo recomendado:** decidir se o silver sai do jogo.
+**16/11/2026 — Ciclo de recuperação.** A sustentação segue o ciclo do original, substituindo a decisão de poções como base: poções proporcionais para segurar a luta, descanso sentado e fogueira para recuperar. O objetivo é manter as sensações do original, melhorando o que for preciso nos testes. [Ciclo](ciclo-de-recuperacao.md).
+
+**Próximo passo recomendado:** decidir o ajuste de experiência que compensa os descansos.

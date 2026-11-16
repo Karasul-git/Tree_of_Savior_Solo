@@ -1,0 +1,49 @@
+{
+  "reviewed_at": "2026-11-16",
+  "status": "owner-direction-numbers-proposed",
+  "source_id": "F124",
+  "decision": {
+    "sustain": "original-cycle",
+    "decided_at": "2026-11-16",
+    "replaces": "potions-classic (15–16/11/2026)",
+    "note": "Proprietário: manter a sensação do original (parar para descansar, fogueira); melhorar as poções só se os testes pedirem."
+  },
+  "melia_today": {
+    "rest": "Sentado dobra a regeneração natural (1% do HP a cada 20 s → 2% a cada 10 s); barra cheia em ~8 min",
+    "campfire": "Item Firewood (645337), 5 min, área de 150, cura 10% do HP e SP a cada 5 s para quem está perto e sentado; barra cheia em ~50 s",
+    "firewood": "Vendida nas lojas de Klaipeda, Fedimian e Orsha por 30; nenhum monstro deixa cair",
+    "percent_potion": "Já existe um efeito de cura proporcional ao HP (Drug_HealHP_MHP), usado nas poções de missão"
+  },
+  "proposal": {
+    "combat_regen": "Manter baixa (1% do HP a cada 20 s)",
+    "rest": "10% do HP e SP a cada 3 s sentado fora de combate (barra cheia em ~30 s)",
+    "campfire": "Soma mais 10% a cada 3 s (barra cheia em ~15 s); vale para todo o grupo perto da fogueira",
+    "potions": {
+      "common_pct": [
+        5,
+        10
+      ],
+      "alchemist_pct": [
+        20,
+        40
+      ],
+      "cooldown_s": 30,
+      "role": "Emergência durante a luta"
+    },
+    "firewood_sources": [
+      "lojas (como hoje)",
+      "drops de monstros, principalmente plantas e árvores",
+      "coleta"
+    ],
+    "squire": "Base Camp e Refreshment Table como versão melhorada da fogueira"
+  },
+  "rhythm": {
+    "solo_pull": "2 a 5 monstros por descanso, conforme a classe (Archer/Scout ~2–3; Warrior de escudo ~4–5)",
+    "effective_kills_per_minute_solo": [
+      2.5,
+      3.0
+    ],
+    "exp_curve_assumed": 4,
+    "consequence": "Para manter ~150 h até o 280, a experiência por monstro precisaria subir ~35% a 60% (exp_rate de 135% a 160%)"
+  }
+}

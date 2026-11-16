@@ -123,7 +123,9 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Estudo da economia das poções (silver cobre 12% a 19% do consumo).
 - [x] Pesquisa da economia de 2016: fontes e gastos de silver, poções e alquimia.
 - [x] Pesquisa da recuperação em 2016: poções, descanso e fogueira.
-- [ ] Revisar a decisão de sustentação à luz do ciclo original.
+- [x] Sustentação revista: ciclo de recuperação do original (descanso, fogueira, poções proporcionais).
+- [ ] Ajuste de experiência para compensar os descansos.
+- [ ] Lenha em drops de monstros.
 - [ ] Decidir se o silver sai do jogo; se sair, fabricação de poções pela alquimia original.
 - [ ] Estrutura das masmorras e habilidades dos chefes.
 - [ ] Conferir valores de armas e armaduras com 2016.

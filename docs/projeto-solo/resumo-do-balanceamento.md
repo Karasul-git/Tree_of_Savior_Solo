@@ -20,7 +20,7 @@
 | Monstros comuns | 1 a 2 habilidades de cada membro do grupo (4 a 8 sozinho); golpe de 5% a 10% do HP de quem não é tanque. | [Calibragem dos monstros](calibragem-monstros.md) |
 | Chefes | Luta de 1 a 2 minutos com o grupo de 4; golpe de 15% a 25% do HP; HP ajustado ao tamanho do grupo. | [Chefes e masmorras](chefes-elites-masmorras.md) |
 | Elites | Valores atuais do Melia (150% de HP e atributos, 200% de experiência). | [Chefes e masmorras](chefes-elites-masmorras.md) |
-| Sustentação | Poções como base (estilo clássico); cura de preparados = valor base × (1 + INT ÷ 100). | [Cura e poções](cura-e-pocoes.md) |
+| Sustentação | Ciclo do original: poções proporcionais para segurar a luta; descanso sentado e fogueira para recuperar (propostas: barra cheia em ~30 s sentado, ~15 s com fogueira). Cura de preparados = valor base × (1 + INT ÷ 100). | [Ciclo de recuperação](ciclo-de-recuperacao.md) |
 | Experiência | ~150 horas até o 280; ranks nos níveis 1, 15, 45, 80, 115, 155 e 200; experiência dividida igualmente no grupo. | [Curva de experiência](curva-de-experiencia.md) |
 
 ## Números de referência no nível 120
@@ -42,6 +42,7 @@
 | `system/db/jobs.txt` | Ranks solo das 39 classes; Monk, Paladin, Alchemist e Plague Doctor mudam de árvore. [Tabela](classes-e-progressao-servidor.md) |
 | `system/conf/world/jobs.conf` | `job_max_rank` de 4 para 7. |
 | `system/db/exp.txt` (e cliente) | Nova tabela de experiência e 7 ranks de 15 níveis de classe. [Curva](curva-de-experiencia.md) |
+| Regeneração, fogueira e poções | Descanso de 10% a cada 3 s, fogueira somando mais 10%, poções proporcionais (`Drug_HealHP_MHP`), lenha em drops. |
 | `system/db/features.txt` | Desligar `NoStatByLevel` e `IncreasedStatRatio` para voltar aos pontos livres. |
 | `calc_character.cs` | CON na defesa; ataque de preparados com a arma principal; cura de preparados com INT; regra da arma secundária; bônus por investimento, se ainda não existir. |
 | `calc_combat.cs` | Defesa percentual com limite de 75% no lugar da subtração. |
@@ -59,7 +60,7 @@ Revisando o conjunto, estes pontos precisam de atenção antes dos testes:
 4. **Crítico.** A chance de crítico hoje não depende da DEX, e a resistência a crítico dos monstros não foi calibrada. Falta a fonte de 2016.
 5. **Chefe jogando sozinho.** O HP cai com o grupo, mas o ataque não. Sem tanque, cada golpe tira 15% a 25% do HP.
 6. **Ritmo de jogo.** As metas de chefes e de experiência supõem uma habilidade a cada 2 segundos e 4 monstros por minuto sozinho. Os dois valores precisam ser medidos.
-7. ~~**Cura e poções.**~~ **Resolvido em 16/11/2026:** poções como base (estilo clássico) e cura de preparados = valor base × (1 + INT ÷ 100). Pendente: com os números do Melia, o silver da caça cobre só 12% a 19% do gasto com poções. O proprietário avalia remover o silver. [Economia das poções](economia-das-pocoes.md)
+7. ~~**Cura e poções.**~~ **Resolvido em 16/11/2026:** ciclo de recuperação do original ([página](ciclo-de-recuperacao.md)) e cura de preparados = valor base × (1 + INT ÷ 100). Com o ciclo, o consumo de poções cai muito; o proprietário ainda avalia remover o silver. Pendente: compensar na experiência o tempo de descanso. [Economia das poções](economia-das-pocoes.md)
 
 ## Pendências principais
 
@@ -67,4 +68,4 @@ Revisando o conjunto, estes pontos precisam de atenção antes dos testes:
 - Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - Medir no jogo o ritmo de habilidades e de caça e ajustar as tabelas.
 
-**Próximo passo recomendado:** decidir se o silver sai do jogo; se sair, estudar a fabricação de poções pela alquimia original.
+**Próximo passo recomendado:** decidir o ajuste de experiência que compensa os descansos do ciclo de recuperação.

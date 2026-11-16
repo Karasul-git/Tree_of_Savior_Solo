@@ -8,7 +8,7 @@
 
 | Tema | Decisão |
 | --- | --- |
-| Sustentação | **Poções como base, no estilo clássico.** O dano dos monstros continua em 5% a 10% por golpe, e caçar sozinho consome poções com frequência. |
+| Sustentação | ~~Poções como base~~ **Revisto em 16/11/2026:** segue o [ciclo de recuperação](ciclo-de-recuperacao.md) do original (poções para segurar a luta; descanso e fogueira para recuperar). |
 | Cura de preparados com INT | **Cura = valor base × (1 + INT ÷ 100)**, ou seja, +1% por ponto de INT. Um especialista cura ~74% a mais no nível 120 e ~136% a mais no 220. Vale para Sprinkle HP/SP Potion e Healing Factor. |
 
 ## Como as poções funcionam no Melia

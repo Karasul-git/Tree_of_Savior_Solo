@@ -3,9 +3,11 @@
   "status": "owner-decisions-numbers-provisional",
   "source_id": "F124",
   "decisions": {
-    "sustain": "potions-classic",
+    "sustain": "original-cycle",
     "int_healing": "cura = valor base × (1 + INT ÷ 100)",
-    "decided_at": "2026-11-16"
+    "decided_at": "2026-11-16",
+    "sustain_revised_at": "2026-11-16",
+    "sustain_previous": "potions-classic"
   },
   "potion_mechanics": {
     "heal_per_tick": "valor do item × 7",

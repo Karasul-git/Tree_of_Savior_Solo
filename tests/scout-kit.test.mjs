@@ -142,6 +142,7 @@ test('a curva de experiência fecha em 150 horas com R7 no nível 200', () => {
 
 test('as poções seguem o mecanismo do Melia e as decisões de sustentação', () => {
   const h = read('data/proposals/healing-potions.json');
-  assert.equal(h.decisions.sustain, 'potions-classic');
+  assert.equal(h.decisions.sustain, 'original-cycle');
+  assert.equal(read('data/proposals/recovery-cycle.json').decision.sustain, 'original-cycle');
   for (const p of h.hp_potions) assert.equal(p.total_heal, p.value * 7 * h.potion_mechanics.ticks);
 });
