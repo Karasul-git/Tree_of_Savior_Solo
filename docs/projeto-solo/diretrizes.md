@@ -141,4 +141,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **16/11/2026 — História sem sobrenatural.** Não haverá demônios: os inimigos serão humanos, mutantes e criaturas transformadas; um reino rival invade e destrói; a Árvore vira um fenômeno sem explicação. As deusas podem virar princesas ou rainhas. [História do projeto](historia-sem-deusas.md).
 
-**Próximo passo recomendado:** decidir a rainha rival, a fonte das revelações e as princesas das regiões.
+**16/11/2026 — Papéis centrais da história.** Giltine é a rainha do reino rival; as revelações viram registros, com Laima como guardiã dos registros; as protetoras das regiões são uma mistura de nobres (princesas, rainhas, senhoras). [Rascunho de premissa](historia-sem-deusas.md).
+
+**Próximo passo recomendado:** revisar o rascunho de premissa.

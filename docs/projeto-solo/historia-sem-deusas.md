@@ -11,7 +11,10 @@
 | Demônios | **Não existem.** Os inimigos passam a ser **humanos, mutantes** e criaturas transformadas, conforme os sprites disponíveis. "Se os animais mutaram, quanto mais os humanos." |
 | Conflito | Um **reino rival** luta, invade e causa destruição. |
 | A Árvore | Deixa de ser Deus. Vira um **fenômeno sem explicação**: uma árvore colossal cresceu e desorganizou tudo. |
-| Deusas | Podem ser trocadas por **princesas ou rainhas**. As estátuas saem de qualquer forma. |
+| Deusas | Trocadas por **pessoas da nobreza**: princesas, rainhas e senhoras, conforme cada papel pedir. As estátuas saem de qualquer forma. |
+| Rainha rival | **Giltine** passa a ser a rainha do reino rival (16/11/2026). |
+| Revelações | Viram **registros**, com uma **guardiã dos registros** no papel de Laima (16/11/2026). |
+| Protetoras das regiões | **Mistura de nobres** (princesas, rainhas, senhoras), conforme o necessário (16/11/2026). |
 
 ## O que o jogo já oferece
 
@@ -24,12 +27,21 @@
 | Papel original | Proposta | Por quê |
 | --- | --- | --- |
 | Árvore Divina | Fenômeno sem explicação; sua seiva, raízes e cristais **causam as mutações**. | Liga a catástrofe aos monstros com uma só causa e mantém o mistério. |
-| Giltine (deusa demônio) | **Rainha do reino rival.** | Encaixa no tema de rainhas e princesas e dá um rosto ao conflito. |
 | Gesti, Kartas e senhores demônios | **Generais e campeões** do reino rival, alguns **mutados** pelos cristais. | Reaproveita nomes e sprites de chefes humanoides. |
-| Laima (revelações a cada 100 anos) | Uma **princesa ou rainha vidente** de uma linhagem antiga, ou **registros da coroa** que acompanham árvores anteriores. Ela é refém da rainha rival. | Mantém a busca pelas revelações sem magia. A segunda opção sugere que a Árvore já apareceu antes, o que explica o Mausoléu de Zachariel. |
-| Deusas das regiões (Zemyna, Saule, Gabija, Austeja, Jurate) | **Princesas ou senhoras das regiões**, desaparecidas ou sitiadas desde o Medzio Diena. | O jogo já tem o modelo: Orsha governada pela filha sobrevivente do senhor da cidade. |
+| Laima | **Guardiã dos registros**, refém da rainha rival. | Os registros espalhados pelo reino substituem as revelações e mantêm a busca. |
+| Deusas das regiões (Zemyna, Saule, Gabija, Austeja, Jurate, Ausrine, Vakarine, Lada) | **Nobres das regiões**, desaparecidas ou sitiadas desde o Medzio Diena; a posição de cada uma (princesa, rainha, senhora) fica para a escrita. | O jogo já tem o modelo: Orsha governada pela filha sobrevivente do senhor da cidade. |
 | Revelator / Savior | Agente da coroa encarregado de reunir os registros e encontrar as princesas. | Mantém a estrutura de missões. |
 | Pacto entre deusas e demônios | **Tratado de paz** entre os dois reinos, rompido no caos do Medzio Diena. | Explica a invasão. |
+
+## Rascunho de premissa (proposta)
+
+Há séculos, o Grande Rei Zachariel uniu as regiões num só reino e firmou um tratado de paz com o reino vizinho. Ele também mandou guardar **registros** sobre um fenômeno antigo, confiados a uma linhagem de guardiãs. O maior deles foi selado no seu Mausoléu.
+
+Então veio o **Medzio Diena**. Uma árvore colossal rompeu o chão no meio da capital e a destruiu. Suas raízes partiram muralhas, envenenaram rios e espalharam cristais por todo o reino. Animais, plantas e até pessoas começaram a **mutar**. A família real e as nobres que protegiam as regiões desapareceram, morreram ou ficaram isoladas.
+
+Aproveitando o caos, **Giltine**, rainha do reino vizinho, rompeu o tratado e invadiu. Seus generais usam os cristais da Árvore como arma, e alguns já não são inteiramente humanos. Giltine mantém refém **Laima, a guardiã dos registros**, porque quer o que eles escondem.
+
+O jogador é um agente da coroa, ainda chamado de Revelator, enviado para **reunir os registros, encontrar as nobres desaparecidas** e descobrir o que é a Árvore, antes que Giltine descubra primeiro.
 
 ## Pontos de atenção
 
@@ -39,8 +51,8 @@
 
 ## Pendências
 
-- Decidir princesas, rainhas ou uma mistura.
-- Escolher entre vidente e registros da coroa para as revelações.
+- Definir a posição de cada nobre (princesa, rainha, senhora) ao escrever cada região.
+- Revisar o rascunho de premissa.
 - Inventariar os chefes demônios e os sprites que podem virar humanos ou mutantes.
 
-**Próximo passo recomendado:** decidir os papéis principais da tabela de propostas: a rainha rival, a fonte das revelações e as princesas das regiões.
+**Próximo passo recomendado:** revisar o rascunho de premissa e, em seguida, inventariar os chefes demônios e sprites que viram generais, campeões ou mutantes.
