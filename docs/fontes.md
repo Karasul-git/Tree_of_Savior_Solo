@@ -1088,3 +1088,8 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F140 · Tradução oficial em inglês · textos de missões (abril de 2016)
 
 [Treeofsavior/EnglishTranslation, commit 392ef21](https://github.com/Treeofsavior/EnglishTranslation/tree/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master) — IMC Games, 15/04/2016; consulta em 16/11/2026. Textos de missões e diálogos com a história do lançamento: Medzio Diena, Árvore Divina, deusas, Revelators, rei Zachariel, Giltine e os demônios. **Limite:** textos soltos, sem ordem de missão; podem incluir conteúdo inacessível no lançamento; a tradução tem erros. O resumo é editorial.
+
+<a id="f141"></a>
+### F141 · tos.guru · base de monstros (iToS)
+
+[tos.guru, página de Gesti](https://tos.guru/itos/database/monsters/57055/) — base de fãs, sem data; consulta em 16/11/2026. Página e retrato de 80×80 de cada monstro, usados para classificar os chefes demônios. **Limite:** dados do jogo atual; o retrato pode diferir do modelo 3D e da versão de 2016; as imagens não foram adicionadas ao acervo.

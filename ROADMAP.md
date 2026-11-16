@@ -148,6 +148,7 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Papéis centrais: Giltine rainha rival, registros e guardiã dos registros, nobres das regiões.
 - [ ] Revisar o rascunho de premissa.
 - [x] Inventário dos chefes demônios: generais, campeões mutados e sobrenaturais demais (por nome; sprites não vistos).
-- [ ] Conferir os sprites dos chefes demônios.
+- [x] Classificar os chefes demônios pelos retratos (21 humanos ou mutados, 19 bestas, 3 da Árvore, 18 em aberto).
+- [ ] Decidir criaturas de fogo, autômatos, encapuzados e sobrenaturais demais.
 - [ ] Inventariar revelações, NPCs e itens ligados às deusas.
 - [ ] Futuro: personagens de mapa controlados pelo servidor, com interação limitada.

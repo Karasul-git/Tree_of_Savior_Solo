@@ -1754,5 +1754,17 @@
     "url": "https://github.com/Treeofsavior/EnglishTranslation/tree/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master",
     "supports": "Textos de missões e diálogos (QUEST.tsv, QUEST_LV_0100.tsv, QUEST_LV_0200.tsv, QUEST_LV_0300.tsv e ETC.tsv) no commit de 15/04/2016: Medzio Diena, Árvore Divina, deusas e seus domínios, Revelators e revelações, rei Zachariel, Giltine, reis e senhores demônios.",
     "limitations": "Textos soltos, sem ordem de missão; podem incluir conteúdo que não estava acessível no lançamento. A tradução tem erros e variações de nomes. O resumo é editorial."
+  },
+  {
+    "id": "F141",
+    "title": "tos.guru · base de monstros (iToS)",
+    "author": "tos.guru (base de fãs com dados do jogo)",
+    "published": null,
+    "accessed": "2026-11-16",
+    "kind": "current-comparison",
+    "scope": "Retratos dos chefes para classificação visual",
+    "url": "https://tos.guru/itos/database/monsters/57055/",
+    "supports": "Página e retrato (ícone de 80×80) de cada monstro pelo ID do jogo; usado para ver os 79 chefes demônios citados em 2016.",
+    "limitations": "Base de fãs com dados do jogo atual; o retrato pode diferir do modelo 3D e da versão de 2016. As imagens não foram adicionadas ao acervo do repositório."
   }
 ]
