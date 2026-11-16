@@ -52,4 +52,6 @@ As três últimas colunas mostram quanto cada poção devolve por minuto, em % d
 - Medir no jogo o intervalo real dos golpes dos monstros, que muda toda a conta.
 - Avaliar as poções de SP com o custo de SP das habilidades.
 
-**Próximo passo recomendado:** fechar a **economia das poções**: quanto silver o jogador ganha por hora e quanto gasta em poções, para que a caça sozinho se pague.
+O estudo de economia está em [Economia das poções](economia-das-pocoes.md).
+
+**Próximo passo recomendado:** decidir se o silver sai do jogo.

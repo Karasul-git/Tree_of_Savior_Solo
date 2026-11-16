@@ -59,12 +59,12 @@ Revisando o conjunto, estes pontos precisam de atenção antes dos testes:
 4. **Crítico.** A chance de crítico hoje não depende da DEX, e a resistência a crítico dos monstros não foi calibrada. Falta a fonte de 2016.
 5. **Chefe jogando sozinho.** O HP cai com o grupo, mas o ataque não. Sem tanque, cada golpe tira 15% a 25% do HP.
 6. **Ritmo de jogo.** As metas de chefes e de experiência supõem uma habilidade a cada 2 segundos e 4 monstros por minuto sozinho. Os dois valores precisam ser medidos.
-7. ~~**Cura e poções.**~~ **Resolvido em 16/11/2026:** poções como base (estilo clássico) e cura de preparados = valor base × (1 + INT ÷ 100). Fica pendente a economia: caçar sozinho consome 2 a 3 poções por minuto. [Cura e poções](cura-e-pocoes.md)
+7. ~~**Cura e poções.**~~ **Resolvido em 16/11/2026:** poções como base (estilo clássico) e cura de preparados = valor base × (1 + INT ÷ 100). Pendente: com os números do Melia, o silver da caça cobre só 12% a 19% do gasto com poções. O proprietário avalia remover o silver. [Economia das poções](economia-das-pocoes.md)
 
 ## Pendências principais
 
-- Fechar a **economia das poções** e resolver os pontos restantes (equipamento acima do comum, crítico, chefe sozinho, ritmo de jogo).
+- Decidir se o **silver** sai do jogo e resolver os pontos restantes (equipamento acima do comum, crítico, chefe sozinho, ritmo de jogo).
 - Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - Medir no jogo o ritmo de habilidades e de caça e ajustar as tabelas.
 
-**Próximo passo recomendado:** fechar a economia das poções.
+**Próximo passo recomendado:** decidir se o silver sai do jogo; se sair, estudar a fabricação de poções pela alquimia original.

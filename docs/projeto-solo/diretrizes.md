@@ -133,4 +133,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **16/11/2026 — Cura e poções.** Poções como base da sustentação, no estilo clássico (caçar sozinho consome 2 a 3 por minuto), e cura de preparados = valor base × (1 + INT ÷ 100). [Cura e poções](cura-e-pocoes.md).
 
-**Próximo passo recomendado:** fechar a economia das poções.
+**16/11/2026 — Economia das poções.** Com os números do Melia, o silver da caça cobre só 12% a 19% do gasto com poções. O proprietário avalia remover a mecânica de silver. [Economia](economia-das-pocoes.md).
+
+**Próximo passo recomendado:** decidir se o silver sai do jogo.
