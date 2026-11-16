@@ -1,0 +1,1599 @@
+{
+  "reviewed_at": "2026-11-16",
+  "source_ids": [
+    "F124",
+    "F140",
+    "F141"
+  ],
+  "note": "Chefes da raça demônio (Velnias) citados nos textos de 2016, agrupados por retrato. Categorias e propostas não são decisões; review_status registra a revisão do proprietário.",
+  "bosses": [
+    {
+      "slug": "genmagnus",
+      "name": "Master Genie",
+      "names": [
+        "Master Genie"
+      ],
+      "classNames": [
+        "boss_Genmagnus"
+      ],
+      "monsterIds": [
+        "41212"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "supernatural",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_genmagnus.png",
+      "quotes_2016": [
+        "The Contract of Spirit is engraved on Master Genie in Garbingal Burial Chamber. I will be completely free when Master Genie gets defeated.",
+        "The last contract is the Contract of Spirit, which belongs to Master Genie. Defeat Master Genie at Garubinal Burial Chamber to liberate the spirits."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "rootopus",
+      "name": "Wriggling Lutopus",
+      "names": [
+        "Wriggling Lutopus"
+      ],
+      "classNames": [
+        "boss_rootopus"
+      ],
+      "monsterIds": [
+        "41231"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "tree",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_rootopus.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "tombmaiden",
+      "name": "Tomb Maiden",
+      "names": [
+        "Tomb Maiden"
+      ],
+      "classNames": [
+        "boss_TombMaiden"
+      ],
+      "monsterIds": [
+        "41370"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "constructs",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_tombmaiden.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "pyroego",
+      "name": "Pyroego",
+      "names": [
+        "Pyroego"
+      ],
+      "classNames": [
+        "boss_Pyroego"
+      ],
+      "monsterIds": [
+        "41375"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "fire",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_pyroego.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "lithorex",
+      "name": "Lithorex",
+      "names": [
+        "Lithorex"
+      ],
+      "classNames": [
+        "boss_Lithorex"
+      ],
+      "monsterIds": [
+        "41377"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_lithorex.png",
+      "quotes_2016": [
+        "Notice/Rescue Varkis under attacks! Defeat Lithorex and save him!#5",
+        "Varkis is being attacked by Lithorex! Defeat Lithorex and rescue him."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "templeshooter",
+      "name": "Templeshooter",
+      "names": [
+        "Templeshooter"
+      ],
+      "classNames": [
+        "boss_Templeshooter"
+      ],
+      "monsterIds": [
+        "41381"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_templeshooter.png",
+      "quotes_2016": [
+        "It seems that the Wisdom Guiding Stone found the location of Templeshooter. Find the black shadow and examine it.",
+        "The Spatial Magic Gem of Offer is with the Templeshooter.  The Wisdom Guiding Stone will help you find the hidden Templeshooter."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "kerberos",
+      "name": "Cerberus",
+      "names": [
+        "Cerberus",
+        "Guard Dog Cerberus"
+      ],
+      "classNames": [
+        "boss_Kerberos",
+        "boss_Kerberos_event"
+      ],
+      "monsterIds": [
+        "41384",
+        "58632"
+      ],
+      "levels": [
+        1,
+        200
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_kerberos.png",
+      "quotes_2016": [
+        "Cerberus was called out by the red energy and broke free! Defeat it."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "abomination",
+      "name": "Abomination",
+      "names": [
+        "Abomination"
+      ],
+      "classNames": [
+        "boss_Abomination"
+      ],
+      "monsterIds": [
+        "45090"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_abomination.png",
+      "quotes_2016": [
+        "You've defeated Abomination that appeared from the sacred object of the goddess. Talk to Juta."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "jacko-lantern",
+      "name": "Jack O'Lantern",
+      "names": [
+        "Jack O'Lantern"
+      ],
+      "classNames": [
+        "boss_JackO_lantern"
+      ],
+      "monsterIds": [
+        "47319"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "tree",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_jacko_lantern.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "velorchard",
+      "name": "Velorchard",
+      "names": [
+        "Velorchard"
+      ],
+      "classNames": [
+        "boss_Velorchard"
+      ],
+      "monsterIds": [
+        "47326"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "tree",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_velorchard.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "unicorn",
+      "name": "Unicorn",
+      "names": [
+        "Unicorn"
+      ],
+      "classNames": [
+        "boss_unicorn"
+      ],
+      "monsterIds": [
+        "47497"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_unicorn.png",
+      "quotes_2016": [
+        "Unicorn appeared when the Zolem Magic Stones were put in the bag. Defeat Unicorn.",
+        "Our platoon received orders to take care of a Unicorn. The details should be in the Operation Orders..."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "nuodai",
+      "name": "Nuodai",
+      "names": [
+        "Nuodai"
+      ],
+      "classNames": [
+        "boss_nuodai"
+      ],
+      "monsterIds": [
+        "47499"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_nuodai.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "centaurus",
+      "name": "Centaurus",
+      "names": [
+        "Centaurus"
+      ],
+      "classNames": [
+        "boss_Centaurus"
+      ],
+      "monsterIds": [
+        "47500"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_centaurus.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "turtai",
+      "name": "Turtai",
+      "names": [
+        "Turtai"
+      ],
+      "classNames": [
+        "boss_Turtai"
+      ],
+      "monsterIds": [
+        "47503"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_turtai.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "belian",
+      "name": "Belian",
+      "names": [
+        "Belian"
+      ],
+      "classNames": [
+        "boss_Belian"
+      ],
+      "monsterIds": [
+        "47509"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_belian.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "harpeia",
+      "name": "Harpeia",
+      "names": [
+        "Corpse Cleaner Harpeia",
+        "Orange Harpeia",
+        "White Harpeia",
+        "Harpeia",
+        "Q1 Harpeia"
+      ],
+      "classNames": [
+        "boss_Harpeia",
+        "boss_Harpeia_J1",
+        "boss_Harpeia_Q1",
+        "boss_Harpeia_orange",
+        "boss_Harpeia_white"
+      ],
+      "monsterIds": [
+        "47321",
+        "57118",
+        "57171",
+        "57333",
+        "57339"
+      ],
+      "levels": [
+        1,
+        52,
+        55,
+        122
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_harpeia.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "spector-m-q1",
+      "name": "Specter Monarch",
+      "names": [
+        "[Advancement] Specter Monarch",
+        "Specter Monarch"
+      ],
+      "classNames": [
+        "boss_Spector_m_J1",
+        "boss_Spector_m_Q1"
+      ],
+      "monsterIds": [
+        "57178",
+        "57997"
+      ],
+      "levels": [
+        1,
+        13
+      ],
+      "race_2016": "Velnias",
+      "category": "hooded",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_spector_m.png",
+      "quotes_2016": [
+        "The Mine Compass is pointing at the Specter Monarch! Defeat Specter Monarch to retrieve the part!",
+        "Notice /!/Compass is pointing to Specter Monarch.   Defeat Specter Monarch and regain your part. #5"
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "frogola",
+      "name": "Progola",
+      "names": [
+        "Progola"
+      ],
+      "classNames": [
+        "boss_Frogola"
+      ],
+      "monsterIds": [
+        "57414"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_frogola.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "grimreaper",
+      "name": "Grim Reaper",
+      "names": [
+        "Grim Reaper"
+      ],
+      "classNames": [
+        "boss_Grimreaper"
+      ],
+      "monsterIds": [
+        "57726"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "hooded",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_grimreaper.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "hauberk",
+      "name": "Hauberk",
+      "names": [
+        "Hauberk"
+      ],
+      "classNames": [
+        "boss_hauberk"
+      ],
+      "monsterIds": [
+        "57827"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_humans",
+      "general_proposal": "Traidor da corte rival, preso e mutilado; negocia informações sobre as nobres desaparecidas",
+      "original_role": "Senhor demônio despedaçado por Helgasercle; oferece contar onde está Vakarine",
+      "portrait": "docs/assets/bosses/boss_hauberk.png",
+      "quotes_2016": [
+        "Hauberk.. His life is too pitiful, but it should be removed.",
+        "Hauberk and Nuaele will become symbolic figures to the demons."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "prisoncutter",
+      "name": "Prison Cutter",
+      "names": [
+        "Prison Cutter"
+      ],
+      "classNames": [
+        "boss_Prisoncutter"
+      ],
+      "monsterIds": [
+        "58038"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_prisoncutter.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "flammidus",
+      "name": "Flammidus",
+      "names": [
+        "Flammidus"
+      ],
+      "classNames": [
+        "boss_Flammidus"
+      ],
+      "monsterIds": [
+        "58069"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "fire",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_flammidus.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "swordballista",
+      "name": "Gorkas",
+      "names": [
+        "Gorkas",
+        "Q1 Chapparition",
+        "Q1 Shadowgaler",
+        "Q4 Chapparition"
+      ],
+      "classNames": [
+        "boss_Chapparition_Q1",
+        "boss_Chapparition_Q4",
+        "boss_ShadowGaoler_Q1",
+        "boss_SwordBallista"
+      ],
+      "monsterIds": [
+        "57090",
+        "57103",
+        "57106",
+        "58419"
+      ],
+      "levels": [
+        1,
+        83,
+        109,
+        112
+      ],
+      "race_2016": "Velnias",
+      "category": "no_image",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/icon_item_nothing.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "ignas",
+      "name": "Ignas",
+      "names": [
+        "Ignas"
+      ],
+      "classNames": [
+        "boss_ignas"
+      ],
+      "monsterIds": [
+        "58697"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_ignas.png",
+      "quotes_2016": [
+        "Illina... was attacked? How can Ignas do something without going crazy!",
+        "Alina... too? How could Ignas ever do something like that! Was he out of his mind?"
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "ellaganos",
+      "name": "Ellaganos",
+      "names": [
+        "Ellaganos"
+      ],
+      "classNames": [
+        "boss_ellaganos"
+      ],
+      "monsterIds": [
+        "400261"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "supernatural",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/f_boss_ellaganos.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "fallen-statue-blue",
+      "name": "Blue Corrupted",
+      "names": [
+        "Blue Corrupted"
+      ],
+      "classNames": [
+        "boss_Fallen_Statue_blue"
+      ],
+      "monsterIds": [
+        "401682"
+      ],
+      "levels": [
+        1
+      ],
+      "race_2016": "Velnias",
+      "category": "constructs",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_fallen_statue_blue.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "strongholder",
+      "name": "Cyclops",
+      "names": [
+        "Cyclops"
+      ],
+      "classNames": [
+        "boss_Strongholder"
+      ],
+      "monsterIds": [
+        "41244"
+      ],
+      "levels": [
+        17
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_strongholder.png",
+      "quotes_2016": [
+        "Removed the barrier that was blocking the way to the 1st floor and defeated the Cyclops. Look for Vaidutis, who ran away to the 1st floor."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "shadowgaoler",
+      "name": "Shadowgaler",
+      "names": [
+        "Shadowgaler"
+      ],
+      "classNames": [
+        "boss_ShadowGaoler"
+      ],
+      "monsterIds": [
+        "41227"
+      ],
+      "levels": [
+        18
+      ],
+      "race_2016": "Velnias",
+      "category": "supernatural",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_shadowgaoler.png",
+      "quotes_2016": [
+        "You successfully defeated Shadowgaler. Report to the Hoplite Submaster.",
+        "Disciple Hones claims that it is in the possession of mentor Shadowgaler."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "spector-f",
+      "name": "Specter of Deceit",
+      "names": [
+        "Specter of Deceit"
+      ],
+      "classNames": [
+        "boss_Spector_F"
+      ],
+      "monsterIds": [
+        "400684"
+      ],
+      "levels": [
+        18
+      ],
+      "race_2016": "Velnias",
+      "category": "hooded",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/spector_f.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "dionys",
+      "name": "Dionys",
+      "names": [
+        "Netherbovine",
+        "Dionys"
+      ],
+      "classNames": [
+        "boss_Dionys",
+        "boss_NetherBovine"
+      ],
+      "monsterIds": [
+        "41237",
+        "57584"
+      ],
+      "levels": [
+        21,
+        159
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_netherbovine.png",
+      "quotes_2016": [
+        "Thank you.  This will be of big help to the weakened Dionys.",
+        "Thanks.  If the Goddesses recover, Dionys would also recover."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "mirtis",
+      "name": "Mirtis",
+      "names": [
+        "Mirtis"
+      ],
+      "classNames": [
+        "boss_mirtis"
+      ],
+      "monsterIds": [
+        "400401"
+      ],
+      "levels": [
+        22
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_humans",
+      "general_proposal": "Agente fracassada tentando recuperar prestígio",
+      "original_role": "Senhora demônio de baixa posição, falhou missões de Giltine",
+      "portrait": "docs/assets/bosses/boss_mirtis.png",
+      "quotes_2016": [
+        "However, Mirtis was too strong and Cunningham had to make a tough decision.",
+        "In the end, Cunningham destroyed the mines, sealing Mirtis and himself in it."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "marnoks",
+      "name": "Demon Lord Marnox",
+      "names": [
+        "Demon Lord Marnox"
+      ],
+      "classNames": [
+        "boss_Marnoks"
+      ],
+      "monsterIds": [
+        "58071"
+      ],
+      "levels": [
+        28
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": "Comandante de vanguarda",
+      "original_role": "Senhor demônio",
+      "portrait": "docs/assets/bosses/boss_marnoks.png",
+      "quotes_2016": [
+        "I've used it numerous times against that uncouth and arrogant Marnox.",
+        "Please hurry. I think Marnox found out where we've hid the Demon Orders."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "minotaurs",
+      "name": "Minotaur",
+      "names": [
+        "Green Minotaur",
+        "Minotaur",
+        "Q1 Minotaur",
+        "Q2 Minotaur"
+      ],
+      "classNames": [
+        "boss_Minotaurs",
+        "boss_Minotaurs_Q1",
+        "boss_Minotaurs_Q2",
+        "boss_Minotaurs_green"
+      ],
+      "monsterIds": [
+        "41383",
+        "57077",
+        "57078",
+        "57338"
+      ],
+      "levels": [
+        31,
+        33,
+        102,
+        116
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_minotaurs.png",
+      "quotes_2016": [
+        "Defeated Minotaur together with Follower Kayetonas. Talk to Follower Kayetonas.",
+        "An unknown diary was found in the tent destroyed by the Minotaur. Read what it says."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "gargoyle-q1",
+      "name": "Gargoyle",
+      "names": [
+        "Sparnasman",
+        "Gargoyle"
+      ],
+      "classNames": [
+        "boss_Gargoyle_Q1",
+        "boss_Sparnanman"
+      ],
+      "monsterIds": [
+        "41369",
+        "57374"
+      ],
+      "levels": [
+        38,
+        199
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_sparnanman.png",
+      "quotes_2016": [
+        "Okay, so everything is ready. Now, how can we penetrate through Gargoyle...",
+        "Can you use that on the Gargoyle while I pack?  I'm sure it will be easy enough for you."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "chapparition",
+      "name": "Chapparition",
+      "names": [
+        "Chapparition"
+      ],
+      "classNames": [
+        "boss_Chapparition"
+      ],
+      "monsterIds": [
+        "41382"
+      ],
+      "levels": [
+        39
+      ],
+      "race_2016": "Velnias",
+      "category": "hooded",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_chapparition.png",
+      "quotes_2016": [
+        "The true origin of the curse was a Chapparition. Defeat the Chapparition.",
+        "The Chapparition in Escanciu Village took away many lives. Defeat it in the name of the goddess."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "unknocker",
+      "name": "Unknocker",
+      "names": [
+        "Unknocker"
+      ],
+      "classNames": [
+        "boss_Unknocker"
+      ],
+      "monsterIds": [
+        "41371"
+      ],
+      "levels": [
+        41
+      ],
+      "race_2016": "Velnias",
+      "category": "constructs",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_unknocker.png",
+      "quotes_2016": [
+        "An Unknocker suddenly appeared! The Unknocker may have the documents, so defeat it!",
+        "You defeated the Unknocker that was guarding the altar. Talk to Follower Tomas again."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "mummyghast",
+      "name": "Mummyghast",
+      "names": [
+        "Mummyghast"
+      ],
+      "classNames": [
+        "boss_Mummyghast"
+      ],
+      "monsterIds": [
+        "41372"
+      ],
+      "levels": [
+        46
+      ],
+      "race_2016": "Velnias",
+      "category": "supernatural",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_mummyghast.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "merregina",
+      "name": "Merregina",
+      "names": [
+        "Merregina"
+      ],
+      "classNames": [
+        "boss_merregina"
+      ],
+      "monsterIds": [
+        "57031"
+      ],
+      "levels": [
+        46
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_merregina.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "necrovanter",
+      "name": "Necroventer",
+      "names": [
+        "Necroventer"
+      ],
+      "classNames": [
+        "boss_necrovanter"
+      ],
+      "monsterIds": [
+        "41230"
+      ],
+      "levels": [
+        49
+      ],
+      "race_2016": "Velnias",
+      "category": "hooded",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_necrovanter.png",
+      "quotes_2016": [
+        "You have defeated the Necroventer. Go back to the Ranger Submaster.",
+        "The experiment failed but you managed to defeat the Necroventer. Tell Drasius about it."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "gesti",
+      "name": "Gesti",
+      "names": [
+        "Gesti"
+      ],
+      "classNames": [
+        "boss_gesti"
+      ],
+      "monsterIds": [
+        "57055"
+      ],
+      "levels": [
+        50
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": "Braço direito de Giltine; a 'petrificação' vira arma feita com cristais da Árvore",
+      "original_role": "Rainha Demônio; lançou a maldição da petrificação",
+      "portrait": "docs/assets/bosses/boss_gesti.png",
+      "quotes_2016": [
+        "Gesti disappeared to the Central Hall. Talk to Follower Algis.",
+        "Find Gesti.  The Tenet Church is located within the Tenet Garden."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "deathweaver",
+      "name": "Deathweaver",
+      "names": [
+        "Deathweaver"
+      ],
+      "classNames": [
+        "boss_Deathweaver"
+      ],
+      "monsterIds": [
+        "41380"
+      ],
+      "levels": [
+        53
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_deathweaver.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "fallen-statue-q1",
+      "name": "Corrupted",
+      "names": [
+        "Corrupted"
+      ],
+      "classNames": [
+        "boss_Fallen_Statue_Q1"
+      ],
+      "monsterIds": [
+        "57110"
+      ],
+      "levels": [
+        53
+      ],
+      "race_2016": "Velnias",
+      "category": "constructs",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_fallen_statue.png",
+      "quotes_2016": [
+        "As you touched the wing shaped piece, a Corrupted suddenly emerged!",
+        "The Goddess Statue turned into Corrupted! Defeat the Corrupted first."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "spector-gh",
+      "name": "Rikaus",
+      "names": [
+        "Rikaus"
+      ],
+      "classNames": [
+        "boss_spector_gh"
+      ],
+      "monsterIds": [
+        "400661"
+      ],
+      "levels": [
+        61
+      ],
+      "race_2016": "Velnias",
+      "category": "hooded",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_spector_gh.png",
+      "quotes_2016": [
+        "Defeated Rikaus that was spreading evil energy. Report to Believer Raminta.",
+        "Believer Raminta says she found the demon spreading an evil energy. Defeat Rikaus for her."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "tomblord",
+      "name": "Tomb Lord",
+      "names": [
+        "Tomb Lord"
+      ],
+      "classNames": [
+        "boss_TombLord"
+      ],
+      "monsterIds": [
+        "41239"
+      ],
+      "levels": [
+        67
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_tomblord.png",
+      "quotes_2016": [
+        "You defeated the Tomb Lord that interfered. Now, go find the secret treasure.",
+        "A monster interfered as you were about to find the secret treasure of the Royal Mausoleum. Defeat Tomb Lord."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "gorgon",
+      "name": "Gorgon",
+      "names": [
+        "Gorgon"
+      ],
+      "classNames": [
+        "boss_Gorgon"
+      ],
+      "monsterIds": [
+        "41376"
+      ],
+      "levels": [
+        70
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_gorgon.png",
+      "quotes_2016": [
+        "You defeated the Gorgon?  Wow, Revelators must be some sort of superhuman.",
+        "You've defeated the Gorgon that routed Dennis' colleagues. Tell this to Dennis."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "durahan",
+      "name": "Dullahan",
+      "names": [
+        "Kartas Hunter Dullahan",
+        "Dullahan"
+      ],
+      "classNames": [
+        "boss_durahan",
+        "boss_durahan_Q1"
+      ],
+      "monsterIds": [
+        "47498",
+        "57862"
+      ],
+      "levels": [
+        86,
+        185
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_durahan.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "rambandgad-red",
+      "name": "Red Lavenzard",
+      "names": [
+        "Red Lavenzard"
+      ],
+      "classNames": [
+        "boss_Rambandgad_red"
+      ],
+      "monsterIds": [
+        "58039"
+      ],
+      "levels": [
+        87
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_rambandgad_red.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "drapeliun",
+      "name": "Drapeliun",
+      "names": [
+        "Drapeliun"
+      ],
+      "classNames": [
+        "boss_Drapeliun"
+      ],
+      "monsterIds": [
+        "41352"
+      ],
+      "levels": [
+        90
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_drapeliun.png",
+      "quotes_2016": [
+        "Demon Lord Hauberk thinks it's time to defeat Drapeliun. He hopes to drag Drapeliun out of the suspicious device in the Fiskavi Plains and defeat it with your help.",
+        "Pilgrim Julius suddenly turned into a Drapeliun after seeing the music box. Calm down the Drapeliun that is attacking by reducing its HP below 50% and persuading it."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "lecifer",
+      "name": "Rexipher",
+      "names": [
+        "Rexipher"
+      ],
+      "classNames": [
+        "boss_lecifer"
+      ],
+      "monsterIds": [
+        "41229"
+      ],
+      "levels": [
+        96
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": "Estrategista do reino rival",
+      "original_role": "O mais sábio dos senhores demônios, mal aproveitado por Gesti",
+      "portrait": "docs/assets/bosses/boss_lecifer.png",
+      "quotes_2016": [
+        "Hmm.. where is this place? What about Rexipher? Where is he?",
+        "Rexipher? I am not sure. Are you sure that's the correct name?"
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "zawra",
+      "name": "Zaura",
+      "names": [
+        "Zaura",
+        "Zaura, Empowered by Giltine"
+      ],
+      "classNames": [
+        "boss_Zawra",
+        "boss_Zawra_Q1"
+      ],
+      "monsterIds": [
+        "58087",
+        "58203"
+      ],
+      "levels": [
+        103
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": "Carcereira de uma nobre; a Kruvina vira um dispositivo de cristal",
+      "original_role": "Prende Lada e constrói a Kruvina; versão 'fortalecida por Giltine'",
+      "portrait": "docs/assets/bosses/boss_zawra.png",
+      "quotes_2016": [
+        "Quick, save the girl! We can't let Zaura have his way with this!",
+        "Zaura. The sin for forgetting my mission will be repaid with that Revelator's head."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "throneweaver",
+      "name": "Throneweaver",
+      "names": [
+        "Throneweaver",
+        "Yellow Throneweaver"
+      ],
+      "classNames": [
+        "boss_Throneweaver",
+        "boss_Throneweaver_yellow"
+      ],
+      "monsterIds": [
+        "41221",
+        "57365"
+      ],
+      "levels": [
+        109,
+        129
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_throneweaver.png",
+      "quotes_2016": [
+        "The Throneweaver appeared when you touched the collapsed sculpture!",
+        "You have collected enough Ridimed Leaves that the Throneweaver likes. Return to the Sad Owl."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "helgasercle",
+      "name": "Helgasercle",
+      "names": [
+        "Helgasercle"
+      ],
+      "classNames": [
+        "boss_helgasercle"
+      ],
+      "monsterIds": [
+        "41228"
+      ],
+      "levels": [
+        126
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_humans",
+      "general_proposal": "Comandante de alta patente",
+      "original_role": "Senhor demônio poderoso",
+      "portrait": "docs/assets/bosses/boss_helgasercle.png",
+      "quotes_2016": [
+        "Is Helgasercle attacking again?  If that's the case, this battle will be a very long one...",
+        "Destroy all the Magic Suppressors that Helgasercle prepared on the 5th floor of the Mage Tower."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "fireload",
+      "name": "Fire Lord",
+      "names": [
+        "Fire Lord"
+      ],
+      "classNames": [
+        "boss_Fireload"
+      ],
+      "monsterIds": [
+        "57425"
+      ],
+      "levels": [
+        127
+      ],
+      "race_2016": "Velnias",
+      "category": "fire",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_fireload.png",
+      "quotes_2016": [
+        "You have defeated the Fire Lord summoned by Demon Lord Marnox. Ask Priest Irma if she is all right.",
+        "It was so scary when Albinas turned into a Fire Lord and started to attack me. Thank you so much for helping us returning to the camp."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "riteris",
+      "name": "Riteris",
+      "names": [
+        "Riteris"
+      ],
+      "classNames": [
+        "boss_Riteris"
+      ],
+      "monsterIds": [
+        "57311"
+      ],
+      "levels": [
+        142
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/mon_riteris.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "riteris-blue",
+      "name": "Blue Riteris",
+      "names": [
+        "Blue Riteris"
+      ],
+      "classNames": [
+        "boss_Riteris_blue"
+      ],
+      "monsterIds": [
+        "58429"
+      ],
+      "levels": [
+        142
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_riteris_blue.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "riteris-brown",
+      "name": "Brown Riteris",
+      "names": [
+        "Brown Riteris"
+      ],
+      "classNames": [
+        "boss_Riteris_brown"
+      ],
+      "monsterIds": [
+        "58430"
+      ],
+      "levels": [
+        142
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_riteris_brown.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "naktis",
+      "name": "Naktis",
+      "names": [
+        "Naktis"
+      ],
+      "classNames": [
+        "boss_Naktis"
+      ],
+      "monsterIds": [
+        "41351"
+      ],
+      "levels": [
+        145
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": "Comandante",
+      "original_role": "Senhor demônio",
+      "portrait": "docs/assets/bosses/boss_naktis.png",
+      "quotes_2016": [
+        "Notice/Took back the round gem from an underling of Naktis#3",
+        "We have to get it back before it reaches the hands of Naktis."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "blud",
+      "name": "Demon Lord Blut",
+      "names": [
+        "Demon Lord Blut"
+      ],
+      "classNames": [
+        "boss_Blud"
+      ],
+      "monsterIds": [
+        "47514"
+      ],
+      "levels": [
+        153
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": "Comandante",
+      "original_role": "Senhor demônio",
+      "portrait": "docs/assets/bosses/boss_blud.png",
+      "quotes_2016": [
+        "We were able to defeat Blut because of you. You brought us hope.",
+        "Prepared to defeat Demon Lord Blut. Help Kupole Zydrone and defeat Blut."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "nuaelle",
+      "name": "Demon Lord Nuaele",
+      "names": [
+        "Demon Lord Nuaele"
+      ],
+      "classNames": [
+        "boss_Nuaelle"
+      ],
+      "monsterIds": [
+        "57412"
+      ],
+      "levels": [
+        156
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_humans",
+      "general_proposal": "Comandante",
+      "original_role": "Senhor demônio",
+      "portrait": "docs/assets/bosses/boss_nuaelle.png",
+      "quotes_2016": [
+        "We will be entering Nuaele's territory now.  Prepare yourself.",
+        "Hauberk and Nuaele will become symbolic figures to the demons."
+      ],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "marionette",
+      "name": "Marionette",
+      "names": [
+        "Marionette"
+      ],
+      "classNames": [
+        "boss_Marionette"
+      ],
+      "monsterIds": [
+        "57424"
+      ],
+      "levels": [
+        181
+      ],
+      "race_2016": "Velnias",
+      "category": "constructs",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_marionette.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "rambandgad-q1",
+      "name": "Lavenzard",
+      "names": [
+        "Lavenzard"
+      ],
+      "classNames": [
+        "boss_Rambandgad_Q1"
+      ],
+      "monsterIds": [
+        "103040"
+      ],
+      "levels": [
+        250
+      ],
+      "race_2016": "Velnias",
+      "category": "mutated_beasts",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_rambandgad.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    },
+    {
+      "slug": "chiefguard",
+      "name": "Nebulas",
+      "names": [
+        "Nebulas"
+      ],
+      "classNames": [
+        "boss_ChiefGuard"
+      ],
+      "monsterIds": [
+        "58412"
+      ],
+      "levels": [
+        272
+      ],
+      "race_2016": "Velnias",
+      "category": "humans",
+      "general_proposal": null,
+      "original_role": null,
+      "portrait": "docs/assets/bosses/boss_chiefguard.png",
+      "quotes_2016": [],
+      "review_status": "pendente"
+    }
+  ]
+}

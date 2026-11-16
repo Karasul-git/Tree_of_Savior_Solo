@@ -91,4 +91,6 @@ Estes chefes têm nome ou tema de fantasma, morte ou objeto animado. Cada um pre
 - Decidir o destino dos chefes do grupo 3.
 - Escrever o papel de cada general na história nova.
 
-**Próximo passo recomendado:** decidir os quatro grupos em aberto: criaturas de fogo, autômatos, encapuzados e sobrenaturais demais.
+Cada chefe tem página própria no [catálogo de chefes](chefes/README.md), e a página inicial do site tem a [revisão dos chefes](../../README.md#revisao-chefes) para aprovar ou rejeitar cada proposta.
+
+**Próximo passo recomendado:** revisar os chefes na página inicial, começando pelos quatro grupos em aberto: criaturas de fogo, autômatos, encapuzados e sobrenaturais demais.

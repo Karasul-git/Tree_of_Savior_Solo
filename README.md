@@ -34,10 +34,17 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 | Combate próximo | Magia e controle | Ataques à distância | Cura e proteção |
 | [Abrir ficha](docs/classes/swordsman.md) | [Abrir ficha](docs/classes/wizard.md) | [Abrir ficha](docs/classes/archer.md) | [Abrir ficha](docs/classes/cleric.md) |
 
+## Revisão dos chefes
+
+<a id="revisao-chefes"></a>
+
+Na versão navegável, a página inicial traz a revisão dos chefes da história: aprove ou rejeite cada proposta. O [catálogo de chefes](docs/projeto-solo/chefes/README.md) mostra retrato, proposta e textos de 2016 de cada um.
+
 ## Explore a wiki
 
 - [Árvores do projeto solo](docs/classes/catalogo-2016.md)
 - [Acervo original de classes e habilidades](docs/classes/catalogo-2016.md?view=2016)
+- [Índice do projeto](docs/projeto-solo/indice.md)
 - [Diretrizes da versão solo](docs/projeto-solo/diretrizes.md)
 - [Scout · kit base proposto](docs/projeto-solo/scout-kit-base.md)
 - [Resumo do balanceamento](docs/projeto-solo/resumo-do-balanceamento.md)

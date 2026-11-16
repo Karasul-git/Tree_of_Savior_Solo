@@ -13,6 +13,10 @@ catalog.later_classes = JSON.parse(await readFile(path.join(root, 'data/catalog/
 catalog.solo_review = JSON.parse(await readFile(path.join(root, 'data/proposals/availability-summary.json'), 'utf8')).classes;
 const allClasses = [...catalog.classes, ...catalog.later_classes];
 const solo = JSON.parse(await readFile(path.join(root, 'data/catalog/classes-solo.json'), 'utf8'));
+const projectIndex = JSON.parse(await readFile(path.join(root, 'data/project-index.json'), 'utf8'));
+const bossData = JSON.parse(await readFile(path.join(root, 'data/bosses.json'), 'utf8'));
+const bossGroups = Object.fromEntries(JSON.parse(await readFile(path.join(root, 'data/proposals/story-bosses.json'), 'utf8')).visual_categories.map(c => [c.id, c.label]));
+const numbered = Object.fromEntries(projectIndex.sections.flatMap(s => s.pages.map(p => [p.path, `${p.n} ${p.title}`])));
 const classes = [
   { slug: 'swordsman', name: 'Swordsman', pt: 'Espadachim', note: 'O primeiro passo na linha de frente.', role: 'COMBATE PRÓXIMO', count: 8, color: 'red' },
   { slug: 'wizard', name: 'Wizard', pt: 'Mago', note: 'Magia, controle e novas possibilidades.', role: 'MAGIA E CONTROLE', count: 8, color: 'blue' },
@@ -64,7 +68,10 @@ const documents = [
   ['ROADMAP.md', 'Próximas etapas'],
   ['CONTRIBUTING.md', 'Como contribuir'],
   ['docs/versao-navegavel.md', 'Sobre a versão navegável'],
-];
+  ['docs/projeto-solo/indice.md', 'Índice do projeto'],
+  ['docs/projeto-solo/chefes/README.md', 'Catálogo de chefes'],
+  ...bossData.bosses.map(b => [`docs/projeto-solo/chefes/${b.slug}.md`, `${b.name} · Chefe`]),
+].map(([source, title]) => [source, numbered[source] || title]);
 const outPath = source => source.replace(/(^|\/)README\.md$/, '$1index.html').replace(/\.md$/, '.html');
 const escape = text => String(text).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 const strip = html => html.replace(/<[^>]*>/g, ' ').replace(/&[^;]+;/g, ' ').replace(/\s+/g, ' ').trim();
@@ -78,9 +85,9 @@ function shell(title, current, content, toc = [], classInfo) {
   const contextClass = allClasses.find(c => current === `docs/classes/catalogo/${c.id}.html` || current === `docs/classes/${c.id}.html`);
   const treeState = readTreeState('', catalog, solo, contextClass?.id);
   const nav = [
-    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/diretrizes.html', 'Diretrizes solo'), link('docs/projeto-solo/resumo-do-balanceamento.html', 'Resumo do balanceamento'), link('docs/projeto-solo/companheiros-e-bots.html', 'Bots e grupo'), link('docs/projeto-solo/servidor-estrutura.html', 'Estrutura do servidor'), link('docs/projeto-solo/classes-e-progressao-servidor.html', 'Classes e progressão'), link('docs/projeto-solo/pontos-por-nivel.html', 'Pontos por nível'), link('docs/projeto-solo/habilidades-magicas-e-int.html', 'Magia e INT'), link('docs/projeto-solo/formulas-de-dano.html', 'Fórmulas de dano'), link('docs/projeto-solo/calibragem-monstros.html', 'Calibragem dos monstros'), link('docs/projeto-solo/curva-de-equipamentos.html', 'Curva de equipamentos'), link('docs/projeto-solo/comparacao-das-bases.html', 'Comparação das bases'), link('docs/projeto-solo/chefes-elites-masmorras.html', 'Chefes e masmorras'), link('docs/projeto-solo/curva-de-experiencia.html', 'Curva de experiência'), link('docs/projeto-solo/cura-e-pocoes.html', 'Cura e poções'), link('docs/projeto-solo/ciclo-de-recuperacao.html', 'Ciclo de recuperação'), link('docs/projeto-solo/economia-das-pocoes.html', 'Economia das poções'), link('docs/sistemas/barracao-e-grupo.html', 'Barracão e grupo (2016)'), link('docs/sistemas/economia-2016.html', 'Economia (2016)'), link('docs/sistemas/recuperacao-2016.html', 'Recuperação (2016)'), link('docs/historia/historia-e-mundo.html', 'História e mundo (2016)'), link('docs/projeto-solo/remocao-das-deusas.html', 'Sem deusas'), link('docs/projeto-solo/historia-sem-deusas.html', 'História do projeto'), link('docs/projeto-solo/chefes-da-historia.html', 'Chefes da história'), link('docs/projeto-solo/disponibilidade-das-classes.html', 'Elenco e pendências'), link('docs/projeto-solo/ranks-e-especializacoes.html', 'Ranks e especializações solo'), link('docs/projeto-solo/seis-classes-habilidades-e-circulos.html', 'Seis classes e círculos'), link('docs/projeto-solo/scout-kit-base.html', 'Scout · kit base'), link('docs/projeto-solo/scout-e-suporte-sem-magia.html', 'Scout, suporte e cura')]),
+    group('O ACERVO', [link('index.html', '<span>⌂</span> Visão geral'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Todas as classes'), link('docs/classes/catalogo-2016.html?view=2016', 'Original de 2016'), link('docs/projeto-solo/indice.html', '<span>☰</span> Índice do projeto'), link('index.html#revisao-chefes', 'Revisão dos chefes')]),
     `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
-    group('ENTENDA A ÉPOCA', [link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build')]),
+    ...projectIndex.sections.map(s => group(`${s.n} · ${s.title.toUpperCase()}`, s.pages.map(p => link(p.path.replace(/README\.md$/, 'index.html').replace(/\.md$/, '.html'), `${p.n} ${p.title}`)))),
     group('PRESERVAR A MEMÓRIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('ROADMAP.html', 'Próximas etapas'), link('CONTRIBUTING.html', 'Como contribuir')]),
   ].join('');
   return `<!doctype html>
@@ -88,7 +95,7 @@ function shell(title, current, content, toc = [], classInfo) {
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light">
 <title>${escape(title)} · Tree of Savior — Memórias</title><meta name="description" content="Wiki histórica em português sobre as classes e o mundo de Tree of Savior no lançamento internacional de 2016, com imagens oficiais e fontes documentadas.">
 <link rel="icon" href="${base}docs/assets/classes/scout/icon.png"><link rel="stylesheet" href="${base}assets/style.css">
-<script src="${base}search-index.js" defer></script><script src="${base}tree-data.js" defer></script><script src="${base}assets/app.js" defer></script></head>
+<script src="${base}search-index.js" defer></script><script src="${base}tree-data.js" defer></script><script src="${base}assets/app.js" defer></script>${current === 'index.html' ? `<script src="${base}boss-data.js" defer></script><script src="${base}assets/boss-review.js" defer></script>` : ''}</head>
 <body><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 <aside id="sidebar" class="sidebar"><a class="brand" href="${base}index.html"><img src="${base}docs/assets/classes/scout/icon.png" width="45" height="45" alt=""><span>TREE OF SAVIOR<small>MEMÓRIAS DO LANÇAMENTO</small></span></a>
 <div class="edition"><span class="status-dot"></span> <span id="edition-view">${treeState.view === 'solo' ? 'Projeto solo' : 'Original de 2016'}</span> <span>v0.8</span></div>
@@ -114,6 +121,7 @@ function home() {
 <section class="archive-strip" aria-label="Cobertura da edição"><div><strong>${catalog.class_count}</strong><span>classes no catálogo</span></div><div><strong>${catalog.skill_count}</strong><span>habilidades resumidas</span></div><div><strong>${String(sourceCount).padStart(2,'0')}</strong><span>fontes documentadas</span></div><a href="docs/recorte-historico.html"><span>MARCO DA EDIÇÃO</span><strong>29 de março, 2016 <span>↗</span></strong></a></section>
 <section class="classes-section"><div class="section-heading"><div><span class="eyebrow">A PRIMEIRA ESCOLHA</span><h2>Escolha sua base.</h2></div><a class="section-note" href="docs/classes/catalogo-2016.html?view=2016">Consultar o original de 2016 →</a></div><div class="class-grid solo-home-grid">${solo.bases.map((b, i) => `<a class="class-card ${['red','green','gold'][i]}" href="docs/classes/catalogo-2016.html?view=solo&amp;base=${b.id}#arvore"><div class="class-card-top"><span>0${i+1} / BASE SOLO</span><img src="docs/assets/classes/${b.source_class_id}/icon.png" alt="Emblema de ${b.name}" width="54" height="54"></div><div class="card-character"><span class="character-halo"></span><img src="docs/assets/classes/${b.source_class_id}/female.gif" alt="Visual oficial usado como referência de ${b.name}" loading="lazy"></div><span class="class-role">${b.provisional_name ? 'NOME PROVISÓRIO' : 'PROJETO SOLO'}</span><h3>${b.name}</h3><p>${['Armas, escudos e combate próximo.','Disparos, armadilhas e companheiros.','Mobilidade, ofícios e apoio por itens.'][i]}</p><div class="class-card-bottom"><span>${b.classes.length} especializações</span><span class="card-arrow">↓</span></div></a>`).join('')}</div></section>
 <section class="reading-grid"><a class="reading-card" href="docs/sistemas/ranks-e-circulos.html"><span class="reading-number">I.</span><div><span class="eyebrow">AS REGRAS DE OUTRO TEMPO</span><h3>Ranks, círculos e possibilidades</h3><p>Entenda como cada avanço construía um personagem diferente.</p></div><span>→</span></a><a class="reading-card" href="docs/fontes.html"><span class="reading-number">II.</span><div><span class="eyebrow">PRESERVAR COM CUIDADO</span><h3>De onde vêm as lembranças?</h3><p>Guias da época, imagens oficiais e dúvidas que continuam abertas.</p></div><span>→</span></a></section>
+<section class="boss-review" id="revisao-chefes" aria-labelledby="revisao-chefes-titulo"><div class="section-heading"><div><span class="eyebrow">PROJETO · HISTÓRIA</span><h2 id="revisao-chefes-titulo">Revisão dos chefes</h2></div><a class="section-note" href="docs/projeto-solo/chefes/index.html">Abrir o catálogo de chefes →</a></div><p>Os ${bossData.bosses.length} chefes que eram demônios em 2016. Aprove ou rejeite cada proposta; as escolhas ficam guardadas para a próxima etapa.</p><div class="boss-review-bar"><label for="boss-filter">Mostrar</label><select id="boss-filter" data-review-filter><option value="todos">Todos</option><option value="pendente">Pendentes</option><option value="aprovado">Aprovados</option><option value="rejeitado">Rejeitados</option></select><span data-review-status aria-live="polite"></span></div><div class="boss-grid" data-boss-grid></div><noscript><p>A revisão precisa de JavaScript. Veja o <a href="docs/projeto-solo/chefes/index.html">catálogo de chefes</a>.</p></noscript></section>
 <aside class="archive-note"><span class="note-symbol">✧</span><div><strong>Um acervo vivo, com a história no lugar certo.</strong><p>O catálogo reúne 55 classes da janela de lançamento. A versão solo removerá classes mágicas; o acervo preserva a referência original. <a href="ROADMAP.html">Veja os próximos capítulos →</a></p></div></aside>`;
 }
 
@@ -128,6 +136,8 @@ const treeCode = (await readFile(path.join(root, 'web/trees.mjs'), 'utf8')).repl
 const appCode = (await readFile(path.join(root, 'web/app.js'), 'utf8')).replace(/^import .*;\n/, '');
 await writeFile(path.join(dist, 'assets/app.js'), searchCode + '\n' + catalogCode + '\n' + treeCode + '\n' + appCode);
 await writeFile(path.join(dist, '.nojekyll'), '');
+await writeFile(path.join(dist, 'boss-data.js'), 'window.WIKI_BOSSES=' + JSON.stringify(bossData.bosses.map(b => ({ slug: b.slug, name: b.name, portrait: b.portrait, review_status: b.review_status, category_label: bossGroups[b.category] }))).replaceAll('<', '\\u003c') + ';');
+await cp(path.join(root, 'web/boss-review.js'), path.join(dist, 'assets/boss-review.js'));
 await writeFile(path.join(dist, 'tree-data.js'), 'window.WIKI_CATALOG=' + JSON.stringify(catalog).replaceAll('<', '\\u003c') + ';window.WIKI_SOLO=' + JSON.stringify(solo).replaceAll('<', '\\u003c') + ';');
 const searchIndex = [];
 

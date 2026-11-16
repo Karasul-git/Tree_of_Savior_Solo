@@ -268,6 +268,27 @@ for page in pages:
             if parsed.fragment not in anchors:
                 errors.append(f'Missing explicit anchor: {target}')
 
+boss_assets = json.loads((ROOT / 'data/boss-assets.json').read_text())
+boss_data = json.loads((ROOT / 'data/bosses.json').read_text())
+if {a['path'] for a in boss_assets} != {b['portrait'] for b in boss_data['bosses']}:
+    errors.append('Boss portraits and boss data differ')
+for asset in boss_assets:
+    path = (ROOT / asset['path']).resolve()
+    if not path.is_relative_to(ROOT) or not path.exists():
+        errors.append(f'Missing boss asset: {asset["path"]}')
+        continue
+    raw = path.read_bytes()
+    if hashlib.sha256(raw).hexdigest() != asset['sha256'] or len(raw) != asset['bytes'] or not raw.startswith(b'\x89PNG\r\n\x1a\n'):
+        errors.append(f'Boss asset changed or invalid: {asset["path"]}')
+    for field in ['source_page', 'source_url', 'retrieved_at', 'rights_holder', 'historical_status']:
+        if not asset.get(field):
+            errors.append(f'Missing boss provenance {field}: {asset["path"]}')
+    if asset.get('transformations') != 'none' or urlparse(asset['source_url']).hostname != 'tos.guru':
+        errors.append(f'Unexpected boss asset origin: {asset["path"]}')
+for b in boss_data['bosses']:
+    if b['review_status'] not in ('pendente', 'aprovado', 'rejeitado'):
+        errors.append(f'Invalid boss review status: {b["slug"]}')
+
 manifest_path = ROOT / 'data/assets.json'
 assets = json.loads(manifest_path.read_text()) if manifest_path.exists() else []
 expected = {(name, role) for name in all_ids

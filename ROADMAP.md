@@ -149,6 +149,9 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [ ] Revisar o rascunho de premissa.
 - [x] Inventário dos chefes demônios: generais, campeões mutados e sobrenaturais demais (por nome; sprites não vistos).
 - [x] Classificar os chefes demônios pelos retratos (21 humanos ou mutados, 19 bestas, 3 da Árvore, 18 em aberto).
-- [ ] Decidir criaturas de fogo, autômatos, encapuzados e sobrenaturais demais.
+- [x] Retratos dos chefes no acervo (manifesto `data/boss-assets.json`), páginas por chefe e catálogo.
+- [x] Revisão dos chefes na página inicial, com aprovação guardada no banco do Artifact.
+- [x] Índice numerado do projeto e menu por seções.
+- [ ] Revisar os 62 chefes (aprovar ou rejeitar).
 - [ ] Inventariar revelações, NPCs e itens ligados às deusas.
 - [ ] Futuro: personagens de mapa controlados pelo servidor, com interação limitada.

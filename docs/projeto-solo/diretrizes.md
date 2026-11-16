@@ -143,4 +143,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **16/11/2026 — Papéis centrais da história.** Giltine é a rainha do reino rival; as revelações viram registros, com Laima como guardiã dos registros; as protetoras das regiões são uma mistura de nobres (princesas, rainhas, senhoras). [Rascunho de premissa](historia-sem-deusas.md).
 
-**Próximo passo recomendado:** revisar o rascunho de premissa.
+**16/11/2026 — Chefes e índice.** Os retratos dos chefes entraram no acervo com procedência própria; cada chefe tem página, e a página inicial ganhou a revisão para aprovar ou rejeitar. As páginas do projeto agora seguem um [índice numerado](indice.md).
+
+**Próximo passo recomendado:** revisar os chefes e o rascunho de premissa.
