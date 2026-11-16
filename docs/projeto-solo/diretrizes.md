@@ -131,4 +131,6 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 
 **15/11/2026 — Preparados e defesa mágica.** O ataque de preparados passa a somar a arma principal (sem ela, quem foca INT teria um quarto do ataque de quem foca STR). A defesa mágica dos monstros segue a mesma meta da física.
 
-**Próximo passo recomendado:** definir a cura de preparados e avaliar as poções originais.
+**16/11/2026 — Cura e poções.** Poções como base da sustentação, no estilo clássico (caçar sozinho consome 2 a 3 por minuto), e cura de preparados = valor base × (1 + INT ÷ 100). [Cura e poções](cura-e-pocoes.md).
+
+**Próximo passo recomendado:** fechar a economia das poções.

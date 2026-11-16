@@ -20,6 +20,7 @@
 | Monstros comuns | 1 a 2 habilidades de cada membro do grupo (4 a 8 sozinho); golpe de 5% a 10% do HP de quem não é tanque. | [Calibragem dos monstros](calibragem-monstros.md) |
 | Chefes | Luta de 1 a 2 minutos com o grupo de 4; golpe de 15% a 25% do HP; HP ajustado ao tamanho do grupo. | [Chefes e masmorras](chefes-elites-masmorras.md) |
 | Elites | Valores atuais do Melia (150% de HP e atributos, 200% de experiência). | [Chefes e masmorras](chefes-elites-masmorras.md) |
+| Sustentação | Poções como base (estilo clássico); cura de preparados = valor base × (1 + INT ÷ 100). | [Cura e poções](cura-e-pocoes.md) |
 | Experiência | ~150 horas até o 280; ranks nos níveis 1, 15, 45, 80, 115, 155 e 200; experiência dividida igualmente no grupo. | [Curva de experiência](curva-de-experiencia.md) |
 
 ## Números de referência no nível 120
@@ -58,12 +59,12 @@ Revisando o conjunto, estes pontos precisam de atenção antes dos testes:
 4. **Crítico.** A chance de crítico hoje não depende da DEX, e a resistência a crítico dos monstros não foi calibrada. Falta a fonte de 2016.
 5. **Chefe jogando sozinho.** O HP cai com o grupo, mas o ataque não. Sem tanque, cada golpe tira 15% a 25% do HP.
 6. **Ritmo de jogo.** As metas de chefes e de experiência supõem uma habilidade a cada 2 segundos e 4 monstros por minuto sozinho. Os dois valores precisam ser medidos.
-7. **Cura e poções.** A fórmula da cura de preparados com INT e a suficiência das poções originais ainda não foram definidas.
+7. ~~**Cura e poções.**~~ **Resolvido em 16/11/2026:** poções como base (estilo clássico) e cura de preparados = valor base × (1 + INT ÷ 100). Fica pendente a economia: caçar sozinho consome 2 a 3 poções por minuto. [Cura e poções](cura-e-pocoes.md)
 
 ## Pendências principais
 
-- Resolver os pontos restantes, começando pela **cura e pelas poções**, que mexem no ritmo de caça.
+- Fechar a **economia das poções** e resolver os pontos restantes (equipamento acima do comum, crítico, chefe sozinho, ritmo de jogo).
 - Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
 - Medir no jogo o ritmo de habilidades e de caça e ajustar as tabelas.
 
-**Próximo passo recomendado:** resolver o ponto 7 (cura e poções): a fórmula da cura com INT e se as poções originais bastam.
+**Próximo passo recomendado:** fechar a economia das poções.

@@ -51,6 +51,7 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 - [Comparação das três bases](docs/projeto-solo/comparacao-das-bases.md)
 - [Elites, chefes e masmorras](docs/projeto-solo/chefes-elites-masmorras.md)
 - [Curva de experiência](docs/projeto-solo/curva-de-experiencia.md)
+- [Cura e poções](docs/projeto-solo/cura-e-pocoes.md)
 - [Companheiros, bots e grupo](docs/projeto-solo/companheiros-e-bots.md)
 - [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)

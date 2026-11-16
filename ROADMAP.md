@@ -119,7 +119,8 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Página-resumo do balanceamento, com mudanças no Melia e pontos de atenção.
 - [x] Crescimento das habilidades: 10% por nível, calibragem no nível 5.
 - [x] Ataque de preparados soma a arma principal; defesa mágica dos monstros com a mesma meta da física.
-- [ ] Cura de preparados com INT e suficiência das poções originais.
+- [x] Cura de preparados com INT (+1% por ponto) e poções como base da sustentação.
+- [ ] Economia das poções (silver por hora contra consumo).
 - [ ] Estrutura das masmorras e habilidades dos chefes.
 - [ ] Conferir valores de armas e armaduras com 2016.
 - [ ] Multiplicadores dos monstros por faixa de nível e curva de experiência.

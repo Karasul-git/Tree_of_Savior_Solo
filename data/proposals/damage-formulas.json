@@ -10,7 +10,9 @@
     "preparation_healing_scales_with_int": {
       "status": "decided",
       "decided_at": "2026-11-15",
-      "note": "Cura de poções e medicina (Sprinkle HP/SP Potion, Healing Factor) escala com INT; Sabedoria mantém SP e recuperação natural. Fórmula a definir."
+      "note": "Cura de poções e medicina (Sprinkle HP/SP Potion, Healing Factor) escala com INT; Sabedoria mantém SP e recuperação natural. Fórmula a definir.",
+      "formula": "cura = valor base × (1 + INT ÷ 100)",
+      "formula_decided_at": "2026-11-16"
     },
     "con_adds_defense": {
       "status": "decided",

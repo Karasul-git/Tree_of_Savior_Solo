@@ -40,3 +40,4 @@
 - Resumo do balanceamento (15/11/2026): `docs/projeto-solo/resumo-do-balanceamento.md` é o guia consolidado (decisões, números de referência, mudanças no Melia e sete pontos de atenção). Atualizá-lo junto com qualquer decisão de balanceamento.
 - Crescimento das habilidades (15/11/2026, decisão do proprietário): cada nível soma 10% do fator do nível 1 (após dividir por 10): nível 1 = 151%, 5 = 211%, 15 = 362% (mediana). Monstros e chefes calibrados para o nível 5 (211%).
 - Preparados (15/11/2026, decisão do proprietário): ataque de preparados = fórmula com INT + ataque da arma principal; defesa mágica dos monstros segue a mesma meta da física (multiplicadores em `equipment-curve.json`).
+- Cura e poções (16/11/2026, decisões do proprietário): poções como base da sustentação, estilo clássico (sozinho ~2–3 poções por minuto); cura de preparados = valor base × (1 + INT ÷ 100). Pendente: economia das poções. Consulte `docs/projeto-solo/cura-e-pocoes.md`.

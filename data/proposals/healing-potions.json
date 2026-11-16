@@ -1,0 +1,92 @@
+{
+  "reviewed_at": "2026-11-16",
+  "status": "owner-decisions-numbers-provisional",
+  "source_id": "F124",
+  "decisions": {
+    "sustain": "potions-classic",
+    "int_healing": "cura = valor base × (1 + INT ÷ 100)",
+    "decided_at": "2026-11-16"
+  },
+  "potion_mechanics": {
+    "heal_per_tick": "valor do item × 7",
+    "tick_s": 2,
+    "duration_s": 15,
+    "ticks": 8,
+    "cooldown_s": 25,
+    "source": "Drug_HealHP.cs, buffs.txt e items.txt do Melia"
+  },
+  "hp_potions": [
+    {
+      "name": "Small HP Potion",
+      "className": "Drug_HP1",
+      "value": 39,
+      "total_heal": 2184,
+      "price": 80
+    },
+    {
+      "name": "HP Potion",
+      "className": "Drug_HP2",
+      "value": 66,
+      "total_heal": 3696,
+      "price": 160
+    },
+    {
+      "name": "Large HP Potion",
+      "className": "Drug_HP3",
+      "value": 132,
+      "total_heal": 7392,
+      "price": 360
+    },
+    {
+      "name": "Large HP Potion (2)",
+      "className": "Drug_HP4",
+      "value": 210,
+      "total_heal": 11760,
+      "price": 460
+    },
+    {
+      "name": "Huge HP Potion",
+      "className": "Drug_HP5",
+      "value": 315,
+      "total_heal": 17640,
+      "price": 720
+    }
+  ],
+  "natural_regen": "1% do HP máximo a cada 20 s (3% por minuto); sentado, o intervalo cai pela metade",
+  "assumptions": "Caça sozinho: 4 monstros por minuto, luta de ~12 s, 1 golpe de monstro a cada 3 s; Archer de referência (9% a 10% por golpe, 8% a 15% de esquiva).",
+  "sustain_by_level": [
+    {
+      "level": 40,
+      "hp": 3321,
+      "dmg_pct_per_min_solo": 131,
+      "regen_pct_min": 3,
+      "Small HP Potion": 158,
+      "HP Potion": 267,
+      "Large HP Potion": 534,
+      "Large HP Potion (2)": 850,
+      "Huge HP Potion": 1275
+    },
+    {
+      "level": 120,
+      "hp": 10048,
+      "dmg_pct_per_min_solo": 133,
+      "regen_pct_min": 3,
+      "Small HP Potion": 52,
+      "HP Potion": 88,
+      "Large HP Potion": 177,
+      "Large HP Potion (2)": 281,
+      "Huge HP Potion": 421
+    },
+    {
+      "level": 220,
+      "hp": 19634,
+      "dmg_pct_per_min_solo": 137,
+      "regen_pct_min": 3,
+      "Small HP Potion": 27,
+      "HP Potion": 45,
+      "Large HP Potion": 90,
+      "Large HP Potion (2)": 144,
+      "Huge HP Potion": 216
+    }
+  ]
+}
