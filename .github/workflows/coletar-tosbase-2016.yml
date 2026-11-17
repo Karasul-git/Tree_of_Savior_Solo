@@ -1,0 +1,32 @@
+name: Coletar o ToSBase de 2016
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: coletar-tosbase
+  cancel-in-progress: false
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Coletar as capturas do Internet Archive
+        run: python3 scripts/fetch-tosbase-2016.py
+      - name: Guardar o resultado no branch data/tosbase-2016
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C data/tosbase-2016
+          git add data/tosbase-2016
+          if git diff --cached --quiet; then
+            echo "Nada novo para guardar."
+          else
+            git commit -m "Coleta do ToSBase de 2016 (capturas do Internet Archive)"
+            git push --force origin data/tosbase-2016
+          fi
