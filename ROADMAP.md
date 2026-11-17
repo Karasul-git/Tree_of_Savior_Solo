@@ -35,7 +35,8 @@
 - [ ] Revisar habilidades de Monk e Paladin para reaproveitamento sem magia.
 - [x] Navegação solo por bases com árvore abaixo da seleção, menu hierárquico e retorno contextual das fichas.
 - [x] Visão histórica separada, preservando as quatro árvores e as 55 classes.
-- [ ] Revisar visualmente as posições propostas e avaliar Warrior como nome final da base de combate próximo.
+- [x] Ratificar as 36 posições da árvore solo (15/11/2026).
+- [ ] Avaliar Warrior como nome final da base de combate próximo.
 - [ ] Comparar as habilidades originais de Alchemist e Plague Doctor para adaptação mínima, sem sequência de evolução presumida.
 - [ ] Escolher o sistema de avanço e validar a nova base Scout no cliente/servidor.
 - [ ] Consolidar a seleção nominal da versão solo e o tratamento de classes híbridas.
@@ -80,3 +81,77 @@ As adaptações de balanceamento solo pertencem a um projeto separado. Esta wiki
 - [x] Comparar recursos existentes posteriores de Scout, Alchemist e Templar, separados do histórico.
 - [ ] Revisar Energy Blast e os efeitos sagrados de Paladin.
 - [ ] Definir a referência do kit base de Scout e o aproveitamento de comando de Templar no solo.
+
+## Modelo de grupo e remoção das deusas
+
+- [x] Registrar o modelo de jogo: jogador com bots aliados do servidor e amigos opcionais.
+- [x] Registrar a remoção das deusas e o inventário inicial das funções das estátuas.
+- [x] Comparar os kits de Scout de 2016 e posterior e publicar proposta de kit base.
+- [x] Ratificar o kit base de Scout (opção B).
+- [ ] Conferir no cliente Perspective Distortion, Scan e as animações de Cloaking e Camouflage.
+- [x] Especificar as bases do grupo de bots: origem, tamanho, controle e progressão.
+- [x] Pesquisar barracão, nível de equipe e grupo de 2016 (fontes majoritariamente de jogadores).
+- [ ] Confirmar com fonte de 2016 o máximo do nível de equipe.
+- [x] Grupo de 4 no total (jogador + até 3 bots), coincidindo com as quatro vagas iniciais do barracão.
+- [ ] Decidir se animais contam no limite de 3 bots (proposta: não contam).
+- [x] Encerrar a etapa de conceito dos bots; perfis, interface e técnica ficam para a implementação.
+
+## Servidor
+
+- [x] Avaliar base técnica: Melia, cliente atual da Steam, dados e lacunas (grupo e bots).
+- [x] Fase 0: tabela das 39 classes no formato do Melia e esqueleto de progressão (rascunho).
+- [x] Fase 0: pontos de atributo e de habilidade por nível (proposta, com decisões do proprietário).
+- [x] Levantar as habilidades mágicas da árvore solo (26, em quatro classes).
+- [x] Definir o novo papel do INT: potência de preparados.
+- [x] Registrar as fórmulas de dano do Melia e propostas para o projeto.
+- [x] Decidir cura de preparados com INT e CON na defesa (aceitas em 15/11/2026).
+- [x] Metas de calibragem dos monstros para grupos de 4 (decisões do proprietário).
+- [x] Curva de equipamentos comuns (arma de uma mão e armaduras) a partir do Melia.
+- [x] Decidir a escala das habilidades: opção A, fatores divididos por 10.
+- [x] Tabela de ajustes dos monstros por faixa de nível (HP, ataque, defesa).
+- [x] Curvas das outras armas: uma mão (mesma curva) e duas mãos (~18% a mais).
+- [x] Arma secundária soma 20% do próprio ataque ao ataque geral (decidido).
+- [x] Comparação preliminar das três bases.
+- [x] Modelo de defesa: redução percentual com limite de 75% (decidido).
+- [x] Recalcular ataque, defesa e precisão dos monstros e refazer a comparação.
+- [x] Metas de elites, chefes e masmorras (decisões do proprietário).
+- [x] Curva de experiência até o nível 280 (metas do proprietário).
+- [x] Página-resumo do balanceamento, com mudanças no Melia e pontos de atenção.
+- [x] Crescimento das habilidades: 10% por nível, calibragem no nível 5.
+- [x] Ataque de preparados soma a arma principal; defesa mágica dos monstros com a mesma meta da física.
+- [x] Cura de preparados com INT (+1% por ponto) e poções como base da sustentação.
+- [x] Estudo da economia das poções (silver cobre 12% a 19% do consumo).
+- [x] Pesquisa da economia de 2016: fontes e gastos de silver, poções e alquimia.
+- [x] Pesquisa da recuperação em 2016: poções, descanso e fogueira.
+- [x] Sustentação revista: ciclo de recuperação do original (descanso, fogueira, poções proporcionais).
+- [x] Experiência dos monstros +50% para compensar os descansos.
+- [ ] Lenha em drops de monstros.
+- [ ] Decidir se o silver sai do jogo; se sair, fabricação de poções pela alquimia original.
+- [ ] Estrutura das masmorras e habilidades dos chefes.
+- [ ] Conferir valores de armas e armaduras com 2016.
+- [ ] Multiplicadores dos monstros por faixa de nível e curva de experiência.
+- [ ] Fase 1: rodar o Melia original com o cliente da Steam (requer computador).
+- [ ] Confirmar como o cliente atual exibe ranks e círculos.
+
+## Prioridade seguinte · Balanceamento
+
+- [x] Esqueleto de progressão solo: R7, 15 níveis de classe por rank, círculos até C3, nível 280 (proposta).
+- [ ] Fórmulas de atributos e dano: referência de 2016 separada das propostas solo.
+- [ ] Balanceamento das classes por rank, começando pelas três bases.
+- [ ] Definir obtenção e regras dos bots do servidor.
+- [ ] Futuro: perfis de comportamento das três bases.
+- [ ] Reavaliar habilidades de grupo e separar as de guilda (Templar) das de grupo.
+- [ ] Pesquisar arte original de carroças, cavalos ou NPCs de transporte.
+- [ ] Documentar o ponto de retorno após derrota e as estátuas de Zemyna em 2016.
+- [x] Resumo da história e do mundo de 2016 a partir dos textos oficiais.
+- [x] Direção da história: sem demônios (humanos e mutantes), reino rival e Árvore sem explicação.
+- [x] Papéis centrais: Giltine rainha rival, registros e guardiã dos registros, nobres das regiões.
+- [ ] Revisar o rascunho de premissa.
+- [x] Inventário dos chefes demônios: generais, campeões mutados e sobrenaturais demais (por nome; sprites não vistos).
+- [x] Classificar os chefes demônios pelos retratos (21 humanos ou mutados, 19 bestas, 3 da Árvore, 18 em aberto).
+- [x] Retratos dos chefes no acervo (manifesto `data/boss-assets.json`), páginas por chefe e catálogo.
+- [x] Revisão dos chefes na página inicial, com aprovação guardada no banco do Artifact.
+- [x] Índice numerado do projeto e menu por seções.
+- [ ] Revisar os 62 chefes (aprovar ou rejeitar).
+- [ ] Inventariar revelações, NPCs e itens ligados às deusas.
+- [ ] Futuro: personagens de mapa controlados pelo servidor, com interação limitada.

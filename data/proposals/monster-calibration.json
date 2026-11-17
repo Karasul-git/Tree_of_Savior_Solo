@@ -1,0 +1,136 @@
+{
+  "reviewed_at": "2026-11-15",
+  "source_id": "F124",
+  "status": "owner-targets-numbers-pending-equipment-curve",
+  "targets": {
+    "group_size": 4,
+    "skills_per_member_to_kill_normal": [
+      1,
+      2
+    ],
+    "damage_per_hit_pct_of_hp_non_tank": [
+      5,
+      10
+    ],
+    "decided_at": "2026-11-15",
+    "revised_at": "2026-11-15",
+    "revision_note": "Proprietário reduziu de 3–4 para 1–2 habilidades por membro, pensando também em jogar sem o grupo; sozinho, um monstro comum cai com 4 a 8 habilidades."
+  },
+  "build_assumption": "Personagem de referência: 40% dos pontos em CON, sem equipamento; HP pela fórmula atual do Melia.",
+  "formulas": {
+    "monster_hp": "HP_alvo(L) = 4 × (1 a 2) × D(L), sendo D(L) o dano médio de uma habilidade do personagem no nível L",
+    "monster_atk": "ATK_alvo(L) = DEF_jogador(L) + (5% a 10%) × HP_jogador(L)"
+  },
+  "bands": [
+    {
+      "level": 10,
+      "monsters": 581,
+      "mon_hp": 218,
+      "mon_atk_min": 82,
+      "mon_atk_max": 137,
+      "mon_def": 63,
+      "mon_mdef": 65,
+      "mon_hit": 1,
+      "mon_dodge": 1,
+      "mon_exp": 85,
+      "player_hp_no_gear": 1167,
+      "target_hit_min": 58,
+      "target_hit_max": 117
+    },
+    {
+      "level": 50,
+      "monsters": 136,
+      "mon_hp": 3158,
+      "mon_atk_min": 416,
+      "mon_atk_max": 777,
+      "mon_def": 356,
+      "mon_mdef": 358,
+      "mon_hit": 59,
+      "mon_dodge": 50,
+      "mon_exp": 556,
+      "player_hp_no_gear": 4790,
+      "target_hit_min": 240,
+      "target_hit_max": 479
+    },
+    {
+      "level": 100,
+      "monsters": 124,
+      "mon_hp": 9436,
+      "mon_atk_min": 1224,
+      "mon_atk_max": 2105,
+      "mon_def": 994,
+      "mon_mdef": 1078,
+      "mon_hit": 109,
+      "mon_dodge": 102,
+      "mon_exp": 1738,
+      "player_hp_no_gear": 10074,
+      "target_hit_min": 504,
+      "target_hit_max": 1007
+    },
+    {
+      "level": 150,
+      "monsters": 76,
+      "mon_hp": 22348,
+      "mon_atk_min": 1684,
+      "mon_atk_max": 2947,
+      "mon_def": 1480,
+      "mon_mdef": 1574,
+      "mon_hit": 156,
+      "mon_dodge": 151,
+      "mon_exp": 3482,
+      "player_hp_no_gear": 16087,
+      "target_hit_min": 804,
+      "target_hit_max": 1609
+    },
+    {
+      "level": 200,
+      "monsters": 109,
+      "mon_hp": 44644,
+      "mon_atk_min": 2450,
+      "mon_atk_max": 4370,
+      "mon_def": 2135,
+      "mon_mdef": 2384,
+      "mon_hit": 202,
+      "mon_dodge": 200,
+      "mon_exp": 7869,
+      "player_hp_no_gear": 23024,
+      "target_hit_min": 1151,
+      "target_hit_max": 2302
+    },
+    {
+      "level": 250,
+      "monsters": 57,
+      "mon_hp": 60607,
+      "mon_atk_min": 3753,
+      "mon_atk_max": 6687,
+      "mon_def": 2654,
+      "mon_mdef": 2824,
+      "mon_hit": 253,
+      "mon_dodge": 246,
+      "mon_exp": 8888,
+      "player_hp_no_gear": 30598,
+      "target_hit_min": 1530,
+      "target_hit_max": 3060
+    },
+    {
+      "level": 280,
+      "monsters": 97,
+      "mon_hp": 80069,
+      "mon_atk_min": 3932,
+      "mon_atk_max": 6799,
+      "mon_def": 2903,
+      "mon_mdef": 2862,
+      "mon_hit": 284,
+      "mon_dodge": 280,
+      "mon_exp": 10840,
+      "player_hp_no_gear": 35689,
+      "target_hit_min": 1784,
+      "target_hit_max": 3569
+    }
+  ],
+  "melia_notes": {
+    "monster_stats": "Fixos por monstro em system/db/monsters.txt; não há multiplicador global.",
+    "elite": "rare_monsters.conf: elite_hpsp_rate 150, elite_stat_rate 150",
+    "jobs_conf": "job_max_rank: 4 precisa virar 7"
+  }
+}

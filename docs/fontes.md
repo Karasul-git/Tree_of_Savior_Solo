@@ -948,3 +948,148 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F112 · Templar · comparação oficial atual
 
 [Templar · comparação oficial atual](https://treeofsavior.com/page/class/view.php?c=Templar) — IMC Games, sem revisão datada; consulta em 15/11/2026. Referência atual de comandos, bandeiras e ataques; inclui também invocação de defensor ancestral, que não foi selecionada para reaproveitamento. **Limite:** Página sem data de revisão. Não comprova o kit de lançamento ou uma adaptação já implementada. A seleção de habilidades é uma proposta separada; números e círculos não foram importados.
+
+<a id="f113"></a>
+### F113 · Guia oficial · Developing Your Character
+
+[Just getting started? : Developing Your Character](https://treeofsavior.com/page/guide/view.php?n=10) — IMC Games, sem data visível; consulta em 15/11/2026. Pontos de atributo bônus vêm de missões ou das estátuas da deusa Zemyna. **Limite:** não comprova quantidades nem o comportamento exato em março–abril de 2016; não trata de teletransporte ou salvamento.
+
+<a id="f114"></a>
+### F114 · Evento de novos jogadores · Klaipeda Warp Scroll
+
+[First-Time Player Event: Recruiting New Saviors!](https://treeofsavior.com/news/?n=913) — IMC Games, 04/04/2017; consulta em 15/11/2026. Lista o pergaminho que teletransporta diretamente para Klaipeda como recompensa de nível 10. **Limite:** posterior ao recorte; não comprova disponibilidade, preço ou vendedores em 2016.
+
+<a id="f115"></a>
+### F115 · 4Gamer · evento de carimbos nas estátuas
+
+[Artigo da 4Gamer.net](https://www.4gamer.net/games/132/G013290/20161012104/) — 12/10/2016; consulta em 15/11/2026. O evento japonês dispensava a taxa de teletransporte das estátuas, indicando que o uso normal era cobrado. **Limite:** servidor japonês, fora do recorte iToS; leitura indireta, sem valor da taxa.
+
+<a id="f116"></a>
+### F116 · Fórum oficial · Information on Team Level
+
+[Fórum oficial · Information on Team Level](https://forum.treeofsavior.com/t/information-on-team-level/211131) — Rulke e respostas de jogadores, 22/04/2016; consulta em 15/11/2026. Jogadores relatam em abril de 2016 que o nível de equipe depende do nível dos personagens e companheiros (soma de nível²) e que vagas podiam ser compradas com TP. **Limite:** Relatos de jogadores, sem confirmação oficial; a fórmula e a compra de vagas não foram testadas nesta wiki. Benefícios não são descritos.
+
+<a id="f117"></a>
+### F117 · Fórum oficial · Benefits of Alts
+
+[Fórum oficial · Benefits of Alts](https://forum.treeofsavior.com/t/benefits-of-alts/168605) — PioPico e respostas de jogadores, 01/04/2016; consulta em 15/11/2026. Resposta de 01/04/2016 cita notas de atualização: a partir do nível 2, +1% de experiência por nível do barracão, inclusive para companheiros; máximo 50 e até 49%. **Limite:** Citação de notas de atualização feita por jogador; a nota original não foi conferida. Diverge do guia oficial atual (F123).
+
+<a id="f118"></a>
+### F118 · Steam · Group exp
+
+[Steam · Group exp](https://steamcommunity.com/app/372000/discussions/0/365163537817130767) — Zamperini e respostas de jogadores, 30/03/2016; consulta em 15/11/2026. Resposta de 31/03/2016 lista as opções do menu de grupo: receber separadamente, distribuição igual e escala por nível. **Limite:** Transcrição de jogador do menu do cliente; não descreve fórmulas.
+
+<a id="f119"></a>
+### F119 · Steam · Level range for exp sharing in parties
+
+[Steam · Level range for exp sharing in parties](https://steamcommunity.com/app/372000/discussions/0/357286033301726433/) — Mållgan e respostas de jogadores, 11/05/2016; consulta em 15/11/2026. Jogadores divergem em maio de 2016: uma resposta cita faixa de 12 níveis; outra diz que não há faixa máxima e que há penalidade contra monstros a mais de 5 níveis. **Limite:** Respostas contraditórias e sem fonte oficial; não usar como regra.
+
+<a id="f120"></a>
+### F120 · Steam · Char slots = companions slots
+
+[Steam · Char slots = companions slots](https://steamcommunity.com/app/372000/discussions/0/357286532028675046/) — LIyahLIweth e respostas de jogadores, 16/05/2016; consulta em 15/11/2026. Em maio de 2016, jogadores confirmam que cada companheiro ocupa uma vaga de personagem; algumas respostas dizem que não era possível comprar vagas. **Limite:** Relatos de jogadores; a impossibilidade de compra contradiz F116 e não foi confirmada.
+
+<a id="f121"></a>
+### F121 · Fórum oficial · +10% EXP for each party member
+
+[Fórum oficial · +10% EXP for each party member](https://forum.treeofsavior.com/t/can-we-have-10-exp-for-each-party-member-or-5/38664) — SheepPoop e respostas de jogadores, 22/08/2015; consulta em 15/11/2026. Resposta de 23/08/2015: "currently 5 is the max number of party members". **Limite:** Beta fechado de 2015, antes do recorte; afirmação de jogador. Não comprova o limite em março–abril de 2016.
+
+<a id="f122"></a>
+### F122 · Guia oficial · Create a Team/Character
+
+[Guia oficial · Create a Team/Character](https://treeofsavior.com/page/guide/view.php?n=5) — IMC Games, sem data visível; consulta em 15/11/2026. Quatro personagens por padrão; companheiros também ocupam vagas; nova vaga por 33 TP; barracão com até 40 personagens/companheiros. **Limite:** Página sem data; não comprova os valores de 2016.
+
+<a id="f123"></a>
+### F123 · Guia oficial · Lodge and Team Level
+
+[Guia oficial · Lodge and Team Level](https://treeofsavior.com/page/guide/view.php?n=7) — IMC Games, sem data visível; consulta em 15/11/2026. Nível de equipe vem dos personagens do barracão; +1% de experiência por nível a partir do 2, máximo 100; um companheiro por personagem (Falconer pode levar dois em certas condições). **Limite:** Página sem data e sujeita a atualizações; diverge do máximo 50 citado em 2016 (F117).
+
+<a id="f124"></a>
+### F124 · Melia · repositório do emulador de servidor
+
+[NoCode-NoLife/melia, commit 67e93ee](https://github.com/NoCode-NoLife/melia/tree/67e93eeff654cc5c3adef3ad6854fb0ddba85b61) — último commit inspecionado de 19/05/2026; consulta em 15/11/2026. Servidor em C# (.NET 8+) com MySQL/MariaDB, licença GPL-3.0, compatível com o cliente internacional atual da Steam; dados de classes, chaves de recursos por época e suporte a círculos. **Limite:** o projeto ainda não se considera plenamente jogável; inspeção só de leitura, sem execução; os dados seguem o jogo posterior ao Re:Build.
+
+<a id="f125"></a>
+### F125 · Melia · discussão #167
+
+[Anyone interested in continuing this project?](https://github.com/NoCode-NoLife/melia/discussions/167) — aberta em 27/08/2021, encerrada em 17/05/2023; consulta em 15/11/2026. O mantenedor recomenda o cliente mais recente, porque um cliente antigo perde a captura de pacotes, e descreve como apontar o cliente para um servidor próprio. **Limite:** detalhes técnicos podem ter mudado.
+
+<a id="f126"></a>
+### F126 · Mein-MMO · primeiros jogadores no nível máximo
+
+[Mein-MMO · primeiros jogadores no nível máximo](https://mein-mmo.de/en/tree-of-savior-erste-spieler-maximalstufe,74908) — Cortyn (Mein-MMO), 19/04/2016; consulta em 15/11/2026. Em 19/04/2016, durante o acesso antecipado, a reportagem trata 280 como nível máximo de personagem e relata jogadores que o alcançaram em cerca de três semanas. **Limite:** Imprensa, não comunicado oficial; cita outro site como fonte. Não descreve a curva de experiência.
+
+<a id="f127"></a>
+### F127 · Fórum oficial · Heya all, I have some questions!
+
+[Fórum oficial · Heya all, I have some questions!](https://forum.treeofsavior.com/t/heya-all-i-have-some-questions/152841) — chri87 e respostas de jogadores, 20/03/2016; consulta em 15/11/2026. Resposta de jogador antes do lançamento: classes até o rank 7 e nível máximo 280 no acesso antecipado e no lançamento, como limite provisório. **Limite:** Expectativa de jogador antes da abertura; confirmar com F126.
+
+<a id="f128"></a>
+### F128 · Fórum oficial · guia de classes, ranks e habilidades (beta)
+
+[Fórum oficial · guia de classes, ranks e habilidades (beta)](https://forum.treeofsavior.com/t/any-newbiess-guide-about-classes-rank-and-skills/11881) — Antarex e respostas de jogadores, 29/07/2015; consulta em 15/11/2026. Jogadores do beta de 2015 dizem que o nível de classe vai até 15 por rank e que cada nível de classe dá 1 ponto de habilidade. **Limite:** Beta fechado de 2015, antes do recorte; relatos de jogadores. O limite de nível citado (200) era o do beta.
+
+<a id="f129"></a>
+### F129 · Fórum oficial · How many Stat Points per Level?
+
+[Fórum oficial · How many Stat Points per Level?](https://forum.treeofsavior.com/t/how-many-stat-points-per-level--/40663) — montiblanc e respostas de jogadores, 17/09/2015; consulta em 15/11/2026. Jogadores do beta dizem: 1 ponto de atributo por nível, ponto extra em intervalos de investimento, 1 ponto por missão secundária de revelação, cerca de 18 pela história principal e cerca de 6 pelas estátuas. **Limite:** Beta de 2015, relatos sem fonte oficial; os intervalos de bônus não são detalhados.
+
+<a id="f130"></a>
+### F130 · Fórum oficial · Bonus stat points distribution
+
+[Fórum oficial · Bonus stat points distribution](https://forum.treeofsavior.com/t/guide-bonus-stat-points-distribution-updated-8-28-15/35417) — Dynemanti e respostas de jogadores, 28/08/2015; consulta em 15/11/2026. Regra extraída de dados por jogadores: +1 ponto a cada 5 investidos até 50, a cada 4 até 150, a cada 3 até 300, a cada 2 até 500 e 2 por ponto acima disso. **Limite:** Beta de 2015; a própria discussão diverge sobre contar ou não os atributos iniciais da classe. Não comprova o valor em março–abril de 2016.
+
+<a id="f131"></a>
+### F131 · Fórum oficial · What do you spend your silver on?
+
+[Fórum oficial · What do you spend your silver on?](https://forum.treeofsavior.com/t/what-do-you-spend-your-silver-on/183055) — whiningwillow e respostas de jogadores, 08/04/2016; consulta em 16/11/2026. Jogadores relatam em abril de 2016 gastos com poções (10 a 15 mil; 5 a 10 mil por masmorra), reparos (4 a 7 mil a cada 2 horas), atributos (8 a 20 mil a cada 2 ou 3 horas), pergaminhos de teletransporte e consumíveis de classe; um jogador diz ganhar ~200 mil de silver por hora caçando e cita poções de Alchemist vendidas no mercado por 1.200 a 1.500. **Limite:** Relatos de jogadores, só a primeira página foi lida; valores variam muito por jogador e build.
+
+<a id="f132"></a>
+### F132 · Fórum oficial · Looking at the economy
+
+[Fórum oficial · Looking at the economy](https://forum.treeofsavior.com/t/looking-at-the-economy/126628) — s_saini89 e respostas de jogadores, 06/01/2016; consulta em 16/11/2026. Jogadores apontam monstros como a maior fonte de silver; atributos e reparos como drenos; magos e arqueiros gastando muito em poções, enquanto espadachins e clérigos quase não gastavam ao subir de nível. **Limite:** Discussão de janeiro de 2016, antes do lançamento internacional; muitas falas são propostas, não regras do jogo.
+
+<a id="f133"></a>
+### F133 · Steam · How much silver do you put into attributes?
+
+[Steam · How much silver do you put into attributes?](https://steamcommunity.com/app/372000/discussions/0/365163686053868992/) — Izzy e respostas de jogadores, 04/04/2016; consulta em 16/11/2026. Em abril de 2016, jogadores citam ~15 mil de silver por ponto de atributo perto do nível 25 e atributos de dano com 100 níveis e custo muito alto. **Limite:** Relatos de jogadores; não há tabela oficial de custos.
+
+<a id="f134"></a>
+### F134 · Fórum oficial · [Guide] Alchemy for Beginners
+
+[Fórum oficial · [Guide] Alchemy for Beginners](https://forum.treeofsavior.com/t/guide-alchemy-for-beginners/419774) — emiliothalles, 09/07/2021; consulta em 16/11/2026. Tincturing faz a maioria das receitas do Alchemist; o nível do item é o nível da habilidade (até 15); cada receita de poção condensada rende 5 unidades (HP: frasco, Valerijonas e Dilgele; SP: frasco, Varnalesa e Uosis); algumas ervas vêm de NPC e outras só de monstros e mapas; custo médio de ~47,6 silver por poção de HP. **Limite:** Guia de 2021, muito posterior ao recorte; receitas e preços podem ter mudado desde 2016.
+
+<a id="f135"></a>
+### F135 · Blog tievegold · TOS Rest Mode
+
+[Blog tievegold · TOS Rest Mode](https://tievegold.blogspot.com/2016/06/tos-rest-mode.html) — tievegold, 24/06/2016; consulta em 16/11/2026. O modo de descanso (tecla Insert) faz o personagem sentar e recuperar HP, SP e stamina mais rápido; sentado, é possível montar uma fogueira, que melhora ainda mais a recuperação e exige um reagente. **Limite:** Blog de jogador, junho de 2016, fora da janela de março–abril; não traz números.
+
+<a id="f136"></a>
+### F136 · Fórum oficial · SP Recovery system
+
+[Fórum oficial · SP Recovery system](https://forum.treeofsavior.com/t/sp-recovery-system/98432) — dl9vati e respostas de jogadores, 03/11/2015; consulta em 16/11/2026. Jogadores do beta descrevem a regeneração fora de combate a cada 20 segundos e o hábito de sentar e levantar a cada 10 a 20 segundos para recuperar HP e SP. **Limite:** Beta de 2015; relatos de jogadores.
+
+<a id="f137"></a>
+### F137 · Fórum oficial · A question for all the non-cleric classes
+
+[Fórum oficial · A question for all the non-cleric classes](https://forum.treeofsavior.com/t/a-question-for-all-the-non-cleric-classes/119184) — Raviel e respostas de jogadores, 19/11/2015; consulta em 16/11/2026. Jogadores dizem que as melhores poções da primeira cidade curavam só 5% a 10% do HP; que todas as classes precisavam sentar para recuperar HP; que lenha barata acelerava a recuperação; e que CON e SPR aumentavam a regeneração. **Limite:** Beta de 2015; relatos de jogadores.
+
+<a id="f138"></a>
+### F138 · Fórum oficial · Pots cooldown timer
+
+[Fórum oficial · Pots cooldown timer](https://forum.treeofsavior.com/t/pots-cooldown-timer/121788) — jr111 e respostas de jogadores, 26/11/2015; consulta em 16/11/2026. Jogadores citam recarga de 30 segundos nas poções, cura proporcional e escalando com CON e SPR; uma poção concentrada de nível 5 recuperava ~40% do HP de um personagem com muito CON. **Limite:** Beta de 2015; relatos de jogadores; não diz se a cura era instantânea ou ao longo do tempo.
+
+<a id="f139"></a>
+### F139 · Fórum oficial · % HP potion restoration
+
+[Fórum oficial · % HP potion restoration](https://forum.treeofsavior.com/t/hp-potion-restoration/183128) — Kenshiki e respostas de jogadores, 08/04/2016; consulta em 16/11/2026. Em abril de 2016, jogadores discutem que fogueiras e poções de Alchemist bastavam, e que parar para a fogueira acrescentava ~10 minutos a uma masmorra. **Limite:** Relatos de jogadores; a poção de 20% com recarga de 2 minutos é uma sugestão, não um item existente.
+
+<a id="f140"></a>
+### F140 · Tradução oficial em inglês · textos de missões (abril de 2016)
+
+[Treeofsavior/EnglishTranslation, commit 392ef21](https://github.com/Treeofsavior/EnglishTranslation/tree/392ef21adf4fc2edb5267c323265000539991899/EnglishTranslation-master) — IMC Games, 15/04/2016; consulta em 16/11/2026. Textos de missões e diálogos com a história do lançamento: Medzio Diena, Árvore Divina, deusas, Revelators, rei Zachariel, Giltine e os demônios. **Limite:** textos soltos, sem ordem de missão; podem incluir conteúdo inacessível no lançamento; a tradução tem erros. O resumo é editorial.
+
+<a id="f141"></a>
+### F141 · tos.guru · base de monstros (iToS)
+
+[tos.guru, página de Gesti](https://tos.guru/itos/database/monsters/57055/) — base de fãs, sem data; consulta em 16/11/2026. Página e retrato de 80×80 de cada monstro, usados para classificar os chefes demônios. **Limite:** dados do jogo atual; o retrato pode diferir do modelo 3D e da versão de 2016; as imagens não foram adicionadas ao acervo.

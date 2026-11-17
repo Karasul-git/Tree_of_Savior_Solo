@@ -1,0 +1,222 @@
+{
+  "reviewed_at": "2026-11-15",
+  "source_id": "F124",
+  "method": "Habilidades das 39 classes solo nos dados do Melia (skilltree.txt e skills.txt) com classType ou attackType Magic, mais habilidades de 2016 do catálogo que ainda constam em skills.txt.",
+  "melia_class_types_in_solo_trees": {
+    "Melee": 181,
+    "Missile": 50,
+    "Magic": 16,
+    "Responsive": 8,
+    "None": 5
+  },
+  "skills": [
+    {
+      "class_id": "monk",
+      "skill": "Iron Skin",
+      "origin": "2016 e posterior",
+      "category": "Apoio e defesa",
+      "function": "Reflete ataques físicos com o corpo endurecido.",
+      "melia_type": "Magic · Melee"
+    },
+    {
+      "class_id": "paladin",
+      "skill": "Restoration",
+      "origin": "2016 e posterior",
+      "category": "Cura",
+      "function": "Aura que melhora a recuperação de HP próxima.",
+      "melia_type": "Magic · Holy"
+    },
+    {
+      "class_id": "paladin",
+      "skill": "Resist Elements",
+      "origin": "Só 2016",
+      "category": "Apoio e defesa",
+      "function": "Reforça resistências elementais.",
+      "melia_type": "Magic · Holy"
+    },
+    {
+      "class_id": "paladin",
+      "skill": "Turn Undead",
+      "origin": "Só 2016",
+      "category": "Dano (execução)",
+      "function": "Pode derrotar na hora demônios e mutantes.",
+      "melia_type": "Magic · Holy"
+    },
+    {
+      "class_id": "paladin",
+      "skill": "Conversion",
+      "origin": "Só 2016",
+      "category": "Controle",
+      "function": "Círculo com chance de converter inimigos.",
+      "melia_type": "Magic · Holy"
+    },
+    {
+      "class_id": "paladin",
+      "skill": "Barrier",
+      "origin": "2016 e posterior",
+      "category": "Apoio e defesa",
+      "function": "Barreira que afasta inimigos e protege aliados.",
+      "melia_type": "Magic · Holy"
+    },
+    {
+      "class_id": "paladin",
+      "skill": "Stone Skin",
+      "origin": "Posterior",
+      "category": "Apoio e defesa",
+      "function": "Habilidade defensiva do kit atual.",
+      "melia_type": "Magic · Holy"
+    },
+    {
+      "class_id": "paladin",
+      "skill": "Sanctuary",
+      "origin": "Posterior",
+      "category": "Apoio e defesa",
+      "function": "Área de proteção do kit atual.",
+      "melia_type": "Magic · Holy"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Combustion",
+      "origin": "2016 e posterior",
+      "category": "Dano",
+      "function": "Explode itens no chão para atingir inimigos.",
+      "melia_type": "Magic, ataque mágico · Fire"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Alchemistic Missile",
+      "origin": "Posterior",
+      "category": "Dano",
+      "function": "Projétil de energia do kit atual.",
+      "melia_type": "Magic, ataque mágico · Soul"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Sprinkle HP Potion",
+      "origin": "Posterior",
+      "category": "Cura",
+      "function": "Aplica poção de HP em si e no grupo.",
+      "melia_type": "Magic, ataque mágico"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Sprinkle SP Potion",
+      "origin": "Posterior",
+      "category": "Cura",
+      "function": "Aplica poção de SP em si e no grupo.",
+      "melia_type": "Magic, ataque mágico"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Dig",
+      "origin": "2016 e posterior",
+      "category": "Fabricação e serviço",
+      "function": "Escava materiais.",
+      "melia_type": "Ataque mágico"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Item Awakening",
+      "origin": "2016 e posterior",
+      "category": "Fabricação e serviço",
+      "function": "Revela propriedade oculta de item.",
+      "melia_type": "Ataque mágico"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Briquetting",
+      "origin": "Só 2016",
+      "category": "Fabricação e serviço",
+      "function": "Combina itens para alterar propriedades.",
+      "melia_type": "Ataque mágico"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Tincturing",
+      "origin": "2016 e posterior",
+      "category": "Fabricação e serviço",
+      "function": "Produz poções a partir de ervas.",
+      "melia_type": "Ataque mágico"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Magnum Opus",
+      "origin": "2016 e posterior",
+      "category": "Fabricação e serviço",
+      "function": "Combina materiais para criar itens.",
+      "melia_type": "Ataque mágico"
+    },
+    {
+      "class_id": "alchemist",
+      "skill": "Gem Roasting",
+      "origin": "2016 e posterior",
+      "category": "Fabricação e serviço",
+      "function": "Serviço que reduz penalidades de gemas.",
+      "melia_type": "Ataque mágico"
+    },
+    {
+      "class_id": "plague-doctor",
+      "skill": "Healing Factor",
+      "origin": "2016 e posterior",
+      "category": "Cura",
+      "function": "Recuperação rápida de HP após sofrer dano.",
+      "melia_type": "Magic, ataque mágico · Holy"
+    },
+    {
+      "class_id": "plague-doctor",
+      "skill": "Incineration",
+      "origin": "2016 e posterior",
+      "category": "Dano",
+      "function": "Queima alvos com estados negativos.",
+      "melia_type": "Magic, ataque mágico · Fire"
+    },
+    {
+      "class_id": "plague-doctor",
+      "skill": "Black Death Steam",
+      "origin": "Posterior",
+      "category": "Dano",
+      "function": "Vapor venenoso do kit atual.",
+      "melia_type": "Magic, ataque mágico · Poison"
+    },
+    {
+      "class_id": "plague-doctor",
+      "skill": "Bloodletting",
+      "origin": "Só 2016",
+      "category": "Apoio e defesa",
+      "function": "Protege contra estados negativos por sangria.",
+      "melia_type": "Magic, ataque mágico · Holy"
+    },
+    {
+      "class_id": "plague-doctor",
+      "skill": "Fumigate",
+      "origin": "2016 e posterior",
+      "category": "Apoio e defesa",
+      "function": "Nuvem de antídoto que remove estados negativos.",
+      "melia_type": "Magic, ataque mágico · Holy"
+    },
+    {
+      "class_id": "plague-doctor",
+      "skill": "Beak Mask",
+      "origin": "2016 e posterior",
+      "category": "Apoio e defesa",
+      "function": "Máscara que protege contra estados negativos.",
+      "melia_type": "Magic, ataque mágico · Poison"
+    },
+    {
+      "class_id": "plague-doctor",
+      "skill": "Modafinil",
+      "origin": "Posterior",
+      "category": "Apoio e defesa",
+      "function": "Estimulante do kit atual.",
+      "melia_type": "Magic, ataque mágico"
+    },
+    {
+      "class_id": "plague-doctor",
+      "skill": "Pandemic",
+      "origin": "2016 e posterior",
+      "category": "Controle",
+      "function": "Espalha estados negativos do alvo para outros inimigos.",
+      "melia_type": "Magic, ataque mágico · Holy"
+    }
+  ]
+}

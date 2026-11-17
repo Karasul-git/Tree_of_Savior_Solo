@@ -1,0 +1,60 @@
+# História sem deusas e sem demônios
+
+[História e mundo no lançamento](../historia/historia-e-mundo.md) · [Remoção das deusas](remocao-das-deusas.md) · [Diretrizes](diretrizes.md)
+
+**Direção do proprietário, 16/11/2026.** A história do projeto deixa de lado o sobrenatural. Esta página separa o que o proprietário decidiu das **propostas** para discussão. A história original de 2016 continua preservada no acervo.
+
+## Decisões do proprietário
+
+| Tema | Decisão |
+| --- | --- |
+| Demônios | **Não existem.** Os inimigos passam a ser **humanos, mutantes** e criaturas transformadas, conforme os sprites disponíveis. "Se os animais mutaram, quanto mais os humanos." |
+| Conflito | Um **reino rival** luta, invade e causa destruição. |
+| A Árvore | Deixa de ser Deus. Vira um **fenômeno sem explicação**: uma árvore colossal cresceu e desorganizou tudo. |
+| Deusas | Trocadas por **pessoas da nobreza**: princesas, rainhas e senhoras, conforme cada papel pedir. As estátuas saem de qualquer forma. |
+| Rainha rival | **Giltine** passa a ser a rainha do reino rival (16/11/2026). |
+| Revelações | Viram **registros**, com uma **guardiã dos registros** no papel de Laima (16/11/2026). |
+| Protetoras das regiões | **Mistura de nobres** (princesas, rainhas, senhoras), conforme o necessário (16/11/2026). |
+
+## O que o jogo já oferece
+
+- **Raças de monstros.** Os dados do Melia classificam os monstros em cinco grupos: bestas (Widling, ~3.570), **demônios** (Velnias, ~1.390), plantas (Forester, ~820), **mutantes** (Paramune, ~730) e insetos (Klaida, ~300). A raça "mutante" já existe; a dos demônios precisa ser reinterpretada como mutantes ou humanos transformados. [F124](../fontes.md#f124)
+- **Cristais de raiz da Árvore.** Os textos de 2016 já citam cristais que surgiram depois do Medzio Diena e que o jogador quebra para recuperar stamina. São um elo natural entre a Árvore e as mutações. [F140](../fontes.md#f140)
+- **Habilidades contra mutantes.** Smite, de Paladin, já é favorecida contra "demônios e mutantes" (ficha de 2016).
+
+## Propostas para discussão
+
+| Papel original | Proposta | Por quê |
+| --- | --- | --- |
+| Árvore Divina | Fenômeno sem explicação; sua seiva, raízes e cristais **causam as mutações**. | Liga a catástrofe aos monstros com uma só causa e mantém o mistério. |
+| Gesti, Kartas e senhores demônios | **Generais e campeões** do reino rival, alguns **mutados** pelos cristais. | Reaproveita nomes e sprites de chefes humanoides. |
+| Laima | **Guardiã dos registros**, refém da rainha rival. | Os registros espalhados pelo reino substituem as revelações e mantêm a busca. |
+| Deusas das regiões (Zemyna, Saule, Gabija, Austeja, Jurate, Ausrine, Vakarine, Lada) | **Nobres das regiões**, desaparecidas ou sitiadas desde o Medzio Diena; a posição de cada uma (princesa, rainha, senhora) fica para a escrita. | O jogo já tem o modelo: Orsha governada pela filha sobrevivente do senhor da cidade. |
+| Revelator / Savior | Agente da coroa encarregado de reunir os registros e encontrar as princesas. | Mantém a estrutura de missões. |
+| Pacto entre deusas e demônios | **Tratado de paz** entre os dois reinos, rompido no caos do Medzio Diena. | Explica a invasão. |
+
+## Rascunho de premissa (proposta)
+
+Há séculos, o Grande Rei Zachariel uniu as regiões num só reino e firmou um tratado de paz com o reino vizinho. Ele também mandou guardar **registros** sobre um fenômeno antigo, confiados a uma linhagem de guardiãs. O maior deles foi selado no seu Mausoléu.
+
+Então veio o **Medzio Diena**. Uma árvore colossal rompeu o chão no meio da capital e a destruiu. Suas raízes partiram muralhas, envenenaram rios e espalharam cristais por todo o reino. Animais, plantas e até pessoas começaram a **mutar**. A família real e as nobres que protegiam as regiões desapareceram, morreram ou ficaram isoladas.
+
+Aproveitando o caos, **Giltine**, rainha do reino vizinho, rompeu o tratado e invadiu. Seus generais usam os cristais da Árvore como arma, e alguns já não são inteiramente humanos. Giltine mantém refém **Laima, a guardiã dos registros**, porque quer o que eles escondem.
+
+O jogador é um agente da coroa, ainda chamado de Revelator, enviado para **reunir os registros, encontrar as nobres desaparecidas** e descobrir o que é a Árvore, antes que Giltine descubra primeiro.
+
+## Pontos de atenção
+
+- **Sprites muito sobrenaturais.** Chefes com asas, chifres ou aparência demoníaca precisam ser lidos como mutação estilizada ou ficar de fora, seguindo o critério de combate estilizado já aprovado.
+- **Três ameaças precisam se ligar:** Árvore, mutantes e reino rival. A proposta é o reino rival explorar os cristais e as mutações a seu favor.
+- **Classes com tema sagrado** (Paladin, Monk): passam a ser fé, juramento e treino, na linha da revisão temática.
+
+## Pendências
+
+- Definir a posição de cada nobre (princesa, rainha, senhora) ao escrever cada região.
+- Revisar o rascunho de premissa.
+- Inventariar os chefes demônios e os sprites que podem virar humanos ou mutantes.
+
+O inventário dos chefes está em [Chefes da história](chefes-da-historia.md).
+
+**Próximo passo recomendado:** revisar o rascunho de premissa e conferir os sprites dos chefes.

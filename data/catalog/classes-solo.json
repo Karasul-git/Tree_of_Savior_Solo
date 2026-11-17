@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-11-15",
-  "status": "provisional-distribution",
+  "status": "ratified-tree",
   "bases": [
     {
       "id": "warrior",
@@ -10,55 +10,55 @@
       "classes": [
         {
           "class_id": "highlander",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 2,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "peltasta",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 2,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "barbarian",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 3,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "hoplite",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 3,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "cataphract",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 4,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "rodelero",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 4,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "doppelsoeldner",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 6,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "fencer",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 6,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "dragoon",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 7,
           "rank_status": "historical-reference"
         },
@@ -70,13 +70,13 @@
         },
         {
           "class_id": "paladin",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 5,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         },
         {
           "class_id": "monk",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 5,
           "rank_status": "historical-reference"
         }
@@ -90,75 +90,75 @@
       "classes": [
         {
           "class_id": "quarrel-shooter",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 2,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "ranger",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 2,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "hunter",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 3,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "sapper",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 3,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "wugushi",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 4,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "fletcher",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 5,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "falconer",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 6,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "cannoneer",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 7,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "musketeer",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 7,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "appraiser",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 4,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         },
         {
           "class_id": "mergen",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 6,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         },
         {
           "class_id": "arbalester",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 5,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         }
       ]
     },
@@ -170,31 +170,31 @@
       "classes": [
         {
           "class_id": "rogue",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 4,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         },
         {
           "class_id": "schwarzer-reiter",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 6,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "corsair",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 5,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "squire",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 5,
           "rank_status": "historical-reference"
         },
         {
           "class_id": "shinobi",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 7,
           "rank_status": "historical-reference"
         },
@@ -212,33 +212,33 @@
         },
         {
           "class_id": "assassin",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 2,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         },
         {
           "class_id": "outlaw",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 3,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         },
         {
           "class_id": "ardito",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 4,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         },
         {
           "class_id": "sheriff",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 3,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         },
         {
           "class_id": "clown",
-          "placement_status": "proposed",
+          "placement_status": "defined",
           "solo_rank": 2,
-          "rank_status": "proposed"
+          "rank_status": "solo-defined"
         }
       ]
     }
@@ -249,5 +249,7 @@
   ],
   "pending_class_ids": [],
   "notes": "Proposta de duas especializações por rank de R2 a R7 em cada base. As seis classes escolhidas para estudo e Paladin R5 têm ranks propostos; sem alteração do catálogo histórico. Círculos das seis candidatas estão em data/proposals/six-classes-solo.json e não são habilidades implementadas no jogo.",
-  "options_per_rank": 2
+  "options_per_rank": 2,
+  "ratified_at": "2026-11-15",
+  "ratification_note": "As 36 posições foram ratificadas pelo proprietário em 15/11/2026, base por base. Habilidades, círculos das classes posteriores e números continuam em estudo."
 }

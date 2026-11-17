@@ -12,11 +12,15 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 
 **Scout será classe base da versão solo**, aproveitando a separação posterior das árvores. O [estudo de suporte e cura sem magia](docs/projeto-solo/scout-e-suporte-sem-magia.md) avalia classes físicas e adaptações por itens, alquimia e medicina de campo.
 
+**Com bots, sem deusas:** o jogo terá grupos de 4: o jogador e até 3 bots aliados (do barracão ou do servidor), controlados por posturas e ordens simples, e amigos opcionais ([modelo de grupo](docs/projeto-solo/companheiros-e-bots.md)). As deusas sairão da adaptação, e as estátuas darão lugar a outro transporte ([inventário](docs/projeto-solo/remocao-das-deusas.md)).
+
+**Kit base de Scout (ratificado):** cinco habilidades oficiais posteriores de adaga, pistola e esquiva em C1, mais Camouflage, Perspective Distortion e Scan de 2016; as três de arco ficam no acervo. [Comparação e opções](docs/projeto-solo/scout-kit-base.md).
+
 **Seleção solo atual:** Alchemist e Plague Doctor entram em Scout; Linker e Thaumaturge ficam removidos. Templar permanece no ramo de Swordsman, para o qual **Warrior** é o nome provisório sugerido. [Decisões e pendências](docs/projeto-solo/diretrizes.md).
 
 ## Explore as árvores de classes
 
-**[Abrir árvores do projeto solo](docs/classes/catalogo-2016.md)** — escolha Warrior (nome provisório), Archer ou Scout e veja suas especializações logo abaixo. A proposta tem 12 especializações em cada base organizadas por rank, com posições e ranks propostos identificados. A revisão propõe dois caminhos novos por rank, inclui as seis candidatas posteriores escolhidas e move Paladin para R5 solo. [Imagens, habilidades e círculos das seis candidatas](docs/projeto-solo/seis-classes-habilidades-e-circulos.md). [Estudo de cobertura e adaptações](docs/projeto-solo/ranks-e-especializacoes.md). As fichas mantêm o caminho de volta à árvore e seus filtros.
+**[Abrir árvores do projeto solo](docs/classes/catalogo-2016.md)** — escolha Warrior (nome provisório), Archer ou Scout e veja suas especializações logo abaixo. São 12 especializações em cada base, organizadas por rank e ratificadas em 15/11/2026. A revisão propõe dois caminhos novos por rank, inclui as seis candidatas posteriores escolhidas e move Paladin para R5 solo. [Imagens, habilidades e círculos das seis candidatas](docs/projeto-solo/seis-classes-habilidades-e-circulos.md). [Estudo de cobertura e adaptações](docs/projeto-solo/ranks-e-especializacoes.md). As fichas mantêm o caminho de volta à árvore e seus filtros.
 
 **[Consultar o original de 2016](docs/classes/catalogo-2016.md?view=2016)** — quatro bases, 55 classes, 382 habilidades resumidas e 165 imagens originais. A organização histórica continua preservada. [Mapa da proposta solo](data/catalog/classes-solo.json).
 
@@ -30,15 +34,45 @@ Classes, caminhos e pequenas descobertas de uma época em que atravessar o próx
 | Combate próximo | Magia e controle | Ataques à distância | Cura e proteção |
 | [Abrir ficha](docs/classes/swordsman.md) | [Abrir ficha](docs/classes/wizard.md) | [Abrir ficha](docs/classes/archer.md) | [Abrir ficha](docs/classes/cleric.md) |
 
+## Revisão dos chefes
+
+<a id="revisao-chefes"></a>
+
+Na versão navegável, a página inicial traz a revisão dos chefes da história: aprove ou rejeite cada proposta. O [catálogo de chefes](docs/projeto-solo/chefes/README.md) mostra retrato, proposta e textos de 2016 de cada um.
+
 ## Explore a wiki
 
 - [Árvores do projeto solo](docs/classes/catalogo-2016.md)
 - [Acervo original de classes e habilidades](docs/classes/catalogo-2016.md?view=2016)
+- [Índice do projeto](docs/projeto-solo/indice.md)
 - [Diretrizes da versão solo](docs/projeto-solo/diretrizes.md)
+- [Scout · kit base proposto](docs/projeto-solo/scout-kit-base.md)
+- [Resumo do balanceamento](docs/projeto-solo/resumo-do-balanceamento.md)
+- [Estrutura do servidor](docs/projeto-solo/servidor-estrutura.md)
+- [Classes e progressão no servidor](docs/projeto-solo/classes-e-progressao-servidor.md)
+- [Pontos de atributo e de habilidade](docs/projeto-solo/pontos-por-nivel.md)
+- [Habilidades mágicas e o novo INT](docs/projeto-solo/habilidades-magicas-e-int.md)
+- [Fórmulas de dano](docs/projeto-solo/formulas-de-dano.md)
+- [Calibragem dos monstros](docs/projeto-solo/calibragem-monstros.md)
+- [Curva de equipamentos](docs/projeto-solo/curva-de-equipamentos.md)
+- [Comparação das três bases](docs/projeto-solo/comparacao-das-bases.md)
+- [Elites, chefes e masmorras](docs/projeto-solo/chefes-elites-masmorras.md)
+- [Curva de experiência](docs/projeto-solo/curva-de-experiencia.md)
+- [Cura e poções](docs/projeto-solo/cura-e-pocoes.md)
+- [Ciclo de recuperação](docs/projeto-solo/ciclo-de-recuperacao.md)
+- [Economia das poções](docs/projeto-solo/economia-das-pocoes.md)
+- [Companheiros, bots e grupo](docs/projeto-solo/companheiros-e-bots.md)
+- [Remoção das deusas](docs/projeto-solo/remocao-das-deusas.md)
+- [História sem deusas e sem demônios](docs/projeto-solo/historia-sem-deusas.md)
+- [Chefes da história](docs/projeto-solo/chefes-da-historia.md)
 - [Classes: índice da primeira edição](docs/classes/README.md)
 - [Como funcionavam ranks e círculos](docs/sistemas/ranks-e-circulos.md)
+- [Barracão, equipe e grupo no lançamento](docs/sistemas/barracao-e-grupo.md)
+- [Economia no lançamento](docs/sistemas/economia-2016.md)
+- [Recuperação no lançamento](docs/sistemas/recuperacao-2016.md)
 - [Qual lançamento estamos documentando?](docs/recorte-historico.md)
 - [O que mudou do lançamento ao Re:Build?](docs/historia/evolucao-das-classes.md)
+- [História e mundo no lançamento](docs/historia/historia-e-mundo.md)
 - [Fontes e critérios de pesquisa](docs/fontes.md)
 - [Acervo das imagens originais](docs/imagens.md)
 - [Próximas etapas](ROADMAP.md)

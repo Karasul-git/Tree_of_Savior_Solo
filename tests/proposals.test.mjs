@@ -14,7 +14,7 @@ test('os seis pares de cada base ficam completos e o rank histórico de Paladin 
   assert.equal(catalog.classes.find(c => c.id === 'paladin').first_rank, 4);
   const position = solo.bases[0].classes.find(c => c.class_id === 'paladin');
   assert.equal(position.solo_rank, 5);
-  assert.equal(position.rank_status, 'proposed');
+  assert.equal(position.rank_status, 'solo-defined');
   const state = readTreeState('?view=solo&base=archer&rank=5&query=besta', catalog, solo);
   assert.deepEqual(branchEntries(catalog, solo.bases[1], state).map(c => c.id), ['arbalester']);
 });

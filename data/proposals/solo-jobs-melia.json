@@ -1,0 +1,702 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "phase-0-draft",
+  "melia_source_id": "F124",
+  "note": "Tabela de trabalho. Mudar rank ou árvore no servidor pode exigir mudanças nos dados do cliente; nada foi testado.",
+  "rules": {
+    "max_rank": 7,
+    "class_levels_per_rank": 15,
+    "max_circle": 3
+  },
+  "classes": [
+    {
+      "class_id": "swordsman",
+      "solo_base": "warrior",
+      "solo_rank": 1,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 1,
+      "melia": {
+        "jobId": 1001,
+        "className": "Char1_1",
+        "jobClass": "Swordsman",
+        "rank": 1
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "highlander",
+      "solo_base": "warrior",
+      "solo_rank": 2,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 2,
+      "melia": {
+        "jobId": 1002,
+        "className": "Char1_2",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "peltasta",
+      "solo_base": "warrior",
+      "solo_rank": 2,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 2,
+      "melia": {
+        "jobId": 1003,
+        "className": "Char1_3",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "barbarian",
+      "solo_base": "warrior",
+      "solo_rank": 3,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 3,
+      "melia": {
+        "jobId": 1006,
+        "className": "Char1_6",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "hoplite",
+      "solo_base": "warrior",
+      "solo_rank": 3,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 3,
+      "melia": {
+        "jobId": 1004,
+        "className": "Char1_4",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "cataphract",
+      "solo_base": "warrior",
+      "solo_rank": 4,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 4,
+      "melia": {
+        "jobId": 1007,
+        "className": "Char1_7",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "rodelero",
+      "solo_base": "warrior",
+      "solo_rank": 4,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 4,
+      "melia": {
+        "jobId": 1010,
+        "className": "Char1_10",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "monk",
+      "solo_base": "warrior",
+      "solo_rank": 5,
+      "placement_status": "defined",
+      "historical_tree": "Cleric",
+      "historical_first_rank": 5,
+      "melia": {
+        "jobId": 4009,
+        "className": "Char4_9",
+        "jobClass": "Cleric",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank",
+        "tree"
+      ]
+    },
+    {
+      "class_id": "paladin",
+      "solo_base": "warrior",
+      "solo_rank": 5,
+      "placement_status": "defined",
+      "historical_tree": "Cleric",
+      "historical_first_rank": 4,
+      "melia": {
+        "jobId": 4011,
+        "className": "Char4_11",
+        "jobClass": "Cleric",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank",
+        "tree"
+      ]
+    },
+    {
+      "class_id": "doppelsoeldner",
+      "solo_base": "warrior",
+      "solo_rank": 6,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 6,
+      "melia": {
+        "jobId": 1009,
+        "className": "Char1_9",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 2,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "fencer",
+      "solo_base": "warrior",
+      "solo_rank": 6,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 6,
+      "melia": {
+        "jobId": 1014,
+        "className": "Char1_14",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 2,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "dragoon",
+      "solo_base": "warrior",
+      "solo_rank": 7,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 7,
+      "melia": {
+        "jobId": 1015,
+        "className": "Char1_15",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 1,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "templar",
+      "solo_base": "warrior",
+      "solo_rank": 7,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 7,
+      "melia": {
+        "jobId": 1016,
+        "className": "Char1_16",
+        "jobClass": "Swordsman",
+        "rank": 2
+      },
+      "max_circle_at_r7": 1,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "archer",
+      "solo_base": "archer",
+      "solo_rank": 1,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 1,
+      "melia": {
+        "jobId": 3001,
+        "className": "Char3_1",
+        "jobClass": "Archer",
+        "rank": 1
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "quarrel-shooter",
+      "solo_base": "archer",
+      "solo_rank": 2,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 2,
+      "melia": {
+        "jobId": 3003,
+        "className": "Char3_3",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "ranger",
+      "solo_base": "archer",
+      "solo_rank": 2,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 2,
+      "melia": {
+        "jobId": 3004,
+        "className": "Char3_4",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "hunter",
+      "solo_base": "archer",
+      "solo_rank": 3,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 3,
+      "melia": {
+        "jobId": 3002,
+        "className": "Char3_2",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "sapper",
+      "solo_base": "archer",
+      "solo_rank": 3,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 3,
+      "melia": {
+        "jobId": 3005,
+        "className": "Char3_5",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "appraiser",
+      "solo_base": "archer",
+      "solo_rank": 4,
+      "placement_status": "defined",
+      "historical_tree": null,
+      "historical_first_rank": null,
+      "melia": {
+        "jobId": 3013,
+        "className": "Char3_13",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "wugushi",
+      "solo_base": "archer",
+      "solo_rank": 4,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 4,
+      "melia": {
+        "jobId": 3006,
+        "className": "Char3_6",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "arbalester",
+      "solo_base": "archer",
+      "solo_rank": 5,
+      "placement_status": "defined",
+      "historical_tree": null,
+      "historical_first_rank": null,
+      "melia": {
+        "jobId": 3103,
+        "className": "Char3_20",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "fletcher",
+      "solo_base": "archer",
+      "solo_rank": 5,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 5,
+      "melia": {
+        "jobId": 3011,
+        "className": "Char3_11",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "falconer",
+      "solo_base": "archer",
+      "solo_rank": 6,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 6,
+      "melia": {
+        "jobId": 3014,
+        "className": "Char3_14",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 2,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "mergen",
+      "solo_base": "archer",
+      "solo_rank": 6,
+      "placement_status": "defined",
+      "historical_tree": null,
+      "historical_first_rank": null,
+      "melia": {
+        "jobId": 3017,
+        "className": "Char3_17",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 2,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "cannoneer",
+      "solo_base": "archer",
+      "solo_rank": 7,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 7,
+      "melia": {
+        "jobId": 3015,
+        "className": "Char3_15",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 1,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "musketeer",
+      "solo_base": "archer",
+      "solo_rank": 7,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 7,
+      "melia": {
+        "jobId": 3016,
+        "className": "Char3_16",
+        "jobClass": "Archer",
+        "rank": 2
+      },
+      "max_circle_at_r7": 1,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "scout",
+      "solo_base": "scout",
+      "solo_rank": 1,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 4,
+      "melia": {
+        "jobId": 5001,
+        "className": "Char5_1",
+        "jobClass": "Scout",
+        "rank": 1
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "assassin",
+      "solo_base": "scout",
+      "solo_rank": 2,
+      "placement_status": "defined",
+      "historical_tree": null,
+      "historical_first_rank": null,
+      "melia": {
+        "jobId": 5002,
+        "className": "Char5_2",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "clown",
+      "solo_base": "scout",
+      "solo_rank": 2,
+      "placement_status": "defined",
+      "historical_tree": null,
+      "historical_first_rank": null,
+      "melia": {
+        "jobId": 5016,
+        "className": "Char5_16",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": []
+    },
+    {
+      "class_id": "outlaw",
+      "solo_base": "scout",
+      "solo_rank": 3,
+      "placement_status": "defined",
+      "historical_tree": null,
+      "historical_first_rank": null,
+      "melia": {
+        "jobId": 5003,
+        "className": "Char5_3",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "sheriff",
+      "solo_base": "scout",
+      "solo_rank": 3,
+      "placement_status": "defined",
+      "historical_tree": null,
+      "historical_first_rank": null,
+      "melia": {
+        "jobId": 5014,
+        "className": "Char5_14",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "ardito",
+      "solo_base": "scout",
+      "solo_rank": 4,
+      "placement_status": "defined",
+      "historical_tree": null,
+      "historical_first_rank": null,
+      "melia": {
+        "jobId": 5013,
+        "className": "Char5_13",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "rogue",
+      "solo_base": "scout",
+      "solo_rank": 4,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 5,
+      "melia": {
+        "jobId": 5010,
+        "className": "Char5_10",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "corsair",
+      "solo_base": "scout",
+      "solo_rank": 5,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 5,
+      "melia": {
+        "jobId": 5005,
+        "className": "Char5_5",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "squire",
+      "solo_base": "scout",
+      "solo_rank": 5,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 5,
+      "melia": {
+        "jobId": 5004,
+        "className": "Char5_4",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 3,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "alchemist",
+      "solo_base": "scout",
+      "solo_rank": 6,
+      "placement_status": "defined",
+      "historical_tree": "Wizard",
+      "historical_first_rank": 6,
+      "melia": {
+        "jobId": 2005,
+        "className": "Char2_5",
+        "jobClass": "Wizard",
+        "rank": 2
+      },
+      "max_circle_at_r7": 2,
+      "changes_needed": [
+        "rank",
+        "tree"
+      ]
+    },
+    {
+      "class_id": "schwarzer-reiter",
+      "solo_base": "scout",
+      "solo_rank": 6,
+      "placement_status": "defined",
+      "historical_tree": "Archer",
+      "historical_first_rank": 6,
+      "melia": {
+        "jobId": 5011,
+        "className": "Char5_11",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 2,
+      "changes_needed": [
+        "rank"
+      ]
+    },
+    {
+      "class_id": "plague-doctor",
+      "solo_base": "scout",
+      "solo_rank": 7,
+      "placement_status": "defined",
+      "historical_tree": "Cleric",
+      "historical_first_rank": 7,
+      "melia": {
+        "jobId": 4014,
+        "className": "Char4_14",
+        "jobClass": "Cleric",
+        "rank": 2
+      },
+      "max_circle_at_r7": 1,
+      "changes_needed": [
+        "rank",
+        "tree"
+      ]
+    },
+    {
+      "class_id": "shinobi",
+      "solo_base": "scout",
+      "solo_rank": 7,
+      "placement_status": "defined",
+      "historical_tree": "Swordsman",
+      "historical_first_rank": 7,
+      "melia": {
+        "jobId": 5006,
+        "className": "Char5_6",
+        "jobClass": "Scout",
+        "rank": 2
+      },
+      "max_circle_at_r7": 1,
+      "changes_needed": [
+        "rank"
+      ]
+    }
+  ],
+  "tree_ratified_at": "2026-11-15"
+}

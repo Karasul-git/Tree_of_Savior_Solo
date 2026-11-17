@@ -18,6 +18,12 @@ O corte nominal de classes híbridas continua em construção. Monk e Paladin t�
 
 **15/11/2026 — Reaproveitar ao máximo o original.** Classes, habilidades, consumíveis e recursos existentes têm prioridade sobre novos sistemas. A recuperação começa pelas poções do jogo; sua suficiência será avaliada no balanceamento solo. Especialistas de suporte/consumíveis são possibilidades complementares, sem necessidade já estabelecida de criar um novo kit de cura.
 
+**15/11/2026 — Jogo com bots aliados, não solo puro.** O caso principal é um jogador acompanhado de bots aliados controlados pelo servidor, como no projeto anterior do proprietário em Ragnarok. Amigos também poderão jogar juntos. Personagens no mapa controlados pelo servidor, com interação limitada, ficam como expansão futura. Especificação inicial do mesmo dia: bots do barracão e do servidor, grupo de 4 (jogador + até 3 bots), posturas com ordens simples e experiência compartilhada. [Modelo de grupo e efeitos nas classes](companheiros-e-bots.md).
+
+**15/11/2026 — Remoção das deusas.** As deusas sairão da história e do mundo da adaptação. As estátuas de teletransporte e salvamento serão substituídas, com preferência por um sistema de carroças ou outro meio que tenha arte disponível no jogo. A remoção deve repor as funções de jogo das estátuas. [Inventário inicial](remocao-das-deusas.md).
+
+**15/11/2026 — Kit base de Scout ratificado (opção B).** O kit combina as cinco habilidades oficiais posteriores (Dagger Slash, Oblique Fire, Cloaking, Free Step, Double Attack) com Camouflage, Perspective Distortion e Scan de 2016, usando espada de uma mão e adaga ou pistola. As habilidades de arco ficam no acervo. Conferências no cliente e números continuam pendentes. [Comparação e opções](scout-kit-base.md).
+
 ## Seleção solo já definida
 
 | Classe ou ramo | Decisão atual | O que continua aberto |
@@ -42,7 +48,7 @@ A revisão do proprietário definiu a visão solo como entrada principal e autor
 - **Archer:** Quarrel Shooter, Ranger, Hunter, Sapper, Wugushi, Fletcher, Falconer, Cannoneer, Musketeer, Appraiser, Arbalester e Mergen.
 - **Scout:** Rogue, Schwarzer Reiter, Corsair, Squire, Shinobi, Alchemist, Plague Doctor, Assassin, Outlaw, Clown, Sheriff e Ardito.
 
-Templar, Alchemist e Plague Doctor têm **posição definida**. As demais posições são **propostas**, sem aprovação automática de habilidades ou requisitos. A árvore mostra opções da mesma base, sem estabelecer evolução obrigatória entre especializações. Monk e Paladin mantêm suas fichas históricas de Cleric, mesmo com o encaixe proposto em Warrior. Assassin e Outlaw não fazem parte de 2016.
+**15/11/2026 — Árvore ratificada.** O proprietário ratificou as 36 posições de Warrior, Archer e Scout, base por base. A ratificação vale para posição e rank; habilidades adaptadas, círculos das classes posteriores e requisitos continuam em estudo. A árvore mostra opções da mesma base, sem estabelecer evolução obrigatória entre especializações. Monk e Paladin mantêm suas fichas históricas de Cleric, mesmo com o encaixe proposto em Warrior. Assassin e Outlaw não fazem parte de 2016.
 
 [Abrir as árvores solo](../classes/catalogo-2016.md) · [Abrir a visão de 2016](../classes/catalogo-2016.md?view=2016). Agrupamentos temáticos, como escudos, lanças e animais, ficam para outra etapa.
 
@@ -87,4 +93,56 @@ A revisão detalhada já feita para Swordsman permanece preservada. Ela passa a 
 - **Decisão solo:** remoções e mudanças escolhidas para o projeto.
 - **Pendente:** detalhes que dependem de pesquisa ou de definição nominal das classes.
 
-**Próximo passo recomendado:** revisar Energy Blast e os cinco efeitos pendentes de Paladin antes de fechar as adaptações de suporte.
+**15/11/2026 — Grupo de 4 e mudança de foco.** O grupo passa a ter 4 personagens no total (jogador + até 3 bots), o que coincide com as quatro vagas iniciais do barracão. O conceito de bots fica encerrado por ora; o foco passa a balanceamento de fórmulas, classes e progressão.
+
+**15/11/2026 — Estrutura do servidor.** O Melia é a base técnica candidata: servidor aberto em C#, compatível com o cliente atual da Steam, com as 39 classes da seleção nos dados e suporte a círculos no código. Grupo e bots precisarão ser construídos. [Estrutura e fases](servidor-estrutura.md).
+
+**15/11/2026 — Fase 0 iniciada.** A [tabela das 39 classes no formato do Melia](classes-e-progressao-servidor.md) mostra 9 classes sem mudança, 26 com mudança de rank e 4 com mudança de rank e árvore. O esqueleto de progressão propõe R7, 15 níveis de classe por rank, círculos até C3 e nível máximo 280.
+
+**15/11/2026 — Pontos por nível.** O proprietário decidiu ressignificar o INT, manter o bônus por investimento e realocar os pontos extras de história, revelações e estátuas. Proposta: 1 ponto de atributo por nível e 1 ponto de habilidade por nível de classe. [Detalhes](pontos-por-nivel.md).
+
+**15/11/2026 — Habilidades mágicas restantes.** Nos dados do servidor, 26 habilidades de quatro classes usam magia: Monk, Paladin, Alchemist e Plague Doctor. Todo o dano e a cura mágicos que sobram vêm de química e medicina. [Levantamento](habilidades-magicas-e-int.md).
+
+**15/11/2026 — INT definido.** O INT passa a ser a potência de preparados: dano e cura de química, medicina e consumíveis. O alcance deve crescer para outras habilidades mais adiante.
+
+**15/11/2026 — SPR vira Sabedoria.** O atributo SPR (*Spirit*) passa a se chamar Sabedoria no projeto, com a mesma função de recuperação e SP.
+
+**15/11/2026 — Fórmulas de dano.** As fórmulas atuais do Melia estão registradas, com seis propostas. O proprietário decidiu que a cura de preparados escala com INT e que CON soma defesa física e mágica (+2 por ponto como valor inicial). [Fórmulas](formulas-de-dano.md).
+
+**15/11/2026 — Metas dos monstros.** Um monstro comum de campo deve aguentar 1 a 2 habilidades de cada membro do grupo de 4 (revisto de 3 a 4, pensando também em jogar sem o grupo), e cada golpe dele deve tirar 5% a 10% do HP de um personagem que não seja o tanque. Os números finais dependem da curva de equipamentos. [Calibragem](calibragem-monstros.md).
+
+**15/11/2026 — Curva de equipamentos.** As armas e armaduras do Melia formam escadas limpas por grau e nível de item. Com elas, a calibragem mostrou que a escala atual das habilidades (~1.500% a 2.800%) exigiria monstros com 3 a 37 vezes mais HP. Com uma escala de 150% a 200%, os multiplicadores ficam pequenos. [Curva e resultados](curva-de-equipamentos.md).
+
+**15/11/2026 — Escala das habilidades.** O proprietário escolheu a opção A: os fatores das habilidades do Melia serão divididos por 10. A tabela de ajustes dos monstros por nível está pronta. [Tabela](curva-de-equipamentos.md).
+
+**15/11/2026 — Curvas das outras armas.** Armas de uma mão seguem a mesma curva da espada; as de duas mãos dão cerca de 18% a mais. No Melia, a arma secundária soma o ataque inteiro, o que daria ao Scout o dobro do ataque de arma do Warrior com escudo. [Curvas](curva-de-equipamentos.md).
+
+**15/11/2026 — Arma secundária e comparação das bases.** A arma secundária soma 20% do próprio ataque ao ataque geral (decisão do proprietário). A comparação mostrou dano equilibrado entre as bases, mas o Warrior de escudo e placa ficaria imune com a defesa subtraída do ataque. [Comparação](comparacao-das-bases.md).
+
+**15/11/2026 — Modelo de defesa.** A defesa passa a reduzir uma fração do golpe (defesa ÷ (defesa + ataque), máximo de 75%). Com ataque, defesa e precisão dos monstros recalculados, o tanque leva ~5% por golpe, o Warrior de duas mãos ~7,5% e Archer e Scout 9% a 10%, desviando de 8% a 15%. [Comparação](comparacao-das-bases.md).
+
+**15/11/2026 — Chefes, elites e masmorras.** Lutas contra chefes de 1 a 2 minutos com o grupo de 4; golpe de chefe tirando 15% a 25% do HP de quem não é tanque; chefes e masmorras ajustados ao tamanho do grupo; elites como no Melia. [Metas](chefes-elites-masmorras.md).
+
+**15/11/2026 — Curva de experiência.** Cerca de 150 horas até o nível 280, ritmo rápido no início e lento no fim, experiência dividida igualmente no grupo e ranks nos níveis 1, 15, 45, 80, 115, 155 e 200 (R7 com cerca de 67 horas). [Curva](curva-de-experiencia.md).
+
+**15/11/2026 — Resumo do balanceamento.** As decisões, os números de referência, as mudanças no Melia e sete pontos que ainda não conversam entre si estão reunidos numa página. [Resumo](resumo-do-balanceamento.md).
+
+**15/11/2026 — Crescimento das habilidades.** Cada nível de habilidade soma 10% do fator do nível 1, e os monstros foram calibrados para habilidades no nível 5 (HP dos monstros e chefes cerca de 21% maior que na versão anterior). [Resumo](resumo-do-balanceamento.md).
+
+**15/11/2026 — Preparados e defesa mágica.** O ataque de preparados passa a somar a arma principal (sem ela, quem foca INT teria um quarto do ataque de quem foca STR). A defesa mágica dos monstros segue a mesma meta da física.
+
+**16/11/2026 — Cura e poções.** Poções como base da sustentação, no estilo clássico (caçar sozinho consome 2 a 3 por minuto), e cura de preparados = valor base × (1 + INT ÷ 100). [Cura e poções](cura-e-pocoes.md).
+
+**16/11/2026 — Economia das poções.** Com os números do Melia, o silver da caça cobre só 12% a 19% do gasto com poções. O proprietário avalia remover a mecânica de silver. [Economia](economia-das-pocoes.md).
+
+**16/11/2026 — Ciclo de recuperação.** A sustentação segue o ciclo do original, substituindo a decisão de poções como base: poções proporcionais para segurar a luta, descanso sentado e fogueira para recuperar. O objetivo é manter as sensações do original, melhorando o que for preciso nos testes. [Ciclo](ciclo-de-recuperacao.md).
+
+**16/11/2026 — Experiência +50%.** A experiência dos monstros sobe 50% para compensar os descansos do ciclo de recuperação.
+
+**16/11/2026 — História sem sobrenatural.** Não haverá demônios: os inimigos serão humanos, mutantes e criaturas transformadas; um reino rival invade e destrói; a Árvore vira um fenômeno sem explicação. As deusas podem virar princesas ou rainhas. [História do projeto](historia-sem-deusas.md).
+
+**16/11/2026 — Papéis centrais da história.** Giltine é a rainha do reino rival; as revelações viram registros, com Laima como guardiã dos registros; as protetoras das regiões são uma mistura de nobres (princesas, rainhas, senhoras). [Rascunho de premissa](historia-sem-deusas.md).
+
+**16/11/2026 — Chefes e índice.** Os retratos dos chefes entraram no acervo com procedência própria; cada chefe tem página, e a página inicial ganhou a revisão para aprovar ou rejeitar. As páginas do projeto agora seguem um [índice numerado](indice.md).
+
+**Próximo passo recomendado:** revisar os chefes e o rascunho de premissa.

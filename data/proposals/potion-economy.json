@@ -1,0 +1,69 @@
+{
+  "reviewed_at": "2026-11-16",
+  "status": "study-owner-considering-silver-removal",
+  "source_id": "F124",
+  "assumptions": "Caça sozinho: 240 monstros por hora; 2 a 3 poções por minuto (120 a 180 por hora); silver esperado = chance × média da quantidade do drop de silver (item 900011) de cada monstro; venda de outros itens não incluída.",
+  "melia": {
+    "silver_item": "900011 (Silver)",
+    "config": "drops.conf: silver_drop_amount e silver_drop_rate, ambos 100%"
+  },
+  "results": [
+    {
+      "level": 40,
+      "silver_per_monster": 14.8,
+      "monsters_with_silver_pct": 69,
+      "silver_per_hour": 3552,
+      "potion": "HP Potion",
+      "potion_price": 160,
+      "potion_cost_per_hour": [
+        19200,
+        28800
+      ],
+      "balance_per_hour": [
+        -25248,
+        -15648
+      ]
+    },
+    {
+      "level": 120,
+      "silver_per_monster": 31.2,
+      "monsters_with_silver_pct": 61,
+      "silver_per_hour": 7488,
+      "potion": "Large HP Potion",
+      "potion_price": 360,
+      "potion_cost_per_hour": [
+        43200,
+        64800
+      ],
+      "balance_per_hour": [
+        -57312,
+        -35712
+      ]
+    },
+    {
+      "level": 220,
+      "silver_per_monster": 61.6,
+      "monsters_with_silver_pct": 73,
+      "silver_per_hour": 14784,
+      "potion": "Huge HP Potion",
+      "potion_price": 720,
+      "potion_cost_per_hour": [
+        86400,
+        129600
+      ],
+      "balance_per_hour": [
+        -114816,
+        -71616
+      ]
+    }
+  ],
+  "coverage_pct": [
+    12,
+    12,
+    11,
+    18,
+    17,
+    17
+  ],
+  "owner_note": "16/11/2026: o proprietário avalia remover a mecânica de silver; o estudo foi feito mesmo assim."
+}

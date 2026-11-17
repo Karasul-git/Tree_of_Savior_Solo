@@ -1,0 +1,130 @@
+{
+  "reviewed_at": "2026-11-15",
+  "status": "ratified-design",
+  "class_id": "scout",
+  "recommended_option": "B",
+  "weapons": {
+    "status": "ratified-design",
+    "main": "one-handed-sword",
+    "sub": [
+      "dagger",
+      "pistol"
+    ],
+    "armor": "leather",
+    "source_ids": [
+      "F12",
+      "F111"
+    ],
+    "note": "Organização posterior ao Re:Build; não descreve o Scout de 2016, que pertencia a Archer."
+  },
+  "options": [
+    {
+      "id": "A",
+      "label": "Kit posterior integral",
+      "summary": "Usar só as cinco habilidades atuais de Scout.",
+      "fits_circles": false,
+      "issue": "Cinco habilidades não preenchem C1–C3 no padrão das bases de 2016 sem habilidades adicionais."
+    },
+    {
+      "id": "B",
+      "label": "Kit posterior + habilidades de 2016 sem arco",
+      "summary": "Cinco habilidades atuais em C1 e três habilidades de 2016 sem dependência de arco em C2–C3.",
+      "fits_circles": true,
+      "issue": "Perspective Distortion e Scan precisam de conferência de função; os círculos são propostas."
+    },
+    {
+      "id": "C",
+      "label": "Kit de 2016 com arco",
+      "summary": "Manter o Scout de 2016 como base.",
+      "fits_circles": true,
+      "issue": "Três habilidades usam arco/flechas, em conflito com a árvore de adagas e pistolas."
+    }
+  ],
+  "proposed_kit": [
+    {
+      "name": "Dagger Slash",
+      "proposed_circle": 1,
+      "origin": "later",
+      "source_id": "F111",
+      "weapon": "dagger",
+      "assessment": "reuse"
+    },
+    {
+      "name": "Oblique Fire",
+      "proposed_circle": 1,
+      "origin": "later",
+      "source_id": "F111",
+      "weapon": "pistol",
+      "assessment": "reuse"
+    },
+    {
+      "name": "Cloaking",
+      "proposed_circle": 1,
+      "origin": "both",
+      "source_id": "F111",
+      "historical_source_id": "F71",
+      "weapon": null,
+      "assessment": "reuse-animation-check"
+    },
+    {
+      "name": "Free Step",
+      "proposed_circle": 1,
+      "origin": "later",
+      "source_id": "F111",
+      "weapon": null,
+      "assessment": "reuse"
+    },
+    {
+      "name": "Double Attack",
+      "proposed_circle": 1,
+      "origin": "later",
+      "source_id": "F111",
+      "weapon": null,
+      "assessment": "reuse"
+    },
+    {
+      "name": "Camouflage",
+      "proposed_circle": 2,
+      "origin": "2016",
+      "source_id": "F71",
+      "weapon": null,
+      "assessment": "reuse"
+    },
+    {
+      "name": "Perspective Distortion",
+      "proposed_circle": 2,
+      "origin": "2016",
+      "source_id": "F71",
+      "weapon": null,
+      "assessment": "function-review"
+    },
+    {
+      "name": "Scan",
+      "proposed_circle": 3,
+      "origin": "2016",
+      "source_id": "F71",
+      "weapon": null,
+      "assessment": "function-review"
+    }
+  ],
+  "left_in_history": [
+    {
+      "name": "Flu Flu",
+      "source_id": "F71",
+      "reason": "Flecha sonora; depende de arco."
+    },
+    {
+      "name": "Flare Shot",
+      "source_id": "F71",
+      "reason": "Sinalizador disparado com arco; adaptação para pistola seria criação nova."
+    },
+    {
+      "name": "Split Arrow",
+      "source_id": "F71",
+      "reason": "Flecha com ricochete; Oblique Fire já cobre o ricochete com pistola."
+    }
+  ],
+  "ratified_at": "2026-11-15",
+  "ratified_option": "B",
+  "ratification_note": "Opção e círculos ratificados pelo proprietário como direção de design. Conferências no cliente, números e compatibilidade de equipamento continuam pendentes."
+}

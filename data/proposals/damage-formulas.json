@@ -1,0 +1,62 @@
+{
+  "reviewed_at": "2026-11-15",
+  "source_id": "F124",
+  "status": "owner-decisions-values-provisional",
+  "decisions": {
+    "preparations_use_magic_path": {
+      "status": "proposal",
+      "note": "Ataque de preparados vem do INT pelo caminho mágico do Melia."
+    },
+    "preparation_healing_scales_with_int": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "note": "Cura de poções e medicina (Sprinkle HP/SP Potion, Healing Factor) escala com INT; Sabedoria mantém SP e recuperação natural. Fórmula a definir.",
+      "formula": "cura = valor base × (1 + INT ÷ 100)",
+      "formula_decided_at": "2026-11-16"
+    },
+    "con_adds_defense": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "initial_value": "+2 de defesa física e mágica por ponto de CON, como no guia oficial atual (F113)",
+      "note": "Valor inicial sujeito a balanceamento."
+    },
+    "dex_crit_chance": {
+      "status": "pending-source"
+    },
+    "elements_for_preparations": {
+      "status": "proposal"
+    },
+    "monster_calibration_group_of_4": {
+      "status": "next"
+    },
+    "skill_scale": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "option": "A",
+      "note": "Fatores das habilidades do Melia divididos por 10, faixa de referência de 150% a 200%."
+    },
+    "defense_model": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "rule": "redução = defesa ÷ (defesa + ataque do golpe), máximo de 75%; vale para jogadores e monstros",
+      "replaces": "subtração da defesa do Melia"
+    },
+    "skill_level_growth": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "rule": "Cada nível de habilidade soma 10% do fator do nível 1 (após a divisão por 10). Mediana: nível 1 = 151%, nível 5 = 211%, nível 10 = 287%, nível 15 = 362%.",
+      "calibration": "Monstros e chefes calibrados para habilidades no nível 5 (211%)."
+    },
+    "preparation_attack_includes_weapon": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "rule": "Ataque de preparados = 20 + nível + 2 × INT + ⌊INT ÷ 10⌋ × (nível × 0,05) + ataque da arma principal",
+      "reason": "Sem a arma, quem foca INT teria cerca de um quarto do ataque de quem foca STR (329 contra 1.301 no nível 120)."
+    },
+    "monster_mdef": {
+      "status": "decided",
+      "decided_at": "2026-11-15",
+      "rule": "Mesma meta da defesa física (redução de ~25%)."
+    }
+  }
+}

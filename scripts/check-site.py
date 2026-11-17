@@ -58,5 +58,7 @@ for file, page in pages.items():
 manifest = json.loads((ROOT / 'data/assets.json').read_text())
 for image in manifest:
     assert (ROOT / image['path']).read_bytes() == (ROOT.parent / image['path']).read_bytes(), image['path']
+for image in json.loads((ROOT.parent / 'data/boss-assets.json').read_text()):
+    assert (ROOT / image['path']).read_bytes() == (ROOT.parent / image['path']).read_bytes(), image['path']
 assert (ROOT / '.nojekyll').exists()
 print(f'OK: {len(pages)} HTML pages; {checked} local links/assets/fragments; original images unchanged.')

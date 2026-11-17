@@ -157,7 +157,7 @@ for base in solo['bases']:
         solo_ids.append(entry['class_id'])
         if entry['class_id'] not in all_ids or entry['placement_status'] not in ['defined', 'proposed']:
             errors.append('Invalid solo class reference/status')
-        if entry.get('solo_rank') not in range(2, 8) or entry.get('rank_status') not in ['historical-reference', 'proposed']:
+        if entry.get('solo_rank') not in range(2, 8) or entry.get('rank_status') not in ['historical-reference', 'solo-defined']:
             errors.append('Invalid solo rank/status')
         if entry.get('rank_status') == 'historical-reference' and entry['solo_rank'] != historical_ranks.get(entry['class_id']):
             errors.append('Solo rank labeled historical differs from historical rank')
@@ -165,7 +165,7 @@ for base in solo['bases']:
             defined.add(entry['class_id'])
 if base_ids != ['warrior', 'archer', 'scout'] or len(solo_ids) != len(set(solo_ids)):
     errors.append('Unexpected solo bases or duplicate solo class')
-if defined != {'templar', 'alchemist', 'plague-doctor'}:
+if not {'templar', 'alchemist', 'plague-doctor'} <= defined or (solo.get('status') == 'ratified-tree' and len(defined) != 36):
     errors.append('Solo placement status differs from approved decisions')
 if set(solo_ids) & (set(solo['removed_class_ids']) | set(solo['pending_class_ids'])):
     errors.append('Removed/pending class assigned to solo tree')
@@ -267,6 +267,27 @@ for page in pages:
             anchors = set(re.findall(r'<a id="([^"]+)"', dest.read_text()))
             if parsed.fragment not in anchors:
                 errors.append(f'Missing explicit anchor: {target}')
+
+boss_assets = json.loads((ROOT / 'data/boss-assets.json').read_text())
+boss_data = json.loads((ROOT / 'data/bosses.json').read_text())
+if {a['path'] for a in boss_assets} != {b['portrait'] for b in boss_data['bosses']}:
+    errors.append('Boss portraits and boss data differ')
+for asset in boss_assets:
+    path = (ROOT / asset['path']).resolve()
+    if not path.is_relative_to(ROOT) or not path.exists():
+        errors.append(f'Missing boss asset: {asset["path"]}')
+        continue
+    raw = path.read_bytes()
+    if hashlib.sha256(raw).hexdigest() != asset['sha256'] or len(raw) != asset['bytes'] or not raw.startswith(b'\x89PNG\r\n\x1a\n'):
+        errors.append(f'Boss asset changed or invalid: {asset["path"]}')
+    for field in ['source_page', 'source_url', 'retrieved_at', 'rights_holder', 'historical_status']:
+        if not asset.get(field):
+            errors.append(f'Missing boss provenance {field}: {asset["path"]}')
+    if asset.get('transformations') != 'none' or urlparse(asset['source_url']).hostname != 'tos.guru':
+        errors.append(f'Unexpected boss asset origin: {asset["path"]}')
+for b in boss_data['bosses']:
+    if b['review_status'] not in ('pendente', 'aprovado', 'rejeitado'):
+        errors.append(f'Invalid boss review status: {b["slug"]}')
 
 manifest_path = ROOT / 'data/assets.json'
 assets = json.loads(manifest_path.read_text()) if manifest_path.exists() else []

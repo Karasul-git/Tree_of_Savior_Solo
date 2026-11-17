@@ -2,11 +2,13 @@
 
 [Árvores navegáveis](../classes/catalogo-2016.md) · [Seis classes e círculos](seis-classes-habilidades-e-circulos.md) · [Diretrizes](diretrizes.md)
 
-**Proposta revisada em 15/11/2026:** preservar ranks e círculos, com **duas especializações novas disponíveis por rank de R2 a R7 em cada base**. Cada árvore tem 12 especializações, além da base em R1. O personagem não escolhe todas; também pode investir um avanço em outro círculo de uma classe anterior.
+**Árvore ratificada em 15/11/2026.** O proprietário ratificou as 36 posições abaixo, base por base. Habilidades adaptadas, círculos das classes posteriores e números continuam em estudo.
 
-## Proposta atual por primeiro rank disponível
+**Estrutura:** preservar ranks e círculos, com **duas especializações novas disponíveis por rank de R2 a R7 em cada base**. Cada árvore tem 12 especializações, além da base em R1. O personagem não escolhe todas; também pode investir um avanço em outro círculo de uma classe anterior.
 
-Asterisco identifica rank solo proposto. Os demais ranks usam 2016 como referência, sem certificar balanceamento ou compatibilidade de habilidades. Só as posições de Templar, Alchemist e Plague Doctor já estavam definidas; as seis novas classes foram escolhidas para estudo e seus encaixes continuam propostos.
+## Árvore ratificada por primeiro rank disponível
+
+Asterisco identifica rank definido para a versão solo, diferente do histórico ou sem rank de 2016. Os demais ranks usam 2016 como referência, sem certificar balanceamento ou compatibilidade de habilidades.
 
 | Rank | Warrior, nome provisório | Archer | Scout |
 | --- | --- | --- | --- |
