@@ -1,0 +1,2750 @@
+{
+ "note": "Catálogo de habilidades do jogo (39 classes). Gerado por scripts/generate-skill-pages.py; não editar à mão.",
+ "classes": [
+  {
+   "class_id": "swordsman",
+   "name": "Swordsman",
+   "base": "warrior",
+   "rank": 1,
+   "summary": "Base de combate próximo, com golpes simples, reforços de ataque e resistência a interrupções.",
+   "skills": [
+    {
+     "slug": "thrust",
+     "name": "Thrust",
+     "summary": "Estocada que causa dano perfurante.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Swordman_Thrust",
+     "kind": "dano"
+    },
+    {
+     "slug": "bash",
+     "name": "Bash",
+     "summary": "Golpe de corte forte.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Swordman_Bash",
+     "kind": "dano"
+    },
+    {
+     "slug": "gung-ho",
+     "name": "Gung Ho",
+     "summary": "Aumenta ataque físico em troca de defesa.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Swordman_GungHo",
+     "kind": "apoio"
+    },
+    {
+     "slug": "concentrate",
+     "name": "Concentrate",
+     "summary": "Acrescenta dano aos ataques.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Swordman_Concentrate",
+     "kind": "apoio"
+    },
+    {
+     "slug": "pain-barrier",
+     "name": "Pain Barrier",
+     "summary": "Resiste a empurrões, quedas e interrupções.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Swordman_PainBarrier",
+     "kind": "apoio"
+    },
+    {
+     "slug": "restrain",
+     "name": "Restrain",
+     "summary": "Troca HP máximo por chance de atordoar atacando.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Swordman_Restrain",
+     "kind": "apoio"
+    },
+    {
+     "slug": "pommel-beat",
+     "name": "Pommel Beat",
+     "summary": "Pancada do cabo, favorecida contra alvos atordoados.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Swordman_PommelBeat",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "double-slash",
+     "name": "Double Slash",
+     "summary": "Corte que ganha dano contra alvos sangrando.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Swordman_DoubleSlash",
+     "kind": "dano-pendente"
+    }
+   ]
+  },
+  {
+   "class_id": "highlander",
+   "name": "Highlander",
+   "base": "warrior",
+   "rank": 2,
+   "summary": "Espadachim que combina cortes, sangramento e enfraquecimento da defesa para preparar novos ataques.",
+   "skills": [
+    {
+     "slug": "wagon-wheel",
+     "name": "Wagon Wheel",
+     "summary": "Golpe ascendente que lança o inimigo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Highlander_WagonWheel",
+     "kind": "dano"
+    },
+    {
+     "slug": "cartar-stroke",
+     "name": "Cartar Stroke",
+     "summary": "Acumula força para uma pancada no chão.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Highlander_CartarStroke",
+     "kind": "dano"
+    },
+    {
+     "slug": "crown",
+     "name": "Crown",
+     "summary": "Pancada que reduz INT e SPR do alvo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Highlander_Crown",
+     "kind": "dano"
+    },
+    {
+     "slug": "cross-guard",
+     "name": "Cross Guard",
+     "summary": "Bloqueia com a arma e expõe o alvo a perfuração.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Highlander_CrossGuard",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "moulinet",
+     "name": "Moulinet",
+     "summary": "Sequência de cortes com espada.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Highlander_Moulinet",
+     "kind": "dano"
+    },
+    {
+     "slug": "skyliner",
+     "name": "Skyliner",
+     "summary": "Corte favorecido contra inimigos sangrando.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Highlander_SkyLiner",
+     "kind": "dano"
+    },
+    {
+     "slug": "crosscut",
+     "name": "Crosscut",
+     "summary": "Corte em cruz que provoca sangramento.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Highlander_CrossCut",
+     "kind": "dano"
+    },
+    {
+     "slug": "skull-swing",
+     "name": "Skull Swing",
+     "summary": "Golpe que aplica quebra de armadura.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Highlander_ScullSwing",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "vertical-slash",
+     "name": "Vertical Slash",
+     "summary": "Corte favorecido por defesa reduzida e efeitos negativos.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Highlander_VerticalSlash",
+     "kind": "dano-pendente"
+    }
+   ]
+  },
+  {
+   "class_id": "peltasta",
+   "name": "Peltasta",
+   "base": "warrior",
+   "rank": 2,
+   "summary": "Especialista em escudo, provocação e bloqueio, capaz de reunir inimigos e proteger sua posição.",
+   "skills": [
+    {
+     "slug": "umbo-blow",
+     "name": "Umbo Blow",
+     "summary": "Pancada de escudo favorecida após um bloqueio.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_UmboBlow",
+     "kind": "dano"
+    },
+    {
+     "slug": "rim-blow",
+     "name": "Rim Blow",
+     "summary": "Golpe da borda, favorecido contra congelados ou petrificados.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_RimBlow",
+     "kind": "dano"
+    },
+    {
+     "slug": "swash-buckling",
+     "name": "Swash Buckling",
+     "summary": "Provoca inimigos próximos para que persigam você.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_SwashBuckling",
+     "kind": "apoio"
+    },
+    {
+     "slug": "guardian",
+     "name": "Guardian",
+     "summary": "Troca ataque por defesa; incompatível com Gung Ho.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_Guardian",
+     "kind": "apoio"
+    },
+    {
+     "slug": "shield-lob",
+     "name": "Shield Lob",
+     "summary": "Arremessa o escudo e perde defesa até recuperá-lo.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_ShieldLob",
+     "kind": "dano"
+    },
+    {
+     "slug": "high-guard",
+     "name": "High Guard",
+     "summary": "Postura de bloqueio que sacrifica ataque e crítico.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_HighGuard",
+     "kind": "apoio"
+    },
+    {
+     "slug": "butterfly",
+     "name": "Butterfly",
+     "summary": "Sequência de ataques com espada e escudo.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_ButterFly",
+     "kind": "dano"
+    },
+    {
+     "slug": "umbo-thrust",
+     "name": "Umbo Thrust",
+     "summary": "Pancada capaz de anular temporariamente a armadura.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_UmboThrust",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "langort",
+     "name": "Langort",
+     "summary": "Bloqueia e ataca com espada e escudo.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Peltasta_Langort",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "barbarian",
+   "name": "Barbarian",
+   "base": "warrior",
+   "rank": 3,
+   "summary": "Combatente agressivo que acumula força, atordoa e avança com ataques de grande impacto.",
+   "skills": [
+    {
+     "slug": "embowel",
+     "name": "Embowel",
+     "summary": "Perfura e chuta o inimigo para longe.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Barbarian_Embowel",
+     "kind": "dano"
+    },
+    {
+     "slug": "stomping-kick",
+     "name": "Stomping Kick",
+     "summary": "Pisoteio aéreo influenciado pelo salto e pelas botas.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Barbarian_StompingKick",
+     "kind": "dano"
+    },
+    {
+     "slug": "cleave",
+     "name": "Cleave",
+     "summary": "Golpe giratório favorecido contra inimigos atordoados.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Barbarian_Cleave",
+     "kind": "dano"
+    },
+    {
+     "slug": "helm-chopper",
+     "name": "Helm Chopper",
+     "summary": "Pancada na cabeça que atordoa.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hackapell_HelmChopper",
+     "kind": "dano"
+    },
+    {
+     "slug": "warcry",
+     "name": "Warcry",
+     "summary": "Reduz a defesa próxima e fortalece seu ataque.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Barbarian_Warcry",
+     "kind": "apoio"
+    },
+    {
+     "slug": "frenzy",
+     "name": "Frenzy",
+     "summary": "Ataques repetidos ao mesmo alvo acumulam força.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Barbarian_Frenzy",
+     "kind": "apoio"
+    },
+    {
+     "slug": "seism",
+     "name": "Seism",
+     "summary": "Abalo com chance de atordoamento.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Barbarian_Seism",
+     "kind": "dano"
+    },
+    {
+     "slug": "giant-swing",
+     "name": "Giant Swing",
+     "summary": "Gira um inimigo e o arremessa.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Barbarian_GiantSwing",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "pouncing",
+     "name": "Pouncing",
+     "summary": "Avança atacando com cortes contínuos.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Barbarian_Pouncing",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "hoplite",
+   "name": "Hoplite",
+   "base": "warrior",
+   "rank": 3,
+   "summary": "Lanceiro de estocadas e postura crítica, com ataques que exploram o tamanho e a vulnerabilidade do alvo.",
+   "skills": [
+    {
+     "slug": "stabbing",
+     "name": "Stabbing",
+     "summary": "Série de estocadas de lança.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hoplite_Stabbing",
+     "kind": "dano"
+    },
+    {
+     "slug": "pierce",
+     "name": "Pierce",
+     "summary": "Perfura; alvos maiores recebem mais acertos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hoplite_Pierce",
+     "kind": "dano"
+    },
+    {
+     "slug": "finestra",
+     "name": "Finestra",
+     "summary": "Aumenta crítico e bloqueio, reduzindo esquiva.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hoplite_Finestra",
+     "kind": "apoio"
+    },
+    {
+     "slug": "synchro-thrusting",
+     "name": "Synchro Thrusting",
+     "summary": "Contra-ataque combinado de lança e escudo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hoplite_SynchroThrusting",
+     "kind": "dano"
+    },
+    {
+     "slug": "long-stride",
+     "name": "Long Stride",
+     "summary": "Salta até o alvo causando dano.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Hoplite_LongStride",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "spear-lunge",
+     "name": "Spear Lunge",
+     "summary": "Torna o alvo vulnerável a perfuração.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Hoplite_SpearLunge",
+     "kind": "dano"
+    },
+    {
+     "slug": "spear-throw",
+     "name": "Spear Throw",
+     "summary": "Arremessa a lança; recuperá-la restaura o ataque reduzido.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Hoplite_ThrouwingSpear",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "cataphract",
+   "name": "Cataphract",
+   "base": "warrior",
+   "rank": 4,
+   "summary": "Lanceiro montado que combina mobilidade, investidas e ataques durante deslocamento.",
+   "skills": [
+    {
+     "slug": "impaler",
+     "name": "Impaler",
+     "summary": "Empala um inimigo e o usa contra outros.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cataphract_Impaler",
+     "kind": "dano"
+    },
+    {
+     "slug": "earth-wave",
+     "name": "Earth Wave",
+     "summary": "Pancada no chão após acumular força.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cataphract_EarthWave",
+     "kind": "dano"
+    },
+    {
+     "slug": "trot",
+     "name": "Trot",
+     "summary": "Aumenta a velocidade enquanto montado.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cataphract_Trot",
+     "kind": "apoio"
+    },
+    {
+     "slug": "steed-charge",
+     "name": "Steed Charge",
+     "summary": "Investida frontal montada.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cataphract_SteedCharge",
+     "kind": "dano"
+    },
+    {
+     "slug": "doom-spike",
+     "name": "Doom Spike",
+     "summary": "Estocada de lança carregada.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Cataphract_DoomSpike",
+     "kind": "dano"
+    },
+    {
+     "slug": "rush",
+     "name": "Rush",
+     "summary": "Gira a lança sobre a cabeça, atingindo ao redor.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Cataphract_Rush",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "rodelero",
+   "name": "Rodelero",
+   "base": "warrior",
+   "rank": 4,
+   "summary": "Lutador de escudo que interrompe, desloca e enfraquece adversários com controle próximo.",
+   "skills": [
+    {
+     "slug": "shield-charge",
+     "name": "Shield Charge",
+     "summary": "Investida de escudo que empurra e derruba.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_ShieldCharge",
+     "kind": "dano"
+    },
+    {
+     "slug": "montano",
+     "name": "Montano",
+     "summary": "Corte baixo com chance de paralisar.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_Montano",
+     "kind": "dano"
+    },
+    {
+     "slug": "targe-smash",
+     "name": "Targe Smash",
+     "summary": "Pancada de escudo com chance de cegar.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_TargeSmash",
+     "kind": "dano"
+    },
+    {
+     "slug": "shield-push",
+     "name": "Shield Push",
+     "summary": "Interrompe e desequilibra o alvo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_ShieldPush",
+     "kind": "dano"
+    },
+    {
+     "slug": "shield-shoving",
+     "name": "Shield Shoving",
+     "summary": "Vira o inimigo e interrompe suas ações.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_ShieldShoving",
+     "kind": "dano"
+    },
+    {
+     "slug": "shield-bash",
+     "name": "Shield Bash",
+     "summary": "Pancada que embaralha temporariamente os atributos inimigos.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_ShieldBash",
+     "kind": "dano"
+    },
+    {
+     "slug": "slithering",
+     "name": "Slithering",
+     "summary": "Avança agachado com evasão e finaliza atacando.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_Slithering",
+     "kind": "dano"
+    },
+    {
+     "slug": "shooting-star",
+     "name": "Shooting Star",
+     "summary": "Sequência ofensiva de espada e escudo.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_ShootingStar",
+     "kind": "dano"
+    },
+    {
+     "slug": "high-kick",
+     "name": "High Kick",
+     "summary": "Chute que aumenta o dano de impacto recebido.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Rodelero_HighKick",
+     "kind": "dano-pendente"
+    }
+   ]
+  },
+  {
+   "class_id": "doppelsoeldner",
+   "name": "Doppelsoeldner",
+   "base": "warrior",
+   "rank": 6,
+   "summary": "Atacante de espada que aceita mais risco para aumentar pressão ofensiva e executar ataques giratórios.",
+   "skills": [
+    {
+     "slug": "punish",
+     "name": "Punish",
+     "summary": "Perfura um inimigo caído.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Doppelsoeldner_Punish",
+     "kind": "dano"
+    },
+    {
+     "slug": "deeds-of-valor",
+     "name": "Deeds of Valor",
+     "summary": "Receber dano aumenta ataque e velocidade, sacrificando defesa.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Doppelsoeldner_DeedsOfValor",
+     "kind": "apoio"
+    },
+    {
+     "slug": "mordschlag",
+     "name": "Mordschlag",
+     "summary": "Pancada usando o cabo da espada.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Doppelsoeldner_Mordschlag",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "double-pay-earn",
+     "name": "Double Pay Earn",
+     "summary": "Busca EXP e saque dobrados sob risco aumentado.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Doppelsoeldner_Double_pay_earn",
+     "kind": "apoio"
+    },
+    {
+     "slug": "cyclone",
+     "name": "Cyclone",
+     "summary": "Ataque giratório contínuo com a arma.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Doppelsoeldner_Cyclone",
+     "kind": "dano"
+    },
+    {
+     "slug": "zornhau",
+     "name": "Zornhau",
+     "summary": "Corte forte que aplica choque.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Doppelsoeldner_Zornhau",
+     "kind": "dano"
+    },
+    {
+     "slug": "zucken",
+     "name": "Zucken",
+     "summary": "Cortes laterais favorecidos contra alvos sob choque.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Doppelsoeldner_Zucken",
+     "kind": "dano"
+    },
+    {
+     "slug": "redel",
+     "name": "Redel",
+     "summary": "Sequência de cortes contra o alvo à frente.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Doppelsoeldner_Redel",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "fencer",
+   "name": "Fencer",
+   "base": "warrior",
+   "rank": 6,
+   "summary": "Duelista de rapieira, com estocadas rápidas, esquivas, aparos e exposição do adversário.",
+   "skills": [
+    {
+     "slug": "lunge",
+     "name": "Lunge",
+     "summary": "Estocada que aumenta esquiva e expõe o alvo a cortes.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Fencer_Lunge",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "sept-etoiles",
+     "name": "Sept Etoiles",
+     "summary": "Série rápida de estocadas.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Fencer_SeptEtoiles",
+     "kind": "dano"
+    },
+    {
+     "slug": "attaque-coquille",
+     "name": "Attaque Coquille",
+     "summary": "Expõe o alvo a ataques perfurantes que ignoram defesa.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Fencer_AttaqueCoquille",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "esquive-toucher",
+     "name": "Esquive Toucher",
+     "summary": "Movimento evasivo acompanhado de estocadas.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Fencer_EsquiveToucher",
+     "kind": "dano"
+    },
+    {
+     "slug": "flanconnade",
+     "name": "Flanconnade",
+     "summary": "Corte ascendente que também protege contra um ataque.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Fencer_Flanconnade",
+     "kind": "dano"
+    },
+    {
+     "slug": "attaque-composee",
+     "name": "Attaque Composee",
+     "summary": "Estocada frontal de rapieira.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Fencer_AttaqueComposee",
+     "kind": "dano"
+    },
+    {
+     "slug": "preparation",
+     "name": "Preparation",
+     "summary": "Prepara defesa e fortalece a próxima perfuração.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Fencer_Preparation",
+     "kind": "dano-pendente"
+    }
+   ]
+  },
+  {
+   "class_id": "dragoon",
+   "name": "Dragoon",
+   "base": "warrior",
+   "rank": 7,
+   "summary": "Lanceiro de ataques poderosos, arremessos e golpes ascendentes contra grupos ou alvos resistentes.",
+   "skills": [
+    {
+     "slug": "dragontooth",
+     "name": "Dragontooth",
+     "summary": "Ataque de lança usando rotação.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Dragoon_Dragontooth",
+     "kind": "dano"
+    },
+    {
+     "slug": "serpentine",
+     "name": "Serpentine",
+     "summary": "Sequência de golpes de lança à frente.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Dragoon_Serpentine",
+     "kind": "dano"
+    },
+    {
+     "slug": "gae-bulg",
+     "name": "Gae Bulg",
+     "summary": "Arremessa a lança e expõe alvos a dano físico.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Dragoon_Gae_Bulg",
+     "kind": "dano"
+    },
+    {
+     "slug": "dragon-soar",
+     "name": "Dragon Soar",
+     "summary": "Ataque ascendente que lança o inimigo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Dragoon_Dragon_Soar",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "templar",
+   "name": "Templar",
+   "base": "warrior",
+   "rank": 7,
+   "summary": "Classe voltada à liderança de guilda, com transporte de membros, torre e reforços coletivos.",
+   "skills": [
+    {
+     "slug": "summon-guild-member",
+     "name": "Summon Guild Member",
+     "summary": "Traz um membro da guilda com sua permissão.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Templer_SummonGuildMember",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "warp-to-guild-member",
+     "name": "Warp To Guild Member",
+     "summary": "Teleporta até um membro da guilda.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Templer_WarpToGuildMember",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "build-guild-tower",
+     "name": "Build Guild Tower",
+     "summary": "Libera funções da torre e progressão da guilda.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Templer_BuildGuildTower",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "reduce-craft-time",
+     "name": "Reduce Craft Time",
+     "summary": "Bandeira que acelera fabricação perto da torre.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Templer_ReduceCraftTime",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "battle-orders",
+     "name": "Battle Orders",
+     "summary": "Aumenta STR dos membros próximos ao líder.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Templer_BattleOrders",
+     "kind": "dano-pendente"
+    }
+   ]
+  },
+  {
+   "class_id": "paladin",
+   "name": "Paladin",
+   "base": "warrior",
+   "rank": 5,
+   "summary": "Combatente sagrado de impacto, recuperação e proteção elemental, com barreiras e conversão.",
+   "skills": [
+    {
+     "slug": "smite",
+     "name": "Smite",
+     "summary": "Pancada forte, favorecida contra demônios e mutantes.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cleric_Smite",
+     "kind": "dano"
+    },
+    {
+     "slug": "restoration",
+     "name": "Restoration",
+     "summary": "Aura que melhora a recuperação de HP próxima.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Paladin_Restoration",
+     "kind": "apoio"
+    },
+    {
+     "slug": "resist-elements",
+     "name": "Resist Elements",
+     "summary": "Reforça resistências elementais e pode anular ataques.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Paladin_ResistElements",
+     "kind": "apoio"
+    },
+    {
+     "slug": "turn-undead",
+     "name": "Turn Undead",
+     "summary": "Pode derrotar instantaneamente demônios e mutantes.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Priest_TurnUndead",
+     "kind": "apoio"
+    },
+    {
+     "slug": "conversion",
+     "name": "Conversion",
+     "summary": "Círculo com chance de converter inimigos.",
+     "circle": 2,
+     "status": "em-revisao",
+     "melia_class": "Paladin_Conversion",
+     "kind": "apoio"
+    },
+    {
+     "slug": "barrier",
+     "name": "Barrier",
+     "summary": "Barreira que afasta inimigos e protege aliados dentro.",
+     "circle": 3,
+     "status": "em-revisao",
+     "melia_class": "Paladin_Barrier",
+     "kind": "apoio"
+    },
+    {
+     "slug": "conviction",
+     "name": "Conviction",
+     "summary": "Pancada que reduz resistências elementais do alvo.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Paladin_Conviction",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "monk",
+   "name": "Monk",
+   "base": "warrior",
+   "rank": 5,
+   "summary": "Lutador de socos e golpes corporais, com técnicas de energia e defesa de caráter sobrenatural.",
+   "skills": [
+    {
+     "slug": "iron-skin",
+     "name": "Iron Skin",
+     "summary": "Reflete ataques físicos usando o corpo endurecido.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Monk_IronSkin",
+     "kind": "apoio"
+    },
+    {
+     "slug": "double-punch",
+     "name": "Double Punch",
+     "summary": "Sequência rápida de socos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Monk_DoublePunch",
+     "kind": "dano"
+    },
+    {
+     "slug": "palm-strike",
+     "name": "Palm Strike",
+     "summary": "Golpe de palma que provoca ferimento interno.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Monk_PalmStrike",
+     "kind": "dano"
+    },
+    {
+     "slug": "hand-knife",
+     "name": "Hand Knife",
+     "summary": "Golpe forte com a lateral da mão.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Monk_HandKnife",
+     "kind": "dano"
+    },
+    {
+     "slug": "energy-blast",
+     "name": "Energy Blast",
+     "summary": "Canaliza energia frontal que machuca e empurra.",
+     "circle": 2,
+     "status": "em-revisao",
+     "melia_class": "Monk_EnergyBlast",
+     "kind": "dano"
+    },
+    {
+     "slug": "one-inch-punch",
+     "name": "One Inch Punch",
+     "summary": "Soco próximo que drena HP e SP ao longo do tempo.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Monk_1InchPunch",
+     "kind": "dano"
+    },
+    {
+     "slug": "god-finger-flick",
+     "name": "God Finger Flick",
+     "summary": "Arremessa uma moeda com os dedos para causar dano.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Monk_God_Finger_Flicking",
+     "kind": "dano"
+    },
+    {
+     "slug": "golden-bell-shield",
+     "name": "Golden Bell Shield",
+     "summary": "Concede invulnerabilidade temporária.",
+     "circle": 3,
+     "status": "em-revisao",
+     "melia_class": "Monk_Golden_Bell_Shield",
+     "kind": "apoio"
+    }
+   ]
+  },
+  {
+   "class_id": "archer",
+   "name": "Archer",
+   "base": "archer",
+   "rank": 1,
+   "summary": "Base de combate à distância, com múltiplos disparos, posicionamento e posturas de tiro.",
+   "skills": [
+    {
+     "slug": "swift-step",
+     "name": "Swift Step",
+     "summary": "Melhora movimento e esquiva durante deslocamento.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Archer_SwiftStep",
+     "kind": "apoio"
+    },
+    {
+     "slug": "multi-shot",
+     "name": "Multi Shot",
+     "summary": "Dispara várias flechas na área escolhida.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Archer_Multishot",
+     "kind": "dano"
+    },
+    {
+     "slug": "full-draw",
+     "name": "Full Draw",
+     "summary": "Tiro carregado que prende inimigos ao terreno.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Archer_Fulldraw",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "oblique-shot",
+     "name": "Oblique Shot",
+     "summary": "Flecha que ricocheteia para um inimigo próximo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Archer_ObliqueShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "kneeling-shot",
+     "name": "Kneeling Shot",
+     "summary": "Postura ajoelhada que melhora ataque, velocidade e alcance.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "QuarrelShooter_Kneelingshot",
+     "kind": "apoio"
+    },
+    {
+     "slug": "heavy-shot",
+     "name": "Heavy Shot",
+     "summary": "Disparo forte que empurra o alvo.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Archer_HeavyShot",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "twin-arrows",
+     "name": "Twin Arrows",
+     "summary": "Dispara duas flechas contra o alvo.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Archer_TwinArrows",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "quarrel-shooter",
+   "name": "Quarrel Shooter",
+   "base": "archer",
+   "rank": 2,
+   "summary": "Atirador de besta que combina defesa de posição, estrepes, pedras e ataques básicos em movimento.",
+   "skills": [
+    {
+     "slug": "deploy-pavise",
+     "name": "Deploy Pavise",
+     "summary": "Instala escudo que protege e atrai ataques.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "QuarrelShooter_DeployPavise",
+     "kind": "apoio"
+    },
+    {
+     "slug": "scatter-caltrops",
+     "name": "Scatter Caltrops",
+     "summary": "Espalha estrepes que machucam quem os pisa.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "QuarrelShooter_ScatterCaltrop",
+     "kind": "dano"
+    },
+    {
+     "slug": "stone-picking",
+     "name": "Stone Picking",
+     "summary": "Recolhe pedras para usar como munição.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "QuarrelShooter_StonePicking",
+     "kind": "apoio"
+    },
+    {
+     "slug": "stone-shot",
+     "name": "Stone Shot",
+     "summary": "Dispara pedra que empurra e pode atordoar.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "QuarrelShooter_StoneShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "rapid-fire",
+     "name": "Rapid Fire",
+     "summary": "Carrega a besta e dispara em sequência.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "QuarrelShooter_RapidFire",
+     "kind": "dano"
+    },
+    {
+     "slug": "teardown",
+     "name": "Teardown",
+     "summary": "Demole obstáculos e machuca inimigos próximos.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "QuarrelShooter_Teardown",
+     "kind": "apoio"
+    },
+    {
+     "slug": "running-shot",
+     "name": "Running Shot",
+     "summary": "Fortalece e acelera ataques básicos durante movimento.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "QuarrelShooter_RunningShot",
+     "kind": "apoio"
+    }
+   ]
+  },
+  {
+   "class_id": "ranger",
+   "name": "Ranger",
+   "base": "archer",
+   "rank": 2,
+   "summary": "Arqueiro ofensivo que alterna rajadas, tiros perfurantes e flechas de múltiplos acertos.",
+   "skills": [
+    {
+     "slug": "barrage",
+     "name": "Barrage",
+     "summary": "Rajada de flechas em leque frontal.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Ranger_Barrage",
+     "kind": "dano"
+    },
+    {
+     "slug": "high-anchoring",
+     "name": "High Anchoring",
+     "summary": "Tiro perfurante contra inimigos em linha.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Ranger_HighAnchoring",
+     "kind": "dano"
+    },
+    {
+     "slug": "critical-shot",
+     "name": "Critical Shot",
+     "summary": "Disparo com chance elevada de crítico.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Ranger_CriticalShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "steady-aim",
+     "name": "Steady Aim",
+     "summary": "Postura que aumenta dano de projéteis.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Ranger_SteadyAim",
+     "kind": "apoio"
+    },
+    {
+     "slug": "time-bomb-arrow",
+     "name": "Time Bomb Arrow",
+     "summary": "Flecha com explosivo de detonação retardada.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Ranger_TimeBombArrow",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "bounce-shot",
+     "name": "Bounce Shot",
+     "summary": "Flecha que se divide e atinge inimigos próximos.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Ranger_BounceShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "spiral-arrow",
+     "name": "Spiral Arrow",
+     "summary": "Flecha giratória com múltiplos acertos.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Ranger_SpiralArrow",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "hunter",
+   "name": "Hunter",
+   "base": "archer",
+   "rank": 3,
+   "summary": "Combate por meio do companheiro, comandando imobilizações, investidas, busca e perseguição.",
+   "skills": [
+    {
+     "slug": "coursing",
+     "name": "Coursing",
+     "summary": "Companheiro segura o alvo e enfraquece sua defesa.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hunter_Coursing",
+     "kind": "dano"
+    },
+    {
+     "slug": "snatching",
+     "name": "Snatching",
+     "summary": "Companheiro derruba um voador e provoca sangramento.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hunter_Snatching",
+     "kind": "apoio"
+    },
+    {
+     "slug": "praise",
+     "name": "Praise",
+     "summary": "Reforça ataque, precisão e crítico do companheiro.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hunter_Praise",
+     "kind": "apoio"
+    },
+    {
+     "slug": "pointing",
+     "name": "Pointing",
+     "summary": "Companheiro distrai o alvo, reduzindo esquiva e precisão.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hunter_Pointing",
+     "kind": "apoio"
+    },
+    {
+     "slug": "rush-dog",
+     "name": "Rush Dog",
+     "summary": "Ordena uma investida ofensiva do companheiro.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Hunter_RushDog",
+     "kind": "dano"
+    },
+    {
+     "slug": "retrieve",
+     "name": "Retrieve",
+     "summary": "Companheiro arrasta o inimigo até você.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Hunter_Retrieve",
+     "kind": "dano"
+    },
+    {
+     "slug": "hounding",
+     "name": "Hounding",
+     "summary": "Companheiro procura inimigos escondidos.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Hunter_Hounding",
+     "kind": "apoio"
+    },
+    {
+     "slug": "growling",
+     "name": "Growling",
+     "summary": "Companheiro intimida e impede aproximação.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Hunter_Growling",
+     "kind": "apoio"
+    }
+   ]
+  },
+  {
+   "class_id": "sapper",
+   "name": "Sapper",
+   "base": "archer",
+   "rank": 3,
+   "summary": "Armador de explosivos e armadilhas para controlar passagens e causar dano em área.",
+   "skills": [
+    {
+     "slug": "stake-stockades",
+     "name": "Stake Stockades",
+     "summary": "Armadilha de estacas que fere ao contato.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Sapper_StakeStockades",
+     "kind": "dano"
+    },
+    {
+     "slug": "conceal",
+     "name": "Conceal",
+     "summary": "Esconde uma armadilha preparada.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Sapper_Cover",
+     "kind": "apoio"
+    },
+    {
+     "slug": "claymore",
+     "name": "Claymore",
+     "summary": "Instala explosivo acionado ao reutilizar a habilidade.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Sapper_Claymore",
+     "kind": "dano"
+    },
+    {
+     "slug": "punji-stake",
+     "name": "Punji Stake",
+     "summary": "Armadilha que arremessa inimigos para longe.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Sapper_PunjiStake",
+     "kind": "dano"
+    },
+    {
+     "slug": "detonate-traps",
+     "name": "Detonate Traps",
+     "summary": "Explode armadilhas e círculos mágicos próximos.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Sapper_DetonateTraps",
+     "kind": "dano"
+    },
+    {
+     "slug": "broom-trap",
+     "name": "Broom Trap",
+     "summary": "Armadilha giratória que atinge uma área.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Sapper_BroomTrap",
+     "kind": "dano"
+    },
+    {
+     "slug": "collar-bomb",
+     "name": "Collar Bomb",
+     "summary": "Prende bomba que explode ao contato com outro inimigo.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Sapper_CollarBomb",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "spike-shooter",
+     "name": "Spike Shooter",
+     "summary": "Armadilha de fio que dispara flechas.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Sapper_SpikeShooter",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "wugushi",
+   "name": "Wugushi",
+   "base": "archer",
+   "rank": 4,
+   "summary": "Especialista em venenos duradouros, contágio e poças tóxicas, com antídotos e insetos venenosos.",
+   "skills": [
+    {
+     "slug": "detoxify",
+     "name": "Detoxify",
+     "summary": "Remove veneno ou reduz sua duração.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Wugushi_Detoxify",
+     "kind": "apoio"
+    },
+    {
+     "slug": "needle-blow",
+     "name": "Needle Blow",
+     "summary": "Disparo venenoso que causa dano prolongado.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Wugushi_NeedleBlow",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "bewitch",
+     "name": "Bewitch",
+     "summary": "Confunde um inimigo envenenado.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Wugushi_Bewitch",
+     "kind": "apoio"
+    },
+    {
+     "slug": "wugong-gu",
+     "name": "Wugong Gu",
+     "summary": "Veneno que se espalha quando o alvo é atacado.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Wugushi_WugongGu",
+     "kind": "dano"
+    },
+    {
+     "slug": "zhendu",
+     "name": "Zhendu",
+     "summary": "Envenena o próximo ataque das armas do grupo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Wugushi_Zhendu",
+     "kind": "apoio"
+    },
+    {
+     "slug": "throw-gu-pot",
+     "name": "Throw Gu Pot",
+     "summary": "Arremessa um pote e cria uma poça venenosa.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Wugushi_ThrowGuPot",
+     "kind": "dano"
+    },
+    {
+     "slug": "jincan-gu",
+     "name": "Jincan Gu",
+     "summary": "Aplica veneno que gera insetos após derrotar alvos.",
+     "circle": 3,
+     "status": "em-revisao",
+     "melia_class": "Wugushi_JincanGu",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "fletcher",
+   "name": "Fletcher",
+   "base": "archer",
+   "rank": 5,
+   "summary": "Artesão de flechas especiais que explora sangramento, armadura, explosões e áreas de fogo.",
+   "skills": [
+    {
+     "slug": "broadhead",
+     "name": "Broadhead",
+     "summary": "Flecha de ponta larga que provoca sangramento.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Fletcher_BroadHead",
+     "kind": "dano"
+    },
+    {
+     "slug": "bodkin-point",
+     "name": "Bodkin Point",
+     "summary": "Flecha que reduz defesa e desfaz proteção mágica.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Fletcher_BodkinPoint",
+     "kind": "dano"
+    },
+    {
+     "slug": "barbed-arrow",
+     "name": "Barbed Arrow",
+     "summary": "Acertos variam conforme o tipo de armadura inimiga.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Fletcher_BarbedArrow",
+     "kind": "dano"
+    },
+    {
+     "slug": "crossfire",
+     "name": "Crossfire",
+     "summary": "Flecha que produz uma explosão em cruz.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Fletcher_CrossFire",
+     "kind": "dano"
+    },
+    {
+     "slug": "magic-arrow",
+     "name": "Magic Arrow",
+     "summary": "Flecha que deixa chamas causando dano na área.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Fletcher_MagicArrow",
+     "kind": "dano"
+    },
+    {
+     "slug": "divine-machine-arrow",
+     "name": "Divine Machine Arrow",
+     "summary": "Flecha explosiva com dano colateral retardado.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Fletcher_Singijeon",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "falconer",
+   "name": "Falconer",
+   "base": "archer",
+   "rank": 6,
+   "summary": "Controla um falcão para reconhecimento de posição, ataques aéreos e apoio ao dano em área.",
+   "skills": [
+    {
+     "slug": "call",
+     "name": "Call",
+     "summary": "Chama o falcão de volta.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Falconer_Calling",
+     "kind": "apoio"
+    },
+    {
+     "slug": "roost",
+     "name": "Roost",
+     "summary": "Instala um poleiro para o falcão aguardar ordens.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Falconer_BuildRoost",
+     "kind": "apoio"
+    },
+    {
+     "slug": "circling",
+     "name": "Circling",
+     "summary": "Falcão reduz a defesa de área dos inimigos próximos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Falconer_Circling",
+     "kind": "apoio"
+    },
+    {
+     "slug": "hovering",
+     "name": "Hovering",
+     "summary": "Falcão ataca quem passa abaixo da área marcada.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Falconer_Hovering",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "pheasant",
+     "name": "Pheasant",
+     "summary": "Ordena ataque do falcão numa área usando um boneco.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Falconer_Pheasant",
+     "kind": "dano"
+    },
+    {
+     "slug": "hanging-shot",
+     "name": "Hanging Shot",
+     "summary": "Permite atacar pendurado no falcão, evitando golpes próximos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Falconer_HangingShot",
+     "kind": "apoio"
+    },
+    {
+     "slug": "sonic-strike",
+     "name": "Sonic Strike",
+     "summary": "Ordena vários mergulhos ofensivos do falcão.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Falconer_BlisteringThrash",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "cannoneer",
+   "name": "Cannoneer",
+   "base": "archer",
+   "rank": 7,
+   "summary": "Especialista em canhão, com explosões contra grupos, voadores e estruturas.",
+   "skills": [
+    {
+     "slug": "cannon-shot",
+     "name": "Cannon Shot",
+     "summary": "Disparo de canhão favorecido contra alvos no chão.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cannoneer_CannonShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "shootdown",
+     "name": "Shootdown",
+     "summary": "Disparo de canhão favorecido contra voadores.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cannoneer_ShootDown",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "siege-burst",
+     "name": "Siege Burst",
+     "summary": "Bombardeio especialmente eficaz contra estruturas.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cannoneer_SiegeBurst",
+     "kind": "dano"
+    },
+    {
+     "slug": "cannon-blast",
+     "name": "Cannon Blast",
+     "summary": "Explosão de canhão contra inimigos à frente.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Cannoneer_CannonBlast",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "musketeer",
+   "name": "Musketeer",
+   "base": "archer",
+   "rank": 7,
+   "summary": "Atirador de mosquete com disparos de precisão, penetração e recursos para combate próximo.",
+   "skills": [
+    {
+     "slug": "covering-fire",
+     "name": "Covering Fire",
+     "summary": "Rajada de cobertura sobre uma área.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Musketeer_CoveringFire",
+     "kind": "dano"
+    },
+    {
+     "slug": "headshot",
+     "name": "Headshot",
+     "summary": "Tiro na cabeça que reduz INT e SPR.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Musketeer_HeadShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "snipe",
+     "name": "Snipe",
+     "summary": "Tiro potente de longo alcance contra um alvo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Musketeer_Snipe",
+     "kind": "dano"
+    },
+    {
+     "slug": "penetration-shot",
+     "name": "Penetration Shot",
+     "summary": "Disparos em linha que podem empurrar inimigos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Musketeer_PenetrationShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "butt-stroke",
+     "name": "Butt Stroke",
+     "summary": "Pancada com a coronha contra um alvo próximo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Musketeer_ButtStroke",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "bayonet-thrust",
+     "name": "Bayonet Thrust",
+     "summary": "Estocada de baioneta que pode empurrar.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Musketeer_BayonetThrust",
+     "kind": "dano-pendente"
+    }
+   ]
+  },
+  {
+   "class_id": "appraiser",
+   "name": "Appraiser",
+   "base": "archer",
+   "rank": 4,
+   "summary": "Avaliação de itens, observação de inimigos e uso de lentes.",
+   "skills": [
+    {
+     "slug": "identify",
+     "name": "Identify",
+     "summary": "Identifica itens em uma loja.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Appraiser_Apprise",
+     "kind": "apoio"
+    },
+    {
+     "slug": "expose-weakness",
+     "name": "Expose Weakness",
+     "summary": "Expõe fraquezas e favorece críticos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Appraiser_Blindside",
+     "kind": "apoio"
+    },
+    {
+     "slug": "devaluation",
+     "name": "Devaluation",
+     "summary": "Reduz defesas do alvo.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Appraiser_Devaluation",
+     "kind": "apoio"
+    },
+    {
+     "slug": "high-scale-magnifying-glass",
+     "name": "High Scale Magnifying Glass",
+     "summary": "Melhora precisão e penetração de bloqueio.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Appraiser_HighMagnifyingGlass",
+     "kind": "apoio"
+    },
+    {
+     "slug": "huge-magnifier",
+     "name": "Huge Magnifier",
+     "summary": "Causa dano e espalha Devaluation.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Appraiser_LargeMagnifyingGlass",
+     "kind": "apoio"
+    },
+    {
+     "slug": "triplet-lense",
+     "name": "Triplet Lense",
+     "summary": "Lentes atacam inimigos automaticamente.",
+     "circle": 3,
+     "status": "em-revisao",
+     "melia_class": "Appraiser_TripletLens",
+     "kind": "apoio"
+    }
+   ]
+  },
+  {
+   "class_id": "mergen",
+   "name": "Mergen",
+   "base": "archer",
+   "rank": 6,
+   "summary": "Arco de duas mãos e ataques contra grupos.",
+   "skills": [
+    {
+     "slug": "arrow-sprinkle",
+     "name": "Arrow Sprinkle",
+     "summary": "Lança uma chuva de flechas em área.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Mergen_ArrowRain",
+     "kind": "dano"
+    },
+    {
+     "slug": "down-fall",
+     "name": "Down Fall",
+     "summary": "Flechas caem sobre um alvo.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Mergen_DownFall",
+     "kind": "dano"
+    },
+    {
+     "slug": "targeted-arrow",
+     "name": "Targeted Arrow",
+     "summary": "Dispara várias flechas mirando o inimigo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Mergen_FocusFire",
+     "kind": "dano"
+    },
+    {
+     "slug": "triple-arrow",
+     "name": "Triple Arrow",
+     "summary": "Três flechas explodem ao atingir.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Mergen_TrickShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "spread-shot",
+     "name": "Spread Shot",
+     "summary": "Dispara em leque com ricochetes.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Mergen_Unload",
+     "kind": "dano"
+    },
+    {
+     "slug": "zenith",
+     "name": "Zenith",
+     "summary": "Treinamento aumenta a área de ataques.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Mergen_Zenith",
+     "kind": "apoio"
+    }
+   ]
+  },
+  {
+   "class_id": "arbalester",
+   "name": "Arbalester",
+   "base": "archer",
+   "rank": 5,
+   "summary": "Besta, marcação de alvos, mobilidade e projéteis guiados.",
+   "skills": [
+    {
+     "slug": "dark-judgement",
+     "name": "Dark Judgement",
+     "summary": "Explosão marca inimigos.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Arbalester_DarkJudgement",
+     "kind": "dano"
+    },
+    {
+     "slug": "dead-zone",
+     "name": "Dead Zone",
+     "summary": "Flechas atingem a área próxima.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Arbalester_DeadZone",
+     "kind": "dano"
+    },
+    {
+     "slug": "escape",
+     "name": "Escape",
+     "summary": "Recua, dispara e deixa uma marca.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Arbalester_Escape",
+     "kind": "dano"
+    },
+    {
+     "slug": "fanwise-shots",
+     "name": "Fanwise Shots",
+     "summary": "Dispara vários projéteis em leque.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Arbalester_FanwiseShots",
+     "kind": "dano"
+    },
+    {
+     "slug": "guided-shot",
+     "name": "Guided Shot",
+     "summary": "Dispara projéteis e marca alvos.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Arbalester_GuidedShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "shining-burst",
+     "name": "Shining Burst",
+     "summary": "Dispara girando e permite movimento.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Arbalester_ShiningBurst",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "scout",
+   "name": "Scout",
+   "base": "scout",
+   "rank": 1,
+   "summary": "Especialização histórica de Archer: furtividade, reconhecimento, sinalizadores e tiros que ricocheteiam.",
+   "skills": [
+    {
+     "slug": "dagger-slash",
+     "name": "Dagger Slash",
+     "summary": "Cortes rápidos de adaga, com mais de um golpe.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Scout_DaggerSlash",
+     "kind": "dano"
+    },
+    {
+     "slug": "oblique-fire",
+     "name": "Oblique Fire",
+     "summary": "Disparo de pistola que ricocheteia.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Scout_ObliqueFire",
+     "kind": "dano"
+    },
+    {
+     "slug": "cloaking",
+     "name": "Cloaking",
+     "summary": "Esconde o personagem dos inimigos por um tempo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Scout_Cloaking",
+     "kind": "apoio"
+    },
+    {
+     "slug": "free-step",
+     "name": "Free Step",
+     "summary": "Movimento ágil que facilita a fuga e o reposicionamento.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Scout_FreeStep",
+     "kind": "apoio"
+    },
+    {
+     "slug": "double-attack",
+     "name": "Double Attack",
+     "summary": "Prepara um ataque duplo para os próximos golpes.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Scout_DoubleAttack",
+     "kind": "apoio"
+    },
+    {
+     "slug": "camouflage",
+     "name": "Camouflage",
+     "summary": "Camuflagem que reduz a chance de ser notado.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Scout_Camouflage",
+     "kind": "apoio"
+    },
+    {
+     "slug": "perspective-distortion",
+     "name": "Perspective Distortion",
+     "summary": "Distorce a distância percebida pelos inimigos.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Scout_Undistance",
+     "kind": "apoio"
+    },
+    {
+     "slug": "scan",
+     "name": "Scan",
+     "summary": "Revela inimigos e armadilhas escondidos.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Scout_Scan",
+     "kind": "apoio"
+    }
+   ]
+  },
+  {
+   "class_id": "rogue",
+   "name": "Rogue",
+   "base": "scout",
+   "rank": 4,
+   "summary": "Emboscador de ataques pelas costas, enganos, adaga e aproveitamento de armadilhas inimigas.",
+   "skills": [
+    {
+     "slug": "sneak-hit",
+     "name": "Sneak Hit",
+     "summary": "Melhora a chance de crítico ao atacar pelas costas.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Rogue_SneakHit",
+     "kind": "apoio"
+    },
+    {
+     "slug": "feint",
+     "name": "Feint",
+     "summary": "Engana o alvo e reduz sua esquiva.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Rogue_Feint",
+     "kind": "dano"
+    },
+    {
+     "slug": "capture",
+     "name": "Capture",
+     "summary": "Rouba armadilhas e círculos para usá-los depois.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": null,
+     "kind": null
+    },
+    {
+     "slug": "vendetta",
+     "name": "Vendetta",
+     "summary": "Morte pelo disparo provoca explosão e reforça STR do grupo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": null,
+     "kind": null
+    },
+    {
+     "slug": "evasion",
+     "name": "Evasion",
+     "summary": "Aumenta a esquiva do usuário.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Rogue_Evasion",
+     "kind": "apoio"
+    },
+    {
+     "slug": "lachrymator",
+     "name": "Lachrymator",
+     "summary": "Lança gás que cega inimigos na área.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Rogue_Lachrymator",
+     "kind": "apoio"
+    },
+    {
+     "slug": "backstab",
+     "name": "Backstab",
+     "summary": "Golpes de adaga com crítico elevado e possível atordoamento.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Rogue_Backstab",
+     "kind": "dano"
+    },
+    {
+     "slug": "burrow",
+     "name": "Burrow",
+     "summary": "Esconde no solo; permite atacar sem se mover.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Rogue_Burrow",
+     "kind": "apoio"
+    }
+   ]
+  },
+  {
+   "class_id": "schwarzer-reiter",
+   "name": "Schwarzer Reiter",
+   "base": "scout",
+   "rank": 6,
+   "summary": "Atirador montado que usa pistola e besta, mantendo pressão durante avanços e recuos.",
+   "skills": [
+    {
+     "slug": "concentrated-fire",
+     "name": "Concentrated Fire",
+     "summary": "Sequência rápida de tiros contra um alvo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Schwarzereiter_ConcentratedFire",
+     "kind": "dano"
+    },
+    {
+     "slug": "caracole",
+     "name": "Caracole",
+     "summary": "Dispara à frente e recua pelo impulso.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Schwarzereiter_Caracole",
+     "kind": "dano"
+    },
+    {
+     "slug": "limacon",
+     "name": "Limacon",
+     "summary": "Ataca à frente durante manobras montadas.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Schwarzereiter_Limacon",
+     "kind": "apoio"
+    },
+    {
+     "slug": "retreat-shot",
+     "name": "Retreat Shot",
+     "summary": "Dispara na direção oposta ao deslocamento.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Schwarzereiter_RetreatShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "wild-shot",
+     "name": "Wild Shot",
+     "summary": "Combina tiros de besta e pistola.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": null,
+     "kind": null
+    }
+   ]
+  },
+  {
+   "class_id": "corsair",
+   "name": "Corsair",
+   "base": "scout",
+   "rank": 5,
+   "summary": "Pirata de gancho, pilhagem e duas armas, com sequências de adaga e acesso posterior à pistola.",
+   "skills": [
+    {
+     "slug": "jolly-roger",
+     "name": "Jolly Roger",
+     "summary": "Bandeira pirata com apoio ao grupo e chance de pilhagem.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Corsair_JollyRoger",
+     "kind": "apoio"
+    },
+    {
+     "slug": "iron-hook",
+     "name": "Iron Hook",
+     "summary": "Prende inimigos com um gancho.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Corsair_IronHook",
+     "kind": "apoio"
+    },
+    {
+     "slug": "keel-hauling",
+     "name": "Keel Hauling",
+     "summary": "Arrasta e machuca alvos presos pelo gancho.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Corsair_Keelhauling",
+     "kind": "dano"
+    },
+    {
+     "slug": "unlock-chest",
+     "name": "Unlock Chest",
+     "summary": "Abre baús de baixo nível com chave.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": null,
+     "kind": null
+    },
+    {
+     "slug": "dust-devil",
+     "name": "Dust Devil",
+     "summary": "Giro com duas armas que prende brevemente o alvo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Corsair_DustDevil",
+     "kind": "dano"
+    },
+    {
+     "slug": "double-weapon-assault",
+     "name": "Double Weapon Assault",
+     "summary": "Combina ataques básicos com ataques de adaga.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Corsair_SubweaponCancel",
+     "kind": "apoio"
+    },
+    {
+     "slug": "hexen-dropper",
+     "name": "Hexen Dropper",
+     "summary": "Sequência perfurante usando uma arma em cada mão.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Corsair_HexenDropper",
+     "kind": "dano"
+    },
+    {
+     "slug": "pistol-shot",
+     "name": "Pistol Shot",
+     "summary": "Dispara a pistola repetidamente contra inimigos à frente.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": null,
+     "kind": null
+    }
+   ]
+  },
+  {
+   "class_id": "squire",
+   "name": "Squire",
+   "base": "scout",
+   "rank": 5,
+   "summary": "Ofício de manutenção e apoio: reparos, melhorias temporárias, acampamento e refeições para o grupo.",
+   "skills": [
+    {
+     "slug": "arrest",
+     "name": "Arrest",
+     "summary": "Imobiliza inimigos com uma amarra.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Squire_Arrest",
+     "kind": "apoio"
+    },
+    {
+     "slug": "repair",
+     "name": "Repair",
+     "summary": "Abre uma loja de reparo de equipamentos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Squire_Repair",
+     "kind": "apoio"
+    },
+    {
+     "slug": "weapon-maintenance",
+     "name": "Weapon Maintenance",
+     "summary": "Serviço que melhora temporariamente o ataque de armas.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": null,
+     "kind": null
+    },
+    {
+     "slug": "armor-maintenance",
+     "name": "Armor Maintenance",
+     "summary": "Serviço que melhora temporariamente a defesa de equipamentos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": null,
+     "kind": null
+    },
+    {
+     "slug": "base-camp",
+     "name": "Base Camp",
+     "summary": "Monta acampamento com armazenamento, transporte e suporte.",
+     "circle": 2,
+     "status": "em-revisao",
+     "melia_class": "Squire_Camp",
+     "kind": "apoio"
+    },
+    {
+     "slug": "refreshment-table",
+     "name": "Refreshment Table",
+     "summary": "Prepara comidas de reforço junto ao acampamento.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Squire_FoodTable",
+     "kind": "apoio"
+    },
+    {
+     "slug": "penalty-reduction",
+     "name": "Penalty Reduction",
+     "summary": "Reduz penalidades de ficar incapacitado.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": null,
+     "kind": null
+    }
+   ]
+  },
+  {
+   "class_id": "shinobi",
+   "name": "Shinobi",
+   "base": "scout",
+   "rank": 7,
+   "summary": "Classe oculta de kunais, clones, contra-ataques e explosões; reúne combate físico e técnicas sobrenaturais.",
+   "skills": [
+    {
+     "slug": "kunai",
+     "name": "Kunai",
+     "summary": "Arremessa kunais contra múltiplos inimigos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Shinobi_Kunai",
+     "kind": "dano"
+    },
+    {
+     "slug": "bunshin-no-jutsu",
+     "name": "Bunshin no Jutsu",
+     "summary": "Cria clones que acompanham ações e habilidades.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Shinobi_Bunshin_no_jutsu",
+     "kind": "apoio"
+    },
+    {
+     "slug": "mokuton-no-jutsu",
+     "name": "Mokuton no Jutsu",
+     "summary": "Engana o atacante com um tronco e contra-ataca.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Shinobi_Mokuton_no_jutsu",
+     "kind": "apoio"
+    },
+    {
+     "slug": "katon-no-jutsu",
+     "name": "Katon no Jutsu",
+     "summary": "Ataca com explosões de pólvora.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Shinobi_Katon_no_jutsu",
+     "kind": "dano"
+    },
+    {
+     "slug": "mijin-no-jutsu",
+     "name": "Mijin no Jutsu",
+     "summary": "Explosão próxima que também fere o próprio usuário.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": null,
+     "kind": null
+    }
+   ]
+  },
+  {
+   "class_id": "alchemist",
+   "name": "Alchemist",
+   "base": "scout",
+   "rank": 6,
+   "summary": "Ofício de alquimia: poções, combinações, despertar de itens e tratamento de gemas.",
+   "skills": [
+    {
+     "slug": "combustion",
+     "name": "Combustion",
+     "summary": "Explode itens no chão para atingir inimigos próximos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Alchemist_Combustion",
+     "kind": "dano"
+    },
+    {
+     "slug": "dig",
+     "name": "Dig",
+     "summary": "Escava materiais para alquimia.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Alchemist_Dig",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "item-awakening",
+     "name": "Item Awakening",
+     "summary": "Desafio que revela uma propriedade oculta do item.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Alchemist_ItemAwakening",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "briquetting",
+     "name": "Briquetting",
+     "summary": "Combina itens para alterar suas propriedades, com risco.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Alchemist_Briquetting",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "tincturing",
+     "name": "Tincturing",
+     "summary": "Produz poções a partir de ervas.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Alchemist_Tincturing",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "magnum-opus",
+     "name": "Magnum Opus",
+     "summary": "Combina materiais por alquimia para criar itens.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Alchemist_MagnumOpus",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "gem-roasting",
+     "name": "Gem Roasting",
+     "summary": "Abre serviço que reduz penalidades de gemas.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Alchemist_Roasting",
+     "kind": "dano-pendente"
+    }
+   ]
+  },
+  {
+   "class_id": "plague-doctor",
+   "name": "Plague Doctor",
+   "base": "scout",
+   "rank": 7,
+   "summary": "Especialista em estados negativos, cura reativa, prevenção, propagação de efeitos e incineração.",
+   "skills": [
+    {
+     "slug": "healing-factor",
+     "name": "Healing Factor",
+     "summary": "Concede recuperação rápida de HP após sofrer dano.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "PlagueDoctor_HealingFactor",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "incineration",
+     "name": "Incineration",
+     "summary": "Queima alvos afetados por estados negativos.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "PlagueDoctor_Incineration",
+     "kind": "dano"
+    },
+    {
+     "slug": "bloodletting",
+     "name": "Bloodletting",
+     "summary": "Protege contra certos estados negativos usando sangria.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "PlagueDoctor_Bloodletting",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "fumigate",
+     "name": "Fumigate",
+     "summary": "Nuvem de antídoto que remove estados negativos aliados.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "PlagueDoctor_Fumigate",
+     "kind": "dano"
+    },
+    {
+     "slug": "pandemic",
+     "name": "Pandemic",
+     "summary": "Espalha estados negativos do alvo para outros inimigos.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "PlagueDoctor_Pandemic",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "beak-mask",
+     "name": "Beak Mask",
+     "summary": "Máscara medicada que protege contra certos estados negativos.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "PlagueDoctor_BeakMask",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "assassin",
+   "name": "Assassin",
+   "base": "scout",
+   "rank": 2,
+   "summary": "Combatente de adagas, emboscadas, fumaça e preparados Hasisas.",
+   "skills": [
+    {
+     "slug": "annihilation",
+     "name": "Annihilation",
+     "summary": "Ataques rápidos próximos, com ocultação e proteção durante a execução.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "Assassin_Annihilation",
+     "kind": "dano"
+    },
+    {
+     "slug": "behead",
+     "name": "Behead",
+     "summary": "Golpe de adaga que provoca sangramento.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "Assassin_Behead",
+     "kind": "dano"
+    },
+    {
+     "slug": "hallucination-smoke",
+     "name": "Hallucination Smoke",
+     "summary": "Fumaça que prejudica a visão, a precisão e a esquiva.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "Assassin_HallucinationSmoke",
+     "kind": "dano-pendente"
+    },
+    {
+     "slug": "hasisas",
+     "name": "Hasisas",
+     "summary": "Preparado que melhora temporariamente capacidades físicas e ataques críticos.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "Assassin_Hasisas",
+     "kind": "apoio"
+    },
+    {
+     "slug": "instant-acceleration",
+     "name": "Instant Acceleration",
+     "summary": "Avanço rápido para atingir um inimigo distante.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "Assassin_InstantaneousAcceleration",
+     "kind": "dano"
+    },
+    {
+     "slug": "piercing-heart",
+     "name": "Piercing Heart",
+     "summary": "Estocada que atravessa parte da defesa e impede recuperação de HP.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "Assassin_PiercingHeart",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "outlaw",
+   "name": "Outlaw",
+   "base": "scout",
+   "rank": 3,
+   "summary": "Lutador de rua com provocação, esquiva, areia, tijolos, adaga e pistola.",
+   "skills": [
+    {
+     "slug": "aggress",
+     "name": "Aggress",
+     "summary": "Provoca inimigos e reduz sua esquiva.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "OutLaw_Aggress",
+     "kind": "apoio"
+    },
+    {
+     "slug": "brick-smash",
+     "name": "Brick Smash",
+     "summary": "Golpe com tijolo que pode atordoar e enfraquece críticos inimigos.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "OutLaw_BreakBrick",
+     "kind": "dano"
+    },
+    {
+     "slug": "bully",
+     "name": "Bully",
+     "summary": "Aumenta a esquiva e a ameaça gerada ao evitar ataques.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "OutLaw_Bully",
+     "kind": "apoio"
+    },
+    {
+     "slug": "blindfire",
+     "name": "Blindfire",
+     "summary": "Disparos que intimidam; compartilha recarga com Mangle.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "OutLaw_FireBlindly",
+     "kind": "dano"
+    },
+    {
+     "slug": "mangle",
+     "name": "Mangle",
+     "summary": "Cortes de adaga que intimidam; compartilha recarga com Blindfire.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "OutLaw_Mangle",
+     "kind": "dano"
+    },
+    {
+     "slug": "rampage",
+     "name": "Rampage",
+     "summary": "Ataque em área com efeitos de esquiva e risco após o uso.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "OutLaw_Rampage",
+     "kind": "dano"
+    },
+    {
+     "slug": "throw-sand",
+     "name": "Throw Sand",
+     "summary": "Areia que cega, silencia e prejudica precisão e esquiva.",
+     "circle": null,
+     "status": "no-jogo",
+     "melia_class": "OutLaw_SprinkleSands",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "ardito",
+   "name": "Ardito",
+   "base": "scout",
+   "rank": 4,
+   "summary": "Adagas, granadas, preparados e combate de assalto.",
+   "skills": [
+    {
+     "slug": "granata",
+     "name": "Granata",
+     "summary": "Lança uma granada em área.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Arditi_Granata",
+     "kind": "dano"
+    },
+    {
+     "slug": "invasione",
+     "name": "Invasione",
+     "summary": "Estoca e interage com Gunpowder.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Arditi_Invasione",
+     "kind": "dano"
+    },
+    {
+     "slug": "recupero",
+     "name": "Recupero",
+     "summary": "Seringa recupera HP e stamina próprios.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Arditi_Recupero",
+     "kind": "apoio"
+    },
+    {
+     "slug": "ritirarsi",
+     "name": "Ritirarsi",
+     "summary": "Recua após soltar uma granada; evita dano.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Arditi_Ritirarsi",
+     "kind": "dano"
+    },
+    {
+     "slug": "taglio",
+     "name": "Taglio",
+     "summary": "Avança cortando e ganha mobilidade.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Arditi_Taglio",
+     "kind": "dano"
+    },
+    {
+     "slug": "tre-granate",
+     "name": "Tre Granate",
+     "summary": "Lança três coquetéis incendiários.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Arditi_TreGranata",
+     "kind": "dano"
+    }
+   ]
+  },
+  {
+   "class_id": "sheriff",
+   "name": "Sheriff",
+   "base": "scout",
+   "rank": 3,
+   "summary": "Pistolas, mobilidade, precisão e duelo.",
+   "skills": [
+    {
+     "slug": "aiming-shot",
+     "name": "Aiming Shot",
+     "summary": "Tiro inevitável remove benefícios inimigos.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Sheriff_AimingShot",
+     "kind": "dano"
+    },
+    {
+     "slug": "fanning",
+     "name": "Fanning",
+     "summary": "Dispara alternando pistolas.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Sheriff_Fanning",
+     "kind": "dano"
+    },
+    {
+     "slug": "peacemaker",
+     "name": "Peacemaker",
+     "summary": "Explosivo prejudica o alvo.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Sheriff_Peacemaker",
+     "kind": "dano"
+    },
+    {
+     "slug": "quick-draw",
+     "name": "Quick Draw",
+     "summary": "Saca e dispara rapidamente.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Sheriff_QuickDraw",
+     "kind": "dano"
+    },
+    {
+     "slug": "redemption",
+     "name": "Redemption",
+     "summary": "Melhora esquiva e movimento.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Sheriff_Redemption",
+     "kind": "apoio"
+    },
+    {
+     "slug": "westraid",
+     "name": "Westraid",
+     "summary": "Recarga concede acertos garantidos.",
+     "circle": 3,
+     "status": "no-jogo",
+     "melia_class": "Sheriff_Westraid",
+     "kind": "apoio"
+    }
+   ]
+  },
+  {
+   "class_id": "clown",
+   "name": "Clown",
+   "base": "scout",
+   "rank": 2,
+   "summary": "Facas arremessadas, movimentação e truques de combate.",
+   "skills": [
+    {
+     "slug": "climax",
+     "name": "Climax",
+     "summary": "Arremessa facas e ativa facas no chão.",
+     "circle": 3,
+     "status": "em-revisao",
+     "melia_class": "Clown_Climax",
+     "kind": "dano"
+    },
+    {
+     "slug": "clown-walk",
+     "name": "Clown Walk",
+     "summary": "Passos confundem e limitam movimento inimigo.",
+     "circle": 1,
+     "status": "no-jogo",
+     "melia_class": "Clown_ClownWalk",
+     "kind": "apoio"
+    },
+    {
+     "slug": "fatal-roulette",
+     "name": "Fatal Roulette",
+     "summary": "Gira arremessando facas.",
+     "circle": 2,
+     "status": "em-revisao",
+     "melia_class": "Clown_FatalRoulette",
+     "kind": "dano"
+    },
+    {
+     "slug": "replica",
+     "name": "Replica",
+     "summary": "Lança facas que caem e reagem a habilidades.",
+     "circle": 3,
+     "status": "em-revisao",
+     "melia_class": "Clown_Replica",
+     "kind": "dano"
+    },
+    {
+     "slug": "spinning-knife",
+     "name": "Spinning Knife",
+     "summary": "Arremessa uma faca com trajetória de retorno.",
+     "circle": 1,
+     "status": "em-revisao",
+     "melia_class": "Clown_SpinningKnife",
+     "kind": "dano"
+    },
+    {
+     "slug": "trick-or-treat",
+     "name": "Trick or Treat",
+     "summary": "Espalha facas e aplica bônus ou penalidades.",
+     "circle": 2,
+     "status": "no-jogo",
+     "melia_class": "Clown_TrickorTreat",
+     "kind": "apoio"
+    }
+   ]
+  }
+ ]
+}

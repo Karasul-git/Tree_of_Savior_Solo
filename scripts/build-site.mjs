@@ -13,6 +13,7 @@ catalog.later_classes = JSON.parse(await readFile(path.join(root, 'data/catalog/
 catalog.solo_review = JSON.parse(await readFile(path.join(root, 'data/proposals/availability-summary.json'), 'utf8')).classes;
 const allClasses = [...catalog.classes, ...catalog.later_classes];
 const solo = JSON.parse(await readFile(path.join(root, 'data/catalog/classes-solo.json'), 'utf8'));
+const skillCatalog = JSON.parse(await readFile(path.join(root, 'data/skills/skills.json'), 'utf8')).classes;
 const bossData = JSON.parse(await readFile(path.join(root, 'data/bosses.json'), 'utf8'));
 const bossGroups = Object.fromEntries(JSON.parse(await readFile(path.join(root, 'data/proposals/story-bosses.json'), 'utf8')).visual_categories.map(c => [c.id, c.label]));
 const classes = [
@@ -90,6 +91,11 @@ const documents = [
   ['docs/projeto-solo/chefes/README.md', 'Catálogo de chefes'],
   ...bossData.bosses.map(b => [`docs/projeto-solo/chefes/${b.slug}.md`, `${b.name} · Chefe`]),
   ['docs/projeto-solo/chefes/revisao.md', 'Revisão dos chefes'],
+  ['docs/habilidades/README.md', 'Habilidades'],
+  ...skillCatalog.flatMap(c => [
+    [`docs/habilidades/${c.class_id}/README.md`, `Habilidades de ${c.name}`],
+    ...c.skills.map(s => [`docs/habilidades/${c.class_id}/${s.slug}.md`, `${s.name} · ${c.name}`]),
+  ]),
 ].filter(([source]) => isPublished(source));
 const outPath = source => source.replace(/(^|\/)README\.md$/, '$1index.html').replace(/\.md$/, '.html');
 const escape = text => String(text).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
@@ -106,7 +112,7 @@ function shell(title, current, content, toc = [], classInfo) {
   const contextClass = allClasses.find(c => current === `docs/classes/catalogo/${c.id}.html` || current === `docs/classes/${c.id}.html`);
   const treeState = readTreeState('', catalog, solo, contextClass?.id);
   const nav = [
-    group('O JOGO', [link('index.html', '<span>⌂</span> Início'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Classes do jogo'), link('docs/projeto-solo/chefes/index.html', 'Chefes'), link('docs/projeto-solo/chefes/revisao.html', 'Revisão dos chefes')]),
+    group('O JOGO', [link('index.html', '<span>⌂</span> Início'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Classes do jogo'), link('docs/habilidades/index.html', 'Habilidades'), link('docs/projeto-solo/chefes/index.html', 'Chefes'), link('docs/projeto-solo/chefes/revisao.html', 'Revisão dos chefes')]),
     `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
     group('ORIGINAL DE 2016', [link('docs/classes/catalogo-2016.html?view=2016', 'Todas as classes de 2016'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build'), link('docs/sistemas/barracao-e-grupo.html', 'Barracão, equipe e grupo'), link('docs/sistemas/economia-2016.html', 'Economia'), link('docs/sistemas/recuperacao-2016.html', 'Recuperação'), link('docs/historia/historia-e-mundo.html', 'História e mundo')]),
     group('REFERÊNCIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('docs/versao-navegavel.html', 'Sobre esta wiki')]),
@@ -207,7 +213,9 @@ for (const [source, title] of documents) {
   if (contextEntry) {
     const treeRoot = (path.posix.relative(path.posix.dirname(current), '.') || '.') + '/';
     const contextState = readTreeState('', catalog, solo, contextEntry.id);
-    content = `<div id="class-tree-context">${renderClassContext(catalog, solo, contextState, contextEntry.id, treeRoot)}</div>` + content;
+    const inGame = skillCatalog.find(c => c.class_id === contextEntry.id);
+    const skillLink = inGame ? `<p class="skill-link"><a href="${treeRoot}docs/habilidades/${inGame.class_id}/index.html">Ver as ${inGame.skills.length} habilidades de ${escape(inGame.name)} no jogo →</a></p>` : '';
+    content = `<div id="class-tree-context">${renderClassContext(catalog, solo, contextState, contextEntry.id, treeRoot)}</div>` + skillLink + content;
   }
   const classInfo = classes.find(c => source === `docs/classes/${c.slug}.md`);
   if (classInfo) content = content.replace('<p><img', '<p class="class-emblem"><img');
