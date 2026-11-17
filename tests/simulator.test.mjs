@@ -67,6 +67,12 @@ test('Archer e Scout no nível 120 conferem com a comparação das bases', () =>
   near(scout.hp, 10074, 30, 'HP do Scout');
 });
 
+test('o nível não é preenchido sozinho: sem pontos, o resultado usa só os iniciais', () => {
+  const r = compute(data, { base: 'warrior', level: 120, main: 'Sword', off: 'none', armor: 'leather', gearLevel: 120, weaponGrade: 1, skillLevel: 5, points: { str: 0, con: 0, int: 0, spr: 0, dex: 0 } });
+  assert.equal(r.stat.str, 7);
+  assert.equal(r.pointsUsed, 0);
+});
+
 test('abaixo do nível 15 não há monstro de referência', () => {
   assert.equal(compute(data, build('archer', 10)).fight, undefined);
 });

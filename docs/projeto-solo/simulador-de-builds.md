@@ -2,7 +2,7 @@
 
 [Todas as fórmulas](todas-as-formulas.md) · [Comparação das bases](comparacao-das-bases.md) · [Resumo do balanceamento](resumo-do-balanceamento.md)
 
-**Versão 1 · 17/11/2026.** Escolha uma base (Warrior, Archer ou Scout), o nível, a distribuição dos pontos e o equipamento. O simulador calcula HP, ataque, defesa, esquiva e crítico com as fórmulas do [inventário](todas-as-formulas.md) e mostra como o personagem se sai contra um monstro comum do mesmo nível. É possível comparar duas builds lado a lado e copiar o link para guardar ou enviar uma build.
+**Versão 1 · 17/11/2026.** O simulador começa vazio: escolha uma base (Warrior, Archer ou Scout), o nível, distribua os pontos e monte o equipamento, ou comece de um modelo pronto. Os botões "Limpar pontos" e "Limpar tudo" zeram a build. O simulador calcula HP, ataque, defesa, esquiva e crítico com as fórmulas do [inventário](todas-as-formulas.md) e mostra como o personagem se sai contra um monstro comum do mesmo nível. É possível comparar duas builds lado a lado e copiar o link para guardar ou enviar uma build.
 
 <div id="simulador"><noscript><p>O simulador precisa de JavaScript. As fórmulas estão em <a href="todas-as-formulas.html">Todas as fórmulas</a>.</p></noscript></div>
 

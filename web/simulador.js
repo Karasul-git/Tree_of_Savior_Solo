@@ -33,7 +33,14 @@ function fromPreset(preset, level = 120) {
   };
 }
 
-const state = { builds: [fromPreset(data.presets[0])], compare: false };
+function blank(level = 120, base = 'warrior') {
+  return {
+    base, level, main: 'Sword', off: 'none', armor: 'leather', weaponGrade: 1, sameGear: true, gearLevel: level,
+    skillLevel: data.constants.reference_skill_level, points: Object.fromEntries(ATTRIBUTES.map(k => [k, 0])),
+  };
+}
+
+const state = { builds: [blank()], compare: false };
 
 function loadHash() {
   try {
@@ -76,7 +83,9 @@ function effective(build) {
 
 function setLevel(build, level) {
   const next = Math.min(data.constants.max_level, Math.max(1, Math.round(level) || 1));
-  build.points = distribute(build.points, (next - 1) * data.constants.points_per_level);
+  const used = ATTRIBUTES.reduce((sum, k) => sum + (build.points[k] || 0), 0);
+  // Sem pontos distribuídos, continua sem pontos; senão mantém as proporções.
+  if (used > 0) build.points = distribute(build.points, (next - 1) * data.constants.points_per_level);
   build.level = next;
 }
 
@@ -102,7 +111,10 @@ function buildCard(index) {
   const card = el('section', { class: 'sim-card', 'aria-label': `Build ${index ? 'B' : 'A'}` });
   const rerender = () => { saveHash(); render(); };
 
-  card.append(el('h3', { text: `Build ${index ? 'B' : 'A'}` }));
+  card.append(el('div', { class: 'sim-card-head' }, el('h3', { text: `Build ${index ? 'B' : 'A'}` }),
+    el('span', { class: 'sim-card-actions' },
+      el('button', { type: 'button', class: 'sim-button small', onclick: () => { build.points = Object.fromEntries(ATTRIBUTES.map(k => [k, 0])); rerender(); }, text: 'Limpar pontos' }),
+      el('button', { type: 'button', class: 'sim-button small', onclick: () => { state.builds[index] = blank(build.level, build.base); rerender(); }, text: 'Limpar tudo' }))));
   card.append(field('Começar de um modelo', select([['', 'Escolha um modelo…'], ...data.presets.map(p => [p.id, p.label])], '', id => {
     const preset = data.presets.find(p => p.id === id);
     if (preset) { state.builds[index] = fromPreset(preset, build.level); rerender(); }
