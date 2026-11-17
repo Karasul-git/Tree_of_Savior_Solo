@@ -1,6 +1,6 @@
 # Specter Monarch
 
-[6.3 Catálogo de chefes](README.md) · [6.2 Chefes da história](../chefes-da-historia.md) · [Revisar na página inicial](../../../README.md#revisao-chefes)
+[Catálogo de chefes](README.md) · [Revisão dos chefes](revisao.md)
 
 ![Retrato de Specter Monarch](../../assets/bosses/boss_spector_m.png)
 

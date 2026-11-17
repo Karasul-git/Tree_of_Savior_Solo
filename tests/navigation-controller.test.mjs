@@ -113,5 +113,5 @@ test('filtro de rank solo persiste em URL, retorno da ficha e navegação para t
   app.pop(restore);
   assert.equal(app.fields.rank.value, '4');
   assert.equal(app.nodes.get('#catalog-count').textContent, '2 de 12 especializações');
-  assert.ok(app.nodes.get('#rank-coverage').innerHTML.includes('Meta: duas especializações por rank'));
+  assert.ok(app.nodes.get('#rank-coverage').innerHTML.includes('Duas especializações por rank'));
 });

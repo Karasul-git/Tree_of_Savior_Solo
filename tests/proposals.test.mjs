@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { treeRankCoverage, readTreeState, branchEntries, renderClassContext } from '../web/trees.mjs';
 
 const read = file => JSON.parse(readFileSync(new URL('../' + file, import.meta.url)));
@@ -36,8 +36,8 @@ test('as 36 avaliações preservam o inventário atual e não inventam círculos
   const lens = proposal.classes.find(c => c.class_id === 'appraiser').skills.find(s => s.name === 'Triplet Lense');
   assert.equal(lens.assessment, 'hold');
   const appraiser = readFileSync(new URL('../dist/docs/classes/catalogo/appraiser.html', import.meta.url), 'utf8');
-  assert.ok(appraiser.includes('Pendente · suspensa por enquanto'));
-  assert.ok(appraiser.includes('não a inclui no kit jogável'));
+  // Os estudos ficam só no repositório: a página publicada não traz a avaliação.
+  assert.ok(!appraiser.includes('Pendente · suspensa por enquanto'));
 });
 
 test('facas continuam pendentes de animação e a passiva de lentes não tem efeito aprovado', () => {
@@ -64,13 +64,12 @@ test('a revisão cobre as outras classes e diferencia nomes de magia, tema e fun
   const withReview = { ...catalog, solo_review: summary.classes };
   const soloState = readTreeState('', withReview, solo, 'monk');
   const context = renderClassContext(withReview, solo, soloState, 'monk', '../../../');
-  assert.ok(context.includes('Revisão temática'));
-  assert.ok(context.includes('sem certificação de funcionamento no cliente'));
+  assert.ok(!context.includes('Revisão temática'));
+  assert.ok(!context.includes('sem certificação de funcionamento no cliente'));
   const historical = renderClassContext(withReview, solo, readTreeState('?view=2016', withReview, solo, 'monk'), 'monk', '../../../');
   assert.ok(!historical.includes('Revisão temática'));
-  const published = readFileSync(new URL('../dist/docs/projeto-solo/disponibilidade-das-classes.html', import.meta.url), 'utf8');
-  assert.ok(published.includes('39 classes'));
-  assert.ok(published.includes('229 habilidades'));
+  // A página de estudo do elenco não é publicada.
+  assert.ok(!existsSync(new URL('../dist/docs/projeto-solo/disponibilidade-das-classes.html', import.meta.url)));
 });
 
 test('as 18 novas imagens têm procedência e todas as fichas publicadas têm os dois visuais', () => {
@@ -80,7 +79,7 @@ test('as 18 novas imagens têm procedência e todas as fichas publicadas têm os
     const html = readFileSync(new URL(`../dist/docs/classes/catalogo/${c.class_id}.html`, import.meta.url), 'utf8');
     assert.ok(html.includes(`/assets/classes/${c.class_id}/female.gif`));
     assert.ok(html.includes(`/assets/classes/${c.class_id}/male.gif`));
-    assert.ok(html.includes('Círculo proposto'));
-    assert.ok(html.includes('seis-classes-habilidades-e-circulos.html'));
+    assert.ok(!html.includes('Círculo proposto'));
+    assert.ok(!html.includes('seis-classes-habilidades-e-circulos.html'));
   }
 });

@@ -1,10 +1,10 @@
 # Catálogo de chefes
 
-[Índice do projeto](../indice.md) · [6.2 Chefes da história](../chefes-da-historia.md) · [Revisar na página inicial](../../../README.md#revisao-chefes)
+[Revisão dos chefes](revisao.md)
 
 Os **62 chefes** que eram demônios em 2016, agrupados pelo retrato e organizados pela proposta de papel na história sem sobrenatural. Cada chefe tem uma página com retrato, proposta e textos de 2016.
 
-**Revisão:** 0 aprovados, 0 rejeitados, 62 pendentes. Para aprovar ou rejeitar, use a [revisão dos chefes](../../../README.md#revisao-chefes) na página inicial do site.
+**Revisão:** 0 aprovados, 0 rejeitados, 62 pendentes. Para aprovar ou rejeitar, use a [revisão dos chefes](revisao.md).
 
 Retratos do jogo atual coletados da base de fãs tos.guru, sem alteração; identidade com 2016 não verificada. [F141](../../fontes.md#f141)
 
