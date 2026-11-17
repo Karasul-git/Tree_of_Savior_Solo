@@ -49,6 +49,7 @@ const documents = [
   ['docs/projeto-solo/chefes-elites-masmorras.md', 'Elites, chefes e masmorras'],
   ['docs/projeto-solo/curva-de-experiencia.md', 'Curva de experiência'],
   ['docs/projeto-solo/resumo-do-balanceamento.md', 'Resumo do balanceamento'],
+  ['docs/projeto-solo/todas-as-formulas.md', 'Todas as fórmulas'],
   ['docs/projeto-solo/cura-e-pocoes.md', 'Cura e poções'],
   ['docs/projeto-solo/ciclo-de-recuperacao.md', 'Ciclo de recuperação'],
   ['docs/projeto-solo/economia-das-pocoes.md', 'Economia das poções'],

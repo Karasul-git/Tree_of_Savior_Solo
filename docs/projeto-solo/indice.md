@@ -34,6 +34,7 @@ Todas as páginas do projeto, numeradas por assunto e na ordem em que foram cria
 - **4.7** · [Chefes, elites e masmorras](chefes-elites-masmorras.md)
 - **4.8** · [Curva de experiência](curva-de-experiencia.md)
 - **4.9** · [Resumo do balanceamento](resumo-do-balanceamento.md)
+- **4.10** · [Todas as fórmulas](todas-as-formulas.md)
 
 ## 5. Sustentação e economia
 
