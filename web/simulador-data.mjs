@@ -7,6 +7,7 @@ export function simulatorData(root) {
   const config = read('data/simulator.json');
   const equipment = read('data/proposals/equipment-curve.json');
   const points = read('data/proposals/points-per-level.json');
+  const skills = read('data/proposals/base-skills.json');
   const armor = {};
   for (const [kind, set] of Object.entries(equipment.equipment_curve.armor_def_grade01)) {
     armor[kind] = { body: set.body, hands: set.hands };
@@ -17,6 +18,7 @@ export function simulatorData(root) {
     bases: config.bases,
     weapon_families: config.weapon_families,
     presets: config.presets,
+    skills: skills.bases,
     investment_bonus_ranges: points.attribute_points.investment_bonus_ranges,
     tiers: equipment.weapon_curves.tiers,
     weapons: equipment.weapon_curves.avg_atk_median,

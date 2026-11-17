@@ -94,6 +94,21 @@ export function skillFactor(constants, skillLevel) {
   return base + base * constants.skill_factor_growth_per_level * (skillLevel - 1);
 }
 
+// Tipo de arma de cada família do simulador, como as habilidades pedem.
+const WEAPON_TYPE = { Sword: 'Sword', Dagger: 'Dagger', Pistol: 'Pistol', THBow: 'Bow', Bow: 'CrossBow' };
+
+export function skillList(data, base) {
+  return (data.skills[base] || []).filter(s => s.kind === 'dano');
+}
+
+// Custo de SP do Melia: base × (1 + correção pelo nível), com referência no nível 300.
+export function spCost(constants, base, level) {
+  if (!base) return null;
+  const gap = level - constants.sp_reference_level;
+  const correction = gap < 0 ? gap * constants.sp_below_reference_rate : gap * constants.sp_above_reference_rate;
+  return Math.max(0, Math.floor(base * (1 + correction)));
+}
+
 // build: { base, level, points{str,con,int,spr,dex}, main, off, armor, gearLevel, weaponGrade, skillLevel }
 export function compute(data, build) {
   const c = data.constants;
@@ -144,18 +159,40 @@ export function compute(data, build) {
 
   const monster = monsterAt(data, level);
   out.monster = monster;
-  if (monster) {
-    const factor = skillFactor(c, build.skillLevel) / 100;
-    const dealt = reduction(monster.def, attack, c.defense_cap_pct);
-    const skillDamage = attack * (1 - dealt) * factor;
+  const skill = build.skill && build.skill !== 'ref' ? skillList(data, build.base).find(s => s.name === build.skill) : null;
+  let skillAttack = attack;
+  let hits = 1;
+  let factorPct = skillFactor(c, build.skillLevel);
+  out.skill = { name: skill ? skill.name : null, hits, spCost: null, cooldown: null, factorPct };
+  if (skill) {
+    const types = skill.weapons || [];
+    const mainType = WEAPON_TYPE[build.main];
+    const offType = offIsWeapon ? WEAPON_TYPE[build.off] : null;
+    const usesOff = !types.includes(mainType) && types.includes(offType);
+    if (!types.includes(mainType) && !usesOff) {
+      out.skill.unusable = `Equipe ${skill.weapons.map(w => ({ Sword: 'uma espada de uma mão', Dagger: 'uma adaga', Pistol: 'uma pistola', Bow: 'um arco', CrossBow: 'uma besta' }[w])).join(' ou ')}.`;
+    } else {
+      // Habilidade que usa a arma secundária: vale o ataque inteiro dela.
+      if (usesOff) skillAttack = 20 + level + strPart + offAtk;
+      hits = skill.hits;
+      factorPct = (skill.melia_factor_pct / 10) * (1 + c.skill_factor_growth_per_level * (build.skillLevel - 1));
+      out.skill = { name: skill.name, hits, usesOff, spCost: spCost(c, skill.sp, level), cooldown: skill.cooldown_s, factorPct };
+    }
+  }
+  if (monster && !out.skill.unusable) {
+    const dealt = reduction(monster.def, skillAttack, c.defense_cap_pct);
+    const skillDamage = skillAttack * (1 - dealt) * (factorPct / 100) * hits;
     const taken = reduction(defense, monster.atk, c.defense_cap_pct);
     const hit = monster.atk * (1 - taken);
     const dodgeChance = dodge > monster.hit ? Math.min(c.dodge_cap_pct / 100, Math.pow(dodge - monster.hit, c.dodge_exponent) / 100) : 0;
+    const skillsToKill = monster.hp / skillDamage;
     out.fight = {
-      skillFactorPct: factor * 100,
+      skillFactorPct: factorPct * hits,
       monsterReductionPct: dealt * 100,
       skillDamage,
-      skillsToKill: monster.hp / skillDamage,
+      skillsToKill,
+      spPerKill: out.skill.spCost === null ? null : skillsToKill * out.skill.spCost,
+      killsPerFullSp: out.skill.spCost === null ? null : sp / (skillsToKill * out.skill.spCost),
       playerReductionPct: taken * 100,
       hitDamage: hit,
       hitPctHp: (hit / hp) * 100,

@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { compute, investmentBonus, distribute, interpolate } from '../web/simulador-core.mjs';
+import { compute, investmentBonus, distribute, interpolate, skillList, spCost } from '../web/simulador-core.mjs';
 import { simulatorData } from '../web/simulador-data.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -75,4 +75,36 @@ test('o nível não é preenchido sozinho: sem pontos, o resultado usa só os in
 
 test('abaixo do nível 15 não há monstro de referência', () => {
   assert.equal(compute(data, build('archer', 10)).fight, undefined);
+});
+
+test('as habilidades reais usam o fator do Melia ÷ 10 e crescem 10% do nível 1 por nível', () => {
+  const r = compute(data, { ...build('warrior-defensivo', 120, 5), skill: 'Thrust' });
+  near(r.skill.factorPct, 167.79 * 1.4, 0.01, 'fator da Thrust no nível 5');
+  assert.equal(r.skill.hits, 1);
+  assert.equal(r.skill.cooldown, 1);
+  const multi = compute(data, { ...build('archer', 120, 1), skill: 'Multi Shot' });
+  assert.equal(multi.skill.hits, 10);
+  near(multi.fight.skillFactorPct, 19.92 * 10, 0.01, 'Multi Shot soma os 10 golpes');
+});
+
+test('o custo de SP segue a fórmula do Melia com referência no nível 300', () => {
+  assert.equal(spCost(data.constants, 10, 120), 5);
+  assert.equal(spCost(data.constants, 117, 300), 117);
+  assert.equal(spCost(data.constants, null, 120), null);
+});
+
+test('habilidade de arma secundária usa o ataque inteiro da adaga; sem a arma, avisa', () => {
+  const scout = { ...build('scout', 120, 5), skill: 'Dagger Slash' };
+  const ok = compute(data, scout);
+  assert.equal(ok.skill.usesOff, true);
+  assert.ok(ok.fight.skillDamage > 0);
+  const wrong = compute(data, { ...scout, off: 'none' });
+  assert.match(wrong.skill.unusable, /adaga/);
+  assert.equal(wrong.fight, undefined);
+});
+
+test('só as habilidades com dano entram na lista de escolha', () => {
+  assert.deepEqual(skillList(data, 'warrior').map(s => s.name), ['Thrust', 'Bash']);
+  assert.deepEqual(skillList(data, 'scout').map(s => s.name), ['Dagger Slash', 'Oblique Fire']);
+  assert.deepEqual(skillList(data, 'archer').map(s => s.name), ['Multi Shot', 'Oblique Shot', 'Twin Arrows']);
 });

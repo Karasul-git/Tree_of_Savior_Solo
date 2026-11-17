@@ -1,0 +1,279 @@
+{
+  "reviewed_at": "2026-11-17",
+  "source_id": "F124",
+  "status": "melia-values-before-project-scaling",
+  "note": "Valores originais do Melia (skills.txt), antes da escala do projeto (fator ÷ 10 e crescimento de 10% do nível 1 por nível). Habilidades sem dano direto são de apoio. Kneeling Shot existe no Melia só como habilidade de Quarrel Shooter.",
+  "bases": {
+    "warrior": [
+      {
+        "name": "Thrust",
+        "circle": 1,
+        "kind": "dano",
+        "melia_class": "Swordman_Thrust",
+        "sp": 10.0,
+        "cooldown_s": 1.0,
+        "hits": 1,
+        "melia_factor_pct": 1677.9,
+        "melia_factor_by_level_pct": 252.0,
+        "weapons": [
+          "Sword"
+        ],
+        "range": 100,
+        "cast_ms": 500
+      },
+      {
+        "name": "Bash",
+        "circle": 1,
+        "kind": "dano",
+        "melia_class": "Swordman_Bash",
+        "sp": 49.0,
+        "cooldown_s": 10.0,
+        "hits": 1,
+        "melia_factor_pct": 1834.7,
+        "melia_factor_by_level_pct": 688.1,
+        "weapons": [
+          "Sword"
+        ],
+        "range": 100,
+        "cast_ms": 500
+      },
+      {
+        "name": "Gung Ho",
+        "circle": 1,
+        "kind": "apoio",
+        "melia_class": "Swordman_GungHo",
+        "sp": 168.0,
+        "cooldown_s": 60.0,
+        "hits": 1
+      },
+      {
+        "name": "Concentrate",
+        "circle": 1,
+        "kind": "apoio",
+        "melia_class": "Swordman_Concentrate",
+        "sp": null,
+        "cooldown_s": 20.0,
+        "hits": 1
+      },
+      {
+        "name": "Pain Barrier",
+        "circle": 1,
+        "kind": "apoio",
+        "melia_class": "Swordman_PainBarrier",
+        "sp": 134.0,
+        "cooldown_s": 30.0,
+        "hits": 1,
+        "note": "Escudo que absorve dano (o valor de 25.000% do Melia é a absorção, não um ataque)."
+      },
+      {
+        "name": "Restrain",
+        "circle": 2,
+        "kind": "apoio",
+        "melia_class": "Swordman_Restrain",
+        "sp": null,
+        "cooldown_s": 120.0,
+        "hits": 1
+      },
+      {
+        "name": "Pommel Beat",
+        "circle": 2,
+        "kind": "sem-dados",
+        "melia_class": "Swordman_PommelBeat",
+        "sp": null,
+        "cooldown_s": 14.0,
+        "hits": 1,
+        "note": "O Melia só traz o valor provisório de 100%; o dano real não está nos dados."
+      },
+      {
+        "name": "Double Slash",
+        "circle": 3,
+        "kind": "sem-dados",
+        "melia_class": "Swordman_DoubleSlash",
+        "sp": null,
+        "cooldown_s": 21.0,
+        "hits": 1,
+        "note": "O Melia só traz o valor provisório de 100%."
+      }
+    ],
+    "archer": [
+      {
+        "name": "Swift Step",
+        "circle": 1,
+        "kind": "apoio",
+        "melia_class": "Archer_SwiftStep",
+        "sp": 196.0,
+        "cooldown_s": 60.0,
+        "hits": 1
+      },
+      {
+        "name": "Multi Shot",
+        "circle": 1,
+        "kind": "dano",
+        "melia_class": "Archer_Multishot",
+        "sp": 117.0,
+        "cooldown_s": 5.0,
+        "hits": 10,
+        "melia_factor_pct": 199.2,
+        "melia_factor_by_level_pct": 74.5,
+        "weapons": [
+          "Bow",
+          "CrossBow"
+        ],
+        "range": 130,
+        "cast_ms": 10000
+      },
+      {
+        "name": "Full Draw",
+        "circle": 1,
+        "kind": "sem-dados",
+        "melia_class": "Archer_Fulldraw",
+        "sp": null,
+        "cooldown_s": 20.0,
+        "hits": 1,
+        "note": "O Melia só traz o valor provisório de 100%; o dano real não está nos dados."
+      },
+      {
+        "name": "Oblique Shot",
+        "circle": 1,
+        "kind": "dano",
+        "melia_class": "Archer_ObliqueShot",
+        "sp": 11.0,
+        "cooldown_s": 1.0,
+        "hits": 1,
+        "melia_factor_pct": 1754.5,
+        "melia_factor_by_level_pct": 263.3,
+        "weapons": [
+          "Bow",
+          "CrossBow"
+        ],
+        "range": 150,
+        "cast_ms": 450
+      },
+      {
+        "name": "Kneeling Shot",
+        "circle": 2,
+        "kind": "apoio",
+        "melia_class": "QuarrelShooter_Kneelingshot",
+        "note": "No Melia só existe como habilidade de Quarrel Shooter; é uma postura, sem dano direto.",
+        "sp": null,
+        "cooldown_s": 0,
+        "hits": 1
+      },
+      {
+        "name": "Heavy Shot",
+        "circle": 2,
+        "kind": "sem-dados",
+        "melia_class": "Archer_HeavyShot",
+        "sp": null,
+        "cooldown_s": 10.0,
+        "hits": 1,
+        "note": "O Melia só traz o valor provisório de 100%."
+      },
+      {
+        "name": "Twin Arrows",
+        "circle": 3,
+        "kind": "dano",
+        "melia_class": "Archer_TwinArrows",
+        "sp": 56.0,
+        "cooldown_s": 15.0,
+        "hits": 2,
+        "melia_factor_pct": 1001.8,
+        "melia_factor_by_level_pct": 375.4,
+        "weapons": [
+          "Bow",
+          "CrossBow"
+        ],
+        "range": 150,
+        "cast_ms": 450
+      }
+    ],
+    "scout": [
+      {
+        "name": "Dagger Slash",
+        "circle": 1,
+        "kind": "dano",
+        "melia_class": "Scout_DaggerSlash",
+        "sp": 12.0,
+        "cooldown_s": 1.0,
+        "hits": 2,
+        "melia_factor_pct": 521.9,
+        "melia_factor_by_level_pct": 195.5,
+        "weapons": [
+          "Dagger"
+        ],
+        "range": 100,
+        "cast_ms": 300
+      },
+      {
+        "name": "Oblique Fire",
+        "circle": 1,
+        "kind": "dano",
+        "melia_class": "Scout_ObliqueFire",
+        "sp": 11.0,
+        "cooldown_s": 1.0,
+        "hits": 1,
+        "melia_factor_pct": 994.4,
+        "melia_factor_by_level_pct": 372.8,
+        "weapons": [
+          "Pistol"
+        ],
+        "range": 120,
+        "cast_ms": 400
+      },
+      {
+        "name": "Cloaking",
+        "circle": 1,
+        "kind": "apoio",
+        "melia_class": "Scout_Cloaking",
+        "sp": 145.0,
+        "cooldown_s": 40.0,
+        "hits": 1
+      },
+      {
+        "name": "Free Step",
+        "circle": 1,
+        "kind": "apoio",
+        "melia_class": "Scout_FreeStep",
+        "sp": 168.0,
+        "cooldown_s": 60.0,
+        "hits": 1
+      },
+      {
+        "name": "Double Attack",
+        "circle": 1,
+        "kind": "apoio",
+        "melia_class": "Scout_DoubleAttack",
+        "sp": 168.0,
+        "cooldown_s": 60.0,
+        "hits": 1
+      },
+      {
+        "name": "Camouflage",
+        "circle": 2,
+        "kind": "apoio",
+        "melia_class": "Scout_Camouflage",
+        "sp": null,
+        "cooldown_s": 76.0,
+        "hits": 1
+      },
+      {
+        "name": "Perspective Distortion",
+        "circle": 2,
+        "kind": "apoio",
+        "melia_class": "Scout_Undistance",
+        "sp": null,
+        "cooldown_s": 40.0,
+        "hits": 1
+      },
+      {
+        "name": "Scan",
+        "circle": 3,
+        "kind": "apoio",
+        "melia_class": "Scout_Scan",
+        "sp": null,
+        "cooldown_s": 58.0,
+        "hits": 1
+      }
+    ]
+  }
+}

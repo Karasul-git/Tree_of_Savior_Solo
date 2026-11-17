@@ -1,6 +1,6 @@
 // Página do simulador de builds: monta o formulário e a tabela de resultados.
 // O cálculo está em simulador-core.mjs (as mesmas funções dos testes).
-import { ATTRIBUTES, compute, distribute } from './simulador-core.mjs';
+import { ATTRIBUTES, compute, distribute, skillList } from './simulador-core.mjs';
 
 const data = window.WIKI_SIM;
 const root = document.getElementById('simulador');
@@ -28,14 +28,14 @@ function el(tag, props = {}, ...children) {
 function fromPreset(preset, level = 120) {
   return {
     base: preset.base, level, main: preset.main, off: preset.off, armor: preset.armor,
-    weaponGrade: 1, sameGear: true, gearLevel: level, skillLevel: data.constants.reference_skill_level,
+    weaponGrade: 1, sameGear: true, gearLevel: level, skill: 'ref', skillLevel: data.constants.reference_skill_level,
     points: distribute(preset.pct, level - 1),
   };
 }
 
 function blank(level = 120, base = 'warrior') {
   return {
-    base, level, main: 'Sword', off: 'none', armor: 'leather', weaponGrade: 1, sameGear: true, gearLevel: level,
+    base, level, main: 'Sword', off: 'none', armor: 'leather', weaponGrade: 1, sameGear: true, gearLevel: level, skill: 'ref',
     skillLevel: data.constants.reference_skill_level, points: Object.fromEntries(ATTRIBUTES.map(k => [k, 0])),
   };
 }
@@ -58,6 +58,7 @@ function loadHash() {
         armor: ARMORS.some(([id]) => id === build.armor) ? build.armor : 'leather',
         weaponGrade: build.weaponGrade === 2 ? 2 : 1, sameGear: build.sameGear !== false,
         gearLevel: Math.min(315, Math.max(1, Math.round(Number(build.gearLevel) || level))),
+        skill: skillList(data, build.base).some(s => s.name === build.skill) ? build.skill : 'ref',
         skillLevel: Math.min(data.constants.skill_max_level, Math.max(1, Math.round(Number(build.skillLevel) || 1))),
       };
     };
@@ -120,11 +121,14 @@ function buildCard(index) {
     if (preset) { state.builds[index] = fromPreset(preset, build.level); rerender(); }
   })));
   card.append(el('div', { class: 'sim-row' },
-    field('Base', select(Object.entries(data.bases).map(([id, b]) => [id, b.name]), build.base, v => { build.base = v; rerender(); })),
+    field('Base', select(Object.entries(data.bases).map(([id, b]) => [id, b.name]), build.base, v => { build.base = v; if (!skillList(data, v).some(s => s.name === build.skill)) build.skill = 'ref'; rerender(); })),
     field('Nível', numberInput(build.level, 1, data.constants.max_level, v => { setLevel(build, v); rerender(); })),
     field('Nível da habilidade', numberInput(build.skillLevel, 1, data.constants.skill_max_level, v => { build.skillLevel = Math.min(data.constants.skill_max_level, Math.max(1, Math.round(v) || 1)); rerender(); })),
   ));
 
+  card.append(el('div', { class: 'sim-row' },
+    field('Habilidade', select([['ref', 'Habilidade de referência (fator mediano)'], ...skillList(data, build.base).map(s => [s.name, `${s.name} (círculo ${s.circle})`])], build.skill, v => { build.skill = v; rerender(); }),
+      result.skill.unusable || null)));
   const base = data.bases[build.base];
   card.append(el('h4', { text: 'Pontos de atributo' }),
     el('p', { class: `sim-points${left === 0 ? '' : left < 0 ? ' over' : ' left'}`, role: 'status',
@@ -174,10 +178,16 @@ const ROWS = [
   ['Estamina', r => r.stamina, 0],
   ['Peso máximo', r => r.weight, 0],
   ['Contra um monstro comum do mesmo nível', null],
-  ['Fator da habilidade', r => r.fight?.skillFactorPct, 0, '%'],
-  ['Dano de uma habilidade', r => r.fight?.skillDamage, 0],
+  ['Habilidade', r => r.skill.name || 'de referência', null],
+  ['Fator total do uso (todos os golpes)', r => r.fight?.skillFactorPct, 0, '%'],
+  ['Golpes por uso', r => r.skill.unusable ? undefined : r.skill.hits, 0],
+  ['Recarga', r => r.skill.cooldown ?? undefined, 1, 's'],
+  ['SP por uso', r => r.skill.spCost ?? undefined, 0],
+  ['Dano de um uso', r => r.fight?.skillDamage, 0],
   ['Defesa do monstro corta', r => r.fight?.monsterReductionPct, 1, '%'],
-  ['Habilidades para derrubar (sozinho)', r => r.fight?.skillsToKill, 1],
+  ['Usos para derrubar (sozinho)', r => r.fight?.skillsToKill, 1],
+  ['SP gasto para derrubar', r => r.fight?.spPerKill ?? undefined, 0],
+  ['Monstros com o SP cheio', r => r.fight?.killsPerFullSp ?? undefined, 0],
   ['Dano de um golpe do monstro', r => r.fight?.hitDamage, 0],
   ['Golpe do monstro tira do HP', r => r.fight?.hitPctHp, 1, '%'],
   ['Sua defesa corta', r => r.fight?.playerReductionPct, 1, '%'],
@@ -194,7 +204,7 @@ function resultsTable(results) {
     const values = results.map(r => pick(r));
     const delta = results.length === 2 && typeof values[0] === 'number' && typeof values[1] === 'number' ? values[1] - values[0] : null;
     return el('tr', {}, el('th', { scope: 'row', text: label }),
-      values.map(v => el('td', { text: v === undefined ? 'sem referência' : fmt(v, digits) + (unit ? ' ' + unit : '') })),
+      values.map(v => el('td', { text: v === undefined ? 'sem dado' : typeof v === 'string' ? v : fmt(v, digits) + (unit ? ' ' + unit : '') })),
       results.length === 2 ? el('td', { class: delta === null ? '' : delta > 0 ? 'up' : delta < 0 ? 'down' : '', text: delta === null ? '–' : (delta > 0 ? '+' : '') + fmt(delta, digits) }) : null);
   });
   return el('div', { class: 'table-scroll', tabindex: '0', role: 'region', 'aria-label': 'Resultados do simulador' },
