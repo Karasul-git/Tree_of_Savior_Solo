@@ -14,6 +14,8 @@ catalog.solo_review = JSON.parse(await readFile(path.join(root, 'data/proposals/
 const allClasses = [...catalog.classes, ...catalog.later_classes];
 const solo = JSON.parse(await readFile(path.join(root, 'data/catalog/classes-solo.json'), 'utf8'));
 const skillCatalog = JSON.parse(await readFile(path.join(root, 'data/skills/skills.json'), 'utf8')).classes;
+const itemData = JSON.parse(await readFile(path.join(root, 'data/items/items.json'), 'utf8'));
+const itemCatalog = itemData.items;
 const bossData = JSON.parse(await readFile(path.join(root, 'data/bosses.json'), 'utf8'));
 const bossGroups = Object.fromEntries(JSON.parse(await readFile(path.join(root, 'data/proposals/story-bosses.json'), 'utf8')).visual_categories.map(c => [c.id, c.label]));
 const classes = [
@@ -91,6 +93,9 @@ const documents = [
   ['docs/projeto-solo/chefes/README.md', 'Catálogo de chefes'],
   ...bossData.bosses.map(b => [`docs/projeto-solo/chefes/${b.slug}.md`, `${b.name} · Chefe`]),
   ['docs/projeto-solo/chefes/revisao.md', 'Revisão dos chefes'],
+  ['docs/itens/README.md', 'Equipamentos'],
+  ...itemData.categories.map(c => [`docs/itens/${c.folder}/README.md`, c.label]),
+  ...itemCatalog.map(i => [`docs/itens/${i.folder}/${i.slug}.md`, i.name]),
   ['docs/habilidades/README.md', 'Habilidades'],
   ...skillCatalog.flatMap(c => [
     [`docs/habilidades/${c.class_id}/README.md`, `Habilidades de ${c.name}`],
@@ -112,7 +117,7 @@ function shell(title, current, content, toc = [], classInfo) {
   const contextClass = allClasses.find(c => current === `docs/classes/catalogo/${c.id}.html` || current === `docs/classes/${c.id}.html`);
   const treeState = readTreeState('', catalog, solo, contextClass?.id);
   const nav = [
-    group('O JOGO', [link('index.html', '<span>⌂</span> Início'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Classes do jogo'), link('docs/habilidades/index.html', 'Habilidades'), link('docs/projeto-solo/chefes/index.html', 'Chefes'), link('docs/projeto-solo/chefes/revisao.html', 'Revisão dos chefes')]),
+    group('O JOGO', [link('index.html', '<span>⌂</span> Início'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Classes do jogo'), link('docs/habilidades/index.html', 'Habilidades'), link('docs/itens/index.html', 'Equipamentos'), link('docs/projeto-solo/chefes/index.html', 'Chefes'), link('docs/projeto-solo/chefes/revisao.html', 'Revisão dos chefes')]),
     `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
     group('ORIGINAL DE 2016', [link('docs/classes/catalogo-2016.html?view=2016', 'Todas as classes de 2016'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build'), link('docs/sistemas/barracao-e-grupo.html', 'Barracão, equipe e grupo'), link('docs/sistemas/economia-2016.html', 'Economia'), link('docs/sistemas/recuperacao-2016.html', 'Recuperação'), link('docs/historia/historia-e-mundo.html', 'História e mundo')]),
     group('REFERÊNCIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('docs/versao-navegavel.html', 'Sobre esta wiki')]),
@@ -223,7 +228,8 @@ for (const [source, title] of documents) {
   await mkdir(path.dirname(destination), { recursive: true });
   if (current === bossReviewPage) content = content.replace('<!--boss-review-->', bossReviewSection());
   await writeFile(destination, shell(title, current, current === 'index.html' ? home() : content, toc, classInfo));
-  searchIndex.push({ title, path: current, text: strip(content) });
+  // As páginas de item entram na busca só pelo nome, para o índice não pesar.
+  searchIndex.push({ title, path: current, text: /^docs\/itens\/[^/]+\/(?!README)/.test(source) ? '' : strip(content) });
 }
 
 const manifest = JSON.parse(await readFile(path.join(root, 'data/assets.json'), 'utf8'));
