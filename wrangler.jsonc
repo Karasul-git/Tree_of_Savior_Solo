@@ -1,0 +1,9 @@
+// Publicação da wiki no Cloudflare (Workers com arquivos estáticos).
+// O comando de build gera a pasta dist; o Cloudflare só serve esses arquivos.
+{
+  "name": "tree-of-savior-solo",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
