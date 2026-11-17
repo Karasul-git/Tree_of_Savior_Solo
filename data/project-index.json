@@ -122,6 +122,11 @@
           "n": "4.10",
           "path": "docs/projeto-solo/todas-as-formulas.md",
           "title": "Todas as fórmulas"
+        },
+        {
+          "n": "4.11",
+          "path": "docs/projeto-solo/simulador-de-builds.md",
+          "title": "Simulador de builds"
         }
       ]
     },

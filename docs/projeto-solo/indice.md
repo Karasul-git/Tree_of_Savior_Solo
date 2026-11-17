@@ -35,6 +35,7 @@ Todas as páginas do projeto, numeradas por assunto e na ordem em que foram cria
 - **4.8** · [Curva de experiência](curva-de-experiencia.md)
 - **4.9** · [Resumo do balanceamento](resumo-do-balanceamento.md)
 - **4.10** · [Todas as fórmulas](todas-as-formulas.md)
+- **4.11** · [Simulador de builds](simulador-de-builds.md)
 
 ## 5. Sustentação e economia
 

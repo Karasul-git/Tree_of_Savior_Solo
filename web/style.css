@@ -30,3 +30,31 @@ dialog{border:1px solid #d6dcc9;border-radius:10px;background:var(--paper);color
 
 /* Revisão dos chefes */
 .boss-review{margin-top:38px}.boss-review>p{font-size:12px;color:var(--muted);max-width:640px;line-height:1.8}.boss-review-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0;font-size:12px;color:var(--muted)}.boss-review-bar select{min-height:36px;border:1px solid #d7dbce;background:#fffdf8;border-radius:5px;padding:6px 10px;font:12px var(--sans);color:var(--ink)}.boss-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}.boss-card{display:grid;grid-template-columns:80px minmax(0,1fr);gap:10px 12px;align-items:center;border:1px solid var(--line);border-left:4px solid #c9c4a8;border-radius:6px;background:#fffdf7;padding:10px}.boss-card img{border-radius:4px;background:#efeee6}.boss-card a{font:16px var(--serif);color:#40523d;text-decoration:none}.boss-card p{margin:3px 0 0;font-size:11px;color:var(--muted);line-height:1.5}.boss-card .boss-state{font-weight:600;color:#6d6a55}.boss-card.status-aprovado{border-left-color:#5f8a52}.boss-card.status-aprovado .boss-state{color:#3f6b34}.boss-card.status-rejeitado{border-left-color:#a55a4a}.boss-card.status-rejeitado .boss-state{color:#8c3f31}.boss-actions{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px}.boss-actions button{min-height:34px;padding:6px 12px;border:1px solid #d7dbce;border-radius:5px;background:#f6f5ee;font-size:12px;color:#40523d}.boss-actions button:disabled{opacity:.45;cursor:default}
+
+/* Simulador de builds */
+.sim-toolbar{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.sim-button{font:inherit;padding:.5rem .9rem;border:1px solid var(--line,#c9c2b4);border-radius:8px;background:var(--panel,#fff);color:inherit;cursor:pointer}
+.sim-button:hover{border-color:currentColor}
+.sim-grid{display:grid;gap:1rem;grid-template-columns:minmax(0,1fr)}
+.sim-grid.two{grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr))}
+.sim-card{border:1px solid var(--line,#d8d2c4);border-radius:12px;padding:1rem;background:var(--panel,#fff)}
+.sim-card h3{margin-top:0}
+.sim-card h4{margin:1rem 0 .4rem}
+.sim-row{display:grid;gap:.6rem;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));margin:.5rem 0;align-items:end}
+.sim-field{display:flex;flex-direction:column;gap:.25rem;font-size:.9rem}
+.sim-field small{opacity:.75}
+.sim-field select,.sim-field input,.sim-stats input{font:inherit;padding:.35rem .5rem;border:1px solid var(--line,#c9c2b4);border-radius:6px;background:#fff;color:inherit;max-width:100%}
+.sim-stats input{width:5.5rem}
+.sim-check{display:flex;gap:.5rem;align-items:center;font-size:.9rem}
+.sim-points{margin:.2rem 0 .6rem;font-weight:600}
+.sim-points.left{color:#8a5a00}.sim-points.over{color:#a32020}
+.sim-stats,.sim-results{width:100%;border-collapse:collapse}
+.sim-stats th,.sim-stats td,.sim-results th,.sim-results td{padding:.35rem .5rem;border-bottom:1px solid var(--line,#e5e0d4);text-align:left}
+.sim-results td{text-align:right;font-variant-numeric:tabular-nums}
+.sim-results tr.sim-section th{background:rgba(0,0,0,.05);text-transform:uppercase;font-size:.78rem;letter-spacing:.05em}
+.sim-results td.up{color:#1c6b2f}.sim-results td.down{color:#a32020}
+.sim-note{font-size:.9rem;opacity:.8}
+.sim-card,.sim-results{font-size:12px;line-height:1.5;color:#596d50}
+.sim-field{font-size:11px}
+.sim-field select,.sim-field input,.sim-stats input{font-size:12px}
+.sim-stats th,.sim-results th{font-size:10px}

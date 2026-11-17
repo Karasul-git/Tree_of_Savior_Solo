@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir, rm, cp } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Marked } from 'marked';
+import { simulatorData } from '../web/simulador-data.mjs';
 import { readTreeState, renderTreeSidebar, renderTreeViews, renderTreePage, renderClassContext } from '../web/trees.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -50,6 +51,7 @@ const documents = [
   ['docs/projeto-solo/curva-de-experiencia.md', 'Curva de experiência'],
   ['docs/projeto-solo/resumo-do-balanceamento.md', 'Resumo do balanceamento'],
   ['docs/projeto-solo/todas-as-formulas.md', 'Todas as fórmulas'],
+  ['docs/projeto-solo/simulador-de-builds.md', 'Simulador de builds'],
   ['docs/projeto-solo/cura-e-pocoes.md', 'Cura e poções'],
   ['docs/projeto-solo/ciclo-de-recuperacao.md', 'Ciclo de recuperação'],
   ['docs/projeto-solo/economia-das-pocoes.md', 'Economia das poções'],
@@ -78,6 +80,8 @@ const escape = text => String(text).replace(/[&<>"']/g, char => ({ '&': '&amp;',
 const strip = html => html.replace(/<[^>]*>/g, ' ').replace(/&[^;]+;/g, ' ').replace(/\s+/g, ' ').trim();
 const slugify = text => strip(text).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
+const simulatorPage = 'docs/projeto-solo/simulador-de-builds.html';
+
 function shell(title, current, content, toc = [], classInfo) {
   const prefix = path.posix.relative(path.posix.dirname(current), '.') || '.';
   const base = prefix + '/';
@@ -96,7 +100,7 @@ function shell(title, current, content, toc = [], classInfo) {
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light">
 <title>${escape(title)} · Tree of Savior — Memórias</title><meta name="description" content="Wiki histórica em português sobre as classes e o mundo de Tree of Savior no lançamento internacional de 2016, com imagens oficiais e fontes documentadas.">
 <link rel="icon" href="${base}docs/assets/classes/scout/icon.png"><link rel="stylesheet" href="${base}assets/style.css">
-<script src="${base}search-index.js" defer></script><script src="${base}tree-data.js" defer></script><script src="${base}assets/app.js" defer></script>${current === 'index.html' ? `<script src="${base}boss-data.js" defer></script><script src="${base}assets/boss-review.js" defer></script>` : ''}</head>
+<script src="${base}search-index.js" defer></script>${current === simulatorPage ? `<script src="${base}simulador-data.js" defer></script><script type="module" src="${base}assets/simulador.js"></script>` : ''}<script src="${base}tree-data.js" defer></script><script src="${base}assets/app.js" defer></script>${current === 'index.html' ? `<script src="${base}boss-data.js" defer></script><script src="${base}assets/boss-review.js" defer></script>` : ''}</head>
 <body><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 <aside id="sidebar" class="sidebar"><a class="brand" href="${base}index.html"><img src="${base}docs/assets/classes/scout/icon.png" width="45" height="45" alt=""><span>TREE OF SAVIOR<small>MEMÓRIAS DO LANÇAMENTO</small></span></a>
 <div class="edition"><span class="status-dot"></span> <span id="edition-view">${treeState.view === 'solo' ? 'Projeto solo' : 'Original de 2016'}</span> <span>v0.8</span></div>
@@ -139,6 +143,8 @@ await writeFile(path.join(dist, 'assets/app.js'), searchCode + '\n' + catalogCod
 await writeFile(path.join(dist, '.nojekyll'), '');
 await writeFile(path.join(dist, 'boss-data.js'), 'window.WIKI_BOSSES=' + JSON.stringify(bossData.bosses.map(b => ({ slug: b.slug, name: b.name, portrait: b.portrait, review_status: b.review_status, category_label: bossGroups[b.category] }))).replaceAll('<', '\\u003c') + ';');
 await cp(path.join(root, 'web/boss-review.js'), path.join(dist, 'assets/boss-review.js'));
+for (const file of ['simulador.js', 'simulador-core.mjs']) await cp(path.join(root, 'web', file), path.join(dist, 'assets', file));
+await writeFile(path.join(dist, 'simulador-data.js'), 'window.WIKI_SIM=' + JSON.stringify(simulatorData(root)).replaceAll('<', '\\u003c') + ';');
 await writeFile(path.join(dist, 'tree-data.js'), 'window.WIKI_CATALOG=' + JSON.stringify(catalog).replaceAll('<', '\\u003c') + ';window.WIKI_SOLO=' + JSON.stringify(solo).replaceAll('<', '\\u003c') + ';');
 const searchIndex = [];
 

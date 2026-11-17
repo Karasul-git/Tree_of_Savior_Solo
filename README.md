@@ -49,6 +49,7 @@ Na versão navegável, a página inicial traz a revisão dos chefes da história
 - [Scout · kit base proposto](docs/projeto-solo/scout-kit-base.md)
 - [Resumo do balanceamento](docs/projeto-solo/resumo-do-balanceamento.md)
 - [Todas as fórmulas](docs/projeto-solo/todas-as-formulas.md)
+- [Simulador de builds](docs/projeto-solo/simulador-de-builds.md)
 - [Estrutura do servidor](docs/projeto-solo/servidor-estrutura.md)
 - [Classes e progressão no servidor](docs/projeto-solo/classes-e-progressao-servidor.md)
 - [Pontos de atributo e de habilidade](docs/projeto-solo/pontos-por-nivel.md)
