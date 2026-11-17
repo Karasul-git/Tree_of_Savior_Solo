@@ -36,6 +36,7 @@ Todas as páginas do projeto, numeradas por assunto e na ordem em que foram cria
 - **4.9** · [Resumo do balanceamento](resumo-do-balanceamento.md)
 - **4.10** · [Todas as fórmulas](todas-as-formulas.md)
 - **4.11** · [Simulador de builds](simulador-de-builds.md)
+- **4.12** · [2016, hoje e o nosso sistema](comparativo-2016-hoje-projeto.md)
 
 ## 5. Sustentação e economia
 

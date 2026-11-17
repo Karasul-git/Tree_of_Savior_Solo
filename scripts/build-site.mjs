@@ -52,6 +52,7 @@ const documents = [
   ['docs/projeto-solo/resumo-do-balanceamento.md', 'Resumo do balanceamento'],
   ['docs/projeto-solo/todas-as-formulas.md', 'Todas as fórmulas'],
   ['docs/projeto-solo/simulador-de-builds.md', 'Simulador de builds'],
+  ['docs/projeto-solo/comparativo-2016-hoje-projeto.md', '2016, hoje e o nosso sistema'],
   ['docs/projeto-solo/cura-e-pocoes.md', 'Cura e poções'],
   ['docs/projeto-solo/ciclo-de-recuperacao.md', 'Ciclo de recuperação'],
   ['docs/projeto-solo/economia-das-pocoes.md', 'Economia das poções'],
