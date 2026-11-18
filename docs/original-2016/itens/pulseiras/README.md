@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-79 itens, em ordem de nível necessário.
+80 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -51,6 +51,7 @@
 | [Silver Armband](11108.md) | 40 | – |
 | [Tasseled Armband](11105.md) | 40 | – |
 | [Auru Bracelet](602118.md) | 75 | 4 |
+| [Bearkaras Bracelet](602113.md) | 75 | 4 |
 | [Control Bangle](602106.md) | 75 | 4 |
 | [Gladiator Band](603101.md) | 75 | 4 |
 | [Klaipeda Bracelet](601129.md) | 75 | 4 |

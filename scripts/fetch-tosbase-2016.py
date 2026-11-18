@@ -124,22 +124,24 @@ def main():
                 path = urllib.parse.urlparse(c['archive_url'].split('id_/', 1)[-1]).path
                 jobs.append(('classes', c['id'], path, c['name'], None))
     # Páginas descobertas pelo inventário: usam a captura listada, sem nova consulta ao índice.
-    DATABASE = {'monsters': 'monsters', 'items': 'items', 'quests': 'quests', 'attributes': 'attributes', 'npcs': 'npcs',
-                'maps': 'maps', 'collections': 'collections', 'statuseffects': 'status-effects'}
-    for scope, folder in DATABASE.items():
+    DATABASE = {'monsters': 'database/monsters', 'items': 'database/items', 'quests': 'database/quests', 'attributes': 'database/attributes',
+                'npcs': 'database/npcs', 'maps': 'database/maps', 'collections': 'database/collections', 'statuseffects': 'database/status-effects',
+                'recipes': 'database/items/recipes', 'sets': 'database/items/sets', 'equipment': 'database/items/equipment',
+                'worldmap': 'game/world-map'}
+    for scope, prefix in DATABASE.items():
         if scope not in SCOPE:
             continue
-        pattern = re.compile(r'^/database/%s/([^/?]+)/?$' % re.escape(folder))
+        pattern = re.compile(r'^/%s/([^/?]+)/?$' % re.escape(prefix))
         seen = set()
         for r in inventory:
             path = urllib.parse.urlparse(r['original']).path
             m = pattern.match(path)
-            if m and m.group(1) not in seen:
+            if m and m.group(1) not in seen and m.group(1) not in ('recipes', 'sets', 'equipment', 'gems', 'boss-cards'):
                 seen.add(m.group(1))
                 jobs.append((scope, m.group(1), path, m.group(1), r))
-        index = [r for r in inventory if urllib.parse.urlparse(r['original']).path.rstrip('/') == f'/database/{folder}']
+        index = [r for r in inventory if urllib.parse.urlparse(r['original']).path.rstrip('/') == '/' + prefix]
         if index:
-            jobs.append((scope, '_lista', f'/database/{folder}/', 'lista', index[0]))
+            jobs.append((scope, '_lista', f'/{prefix}/', 'lista', index[0]))
     if 'formulas' in SCOPE:
         pattern = re.compile(r'^/(tools/(stat-calculator|class-builder|simulator|skill-simulator)/?|js/(tosbase|skillsim)[^/]*\.js)$')
         seen = set()

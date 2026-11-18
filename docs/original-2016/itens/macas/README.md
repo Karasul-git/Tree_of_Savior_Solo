@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-99 itens, em ordem de nível necessário.
+101 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau | Ataque |
 | --- | --- | --- | --- |
@@ -33,6 +33,7 @@
 | [Cheminis Maul](202105.md) | 40 | 3 | 75 ~ 88 |
 | [Dunkel Goedendag](201128.md) | 40 | 3 | 44 ~ 51 |
 | [Dunkel Maul](201124.md) | 40 | 3 | 36 ~ 43 |
+| [Five Hammer](202101.md) | 40 | 3 | 55 ~ 55 |
 | [Goedendag](201107.md) | 40 | 3 | 49 ~ 58 |
 | [Holy Smasher](203101.md) | 40 | 3 | 84 ~ 99 |
 | [Krausas Mace](202119.md) | 40 | 3 | 57 ~ 66 |
@@ -60,6 +61,7 @@
 | [Philis Mace](202123.md) | 75 | 4 | 63 ~ 74 |
 | [Sestas Mace](202116.md) | 75 | 4 | 114 ~ 133 |
 | [Shield Breaker](202103.md) | 75 | 4 | 84 ~ 99 |
+| [Skull Crusher](202104.md) | 75 | 4 | 103 ~ 122 |
 | [Supportive Fedimian Club](202138.md) | 75 | 4 | 114 ~ 133 |
 | [Toy Hammer](204104.md) | 75 | 4 | 86 ~ 101 |
 | [Dratt Mace](202117.md) | 120 | 5 | 160 ~ 187 |

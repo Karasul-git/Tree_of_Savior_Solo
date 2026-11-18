@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-113 itens, em ordem de nível necessário.
+118 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -25,6 +25,7 @@
 | [Nepenthes Gloves](502122.md) | 15 | 2 |
 | [Ring Gloves](501134.md) | 15 | 2 |
 | [Thresh Chain Gloves](502129.md) | 15 | 2 |
+| [Thresh Gloves](502127.md) | 15 | 2 |
 | [Vubbe Fighter Gauntlets](503101.md) | 15 | 2 |
 | [Watcher Gloves](502153.md) | 15 | 2 |
 | [Acolyte Gloves](501126.md) | 40 | 3 |
@@ -86,12 +87,15 @@
 | [Fedimian Leather Gloves](501139.md) | 120 | 5 |
 | [Hunting Gloves](501142.md) | 120 | 5 |
 | [Infantry Gauntlets](501146.md) | 120 | 5 |
+| [Legwyn Family Gloves](502157.md) | 120 | 5 |
 | [Legwyn Family Leather Gloves](502158.md) | 120 | 5 |
 | [Legwyn Family Plate Gauntlets](502159.md) | 120 | 5 |
 | [Mage Gloves](501144.md) | 120 | 5 |
 | [Shaton Gloves](502181.md) | 120 | 5 |
 | [Shaton Leather Gloves](502182.md) | 120 | 5 |
 | [Shaton Plate Gauntlets](502183.md) | 120 | 5 |
+| [Skirmisher Gloves](501145.md) | 120 | 5 |
+| [Turn Gloves](502178.md) | 120 | 5 |
 | [Turn Leather Gloves](502179.md) | 120 | 5 |
 | [Turn Plate Gauntlets](502180.md) | 120 | 5 |
 | [Archmage Gloves](501147.md) | 170 | 6 |
@@ -102,6 +106,7 @@
 | [Superior Infantry Gauntlets](501149.md) | 170 | 6 |
 | [Superior Skirmisher Gloves](501148.md) | 170 | 6 |
 | [Tyla Gloves](502184.md) | 170 | 6 |
+| [Tyla Leather Gloves](502185.md) | 170 | 6 |
 | [Tyla Plate Gauntlets](502186.md) | 170 | 6 |
 | [Veteran Gloves](501151.md) | 170 | 6 |
 | [Bandit Gloves](501155.md) | 220 | 7 |

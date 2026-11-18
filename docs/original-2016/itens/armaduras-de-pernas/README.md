@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-112 itens, em ordem de nível necessário.
+113 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau | Defesa |
 | --- | --- | --- | --- |
@@ -55,6 +55,7 @@
 | [Velnia Monkey Leather Pants](522187.md) | 40 | 3 | 19 |
 | [Veris Pants](521109.md) | 40 | 3 | 23 |
 | [Zalia Leather Pants](522104.md) | 40 | 3 | 16 |
+| [Arelno Leather Pants](522173.md) | 75 | 4 | 27 |
 | [Arelno Pants](522172.md) | 75 | 4 | 20 |
 | [Arelno Plate Leggings](522174.md) | 75 | 4 | 40 |
 | [Bone Skirt](523106.md) | 75 | 4 | 48 |

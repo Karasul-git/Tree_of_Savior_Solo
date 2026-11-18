@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       scope:
-        description: 'O que coletar (lista separada por vírgulas): skills, classes, formulas, monsters, items, quests, attributes, npcs, maps, collections, statuseffects'
+        description: 'O que coletar (lista separada por vírgulas): skills, classes, formulas, monsters, items, recipes, sets, equipment, quests, attributes, npcs, maps, worldmap, collections, statuseffects'
         default: 'skills,classes'
         required: true
 permissions:

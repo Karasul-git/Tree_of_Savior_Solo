@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-221 itens, em ordem de nível necessário.
+224 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -113,6 +113,7 @@
 | [Hat_tasselcrown](628074.md) | 1 | 1 |
 | [Highlander Costume](620101.md) | 1 | – |
 | [Hunter Costume](622101.md) | 1 | – |
+| [Ice Bag](628029.md) | 1 | 1 |
 | [Imperial Helm](628077.md) | 1 | 1 |
 | [Imposing Miter](628118.md) | 1 | 1 |
 | [Kabbalist Costume](623114.md) | 1 | – |
@@ -185,6 +186,7 @@
 | [Red Devil Wings](628063.md) | 1 | 1 |
 | [Red Horn](628060.md) | 1 | 1 |
 | [Red Ribbon Decoration Boater](628103.md) | 1 | 1 |
+| [Red Tassel Hat](628033.md) | 1 | 1 |
 | [Ritual Coffin](628131.md) | 1 | 1 |
 | [Rosa Rugosa](628030.md) | 1 | 1 |
 | [Sadhu Costume](623105.md) | 1 | – |
@@ -208,6 +210,7 @@
 | [Taoist Costume](621112.md) | 1 | – |
 | [Teeny Doll](628020.md) | 1 | 1 |
 | [Tengu Mask](628040.md) | 1 | 1 |
+| [Thaumaturge Costume](621109.md) | 1 | – |
 | [Tiger Mask](628019.md) | 1 | 1 |
 | [Tiger Swallowtail](628014.md) | 1 | 1 |
 | [Tribal Chief Head Decoration](628123.md) | 1 | 1 |

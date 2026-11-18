@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-136 itens, em ordem de nível necessário.
+141 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -16,6 +16,7 @@
 | [Alphabet S](645756.md) | – | – |
 | [Alphabet T](645751.md) | – | – |
 | [Alphabet V](645758.md) | – | – |
+| [Altered Sauga Core](645247.md) | – | – |
 | [Amber](649200.md) | – | – |
 | [Annotation](649007.md) | – | – |
 | [Ansur](645358.md) | – | – |
@@ -44,6 +45,7 @@
 | [Corrupt Brown Lapasape Mushroom](645727.md) | – | – |
 | [Cryorite](649210.md) | – | – |
 | [Crystal Fragment](645566.md) | – | – |
+| [Desmodus Tooth](645378.md) | – | – |
 | [Doyor Claw](645380.md) | – | – |
 | [Drake Epaulet](645305.md) | – | – |
 | [Drake Meat](645195.md) | – | – |
@@ -60,6 +62,7 @@
 | [Golden Anvil](643003.md) | – | – |
 | [Gosaru Bones](645741.md) | – | – |
 | [Gray Winged Frog Bones](645717.md) | – | – |
+| [Green Ellom Bell](645448.md) | – | – |
 | [Green Hohen Orben Crystal Sphere](645661.md) | – | – |
 | [Groll Tooth](645369.md) | – | – |
 | [Grummer Leaf](645352.md) | – | – |
@@ -76,6 +79,7 @@
 | [Karkash Mushroom](645154.md) | – | – |
 | [Kenol Crystal](645743.md) | – | – |
 | [Kepa Crystal](645261.md) | – | – |
+| [Kepa Raider Tooth](645452.md) | – | – |
 | [Kepa Skin](645260.md) | – | – |
 | [Kepo Fluff](645572.md) | – | – |
 | [Leafnut Horn](645738.md) | – | – |
@@ -128,6 +132,7 @@
 | [Specter Hood](645400.md) | – | – |
 | [Sprout](910002.md) | – | – |
 | [Stoulet Heart](645562.md) | – | – |
+| [Sulfur](645233.md) | – | – |
 | [Superior Gem Abrasive](645640.md) | – | – |
 | [Talt](645268.md) | – | – |
 | [Tanu Flower](645461.md) | – | – |

@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-63 itens, em ordem de nível necessário.
+64 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau | Ataque |
 | --- | --- | --- | --- |
@@ -53,6 +53,7 @@
 | [Adata Chauve-souris](242129.md) | 170 | 6 | 158 ~ 193 |
 | [Artie Breach Pike](242127.md) | 170 | 6 | 136 ~ 167 |
 | [Aston Spear](242114.md) | 170 | 6 | 161 ~ 198 |
+| [Brandish](244103.md) | 170 | 6 | 169 ~ 206 |
 | [Breach Pike](241116.md) | 170 | 6 | 132 ~ 161 |
 | [Chaser](242108.md) | 170 | 6 | 136 ~ 167 |
 | [Chauve-souris](241118.md) | 170 | 6 | 156 ~ 191 |

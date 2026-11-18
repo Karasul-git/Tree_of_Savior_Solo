@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-82 itens, em ordem de nível necessário.
+84 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -30,6 +30,7 @@
 | [Collection: Koru Jungle](642124.md) | – | – |
 | [Collection: Kvailas Forest](642037.md) | – | – |
 | [Collection: Love For Foreign Land](642157.md) | – | – |
+| [Collection: Mage Tower 1F](642070.md) | – | – |
 | [Collection: Mage Tower 5F](642074.md) | – | – |
 | [Collection: Manahas](642151.md) | – | – |
 | [Collection: Myrkiti Farm](642057.md) | – | – |
@@ -48,6 +49,7 @@
 | [Collection: Residence of the Fallen Legwyn Family](642082.md) | – | – |
 | [Collection: Roxona Market](642110.md) | – | – |
 | [Collection: Roxona Reconstruction Agency East Building](642108.md) | – | – |
+| [Collection: Roxona Reconstruction Agency West Building](642107.md) | – | – |
 | [Collection: Royal Mausoleum 1F](642051.md) | – | – |
 | [Collection: Royal Mausoleum 2F](642052.md) | – | – |
 | [Collection: Royal Mausoleum 3F](642053.md) | – | – |

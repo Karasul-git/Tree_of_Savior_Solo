@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-88 itens, em ordem de nível necessário.
+90 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -13,6 +13,7 @@
 | [Magijos Amulet](648020.md) | – | – |
 | [Palemidas Amulet](648023.md) | – | – |
 | [Perejimo Amulet](648017.md) | – | – |
+| [Pertraukos Amulet](648024.md) | – | – |
 | [Pumpkin Amulet](648003.md) | – | – |
 | [Skull Amulet](648004.md) | – | – |
 | [String Amulet](648001.md) | – | – |
@@ -94,3 +95,4 @@
 | [Guardian Necklace](581143.md) | 220 | 7 |
 | [Maven Necklace](583106.md) | 220 | 7 |
 | [Terrallion](584105.md) | 220 | 7 |
+| [Lolopanther Medal](584104.md) | 270 | 8 |

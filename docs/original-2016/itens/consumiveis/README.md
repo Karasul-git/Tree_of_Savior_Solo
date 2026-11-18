@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-316 itens, em ordem de nível necessário.
+321 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -46,6 +46,7 @@
 | [Basic Recovery Potion](640101.md) | – | – |
 | [Basic SP Potion](640095.md) | – | – |
 | [Basic Silver Chest](641901.md) | – | – |
+| [Basic Small HP Potion](640091.md) | – | – |
 | [Basic Small Recovery Potion](640100.md) | – | – |
 | [Basic Small SP Potion](640094.md) | – | – |
 | [Basic Small Stamina Pill](640097.md) | – | – |
@@ -82,6 +83,7 @@
 | [Blue Orb: Earth Colimen](680117.md) | – | – |
 | [Blue Orb: Earth Deadborn Scap](680123.md) | – | – |
 | [Blue Orb: Earth Hallowventer](680124.md) | – | – |
+| [Blue Orb: Earth Old Kepa](680116.md) | – | – |
 | [Blue Orb: Earth Shredded](680122.md) | – | – |
 | [Blue Orb: Earth Wood Goblin](680114.md) | – | – |
 | [Blue Orb: Farm Ellum](680158.md) | – | – |
@@ -101,6 +103,7 @@
 | [Blue Orb: Old Hook](680176.md) | – | – |
 | [Blue Orb: Old Kepa](680192.md) | – | – |
 | [Blue Orb: Orange Siaulav](680421.md) | – | – |
+| [Blue Orb: Panto](680029.md) | – | – |
 | [Blue Orb: Panto Archer](680041.md) | – | – |
 | [Blue Orb: Panto Pathfinder](680025.md) | – | – |
 | [Blue Orb: Panto Warrior](680031.md) | – | – |
@@ -167,6 +170,7 @@
 | [Guinea Pig Egg](649601.md) | – | – |
 | [HP Increase Potion](640087.md) | – | – |
 | [HP Potion](640003.md) | – | – |
+| [Hardtack](640047.md) | – | – |
 | [Highly Condensed Movement Speed Potion](641803.md) | – | – |
 | [Highly Condensed SP Potion](641802.md) | – | – |
 | [INT Increase Potion](640107.md) | – | – |
@@ -286,6 +290,7 @@
 | [Red Orb: Rusty Old Hook](685253.md) | – | – |
 | [Red Orb: Truffle](685075.md) | – | – |
 | [Red Orb: Varv](685134.md) | – | – |
+| [Red Orb: Vikaras](685141.md) | – | – |
 | [Red Orb: Vikaras Archer](685150.md) | – | – |
 | [Red Orb: Vikaras Mage](685146.md) | – | – |
 | [Red Ox](640046.md) | – | – |

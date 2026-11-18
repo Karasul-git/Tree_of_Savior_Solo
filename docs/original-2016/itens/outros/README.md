@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-488 itens, em ordem de nível necessário.
+500 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau | Ataque |
 | --- | --- | --- | --- |
@@ -207,6 +207,7 @@
 | [Vubbe Token](645129.md) | 1 | 1 | 20 ~ 23 |
 | [Vuvuzela](630010.md) | 1 | – | – |
 | [Watering Can](630009.md) | 1 | 1 | – |
+| [Wendigo Fang](645256.md) | 1 | 4 | 41 ~ 50 |
 | [Yekubite Antennae](645132.md) | 1 | 1 | – |
 | [Broken Panto Sword](645307.md) | 15 | 2 | 40 ~ 49 |
 | [Collection: Ashaq Underground Prison 3F](642123.md) | 15 | 2 | – |
@@ -227,6 +228,7 @@
 | [Bagworm Shell](645161.md) | 40 | 3 | – |
 | [Bavon Feather](645409.md) | 40 | 6 | 256 ~ 384 |
 | [Beeteroxia Leaves](645733.md) | 40 | 3 | – |
+| [Big Siaulamb Sinew](645597.md) | 40 | 6 | 163 ~ 191 |
 | [Blue Fragaras Stem](645219.md) | 40 | 3 | – |
 | [Boowook Core](645221.md) | 40 | 3 | – |
 | [Bramble Thorn](645516.md) | 40 | 3 | – |
@@ -246,7 +248,9 @@
 | [Geppetto Stem](645171.md) | 40 | 4 | 158 ~ 213 |
 | [Glizardon Bones](645333.md) | 40 | 4 | – |
 | [Harugal Leather](645601.md) | 40 | 7 | 215 ~ 262 |
+| [Holy Powder](640069.md) | 40 | 3 | 84 ~ 99 |
 | [Lauzinute Skin](645176.md) | 40 | 3 | 84 ~ 99 |
+| [Levi Fur](645592.md) | 40 | 6 | 284 ~ 426 |
 | [Maize Spore Pocket](645341.md) | 40 | 3 | – |
 | [Mantiwood Skin](645403.md) | 40 | 3 | 55 ~ 55 |
 | [Matsum Stem](645163.md) | 40 | 3 | 88 ~ 98 |
@@ -293,6 +297,7 @@
 | [Hanaming Petal](645024.md) | 75 | 4 | – |
 | [Hogma Tusk](645177.md) | 75 | 4 | 122 ~ 165 |
 | [Hook](645213.md) | 75 | 4 | 155 ~ 210 |
+| [Ithildin Ore](649006.md) | 75 | 4 | 142 ~ 142 |
 | [Large Hook](645347.md) | 75 | 2 | – |
 | [Lizardman Fang](645397.md) | 75 | 4 | – |
 | [Madakia Horn](645402.md) | 75 | 5 | 221 ~ 300 |
@@ -343,8 +348,11 @@
 | [Collection: Apsimesti Crossroads](642081.md) | 120 | 5 | 185 ~ 204 |
 | [Collection: Grand Corridor](642084.md) | 120 | 5 | 157 ~ 292 |
 | [Collection: Greene Manor](642087.md) | 120 | 5 | – |
+| [Collection: Main Chamber](642083.md) | 120 | 5 | 191 ~ 258 |
 | [Collection: Shaton Farm](642088.md) | 120 | 5 | – |
 | [Collection: Uskis Arable Land](642097.md) | 120 | 5 | 124 ~ 151 |
+| [Cyst Needle](645586.md) | 120 | 5 | 153 ~ 180 |
+| [Desmodus Tooth](645202.md) | 120 | 5 | 193 ~ 262 |
 | [Dimmer Marble](645205.md) | 120 | 5 | 193 ~ 262 |
 | [Ellom Bell](645438.md) | 120 | 4 | 123 ~ 144 |
 | [Fishing Rod](645344.md) | 120 | 5 | 84 ~ 103 |
@@ -383,6 +391,7 @@
 | [Treegool Stem](645546.md) | 120 | 5 | 165 ~ 182 |
 | [Tripede Thorn](645602.md) | 120 | 5 | 124 ~ 145 |
 | [Vubbe Blood](645282.md) | 120 | 5 | 15 ~ 23 |
+| [White Mucus](645495.md) | 120 | 5 | 117 ~ 144 |
 | [Anchor](645611.md) | 170 | 6 | 226 ~ 226 |
 | [Archmage Fire Lord Cube](642902.md) | 170 | 6 | 183 ~ 214 |
 | [Belfigi Bead](645612.md) | 170 | 6 | 210 ~ 247 |
@@ -404,8 +413,10 @@
 | [Fruit of Wisdom](640054.md) | 170 | 6 | – |
 | [Glass Piece](645237.md) | 170 | 7 | 146 ~ 171 |
 | [Goblin Talisman](645616.md) | 170 | 6 | 200 ~ 200 |
+| [Gold Bar](645257.md) | 170 | 4 | 64 ~ 64 |
 | [Green Gem](643503.md) | 170 | 6 | 97 ~ 145 |
 | [Griba Bamboo Hat](645370.md) | 170 | 6 | 199 ~ 244 |
+| [Gribaru Drop](645589.md) | 170 | 6 | 284 ~ 426 |
 | [Guard Dog Cerberus Cube](642903.md) | 170 | 6 | 183 ~ 214 |
 | [Holy Water](640068.md) | 170 | 6 | 79 ~ 79 |
 | [Honeybean Stinger](645593.md) | 170 | 5 | 183 ~ 183 |
@@ -491,6 +502,7 @@
 | [Terranium](645694.md) | 220 | 7 | 283 ~ 527 |
 | [Tough Shell](645729.md) | 220 | 7 | 226 ~ 420 |
 | [Truffle](640042.md) | 220 | 7 | 377 ~ 417 |
+| [Wax](645187.md) | 220 | 5 | 201 ~ 246 |
 | [White Chain](645649.md) | 220 | 7 | 183 ~ 215 |
 | [White Wendigo Bow](645680.md) | 220 | 7 | 350 ~ 526 |
 | [Yellow Colifly Stamen](645664.md) | 220 | 7 | – |

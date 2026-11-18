@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-107 itens, em ordem de nível necessário.
+109 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -26,6 +26,7 @@
 | [Ring Boots](511134.md) | 15 | 2 |
 | [Sestas Chain Boots](512132.md) | 15 | 2 |
 | [Sestas Sandals](512130.md) | 15 | 2 |
+| [Thresh Chain Boots](512129.md) | 15 | 2 |
 | [Thresh Leather Boots](512128.md) | 15 | 2 |
 | [Thresh Sandals](512127.md) | 15 | 2 |
 | [Watcher Boots](512153.md) | 15 | 2 |
@@ -45,6 +46,7 @@
 | [Old Steel Chain Boots](511120.md) | 40 | 3 |
 | [Philis Scale Boots](512171.md) | 40 | 3 |
 | [Protas Boots](512108.md) | 40 | 3 |
+| [Ravinepede Boots](512121.md) | 40 | 3 |
 | [Scale Boots](511110.md) | 40 | 3 |
 | [Sirdgela Boots](512166.md) | 40 | 3 |
 | [Sirdgela Scale Boots](512168.md) | 40 | 3 |

@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-98 itens, em ordem de nível necessário.
+99 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau | Ataque |
 | --- | --- | --- | --- |
@@ -10,6 +10,7 @@
 | [Dunkel Short Bow](161126.md) | 1 | 1 | 16 ~ 24 |
 | [Fixed Bow](164999.md) | 1 | 1 | 160 ~ 160 |
 | [Light Bow](161102.md) | 1 | 1 | 11 ~ 17 |
+| [Mayor's Short Bow](161114.md) | 1 | 1 | 23 ~ 34 |
 | [Old Light Bow](161101.md) | 1 | 1 | 6 ~ 9 |
 | [Short Bow](161118.md) | 1 | 1 | 21 ~ 32 |
 | [Smith Bow](162114.md) | 1 | 1 | 28 ~ 42 |

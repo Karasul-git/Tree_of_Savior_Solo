@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-138 itens, em ordem de nível necessário.
+141 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau | Defesa |
 | --- | --- | --- | --- |
@@ -11,6 +11,8 @@
 | [Dio Robe](532124.md) | 1 | 1 | 3 |
 | [Dunkel Quilted Armor](531129.md) | 1 | 1 | 3 |
 | [Formine Armor](532149.md) | 1 | 2 | 6 |
+| [Leather Armor](531103.md) | 1 | 1 | 6 |
+| [Light Armor](531101.md) | 1 | 1 | 1 |
 | [Miner's Armor](531117.md) | 1 | 1 | 4 |
 | [Pokubu Armor](532102.md) | 1 | 1 | 5 |
 | [Quilted Armor](531102.md) | 1 | 1 | 3 |
@@ -131,6 +133,7 @@
 | [Tyla Robe](532184.md) | 170 | 6 | 43 |
 | [Veteran Tunic](531151.md) | 170 | 6 | 72 |
 | [Bandit Armor](531155.md) | 220 | 7 | 83 |
+| [Elkosh Robe](532188.md) | 220 | 7 | 61 |
 | [Grynas Armor](532190.md) | 220 | 7 | 134 |
 | [Ibre Armor](532189.md) | 220 | 7 | 84 |
 | [Royal Guard Armor](531156.md) | 220 | 7 | 124 |

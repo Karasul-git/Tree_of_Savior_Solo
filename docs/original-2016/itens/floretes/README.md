@@ -2,11 +2,12 @@
 
 [Itens de 2016](../README.md)
 
-15 itens, em ordem de nível necessário.
+16 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau | Ataque |
 | --- | --- | --- | --- |
 | [Catacombs Rapier](314103.md) | 170 | 6 | 242 ~ 242 |
+| [Duelist](313101.md) | 170 | 6 | 104 ~ 104 |
 | [Duris Epee](312105.md) | 170 | 6 | 219 ~ 219 |
 | [Epee](311104.md) | 170 | 6 | 217 ~ 217 |
 | [Magas Rapier](313103.md) | 170 | 6 | 226 ~ 226 |

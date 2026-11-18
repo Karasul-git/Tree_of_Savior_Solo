@@ -2,7 +2,7 @@
 
 [Itens de 2016](../README.md)
 
-390 itens, em ordem de nível necessário.
+399 itens, em ordem de nível necessário.
 
 | Item | Nível | Grau |
 | --- | --- | --- |
@@ -89,6 +89,7 @@
 | [Demon Essence](663111.md) | – | – |
 | [Demon Orders](664081.md) | – | – |
 | [Demon Teeth](664032.md) | – | – |
+| [Demon Transform Scroll](650725.md) | – | – |
 | [Demon Transform Scroll](650848.md) | – | – |
 | [Demon's Blood](663079.md) | – | – |
 | [Demonic Research: Transformation](650846.md) | – | – |
@@ -178,6 +179,7 @@
 | [Lost Research Note, Chapter 1](661090.md) | – | – |
 | [Lost Research Note, Chapter 2](661091.md) | – | – |
 | [Lost Research Note, Chapter 3](661092.md) | – | – |
+| [Magic Catalyst](664039.md) | – | – |
 | [Magic Circle Inscribed Leather](663027.md) | – | – |
 | [Magic Control Crystal Fragment](663037.md) | – | – |
 | [Magic Crystal](650567.md) | – | – |
@@ -199,8 +201,10 @@
 | [Mothstem's Fire Jar](650645.md) | – | – |
 | [Mysterious Dagger](663019.md) | – | – |
 | [Mysterious Poison](663030.md) | – | – |
+| [Mysterious Slate](650741.md) | – | – |
 | [Mysterious Small Box](666005.md) | – | – |
 | [Mysteriously Light Emanating Crystal](662137.md) | – | – |
+| [Mystical Orb](661073.md) | – | – |
 | [Nagging Owl's Soul](650444.md) | – | – |
 | [Naktis' Servant's Cloth Scrap](650847.md) | – | – |
 | [Naktis' Sign](650790.md) | – | – |
@@ -296,6 +300,7 @@
 | [Sap Collector](650734.md) | – | – |
 | [Sapper Master's Hidden Goods](650253.md) | – | – |
 | [Sarma's Experiment Solution](661097.md) | – | – |
+| [Scent Stone Powder](650771.md) | – | – |
 | [Scout Master's Special Reagent](661079.md) | – | – |
 | [Scroll With Writings](661078.md) | – | – |
 | [Scroll of the Dead](664054.md) | – | – |
@@ -308,6 +313,7 @@
 | [Second Corrupted Soil Sample](666001.md) | – | – |
 | [Second Empty Bottle](662037.md) | – | – |
 | [Second Pillar Piece](662142.md) | – | – |
+| [Second Rubbing](650746.md) | – | – |
 | [Second Tombstone Fragment](650736.md) | – | – |
 | [Secret Box Key](650681.md) | – | – |
 | [Seed Bag](662063.md) | – | – |
@@ -375,6 +381,8 @@
 | [Trace of Transference](664027.md) | – | – |
 | [Training Certificates](650450.md) | – | – |
 | [Truffle's Poisonous Mushroom](650572.md) | – | – |
+| [Unicorn Horn](650762.md) | – | – |
+| [Useful Arrow](666083.md) | – | – |
 | [Useful Bomb](650664.md) | – | – |
 | [Varb Resin](650609.md) | – | – |
 | [Vedas Plateau Soldier's Belongings](667036.md) | – | – |
@@ -392,6 +400,7 @@
 | [Weiss' Seed Pouch](666016.md) | – | – |
 | [Wisdom Guiding Stone](661019.md) | – | – |
 | [Wizard's Urn](662072.md) | – | – |
+| [Wooden Rod](662049.md) | – | – |
 | [Wugushi Poison Bottle](661065.md) | – | – |
 | [Yellow-Eyed Flower Petal](661076.md) | – | – |
 | [Zinutekas Tail Fragment](650610.md) | – | – |
