@@ -44,9 +44,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Your companion bites and holds onto a target. Decreases the physical defense of the bitten target. You receive a critical chance bonus against the target.
+> Your companion holds on to a target. Decreases a target's physical defense and attacks against the target will have an increased critical chance.  
+> *Physical*
 
 Texto original em inglês.
 
@@ -57,25 +58,31 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
-| Nível | Defesa física | Additional Critical Chance | Duração | Recarga (s) | SP |
-| --- | --- | --- | --- | --- | --- |
-| 1 | -16 | 30% | 4 s | 9 | 25 |
-| 2 | -20 | 30% | 6 s | 9 | 28 |
-| 3 | -24 | 30% | 8 s | 9 | 32 |
-| 4 | -28 | 30% | 10 s | 9 | 36 |
-| 5 | -32 | 30% | 12 s | 9 | 39 |
-| 6 | -36 | 30% | 14 s | 9 | 43 |
-| 7 | -40 | 30% | 16 s | 9 | 47 |
-| 8 | -44 | 30% | 18 s | 9 | 50 |
-| 9 | -48 | 30% | 20 s | 9 | 54 |
-| 10 | -52 | 30% | 22 s | 9 | 58 |
-| 11 | -56 | 30% | 24 s | 9 | 62 |
-| 12 | -60 | 30% | 26 s | 9 | 65 |
-| 13 | -64 | 30% | 28 s | 9 | 69 |
-| 14 | -68 | 30% | 30 s | 9 | 73 |
-| 15 | -72 | 30% | 32 s | 9 | 76 |
+| Nível | Ataque | Dano de atributo | Defesa física | Additional Critical Chance | Duração | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 132 | 0% | -16 | 40% | 7 s | 9 | 25 |
+| 2 | 162 | 0% | -20 | 40% | 9 s | 9 | 28 |
+| 3 | 192 | 0% | -24 | 40% | 11 s | 9 | 32 |
+| 4 | 222 | 0% | -28 | 40% | 13 s | 9 | 36 |
+| 5 | 253 | 0% | -32 | 40% | 15 s | 9 | 39 |
+| 6 | 283 | 0% | -36 | 40% | 17 s | 9 | 43 |
+| 7 | 313 | 0% | -40 | 40% | 19 s | 9 | 47 |
+| 8 | 343 | 0% | -44 | 40% | 21 s | 9 | 50 |
+| 9 | 373 | 0% | -48 | 40% | 23 s | 9 | 54 |
+| 10 | 404 | 0% | -52 | 40% | 25 s | 9 | 58 |
+| 11 | 434 | 0% | -56 | 40% | 27 s | 9 | 62 |
+| 12 | 464 | 0% | -60 | 40% | 29 s | 9 | 65 |
+| 13 | 494 | 0% | -64 | 40% | 31 s | 9 | 69 |
+| 14 | 524 | 0% | -68 | 40% | 33 s | 9 | 73 |
+| 15 | 555 | 0% | -72 | 40% | 35 s | 9 | 76 |
+
+### Atributos da habilidade em 2016
+
+- **Coursing: Mental Breakdown**: Decreases the magic defense of an enemy by affected by [Coursing] by 10 per attribute level. (Hunter 1st Circle required)
+- **Coursing: Enhance**: Increases the damage dealt on an enemy with [Coursing] by 1% per attribute level. (Hunter 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -42,6 +42,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 514% | 3.082% | 8.932% |
 | 15 | 536% | 3.216% | 9.447% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Command your hawk to divebomb enemies multiple times in the targeted area.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 1392 | 0% | 45 | 45 |
+| 2 | 1671 | 0% | 45 | 52 |
+| 3 | 1950 | 0% | 45 | 59 |
+| 4 | 2229 | 0% | 45 | 66 |
+| 5 | 2509 | 0% | 45 | 73 |
+| 6 | 2788 | 0% | 45 | 80 |
+| 7 | 3067 | 0% | 45 | 87 |
+| 8 | 3347 | 0% | 45 | 94 |
+| 9 | 3626 | 0% | 45 | 101 |
+| 10 | 3905 | 0% | 45 | 108 |
+
+### Atributos da habilidade em 2016
+
+- **Sonic Strike: Enhance**: Increases the damage dealt on an enemy with [Sonic Strike] by 1% per attribute level. (Falconer 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -27,9 +27,10 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> HealingFactor
+> Temporarily creates a magic circle that grants a healing factor. HP will be quickly recovered if you or your allies take damage from an enemy inside the magic circle.  
+> *Magic · Holy*
 
 Texto original em inglês.
 
@@ -40,25 +41,26 @@ Texto original em inglês.
 | Elemento | Holy |
 | Tipo | Buff |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
-| Nível | HealingFactor | Recarga (s) | SP |
-| --- | --- | --- | --- |
-| 1 |  | 0 | 12 |
-| 2 |  | 0 | 15 |
-| 3 |  | 0 | 18 |
-| 4 |  | 0 | 21 |
-| 5 |  | 0 | 24 |
-| 6 |  | 0 | 27 |
-| 7 |  | 0 | 30 |
-| 8 |  | 0 | 33 |
-| 9 |  | 0 | 36 |
-| 10 |  | 0 | 39 |
-| 11 |  | 0 | 42 |
-| 12 |  | 0 | 45 |
-| 13 |  | 0 | 48 |
-| 14 |  | 0 | 51 |
-| 15 |  | 0 | 54 |
+| Nível | Duração | HP Recovery | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 20 s | 60 | 45 | 72 |
+| 2 | 25 s | 70 | 45 | 86 |
+| 3 | 30 s | 80 | 45 | 100 |
+| 4 | 35 s | 90 | 45 | 114 |
+| 5 | 40 s | 100 | 45 | 128 |
+| 6 | 45 s | 110 | 45 | 142 |
+| 7 | 50 s | 120 | 45 | 156 |
+| 8 | 55 s | 130 | 45 | 170 |
+| 9 | 60 s | 140 | 45 | 184 |
+| 10 | 65 s | 150 | 45 | 198 |
+| 11 | 70 s | 160 | 45 | 212 |
+| 12 | 75 s | 170 | 45 | 226 |
+| 13 | 80 s | 180 | 45 | 240 |
+| 14 | 85 s | 190 | 45 | 254 |
+| 15 | 90 s | 200 | 45 | 268 |
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

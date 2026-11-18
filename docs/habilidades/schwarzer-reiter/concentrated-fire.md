@@ -45,10 +45,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Fires multiple bullets toward the enemy.  
-> *Physical · Strike*
+> Fires multiple bullets in rapid succession at an enemy.  
+> *Missile*
 
 Texto original em inglês.
 
@@ -59,6 +59,7 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | BowAndPistol |
+| Alvo | Ground, Square |
 
 | Nível | Ataque | Dano de atributo | Usável montado | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- |
@@ -78,6 +79,10 @@ Texto original em inglês.
 | 14 | 1574 | 0% |  | 30 | 118 |
 | 15 | 1671 | 0% |  | 30 | 124 |
 
+### Atributos da habilidade em 2016
+
+- **Concentrated Fire: Enhance**: Increases the damage dealt on an enemy with [Concentrated Fire] by 1% per attribute level. (Schwarzer Reiter 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

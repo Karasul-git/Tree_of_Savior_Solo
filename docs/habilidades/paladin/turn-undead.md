@@ -27,9 +27,9 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> May defeat mutant or devil-type enemy at once.
+> Has a chance of instantly defeating Mutant or Devil-type enemies.
 
 Texto original em inglês.
 
@@ -40,25 +40,30 @@ Texto original em inglês.
 | Elemento | Holy |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
-| Nível | Maximum Extinction | Recarga (s) | SP |
-| --- | --- | --- | --- |
-| 1 | 1 | 100 | 38 |
-| 2 | 2 | 100 | 43 |
-| 3 | 3 | 100 | 49 |
-| 4 | 4 | 100 | 55 |
-| 5 | 5 | 100 | 61 |
-| 6 | 6 | 100 | 67 |
-| 7 | 7 | 100 | 73 |
-| 8 | 8 | 100 | 79 |
-| 9 | 9 | 100 | 85 |
-| 10 | 10 | 100 | 91 |
-| 11 | 11 | 100 | 97 |
-| 12 | 12 | 100 | 102 |
-| 13 | 13 | 100 | 108 |
-| 14 | 14 | 100 | 114 |
-| 15 | 15 | 100 | 120 |
+| Nível | Ataque | Máximo de alvos | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 185 | 4 | 70 | 38 |
+| 2 | 239 | 5 | 70 | 43 |
+| 3 | 293 | 6 | 70 | 49 |
+| 4 | 346 | 7 | 70 | 55 |
+| 5 | 400 | 8 | 70 | 61 |
+| 6 | 454 | 9 | 70 | 67 |
+| 7 | 508 | 10 | 70 | 73 |
+| 8 | 562 | 11 | 70 | 79 |
+| 9 | 616 | 12 | 70 | 85 |
+| 10 | 670 | 13 | 70 | 91 |
+| 11 | 724 | 14 | 70 | 97 |
+| 12 | 778 | 15 | 70 | 102 |
+| 13 | 832 | 16 | 70 | 108 |
+| 14 | 885 | 17 | 70 | 114 |
+| 15 | 939 | 18 | 70 | 120 |
+
+### Atributos da habilidade em 2016
+
+- **Turn Undead: Spirit**: Increases the instant death chance of [Turn Undead] in proportion to the character's SPR (Lv2 Turn Undead required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -24,9 +24,9 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> The companion paces around the target and fixes its target. Evasion and Accuracy of the target will be decreased.
+> Your companion wanders around the target and fixes its target. Decreases the target's evasion and accuracy.
 
 Texto original em inglês.
 
@@ -37,6 +37,7 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
 | Nível | Esquiva | Accuracy | Pointing AI Duration | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- |
@@ -56,6 +57,10 @@ Texto original em inglês.
 | 14 | -41 | -41 | 90 s | 17 | 80 |
 | 15 | -43 | -43 | 90 s | 17 | 84 |
 
+### Atributos da habilidade em 2016
+
+- **Pointing: Fear**: Enemies affected by [Pointing] have a 5% chance per attribute level to be afflicted with [Fear] for 3 seconds. (Hunter 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

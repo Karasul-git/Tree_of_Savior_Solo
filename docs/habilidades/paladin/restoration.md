@@ -27,7 +27,7 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Activate aura and increase HP recovery of allies nearby.
 
@@ -40,6 +40,7 @@ Texto original em inglês.
 | Elemento | Holy |
 | Tipo | Buff |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
 | Nível | HP Recovery | Aura Duration | Recarga (s) | SP |
 | --- | --- | --- | --- | --- |
@@ -59,6 +60,11 @@ Texto original em inglês.
 | 14 | +320 | 60 s | 60 | 107 |
 | 15 | +337 | 60 s | 60 | 113 |
 
+### Atributos da habilidade em 2016
+
+- **Restoration: Enhance**: Increases the HP recovery effect of [Restoration] by 2 per attribute level. (Lv3 Restoration required)
+- **Restoration: SP Recovery**: Increases the character's SP recovery. Increases the SP recovery by 10 per attribute level. (Paladin 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

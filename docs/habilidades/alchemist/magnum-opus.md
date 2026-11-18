@@ -24,19 +24,20 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Use pluvial of alchemy and create a new item.
+> Use pluvial of alchemy to create a new item.
 
 Texto original em inglês.
 
 | Campo | Valor |
 | --- | --- |
-| Círculo | C1 |
+| Círculo | C2 |
 | Nível máximo | 5 |
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Fan |
 
 | Nível | Possible Combination | Recarga (s) | SP |
 | --- | --- | --- | --- |
@@ -45,17 +46,7 @@ Texto original em inglês.
 | 3 | 5X5 | 0 | 0 |
 | 4 | 6X6 | 0 | 0 |
 | 5 | 7X7 | 0 | 0 |
-| 6 | 8X8 | 0 | 0 |
-| 7 | 9X9 | 0 | 0 |
-| 8 | 10X10 | 0 | 0 |
-| 9 | 10X10 | 0 | 0 |
-| 10 | 10X10 | 0 | 0 |
-| 11 | 10X10 | 0 | 0 |
-| 12 | 10X10 | 0 | 0 |
-| 13 | 10X10 | 0 | 0 |
-| 14 | 10X10 | 0 | 0 |
-| 15 | 10X10 | 0 | 0 |
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

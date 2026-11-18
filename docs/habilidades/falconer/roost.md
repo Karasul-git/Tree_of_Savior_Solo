@@ -25,38 +25,29 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Set up a perch where the hawk can sit. The hawk will wait for the owner's order on the perch. The perch disappears when you move away from it.
+> Set up a roost where the hawk can sit. The hawk will wait for the owner's order on the roost. The roost disappears when you move away from it.
 
 Texto original em inglês.
 
 | Campo | Valor |
 | --- | --- |
 | Círculo | C1 |
-| Nível máximo | 15 |
+| Nível máximo | 1 |
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
-| Nível | Range | Torch Duration | Recarga (s) | SP |
+| Nível | Range | Roost Duration | Recarga (s) | SP |
 | --- | --- | --- | --- | --- |
 | 1 | 100 | 120 s | 60 | 27 |
-| 2 | 100 | 120 s | 60 | 31 |
-| 3 | 100 | 120 s | 60 | 36 |
-| 4 | 100 | 120 s | 60 | 40 |
-| 5 | 100 | 120 s | 60 | 45 |
-| 6 | 100 | 120 s | 60 | 49 |
-| 7 | 100 | 120 s | 60 | 54 |
-| 8 | 100 | 120 s | 60 | 58 |
-| 9 | 100 | 120 s | 60 | 63 |
-| 10 | 100 | 120 s | 60 | 67 |
-| 11 | 100 | 120 s | 60 | 72 |
-| 12 | 100 | 120 s | 60 | 76 |
-| 13 | 100 | 120 s | 60 | 81 |
-| 14 | 100 | 120 s | 60 | 85 |
-| 15 | 100 | 120 s | 60 | 90 |
+
+### Atributos da habilidade em 2016
+
+- **Roost: Increased Range**: Increases the range that [Roost] will remain active by 20 per attribute level. (Falconer 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -45,10 +45,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Fires two shots at once.  
-> *Physical · Missile*
+> Fires two shots at once at an enemy.  
+> *Missile*
 
 Texto original em inglês.
 
@@ -58,26 +58,21 @@ Texto original em inglês.
 | Nível máximo | 5 |
 | Elemento | Melee |
 | Tipo | Attack |
-| Postura exigida | None |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Actor, Square |
 
 | Nível | Ataque | Dano de atributo | Recarga (s) | SP |
 | --- | --- | --- | --- | --- |
-| 1 | 101 | 0% | 30 | 18 |
-| 2 | 139 | 0% | 30 | 22 |
-| 3 | 177 | 0% | 30 | 26 |
-| 4 | 215 | 0% | 30 | 30 |
-| 5 | 254 | 0% | 30 | 34 |
-| 6 | 292 | 0% | 30 | 38 |
-| 7 | 330 | 0% | 30 | 42 |
-| 8 | 368 | 0% | 30 | 46 |
-| 9 | 406 | 0% | 30 | 50 |
-| 10 | 444 | 0% | 30 | 54 |
-| 11 | 482 | 0% | 30 | 58 |
-| 12 | 520 | 0% | 30 | 62 |
-| 13 | 558 | 0% | 30 | 66 |
-| 14 | 596 | 0% | 30 | 70 |
-| 15 | 634 | 0% | 30 | 74 |
+| 1 | 151 | 0% | 7 | 15 |
+| 2 | 193 | 0% | 7 | 18 |
+| 3 | 235 | 0% | 7 | 21 |
+| 4 | 277 | 0% | 7 | 24 |
+| 5 | 320 | 0% | 7 | 27 |
+
+### Atributos da habilidade em 2016
+
+- **Twin Arrows: Enhance**: Increases the damage dealt on an enemy with [Twin Arrows] by 1% per attribute level. (Archer 3rd Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

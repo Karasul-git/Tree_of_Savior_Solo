@@ -24,9 +24,9 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Increases skill damage while decreasing attack speed.
+> Aim at an enemy in a stable posture. Increases the damage of Missile property attacks.
 
 Texto original em inglês.
 
@@ -37,25 +37,30 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Buff |
 | Postura exigida | None |
+| Alvo | Self, Circle |
 
-| Nível | Dano adicional | Attack Speed | Duração | Recarga (s) | SP |
+| Nível | Ataque | Additional Attribute Damage | Duração | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- |
-| 1 | +7 | -15% | 40 s | 61 | 20 |
-| 2 | +9 | -14% | 40 s | 61 | 23 |
-| 3 | +11 | -13% | 40 s | 61 | 26 |
-| 4 | +13 | -12% | 40 s | 61 | 30 |
-| 5 | +15 | -11% | 40 s | 61 | 33 |
-| 6 | +17 | -10% | 40 s | 61 | 37 |
-| 7 | +19 | -9% | 40 s | 61 | 40 |
-| 8 | +21 | -8% | 40 s | 61 | 43 |
-| 9 | +22 | -7% | 40 s | 61 | 47 |
-| 10 | +24 | -6% | 40 s | 61 | 50 |
-| 11 | +26 | -5% | 40 s | 61 | 54 |
-| 12 | +28 | -4% | 40 s | 61 | 57 |
-| 13 | +30 | -3% | 40 s | 61 | 60 |
-| 14 | +32 | -2% | 40 s | 61 | 64 |
-| 15 | +34 | -1% | 40 s | 61 | 67 |
+| 1 | +6% | 0 | 10 s | 25 | 20 |
+| 2 | +7% | 0 | 10 s | 25 | 23 |
+| 3 | +8% | 0 | 10 s | 25 | 26 |
+| 4 | +9% | 0 | 10 s | 25 | 30 |
+| 5 | +10% | 0 | 10 s | 25 | 33 |
+| 6 | +11% | 0 | 10 s | 25 | 37 |
+| 7 | +12% | 0 | 10 s | 25 | 40 |
+| 8 | +13% | 0 | 10 s | 25 | 43 |
+| 9 | +14% | 0 | 10 s | 25 | 47 |
+| 10 | +15% | 0 | 10 s | 25 | 50 |
+| 11 | +16% | 0 | 10 s | 25 | 54 |
+| 12 | +17% | 0 | 10 s | 25 | 57 |
+| 13 | +18% | 0 | 10 s | 25 | 60 |
+| 14 | +19% | 0 | 10 s | 25 | 64 |
+| 15 | +20% | 0 | 10 s | 25 | 67 |
+
+### Atributos da habilidade em 2016
+
+- **Steady Aim: Enhance**: Increases the additional damage effect of [Steady Aim] by 2 per attribute level. (Lv3 Steady Aim required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

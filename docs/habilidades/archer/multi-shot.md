@@ -45,10 +45,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Charge up and then quickly launch multiple shots at a targeted location.  
-> *Physical · Missile*
+> Quickly fires a number of arrows at a targeted area.  
+> *Missile*
 
 Texto original em inglês.
 
@@ -58,26 +58,33 @@ Texto original em inglês.
 | Nível máximo | 15 |
 | Elemento | Melee |
 | Tipo | Attack |
-| Postura exigida | None |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Ground, Square |
 
-| Nível | Ataque | Dano de atributo | Fires | Recarga (s) | SP |
-| --- | --- | --- | --- | --- | --- |
-| 1 | 43 | 0% | 2 times | 14 | 9 |
-| 2 | 53 | 0% | 3 times | 14 | 11 |
-| 3 | 64 | 0% | 4 times | 14 | 13 |
-| 4 | 75 | 0% | 5 times | 14 | 15 |
-| 5 | 85 | 0% | 6 times | 14 | 17 |
-| 6 | 96 | 0% | 7 times | 14 | 19 |
-| 7 | 106 | 0% | 8 times | 14 | 21 |
-| 8 | 117 | 0% | 9 times | 14 | 23 |
-| 9 | 127 | 0% | 10 times | 14 | 25 |
-| 10 | 138 | 0% | 11 times | 14 | 27 |
-| 11 | 148 | 0% | 12 times | 14 | 29 |
-| 12 | 159 | 0% | 13 times | 14 | 31 |
-| 13 | 169 | 0% | 14 times | 14 | 33 |
-| 14 | 180 | 0% | 15 times | 14 | 35 |
-| 15 | 190 | 0% | 16 times | 14 | 37 |
+| Nível | Ataque | Dano de atributo | Fires 2 times | Fires 3 times | Fires 4 times | Fires 5 times | Fires 6 times | Fires 7 times | Fires 8 times | Fires 9 times | Fires 10 times | Fires 11 times | Fires 12 times | Fires 13 times | Fires 14 times | Fires 15 times | Fires 16 times | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 48 | 0% |  | – | – | – | – | – | – | – | – | – | – | – | – | – | – | 14 | 8 |
+| 2 | 61 | 0% | – |  | – | – | – | – | – | – | – | – | – | – | – | – | – | 14 | 10 |
+| 3 | 73 | 0% | – | – |  | – | – | – | – | – | – | – | – | – | – | – | – | 14 | 12 |
+| 4 | 86 | 0% | – | – | – |  | – | – | – | – | – | – | – | – | – | – | – | 14 | 14 |
+| 5 | 98 | 0% | – | – | – | – |  | – | – | – | – | – | – | – | – | – | – | 14 | 16 |
+| 6 | 111 | 0% | – | – | – | – | – |  | – | – | – | – | – | – | – | – | – | 14 | 18 |
+| 7 | 124 | 0% | – | – | – | – | – | – |  | – | – | – | – | – | – | – | – | 14 | 20 |
+| 8 | 136 | 0% | – | – | – | – | – | – | – |  | – | – | – | – | – | – | – | 14 | 22 |
+| 9 | 149 | 0% | – | – | – | – | – | – | – | – |  | – | – | – | – | – | – | 14 | 24 |
+| 10 | 161 | 0% | – | – | – | – | – | – | – | – | – |  | – | – | – | – | – | 14 | 26 |
+| 11 | 174 | 0% | – | – | – | – | – | – | – | – | – | – |  | – | – | – | – | 14 | 28 |
+| 12 | 186 | 0% | – | – | – | – | – | – | – | – | – | – | – |  | – | – | – | 14 | 30 |
+| 13 | 199 | 0% | – | – | – | – | – | – | – | – | – | – | – | – |  | – | – | 14 | 32 |
+| 14 | 211 | 0% | – | – | – | – | – | – | – | – | – | – | – | – | – |  | – | 14 | 34 |
+| 15 | 224 | 0% | – | – | – | – | – | – | – | – | – | – | – | – | – | – |  | 14 | 36 |
+
+### Atributos da habilidade em 2016
+
+- **Multi Shot: Enhance**: Increases the damage dealt on an enemy with [Multi Shot] by 1% per attribute level. (Archer 1st Circle required)
+- **Multi Shot: Quick Charging**: Decreases the charging time of [Multi Shot] by half. (Archer 2nd Circle required)
+- **Multi Shot: Critical**: Increases the critical chance of [Multi Shot] by 1.5% per attribute level. (Archer 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

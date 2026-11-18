@@ -44,10 +44,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Launches a contagious poisonous arrow. Poison spreads through the target whenever it gets attacked.  
-> *Physical · Poison · Pierce*
+> Fires a contagious poison arrow. The poisoned target spreads poison around to nearby enemies whenever it is attacked.  
+> *Missile · Poison*
 
 Texto original em inglês.
 
@@ -58,25 +58,31 @@ Texto original em inglês.
 | Elemento | Poison |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Actor, Square |
 
-| Nível | Ataque | Dano de atributo | [Poison] Duration | Consumes | Recarga (s) | SP |
+| Nível | Ataque | Dano de atributo | [Poison] Duration | Consumes 7 Poison Pot Poison | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 252 | 0% | 6 s | 7 Poison Pot Poison | 30 | 37 |
-| 2 | 326 | 0% | 7 s | 7 Poison Pot Poison | 30 | 42 |
-| 3 | 400 | 0% | 8 s | 7 Poison Pot Poison | 30 | 47 |
-| 4 | 474 | 0% | 9 s | 7 Poison Pot Poison | 30 | 52 |
-| 5 | 548 | 0% | 10 s | 7 Poison Pot Poison | 30 | 58 |
-| 6 | 622 | 0% | 11 s | 7 Poison Pot Poison | 30 | 63 |
-| 7 | 696 | 0% | 12 s | 7 Poison Pot Poison | 30 | 68 |
-| 8 | 770 | 0% | 13 s | 7 Poison Pot Poison | 30 | 74 |
-| 9 | 844 | 0% | 14 s | 7 Poison Pot Poison | 30 | 79 |
-| 10 | 917 | 0% | 15 s | 7 Poison Pot Poison | 30 | 84 |
-| 11 | 991 | 0% | 16 s | 7 Poison Pot Poison | 30 | 90 |
-| 12 | 1065 | 0% | 17 s | 7 Poison Pot Poison | 30 | 95 |
-| 13 | 1139 | 0% | 18 s | 7 Poison Pot Poison | 30 | 100 |
-| 14 | 1213 | 0% | 19 s | 7 Poison Pot Poison | 30 | 105 |
-| 15 | 1287 | 0% | 20 s | 7 Poison Pot Poison | 30 | 111 |
+| 1 | 302 | 0% | 6 s |  | 25 | 37 |
+| 2 | 391 | 0% | 7 s |  | 25 | 42 |
+| 3 | 480 | 0% | 8 s |  | 25 | 47 |
+| 4 | 569 | 0% | 9 s |  | 25 | 52 |
+| 5 | 658 | 0% | 10 s |  | 25 | 58 |
+| 6 | 747 | 0% | 11 s |  | 25 | 63 |
+| 7 | 836 | 0% | 12 s |  | 25 | 68 |
+| 8 | 925 | 0% | 13 s |  | 25 | 74 |
+| 9 | 1014 | 0% | 14 s |  | 25 | 79 |
+| 10 | 1102 | 0% | 15 s |  | 25 | 84 |
+| 11 | 1191 | 0% | 16 s |  | 25 | 90 |
+| 12 | 1280 | 0% | 17 s |  | 25 | 95 |
+| 13 | 1369 | 0% | 18 s |  | 25 | 100 |
+| 14 | 1458 | 0% | 19 s |  | 25 | 105 |
+| 15 | 1547 | 0% | 20 s |  | 25 | 111 |
+
+### Atributos da habilidade em 2016
+
+- **Wugong Gu: Enhance**: Increases the damage dealt on an enemy with [Wugong Gu] by 1% per attribute level. (Wugushi 1st Circle required)
+- **Wugong Gu: Continuous Infection**: Increases the infection duration from [Wugong Gu] on an infected target by 1 second per attribute level. (Wugushi 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

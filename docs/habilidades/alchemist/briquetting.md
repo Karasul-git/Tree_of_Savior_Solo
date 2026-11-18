@@ -24,9 +24,9 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Combine two items to change item abilities. Item loses potential and its ability may become better or worse.
+> Combine two items to change abilities of an item. The combined item will have its Potential reduced and the abilities may become better or worse.
 
 Texto original em inglês.
 
@@ -37,25 +37,26 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Fan |
 
-| Nível | Min. and Max. Attack change by | -5%~ | -5.5%~ | -6%~ | -6.5%~ | -7%~ | -7.5%~ | -8%~ | -8.5%~ | -9%~ | -9.5%~ | -10%~ | -10.5%~ | -11%~ | -11.5%~ | -12%~ | Recarga (s) | SP |
+| Nível | Each Min, Max Attack | -5%~5% change | -5.5%~5.5% change | -6%~6% change | -6.5%~6.5% change | -7%~7% change | -7.5%~7.5% change | -8%~8% change | -8.5%~8.5% change | -9%~9% change | -9.5%~9.5% change | -10%~10% change | -10.5%~10.5% change | -11%~11% change | -11.5%~11.5% change | -12%~12% change | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |  | 5% each | – | – | – | – | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
-| 2 |  | – | 5.5% each | – | – | – | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
-| 3 |  | – | – | 6% each | – | – | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
-| 4 |  | – | – | – | 6.5% each | – | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
-| 5 |  | – | – | – | – | 7% each | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
-| 6 |  | – | – | – | – | – | 7.5% each | – | – | – | – | – | – | – | – | – | 0 | 0 |
-| 7 |  | – | – | – | – | – | – | 8% each | – | – | – | – | – | – | – | – | 0 | 0 |
-| 8 |  | – | – | – | – | – | – | – | 8.5% each | – | – | – | – | – | – | – | 0 | 0 |
-| 9 |  | – | – | – | – | – | – | – | – | 9% each | – | – | – | – | – | – | 0 | 0 |
-| 10 |  | – | – | – | – | – | – | – | – | – | 9.5% each | – | – | – | – | – | 0 | 0 |
-| 11 |  | – | – | – | – | – | – | – | – | – | – | 10% each | – | – | – | – | 0 | 0 |
-| 12 |  | – | – | – | – | – | – | – | – | – | – | – | 10.5% each | – | – | – | 0 | 0 |
-| 13 |  | – | – | – | – | – | – | – | – | – | – | – | – | 11% each | – | – | 0 | 0 |
-| 14 |  | – | – | – | – | – | – | – | – | – | – | – | – | – | 11.5% each | – | 0 | 0 |
-| 15 |  | – | – | – | – | – | – | – | – | – | – | – | – | – | – | 12% each | 0 | 0 |
+| 1 |  |  | – | – | – | – | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
+| 2 |  | – |  | – | – | – | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
+| 3 |  | – | – |  | – | – | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
+| 4 |  | – | – | – |  | – | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
+| 5 |  | – | – | – | – |  | – | – | – | – | – | – | – | – | – | – | 0 | 0 |
+| 6 |  | – | – | – | – | – |  | – | – | – | – | – | – | – | – | – | 0 | 0 |
+| 7 |  | – | – | – | – | – | – |  | – | – | – | – | – | – | – | – | 0 | 0 |
+| 8 |  | – | – | – | – | – | – | – |  | – | – | – | – | – | – | – | 0 | 0 |
+| 9 |  | – | – | – | – | – | – | – | – |  | – | – | – | – | – | – | 0 | 0 |
+| 10 |  | – | – | – | – | – | – | – | – | – |  | – | – | – | – | – | 0 | 0 |
+| 11 |  | – | – | – | – | – | – | – | – | – | – |  | – | – | – | – | 0 | 0 |
+| 12 |  | – | – | – | – | – | – | – | – | – | – | – |  | – | – | – | 0 | 0 |
+| 13 |  | – | – | – | – | – | – | – | – | – | – | – | – |  | – | – | 0 | 0 |
+| 14 |  | – | – | – | – | – | – | – | – | – | – | – | – | – |  | – | 0 | 0 |
+| 15 |  | – | – | – | – | – | – | – | – | – | – | – | – | – | – |  | 0 | 0 |
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

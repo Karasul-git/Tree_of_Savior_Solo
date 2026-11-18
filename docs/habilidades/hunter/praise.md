@@ -25,9 +25,9 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Temporarily increases your Companion's Attack, Accuracy and Critical Rate.
+> Increases attack, accuracy and critical rate of your companion for a given duration.
 
 Texto original em inglês.
 
@@ -38,25 +38,20 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
-| Nível | Companion's Attack | Companion's Accuracy | Companion's Critical Rate | Duração | Recarga (s) | SP |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | +25 | +25 | +25 | 60 s | 90 | 30 |
-| 2 | +30 | +30 | +30 | 70 s | 90 | 34 |
-| 3 | +35 | +35 | +35 | 80 s | 90 | 38 |
-| 4 | +40 | +40 | +40 | 90 s | 90 | 42 |
-| 5 | +45 | +45 | +45 | 100 s | 90 | 46 |
-| 6 | +50 | +50 | +50 | 110 s | 90 | 51 |
-| 7 | +55 | +55 | +55 | 120 s | 90 | 55 |
-| 8 | +60 | +60 | +60 | 130 s | 90 | 59 |
-| 9 | +65 | +65 | +65 | 140 s | 90 | 63 |
-| 10 | +70 | +70 | +70 | 150 s | 90 | 67 |
-| 11 | +75 | +75 | +75 | 160 s | 90 | 72 |
-| 12 | +80 | +80 | +80 | 170 s | 90 | 76 |
-| 13 | +85 | +85 | +85 | 180 s | 90 | 80 |
-| 14 | +90 | +90 | +90 | 190 s | 90 | 84 |
-| 15 | +95 | +95 | +95 | 200 s | 90 | 88 |
+| Nível | Companion Attack | Companion Accuracy | Companion Critical Rate | Duração | Maximum Level | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | +25 | +25 | +25 | 60 s | 5 | 90 | 30 |
+| 2 | +30 | +30 | +30 | 70 s | 5 | 90 | 34 |
+| 3 | +35 | +35 | +35 | 80 s | 5 | 90 | 38 |
+| 4 | +40 | +40 | +40 | 90 s | 5 | 90 | 42 |
+| 5 | +45 | +45 | +45 | 100 s | 5 | 90 | 46 |
+
+### Atributos da habilidade em 2016
+
+- **Praise: Movement Speed**: Increases the movement speed of your companion from [Praise] by 1 per attribute level. (Hunter 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -44,9 +44,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Order your companion to rush forward and attack the enemy.
+> Order your companion to charge and attack an enemy.  
+> *Physical*
 
 Texto original em inglês.
 
@@ -57,25 +58,31 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
-| Nível | Ataque | Recarga (s) | SP |
-| --- | --- | --- | --- |
-| 1 | 343 | 5 | 22 |
-| 2 | 400 | 5 | 25 |
-| 3 | 458 | 5 | 29 |
-| 4 | 515 | 5 | 32 |
-| 5 | 572 | 5 | 36 |
-| 6 | 629 | 5 | 39 |
-| 7 | 687 | 5 | 43 |
-| 8 | 744 | 5 | 46 |
-| 9 | 801 | 5 | 50 |
-| 10 | 858 | 5 | 53 |
-| 11 | 915 | 5 | 57 |
-| 12 | 973 | 5 | 60 |
-| 13 | 1030 | 5 | 64 |
-| 14 | 1087 | 5 | 67 |
-| 15 | 1144 | 5 | 71 |
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 150% + 453 | 0% | 5 | 22 |
+| 2 | 150% + 542 | 0% | 5 | 25 |
+| 3 | 150% + 632 | 0% | 5 | 29 |
+| 4 | 150% + 721 | 0% | 5 | 32 |
+| 5 | 150% + 810 | 0% | 5 | 36 |
+| 6 | 150% + 899 | 0% | 5 | 39 |
+| 7 | 150% + 989 | 0% | 5 | 43 |
+| 8 | 150% + 1078 | 0% | 5 | 46 |
+| 9 | 150% + 1167 | 0% | 5 | 50 |
+| 10 | 150% + 1256 | 0% | 5 | 53 |
+| 11 | 150% + 1345 | 0% | 5 | 57 |
+| 12 | 150% + 1435 | 0% | 5 | 60 |
+| 13 | 150% + 1524 | 0% | 5 | 64 |
+| 14 | 150% + 1613 | 0% | 5 | 67 |
+| 15 | 150% + 1702 | 0% | 5 | 71 |
+
+### Atributos da habilidade em 2016
+
+- **Rush Dog: Enhance**: Increases the damage dealt on an enemy with [Rush Dog] by 1% per attribute level. (Hunter 1st Circle required)
+- **Rush Dog: Stun**: Enemies attacked with [Rush Dog] have a 10% chance per attribute level to be afflicted with [Stun] for 6 seconds. (Hunter 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

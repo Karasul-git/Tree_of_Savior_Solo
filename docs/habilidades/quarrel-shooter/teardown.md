@@ -25,7 +25,7 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Demolish obstacles in front, inflicting damage to nearby enemies.  
 > *Physical · Strike*
@@ -38,7 +38,8 @@ Texto original em inglês.
 | Nível máximo | 10 |
 | Elemento | Melee |
 | Tipo | Attack |
-| Postura exigida | BowAndShield, BowAndArtefact, BowAndDagger, BowAndPistol |
+| Postura exigida | BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon Musket |
+| Alvo | Front, Fan |
 
 | Nível | Ataque | Dano de atributo | Recarga (s) | SP |
 | --- | --- | --- | --- | --- |
@@ -52,12 +53,12 @@ Texto original em inglês.
 | 8 | 434 | 0% | 50 | 36 |
 | 9 | 475 | 0% | 50 | 39 |
 | 10 | 515 | 0% | 50 | 42 |
-| 11 | 555 | 0% | 50 | 45 |
-| 12 | 596 | 0% | 50 | 48 |
-| 13 | 636 | 0% | 50 | 51 |
-| 14 | 676 | 0% | 50 | 54 |
-| 15 | 717 | 0% | 50 | 57 |
+
+### Atributos da habilidade em 2016
+
+- **Teardown: Enhance**: Increases the damage dealt on an enemy with [Teardown] by 1% per attribute level. (Quarrel Shooter 2nd Circle required)
+- **Teardown: Teardown Statue**: Allows you to dismantle Dievdirbys' [Carve World Tree] with [Teardown]. (Quarrel Shooter 2nd Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

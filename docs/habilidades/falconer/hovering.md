@@ -24,7 +24,7 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Your hawk circles above a targeted area and attacks enemies passing below.  
 > *Physical · Strike*
@@ -38,25 +38,32 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
 | Nível | Ataque | Dano de atributo | Duração | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 430 | 0% | 10 s | 75 | 34 |
-| 2 | 562 | 0% | 10 s | 75 | 38 |
-| 3 | 694 | 0% | 10 s | 75 | 43 |
-| 4 | 826 | 0% | 10 s | 75 | 48 |
-| 5 | 958 | 0% | 10 s | 75 | 53 |
-| 6 | 1090 | 0% | 10 s | 75 | 58 |
-| 7 | 1222 | 0% | 10 s | 75 | 63 |
-| 8 | 1354 | 0% | 10 s | 75 | 68 |
-| 9 | 1486 | 0% | 10 s | 75 | 73 |
-| 10 | 1618 | 0% | 10 s | 75 | 78 |
-| 11 | 1750 | 0% | 10 s | 75 | 83 |
-| 12 | 1882 | 0% | 10 s | 75 | 87 |
-| 13 | 2014 | 0% | 10 s | 75 | 92 |
-| 14 | 2146 | 0% | 10 s | 75 | 97 |
-| 15 | 2278 | 0% | 10 s | 75 | 102 |
+| 1 | 430 | 0% | 10 s | 35 | 34 |
+| 2 | 562 | 0% | 10 s | 35 | 38 |
+| 3 | 694 | 0% | 10 s | 35 | 43 |
+| 4 | 826 | 0% | 10 s | 35 | 48 |
+| 5 | 958 | 0% | 10 s | 35 | 53 |
+| 6 | 1090 | 0% | 10 s | 35 | 58 |
+| 7 | 1222 | 0% | 10 s | 35 | 63 |
+| 8 | 1354 | 0% | 10 s | 35 | 68 |
+| 9 | 1486 | 0% | 10 s | 35 | 73 |
+| 10 | 1618 | 0% | 10 s | 35 | 78 |
+| 11 | 1750 | 0% | 10 s | 35 | 83 |
+| 12 | 1882 | 0% | 10 s | 35 | 87 |
+| 13 | 2014 | 0% | 10 s | 35 | 92 |
+| 14 | 2146 | 0% | 10 s | 35 | 97 |
+| 15 | 2278 | 0% | 10 s | 35 | 102 |
+
+### Atributos da habilidade em 2016
+
+- **Hovering: Duration**: Increases the duration of [Hovering] by 3 seconds per attribute level. (Falconer 1st Circle required)
+- **Hovering: Attack Speed Buff**: Your hawk will attack enemies faster while using [Hovering]. (Lv3 Hovering required)
+- **Hovering: Enhance**: Increases the damage dealt on an enemy with [Hovering] by 1% per attribute level. (Falconer 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

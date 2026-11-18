@@ -46,10 +46,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Throw poison to inject a parasite into the enemy. Poisonous insects are born when the host is killed.  
-> *Physical · Poison · Pierce*
+> Throw Jincan to attack enemies. Defeated enemies are replaced with a newly born poison insect.  
+> *Physical · Poison*
 
 Texto original em inglês.
 
@@ -60,25 +60,20 @@ Texto original em inglês.
 | Elemento | Poison |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Ground, Square |
 
-| Nível | Consumes | Poisonous Insect Duration | Recarga (s) | SP |
+| Nível | Consumes 11 Poison Pot Poison | Poisonous Insect Duration | Recarga (s) | SP |
 | --- | --- | --- | --- | --- |
-| 1 | 11 Poison Pot Poison | 20 s | 40 | 41 |
-| 2 | 11 Poison Pot Poison | 20 s | 40 | 46 |
-| 3 | 11 Poison Pot Poison | 20 s | 40 | 52 |
-| 4 | 11 Poison Pot Poison | 20 s | 40 | 57 |
-| 5 | 11 Poison Pot Poison | 20 s | 40 | 63 |
-| 6 | 11 Poison Pot Poison | 20 s | 40 | 69 |
-| 7 | 11 Poison Pot Poison | 20 s | 40 | 74 |
-| 8 | 11 Poison Pot Poison | 20 s | 40 | 80 |
-| 9 | 11 Poison Pot Poison | 20 s | 40 | 85 |
-| 10 | 11 Poison Pot Poison | 20 s | 40 | 91 |
-| 11 | 11 Poison Pot Poison | 20 s | 40 | 97 |
-| 12 | 11 Poison Pot Poison | 20 s | 40 | 102 |
-| 13 | 11 Poison Pot Poison | 20 s | 40 | 108 |
-| 14 | 11 Poison Pot Poison | 20 s | 40 | 113 |
-| 15 | 11 Poison Pot Poison | 20 s | 40 | 119 |
+| 1 |  | 20 s | 40 | 41 |
+| 2 |  | 20 s | 40 | 46 |
+| 3 |  | 20 s | 40 | 52 |
+| 4 |  | 20 s | 40 | 57 |
+| 5 |  | 20 s | 40 | 63 |
+
+### Atributos da habilidade em 2016
+
+- **Jincan Gu: Decreased Evasion Rate**: Decreases the evasion rate of enemies affected by [Jincan Gu] by 5% per attribute level. (Wugushi 3rd Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -25,9 +25,9 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Cures a poisoned ally. A poison status with a higher level than Detoxify cannot be healed, however its duration decreases.
+> Detoxifies a poisoned ally. If the poison is of a higher rank than the antidote, the duration will be reduced instead.
 
 Texto original em inglês.
 
@@ -38,25 +38,30 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Square |
 
-| Nível | Duração | Consumes | Recarga (s) | SP |
-| --- | --- | --- | --- | --- |
-| 1 | -3 s | 10 Poison Pot Poison | 9 | 34 |
-| 2 | -3 s | 11 Poison Pot Poison | 9 | 39 |
-| 3 | -3 s | 12 Poison Pot Poison | 9 | 44 |
-| 4 | -3 s | 13 Poison Pot Poison | 9 | 49 |
-| 5 | -3 s | 14 Poison Pot Poison | 9 | 54 |
-| 6 | -3 s | 15 Poison Pot Poison | 9 | 59 |
-| 7 | -3 s | 16 Poison Pot Poison | 9 | 64 |
-| 8 | -3 s | 17 Poison Pot Poison | 9 | 69 |
-| 9 | -3 s | 18 Poison Pot Poison | 9 | 74 |
-| 10 | -3 s | 19 Poison Pot Poison | 9 | 79 |
-| 11 | -3 s | 20 Poison Pot Poison | 9 | 84 |
-| 12 | -3 s | 21 Poison Pot Poison | 9 | 89 |
-| 13 | -3 s | 22 Poison Pot Poison | 9 | 94 |
-| 14 | -3 s | 23 Poison Pot Poison | 9 | 99 |
-| 15 | -3 s | 24 Poison Pot Poison | 9 | 104 |
+| Nível | Duração | Consumes 10 Poison Pot Poison | Consumes 11 Poison Pot Poison | Consumes 12 Poison Pot Poison | Consumes 13 Poison Pot Poison | Consumes 14 Poison Pot Poison | Consumes 15 Poison Pot Poison | Consumes 16 Poison Pot Poison | Consumes 17 Poison Pot Poison | Consumes 18 Poison Pot Poison | Consumes 19 Poison Pot Poison | Consumes 20 Poison Pot Poison | Consumes 21 Poison Pot Poison | Consumes 22 Poison Pot Poison | Consumes 23 Poison Pot Poison | Consumes 24 Poison Pot Poison | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | -3 s |  | – | – | – | – | – | – | – | – | – | – | – | – | – | – | 9 | 34 |
+| 2 | -3 s | – |  | – | – | – | – | – | – | – | – | – | – | – | – | – | 9 | 39 |
+| 3 | -3 s | – | – |  | – | – | – | – | – | – | – | – | – | – | – | – | 9 | 44 |
+| 4 | -3 s | – | – | – |  | – | – | – | – | – | – | – | – | – | – | – | 9 | 49 |
+| 5 | -3 s | – | – | – | – |  | – | – | – | – | – | – | – | – | – | – | 9 | 54 |
+| 6 | -3 s | – | – | – | – | – |  | – | – | – | – | – | – | – | – | – | 9 | 59 |
+| 7 | -3 s | – | – | – | – | – | – |  | – | – | – | – | – | – | – | – | 9 | 64 |
+| 8 | -3 s | – | – | – | – | – | – | – |  | – | – | – | – | – | – | – | 9 | 69 |
+| 9 | -3 s | – | – | – | – | – | – | – | – |  | – | – | – | – | – | – | 9 | 74 |
+| 10 | -3 s | – | – | – | – | – | – | – | – | – |  | – | – | – | – | – | 9 | 79 |
+| 11 | -3 s | – | – | – | – | – | – | – | – | – | – |  | – | – | – | – | 9 | 84 |
+| 12 | -3 s | – | – | – | – | – | – | – | – | – | – | – |  | – | – | – | 9 | 89 |
+| 13 | -3 s | – | – | – | – | – | – | – | – | – | – | – | – |  | – | – | 9 | 94 |
+| 14 | -3 s | – | – | – | – | – | – | – | – | – | – | – | – | – |  | – | 9 | 99 |
+| 15 | -3 s | – | – | – | – | – | – | – | – | – | – | – | – | – | – |  | 9 | 104 |
+
+### Atributos da habilidade em 2016
+
+- **Detoxify: Poison Immunity**: Player detoxified by [Detoxify] becomes immune to poison for 4 seconds per attribute level. (Wugushi 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

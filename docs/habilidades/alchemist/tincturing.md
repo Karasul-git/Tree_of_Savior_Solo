@@ -24,7 +24,7 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Extract fluid from herbs to create different potions.
 
@@ -37,6 +37,7 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | None |
+| Alvo | Front, Fan |
 
 | Nível | Create a potion through a recipe | Recarga (s) | SP |
 | --- | --- | --- | --- |
@@ -56,6 +57,12 @@ Texto original em inglês.
 | 14 |  | 0 | 0 |
 | 15 |  | 0 | 0 |
 
+### Atributos da habilidade em 2016
+
+- **Tincturing: Block Potion**: Obtain the recipe of 'Block Potion' that can be crafted with [Tincturing]. (Lv1 Tincturing required)
+- **Tincturing: Critical Attack Potion**: Obtain the recipe of 'Critical Attack Potion' that can be crafted with [Tincturing]. (Lv1 Tincturing required)
+- **Tincturing: Magic Amplification Potion**: Obtain the recipe of 'Magic Amplification Potion' that can be crafted with [Tincturing]. (Lv1 Tincturing required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

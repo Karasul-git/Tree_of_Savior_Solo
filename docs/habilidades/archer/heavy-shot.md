@@ -24,10 +24,10 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Demonstrate your strength by firing a shot that pushes enemies away.  
-> *Physical · Missile*
+> *Missile*
 
 Texto original em inglês.
 
@@ -37,26 +37,26 @@ Texto original em inglês.
 | Nível máximo | 10 |
 | Elemento | Melee |
 | Tipo | Attack |
-| Postura exigida | None |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Actor, Square |
 
 | Nível | Ataque | Dano de atributo | Recarga (s) | SP |
 | --- | --- | --- | --- | --- |
-| 1 | 117 | 0% | 0 | 12 |
-| 2 | 148 | 0% | 0 | 14 |
-| 3 | 179 | 0% | 0 | 17 |
-| 4 | 210 | 0% | 0 | 19 |
-| 5 | 241 | 0% | 0 | 22 |
-| 6 | 272 | 0% | 0 | 24 |
-| 7 | 303 | 0% | 0 | 27 |
-| 8 | 334 | 0% | 0 | 29 |
-| 9 | 365 | 0% | 0 | 32 |
-| 10 | 396 | 0% | 0 | 34 |
-| 11 | 427 | 0% | 0 | 37 |
-| 12 | 459 | 0% | 0 | 39 |
-| 13 | 490 | 0% | 0 | 42 |
-| 14 | 521 | 0% | 0 | 44 |
-| 15 | 552 | 0% | 0 | 47 |
+| 1 | 166 | 0% | 0 | 11 |
+| 2 | 204 | 0% | 0 | 13 |
+| 3 | 242 | 0% | 0 | 16 |
+| 4 | 280 | 0% | 0 | 18 |
+| 5 | 318 | 0% | 0 | 21 |
+| 6 | 356 | 0% | 0 | 23 |
+| 7 | 394 | 0% | 0 | 26 |
+| 8 | 432 | 0% | 0 | 28 |
+| 9 | 470 | 0% | 0 | 31 |
+| 10 | 508 | 0% | 0 | 33 |
+
+### Atributos da habilidade em 2016
+
+- **Heavy Shot: Enhance**: Increases the damage dealt on an enemy with [Heavy Shot] by 1% per attribute level. (Archer 2nd Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

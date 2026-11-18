@@ -45,10 +45,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Shoot in the opposite direction you are moving.  
-> *Physical · Strike*
+> Shoot repeatedly in the opposite direction you are moving.  
+> *Missile*
 
 Texto original em inglês.
 
@@ -59,6 +59,7 @@ Texto original em inglês.
 | Elemento | Melee |
 | Tipo | Attack |
 | Postura exigida | BowAndPistol |
+| Alvo | Front, Square |
 
 | Nível | Ataque | Dano de atributo | Usável montado | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- |
@@ -78,6 +79,11 @@ Texto original em inglês.
 | 14 | 1582 | % |  | 40 | 145 |
 | 15 | 1679 | % |  | 40 | 153 |
 
+### Atributos da habilidade em 2016
+
+- **Retreat Shot: Enhance**: Increases the damage dealt on an enemy with [Retreat Shot] by 1% per attribute level. (Schwarzer Reiter 1st Circle required)
+- **Retreat Shot: Increased Nullification**: Increases the chance to nullify an enemy's attack while using [Retreat Shot] by 0.5% per attribute level. (Schwarzer Reiter 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

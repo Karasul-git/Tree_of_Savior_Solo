@@ -44,10 +44,10 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-> Fires a shot that ricochets to a nearby enemy.  
-> *Physical · Missile*
+> Fires an arrow that bounces off of the target to hit an adjacent enemy.  
+> *Missile*
 
 Texto original em inglês.
 
@@ -57,26 +57,32 @@ Texto original em inglês.
 | Nível máximo | 15 |
 | Elemento | Melee |
 | Tipo | Attack |
-| Postura exigida | None |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Actor, Square |
 
 | Nível | Ataque | Dano de atributo | Bounced Arrow Attack | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 102 | 0% | 81% | 0 | 10 |
-| 2 | 127 | 0% | 82% | 0 | 12 |
-| 3 | 152 | 0% | 83% | 0 | 14 |
-| 4 | 176 | 0% | 84% | 0 | 16 |
-| 5 | 201 | 0% | 85% | 0 | 18 |
-| 6 | 225 | 0% | 86% | 0 | 21 |
-| 7 | 250 | 0% | 87% | 0 | 23 |
-| 8 | 274 | 0% | 88% | 0 | 25 |
-| 9 | 299 | 0% | 89% | 0 | 27 |
-| 10 | 324 | 0% | 90% | 0 | 29 |
-| 11 | 348 | 0% | 91% | 0 | 32 |
-| 12 | 373 | 0% | 92% | 0 | 34 |
-| 13 | 397 | 0% | 93% | 0 | 36 |
-| 14 | 422 | 0% | 94% | 0 | 38 |
-| 15 | 446 | 0% | 95% | 0 | 40 |
+| 1 | 102 | 0% | 81% | 0 | 8 |
+| 2 | 127 | 0% | 82% | 0 | 10 |
+| 3 | 152 | 0% | 83% | 0 | 11 |
+| 4 | 176 | 0% | 84% | 0 | 13 |
+| 5 | 201 | 0% | 85% | 0 | 14 |
+| 6 | 225 | 0% | 86% | 0 | 16 |
+| 7 | 250 | 0% | 87% | 0 | 17 |
+| 8 | 274 | 0% | 88% | 0 | 19 |
+| 9 | 299 | 0% | 89% | 0 | 20 |
+| 10 | 324 | 0% | 90% | 0 | 22 |
+| 11 | 348 | 0% | 91% | 0 | 23 |
+| 12 | 373 | 0% | 92% | 0 | 25 |
+| 13 | 397 | 0% | 93% | 0 | 26 |
+| 14 | 422 | 0% | 94% | 0 | 28 |
+| 15 | 446 | 0% | 95% | 0 | 29 |
+
+### Atributos da habilidade em 2016
+
+- **Oblique Shot: Enhance**: Increases the damage dealt on an enemy with [Oblique Shot] by 1% per attribute level. (Archer 1st Circle required)
+- **Oblique Shot: Slow**: Enemies hit by [Oblique Shot] while [Swift Step] is active have a 5% chance per attribute level to be be afflicted with [Slow] for 7 seconds. (Archer 1st Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).
