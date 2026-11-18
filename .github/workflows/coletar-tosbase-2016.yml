@@ -30,16 +30,27 @@ jobs:
           SCOPE: ${{ inputs.scope }}
           WORKERS: '6'
           MAX_MINUTES: '300'
+      - name: Guardar uma cópia do resultado (garantia)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tosbase-2016
+          path: data/tosbase-2016
+          retention-days: 14
+          if-no-files-found: ignore
       - name: Guardar o resultado no branch data/tosbase-2016
         if: always()
         run: |
+          # Branch órfão, só com os dados: o GitHub recusa pushes que alterem arquivos de workflow.
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git switch -C data/tosbase-2016
+          rm -rf "$RUNNER_TEMP/tosbase-dados"
+          cp -r data/tosbase-2016 "$RUNNER_TEMP/tosbase-dados"
+          git switch --orphan data/tosbase-2016
+          git rm -rf --quiet --cached . 2>/dev/null || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          mkdir -p data
+          cp -r "$RUNNER_TEMP/tosbase-dados" data/tosbase-2016
           git add data/tosbase-2016
-          if git diff --cached --quiet; then
-            echo "Nada novo para guardar."
-          else
-            git commit -m "Coleta do ToSBase de 2016 (capturas do Internet Archive)"
-            git push --force origin data/tosbase-2016
-          fi
+          git commit -m "Coleta do ToSBase de 2016 (capturas do Internet Archive)"
+          git push --force origin data/tosbase-2016
