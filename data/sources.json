@@ -1779,5 +1779,18 @@
   "url": "https://web.archive.org/web/20160315024916id_/http://www.tosbase.com/tools/stat-calculator/",
   "supports": "Fórmulas de status por nível, atributo e classe base (Archer, Cleric, Swordsman, Wizard), bônus por investimento e bônus de rank em STR e INT.",
   "limitations": "Ferramenta de fãs marcada como beta; não é código do jogo nem prova do cliente de 2016. Não traz a fórmula de dano nem os efeitos de equipamento. Pode ter sido ajustada depois de 15/03/2016."
+ },
+ {
+  "id": "F143",
+  "title": "ToSBase · Simulador de habilidades · captura de 16/06/2016",
+  "author": "ToSBase, preservado pelo Internet Archive",
+  "published": null,
+  "captured_at": "2016-06-16T11:11:50Z",
+  "accessed": "2026-11-18",
+  "kind": "archived-database",
+  "scope": "Código do simulador de habilidades, que embute o banco de habilidades da época: 64 classes, 350 habilidades com tabelas por nível, 415 atributos",
+  "url": "https://web.archive.org/web/20160616111150id_/http://www.tosbase.com/js/skillsim-0.0.2.js",
+  "supports": "Classes por rank, habilidades por classe, círculo, nível máximo, descrição, recarga e tabela por nível (ataque, SP e efeitos) em 16/06/2016.",
+  "limitations": "Captura de junho de 2016, posterior às páginas de março e abril: vários valores mudaram entre as duas (por exemplo, Double Slash, Skyliner), então não se misturam. Fonte de fãs; não é extração do cliente."
  }
 ]

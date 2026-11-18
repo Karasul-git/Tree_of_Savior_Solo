@@ -27,7 +27,7 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Creates clones of yourself. The clones will act along as a main body and skills can be used along with your clones. The HP of your clones is determined by your DEX.
 

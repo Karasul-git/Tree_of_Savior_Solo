@@ -44,7 +44,7 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Inflict damage and put the enemy into a state of shock by making a big slash with all your might.  
 > *Physical · Slash*

@@ -26,7 +26,7 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Battle in another dimension to awaken an item's Potential. You can use the item's hidden option when you win the battle, but its Potential will be reduced.
 

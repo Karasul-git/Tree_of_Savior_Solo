@@ -26,7 +26,7 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Move while hanging on your hawk. Prevents damage from close ranged attacks and you can damage enemies with basic attacks while hanging.
 

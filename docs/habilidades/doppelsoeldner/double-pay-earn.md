@@ -25,7 +25,7 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Doubles your EXP and loot dropped when you defeat an enemy within a certain number of attacks. You take 3x damage while the effect is active, and lose more durability when you become incapable of combat.
 

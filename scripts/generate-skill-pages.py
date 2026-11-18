@@ -22,6 +22,7 @@ kit = read('data/proposals/scout-base-kit.json')['proposed_kit']
 melia_file = read('data/skills/melia-skills.json')
 melia = melia_file['skills']
 tosbase = read('data/research/tosbase-2016-skills.json')['skills']
+skillsim = read('data/research/tosbase-2016-skillsim.json')['skills']
 scout_2016_ids = {s['name']: s['tosbase_id'] for s in classes['scout']['skills']}
 scale = read('data/simulator.json')['constants']
 
@@ -147,7 +148,8 @@ for base in solo['bases']:
             skills.append({
                 'slug': slug, 'name': s['name'], 'summary': s['summary'], 'circle': circle_of(cid, s),
                 'status': status_of(cid, s), 'melia_class': key, 'tosbase_id': s.get('tosbase_id'),
-                'has_2016_table': str(s.get('tosbase_id')) in tosbase,
+                'has_2016_table': str(s.get('tosbase_id')) in tosbase or str(s.get('tosbase_id')) in skillsim,
+                'source_2016': 'paginas' if str(s.get('tosbase_id')) in tosbase else ('simulador' if str(s.get('tosbase_id')) in skillsim else None),
                 'kind': kind_of(m),
             })
         all_classes.append({'class_id': cid, 'name': entry['name'], 'base': base['id'], 'rank': position['solo_rank'],
@@ -217,12 +219,14 @@ def skill_page(c, s):
         lines += ['## Valores', '', 'Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram reunidos.', '']
     elif s['status']:
         lines += ['## Valores', '', 'Os valores desta habilidade ainda não foram reunidos.', '']
-    old = tosbase.get(str(s.get('tosbase_id'))) if s.get('tosbase_id') else None
+    sid = str(s.get('tosbase_id')) if s.get('tosbase_id') else None
+    old = tosbase.get(sid) or skillsim.get(sid) if sid else None
+    from_sim = bool(old) and sid not in tosbase
     if old:
         lv = old['levels']
         effect_keys = list(dict.fromkeys(k for l in lv for k in l['effects']))
         lines += ['## No lançamento de 2016', '',
-                  'Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.', '']
+                  ('Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.' if from_sim else 'Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.'), '']
         if old.get('description'):
             tags = ' · '.join(old['damage_tags']) if old.get('damage_tags') else ''
             lines += [f"> {old['description']}" + (f"  \n> *{tags}*" if tags else ''), '', 'Texto original em inglês.', '']
@@ -244,7 +248,7 @@ def skill_page(c, s):
             for a in old['attributes']:
                 lines.append(f"- **{a['name']}**: {a['effect']}" + (f" ({a['requirement']})" if a.get('requirement') else ''))
             lines.append('')
-    lines += ['## Fontes', '', 'Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).' + (' Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).' if old else ''), '']
+    lines += ['## Fontes', '', 'Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).' + ((' Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).' if from_sim else ' Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).') if old else ''), '']
     return '\n'.join(lines)
 
 

@@ -45,7 +45,7 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Use centrifugal force to continuously attack enemies.  
 > *Physical · Slash*

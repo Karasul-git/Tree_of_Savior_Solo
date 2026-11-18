@@ -27,7 +27,7 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Push enemies away and create a barrier of protection which doesn't allow others to enter for some time. Increases the magic defense of allies who are inside the barrier.
 

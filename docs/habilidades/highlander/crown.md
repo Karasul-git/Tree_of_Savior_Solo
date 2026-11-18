@@ -45,7 +45,7 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Smack your weapon down on an enemy's head. Temporarily decreases the target's INT and SPR.  
 > *Physical · Strike*

@@ -24,7 +24,7 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Attach a bomb to an enemy. The enemy explodes when it comes in contact with other enemies.  
 > *Physical · Strike*

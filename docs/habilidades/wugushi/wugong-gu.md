@@ -42,6 +42,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 391% | 3.907% | 5.379% |
 | 15 | 408% | 4.077% | 5.662% |
 
+## No lançamento de 2016
+
+Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+
+> Launches a contagious poisonous arrow. Poison spreads through the target whenever it gets attacked.  
+> *Physical · Poison · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Poison |
+| Tipo | Attack |
+| Postura exigida | None |
+
+| Nível | Ataque | Dano de atributo | [Poison] Duration | Consumes | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 252 | 0% | 6 s | 7 Poison Pot Poison | 30 | 37 |
+| 2 | 326 | 0% | 7 s | 7 Poison Pot Poison | 30 | 42 |
+| 3 | 400 | 0% | 8 s | 7 Poison Pot Poison | 30 | 47 |
+| 4 | 474 | 0% | 9 s | 7 Poison Pot Poison | 30 | 52 |
+| 5 | 548 | 0% | 10 s | 7 Poison Pot Poison | 30 | 58 |
+| 6 | 622 | 0% | 11 s | 7 Poison Pot Poison | 30 | 63 |
+| 7 | 696 | 0% | 12 s | 7 Poison Pot Poison | 30 | 68 |
+| 8 | 770 | 0% | 13 s | 7 Poison Pot Poison | 30 | 74 |
+| 9 | 844 | 0% | 14 s | 7 Poison Pot Poison | 30 | 79 |
+| 10 | 917 | 0% | 15 s | 7 Poison Pot Poison | 30 | 84 |
+| 11 | 991 | 0% | 16 s | 7 Poison Pot Poison | 30 | 90 |
+| 12 | 1065 | 0% | 17 s | 7 Poison Pot Poison | 30 | 95 |
+| 13 | 1139 | 0% | 18 s | 7 Poison Pot Poison | 30 | 100 |
+| 14 | 1213 | 0% | 19 s | 7 Poison Pot Poison | 30 | 105 |
+| 15 | 1287 | 0% | 20 s | 7 Poison Pot Poison | 30 | 111 |
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).

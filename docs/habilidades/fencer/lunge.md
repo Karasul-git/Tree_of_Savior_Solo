@@ -24,7 +24,7 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > [Physical] - [Pierce]Lower your stance and reach out to attack an enemy. Your evasion rate increases and the enemy becomes more vulnerable to [Slash] attacks.  
 > *Physical · Pierce · Slash*

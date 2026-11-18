@@ -26,7 +26,7 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > Set up a base camp for party members. Party members can use the base camp as storage or for teleportation. The duration of buffs used around the camp will increase.
 

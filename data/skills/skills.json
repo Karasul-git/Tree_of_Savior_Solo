@@ -17,6 +17,7 @@
      "melia_class": "Swordman_Thrust",
      "tosbase_id": 10001,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -28,6 +29,7 @@
      "melia_class": "Swordman_Bash",
      "tosbase_id": 10002,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -39,6 +41,7 @@
      "melia_class": "Swordman_GungHo",
      "tosbase_id": 10003,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -50,6 +53,7 @@
      "melia_class": "Swordman_Concentrate",
      "tosbase_id": 10004,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -61,6 +65,7 @@
      "melia_class": "Swordman_PainBarrier",
      "tosbase_id": 10005,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -72,6 +77,7 @@
      "melia_class": "Swordman_Restrain",
      "tosbase_id": 10006,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -83,6 +89,7 @@
      "melia_class": "Swordman_PommelBeat",
      "tosbase_id": 10007,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -94,6 +101,7 @@
      "melia_class": "Swordman_DoubleSlash",
      "tosbase_id": 10008,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     }
    ]
@@ -114,6 +122,7 @@
      "melia_class": "Highlander_WagonWheel",
      "tosbase_id": 10201,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -125,6 +134,7 @@
      "melia_class": "Highlander_CartarStroke",
      "tosbase_id": 10202,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -136,6 +146,7 @@
      "melia_class": "Highlander_Crown",
      "tosbase_id": 10203,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -147,6 +158,7 @@
      "melia_class": "Highlander_CrossGuard",
      "tosbase_id": 10204,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -158,6 +170,7 @@
      "melia_class": "Highlander_Moulinet",
      "tosbase_id": 10205,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -169,6 +182,7 @@
      "melia_class": "Highlander_SkyLiner",
      "tosbase_id": 10207,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -180,6 +194,7 @@
      "melia_class": "Highlander_CrossCut",
      "tosbase_id": 10208,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -191,6 +206,7 @@
      "melia_class": "Highlander_ScullSwing",
      "tosbase_id": 10206,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -202,6 +218,7 @@
      "melia_class": "Highlander_VerticalSlash",
      "tosbase_id": 10209,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     }
    ]
@@ -222,6 +239,7 @@
      "melia_class": "Peltasta_UmboBlow",
      "tosbase_id": 10101,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -233,6 +251,7 @@
      "melia_class": "Peltasta_RimBlow",
      "tosbase_id": 10102,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -244,6 +263,7 @@
      "melia_class": "Peltasta_SwashBuckling",
      "tosbase_id": 10103,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -255,6 +275,7 @@
      "melia_class": "Peltasta_Guardian",
      "tosbase_id": 10104,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -266,6 +287,7 @@
      "melia_class": "Peltasta_ShieldLob",
      "tosbase_id": 10105,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -277,6 +299,7 @@
      "melia_class": "Peltasta_HighGuard",
      "tosbase_id": 10106,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -288,6 +311,7 @@
      "melia_class": "Peltasta_ButterFly",
      "tosbase_id": 10107,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -299,6 +323,7 @@
      "melia_class": "Peltasta_UmboThrust",
      "tosbase_id": 10108,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -310,6 +335,7 @@
      "melia_class": "Peltasta_Langort",
      "tosbase_id": 10109,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -330,6 +356,7 @@
      "melia_class": "Barbarian_Embowel",
      "tosbase_id": 10401,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -341,6 +368,7 @@
      "melia_class": "Barbarian_StompingKick",
      "tosbase_id": 10404,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -352,6 +380,7 @@
      "melia_class": "Barbarian_Cleave",
      "tosbase_id": 10411,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -363,6 +392,7 @@
      "melia_class": "Hackapell_HelmChopper",
      "tosbase_id": 10409,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -374,6 +404,7 @@
      "melia_class": "Barbarian_Warcry",
      "tosbase_id": 10405,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -385,6 +416,7 @@
      "melia_class": "Barbarian_Frenzy",
      "tosbase_id": 10406,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -396,6 +428,7 @@
      "melia_class": "Barbarian_Seism",
      "tosbase_id": 10410,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -407,6 +440,7 @@
      "melia_class": "Barbarian_GiantSwing",
      "tosbase_id": 10407,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -418,6 +452,7 @@
      "melia_class": "Barbarian_Pouncing",
      "tosbase_id": 10408,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -438,6 +473,7 @@
      "melia_class": "Hoplite_Stabbing",
      "tosbase_id": 10301,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -449,6 +485,7 @@
      "melia_class": "Hoplite_Pierce",
      "tosbase_id": 10302,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -460,6 +497,7 @@
      "melia_class": "Hoplite_Finestra",
      "tosbase_id": 10303,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -471,6 +509,7 @@
      "melia_class": "Hoplite_SynchroThrusting",
      "tosbase_id": 10304,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -482,6 +521,7 @@
      "melia_class": "Hoplite_LongStride",
      "tosbase_id": 10305,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -493,6 +533,7 @@
      "melia_class": "Hoplite_SpearLunge",
      "tosbase_id": 10307,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -504,6 +545,7 @@
      "melia_class": "Hoplite_ThrouwingSpear",
      "tosbase_id": 10306,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -524,6 +566,7 @@
      "melia_class": "Cataphract_Impaler",
      "tosbase_id": 10601,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -535,6 +578,7 @@
      "melia_class": "Cataphract_EarthWave",
      "tosbase_id": 10602,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -546,6 +590,7 @@
      "melia_class": "Cataphract_Trot",
      "tosbase_id": 10603,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -557,6 +602,7 @@
      "melia_class": "Cataphract_SteedCharge",
      "tosbase_id": 10604,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -568,6 +614,7 @@
      "melia_class": "Cataphract_DoomSpike",
      "tosbase_id": 10605,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -579,6 +626,7 @@
      "melia_class": "Cataphract_Rush",
      "tosbase_id": 10606,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -599,6 +647,7 @@
      "melia_class": "Rodelero_ShieldCharge",
      "tosbase_id": 10501,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -610,6 +659,7 @@
      "melia_class": "Rodelero_Montano",
      "tosbase_id": 10502,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -621,6 +671,7 @@
      "melia_class": "Rodelero_TargeSmash",
      "tosbase_id": 10503,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -632,6 +683,7 @@
      "melia_class": "Rodelero_ShieldPush",
      "tosbase_id": 10504,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -643,6 +695,7 @@
      "melia_class": "Rodelero_ShieldShoving",
      "tosbase_id": 10507,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -654,6 +707,7 @@
      "melia_class": "Rodelero_ShieldBash",
      "tosbase_id": 10508,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -665,6 +719,7 @@
      "melia_class": "Rodelero_Slithering",
      "tosbase_id": 10505,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -676,6 +731,7 @@
      "melia_class": "Rodelero_ShootingStar",
      "tosbase_id": 10506,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -687,6 +743,7 @@
      "melia_class": "Rodelero_HighKick",
      "tosbase_id": 10509,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     }
    ]
@@ -707,6 +764,7 @@
      "melia_class": "Doppelsoeldner_Punish",
      "tosbase_id": 11004,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -718,6 +776,7 @@
      "melia_class": "Doppelsoeldner_DeedsOfValor",
      "tosbase_id": 11001,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -729,6 +788,7 @@
      "melia_class": "Doppelsoeldner_Mordschlag",
      "tosbase_id": 11002,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -740,6 +800,7 @@
      "melia_class": "Doppelsoeldner_Double_pay_earn",
      "tosbase_id": 11003,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -751,6 +812,7 @@
      "melia_class": "Doppelsoeldner_Cyclone",
      "tosbase_id": 11005,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -762,6 +824,7 @@
      "melia_class": "Doppelsoeldner_Zornhau",
      "tosbase_id": 11006,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -773,6 +836,7 @@
      "melia_class": "Doppelsoeldner_Zucken",
      "tosbase_id": 11008,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -784,6 +848,7 @@
      "melia_class": "Doppelsoeldner_Redel",
      "tosbase_id": 11007,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -804,6 +869,7 @@
      "melia_class": "Fencer_Lunge",
      "tosbase_id": 11102,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -815,6 +881,7 @@
      "melia_class": "Fencer_SeptEtoiles",
      "tosbase_id": 11103,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -826,6 +893,7 @@
      "melia_class": "Fencer_AttaqueCoquille",
      "tosbase_id": 11104,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -837,6 +905,7 @@
      "melia_class": "Fencer_EsquiveToucher",
      "tosbase_id": 11105,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -848,6 +917,7 @@
      "melia_class": "Fencer_Flanconnade",
      "tosbase_id": 11107,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -859,6 +929,7 @@
      "melia_class": "Fencer_AttaqueComposee",
      "tosbase_id": 11101,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -870,6 +941,7 @@
      "melia_class": "Fencer_Preparation",
      "tosbase_id": 11106,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     }
    ]
@@ -890,6 +962,7 @@
      "melia_class": "Dragoon_Dragontooth",
      "tosbase_id": 11401,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -901,6 +974,7 @@
      "melia_class": "Dragoon_Serpentine",
      "tosbase_id": 11402,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -912,6 +986,7 @@
      "melia_class": "Dragoon_Gae_Bulg",
      "tosbase_id": 11403,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -923,6 +998,7 @@
      "melia_class": "Dragoon_Dragon_Soar",
      "tosbase_id": 11404,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -943,6 +1019,7 @@
      "melia_class": "Templer_SummonGuildMember",
      "tosbase_id": 11501,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -954,6 +1031,7 @@
      "melia_class": "Templer_WarpToGuildMember",
      "tosbase_id": 11502,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -965,6 +1043,7 @@
      "melia_class": "Templer_BuildGuildTower",
      "tosbase_id": 11503,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -976,6 +1055,7 @@
      "melia_class": "Templer_ReduceCraftTime",
      "tosbase_id": 11504,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -987,6 +1067,7 @@
      "melia_class": "Templer_BattleOrders",
      "tosbase_id": 11505,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     }
    ]
@@ -1007,6 +1088,7 @@
      "melia_class": "Cleric_Smite",
      "tosbase_id": 40601,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1017,7 +1099,8 @@
      "status": "em-revisao",
      "melia_class": "Paladin_Restoration",
      "tosbase_id": 40602,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1028,7 +1111,8 @@
      "status": "em-revisao",
      "melia_class": "Paladin_ResistElements",
      "tosbase_id": 40603,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1039,7 +1123,8 @@
      "status": "em-revisao",
      "melia_class": "Priest_TurnUndead",
      "tosbase_id": 40604,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1051,6 +1136,7 @@
      "melia_class": "Paladin_Conversion",
      "tosbase_id": 40605,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1062,6 +1148,7 @@
      "melia_class": "Paladin_Barrier",
      "tosbase_id": 40606,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1073,6 +1160,7 @@
      "melia_class": "Paladin_Conviction",
      "tosbase_id": 40607,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -1093,6 +1181,7 @@
      "melia_class": "Monk_IronSkin",
      "tosbase_id": 40701,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1104,6 +1193,7 @@
      "melia_class": "Monk_DoublePunch",
      "tosbase_id": 40702,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1115,6 +1205,7 @@
      "melia_class": "Monk_PalmStrike",
      "tosbase_id": 40703,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1126,6 +1217,7 @@
      "melia_class": "Monk_HandKnife",
      "tosbase_id": 40704,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1136,7 +1228,8 @@
      "status": "em-revisao",
      "melia_class": "Monk_EnergyBlast",
      "tosbase_id": 40706,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1147,7 +1240,8 @@
      "status": "no-jogo",
      "melia_class": "Monk_1InchPunch",
      "tosbase_id": 40705,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1158,7 +1252,8 @@
      "status": "no-jogo",
      "melia_class": "Monk_God_Finger_Flicking",
      "tosbase_id": 40707,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1169,7 +1264,8 @@
      "status": "em-revisao",
      "melia_class": "Monk_Golden_Bell_Shield",
      "tosbase_id": 40708,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     }
    ]
@@ -1189,7 +1285,8 @@
      "status": "no-jogo",
      "melia_class": "Archer_SwiftStep",
      "tosbase_id": 30004,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1200,7 +1297,8 @@
      "status": "no-jogo",
      "melia_class": "Archer_Multishot",
      "tosbase_id": 30001,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1211,7 +1309,8 @@
      "status": "no-jogo",
      "melia_class": "Archer_Fulldraw",
      "tosbase_id": 30002,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -1222,7 +1321,8 @@
      "status": "no-jogo",
      "melia_class": "Archer_ObliqueShot",
      "tosbase_id": 30005,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1234,6 +1334,7 @@
      "melia_class": "QuarrelShooter_Kneelingshot",
      "tosbase_id": 30003,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1244,7 +1345,8 @@
      "status": "no-jogo",
      "melia_class": "Archer_HeavyShot",
      "tosbase_id": 30006,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -1255,7 +1357,8 @@
      "status": "no-jogo",
      "melia_class": "Archer_TwinArrows",
      "tosbase_id": 30007,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     }
    ]
@@ -1276,6 +1379,7 @@
      "melia_class": "QuarrelShooter_DeployPavise",
      "tosbase_id": 30201,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1287,6 +1391,7 @@
      "melia_class": "QuarrelShooter_ScatterCaltrop",
      "tosbase_id": 30202,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1298,6 +1403,7 @@
      "melia_class": "QuarrelShooter_StonePicking",
      "tosbase_id": 30203,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1309,6 +1415,7 @@
      "melia_class": "QuarrelShooter_StoneShot",
      "tosbase_id": 30204,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1320,6 +1427,7 @@
      "melia_class": "QuarrelShooter_RapidFire",
      "tosbase_id": 30205,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1330,7 +1438,8 @@
      "status": "no-jogo",
      "melia_class": "QuarrelShooter_Teardown",
      "tosbase_id": 30206,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1342,6 +1451,7 @@
      "melia_class": "QuarrelShooter_RunningShot",
      "tosbase_id": 30207,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     }
    ]
@@ -1362,6 +1472,7 @@
      "melia_class": "Ranger_Barrage",
      "tosbase_id": 30101,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1373,6 +1484,7 @@
      "melia_class": "Ranger_HighAnchoring",
      "tosbase_id": 30102,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1384,6 +1496,7 @@
      "melia_class": "Ranger_CriticalShot",
      "tosbase_id": 30103,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1394,7 +1507,8 @@
      "status": "no-jogo",
      "melia_class": "Ranger_SteadyAim",
      "tosbase_id": 30104,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1406,6 +1520,7 @@
      "melia_class": "Ranger_TimeBombArrow",
      "tosbase_id": 30105,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -1417,6 +1532,7 @@
      "melia_class": "Ranger_BounceShot",
      "tosbase_id": 30106,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1428,6 +1544,7 @@
      "melia_class": "Ranger_SpiralArrow",
      "tosbase_id": 30107,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -1447,7 +1564,8 @@
      "status": "no-jogo",
      "melia_class": "Hunter_Coursing",
      "tosbase_id": 30401,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1458,7 +1576,8 @@
      "status": "no-jogo",
      "melia_class": "Hunter_Snatching",
      "tosbase_id": 30402,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1469,7 +1588,8 @@
      "status": "no-jogo",
      "melia_class": "Hunter_Praise",
      "tosbase_id": 30404,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1480,7 +1600,8 @@
      "status": "no-jogo",
      "melia_class": "Hunter_Pointing",
      "tosbase_id": 30405,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1491,7 +1612,8 @@
      "status": "no-jogo",
      "melia_class": "Hunter_RushDog",
      "tosbase_id": 30403,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1503,6 +1625,7 @@
      "melia_class": "Hunter_Retrieve",
      "tosbase_id": 30406,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1514,6 +1637,7 @@
      "melia_class": "Hunter_Hounding",
      "tosbase_id": 30407,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1524,7 +1648,8 @@
      "status": "no-jogo",
      "melia_class": "Hunter_Growling",
      "tosbase_id": 30408,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     }
    ]
@@ -1545,6 +1670,7 @@
      "melia_class": "Sapper_StakeStockades",
      "tosbase_id": 30301,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1556,6 +1682,7 @@
      "melia_class": "Sapper_Cover",
      "tosbase_id": 30305,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1567,6 +1694,7 @@
      "melia_class": "Sapper_Claymore",
      "tosbase_id": 30302,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1578,6 +1706,7 @@
      "melia_class": "Sapper_PunjiStake",
      "tosbase_id": 30303,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1589,6 +1718,7 @@
      "melia_class": "Sapper_DetonateTraps",
      "tosbase_id": 30304,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1600,6 +1730,7 @@
      "melia_class": "Sapper_BroomTrap",
      "tosbase_id": 30306,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1611,6 +1742,7 @@
      "melia_class": "Sapper_CollarBomb",
      "tosbase_id": 30307,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -1622,6 +1754,7 @@
      "melia_class": "Sapper_SpikeShooter",
      "tosbase_id": 30308,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -1641,7 +1774,8 @@
      "status": "no-jogo",
      "melia_class": "Wugushi_Detoxify",
      "tosbase_id": 30501,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1652,7 +1786,8 @@
      "status": "no-jogo",
      "melia_class": "Wugushi_NeedleBlow",
      "tosbase_id": 30502,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -1663,7 +1798,8 @@
      "status": "no-jogo",
      "melia_class": "Wugushi_Bewitch",
      "tosbase_id": 30503,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1674,7 +1810,8 @@
      "status": "no-jogo",
      "melia_class": "Wugushi_WugongGu",
      "tosbase_id": 30504,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1686,6 +1823,7 @@
      "melia_class": "Wugushi_Zhendu",
      "tosbase_id": 30507,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1697,6 +1835,7 @@
      "melia_class": "Wugushi_ThrowGuPot",
      "tosbase_id": 30505,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1707,7 +1846,8 @@
      "status": "em-revisao",
      "melia_class": "Wugushi_JincanGu",
      "tosbase_id": 30506,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     }
    ]
@@ -1728,6 +1868,7 @@
      "melia_class": "Fletcher_BroadHead",
      "tosbase_id": 30801,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1739,6 +1880,7 @@
      "melia_class": "Fletcher_BodkinPoint",
      "tosbase_id": 30802,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1750,6 +1892,7 @@
      "melia_class": "Fletcher_BarbedArrow",
      "tosbase_id": 30803,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1761,6 +1904,7 @@
      "melia_class": "Fletcher_CrossFire",
      "tosbase_id": 30804,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1772,6 +1916,7 @@
      "melia_class": "Fletcher_MagicArrow",
      "tosbase_id": 30805,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1783,6 +1928,7 @@
      "melia_class": "Fletcher_Singijeon",
      "tosbase_id": 30806,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -1803,6 +1949,7 @@
      "melia_class": "Falconer_Calling",
      "tosbase_id": 31001,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1813,7 +1960,8 @@
      "status": "no-jogo",
      "melia_class": "Falconer_BuildRoost",
      "tosbase_id": 31002,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1824,7 +1972,8 @@
      "status": "no-jogo",
      "melia_class": "Falconer_Circling",
      "tosbase_id": 31003,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -1835,7 +1984,8 @@
      "status": "no-jogo",
      "melia_class": "Falconer_Hovering",
      "tosbase_id": 31004,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -1846,7 +1996,8 @@
      "status": "no-jogo",
      "melia_class": "Falconer_Pheasant",
      "tosbase_id": 31005,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -1858,6 +2009,7 @@
      "melia_class": "Falconer_HangingShot",
      "tosbase_id": 31006,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -1869,6 +2021,7 @@
      "melia_class": "Falconer_BlisteringThrash",
      "tosbase_id": 31008,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     }
    ]
@@ -1889,6 +2042,7 @@
      "melia_class": "Cannoneer_CannonShot",
      "tosbase_id": 31101,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1899,7 +2053,8 @@
      "status": "no-jogo",
      "melia_class": "Cannoneer_ShootDown",
      "tosbase_id": 31102,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -1911,6 +2066,7 @@
      "melia_class": "Cannoneer_SiegeBurst",
      "tosbase_id": 31103,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1922,6 +2078,7 @@
      "melia_class": "Cannoneer_CannonBlast",
      "tosbase_id": 31104,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -1942,6 +2099,7 @@
      "melia_class": "Musketeer_CoveringFire",
      "tosbase_id": 31201,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1953,6 +2111,7 @@
      "melia_class": "Musketeer_HeadShot",
      "tosbase_id": 31202,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1964,6 +2123,7 @@
      "melia_class": "Musketeer_Snipe",
      "tosbase_id": 31203,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -1975,6 +2135,7 @@
      "melia_class": "Musketeer_PenetrationShot",
      "tosbase_id": 31204,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -1986,6 +2147,7 @@
      "melia_class": "Musketeer_ButtStroke",
      "tosbase_id": 31205,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano-pendente"
     },
     {
@@ -1997,6 +2159,7 @@
      "melia_class": "Musketeer_BayonetThrust",
      "tosbase_id": 31206,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     }
    ]
@@ -2017,6 +2180,7 @@
      "melia_class": "Appraiser_Apprise",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2028,6 +2192,7 @@
      "melia_class": "Appraiser_Blindside",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2039,6 +2204,7 @@
      "melia_class": "Appraiser_Devaluation",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2050,6 +2216,7 @@
      "melia_class": "Appraiser_HighMagnifyingGlass",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2061,6 +2228,7 @@
      "melia_class": "Appraiser_LargeMagnifyingGlass",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2072,6 +2240,7 @@
      "melia_class": "Appraiser_TripletLens",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     }
    ]
@@ -2092,6 +2261,7 @@
      "melia_class": "Mergen_ArrowRain",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2103,6 +2273,7 @@
      "melia_class": "Mergen_DownFall",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2114,6 +2285,7 @@
      "melia_class": "Mergen_FocusFire",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2125,6 +2297,7 @@
      "melia_class": "Mergen_TrickShot",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2136,6 +2309,7 @@
      "melia_class": "Mergen_Unload",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2147,6 +2321,7 @@
      "melia_class": "Mergen_Zenith",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     }
    ]
@@ -2167,6 +2342,7 @@
      "melia_class": "Arbalester_DarkJudgement",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2178,6 +2354,7 @@
      "melia_class": "Arbalester_DeadZone",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2189,6 +2366,7 @@
      "melia_class": "Arbalester_Escape",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2200,6 +2378,7 @@
      "melia_class": "Arbalester_FanwiseShots",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2211,6 +2390,7 @@
      "melia_class": "Arbalester_GuidedShot",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2222,6 +2402,7 @@
      "melia_class": "Arbalester_ShiningBurst",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     }
    ]
@@ -2242,6 +2423,7 @@
      "melia_class": "Scout_DaggerSlash",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2253,6 +2435,7 @@
      "melia_class": "Scout_ObliqueFire",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2264,6 +2447,7 @@
      "melia_class": "Scout_Cloaking",
      "tosbase_id": 30604,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2275,6 +2459,7 @@
      "melia_class": "Scout_FreeStep",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2286,6 +2471,7 @@
      "melia_class": "Scout_DoubleAttack",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2297,6 +2483,7 @@
      "melia_class": "Scout_Camouflage",
      "tosbase_id": 30601,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2308,6 +2495,7 @@
      "melia_class": "Scout_Undistance",
      "tosbase_id": 30605,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2318,7 +2506,8 @@
      "status": "no-jogo",
      "melia_class": "Scout_Scan",
      "tosbase_id": 30606,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     }
    ]
@@ -2339,6 +2528,7 @@
      "melia_class": "Rogue_SneakHit",
      "tosbase_id": 30701,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2350,6 +2540,7 @@
      "melia_class": "Rogue_Feint",
      "tosbase_id": 30702,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2361,6 +2552,7 @@
      "melia_class": null,
      "tosbase_id": 30703,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": null
     },
     {
@@ -2372,6 +2564,7 @@
      "melia_class": null,
      "tosbase_id": 30704,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": null
     },
     {
@@ -2383,6 +2576,7 @@
      "melia_class": "Rogue_Evasion",
      "tosbase_id": 30705,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2394,6 +2588,7 @@
      "melia_class": "Rogue_Lachrymator",
      "tosbase_id": 30707,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2404,7 +2599,8 @@
      "status": "no-jogo",
      "melia_class": "Rogue_Backstab",
      "tosbase_id": 30708,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -2416,6 +2612,7 @@
      "melia_class": "Rogue_Burrow",
      "tosbase_id": 30706,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     }
    ]
@@ -2435,7 +2632,8 @@
      "status": "no-jogo",
      "melia_class": "Schwarzereiter_ConcentratedFire",
      "tosbase_id": 30901,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -2446,7 +2644,8 @@
      "status": "no-jogo",
      "melia_class": "Schwarzereiter_Caracole",
      "tosbase_id": 30902,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -2457,7 +2656,8 @@
      "status": "no-jogo",
      "melia_class": "Schwarzereiter_Limacon",
      "tosbase_id": 30903,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "apoio"
     },
     {
@@ -2468,7 +2668,8 @@
      "status": "no-jogo",
      "melia_class": "Schwarzereiter_RetreatShot",
      "tosbase_id": 30904,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano"
     },
     {
@@ -2480,6 +2681,7 @@
      "melia_class": null,
      "tosbase_id": 30905,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": null
     }
    ]
@@ -2500,6 +2702,7 @@
      "melia_class": "Corsair_JollyRoger",
      "tosbase_id": 10801,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2511,6 +2714,7 @@
      "melia_class": "Corsair_IronHook",
      "tosbase_id": 10802,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2522,6 +2726,7 @@
      "melia_class": "Corsair_Keelhauling",
      "tosbase_id": 10803,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2533,6 +2738,7 @@
      "melia_class": null,
      "tosbase_id": 10804,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": null
     },
     {
@@ -2544,6 +2750,7 @@
      "melia_class": "Corsair_DustDevil",
      "tosbase_id": 10807,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2555,6 +2762,7 @@
      "melia_class": "Corsair_SubweaponCancel",
      "tosbase_id": 10805,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2566,6 +2774,7 @@
      "melia_class": "Corsair_HexenDropper",
      "tosbase_id": 10808,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2577,6 +2786,7 @@
      "melia_class": null,
      "tosbase_id": 10809,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": null
     }
    ]
@@ -2597,6 +2807,7 @@
      "melia_class": "Squire_Arrest",
      "tosbase_id": 10704,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2608,6 +2819,7 @@
      "melia_class": "Squire_Repair",
      "tosbase_id": 10703,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2619,6 +2831,7 @@
      "melia_class": null,
      "tosbase_id": 10701,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": null
     },
     {
@@ -2630,6 +2843,7 @@
      "melia_class": null,
      "tosbase_id": 10702,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": null
     },
     {
@@ -2641,6 +2855,7 @@
      "melia_class": "Squire_Camp",
      "tosbase_id": 10705,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2652,6 +2867,7 @@
      "melia_class": "Squire_FoodTable",
      "tosbase_id": 10706,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2663,6 +2879,7 @@
      "melia_class": null,
      "tosbase_id": 10707,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": null
     }
    ]
@@ -2683,6 +2900,7 @@
      "melia_class": "Shinobi_Kunai",
      "tosbase_id": 11205,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2694,6 +2912,7 @@
      "melia_class": "Shinobi_Bunshin_no_jutsu",
      "tosbase_id": 11202,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2705,6 +2924,7 @@
      "melia_class": "Shinobi_Mokuton_no_jutsu",
      "tosbase_id": 11203,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "apoio"
     },
     {
@@ -2716,6 +2936,7 @@
      "melia_class": "Shinobi_Katon_no_jutsu",
      "tosbase_id": 11204,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2727,6 +2948,7 @@
      "melia_class": null,
      "tosbase_id": 11201,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": null
     }
    ]
@@ -2747,6 +2969,7 @@
      "melia_class": "Alchemist_Combustion",
      "tosbase_id": 21001,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2758,6 +2981,7 @@
      "melia_class": "Alchemist_Dig",
      "tosbase_id": 21002,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -2769,6 +2993,7 @@
      "melia_class": "Alchemist_ItemAwakening",
      "tosbase_id": 21007,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -2779,7 +3004,8 @@
      "status": "no-jogo",
      "melia_class": "Alchemist_Briquetting",
      "tosbase_id": 21004,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -2790,7 +3016,8 @@
      "status": "no-jogo",
      "melia_class": "Alchemist_Tincturing",
      "tosbase_id": 21005,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -2801,7 +3028,8 @@
      "status": "no-jogo",
      "melia_class": "Alchemist_MagnumOpus",
      "tosbase_id": 21006,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -2812,7 +3040,8 @@
      "status": "no-jogo",
      "melia_class": "Alchemist_Roasting",
      "tosbase_id": 21003,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     }
    ]
@@ -2832,7 +3061,8 @@
      "status": "em-revisao",
      "melia_class": "PlagueDoctor_HealingFactor",
      "tosbase_id": 41101,
-     "has_2016_table": false,
+     "has_2016_table": true,
+     "source_2016": "simulador",
      "kind": "dano-pendente"
     },
     {
@@ -2844,6 +3074,7 @@
      "melia_class": "PlagueDoctor_Incineration",
      "tosbase_id": 41102,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2855,6 +3086,7 @@
      "melia_class": "PlagueDoctor_Bloodletting",
      "tosbase_id": 41103,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -2866,6 +3098,7 @@
      "melia_class": "PlagueDoctor_Fumigate",
      "tosbase_id": 41104,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     },
     {
@@ -2877,6 +3110,7 @@
      "melia_class": "PlagueDoctor_Pandemic",
      "tosbase_id": 41105,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano-pendente"
     },
     {
@@ -2888,6 +3122,7 @@
      "melia_class": "PlagueDoctor_BeakMask",
      "tosbase_id": 41106,
      "has_2016_table": true,
+     "source_2016": "paginas",
      "kind": "dano"
     }
    ]
@@ -2908,6 +3143,7 @@
      "melia_class": "Assassin_Annihilation",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2919,6 +3155,7 @@
      "melia_class": "Assassin_Behead",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2930,6 +3167,7 @@
      "melia_class": "Assassin_HallucinationSmoke",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano-pendente"
     },
     {
@@ -2941,6 +3179,7 @@
      "melia_class": "Assassin_Hasisas",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2952,6 +3191,7 @@
      "melia_class": "Assassin_InstantaneousAcceleration",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -2963,6 +3203,7 @@
      "melia_class": "Assassin_PiercingHeart",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     }
    ]
@@ -2983,6 +3224,7 @@
      "melia_class": "OutLaw_Aggress",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -2994,6 +3236,7 @@
      "melia_class": "OutLaw_BreakBrick",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3005,6 +3248,7 @@
      "melia_class": "OutLaw_Bully",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -3016,6 +3260,7 @@
      "melia_class": "OutLaw_FireBlindly",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3027,6 +3272,7 @@
      "melia_class": "OutLaw_Mangle",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3038,6 +3284,7 @@
      "melia_class": "OutLaw_Rampage",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3049,6 +3296,7 @@
      "melia_class": "OutLaw_SprinkleSands",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     }
    ]
@@ -3069,6 +3317,7 @@
      "melia_class": "Arditi_Granata",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3080,6 +3329,7 @@
      "melia_class": "Arditi_Invasione",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3091,6 +3341,7 @@
      "melia_class": "Arditi_Recupero",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -3102,6 +3353,7 @@
      "melia_class": "Arditi_Ritirarsi",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3113,6 +3365,7 @@
      "melia_class": "Arditi_Taglio",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3124,6 +3377,7 @@
      "melia_class": "Arditi_TreGranata",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     }
    ]
@@ -3144,6 +3398,7 @@
      "melia_class": "Sheriff_AimingShot",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3155,6 +3410,7 @@
      "melia_class": "Sheriff_Fanning",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3166,6 +3422,7 @@
      "melia_class": "Sheriff_Peacemaker",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3177,6 +3434,7 @@
      "melia_class": "Sheriff_QuickDraw",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3188,6 +3446,7 @@
      "melia_class": "Sheriff_Redemption",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -3199,6 +3458,7 @@
      "melia_class": "Sheriff_Westraid",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     }
    ]
@@ -3219,6 +3479,7 @@
      "melia_class": "Clown_Climax",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3230,6 +3491,7 @@
      "melia_class": "Clown_ClownWalk",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     },
     {
@@ -3241,6 +3503,7 @@
      "melia_class": "Clown_FatalRoulette",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3252,6 +3515,7 @@
      "melia_class": "Clown_Replica",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3263,6 +3527,7 @@
      "melia_class": "Clown_SpinningKnife",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "dano"
     },
     {
@@ -3274,6 +3539,7 @@
      "melia_class": "Clown_TrickorTreat",
      "tosbase_id": null,
      "has_2016_table": false,
+     "source_2016": null,
      "kind": "apoio"
     }
    ]

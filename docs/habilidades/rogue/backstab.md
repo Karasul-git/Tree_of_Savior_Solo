@@ -43,6 +43,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 365% | 730% | 5.027% |
 | 15 | 381% | 762% | 5.291% |
 
+## No lançamento de 2016
+
+Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+
+> Continuously attack using your dagger. A double attack with a high critical rate that may stun the enemy.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | BowAndDagger |
+
+| Nível | Ataque | Dano de atributo | Strikes | Chance de crítico | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 461 | 0% | 2 times | 52% | 10 | 43 |
+| 2 | 574 | 0% | 2 times | 54% | 10 | 49 |
+| 3 | 686 | 0% | 2 times | 56% | 10 | 55 |
+| 4 | 799 | 0% | 2 times | 58% | 10 | 61 |
+| 5 | 912 | 0% | 2 times | 60% | 10 | 68 |
+| 6 | 1025 | 0% | 2 times | 62% | 10 | 74 |
+| 7 | 1138 | 0% | 2 times | 64% | 10 | 80 |
+| 8 | 1250 | 0% | 2 times | 66% | 10 | 87 |
+| 9 | 1363 | 0% | 2 times | 68% | 10 | 93 |
+| 10 | 1476 | 0% | 2 times | 70% | 10 | 99 |
+| 11 | 1589 | 0% | 2 times | 72% | 10 | 106 |
+| 12 | 1702 | 0% | 2 times | 74% | 10 | 112 |
+| 13 | 1814 | 0% | 2 times | 76% | 10 | 118 |
+| 14 | 1927 | 0% | 2 times | 78% | 10 | 124 |
+| 15 | 2040 | 0% | 2 times | 80% | 10 | 131 |
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).

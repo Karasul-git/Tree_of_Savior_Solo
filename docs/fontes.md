@@ -1098,3 +1098,8 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F142 · ToSBase · Calculadora de status (beta) · captura de 15/03/2016
 
 [Captura do Internet Archive](https://web.archive.org/web/20160315024916id_/http://www.tosbase.com/tools/stat-calculator/) · consulta em 18/11/2026. Código da calculadora de status do ToSBase, com as fórmulas de atributos, HP, SP, ataque e defesa. **Limite:** ferramenta de fãs marcada como beta; não é código do jogo nem prova do cliente de 2016; não traz a fórmula de dano nem os efeitos de equipamento; pode ter sido ajustada depois da captura.
+
+<a id="f143"></a>
+### F143 · ToSBase · Simulador de habilidades · captura de 16/06/2016
+
+[Captura do Internet Archive](https://web.archive.org/web/20160616111150id_/http://www.tosbase.com/js/skillsim-0.0.2.js) · consulta em 18/11/2026. O código do simulador embute o banco de habilidades da época (64 classes, 350 habilidades com tabelas por nível, 415 atributos). **Limite:** é de junho de 2016, depois das páginas de março e abril, e vários valores mudaram entre as duas capturas (por exemplo, Double Slash e Skyliner); por isso as duas fontes não são misturadas. Fonte de fãs, não extração do cliente.

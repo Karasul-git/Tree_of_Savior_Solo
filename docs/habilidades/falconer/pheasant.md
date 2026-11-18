@@ -42,6 +42,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 334% | 1.668% | 4.594% |
 | 15 | 348% | 1.741% | 4.836% |
 
+## No lançamento de 2016
+
+Valores e textos do simulador de habilidades do ToSBase, capturado em 16/06/2016. Podem diferir dos de março e abril. O "ataque" é um número fixo por nível, não um percentual.
+
+> Throw a training doll and have your hawk attack the targeted area.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 520 | 0% | 60 | 38 |
+| 2 | 660 | 0% | 60 | 43 |
+| 3 | 800 | 0% | 60 | 48 |
+| 4 | 940 | 0% | 60 | 53 |
+| 5 | 1080 | 0% | 60 | 58 |
+| 6 | 1220 | 0% | 60 | 64 |
+| 7 | 1360 | 0% | 60 | 69 |
+| 8 | 1500 | 0% | 60 | 74 |
+| 9 | 1640 | 0% | 60 | 79 |
+| 10 | 1780 | 0% | 60 | 84 |
+| 11 | 1920 | 0% | 60 | 90 |
+| 12 | 2060 | 0% | 60 | 95 |
+| 13 | 2200 | 0% | 60 | 100 |
+| 14 | 2340 | 0% | 60 | 105 |
+| 15 | 2480 | 0% | 60 | 110 |
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: simulador de habilidades do ToSBase, 16/06/2016 ([F143](../../fontes.md#f143)).

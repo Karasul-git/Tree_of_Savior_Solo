@@ -24,7 +24,7 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a abril de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
 > [Physical] - [Strike]Attack an enemy with the guard of your sword. The enemy's defense is ignored when attacked again with [Pierce] attacks.  
 > *Physical · Strike · Pierce*
