@@ -42,6 +42,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 452% | 1.357% | 6.227% |
 | 15 | 472% | 1.416% | 6.554% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Use your trained fingertips to attack an enemy by inflicting an internal injury.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 521 | 0% | 6 | 15 | 30 |
+| 2 | 619 | 0% | 6 | 15 | 34 |
+| 3 | 717 | 0% | 6 | 15 | 39 |
+| 4 | 815 | 0% | 6 | 15 | 43 |
+| 5 | 913 | 0% | 6 | 15 | 48 |
+| 6 | 1011 | 0% | 6 | 15 | 52 |
+| 7 | 1109 | 0% | 6 | 15 | 57 |
+| 8 | 1207 | 0% | 6 | 15 | 61 |
+| 9 | 1305 | 0% | 6 | 15 | 66 |
+| 10 | 1403 | 0% | 6 | 15 | 70 |
+| 11 | 1501 | 0% | 6 | 15 | 75 |
+| 12 | 1599 | 0% | 6 | 15 | 79 |
+| 13 | 1697 | 0% | 6 | 15 | 84 |
+| 14 | 1795 | 0% | 6 | 15 | 88 |
+| 15 | 1893 | 0% | 6 | 15 | 93 |
+
+### Atributos da habilidade em 2016
+
+- **Palm Strike: Enhance**: Increases the damage dealt on an enemy with [Palm Strike] by 1% per attribute level. (Monk 1st Circle required)
+- **Palm Strike: Bleeding**: Enemies hit by [Palm Strike] will be afflicted with [Bleeding] for 8 seconds. Increases the duration of [Bleeding] by 1 second per attribute level. Bleeding damage is proportional to the character's physical attack. (Monk 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

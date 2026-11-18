@@ -42,6 +42,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 181% | 5.444% | 2.498% |
 | 15 | 189% | 5.681% | 2.630% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Create a poison puddle by throwing a pot filled with poison. Any enemy who come into contact with the puddle is poisoned.  
+> *Physical · Poison*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Poison |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Ground, Square |
+
+| Nível | Ataque | Dano de atributo | Duração | Consumes 23 Poison Pot Poison | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 414 | 0% | 6 s |  | 35 | 38 |
+| 2 | 506 | 0% | 6 s |  | 35 | 43 |
+| 3 | 597 | 0% | 6 s |  | 35 | 48 |
+| 4 | 689 | 0% | 6 s |  | 35 | 54 |
+| 5 | 781 | 0% | 6 s |  | 35 | 59 |
+| 6 | 873 | 0% | 6 s |  | 35 | 65 |
+| 7 | 965 | 0% | 6 s |  | 35 | 70 |
+| 8 | 1056 | 0% | 6 s |  | 35 | 75 |
+| 9 | 1148 | 0% | 6 s |  | 35 | 81 |
+| 10 | 1240 | 0% | 6 s |  | 35 | 86 |
+
+### Atributos da habilidade em 2016
+
+- **Throw Gu Pot: Enhance**: Increases the damage dealt on an enemy with [Throw Gu Pot] by 1% per attribute level. (Wugushi 2nd Circle required)
+- **Throw Gu Pot: Residual Poison**: Maintains [Poison] by 2 seconds per attribute level when enemies move outside the range of [Throw Gu Pot]. (Wugushi 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

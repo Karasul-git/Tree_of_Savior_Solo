@@ -64,11 +64,18 @@ def distance(ts):
 
 
 def best_capture(path):
-    """Captura mais próxima de TARGET dentro da janela, para o caminho em tosbase.com."""
+    """Captura mais próxima de TARGET dentro da janela; se não houver, a mais próxima num período maior."""
     # Busca exata: o Internet Archive normaliza www, porta 80 e http/https para a mesma chave.
-    rows = cdx('www.tosbase.com' + path) or []
-    rows = [r for r in rows if urllib.parse.urlparse(r['original']).path.rstrip('/') == path.rstrip('/')]
-    return min(rows, key=lambda r: distance(r['timestamp'])) if rows else None
+    def pick(rows):
+        rows = [r for r in rows or [] if urllib.parse.urlparse(r['original']).path.rstrip('/') == path.rstrip('/')]
+        return min(rows, key=lambda r: distance(r['timestamp'])) if rows else None
+    cap = pick(cdx('www.tosbase.com' + path))
+    if cap:
+        return cap
+    cap = pick(cdx('www.tosbase.com' + path, **{'from': '20151001', 'to': '20170630'}))
+    if cap:
+        cap = dict(cap, fora_da_janela=True)
+    return cap
 
 
 def save(kind, key, ts, original, html):
@@ -162,6 +169,8 @@ def main():
         entry = {'name': name, 'path': path, 'status': 'ok', 'timestamp': cap['timestamp'], 'original': original,
                  'archive_url': url, 'sha256': sha, 'bytes': len(body),
                  'file': save(kind, key, cap['timestamp'], original, body)}
+        if cap.get('fora_da_janela'):
+            entry['fora_da_janela'] = True
         ref = ref_hashes.get(key) if kind == 'skills' else None
         if ref and ref['captured_at'].replace('-', '').replace(':', '').replace('T', '').replace('Z', '') == cap['timestamp']:
             entry['confere_com_acervo'] = (ref['html_sha256'] == sha)

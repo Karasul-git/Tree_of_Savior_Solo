@@ -43,6 +43,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 65% | 1.297% | 3.974% |
 | 15 | 68% | 1.354% | 4.258% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Fires an arrow, igniting flames that inflict damage over time on enemies entering the targeted area.  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Ground, Square |
+
+| Nível | Ataque | Dano de atributo | Duração | Número de ataques | Consumes 1 Magic Arrow | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 320 | 0% | 10 s | 7 |  | 5 | 30 |
+| 2 | 411 | 0% | 10 s | 9 |  | 5 | 34 |
+| 3 | 502 | 0% | 10 s | 11 |  | 5 | 39 |
+| 4 | 593 | 0% | 10 s | 13 |  | 5 | 43 |
+| 5 | 684 | 0% | 10 s | 15 |  | 5 | 48 |
+| 6 | 775 | 0% | 10 s | 17 |  | 5 | 53 |
+| 7 | 866 | 0% | 10 s | 19 |  | 5 | 57 |
+| 8 | 957 | 0% | 10 s | 21 |  | 5 | 62 |
+| 9 | 1048 | 0% | 10 s | 23 |  | 5 | 66 |
+| 10 | 1139 | 0% | 10 s | 25 |  | 5 | 71 |
+
+### Atributos da habilidade em 2016
+
+- **Magic Arrow: Enhance**: Increases the damage dealt on an enemy with [Magic Arrow] by 1% per attribute level. (Fletcher 2nd Circle required)
+- **Magic Arrow: Silence**: Enemies hit by the flames [Magic Arrow] will be afflicted with [Silence] by a certain chance. Increases the chance by 10% per attribute level. (Fletcher 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -42,6 +42,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 74% | 221% | 1.014% |
 | 15 | 77% | 231% | 1.068% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Order your companion to drag a target towards you.  
+> *Physical*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Duração máxima | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 290 | 0% | 5 s | 10 | 29 |
+| 2 | 355 | 0% | 6 s | 10 | 33 |
+| 3 | 421 | 0% | 7 s | 10 | 37 |
+| 4 | 486 | 0% | 8 s | 10 | 41 |
+| 5 | 551 | 0% | 9 s | 10 | 45 |
+| 6 | 616 | 0% | 10 s | 10 | 49 |
+| 7 | 681 | 0% | 11 s | 10 | 53 |
+| 8 | 747 | 0% | 12 s | 10 | 57 |
+| 9 | 812 | 0% | 13 s | 10 | 61 |
+| 10 | 877 | 0% | 14 s | 10 | 65 |
+
+### Atributos da habilidade em 2016
+
+- **Retrieve: Enhance**: Increases the damage dealt on an enemy with [Retrieve] by 1% per attribute level. (Hunter 2nd Circle required)
+- **Retrieve: Decreased Defense**: Decreases the physical defense of an enemy attacked with [Retrieve] by 10 per attribute level. (Hunter 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -42,6 +42,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 251% | 1.506% | 4.365% |
 | 15 | 262% | 1.571% | 4.616% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Strike with a powerful hand knife to deal damage on an enemy.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 462 | 0% | 2 | 15 | 28 |
+| 2 | 557 | 0% | 2 | 15 | 32 |
+| 3 | 653 | 0% | 2 | 15 | 36 |
+| 4 | 748 | 0% | 2 | 15 | 40 |
+| 5 | 844 | 0% | 2 | 15 | 44 |
+| 6 | 940 | 0% | 2 | 15 | 49 |
+| 7 | 1035 | 0% | 2 | 15 | 53 |
+| 8 | 1131 | 0% | 2 | 15 | 57 |
+| 9 | 1226 | 0% | 2 | 15 | 61 |
+| 10 | 1322 | 0% | 2 | 15 | 65 |
+| 11 | 1418 | 0% | 2 | 15 | 70 |
+| 12 | 1513 | 0% | 2 | 15 | 74 |
+| 13 | 1609 | 0% | 2 | 15 | 78 |
+| 14 | 1704 | 0% | 2 | 15 | 82 |
+| 15 | 1800 | 0% | 2 | 15 | 86 |
+
+### Atributos da habilidade em 2016
+
+- **Hand Knife: Enhance**: Increases the damage dealt on an enemy with [Hand Knife] by 1% per attribute level. (Monk 1st Circle required)
+- **Hand Knife: Armor Break**: Enemies hit by [Hand Knife] have a 40% chance to be afflicted with [Armor Break] for 7 seconds. Increases the chance by 10% per attribute level from Lv2. (Monk 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

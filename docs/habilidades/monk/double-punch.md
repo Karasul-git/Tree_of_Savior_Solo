@@ -41,6 +41,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 92% | 2.214% | 1.271% |
 | 15 | 96% | 2.310% | 1.338% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Use your trained fists to attack an enemy in quick succession.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Consumes 2 Stamina | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 215 | 0% |  | 0 | 0 |
+| 2 | 247 | 0% |  | 0 | 0 |
+| 3 | 279 | 0% |  | 0 | 0 |
+| 4 | 311 | 0% |  | 0 | 0 |
+| 5 | 343 | 0% |  | 0 | 0 |
+| 6 | 375 | 0% |  | 0 | 0 |
+| 7 | 407 | 0% |  | 0 | 0 |
+| 8 | 439 | 0% |  | 0 | 0 |
+| 9 | 471 | 0% |  | 0 | 0 |
+| 10 | 503 | 0% |  | 0 | 0 |
+| 11 | 535 | 0% |  | 0 | 0 |
+| 12 | 567 | 0% |  | 0 | 0 |
+| 13 | 599 | 0% |  | 0 | 0 |
+| 14 | 631 | 0% |  | 0 | 0 |
+| 15 | 663 | 0% |  | 0 | 0 |
+
+### Atributos da habilidade em 2016
+
+- **Double Punch: Enhance**: Increases the damage dealt on an enemy with [Double Punch] by 1% per attribute level. (Monk 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

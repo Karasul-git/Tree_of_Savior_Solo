@@ -41,6 +41,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 549% | 7.552% |
 | 15 | 572% | 7.950% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Explodes an item of yours on the ground to damage nearby enemies.  
+> *Magic*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Fire |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Fan |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 220 | 0% | 1 | 32 | 55 |
+| 2 | 301 | 0% | 1 | 32 | 61 |
+| 3 | 382 | 0% | 1 | 32 | 68 |
+| 4 | 463 | 0% | 1 | 32 | 74 |
+| 5 | 544 | 0% | 1 | 32 | 81 |
+| 6 | 625 | 0% | 1 | 32 | 87 |
+| 7 | 706 | 0% | 1 | 32 | 94 |
+| 8 | 787 | 0% | 1 | 32 | 100 |
+| 9 | 868 | 0% | 1 | 32 | 107 |
+| 10 | 949 | 0% | 1 | 32 | 113 |
+| 11 | 1030 | 0% | 1 | 32 | 120 |
+| 12 | 1111 | 0% | 1 | 32 | 126 |
+| 13 | 1192 | 0% | 1 | 32 | 133 |
+| 14 | 1273 | 0% | 1 | 32 | 139 |
+| 15 | 1354 | 0% | 1 | 32 | 146 |
+
+### Atributos da habilidade em 2016
+
+- **Combustion: Enhance**: Increases the damage dealt on an enemy with [Combustion] by 1% per attribute level. (Alchemist 1st Circle required)
+- **Combustion: Using Silver**: Creates an explosion using 200 silver when there are no nearby dropped items. (Alchemist 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -78,6 +78,7 @@ const documents = [
   ['docs/classes/swordsman-valores-2016.md', 'Swordsman · Tabelas de 2016'],
   ['docs/classes/swordsman-equipamentos-e-avancos-2016.md', 'Swordsman · Armas, mestres e avanços'],
   ['docs/sistemas/ranks-e-circulos.md', 'Ranks e círculos'],
+  ['docs/sistemas/formulas-de-status-2016.md', 'Fórmulas de status em 2016'],
   ['docs/sistemas/barracao-e-grupo.md', 'Barracão, equipe e grupo'],
   ['docs/sistemas/economia-2016.md', 'Economia no lançamento'],
   ['docs/sistemas/recuperacao-2016.md', 'Recuperação no lançamento'],
@@ -119,7 +120,7 @@ function shell(title, current, content, toc = [], classInfo) {
   const nav = [
     group('O JOGO', [link('index.html', '<span>⌂</span> Início'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Classes do jogo'), link('docs/habilidades/index.html', 'Habilidades'), link('docs/itens/index.html', 'Equipamentos'), link('docs/projeto-solo/chefes/index.html', 'Chefes'), link('docs/projeto-solo/chefes/revisao.html', 'Revisão dos chefes')]),
     `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
-    group('ORIGINAL DE 2016', [link('docs/classes/catalogo-2016.html?view=2016', 'Todas as classes de 2016'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build'), link('docs/sistemas/barracao-e-grupo.html', 'Barracão, equipe e grupo'), link('docs/sistemas/economia-2016.html', 'Economia'), link('docs/sistemas/recuperacao-2016.html', 'Recuperação'), link('docs/historia/historia-e-mundo.html', 'História e mundo')]),
+    group('ORIGINAL DE 2016', [link('docs/classes/catalogo-2016.html?view=2016', 'Todas as classes de 2016'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/sistemas/formulas-de-status-2016.html', 'Fórmulas de status'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build'), link('docs/sistemas/barracao-e-grupo.html', 'Barracão, equipe e grupo'), link('docs/sistemas/economia-2016.html', 'Economia'), link('docs/sistemas/recuperacao-2016.html', 'Recuperação'), link('docs/historia/historia-e-mundo.html', 'História e mundo')]),
     group('REFERÊNCIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('docs/versao-navegavel.html', 'Sobre esta wiki')]),
   ].join('');
   return `<!doctype html>

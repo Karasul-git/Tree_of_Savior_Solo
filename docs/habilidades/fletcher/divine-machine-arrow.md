@@ -43,6 +43,37 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 607% | 1.822% | 10.561% |
 | 15 | 634% | 1.901% | 11.171% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Fires an arrow with explosives attached. Upon hitting its target, the arrow will explode after an amount of time and cause collateral damage.  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Actor, Square |
+
+| Nível | Ataque | Dano de atributo | Duração | Consumes 1 Divine Machine Arrow | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 200% + 1395 | 0% | 10 s |  | 10 | 30 |
+| 2 | 200% + 1709 | 0% | 10 s |  | 10 | 35 |
+| 3 | 200% + 2023 | 0% | 10 s |  | 10 | 40 |
+| 4 | 200% + 2337 | 0% | 10 s |  | 10 | 45 |
+| 5 | 200% + 2651 | 0% | 10 s |  | 10 | 50 |
+
+### Atributos da habilidade em 2016
+
+- **Divine Machine Arrow: Enhance**: Increases the damage dealt on an enemy with [Divine Machine Arrow] by 1% per attribute level. (Need the 3rd circle of Fletcher)
+- **Divine Machine Arrow: Shock**: Enemies hit by [Divine Machine Arrow] are afflicted with [Shock] for 10 seconds. (Need the 3rd circle of Fletcher)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

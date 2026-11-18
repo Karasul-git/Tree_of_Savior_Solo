@@ -23,6 +23,41 @@ Esconde uma armadilha preparada.
 
 Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram reunidos.
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Hide a prepared trap from enemies.
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Circle |
+
+| Nível | Conceal Duration | Recarga (s) | SP |
+| --- | --- | --- | --- |
+| 1 | 1 min | 20 | 20 |
+| 2 | 2 min | 20 | 23 |
+| 3 | 3 min | 20 | 27 |
+| 4 | 4 min | 20 | 30 |
+| 5 | 5 min | 20 | 34 |
+| 6 | 6 min | 20 | 37 |
+| 7 | 7 min | 20 | 41 |
+| 8 | 8 min | 20 | 44 |
+| 9 | 9 min | 20 | 48 |
+| 10 | 10 min | 20 | 51 |
+| 11 | 11 min | 20 | 55 |
+| 12 | 12 min | 20 | 58 |
+| 13 | 13 min | 20 | 62 |
+| 14 | 14 min | 20 | 65 |
+| 15 | 15 min | 20 | 69 |
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

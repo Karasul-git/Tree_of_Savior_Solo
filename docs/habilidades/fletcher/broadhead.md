@@ -43,6 +43,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 87% | 1.136% | 1.204% |
 | 15 | 91% | 1.186% | 1.268% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Fires a wide broadhead arrow. Inflicts [Bleeding] on the enemy hit.  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Actor, Square |
+
+| Nível | Ataque | Dano de atributo | Bleeding Duration | Consumes 1 Broadhead Arrow | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 470 | 0% | 5.5 s |  | 10 | 22 |
+| 2 | 584 | 0% | 6 s |  | 10 | 26 |
+| 3 | 697 | 0% | 6.5 s |  | 10 | 30 |
+| 4 | 811 | 0% | 7 s |  | 10 | 34 |
+| 5 | 925 | 0% | 7.5 s |  | 10 | 38 |
+| 6 | 1039 | 0% | 8 s |  | 10 | 42 |
+| 7 | 1153 | 0% | 8.5 s |  | 10 | 46 |
+| 8 | 1266 | 0% | 9 s |  | 10 | 50 |
+| 9 | 1380 | 0% | 9.5 s |  | 10 | 54 |
+| 10 | 1494 | 0% | 10 s |  | 10 | 58 |
+| 11 | 1608 | 0% | 10.5 s |  | 10 | 62 |
+| 12 | 1722 | 0% | 11 s |  | 10 | 66 |
+| 13 | 1835 | 0% | 11.5 s |  | 10 | 70 |
+| 14 | 1949 | 0% | 12 s |  | 10 | 74 |
+| 15 | 2063 | 0% | 12.5 s |  | 10 | 78 |
+
+### Atributos da habilidade em 2016
+
+- **Broadhead: Enhance**: Increases the damage dealt on an enemy with [Broadhead] by 1% per attribute level. (Fletcher 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

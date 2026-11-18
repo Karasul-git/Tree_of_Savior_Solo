@@ -43,6 +43,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 406% | 2.030% | 5.591% |
 | 15 | 424% | 2.118% | 5.886% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Load multiple arrows into your crossbow and then fire them in quick succession at an enemy.  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | Maximum Load Time | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 75 | 0% | 1.2 s | 25 | 19 |
+| 2 | 114 | 0% | 1.4 s | 25 | 22 |
+| 3 | 153 | 0% | 1.6 s | 25 | 26 |
+| 4 | 191 | 0% | 1.8 s | 25 | 29 |
+| 5 | 230 | 0% | 2 s | 25 | 33 |
+| 6 | 269 | 0% | 2.2 s | 25 | 36 |
+| 7 | 307 | 0% | 2.4 s | 25 | 40 |
+| 8 | 346 | 0% | 2.6 s | 25 | 43 |
+| 9 | 384 | 0% | 2.8 s | 25 | 47 |
+| 10 | 423 | 0% | 3 s | 25 | 50 |
+
+### Atributos da habilidade em 2016
+
+- **Rapid Fire: Enhance**: Increases the damage dealt on an enemy with [Rapid Fire] by 1% per attribute level. (Quarrel Shooter 2nd Circle required)
+- **Rapid Fire: Critical Chance**: Enemies hit by [Rapid Fire] have a 50% chance per attribute level of having their critical resistance reduced to 0 for 3 seconds. (Quarrel Shooter 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

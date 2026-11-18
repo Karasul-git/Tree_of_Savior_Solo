@@ -42,6 +42,36 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 70% | 8.390% | 1.786% |
 | 15 | 73% | 8.755% | 1.900% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Set up a trap that shoots arrows when an enemy touches the wire.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | Arrow Count | Set up Range | Consumes 2 Wires | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 389 | 0% | 2 | 70 |  | 100 | 35 |
+| 2 | 500 | 0% | 4 | 90 |  | 100 | 40 |
+| 3 | 612 | 0% | 6 | 110 |  | 100 | 46 |
+| 4 | 723 | 0% | 8 | 130 |  | 100 | 51 |
+| 5 | 835 | 0% | 10 | 150 |  | 100 | 57 |
+
+### Atributos da habilidade em 2016
+
+- **Spike Shooter: Enhance**: Increases the damage dealt on an enemy with [Spike Shooter] by 1% per attribute level. (Sapper 3rd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

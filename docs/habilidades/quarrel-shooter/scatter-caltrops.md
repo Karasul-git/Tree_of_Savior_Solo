@@ -42,6 +42,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 424% | 6.358% | 5.835% |
 | 15 | 442% | 6.635% | 6.142% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Throw caltrops on the ground that inflict damage to enemies that step on them.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon Musket |
+| Alvo | Ground, Square |
+
+| Nível | Ataque | Dano de atributo | Throw Count | Caltrops Duration | Reduces enemy's movement speed by 10 for 5 seconds 5 | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 96 | 0% | 1 | 20 s |  | 30 | 20 |
+| 2 | 123 | 0% | 2 | 20 s |  | 30 | 23 |
+| 3 | 150 | 0% | 3 | 20 s |  | 30 | 26 |
+| 4 | 177 | 0% | 4 | 20 s |  | 30 | 29 |
+| 5 | 204 | 0% | 5 | 20 s |  | 30 | 33 |
+| 6 | 231 | 0% | 6 | 20 s |  | 30 | 36 |
+| 7 | 258 | 0% | 7 | 20 s |  | 30 | 39 |
+| 8 | 285 | 0% | 8 | 20 s |  | 30 | 43 |
+| 9 | 312 | 0% | 9 | 20 s |  | 30 | 46 |
+| 10 | 339 | 0% | 10 | 20 s |  | 30 | 49 |
+| 11 | 366 | 0% | 11 | 20 s |  | 30 | 53 |
+| 12 | 393 | 0% | 12 | 20 s |  | 30 | 56 |
+| 13 | 420 | 0% | 13 | 20 s |  | 30 | 59 |
+| 14 | 447 | 0% | 14 | 20 s |  | 30 | 62 |
+| 15 | 474 | 0% | 15 | 20 s |  | 30 | 66 |
+
+### Atributos da habilidade em 2016
+
+- **Scatter Caltrops: Enhance**: Increases the damage dealt on an enemy with [Scatter Caltrops] by 1% per attribute level. (Quarrel Shooter 1st Circle required)
+- **Scatter Caltrops: Duration**: Increases the duration of [Scatter Caltrops] by 1 second per attribute level. (Quarrel Shooter 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -42,6 +42,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 523% | 7.203% |
 | 15 | 546% | 7.582% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Fires a stone bullet to push an enemy away. The target has a chance to become afflicted with [Stun].  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Actor, Square |
+
+| Nível | Ataque | Dano de atributo | [Stun] Duration | Consumes 1 Stone Bullet | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 150% +125 | 0% | 4 s |  | 0 | 22 |
+| 2 | 150% +147 | 0% | 4 s |  | 0 | 27 |
+| 3 | 150% +169 | 0% | 5 s |  | 0 | 32 |
+| 4 | 150% +191 | 0% | 5 s |  | 0 | 37 |
+| 5 | 150% +213 | 0% | 6 s |  | 0 | 42 |
+| 6 | 150% +235 | 0% | 6 s |  | 0 | 47 |
+| 7 | 150% +257 | 0% | 6 s |  | 0 | 52 |
+| 8 | 150% +279 | 0% | 7 s |  | 0 | 57 |
+| 9 | 150% +301 | 0% | 7 s |  | 0 | 62 |
+| 10 | 150% +323 | 0% | 8 s |  | 0 | 67 |
+| 11 | 150% +345 | 0% | 8 s |  | 0 | 73 |
+| 12 | 150% +367 | 0% | 8 s |  | 0 | 78 |
+| 13 | 150% +389 | 0% | 9 s |  | 0 | 83 |
+| 14 | 150% +411 | 0% | 9 s |  | 0 | 88 |
+| 15 | 150% +433 | 0% | 10 s |  | 0 | 93 |
+
+### Atributos da habilidade em 2016
+
+- **Stone Shot: Enhance**: Increases the damage dealt on an enemy with [Stone Shot] by 1% per attribute level. (Quarrel Shooter 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -42,6 +42,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 289% | 3.980% |
 | 15 | 302% | 4.190% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Aim with the tip of your arrow and penetrate through enemies in front of you.  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 145 | 0% | 6 | 15 | 20 |
+| 2 | 179 | 0% | 7 | 15 | 23 |
+| 3 | 214 | 0% | 8 | 15 | 27 |
+| 4 | 248 | 0% | 9 | 15 | 30 |
+| 5 | 282 | 0% | 10 | 15 | 34 |
+| 6 | 317 | 0% | 11 | 15 | 37 |
+| 7 | 351 | 0% | 12 | 15 | 41 |
+| 8 | 385 | 0% | 13 | 15 | 44 |
+| 9 | 420 | 0% | 14 | 15 | 48 |
+| 10 | 454 | 0% | 15 | 15 | 51 |
+| 11 | 489 | 0% | 16 | 15 | 55 |
+| 12 | 523 | 0% | 17 | 15 | 58 |
+| 13 | 557 | 0% | 18 | 15 | 62 |
+| 14 | 592 | 0% | 19 | 15 | 65 |
+| 15 | 626 | 0% | 20 | 15 | 69 |
+
+### Atributos da habilidade em 2016
+
+- **High Anchoring: Enhance**: Increases the damage dealt on an enemy with [High Anchoring] by 1% per attribute level. (Ranger 1st Circle required)
+- **High Anchoring: Critical Chance**: Enemies hit by [High Anchoring] have their critical resistance reduced by 3 per attribute level for 5 seconds. (Ranger 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

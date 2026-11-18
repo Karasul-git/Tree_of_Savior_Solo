@@ -42,6 +42,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 97% | 1.450% | 1.332% |
 | 15 | 101% | 1.513% | 1.402% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Lay a defensive trap that damages any enemies that walk into it.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | 3 successive attacks | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 110 | 0% |  | 35 | 25 |
+| 2 | 138 | 0% |  | 35 | 28 |
+| 3 | 165 | 0% |  | 35 | 32 |
+| 4 | 192 | 0% |  | 35 | 36 |
+| 5 | 219 | 0% |  | 35 | 39 |
+| 6 | 247 | 0% |  | 35 | 43 |
+| 7 | 274 | 0% |  | 35 | 47 |
+| 8 | 301 | 0% |  | 35 | 50 |
+| 9 | 328 | 0% |  | 35 | 54 |
+| 10 | 356 | 0% |  | 35 | 58 |
+| 11 | 383 | 0% |  | 35 | 62 |
+| 12 | 410 | 0% |  | 35 | 65 |
+| 13 | 437 | 0% |  | 35 | 69 |
+| 14 | 465 | 0% |  | 35 | 73 |
+| 15 | 492 | 0% |  | 35 | 76 |
+
+### Atributos da habilidade em 2016
+
+- **Stake Stockades: Enhance**: Increases the damage dealt on an enemy with [Stake Stockades] by 1% per attribute level. (Sapper 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -43,6 +43,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 325% | 650% | 4.471% |
 | 15 | 339% | 678% | 4.706% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Fires a howitzer to the ground. 5x damage is dealt to an enemy's structure.  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | BowAndCannon |
+| Alvo | Ground, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 150% + 2159 | 0% | 30 | 65 |
+| 2 | 150% + 2518 | 0% | 30 | 76 |
+| 3 | 150% + 2877 | 0% | 30 | 87 |
+| 4 | 150% + 3236 | 0% | 30 | 98 |
+| 5 | 150% + 3595 | 0% | 30 | 109 |
+| 6 | 150% + 3954 | 0% | 30 | 120 |
+| 7 | 150% + 4314 | 0% | 30 | 131 |
+| 8 | 150% + 4673 | 0% | 30 | 142 |
+| 9 | 150% + 5032 | 0% | 30 | 153 |
+| 10 | 150% + 5391 | 0% | 30 | 164 |
+| 11 | 150% + 5750 | 0% | 30 | 175 |
+| 12 | 150% + 6109 | 0% | 30 | 186 |
+| 13 | 150% + 6468 | 0% | 30 | 197 |
+| 14 | 150% + 6827 | 0% | 30 | 208 |
+| 15 | 150% + 7187 | 0% | 30 | 219 |
+
+### Atributos da habilidade em 2016
+
+- **Siege Burst: Enhance**: Increases the damage dealt on an enemy with [Siege Burst] by 1% per attribute level. (Cannoneer 1st Circle required)
+- **Siege Burst: Increased Range**: Increases the attacking range of [Siege Burst] by 25 per attribute level. (Cannoneer 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

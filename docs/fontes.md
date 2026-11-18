@@ -1093,3 +1093,7 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F141 · tos.guru · base de monstros (iToS)
 
 [tos.guru, página de Gesti](https://tos.guru/itos/database/monsters/57055/) — base de fãs, sem data; consulta em 16/11/2026. Página e retrato de 80×80 de cada monstro, usados para classificar os chefes demônios. **Limite:** dados do jogo atual; o retrato pode diferir do modelo 3D e da versão de 2016; as imagens não foram adicionadas ao acervo.
+
+### F142 · ToSBase · Calculadora de status (beta) · captura de 15/03/2016
+
+[Captura do Internet Archive](https://web.archive.org/web/20160315024916id_/http://www.tosbase.com/tools/stat-calculator/) · consulta em 18/11/2026. Código da calculadora de status do ToSBase, com as fórmulas de atributos, HP, SP, ataque e defesa. **Limite:** ferramenta de fãs marcada como beta; não é código do jogo nem prova do cliente de 2016; não traz a fórmula de dano nem os efeitos de equipamento; pode ter sido ajustada depois da captura.

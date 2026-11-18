@@ -42,6 +42,45 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 348% | 1.043% | 6.036% |
 | 15 | 363% | 1.089% | 6.384% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Trick an enemy to lower its guard. Temporarily decreases the evasion of enemies in front of you.
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Esquiva | Alvos | Duração | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | -10% | 3 | 12 s | 25 | 35 |
+| 2 | -20% | 4 | 14 s | 25 | 40 |
+| 3 | -30% | 5 | 16 s | 25 | 45 |
+| 4 | -40% | 6 | 18 s | 25 | 50 |
+| 5 | -50% | 7 | 20 s | 25 | 55 |
+| 6 | -60% | 8 | 22 s | 25 | 61 |
+| 7 | -70% | 9 | 24 s | 25 | 66 |
+| 8 | -80% | 10 | 26 s | 25 | 71 |
+| 9 | -90% | 11 | 28 s | 25 | 76 |
+| 10 | -100% | 12 | 30 s | 25 | 81 |
+| 11 | -110% | 13 | 32 s | 25 | 87 |
+| 12 | -120% | 14 | 34 s | 25 | 92 |
+| 13 | -130% | 15 | 36 s | 25 | 97 |
+| 14 | -140% | 16 | 38 s | 25 | 102 |
+| 15 | -150% | 17 | 40 s | 25 | 107 |
+
+### Atributos da habilidade em 2016
+
+- **Feint: Back Roll**: Increases the chance by 15% per attribute level of enemies turning around when using [Feint] (Rogue 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

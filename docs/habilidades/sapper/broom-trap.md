@@ -42,6 +42,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 207% | 2.686% | 3.592% |
 | 15 | 216% | 2.802% | 3.799% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Set up a rotating trap that inflicts damage to enemies within a radius.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | Trap Duration | Consumes 3 Ash Wood | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 157 | 0% | 15 s |  | 40 | 34 |
+| 2 | 200 | 0% | 15 s |  | 40 | 39 |
+| 3 | 243 | 0% | 15 s |  | 40 | 44 |
+| 4 | 287 | 0% | 15 s |  | 40 | 49 |
+| 5 | 330 | 0% | 15 s |  | 40 | 54 |
+| 6 | 373 | 0% | 15 s |  | 40 | 59 |
+| 7 | 416 | 0% | 15 s |  | 40 | 64 |
+| 8 | 459 | 0% | 15 s |  | 40 | 69 |
+| 9 | 502 | 0% | 15 s |  | 40 | 74 |
+| 10 | 545 | 0% | 15 s |  | 40 | 79 |
+
+### Atributos da habilidade em 2016
+
+- **Broom Trap: Revolutions Count**: Decreases the time of the first rotation by 0.3 seconds and increases the number of rotations for [Broom Trap] by 0.8 per attribute level. (Sapper 2nd Circle required)
+- **Broom Trap: Enhance**: Increases the damage dealt on an enemy with [Broom Trap] by 1% per attribute level. (Sapper 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

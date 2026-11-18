@@ -43,6 +43,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 1.453% | 18.635% |
 | 15 | 1.516% | 19.582% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Detonates nearby traps and magic circles to deal damage to enemies.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | Explosion Count | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 151 | 0% | 4 | 20 | 31 |
+| 2 | 187 | 0% | 4 | 20 | 35 |
+| 3 | 222 | 0% | 4 | 20 | 39 |
+| 4 | 258 | 0% | 4 | 20 | 43 |
+| 5 | 294 | 0% | 4 | 20 | 48 |
+| 6 | 329 | 0% | 4 | 20 | 52 |
+| 7 | 365 | 0% | 4 | 20 | 56 |
+| 8 | 401 | 0% | 4 | 20 | 61 |
+| 9 | 436 | 0% | 4 | 20 | 65 |
+| 10 | 472 | 0% | 4 | 20 | 69 |
+| 11 | 507 | 0% | 4 | 20 | 74 |
+| 12 | 543 | 0% | 4 | 20 | 78 |
+| 13 | 579 | 0% | 4 | 20 | 82 |
+| 14 | 614 | 0% | 4 | 20 | 86 |
+| 15 | 650 | 0% | 4 | 20 | 91 |
+
+### Atributos da habilidade em 2016
+
+- **Detonate Traps: Enhance**: Increases the damage dealt on an enemy with [Detonate Traps] by 1% per attribute level. (Sapper 1st Circle required)
+- **Detonate Traps: Flying-type Compatibility**: Deals 50% additional damage per attribute level on Flying-type monsters with [Detonate Traps]. (Sapper 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -43,6 +43,37 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 66% | 598% | 1.264% |
 | 15 | 69% | 624% | 1.339% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Fires a spiraling arrow that deals multiple hits to a target.  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandBow BowAndShield BowAndArtefact BowAndDagger BowAndPistol BowAndCannon |
+| Alvo | Actor, Square |
+
+| Nível | Ataque | Dano de atributo | Número de golpes | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 100 | [?]% | 2 | 36 | 23 |
+| 2 | 120 | [?]% | 3 | 36 | 26 |
+| 3 | 140 | [?]% | 4 | 36 | 30 |
+| 4 | 160 | [?]% | 5 | 36 | 34 |
+| 5 | 180 | [?]% | 6 | 36 | 38 |
+
+### Atributos da habilidade em 2016
+
+- **Spiral Arrow: Enhance**: Increases the damage dealt on an enemy with [Spiral Arrow] by 1% per attribute level. (Ranger 3rd Circle required)
+- **Spiral Arrow: Critical**: Increases the critical chance of [Spiral Arrow] by 13% per attribute level. (Ranger 3rd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -43,6 +43,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 211% | 2.322% | 2.907% |
 | 15 | 220% | 2.422% | 3.060% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Attack multiple enemies by firing at a targeted area.  
+> *Missile*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | Musket |
+| Alvo | Ground, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 150% + 430 | 0% | 15 | 55 |
+| 2 | 150% + 538 | 0% | 15 | 63 |
+| 3 | 150% + 646 | 0% | 15 | 72 |
+| 4 | 150% + 754 | 0% | 15 | 80 |
+| 5 | 150% + 863 | 0% | 15 | 89 |
+| 6 | 150% + 971 | 0% | 15 | 97 |
+| 7 | 150% + 1079 | 0% | 15 | 106 |
+| 8 | 150% + 1188 | 0% | 15 | 114 |
+| 9 | 150% + 1296 | 0% | 15 | 123 |
+| 10 | 150% + 1404 | 0% | 15 | 131 |
+| 11 | 150% + 1513 | 0% | 15 | 140 |
+| 12 | 150% + 1621 | 0% | 15 | 148 |
+| 13 | 150% + 1729 | 0% | 15 | 157 |
+| 14 | 150% + 1838 | 0% | 15 | 165 |
+| 15 | 150% + 1946 | 0% | 15 | 174 |
+
+### Atributos da habilidade em 2016
+
+- **Covering Fire: Enhance**: Increases the damage dealt on an enemy with [Covering Fire] by 1% per attribute level. (Musketeer 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).
