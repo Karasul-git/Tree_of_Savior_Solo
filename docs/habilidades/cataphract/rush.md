@@ -42,6 +42,37 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 328% | 3.613% | 8.389% |
 | 15 | 343% | 3.770% | 8.925% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Twirl your spear overhead to attack enemies.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandSpear OneHandSpearArtefact OneHandSpearShield OneHandSpearDagger OneHandSpearPistol |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Duração máxima | Razão de ataque em área | Usável montado | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 341 | 0% | 10 s | 3 |  | 40 | 26 |
+| 2 | 415 | 0% | 10 s | 3 |  | 40 | 29 |
+| 3 | 488 | 0% | 10 s | 3 |  | 40 | 33 |
+| 4 | 562 | 0% | 10 s | 3 |  | 40 | 36 |
+| 5 | 635 | 0% | 10 s | 3 |  | 40 | 40 |
+
+### Atributos da habilidade em 2016
+
+- **Rush: Stun**: Enemies pushed back by [Rush] have a 1% chance per attribute level to be afflicted with [Stun] for 2 seconds. (Cataphract 3rd Circle required)
+- **Rush: Enhance**: Increases the damage dealt on an enemy with [Rush] by 1% per attribute level. (Cataphract 3rd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

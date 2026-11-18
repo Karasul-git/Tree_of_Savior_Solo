@@ -43,6 +43,37 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 138% | 413% | 1.896% |
 | 15 | 144% | 431% | 1.996% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Attack an enemy by throwing your spear. Your spear will stick into the ground where it was thrown, and your physical attack will be decreased based on the equipment's upgrade count until you pick it up. It automatically returns to you after a certain time.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSpearArtefact OneHandSpearShield TwoHandSpear OneHandSpearPistol OneHandSpearDagger |
+| Alvo | Ground, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 565 | 0% | 3 | 0 | 25 |
+| 2 | 684 | 0% | 3 | 0 | 28 |
+| 3 | 804 | 0% | 3 | 0 | 31 |
+| 4 | 924 | 0% | 3 | 0 | 34 |
+| 5 | 1044 | 0% | 3 | 0 | 37 |
+
+### Atributos da habilidade em 2016
+
+- **Spear Throw: Enhance**: Increases the damage dealt on an enemy with [Spear Throw] by 1% per attribute level. (Hoplite 3rd Circle required)
+- **Spear Throw: Bind**: Enemies hit by [Spear Throw] have a chance to be afflicted with [Bind] for 7 seconds. Increases the chance by 15% per attribute level. (Hoplite 3rd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

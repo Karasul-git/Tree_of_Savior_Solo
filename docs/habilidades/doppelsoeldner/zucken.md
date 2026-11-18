@@ -42,6 +42,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 190% | 1.517% | 4.847% |
 | 15 | 198% | 1.583% | 5.156% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Inflict damage on a frontal enemy through a series of lateral slashes. Deals additional damage to enemies afflicted with [Shock].  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandSword |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 459 | 0% | 20 | 8 |
+| 2 | 559 | 0% | 20 | 51 |
+| 3 | 659 | 0% | 20 | 94 |
+| 4 | 760 | 0% | 20 | 137 |
+| 5 | 860 | 0% | 20 | 180 |
+| 6 | 960 | 0% | 20 | 223 |
+| 7 | 1061 | 0% | 20 | 266 |
+| 8 | 1161 | 0% | 20 | 309 |
+| 9 | 1261 | 0% | 20 | 352 |
+| 10 | 1361 | 0% | 20 | 395 |
+
+### Atributos da habilidade em 2016
+
+- **Zucken: Enhance**: Increases the damage dealt on an enemy with [Zucken] by 1% per attribute level. (Doppelsoeldner 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

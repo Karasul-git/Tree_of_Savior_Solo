@@ -42,6 +42,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 343% | 1.717% | 4.726% |
 | 15 | 358% | 1.792% | 4.975% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> [Physical] - [Pierce]Move swiftly to avoid enemy attacks and deliver complex successive attacks.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | RapierAndShield RapierAndDagger RapierAndArtefact RapierAndPistol |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Taxa de esquiva | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 213 | 0% | +10% | 30 | 43 |
+| 2 | 245 | 0% | +20% | 30 | 47 |
+| 3 | 278 | 0% | +30% | 30 | 52 |
+| 4 | 310 | 0% | +40% | 30 | 57 |
+| 5 | 343 | 0% | +50% | 30 | 62 |
+| 6 | 375 | 0% | +60% | 30 | 67 |
+| 7 | 408 | 0% | +70% | 30 | 72 |
+| 8 | 440 | 0% | +80% | 30 | 77 |
+| 9 | 473 | 0% | +90% | 30 | 82 |
+| 10 | 505 | 0% | +100% | 30 | 87 |
+| 11 | 538 | 0% | +110% | 30 | 92 |
+| 12 | 571 | 0% | +120% | 30 | 96 |
+| 13 | 603 | 0% | +130% | 30 | 101 |
+| 14 | 636 | 0% | +140% | 30 | 106 |
+| 15 | 668 | 0% | +150% | 30 | 111 |
+
+### Atributos da habilidade em 2016
+
+- **Esquive Toucher: Enhance**: Increases the damage dealt on an enemy with [Esquive Toucher] by 1% per attribute level. (Fencer 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

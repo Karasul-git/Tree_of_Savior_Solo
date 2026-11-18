@@ -42,6 +42,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 315% | 3.779% | 5.479% |
 | 15 | 329% | 3.944% | 5.795% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Drag and pull enemies captured with Iron Hook. Enenues receives damage each time it is pulled.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | 2 Continuous Hits | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 310 | 0% |  | 25 | 26 |
+| 2 | 386 | 0% |  | 25 | 29 |
+| 3 | 462 | 0% |  | 25 | 32 |
+| 4 | 539 | 0% |  | 25 | 35 |
+| 5 | 615 | 0% |  | 25 | 39 |
+| 6 | 691 | 0% |  | 25 | 42 |
+| 7 | 767 | 0% |  | 25 | 45 |
+| 8 | 843 | 0% |  | 25 | 49 |
+| 9 | 920 | 0% |  | 25 | 52 |
+| 10 | 996 | 0% |  | 25 | 55 |
+| 11 | 1072 | 0% |  | 25 | 59 |
+| 12 | 1148 | 0% |  | 25 | 62 |
+| 13 | 1224 | 0% |  | 25 | 65 |
+| 14 | 1301 | 0% |  | 25 | 68 |
+| 15 | 1377 | 0% |  | 25 | 72 |
+
+### Atributos da habilidade em 2016
+
+- **Keel Hauling: Enhance**: Increases the damage dealt on an enemy with [Keel Hauling] by 1% per attribute level. (Corsair 1st Circle required)
+- **Keel Hauling: Bleeding**: Inflicts [Bleeding] on an enemy attacked with [Keel Hauling] for 5 seconds. Increases the duration of [Bleeding] by 1 second per attribute level. Bleeding damage is proportional to the character's STR. (Corsair 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

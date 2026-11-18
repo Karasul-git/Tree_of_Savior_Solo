@@ -43,6 +43,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 304% | 608% | 4.183% |
 | 15 | 317% | 634% | 4.403% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Slash the enemy sideways.
+Inflicts additional damage on enemies affected by [Bleeding].  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 160 | 0% | 1 | 15 | 8 |
+| 2 | 192 | 0% | 1 | 15 | 10 |
+| 3 | 224 | 0% | 1 | 15 | 12 |
+| 4 | 257 | 0% | 1 | 15 | 14 |
+| 5 | 289 | 0% | 1 | 15 | 16 |
+| 6 | 321 | 0% | 1 | 15 | 18 |
+| 7 | 354 | 0% | 1 | 15 | 20 |
+| 8 | 386 | 0% | 1 | 15 | 22 |
+| 9 | 418 | 0% | 1 | 15 | 24 |
+| 10 | 450 | 0% | 1 | 15 | 26 |
+
+### Atributos da habilidade em 2016
+
+- **Skyliner: Enhance**: Increases the damage dealt on an enemy with [Skyliner] by 1% per attribute level. (Highlander 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -24,26 +24,43 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores exibidos pelo ToSBase em capturas de março e abril de 2016. O "ataque exibido" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-| Nível | Dano adicional | Duração (s) | Limite de acertos | SP | Recarga (s) |
+> Increases your attack damage.
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Buff |
+| Postura exigida | None |
+| Alvo | Self, Circle |
+
+| Nível | Dano adicional | Número de golpes | Duração | Recarga (s) | SP |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 5 | 45 | 5 | 11 | 20 |
-| 2 | 7 | 45 | 7 | 12 | 20 |
-| 3 | 8 | 45 | 8 | 13 | 20 |
-| 4 | 10 | 45 | 10 | 15 | 20 |
-| 5 | 11 | 45 | 11 | 16 | 20 |
-| 6 | 13 | 45 | 13 | 18 | 20 |
-| 7 | 14 | 45 | 14 | 19 | 20 |
-| 8 | 16 | 45 | 16 | 20 | 20 |
-| 9 | 17 | 45 | 17 | 22 | 20 |
-| 10 | 19 | 45 | 19 | 23 | 20 |
-| 11 | 20 | 45 | 20 | 25 | 20 |
-| 12 | 22 | 45 | 22 | 26 | 20 |
-| 13 | 23 | 45 | 23 | 27 | 20 |
-| 14 | 25 | 45 | 25 | 29 | 20 |
-| 15 | 26 | 45 | 26 | 30 | 20 |
+| 1 | +5 | 5 | 45 s | 20 | 11 |
+| 2 | +7 | 7 | 45 s | 20 | 12 |
+| 3 | +8 | 8 | 45 s | 20 | 13 |
+| 4 | +10 | 10 | 45 s | 20 | 15 |
+| 5 | +11 | 11 | 45 s | 20 | 16 |
+| 6 | +13 | 13 | 45 s | 20 | 18 |
+| 7 | +14 | 14 | 45 s | 20 | 19 |
+| 8 | +16 | 16 | 45 s | 20 | 20 |
+| 9 | +17 | 17 | 45 s | 20 | 22 |
+| 10 | +19 | 19 | 45 s | 20 | 23 |
+| 11 | +20 | 20 | 45 s | 20 | 25 |
+| 12 | +22 | 22 | 45 s | 20 | 26 |
+| 13 | +23 | 23 | 45 s | 20 | 27 |
+| 14 | +25 | 25 | 45 s | 20 | 29 |
+| 15 | +26 | 26 | 45 s | 20 | 30 |
+
+### Atributos da habilidade em 2016
+
+- **Concentrate: Enhance**: Increases the additional damage of [Concentrate] by 2 per attribute level. (Lv3 Concentrate required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas de 2016: ToSBase.
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

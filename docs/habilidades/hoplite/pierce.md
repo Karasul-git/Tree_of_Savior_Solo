@@ -43,6 +43,48 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 205% | 821% | 2.827% |
 | 15 | 214% | 857% | 2.976% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Attack by piercing enemies with your spear. The larger an enemy is, the more consecutive hits you deal.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Medium-type Targets | Large-type Targets | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 208 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 18 |
+| 2 | 260 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 20 |
+| 3 | 311 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 22 |
+| 4 | 362 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 24 |
+| 5 | 414 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 27 |
+| 6 | 465 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 29 |
+| 7 | 516 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 31 |
+| 8 | 568 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 34 |
+| 9 | 619 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 36 |
+| 10 | 670 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 38 |
+| 11 | 722 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 41 |
+| 12 | 773 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 43 |
+| 13 | 825 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 45 |
+| 14 | 876 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 47 |
+| 15 | 927 | 0% | 2 consecutive attacks | 3 consecutive attacks | 30 | 50 |
+
+### Atributos da habilidade em 2016
+
+- **Pierce: Enhance**: Increases the damage dealt on an enemy with [Pierce] by 1% per attribute level. (Hoplite 1st Circle required)
+- **Pierce: Continuous Attack**: Deals 4 consecutive hits on boss monsters with [Pierce]. (Hoplite 2nd Circle required)
+- **Pierce: Bleeding**: Enemies hit by [Pierce] have a 2% chance per attribute level to be afflicted with [Bleeding] for 6 seconds. Bleeding damage is proportional to the character's physical attack. (Hoplite 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

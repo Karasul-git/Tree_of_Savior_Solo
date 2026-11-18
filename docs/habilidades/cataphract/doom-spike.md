@@ -43,6 +43,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 203% | 1.015% | 3.530% |
 | 15 | 212% | 1.059% | 3.733% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Gather force and strongly stab enemy with the tip of your spear.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandSpear OneHandSpearArtefact OneHandSpearShield OneHandSpearDagger OneHandSpearPistol |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Usável montado | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 561 | 0% | 3 |  | 20 | 25 |
+| 2 | 700 | 0% | 3 |  | 20 | 28 |
+| 3 | 839 | 0% | 3 |  | 20 | 31 |
+| 4 | 978 | 0% | 3 |  | 20 | 34 |
+| 5 | 1117 | 0% | 3 |  | 20 | 38 |
+| 6 | 1257 | 0% | 3 |  | 20 | 41 |
+| 7 | 1396 | 0% | 3 |  | 20 | 44 |
+| 8 | 1535 | 0% | 3 |  | 20 | 48 |
+| 9 | 1674 | 0% | 3 |  | 20 | 51 |
+| 10 | 1813 | 0% | 3 |  | 20 | 54 |
+
+### Atributos da habilidade em 2016
+
+- **Doom Spike: Enhance**: Increases the damage dealt on an enemy with [Doom Spike] by 1% per attribute level. (Cataphract 2nd Circle required)
+- **Doom Spike**: [Doom Spike] no longer knocks enemies down. (Only applies if the attribute is set to ON) (Cataphract 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -43,6 +43,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 884% | 5.306% | 22.590% |
 | 15 | 923% | 5.537% | 24.032% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Hold down the key to crouch and move forward. Increases evasion against enemy attacks and triggers an attack immediately after movement has ended.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Duração máxima | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 361 | 0% | 10 s | 28 | 25 |
+| 2 | 442 | 0% | 10 s | 28 | 28 |
+| 3 | 523 | 0% | 10 s | 28 | 31 |
+| 4 | 605 | 0% | 10 s | 28 | 34 |
+| 5 | 686 | 0% | 10 s | 28 | 37 |
+| 6 | 768 | 0% | 10 s | 28 | 41 |
+| 7 | 849 | 0% | 10 s | 28 | 44 |
+| 8 | 930 | 0% | 10 s | 28 | 47 |
+| 9 | 1012 | 0% | 10 s | 28 | 50 |
+| 10 | 1093 | 0% | 10 s | 28 | 53 |
+
+### Atributos da habilidade em 2016
+
+- **Slithering: Enhance**: Increases the damage dealt on an enemy with [Slithering] by 1% per attribute level. (Rodelero 2nd Circle required)
+- **Slithering: Additional Damage**: Enemies hit by [Slithering] become vulnerable to [Strike] attacks for 10 seconds. Increases additional damage by 20% per attribute level. (Rodelero 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

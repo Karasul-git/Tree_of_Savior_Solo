@@ -42,6 +42,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 1.066% | 14.683% |
 | 15 | 1.113% | 15.455% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Release a powerful stab into an enemy, then kick it away with your foot.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 208 | 0% | 2 | 30 | 19 |
+| 2 | 259 | 0% | 2 | 30 | 21 |
+| 3 | 310 | 0% | 2 | 30 | 23 |
+| 4 | 361 | 0% | 2 | 30 | 26 |
+| 5 | 411 | 0% | 2 | 30 | 28 |
+| 6 | 462 | 0% | 2 | 30 | 31 |
+| 7 | 513 | 0% | 2 | 30 | 33 |
+| 8 | 564 | 0% | 2 | 30 | 35 |
+| 9 | 614 | 0% | 2 | 30 | 38 |
+| 10 | 665 | 0% | 2 | 30 | 40 |
+| 11 | 716 | 0% | 2 | 30 | 43 |
+| 12 | 767 | 0% | 2 | 30 | 45 |
+| 13 | 817 | 0% | 2 | 30 | 47 |
+| 14 | 868 | 0% | 2 | 30 | 50 |
+| 15 | 919 | 0% | 2 | 30 | 52 |
+
+### Atributos da habilidade em 2016
+
+- **Embowel: Enhance**: Increases the damage dealt on an enemy with [Embowel] by 1% per attribute level. (Barbarian 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

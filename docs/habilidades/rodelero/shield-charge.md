@@ -43,6 +43,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 170% | 1.020% | 2.341% |
 | 15 | 177% | 1.064% | 2.464% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Use your shield and dash to push enemies away. Enemies nearby will fall down when hit with the shield.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Duração máxima | Consome estamina | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 139 | % | 5 s |  | 40 | 23 |
+| 2 | 160 | % | 5 s |  | 40 | 25 |
+| 3 | 181 | % | 5 s |  | 40 | 28 |
+| 4 | 203 | % | 5 s |  | 40 | 31 |
+| 5 | 224 | % | 5 s |  | 40 | 34 |
+| 6 | 246 | % | 5 s |  | 40 | 37 |
+| 7 | 267 | % | 5 s |  | 40 | 39 |
+| 8 | 288 | % | 5 s |  | 40 | 42 |
+| 9 | 310 | % | 5 s |  | 40 | 45 |
+| 10 | 331 | % | 5 s |  | 40 | 48 |
+| 11 | 353 | % | 5 s |  | 40 | 51 |
+| 12 | 374 | % | 5 s |  | 40 | 53 |
+| 13 | 395 | % | 5 s |  | 40 | 56 |
+| 14 | 417 | % | 5 s |  | 40 | 59 |
+| 15 | 438 | % | 5 s |  | 40 | 62 |
+
+### Atributos da habilidade em 2016
+
+- **Shield Charge: Enhance**: Increases the damage dealt on an enemy with [Shield Charge] by 1% per attribute level. (Rodelero 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

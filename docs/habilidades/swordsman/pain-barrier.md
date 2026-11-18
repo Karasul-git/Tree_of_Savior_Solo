@@ -25,26 +25,39 @@ Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram r
 
 ## No lançamento de 2016
 
-Valores exibidos pelo ToSBase em capturas de março e abril de 2016. O "ataque exibido" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-| Nível | Duração (s) | SP | Recarga (s) |
+> Temporarily grants a high resistance to being affected by knock back, knock down or staggered.
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Buff |
+| Postura exigida | None |
+| Alvo | Self, Circle |
+
+| Nível | Duração | Recarga (s) | SP |
 | --- | --- | --- | --- |
-| 1 | 15 | 27 | 39 |
-| 2 | 16 | 30 | 39 |
-| 3 | 17 | 33 | 39 |
-| 4 | 18 | 37 | 39 |
-| 5 | 19 | 40 | 39 |
-| 6 | 20 | 44 | 39 |
-| 7 | 21 | 47 | 39 |
-| 8 | 22 | 50 | 39 |
-| 9 | 23 | 54 | 39 |
-| 10 | 24 | 57 | 39 |
-| 11 | 25 | 61 | 39 |
-| 12 | 26 | 64 | 39 |
-| 13 | 27 | 67 | 39 |
-| 14 | 28 | 71 | 39 |
-| 15 | 29 | 74 | 39 |
+| 1 | 15 s | 39 | 27 |
+| 2 | 16 s | 39 | 30 |
+| 3 | 17 s | 39 | 33 |
+| 4 | 18 s | 39 | 37 |
+| 5 | 19 s | 39 | 40 |
+| 6 | 20 s | 39 | 44 |
+| 7 | 21 s | 39 | 47 |
+| 8 | 22 s | 39 | 50 |
+| 9 | 23 s | 39 | 54 |
+| 10 | 24 s | 39 | 57 |
+| 11 | 25 s | 39 | 61 |
+| 12 | 26 s | 39 | 64 |
+| 13 | 27 s | 39 | 67 |
+| 14 | 28 s | 39 | 71 |
+| 15 | 29 s | 39 | 74 |
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas de 2016: ToSBase.
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -43,6 +43,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 274% | 4.378% | 6.988% |
 | 15 | 286% | 4.569% | 7.434% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Repeatedly stab enemies with your spear.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 73 | 0% | 1 | 25 | 19 |
+| 2 | 96 | 0% | 1 | 25 | 21 |
+| 3 | 119 | 0% | 1 | 25 | 24 |
+| 4 | 143 | 0% | 1 | 25 | 27 |
+| 5 | 166 | 0% | 1 | 25 | 29 |
+| 6 | 189 | 0% | 1 | 25 | 32 |
+| 7 | 212 | 0% | 1 | 25 | 35 |
+| 8 | 236 | 0% | 1 | 25 | 37 |
+| 9 | 259 | 0% | 1 | 25 | 40 |
+| 10 | 282 | 0% | 1 | 25 | 43 |
+| 11 | 306 | 0% | 1 | 25 | 46 |
+| 12 | 329 | 0% | 1 | 25 | 48 |
+| 13 | 352 | 0% | 1 | 25 | 51 |
+| 14 | 375 | 0% | 1 | 25 | 54 |
+| 15 | 399 | 0% | 1 | 25 | 56 |
+
+### Atributos da habilidade em 2016
+
+- **Stabbing: Evasion**: Increases your evasion and magic defense by 5% per attribute level when using [Stabbing]. (Hoplite 1st Circle required)
+- **Stabbing: Enhance**: Increases the damage dealt on an enemy with [Stabbing] by 1% per attribute level. (Hoplite 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

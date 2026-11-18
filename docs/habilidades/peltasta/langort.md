@@ -43,6 +43,37 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 673% | 2.691% | 11.697% |
 | 15 | 702% | 2.808% | 12.372% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Block and strike simultaneously by using both a sword and a shield.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 150 | 0% | 15 | 19 |
+| 2 | 180 | 0% | 15 | 22 |
+| 3 | 210 | 0% | 15 | 25 |
+| 4 | 241 | 0% | 15 | 28 |
+| 5 | 271 | 0% | 15 | 31 |
+
+### Atributos da habilidade em 2016
+
+- **Langort: Enhance**: Increases the damage dealt on an enemy with [Langort] by 1% per attribute level. (Peltasta 3rd Circle required)
+- **Langort: Blocking**: Using [Langort] increases the chance to block enemy attacks by 5% per attribute level. After a successful block, the enemy becomes afflicted with [Silence] for 3 seconds. (Peltasta 3rd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

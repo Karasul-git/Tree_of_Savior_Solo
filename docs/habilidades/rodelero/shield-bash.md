@@ -43,6 +43,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 769% | 6.150% | 13.369% |
 | 15 | 802% | 6.417% | 14.140% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Attack with your shield. Damaged enemies will have their stats temporarily scrambled.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Duração | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 372 | 0% | 6 s | 25 | 24 |
+| 2 | 448 | 0% | 7 s | 25 | 27 |
+| 3 | 525 | 0% | 8 s | 25 | 30 |
+| 4 | 601 | 0% | 9 s | 25 | 33 |
+| 5 | 677 | 0% | 10 s | 25 | 36 |
+| 6 | 753 | 0% | 11 s | 25 | 40 |
+| 7 | 830 | 0% | 12 s | 25 | 43 |
+| 8 | 906 | 0% | 13 s | 25 | 46 |
+| 9 | 982 | 0% | 14 s | 25 | 49 |
+| 10 | 1059 | 0% | 15 s | 25 | 52 |
+
+### Atributos da habilidade em 2016
+
+- **Shield Bash: Enhance**: Increases the damage dealt on an enemy with [Shield Bash] by 1% per attribute level. (Rodelero 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

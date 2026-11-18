@@ -43,6 +43,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 318% | 1.591% | 8.126% |
 | 15 | 332% | 1.660% | 8.645% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Inflict damage on enemies by swinging your sword around to create continuous attacks.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 151 | 0% | 1 | 35 | 19 |
+| 2 | 192 | 0% | 1 | 35 | 21 |
+| 3 | 232 | 0% | 1 | 35 | 24 |
+| 4 | 272 | 0% | 1 | 35 | 26 |
+| 5 | 313 | 0% | 1 | 35 | 29 |
+| 6 | 353 | 0% | 1 | 35 | 31 |
+| 7 | 394 | 0% | 1 | 35 | 34 |
+| 8 | 434 | 0% | 1 | 35 | 36 |
+| 9 | 474 | 0% | 1 | 35 | 39 |
+| 10 | 515 | 0% | 1 | 35 | 41 |
+
+### Atributos da habilidade em 2016
+
+- **Moulinet: Critical**: Increases the critical chance of [Moulinet] by 12% per attribute level. (Highlander 2nd Circle required)
+- **Moulinet: Enhance**: Increases the damage dealt on an enemy with [Moulinet] by 1% per attribute level. (Highlander 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

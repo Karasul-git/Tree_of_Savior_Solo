@@ -43,6 +43,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 398% | 1.591% | 5.478% |
 | 15 | 415% | 1.661% | 5.766% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Use the edge of your shield to attack enemies. Inflicts additional damage on both petrified and frozen enemies.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Fan |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 116 | 0% | 1 | 12 | 13 |
+| 2 | 146 | 0% | 1 | 12 | 14 |
+| 3 | 175 | 0% | 1 | 12 | 16 |
+| 4 | 204 | 0% | 1 | 12 | 18 |
+| 5 | 233 | 0% | 1 | 12 | 20 |
+| 6 | 262 | 0% | 1 | 12 | 22 |
+| 7 | 291 | 0% | 1 | 12 | 24 |
+| 8 | 320 | 0% | 1 | 12 | 26 |
+| 9 | 349 | 0% | 1 | 12 | 28 |
+| 10 | 379 | 0% | 1 | 12 | 30 |
+| 11 | 408 | 0% | 1 | 12 | 32 |
+| 12 | 437 | 0% | 1 | 12 | 33 |
+| 13 | 466 | 0% | 1 | 12 | 35 |
+| 14 | 495 | 0% | 1 | 12 | 37 |
+| 15 | 524 | 0% | 1 | 12 | 39 |
+
+### Atributos da habilidade em 2016
+
+- **Rim Blow: Enhance**: Increases the damage dealt on an enemy with [Rim Blow] by 1% per attribute level. (Peltasta 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

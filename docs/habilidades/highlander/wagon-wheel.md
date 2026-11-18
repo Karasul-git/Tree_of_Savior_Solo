@@ -43,6 +43,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 3.246% | 6.493% | 17.556% |
 | 15 | 3.388% | 6.775% | 17.821% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Perform an upward swing with your weapon, launching an enemy.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 165 | 0% | 1 | 18 | 14 |
+| 2 | 212 | 0% | 1 | 18 | 16 |
+| 3 | 260 | 0% | 1 | 18 | 18 |
+| 4 | 307 | 0% | 1 | 18 | 20 |
+| 5 | 355 | 0% | 1 | 18 | 22 |
+| 6 | 402 | 0% | 1 | 18 | 24 |
+| 7 | 450 | 0% | 1 | 18 | 26 |
+| 8 | 497 | 0% | 1 | 18 | 28 |
+| 9 | 545 | 0% | 1 | 18 | 30 |
+| 10 | 592 | 0% | 1 | 18 | 32 |
+| 11 | 640 | 0% | 1 | 18 | 34 |
+| 12 | 687 | 0% | 1 | 18 | 36 |
+| 13 | 735 | 0% | 1 | 18 | 38 |
+| 14 | 782 | 0% | 1 | 18 | 40 |
+| 15 | 830 | 0% | 1 | 18 | 42 |
+
+### Atributos da habilidade em 2016
+
+- **Wagon Wheel: Enhance**: Increases the damage dealt on an enemy with [Wagon Wheel] by 1% per attribute level. (Highlander 1st Circle required)
+- **Wagon Wheel: Splash**: Increases the AoE Attack Ratio of [Wagon Wheel] by 1. (Highlander 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

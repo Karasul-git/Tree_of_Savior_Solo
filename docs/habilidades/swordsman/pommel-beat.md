@@ -24,21 +24,40 @@ Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
 ## No lançamento de 2016
 
-Valores exibidos pelo ToSBase em capturas de março e abril de 2016. O "ataque exibido" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-| Nível | Ataque exibido | Defesa ignorada (%) | SP | Recarga (s) |
-| --- | --- | --- | --- | --- |
-| 1 | 118 | 25 | 13 | 14 |
-| 2 | 146 | 30 | 14 | 14 |
-| 3 | 175 | 35 | 16 | 14 |
-| 4 | 203 | 40 | 18 | 14 |
-| 5 | 232 | 45 | 20 | 14 |
-| 6 | 260 | 50 | 22 | 14 |
-| 7 | 289 | 55 | 23 | 14 |
-| 8 | 317 | 60 | 25 | 14 |
-| 9 | 346 | 65 | 27 | 14 |
-| 10 | 374 | 70 | 29 | 14 |
+> Strike enemies with the hilt of your sword.
+Inflicts additional damage on stunned monsters, and partially ignores the defense of small and medium sized enemies.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Defense Ignored | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 118 | 0% | 25 | 2 | 14 | 13 |
+| 2 | 146 | 0% | 30 | 2 | 14 | 14 |
+| 3 | 175 | 0% | 35 | 2 | 14 | 16 |
+| 4 | 203 | 0% | 40 | 2 | 14 | 18 |
+| 5 | 232 | 0% | 45 | 2 | 14 | 20 |
+| 6 | 260 | 0% | 50 | 2 | 14 | 22 |
+| 7 | 289 | 0% | 55 | 2 | 14 | 23 |
+| 8 | 317 | 0% | 60 | 2 | 14 | 25 |
+| 9 | 346 | 0% | 65 | 2 | 14 | 27 |
+| 10 | 374 | 0% | 70 | 2 | 14 | 29 |
+
+### Atributos da habilidade em 2016
+
+- **Pommel Beat: Enhance**: Increases the damage dealt on an enemy with [Pommel Beat] by 1% per attribute level. (Swordsman 2nd Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas de 2016: ToSBase.
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

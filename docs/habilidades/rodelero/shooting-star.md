@@ -43,6 +43,36 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 323% | 1.292% | 8.250% |
 | 15 | 337% | 1.348% | 8.777% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Use your shield and sword to successively attack enemies.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 300 | 0% | 1 | 30 | 26 |
+| 2 | 323 | 0% | 1 | 30 | 29 |
+| 3 | 346 | 0% | 1 | 30 | 32 |
+| 4 | 369 | 0% | 1 | 30 | 36 |
+| 5 | 392 | 0% | 1 | 30 | 39 |
+
+### Atributos da habilidade em 2016
+
+- **Shooting Star: Enhance**: Increases the damage dealt on an enemy with [Shooting Star] by 1% per attribute level. (Rodelero 3rd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

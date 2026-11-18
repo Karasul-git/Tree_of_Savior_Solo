@@ -42,6 +42,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 271% | 813% | 3.731% |
 | 15 | 283% | 848% | 3.928% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> As you spin, attack an enemy repeatedly using a weapon in each hand. The enemy will be immobilized temporarily.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordDagger OneHandSpearDagger RapierAndDagger OneHandSwordPistol RapierAndPistol OneHandSpearPistol |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 195 | 0% | 20 | 24 |
+| 2 | 233 | 0% | 20 | 27 |
+| 3 | 271 | 0% | 20 | 30 |
+| 4 | 309 | 0% | 20 | 33 |
+| 5 | 347 | 0% | 20 | 36 |
+| 6 | 385 | 0% | 20 | 40 |
+| 7 | 423 | 0% | 20 | 43 |
+| 8 | 461 | 0% | 20 | 46 |
+| 9 | 499 | 0% | 20 | 49 |
+| 10 | 537 | 0% | 20 | 52 |
+| 11 | 575 | 0% | 20 | 56 |
+| 12 | 613 | 0% | 20 | 59 |
+| 13 | 651 | 0% | 20 | 62 |
+| 14 | 689 | 0% | 20 | 65 |
+| 15 | 727 | 0% | 20 | 68 |
+
+### Atributos da habilidade em 2016
+
+- **Dust Devil: Enhance**: Increases the damage dealt on an enemy with [Dust Devil] by 1% per attribute level. (Corsair 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -43,6 +43,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 425% | 1.276% | 5.858% |
 | 15 | 444% | 1.332% | 6.166% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Create an earthshake to stop enemies from attacking. The enemy has a chance to become afflicted with [Stun].  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 495 | 0% | 5 | 22 | 25 |
+| 2 | 634 | 0% | 5 | 22 | 28 |
+| 3 | 774 | 0% | 5 | 22 | 31 |
+| 4 | 914 | 0% | 5 | 22 | 34 |
+| 5 | 1054 | 0% | 5 | 22 | 37 |
+| 6 | 1193 | 0% | 5 | 22 | 40 |
+| 7 | 1333 | 0% | 5 | 22 | 43 |
+| 8 | 1473 | 0% | 5 | 22 | 46 |
+| 9 | 1613 | 0% | 5 | 22 | 49 |
+| 10 | 1752 | 0% | 5 | 22 | 52 |
+
+### Atributos da habilidade em 2016
+
+- **Seism: Enhance**: Increases the damage dealt on an enemy with [Seism] by 1% per attribute level. (Barbarian 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

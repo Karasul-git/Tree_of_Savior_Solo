@@ -43,6 +43,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 296% | 1.778% | 4.080% |
 | 15 | 309% | 1.855% | 4.294% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Charge towards an enemy and cut a cross on their body, afflicting [Bleeding].  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 195 | 0% | 1 | 28 | 8 |
+| 2 | 245 | 0% | 1 | 28 | 9 |
+| 3 | 295 | 0% | 1 | 28 | 10 |
+| 4 | 345 | 0% | 1 | 28 | 11 |
+| 5 | 395 | 0% | 1 | 28 | 12 |
+| 6 | 445 | 0% | 1 | 28 | 14 |
+| 7 | 495 | 0% | 1 | 28 | 15 |
+| 8 | 545 | 0% | 1 | 28 | 16 |
+| 9 | 595 | 0% | 1 | 28 | 17 |
+| 10 | 645 | 0% | 1 | 28 | 18 |
+
+### Atributos da habilidade em 2016
+
+- **Crosscut: Enhance**: Increases the damage dealt on an enemy with [Crosscut] by 1% per attribute level. (Highlander 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

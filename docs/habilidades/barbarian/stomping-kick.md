@@ -42,6 +42,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 171% | 684% | 2.196% |
 | 15 | 178% | 714% | 2.307% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Trample down on an enemy while in the air or jumping. Increases attack according to the character's jump height and the boot's evasion.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Buff |
+| Postura exigida | None |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 219 | 0% | 1 | 36 | 20 |
+| 2 | 271 | 0% | 1 | 36 | 22 |
+| 3 | 324 | 0% | 1 | 36 | 25 |
+| 4 | 377 | 0% | 1 | 36 | 28 |
+| 5 | 430 | 0% | 1 | 36 | 31 |
+| 6 | 483 | 0% | 1 | 36 | 34 |
+| 7 | 535 | 0% | 1 | 36 | 36 |
+| 8 | 588 | 0% | 1 | 36 | 39 |
+| 9 | 641 | 0% | 1 | 36 | 42 |
+| 10 | 694 | 0% | 1 | 36 | 45 |
+| 11 | 747 | 0% | 1 | 36 | 48 |
+| 12 | 799 | 0% | 1 | 36 | 50 |
+| 13 | 852 | 0% | 1 | 36 | 53 |
+| 14 | 905 | 0% | 1 | 36 | 56 |
+| 15 | 958 | 0% | 1 | 36 | 59 |
+
+### Atributos da habilidade em 2016
+
+- **Stomping Kick: Enhance**: Increases the damage dealt on an enemy with [Stomping Kick] by 1% per attribute level. (Barbarian 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

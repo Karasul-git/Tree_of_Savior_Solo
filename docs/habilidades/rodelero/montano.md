@@ -43,6 +43,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 558% | 1.115% | 7.678% |
 | 15 | 582% | 1.164% | 8.082% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Attack with a powerful slash on the lower half of an enemy with a chance to paralyze.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | [Stun] Duration | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 272 | % | 1 s | 20 | 22 |
+| 2 | 338 | % | 1 s | 20 | 25 |
+| 3 | 405 | % | 1 s | 20 | 28 |
+| 4 | 471 | % | 1 s | 20 | 31 |
+| 5 | 537 | % | 1 s | 20 | 34 |
+| 6 | 603 | % | 1 s | 20 | 37 |
+| 7 | 670 | % | 1 s | 20 | 40 |
+| 8 | 736 | % | 1 s | 20 | 43 |
+| 9 | 802 | % | 1 s | 20 | 46 |
+| 10 | 869 | % | 1 s | 20 | 49 |
+| 11 | 935 | % | 1 s | 20 | 52 |
+| 12 | 1001 | % | 1 s | 20 | 55 |
+| 13 | 1068 | % | 1 s | 20 | 58 |
+| 14 | 1134 | % | 1 s | 20 | 61 |
+| 15 | 1200 | % | 1 s | 20 | 64 |
+
+### Atributos da habilidade em 2016
+
+- **Montano: Enhance**: Increases the damage dealt on an enemy with [Montano] by 1% per attribute level. (Rodelero 1st Circle required)
+- **Montano: Size Slow**: Inflicts the target with [Slow] for seconds and increases the duration of [Slow] by 3/2/1 seconds per attribute level on small/medium/large sized monsters respectively with [Montano] (Rodelero 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

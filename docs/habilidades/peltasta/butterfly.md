@@ -43,6 +43,36 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 159% | 1.273% | 2.189% |
 | 15 | 166% | 1.328% | 2.304% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Use your shield and sword to attack enemies with continuous attacks.  
+> *Physical · Strike · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 322 | 0% | 2 | 25 | 14 |
+| 2 | 407 | 0% | 2 | 25 | 16 |
+| 3 | 492 | 0% | 2 | 25 | 18 |
+| 4 | 576 | 0% | 2 | 25 | 20 |
+| 5 | 661 | 0% | 2 | 25 | 22 |
+
+### Atributos da habilidade em 2016
+
+- **Butterfly: Enhance**: Increases the damage dealt on an enemy with [Butterfly] by 1% per attribute level. (Peltasta 3rd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

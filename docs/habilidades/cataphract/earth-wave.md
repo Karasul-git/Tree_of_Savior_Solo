@@ -43,6 +43,48 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 338% | 1.691% | 4.657% |
 | 15 | 353% | 1.764% | 4.902% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Gather up power and use your weapon to attack targets by smashing it to the ground.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandSpear OneHandSpearArtefact OneHandSpearShield OneHandSpearDagger OneHandSpearPistol |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Usável montado | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 395 | 0% | 4 |  | 12 | 24 |
+| 2 | 480 | 0% | 4 |  | 12 | 27 |
+| 3 | 566 | 0% | 4 |  | 12 | 30 |
+| 4 | 651 | 0% | 4 |  | 12 | 33 |
+| 5 | 737 | 0% | 4 |  | 12 | 36 |
+| 6 | 822 | 0% | 4 |  | 12 | 39 |
+| 7 | 907 | 0% | 4 |  | 12 | 42 |
+| 8 | 993 | 0% | 4 |  | 12 | 45 |
+| 9 | 1078 | 0% | 4 |  | 12 | 48 |
+| 10 | 1164 | 0% | 4 |  | 12 | 51 |
+| 11 | 1249 | 0% | 4 |  | 12 | 54 |
+| 12 | 1334 | 0% | 4 |  | 12 | 57 |
+| 13 | 1420 | 0% | 4 |  | 12 | 60 |
+| 14 | 1505 | 0% | 4 |  | 12 | 63 |
+| 15 | 1591 | 0% | 4 |  | 12 | 66 |
+
+### Atributos da habilidade em 2016
+
+- **Earth Wave: Enhance**: Increases the damage dealt on an enemy with [Earth Wave] by 1% per attribute level. (Cataphract 1st Circle required)
+- **Earth Wave: Earth Property**: Changes the property of [Earth Wave] to the Earth property. (Cataphract 1st Circle required)
+- **Earth Wave: Remove Knockdown**: [Earth Wave] no longer knocks enemies down. (Only applies if the attribute is set to ON) (Cataphract 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

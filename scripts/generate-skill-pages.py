@@ -21,7 +21,8 @@ review = {c['class_id']: c for c in read('data/proposals/remaining-classes-revie
 kit = read('data/proposals/scout-base-kit.json')['proposed_kit']
 melia_file = read('data/skills/melia-skills.json')
 melia = melia_file['skills']
-sword_2016 = {s['name']: s for s in read('data/classes/swordsman.json')['skills']}
+tosbase = read('data/research/tosbase-2016-skills.json')['skills']
+scout_2016_ids = {s['name']: s['tosbase_id'] for s in classes['scout']['skills']}
 scale = read('data/simulator.json')['constants']
 
 KIT_MELIA = {'Dagger Slash': 'Scout_DaggerSlash', 'Oblique Fire': 'Scout_ObliqueFire', 'Cloaking': 'Scout_Cloaking',
@@ -40,6 +41,25 @@ KIT_SUMMARY = {
 WEAPONS = {'UseOneHandSwordSkill': 'Espada de uma mão', 'UseDaggerSkill': 'Adaga', 'UsePistolSkill': 'Pistola',
            'UseBowSkill': 'Arco', 'UseCrossBowSkill': 'Besta', 'UseSpearSkill': 'Lança', 'UseMaceSkill': 'Maça',
            'UseMusketSkill': 'Mosquete', 'UseCannonSkill': 'Canhão', 'UseShieldSkill': 'Escudo'}
+LABELS_PT = {
+    'Attribute Damage': 'Dano de atributo', 'Attack': 'Ataque', 'Duration': 'Duração', 'AoE Attack Ratio': 'Razão de ataque em área',
+    'Targets': 'Alvos', 'Number of Hits': 'Número de golpes', 'Able to use while riding': 'Usável montado',
+    'Physical Defense': 'Defesa física', 'Maximum Duration': 'Duração máxima', 'Movement Speed': 'Velocidade de movimento',
+    'Block': 'Bloqueio', 'Casting Time': 'Tempo de conjuração', 'Physical Damage': 'Dano físico', 'Additional Damage': 'Dano adicional',
+    'Defense': 'Defesa', 'Evasion': 'Esquiva', 'Evasion Rate': 'Taxa de esquiva', 'Physical Attack': 'Ataque físico',
+    'Magic Attack': 'Ataque mágico', 'Number of Targets': 'Número de alvos', 'Critical Rate': 'Taxa de crítico',
+    'Critical Chance': 'Chance de crítico', 'Maximum Targets': 'Máximo de alvos', 'Consumes Stamina': 'Consome estamina',
+    'Number of Shots': 'Número de disparos', 'Attack Count': 'Número de ataques', 'Maximum Stacks': 'Máximo de acúmulos',
+}
+VALUE_PT = [(' seconds', ' s'), (' second', ' s'), (' hours', ' h'), (' hour', ' h'), (' minutes', ' min'), (' minute', ' min')]
+
+
+def pt_value(v):
+    for a, b in VALUE_PT:
+        v = v.replace(a, b)
+    return v
+
+
 BASE_NAMES = {'warrior': 'Warrior', 'archer': 'Archer', 'scout': 'Scout'}
 
 
@@ -112,7 +132,7 @@ for base in solo['bases']:
         entry = classes[cid]
         if cid == 'scout':
             raw = [{'name': k['name'], 'summary': KIT_SUMMARY[k['name']], 'circle': k['proposed_circle'], 'kit': True,
-                    'melia_class': KIT_MELIA[k['name']]} for k in kit]
+                    'melia_class': KIT_MELIA[k['name']], 'tosbase_id': scout_2016_ids.get(k['name'])} for k in kit]
         else:
             raw = [dict(s) for s in entry['skills']]
         used = set()
@@ -126,7 +146,8 @@ for base in solo['bases']:
             m = melia.get(key) if key else None
             skills.append({
                 'slug': slug, 'name': s['name'], 'summary': s['summary'], 'circle': circle_of(cid, s),
-                'status': status_of(cid, s), 'melia_class': key,
+                'status': status_of(cid, s), 'melia_class': key, 'tosbase_id': s.get('tosbase_id'),
+                'has_2016_table': str(s.get('tosbase_id')) in tosbase,
                 'kind': kind_of(m),
             })
         all_classes.append({'class_id': cid, 'name': entry['name'], 'base': base['id'], 'rank': position['solo_rank'],
@@ -196,22 +217,34 @@ def skill_page(c, s):
         lines += ['## Valores', '', 'Esta habilidade não causa dano direto. Os efeitos por nível ainda não foram reunidos.', '']
     elif s['status']:
         lines += ['## Valores', '', 'Os valores desta habilidade ainda não foram reunidos.', '']
-    old = sword_2016.get(s['name']) if c['class_id'] == 'swordsman' else None
+    old = tosbase.get(str(s.get('tosbase_id'))) if s.get('tosbase_id') else None
     if old:
-        keys = sorted({k for lv in old['archived_levels'] for k in lv['effects']})
-        label = {'ataque_exibido': 'Ataque exibido', 'bonus_ataque_fisico': 'Bônus de ataque físico', 'modificador_defesa_fisica': 'Defesa',
-                 'duracao_segundos': 'Duração (s)', 'dano_adicional': 'Dano adicional', 'limite_acertos': 'Limite de acertos',
-                 'chance_atordoamento_percentual': 'Atordoar (%)', 'modificador_hp_maximo': 'HP máximo', 'dano_atributo_percentual': None,
-                 'razao_ataque_aoe': None, 'defesa_ignorada': 'Defesa ignorada (%)'}
-        shown = [k for k in keys if label.get(k)]
+        lv = old['levels']
+        effect_keys = list(dict.fromkeys(k for l in lv for k in l['effects']))
         lines += ['## No lançamento de 2016', '',
-                  'Valores exibidos pelo ToSBase em capturas de março e abril de 2016. O "ataque exibido" é um número fixo por nível, não um percentual.', '',
-                  '| Nível | ' + ' | '.join(label[k] for k in shown) + ' | SP | Recarga (s) |',
-                  '| --- | ' + ' | '.join('---' for _ in shown) + ' | --- | --- |']
-        for lv in old['archived_levels']:
-            lines.append(f"| {lv['level']} | " + ' | '.join(str(lv['effects'].get(k, '–')) for k in shown) + f" | {lv['sp_cost']} | {lv['cooldown_seconds']} |")
-        lines.append('')
-    lines += ['## Fontes', '', 'Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).' + (' Tabelas de 2016: ToSBase.' if old else ''), '']
+                  'Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.', '']
+        if old.get('description'):
+            tags = ' · '.join(old['damage_tags']) if old.get('damage_tags') else ''
+            lines += [f"> {old['description']}" + (f"  \n> *{tags}*" if tags else ''), '', 'Texto original em inglês.', '']
+        info = [('Círculo', f"C{old['circle']}" if old.get('circle') else '–'), ('Nível máximo', str(old.get('max_level') or '–')),
+                ('Elemento', old.get('element') or '–'), ('Tipo', old.get('type') or '–'), ('Postura exigida', old.get('required_stance') or '–')]
+        det = old.get('details') or {}
+        if det.get('target'):
+            info.append(('Alvo', det['target']))
+        lines += ['| Campo | Valor |', '| --- | --- |'] + [f'| {k} | {v} |' for k, v in info] + ['']
+        if lv:
+            lines += ['| Nível | ' + ' | '.join(LABELS_PT.get(k, k) for k in effect_keys) + (' | ' if effect_keys else '') + 'Recarga (s) | SP |',
+                      '| --- | ' + ' | '.join('---' for _ in effect_keys) + (' | ' if effect_keys else '') + '--- | --- |']
+            for l in lv:
+                cells = ' | '.join(pt_value(l['effects'].get(k, '–')) for k in effect_keys)
+                lines.append(f"| {l['level']} | {cells}{' | ' if effect_keys else ''}{fmt(l['cooldown'], 0) if l['cooldown'] is not None else '–'} | {fmt(l['sp']) if l['sp'] is not None else '–'} |")
+            lines.append('')
+        if old.get('attributes'):
+            lines += ['### Atributos da habilidade em 2016', '']
+            for a in old['attributes']:
+                lines.append(f"- **{a['name']}**: {a['effect']}" + (f" ({a['requirement']})" if a.get('requirement') else ''))
+            lines.append('')
+    lines += ['## Fontes', '', 'Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).' + (' Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).' if old else ''), '']
     return '\n'.join(lines)
 
 

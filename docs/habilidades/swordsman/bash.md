@@ -44,26 +44,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores exibidos pelo ToSBase em capturas de março e abril de 2016. O "ataque exibido" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-| Nível | Ataque exibido | SP | Recarga (s) |
-| --- | --- | --- | --- |
-| 1 | 54 | 8 | 6 |
-| 2 | 72 | 9 | 6 |
-| 3 | 89 | 10 | 6 |
-| 4 | 107 | 12 | 6 |
-| 5 | 124 | 13 | 6 |
-| 6 | 141 | 15 | 6 |
-| 7 | 159 | 16 | 6 |
-| 8 | 176 | 17 | 6 |
-| 9 | 194 | 19 | 6 |
-| 10 | 211 | 20 | 6 |
-| 11 | 229 | 22 | 6 |
-| 12 | 246 | 23 | 6 |
-| 13 | 263 | 24 | 6 |
-| 14 | 281 | 26 | 6 |
-| 15 | 298 | 27 | 6 |
+> Inflict damage on an enemy with a powerful attack.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Fan |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 54 | 0% | 0 | 6 | 8 |
+| 2 | 72 | 0% | 0 | 6 | 9 |
+| 3 | 89 | 0% | 0 | 6 | 10 |
+| 4 | 107 | 0% | 0 | 6 | 12 |
+| 5 | 124 | 0% | 0 | 6 | 13 |
+| 6 | 141 | 0% | 0 | 6 | 15 |
+| 7 | 159 | 0% | 0 | 6 | 16 |
+| 8 | 176 | 0% | 0 | 6 | 17 |
+| 9 | 194 | 0% | 0 | 6 | 19 |
+| 10 | 211 | 0% | 0 | 6 | 20 |
+| 11 | 229 | 0% | 0 | 6 | 22 |
+| 12 | 246 | 0% | 0 | 6 | 23 |
+| 13 | 263 | 0% | 0 | 6 | 24 |
+| 14 | 281 | 0% | 0 | 6 | 26 |
+| 15 | 298 | 0% | 0 | 6 | 27 |
+
+### Atributos da habilidade em 2016
+
+- **Bash: Knockdown**: Enemies hit by [Bash] are knocked down. (Lv3 Bash required)
+- **Bash: Splash**: Increases the AoE Attack Ratio of [Bash] by 1 per attribute level. (Swordsman 2nd Circle required)
+- **Bash: Enhance**: Increases the damage dealt on an enemy with [Bash] by 1% per attribute level. (Swordsman 1st Circle required)
+- **Bash: Specialty**: Increases the damage dealt with [Bash] by 28 per attribute level. (Swordsman 3rd Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas de 2016: ToSBase.
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

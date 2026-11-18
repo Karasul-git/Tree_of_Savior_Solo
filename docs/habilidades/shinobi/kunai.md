@@ -42,6 +42,45 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 142% | 711% | 1.958% |
 | 15 | 148% | 742% | 2.061% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Attack multiple enemies by throwing a kunai.
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 291 | 0% | 15 | 40 |
+| 2 | 325 | 0% | 15 | 45 |
+| 3 | 358 | 0% | 15 | 51 |
+| 4 | 392 | 0% | 15 | 56 |
+| 5 | 426 | 0% | 15 | 62 |
+| 6 | 459 | 0% | 15 | 68 |
+| 7 | 493 | 0% | 15 | 73 |
+| 8 | 527 | 0% | 15 | 79 |
+| 9 | 560 | 0% | 15 | 84 |
+| 10 | 594 | 0% | 15 | 90 |
+| 11 | 628 | 0% | 15 | 96 |
+| 12 | 662 | 0% | 15 | 101 |
+| 13 | 695 | 0% | 15 | 107 |
+| 14 | 729 | 0% | 15 | 112 |
+| 15 | 763 | 0% | 15 | 118 |
+
+### Atributos da habilidade em 2016
+
+- **Kunai: Enhance**: Increases the damage dealt on an enemy with [Kunai] by 1% per attribute level. (Shinobi 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

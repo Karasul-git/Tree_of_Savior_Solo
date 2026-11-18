@@ -24,6 +24,35 @@ Esta habilidade ainda está em revisão e pode mudar ou sair da classe antes de 
 
 Esta habilidade causa dano, mas o fator por nível ainda não foi reunido.
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> 1레벨: 워프 이용 가능
+2레벨: 창고 사용 가능
+3레벨: 길드 성장 가능
+4레벨: 길드이벤트 이용 가능
+5레벨: 길드아지트 가능
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Improve Guild Tower Features | Recarga (s) | SP |
+| --- | --- | --- | --- |
+| 1 |  | 0 | 0 |
+| 2 |  | 0 | 0 |
+| 3 |  | 0 | 0 |
+| 4 |  | 0 | 0 |
+| 5 |  | 0 | 0 |
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

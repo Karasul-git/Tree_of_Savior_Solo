@@ -43,6 +43,47 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 97% | 484% | 1.332% |
 | 15 | 101% | 505% | 1.402% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Vault into the air while swinging your spear upwards. Enemies hit with this skill are temporarily launched into the air.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSpearArtefact OneHandSpearShield TwoHandSpear OneHandSpearDagger OneHandSpearPistol |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 525 | 0% | 15 | 43 |
+| 2 | 602 | 0% | 15 | 48 |
+| 3 | 680 | 0% | 15 | 53 |
+| 4 | 757 | 0% | 15 | 58 |
+| 5 | 834 | 0% | 15 | 63 |
+| 6 | 912 | 0% | 15 | 68 |
+| 7 | 989 | 0% | 15 | 73 |
+| 8 | 1066 | 0% | 15 | 78 |
+| 9 | 1144 | 0% | 15 | 83 |
+| 10 | 1221 | 0% | 15 | 88 |
+| 11 | 1298 | 0% | 15 | 94 |
+| 12 | 1376 | 0% | 15 | 99 |
+| 13 | 1453 | 0% | 15 | 104 |
+| 14 | 1530 | 0% | 15 | 109 |
+| 15 | 1608 | 0% | 15 | 114 |
+
+### Atributos da habilidade em 2016
+
+- **Dragon Soar: Enhance**: Increases the damage dealt on an enemy with [Dragon Soar] by 1% per attribute level. (Dragoon 1st Circle required)
+- **Dragon Soar: Shock**: Enemies hit by [Dragon Soar] have a 5% chance per attribute level to be afflicted with [Shock] for 10 seconds. (Dragoon 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -43,6 +43,48 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 1.009% | 3.027% | 25.770% |
 | 15 | 1.053% | 3.158% | 27.415% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Use your shield to interrupt enemies.
+The target becomes afflicted with [Unbalanced].  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Defesa | [Unbalanced] Duration | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 143 | 0% | -15 | 5 s | 15 | 23 |
+| 2 | 174 | 0% | -30 | 5 s | 15 | 26 |
+| 3 | 205 | 0% | -45 | 5 s | 15 | 29 |
+| 4 | 237 | 0% | -60 | 5 s | 15 | 32 |
+| 5 | 268 | 0% | -75 | 5 s | 15 | 35 |
+| 6 | 300 | 0% | -90 | 5 s | 15 | 38 |
+| 7 | 331 | 0% | -105 | 5 s | 15 | 41 |
+| 8 | 362 | 0% | -120 | 5 s | 15 | 44 |
+| 9 | 394 | 0% | -135 | 5 s | 15 | 47 |
+| 10 | 425 | 0% | -150 | 5 s | 15 | 50 |
+| 11 | 457 | 0% | -165 | 5 s | 15 | 53 |
+| 12 | 488 | 0% | -180 | 5 s | 15 | 56 |
+| 13 | 519 | 0% | -195 | 5 s | 15 | 59 |
+| 14 | 551 | 0% | -210 | 5 s | 15 | 62 |
+| 15 | 582 | 0% | -225 | 5 s | 15 | 65 |
+
+### Atributos da habilidade em 2016
+
+- **Shield Push: Enhance**: Increases the damage dealt on an enemy with [Shield Push] by 1% per attribute level. (Rodelero 1st Circle required)
+- **Shield Push: Duration**: Increases the duration of the Unbalanced status ailment applied from [Shield Push] by 1 second per attribute level. (Rodelero 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

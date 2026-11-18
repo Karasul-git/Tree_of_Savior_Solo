@@ -43,6 +43,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 843% | 3.372% | 11.608% |
 | 15 | 880% | 3.518% | 12.219% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Deeply pierce a collapsed enemy.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Circle |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 853 | 0% | 3 | 18 | 40 |
+| 2 | 1045 | 0% | 3 | 18 | 45 |
+| 3 | 1237 | 0% | 3 | 18 | 50 |
+| 4 | 1429 | 0% | 3 | 18 | 55 |
+| 5 | 1622 | 0% | 3 | 18 | 60 |
+| 6 | 1814 | 0% | 3 | 18 | 65 |
+| 7 | 2006 | 0% | 3 | 18 | 70 |
+| 8 | 2199 | 0% | 3 | 18 | 75 |
+| 9 | 2391 | 0% | 3 | 18 | 80 |
+| 10 | 2583 | 0% | 3 | 18 | 85 |
+| 11 | 2776 | 0% | 3 | 18 | 90 |
+| 12 | 2968 | 0% | 3 | 18 | 95 |
+| 13 | 3160 | 0% | 3 | 18 | 100 |
+| 14 | 3352 | 0% | 3 | 18 | 105 |
+| 15 | 3545 | 0% | 3 | 18 | 110 |
+
+### Atributos da habilidade em 2016
+
+- **Punish: Enhance**: Increases the damage dealt on an enemy with [Punish] by 1% per attribute level. (Doppelsoeldner 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

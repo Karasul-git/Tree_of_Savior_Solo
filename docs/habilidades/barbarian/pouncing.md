@@ -43,6 +43,36 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 196% | 6.477% | 5.011% |
 | 15 | 205% | 6.758% | 5.330% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Charge forward while slashing, attacking any enemies that block your way.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C3 |
+| Nível máximo | 5 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Duração máxima | Consome estamina | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 580 | 0% | 10 s |  | 81 | 25 |
+| 2 | 704 | 0% | 10 s |  | 81 | 28 |
+| 3 | 828 | 0% | 10 s |  | 81 | 31 |
+| 4 | 953 | 0% | 10 s |  | 81 | 34 |
+| 5 | 1077 | 0% | 10 s |  | 81 | 37 |
+
+### Atributos da habilidade em 2016
+
+- **Pouncing: Enhance**: Increases the damage dealt on an enemy with [Pouncing] by 1% per attribute level. (Barbarian 3rd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

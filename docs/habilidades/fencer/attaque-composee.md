@@ -42,6 +42,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 166% | 666% | 2.290% |
 | 15 | 174% | 695% | 2.410% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> [Physical] - [Pierce]Stab an enemy in front of you.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | RapierAndShield RapierAndDagger RapierAndArtefact RapierAndPistol |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 320 | 0% | 0 | 35 |
+| 2 | 382 | 0% | 0 | 40 |
+| 3 | 444 | 0% | 0 | 45 |
+| 4 | 506 | 0% | 0 | 50 |
+| 5 | 568 | 0% | 0 | 55 |
+| 6 | 630 | 0% | 0 | 61 |
+| 7 | 692 | 0% | 0 | 66 |
+| 8 | 755 | 0% | 0 | 71 |
+| 9 | 817 | 0% | 0 | 76 |
+| 10 | 879 | 0% | 0 | 81 |
+
+### Atributos da habilidade em 2016
+
+- **Attaque Composee: Enhance**: Increases the damage dealt on an enemy with [Attaque Composee] by 1% per attribute level. (Fencer 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

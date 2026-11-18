@@ -43,6 +43,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 205% | 616% | 2.828% |
 | 15 | 214% | 643% | 2.976% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Impales a small or medium-type monster with a spear. It is possible to attack other enemies with a skewered enemy.  
+> *Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandSpear OneHandSpearArtefact OneHandSpearShield OneHandSpearDagger OneHandSpearPistol |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Usável montado | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 222 | 0% | 1 |  | 40 | 22 |
+| 2 | 271 | 0% | 1 |  | 40 | 24 |
+| 3 | 320 | 0% | 1 |  | 40 | 27 |
+| 4 | 369 | 0% | 1 |  | 40 | 30 |
+| 5 | 418 | 0% | 1 |  | 40 | 33 |
+| 6 | 467 | 0% | 1 |  | 40 | 36 |
+| 7 | 517 | 0% | 1 |  | 40 | 38 |
+| 8 | 566 | 0% | 1 |  | 40 | 41 |
+| 9 | 615 | 0% | 1 |  | 40 | 44 |
+| 10 | 664 | 0% | 1 |  | 40 | 47 |
+| 11 | 713 | 0% | 1 |  | 40 | 50 |
+| 12 | 762 | 0% | 1 |  | 40 | 52 |
+| 13 | 811 | 0% | 1 |  | 40 | 55 |
+| 14 | 860 | 0% | 1 |  | 40 | 58 |
+| 15 | 909 | 0% | 1 |  | 40 | 61 |
+
+### Atributos da habilidade em 2016
+
+- **Impaler: Enhance**: Increases the damage dealt on an enemy with [Impaler] by 1% per attribute level. (Cataphract 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -44,26 +44,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 
 ## No lançamento de 2016
 
-Valores exibidos pelo ToSBase em capturas de março e abril de 2016. O "ataque exibido" é um número fixo por nível, não um percentual.
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
 
-| Nível | Ataque exibido | SP | Recarga (s) |
-| --- | --- | --- | --- |
-| 1 | 56 | 8 | 0 |
-| 2 | 71 | 9 | 0 |
-| 3 | 86 | 10 | 0 |
-| 4 | 101 | 11 | 0 |
-| 5 | 116 | 12 | 0 |
-| 6 | 131 | 14 | 0 |
-| 7 | 146 | 15 | 0 |
-| 8 | 161 | 16 | 0 |
-| 9 | 176 | 17 | 0 |
-| 10 | 190 | 18 | 0 |
-| 11 | 205 | 20 | 0 |
-| 12 | 220 | 21 | 0 |
-| 13 | 235 | 22 | 0 |
-| 14 | 250 | 23 | 0 |
-| 15 | 265 | 24 | 0 |
+> Push the point of your weapon into enemies, performing a strong piercing attack.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | None |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 56 | 0% | 1 | 0 | 8 |
+| 2 | 71 | 0% | 1 | 0 | 9 |
+| 3 | 86 | 0% | 1 | 0 | 10 |
+| 4 | 101 | 0% | 1 | 0 | 11 |
+| 5 | 116 | 0% | 1 | 0 | 12 |
+| 6 | 131 | 0% | 1 | 0 | 14 |
+| 7 | 146 | 0% | 1 | 0 | 15 |
+| 8 | 161 | 0% | 1 | 0 | 16 |
+| 9 | 176 | 0% | 1 | 0 | 17 |
+| 10 | 190 | 0% | 1 | 0 | 18 |
+| 11 | 205 | 0% | 1 | 0 | 20 |
+| 12 | 220 | 0% | 1 | 0 | 21 |
+| 13 | 235 | 0% | 1 | 0 | 22 |
+| 14 | 250 | 0% | 1 | 0 | 23 |
+| 15 | 265 | 0% | 1 | 0 | 24 |
+
+### Atributos da habilidade em 2016
+
+- **Thrust: Continuous Attack**: Activates consecutive attacks when using [Thrust] by 1% chance per attribute level. (Swordsman 1st Circle required)
+- **Thrust: Enhance**: Increases the damage dealt on an enemy with [Thrust] by 1% per attribute level. (Swordsman 1st Circle required)
+- **Thrust: Bleeding**: Inflicts [Bleeding] on stunned enemies for 5 seconds with [Thrust]. Bleeding damage is proportional to the character's STR. (Swordsman 2nd Circle required)
 
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas de 2016: ToSBase.
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

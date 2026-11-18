@@ -43,6 +43,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 373% | 2.611% | 5.135% |
 | 15 | 389% | 2.725% | 5.405% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Use a weapon in each hand to deal successive strikes on an enemy.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordDagger OneHandSpearDagger RapierAndDagger OneHandSwordPistol RapierAndPistol OneHandSpearPistol |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 289 | 0% | 28 | 29 |
+| 2 | 351 | 0% | 28 | 32 |
+| 3 | 413 | 0% | 28 | 36 |
+| 4 | 475 | 0% | 28 | 39 |
+| 5 | 537 | 0% | 28 | 43 |
+| 6 | 599 | 0% | 28 | 47 |
+| 7 | 661 | 0% | 28 | 50 |
+| 8 | 723 | 0% | 28 | 54 |
+| 9 | 785 | 0% | 28 | 57 |
+| 10 | 847 | 0% | 28 | 61 |
+
+### Atributos da habilidade em 2016
+
+- **Hexen Dropper: Enhance**: Increases the damage dealt on an enemy with [Hexen Dropper] by 1% per attribute level. (Corsair 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

@@ -42,6 +42,41 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 817% | 2.450% | 20.859% |
 | 15 | 852% | 2.556% | 22.190% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Inflict damage and put the enemy into a state of shock by making a big slash with all your might.  
+> *Physical · Slash*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | TwoHandSword |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | [Shock] Duration | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 1291 | 0% | 5 s | 15 | 42 |
+| 2 | 1603 | 0% | 5 s | 15 | 48 |
+| 3 | 1915 | 0% | 5 s | 15 | 54 |
+| 4 | 2227 | 0% | 5 s | 15 | 60 |
+| 5 | 2540 | 0% | 5 s | 15 | 66 |
+| 6 | 2852 | 0% | 5 s | 15 | 72 |
+| 7 | 3164 | 0% | 5 s | 15 | 78 |
+| 8 | 3477 | 0% | 5 s | 15 | 84 |
+| 9 | 3789 | 0% | 5 s | 15 | 90 |
+| 10 | 4101 | 0% | 5 s | 15 | 96 |
+
+### Atributos da habilidade em 2016
+
+- **Zonhau: Enhance**: Increases the damage dealt on an enemy with [Zonhau] by 1% per attribute level. (Doppelsoeldner 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

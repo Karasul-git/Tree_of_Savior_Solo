@@ -43,6 +43,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 226% | 1.356% | 3.110% |
 | 15 | 236% | 1.415% | 3.274% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Rotate your spear using centrifugal force to attack an enemy.  
+> *Physical · Pierce*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSpearArtefact OneHandSpearShield TwoHandSpear OneHandSpearDagger OneHandSpearPistol |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Recarga (s) | SP |
+| --- | --- | --- | --- | --- |
+| 1 | 477 | 0% | 17 | 48 |
+| 2 | 537 | 0% | 17 | 55 |
+| 3 | 596 | 0% | 17 | 62 |
+| 4 | 656 | 0% | 17 | 69 |
+| 5 | 716 | 0% | 17 | 76 |
+| 6 | 775 | 0% | 17 | 84 |
+| 7 | 835 | 0% | 17 | 91 |
+| 8 | 895 | 0% | 17 | 98 |
+| 9 | 955 | 0% | 17 | 105 |
+| 10 | 1014 | 0% | 17 | 112 |
+| 11 | 1074 | 0% | 17 | 120 |
+| 12 | 1134 | 0% | 17 | 127 |
+| 13 | 1193 | 0% | 17 | 134 |
+| 14 | 1253 | 0% | 17 | 141 |
+| 15 | 1313 | 0% | 17 | 148 |
+
+### Atributos da habilidade em 2016
+
+- **Dragontooth: Enhance**: Increases the damage dealt on an enemy with [Dragontooth] by 1% per attribute level. (Dragoon 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

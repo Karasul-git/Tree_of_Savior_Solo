@@ -43,6 +43,42 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 417% | 1.670% | 5.746% |
 | 15 | 436% | 1.742% | 6.048% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Attack an enemy by throwing your shield. Your shield drops on the targeted area, and your physical defense decreases based on the value of the equipment. The shield may be picked up or it'll automatically return to your inventory after a certain time. The decreased physical defense will return back to normal once your shield is back in the inventory.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C2 |
+| Nível máximo | 10 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Razão de ataque em área | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 209 | 0% | 3 | 54 | 14 |
+| 2 | 283 | 0% | 3 | 54 | 15 |
+| 3 | 357 | 0% | 3 | 54 | 17 |
+| 4 | 430 | 0% | 3 | 54 | 19 |
+| 5 | 504 | 0% | 3 | 54 | 20 |
+| 6 | 578 | 0% | 3 | 54 | 22 |
+| 7 | 652 | 0% | 3 | 54 | 24 |
+| 8 | 725 | 0% | 3 | 54 | 25 |
+| 9 | 799 | 0% | 3 | 54 | 27 |
+| 10 | 873 | 0% | 3 | 54 | 29 |
+
+### Atributos da habilidade em 2016
+
+- **Shield Lob: Enhance**: Increases the damage dealt on an enemy with [Shield Lob] by 1% per attribute level. (Peltasta 2nd Circle required)
+- **Shield Lob: Splash**: Increases your AoE attack ratio of [Shield Lob] by 1 per attribute level. (Peltasta 2nd Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).

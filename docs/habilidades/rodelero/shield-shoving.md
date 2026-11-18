@@ -42,6 +42,46 @@ Pontuação provisória do nosso jogo: o fator do jogo atual dividido por 10, so
 | 14 | 512% | 16.688% |
 | 15 | 534% | 17.800% |
 
+## No lançamento de 2016
+
+Valores e textos do banco ToSBase, em capturas de março a junho de 2016. O "ataque" é um número fixo por nível, não um percentual.
+
+> Interrupt an enemy's action by using your shield. The enemy is turned around, and cannot take any actions temporarily.  
+> *Physical · Strike*
+
+Texto original em inglês.
+
+| Campo | Valor |
+| --- | --- |
+| Círculo | C1 |
+| Nível máximo | 15 |
+| Elemento | Melee |
+| Tipo | Attack |
+| Postura exigida | OneHandSwordShield OneHandSpearShield RapierAndShield |
+| Alvo | Front, Square |
+
+| Nível | Ataque | Dano de atributo | Duração | Recarga (s) | SP |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 172 | 0% | 1.5 s | 15 | 17 |
+| 2 | 224 | 0% | 1.5 s | 15 | 19 |
+| 3 | 277 | 0% | 1.5 s | 15 | 22 |
+| 4 | 329 | 0% | 1.5 s | 15 | 24 |
+| 5 | 381 | 0% | 1.5 s | 15 | 27 |
+| 6 | 433 | 0% | 1.5 s | 15 | 30 |
+| 7 | 486 | 0% | 1.5 s | 15 | 32 |
+| 8 | 538 | 0% | 1.5 s | 15 | 35 |
+| 9 | 590 | 0% | 1.5 s | 15 | 37 |
+| 10 | 643 | 0% | 1.5 s | 15 | 40 |
+| 11 | 695 | 0% | 1.5 s | 15 | 43 |
+| 12 | 747 | 0% | 1.5 s | 15 | 45 |
+| 13 | 799 | 0% | 1.5 s | 15 | 48 |
+| 14 | 852 | 0% | 1.5 s | 15 | 50 |
+| 15 | 904 | 0% | 1.5 s | 15 | 53 |
+
+### Atributos da habilidade em 2016
+
+- **Shield Shoving: Enhance**: Increases the damage dealt on an enemy with [Shield Shoving] by 1% per attribute level. (Rodelero 1st Circle required)
+
 ## Fontes
 
-Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)).
+Resumo: catálogo de classes. Valores do jogo atual: servidor Melia ([F124](../../fontes.md#f124)). Tabelas e textos de 2016: ToSBase (capturas do Internet Archive).
