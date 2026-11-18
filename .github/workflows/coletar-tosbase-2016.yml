@@ -1,6 +1,11 @@
 name: Coletar o ToSBase de 2016
 on:
   workflow_dispatch:
+    inputs:
+      scope:
+        description: 'O que coletar (lista separada por vírgulas): skills, classes, formulas, monsters, items, quests, attributes, npcs, maps, collections, statuseffects'
+        default: 'skills,classes'
+        required: true
 permissions:
   contents: write
 concurrency:
@@ -22,7 +27,8 @@ jobs:
       - name: Coletar as capturas do Internet Archive
         run: python3 scripts/fetch-tosbase-2016.py
         env:
-          WORKERS: '5'
+          SCOPE: ${{ inputs.scope }}
+          WORKERS: '6'
           MAX_MINUTES: '300'
       - name: Guardar o resultado no branch data/tosbase-2016
         if: always()

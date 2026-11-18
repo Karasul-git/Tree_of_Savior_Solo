@@ -9,7 +9,7 @@ Grava em data/tosbase-2016/:
 O HTML bruto fica só no branch de dados (não vai para main nem para o site).
 Só biblioteca padrão. Pode ser interrompido e rodado de novo: pula o que já foi coletado.
 """
-import gzip, hashlib, json, os, sys, time, urllib.error, urllib.parse, urllib.request
+import gzip, hashlib, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
@@ -22,6 +22,7 @@ TARGET = '20160415'                  # data preferida
 DELAY = float(os.environ.get('FETCH_DELAY', '0.8'))
 UA = 'Mozilla/5.0 (compatible; wiki-archive-research/1.0)'
 WORKERS = int(os.environ.get('WORKERS', '5'))
+SCOPE = [s.strip() for s in os.environ.get('SCOPE', 'skills,classes').split(',') if s.strip()]
 MAX_MINUTES = float(os.environ.get('MAX_MINUTES', '300'))  # para de começar páginas novas depois disso
 
 
@@ -86,6 +87,7 @@ def main():
 
     # 1) inventário das páginas do ToSBase capturadas em 2016
     inv_path = OUT / 'inventario.json.gz'
+    inventory = []
     if not inv_path.exists():
         print('Inventário do domínio…', flush=True)
         rows = cdx('tosbase.com', matchType='domain', collapse='urlkey', limit='400000')
@@ -94,28 +96,60 @@ def main():
         else:
             inv_path.write_bytes(gzip.compress(json.dumps(rows, ensure_ascii=False).encode(), mtime=0))
             print(f'  {len(rows)} páginas capturadas na janela.', flush=True)
+            inventory = rows
+    if not inventory and inv_path.exists():
+        inventory = json.loads(gzip.decompress(inv_path.read_bytes()).decode())
 
-    # 2) o que coletar: habilidades (382) e páginas de classe já citadas no acervo
+    # 2) o que coletar, conforme SCOPE (variável de ambiente, lista separada por vírgulas)
     catalog = json.loads((ROOT / 'data/catalog/classes-2016.json').read_text())
     jobs = []
     known = {}
     for snap in json.loads((ROOT / 'data/research/swordsman-snapshots.json').read_text()):
         if snap.get('tosbase_skill_id'):
             known[str(snap['tosbase_skill_id'])] = snap
-    for c in catalog['classes']:
-        for s in c['skills']:
-            jobs.append(('skills', str(s['tosbase_id']), f"/database/skills/{s['tosbase_id']}/", s['name']))
-        if c.get('archive_url'):
-            path = urllib.parse.urlparse(c['archive_url'].split('id_/', 1)[-1]).path
-            jobs.append(('classes', c['id'], path, c['name']))
+    if 'skills' in SCOPE:
+        for c in catalog['classes']:
+            for s in c['skills']:
+                jobs.append(('skills', str(s['tosbase_id']), f"/database/skills/{s['tosbase_id']}/", s['name'], None))
+    if 'classes' in SCOPE:
+        for c in catalog['classes']:
+            if c.get('archive_url'):
+                path = urllib.parse.urlparse(c['archive_url'].split('id_/', 1)[-1]).path
+                jobs.append(('classes', c['id'], path, c['name'], None))
+    # Páginas descobertas pelo inventário: usam a captura listada, sem nova consulta ao índice.
+    DATABASE = {'monsters': 'monsters', 'items': 'items', 'quests': 'quests', 'attributes': 'attributes', 'npcs': 'npcs',
+                'maps': 'maps', 'collections': 'collections', 'statuseffects': 'status-effects'}
+    for scope, folder in DATABASE.items():
+        if scope not in SCOPE:
+            continue
+        pattern = re.compile(r'^/database/%s/([^/?]+)/?$' % re.escape(folder))
+        seen = set()
+        for r in inventory:
+            path = urllib.parse.urlparse(r['original']).path
+            m = pattern.match(path)
+            if m and m.group(1) not in seen:
+                seen.add(m.group(1))
+                jobs.append((scope, m.group(1), path, m.group(1), r))
+        index = [r for r in inventory if urllib.parse.urlparse(r['original']).path.rstrip('/') == f'/database/{folder}']
+        if index:
+            jobs.append((scope, '_lista', f'/database/{folder}/', 'lista', index[0]))
+    if 'formulas' in SCOPE:
+        pattern = re.compile(r'^/(tools/(stat-calculator|class-builder|simulator|skill-simulator)/?|js/(tosbase|skillsim)[^/]*\.js)$')
+        seen = set()
+        for r in inventory:
+            path = urllib.parse.urlparse(r['original']).path
+            if pattern.match(path) and path not in seen:
+                seen.add(path)
+                jobs.append(('formulas', path.strip('/').replace('/', '_'), path, path, r))
 
     ref_hashes = {k: v for k, v in known.items()}
 
     def work(job):
-        kind, key, path, name = job
+        kind, key, path, name, given = job
         mid = f'{kind}/{key}'
-        cap = best_capture(path)
-        time.sleep(DELAY)
+        cap = given or best_capture(path)
+        if not given:
+            time.sleep(DELAY)
         if not cap:
             return mid, {'name': name, 'path': path, 'status': 'sem-captura-na-janela'}
         original = cap['original']
