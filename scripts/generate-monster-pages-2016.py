@@ -10,6 +10,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 data = json.loads((ROOT / 'data/research/tosbase-2016-monsters.json').read_text(encoding='utf-8'))['monsters']
 
+ITEM_FOLDER = {}
+_idx = ROOT / 'data/original-2016/items-index.json'
+if _idx.exists():
+    ITEM_FOLDER = {i['id']: i['folder'] for i in json.loads(_idx.read_text(encoding='utf-8'))['items']}
+
 TYPE = {'Normal': 'Comum', 'Boss': 'Chefe', 'Elite': 'Elite', 'Material': 'Material', 'NPC': 'NPC'}
 RACE = {'Demon': 'Demônio (Velnias)', 'Plant': 'Planta', 'Beast': 'Fera', 'Mutant': 'Mutante (Paramune)', 'Insect': 'Inseto', '?': 'Desconhecida'}
 ELEMENT = {'Fire': 'Fogo', 'Ice': 'Gelo', 'Lightning': 'Raio', 'Earth': 'Terra', 'Poison': 'Veneno', 'Holy': 'Sagrado', 'Dark': 'Trevas',
@@ -57,7 +62,7 @@ for m in mons:
                      'Crit Rate': 'Taxa de crítico', 'Crit Resistance': 'Resistência a crítico', 'Crit Damage': 'Dano crítico', 'M. Amp.': 'Amplificação mágica'}
             lines += ['| Estatística | Valor |', '| --- | --- |'] + [f"| {names.get(k, k)} | {pair(v) if isinstance(v, list) else fmt(v)} |" for k, v in c.items() if k not in ('HP',)] + ['']
     if m.get('drops'):
-        lines += ['## Drops', '', '| Item | Chance |', '| --- | --- |'] + [f"| {d['name']} | {'–' if d['chance_pct'] is None else fmt(d['chance_pct']) + '%'} |" for d in m['drops']] + ['', 'Chances marcadas com "–" não eram conhecidas pelo banco naquela data.', '']
+        lines += ['## Drops', '', '| Item | Chance |', '| --- | --- |'] + [f"| {('[' + d['name'] + '](../itens/' + ITEM_FOLDER[str(d['item_id'])] + '/' + str(d['item_id']) + '.md)') if str(d['item_id']) in ITEM_FOLDER else d['name']} | {'–' if d['chance_pct'] is None else fmt(d['chance_pct']) + '%'} |" for d in m['drops']] + ['', 'Chances marcadas com "–" não eram conhecidas pelo banco naquela data.', '']
     if m.get('locations'):
         lines += ['## Onde aparece', '', '| Mapa | Quantidade | Renascimento |', '| --- | --- | --- |'] + [f"| {l['map']} | {fmt(l['spawn_count'])} | {fmt(l['respawn_seconds']) + ' s' if l['respawn_seconds'] is not None else '–'} |" for l in m['locations']] + ['']
     lines += ['## Fonte', '', f"ToSBase, captura de {m['captured_at'][:4]}-{m['captured_at'][4:6]}-{m['captured_at'][6:8]} (Internet Archive). Valores exibidos pelo banco, sem confirmação no cliente.", '']
