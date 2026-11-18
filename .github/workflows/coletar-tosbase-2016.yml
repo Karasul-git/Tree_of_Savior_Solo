@@ -9,14 +9,21 @@ concurrency:
 jobs:
   coletar:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Retomar do que já foi coletado
+        run: |
+          git fetch origin data/tosbase-2016 || true
+          git checkout origin/data/tosbase-2016 -- data/tosbase-2016 || true
       - name: Coletar as capturas do Internet Archive
         run: python3 scripts/fetch-tosbase-2016.py
+        env:
+          WORKERS: '5'
+          MAX_MINUTES: '300'
       - name: Guardar o resultado no branch data/tosbase-2016
         if: always()
         run: |

@@ -10,6 +10,7 @@ O HTML bruto fica só no branch de dados (não vai para main nem para o site).
 Só biblioteca padrão. Pode ser interrompido e rodado de novo: pula o que já foi coletado.
 """
 import gzip, hashlib, json, os, sys, time, urllib.error, urllib.parse, urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 
@@ -20,6 +21,8 @@ WINDOW = ('20160315', '20160630')   # janela de lançamento
 TARGET = '20160415'                  # data preferida
 DELAY = float(os.environ.get('FETCH_DELAY', '0.8'))
 UA = 'Mozilla/5.0 (compatible; wiki-archive-research/1.0)'
+WORKERS = int(os.environ.get('WORKERS', '5'))
+MAX_MINUTES = float(os.environ.get('MAX_MINUTES', '300'))  # para de começar páginas novas depois disso
 
 
 def get(url, timeout=90, tries=4):
@@ -106,46 +109,59 @@ def main():
             path = urllib.parse.urlparse(c['archive_url'].split('id_/', 1)[-1]).path
             jobs.append(('classes', c['id'], path, c['name']))
 
-    done = failed = 0
-    for kind, key, path, name in jobs:
+    ref_hashes = {k: v for k, v in known.items()}
+
+    def work(job):
+        kind, key, path, name = job
         mid = f'{kind}/{key}'
-        if mid in captures and captures[mid].get('file') and (ROOT / captures[mid]['file']).exists():
-            continue
         cap = best_capture(path)
         time.sleep(DELAY)
         if not cap:
-            captures[mid] = {'name': name, 'path': path, 'status': 'sem-captura-na-janela'}
-            failed += 1
-            print(f'- {mid} {name}: sem captura na janela', flush=True)
-            continue
+            return mid, {'name': name, 'path': path, 'status': 'sem-captura-na-janela'}
         original = cap['original']
         url = f"https://web.archive.org/web/{cap['timestamp']}id_/{original}"
         status, body = get(url)
         time.sleep(DELAY)
         if status != 200 or not body:
-            captures[mid] = {'name': name, 'path': path, 'status': f'erro-{status}', 'timestamp': cap['timestamp']}
-            failed += 1
-            print(f'- {mid} {name}: erro {status}', flush=True)
-            continue
+            return mid, {'name': name, 'path': path, 'status': f'erro-{status}', 'timestamp': cap['timestamp']}
         sha = hashlib.sha256(body).hexdigest()
         entry = {'name': name, 'path': path, 'status': 'ok', 'timestamp': cap['timestamp'], 'original': original,
                  'archive_url': url, 'sha256': sha, 'bytes': len(body),
                  'file': save(kind, key, cap['timestamp'], original, body)}
-        ref = known.get(key) if kind == 'skills' else None
+        ref = ref_hashes.get(key) if kind == 'skills' else None
         if ref and ref['captured_at'].replace('-', '').replace(':', '').replace('T', '').replace('Z', '') == cap['timestamp']:
             entry['confere_com_acervo'] = (ref['html_sha256'] == sha)
-        captures[mid] = entry
-        done += 1
-        if done % 20 == 0:
+        return mid, entry
+
+    pending = [j for j in jobs
+               if not (f'{j[0]}/{j[1]}' in captures and captures[f'{j[0]}/{j[1]}'].get('file')
+                       and (ROOT / captures[f'{j[0]}/{j[1]}']['file']).exists())]
+    print(f'{len(pending)} páginas por coletar, {WORKERS} em paralelo.', flush=True)
+    started = time.time()
+    done = failed = 0
+    stopped = False
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        for i in range(0, len(pending), WORKERS * 4):
+            if time.time() - started > MAX_MINUTES * 60:
+                stopped = True
+                print('Tempo máximo atingido: parando; rode de novo para continuar.', flush=True)
+                break
+            for mid, entry in pool.map(work, pending[i:i + WORKERS * 4]):
+                captures[mid] = entry
+                if entry['status'] == 'ok':
+                    done += 1
+                else:
+                    failed += 1
+                    print(f"- {mid} {entry['name']}: {entry['status']}", flush=True)
             manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
-            print(f'  {done} coletadas…', flush=True)
+            print(f'  {done} coletadas, {failed} falhas…', flush=True)
 
     manifest['updated_at'] = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
     manifest['window'] = WINDOW
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
     ok = sum(1 for c in captures.values() if c['status'] == 'ok')
     checked = [c for c in captures.values() if 'confere_com_acervo' in c]
-    summary = (f'Coletadas nesta rodada: {done}. Falhas: {failed}. Total ok: {ok} de {len(jobs)}. '
+    summary = (f'Coletadas nesta rodada: {done}. Falhas: {failed}. Total ok: {ok} de {len(jobs)}.' + (' Parou pelo tempo máximo; rode de novo.' if stopped else '') + ' '
                f'Conferência de hash com o acervo: {sum(c["confere_com_acervo"] for c in checked)} de {len(checked)}.')
     print(summary, flush=True)
     if os.environ.get('GITHUB_STEP_SUMMARY'):
