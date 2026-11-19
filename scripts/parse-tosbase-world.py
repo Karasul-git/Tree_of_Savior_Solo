@@ -33,8 +33,9 @@ def load(mid, cap):
 
 
 def items_in(fragment):
-    out, seen = [], set()
-    for iid, cnt in re.findall(r'href="database/items/(\d+)/">.*?<span[^>]*>(\d+)</span>', fragment, re.S):
+    # o bloco "Select One" do ToSBase vem sem o link <a>; o id está no atributo data-tooltip da imagem
+    out = []
+    for iid, cnt in re.findall(r'data-tooltip="item_reward_tooltip_(\d+)"[^>]*/>\s*<span[^>]*>(\d+)</span>', fragment, re.S):
         out.append({'item_id': int(iid), 'count': int(cnt)})
     return out
 

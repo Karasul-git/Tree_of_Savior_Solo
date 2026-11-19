@@ -15,7 +15,7 @@ Faz o Melia (que reconstrói o jogo atual) se comportar como o jogo da primavera
 | **Itens** | `user/db/items.txt` | 1.529 itens com ataque, defesa, nível necessário e peso de 2016 |
 | **Habilidades** | `user/db/skills.txt` e `calc_skill.cs` | 290 habilidades com ataque fixo por nível, fator 100% e recarga de 2016; custo de SP por nível (tabela de 316 habilidades) |
 | **Configuração** | `user/conf/world/jobs.conf` e `exp.conf` | rank máximo 6; taxas de experiência 100% |
-| **Quests** | `user/scripts/zone/custom/original2016/quests.cs` | 194 das 1830 quests de 2016: as de matar monstros e juntar itens, com nível exigido, quests anteriores e itens de recompensa. Chegam sozinhas ao alcançar o nível e se concluem sozinhas ao cumprir o objetivo |
+| **Quests** | `user/scripts/zone/custom/original2016/quests.cs` | 498 das 1830 quests de 2016: as de matar monstros e juntar itens, com nível exigido, quests anteriores e itens de recompensa. Chegam sozinhas ao alcançar o nível e se concluem sozinhas ao cumprir o objetivo |
 | **Experiência** | nada | a tabela de experiência base do Melia **já é a de 2016** |
 
 ## Como instalar (quando houver computador)
@@ -36,10 +36,10 @@ Faz o Melia (que reconstrói o jogo atual) se comportar como o jogo da primavera
 - **Nunca foi jogado.** Nem o servidor nem as fórmulas rodaram com um personagem de verdade.
 - **Cliente:** o Melia só funciona com o cliente atual da Steam. A interface, os gráficos e as telas de classe são os de hoje, e o cliente pode mostrar textos e números do jogo atual (descrições de habilidades, por exemplo), mesmo que o servidor calcule os de 2016.
 - **Habilidades:** o Melia só implementa em combate parte das habilidades. As que não têm código no servidor não funcionam, mesmo com os números de 2016.
-- **Quests:** 194 das 1830 quests de 2016 viraram script (matar e juntar). As outras ficaram de fora: 991 são só conversa com NPC, 187 têm passos de falar ou ir a um lugar, 275 usam itens que o banco do Melia não tem, 140 têm objetivo que não deu para ligar a um monstro ou item e 43 usam monstros que o Melia não tem. O Melia exige NPCs com coordenadas, que o ToSBase não traz. Sem NPC, as quests chegam e se concluem sozinhas, e **sem experiência nem prata de recompensa** (o ToSBase não mostra esses valores); quando a recompensa era de escolha, nada é dado. Pré-requisitos de quests não convertidas foram ignorados (89), então algumas correntes começam pelo nível. Lista completa em `quests-report.json`.
+- **Quests:** 498 das 1830 quests de 2016 viraram script (matar e juntar). As outras ficaram de fora: 991 são só conversa com NPC, 203 têm passos de falar, investigar ou ir a um lugar e 138 têm objetivo que não deu para ligar a um monstro ou item. O Melia exige NPCs com coordenadas, que o ToSBase não traz. Sem NPC, as quests chegam e se concluem sozinhas. **Sem experiência nem prata** direta (o ToSBase só mostra itens de recompensa; EXP vem quando o item é um cartão de experiência). 57 quests têm recompensa de escolha ("escolha uma"), que o Melia não suporta: nada é dado nelas. Pré-requisitos de quests não convertidas foram ignorados (90), então algumas correntes começam pelo nível. Lista completa em `quests-report.json`.
 - **Fórmula de dano:** não existe fonte. O pacote mantém o cálculo do Melia (ataque + ataque fixo da habilidade, menos defesa, vezes o fator), que parece ser o desenho original, e os tipos de dano contra armadura da era antiga. É hipótese.
 - **Monstros:** a velocidade, a IA e as habilidades continuam as do Melia. O bloqueio dos monstros foi zerado (2016 não mostra). Drops com chance desconhecida em 2016 (644) usam a chance atual do Melia ou 1%. Quantidades de drop e silver continuam as do Melia.
-- **Itens:** só ataque, defesa, nível e peso. Potencial, durabilidade, refino de 2016, gemas e conjuntos não foram portados.
+- **Itens:** só ataque, defesa, nível e peso. Potencial, durabilidade, refino de 2016, gemas e conjuntos não foram portados. O banco do Melia já traz quase todos os itens de 2016 (28.662 itens no total); só 9 do ToSBase não existem lá: Dark Sword e Master Sword (itens de teste, nível 1 com ataque de nível alto), Taoist Costume e 6 páginas sem item ("Item not found"). Eles não foram acrescentados.
 - **Habilidades sem equivalente** no Melia: 68. Monstros: 16. Itens: 9.
 - **Classes:** só as quatro bases de 2016 foram trocadas. As demais classes usam a taxa de HP e SP atual.
 - **Ataque fixo das habilidades:** o Melia só guarda valor inicial e crescimento linear; as tabelas de 2016 têm pequenas irregularidades (erro de até 1 ponto).
@@ -48,7 +48,7 @@ Faz o Melia (que reconstrói o jogo atual) se comportar como o jogo da primavera
 
 ```
 python3 scripts/build-server-pack-2016.py CAMINHO/DO/MELIA server/original-2016
-python3 scripts/build-quest-pack-2016.py server/original-2016   # quests, depois dos bancos
+python3 scripts/build-quest-pack-2016.py server/original-2016 CAMINHO/DO/MELIA   # quests, depois dos bancos
 ```
 
 O gerador lê `data/research/tosbase-2016-*.json` e o `system/` do Melia (commit 67e93ee, de 19/05/2026) e escreve esta pasta de novo. Os arquivos `user/db` contêm linhas do banco do Melia modificadas, então seguem a licença GPL-3.0 do Melia. Fontes: [F142](../../docs/fontes.md), [F144](../../docs/fontes.md), [F145](../../docs/fontes.md).

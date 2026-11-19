@@ -34,17 +34,23 @@ test('as quests do pacote: script, lista e relatório coerentes', () => {
   const classes = [...cs.matchAll(/public class Q(\d+)Original2016QuestScript : QuestScript/g)].map(m => Number(m[1]));
   assert.equal(classes.length, report.convertidas);
   assert.deepEqual(classes, report.convertidas_ids);
-  assert.ok(report.convertidas >= 150, 'esperava ao menos 150 quests de matar e juntar');
+  assert.ok(report.convertidas >= 450, 'esperava ao menos 450 quests de matar e juntar');
   assert.equal(report.convertidas + Object.values(report.ficaram_de_fora).reduce((a, b) => a + b, 0), report.quests_no_total);
   assert.match(file('user/scripts/zone/scripts_custom.txt'), /^custom\/original2016\/quests\.cs$/m);
   assert.match(cs, /class Original2016QuestHelper : GeneralScript/);
   assert.match(cs, /\[On\("SecondTick"\)\]/);
 });
 
-test('cada quest convertida tem objetivo, nível e ids que existem nos bancos do pacote', () => {
+test('cada quest convertida tem objetivo, nível e ids que existem nos dados de 2016', () => {
   const cs = file('user/scripts/zone/custom/original2016/quests.cs');
-  const monsters = new Set([...file('user/db/monsters.txt').matchAll(/monsterId: (\d+),/g)].map(m => Number(m[1])));
-  const items = new Set([...file('user/db/items.txt').matchAll(/itemId: (\d+),/g)].map(m => Number(m[1])));
+  const research = f => JSON.parse(readFileSync(new URL('../data/research/' + f, import.meta.url), 'utf8'));
+  const monsters = new Set(Object.keys(research('tosbase-2016-monsters.json').monsters).map(Number));
+  const items = new Set(Object.keys(research('tosbase-2016-items.json').items).filter(k => /^\d+$/.test(k)).map(Number));
+  // itens de quest nem sempre têm página própria no ToSBase: vale também o que as quests citam
+  for (const q of Object.values(research('tosbase-2016-quests.json').quests))
+    for (const i of [...q.task_items, ...q.reward_all, ...q.reward_choice]) items.add(i.item_id);
+  for (const q of Object.values(research('tosbase-2016-quests.json').quests))
+    for (const m of q.task_monsters) monsters.add(m.monster_id);
   const blocks = cs.split('public class Q').slice(1);
   assert.ok(blocks.length > 0);
   const used = new Set();
@@ -57,9 +63,9 @@ test('cada quest convertida tem objetivo, nível e ids que existem nos bancos do
     assert.ok(!used.has(id[1] + id[2]), 'id repetido');
     used.add(id[1] + id[2]);
     for (const k of b.matchAll(/new KillObjective\((\d+), ([\d, ]+)\)/g))
-      for (const mid of k[2].split(',')) assert.ok(monsters.has(Number(mid)), `monstro ${mid} fora do banco`);
-    for (const c of b.matchAll(/new CollectItemObjective\((\d+), (\d+)\)/g)) assert.ok(items.has(Number(c[1])), `item ${c[1]} fora do banco`);
-    for (const r of b.matchAll(/new ItemReward\((\d+), (\d+)\)/g)) assert.ok(items.has(Number(r[1])), `recompensa ${r[1]} fora do banco`);
+      for (const mid of k[2].split(',')) assert.ok(monsters.has(Number(mid)), `monstro ${mid} fora dos dados de 2016`);
+    for (const c of b.matchAll(/new CollectItemObjective\((\d+), (\d+)\)/g)) assert.ok(items.has(Number(c[1])), `item ${c[1]} fora dos dados de 2016`);
+    for (const r of b.matchAll(/new ItemReward\((\d+), (\d+)\)/g)) assert.ok(items.has(Number(r[1])), `recompensa ${r[1]} fora dos dados de 2016`);
     for (const p of b.matchAll(/CompletedPrerequisite\("(Original2016\.\d+)", (\d+)\)/g))
       assert.ok(cs.includes(`SetId("${p[1]}", ${p[2]});`), 'pré-requisito aponta para quest que não existe');
   }

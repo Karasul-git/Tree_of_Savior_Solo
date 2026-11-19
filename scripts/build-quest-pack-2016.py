@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Converte as quests de 2016 (ToSBase) em scripts de quest do servidor Melia.
 
-Uso: python3 scripts/build-quest-pack-2016.py PASTA_DO_PACOTE   (normalmente server/original-2016)
-Lê data/research/tosbase-2016-quests.json e os bancos já gerados no pacote
-(user/db/monsters.txt e items.txt) e escreve:
+Uso: python3 scripts/build-quest-pack-2016.py PASTA_DO_PACOTE PASTA_DO_MELIA
+  (normalmente server/original-2016 e a cópia do Melia usada em build-server-pack-2016.py)
+Lê data/research/tosbase-2016-quests.json e confere os ids de monstros e itens contra o banco do Melia
+(system/db) mais as trocas do pacote (user/db). Escreve:
   user/scripts/zone/custom/original2016/quests.cs   (as quests e o auxiliar que as conclui)
   user/scripts/zone/scripts_custom.txt              (lista que carrega o arquivo acima)
   quests-report.json                                (o que foi convertido e o que ficou de fora)
@@ -19,20 +20,24 @@ ROOT = Path(__file__).resolve().parent.parent
 pack = Path(sys.argv[1])
 quests = json.loads((ROOT / 'data/research/tosbase-2016-quests.json').read_text(encoding='utf-8'))['quests']
 
-mon_txt = (pack / 'user/db/monsters.txt').read_text(encoding='utf-8-sig')
-item_txt = (pack / 'user/db/items.txt').read_text(encoding='utf-8-sig')
+melia = Path(sys.argv[2])
+
+
+def read_db(*paths):
+    return '\n'.join(p.read_text(encoding='utf-8-sig') for p in paths if p.exists())
+
+
+mon_txt = read_db(melia / 'system/db/monsters.txt', pack / 'user/db/monsters.txt')
+item_txt = read_db(melia / 'system/db/items.txt', pack / 'user/db/items.txt')
 monster_ids = set(map(int, re.findall(r'monsterId:\s*(\d+)', mon_txt)))
 item_ids = set(map(int, re.findall(r'itemId:\s*(\d+)', item_txt)))
 tosbase_monsters = json.loads((ROOT / 'data/research/tosbase-2016-monsters.json').read_text(encoding='utf-8'))['monsters']
 monster_by_name = collections.defaultdict(list)
 class_by_id = {int(i): c for i, c in re.findall(r'monsterId:\s*(\d+),\s*className:\s*"([^"]*)"', mon_txt)}
-for mid, m in tosbase_monsters.items():  # primeiro, os monstros que o ToSBase de 2016 lista
+melia_name = {int(i): n for i, n in re.findall(r'monsterId:\s*(\d+),\s*className:\s*"[^"]*",\s*name:\s*"([^"]*)"', mon_txt)}
+for mid, m in tosbase_monsters.items():  # os monstros que o ToSBase de 2016 lista
     if int(mid) in monster_ids and not class_by_id[int(mid)].startswith('Sec_'):
-        monster_by_name[m['name'].lower()].append(int(mid))
-# o ToSBase não listou alguns monstros comuns (como o Kepa); completa pelo banco do pacote,
-# ignorando as variantes "Sec_" (segunda versão do monstro, de outro conteúdo)
-for mid, cls, name in re.findall(r'monsterId:\s*(\d+),\s*className:\s*"([^"]*)",\s*name:\s*"([^"]*)"', mon_txt):
-    if name.lower() not in monster_by_name and not cls.startswith('Sec_'):
+        name = m['name'] if m['name'].isascii() else melia_name[int(mid)]  # parte dos nomes do ToSBase ficou em coreano
         monster_by_name[name.lower()].append(int(mid))
 
 COUNTER = re.compile(r'\((\d+) / (\d+)\)')
@@ -45,6 +50,8 @@ def variants(name):
         out.add(name[:-1] + 'ies')
     if name.endswith('f'):
         out.add(name[:-1] + 'ves')
+    if name.endswith('man'):
+        out.add(name[:-3] + 'men')
     return out
 
 
@@ -103,7 +110,7 @@ def ns(qid):
 converted, skipped = {}, collections.Counter()
 skipped_list = collections.defaultdict(list)
 for qid, q in sorted(quests.items(), key=lambda kv: int(kv[0])):
-    lines = [l for l in q['task'] if not l.startswith(('Write Comment', 'Comments ('))]
+    lines = [l for l in q['task'] if not l.startswith(('Write Comment', 'Comments (', 'Reward'))]
     if not lines:
         skipped['sem objetivo de contagem (só conversa)'] += 1
         skipped_list['sem objetivo de contagem (só conversa)'].append(int(qid))
