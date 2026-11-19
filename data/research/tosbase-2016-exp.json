@@ -1,0 +1,4171 @@
+{
+"source": "ToSBase, tabelas de experiência (/game/exp-tables), capturas de 02/04/2016 e 01/04/2016",
+"captures": {
+"base": {
+"captured_at": "20160402220018",
+"archive_url": "https://web.archive.org/web/20160402220018id_/http://www.tosbase.com:80/game/exp-tables/base",
+"html_sha256": "c289033cde8566b377789d7d7a7eca95e22ae9e2c58446789eeb5cf2b48408a6"
+},
+"class": {
+"captured_at": "20160402222741",
+"archive_url": "https://web.archive.org/web/20160402222741id_/http://www.tosbase.com:80/game/exp-tables/class",
+"html_sha256": "ea29e1bce81c8127ecdb7b09318eb0ac0b9d7bd2a929930219df4b939f6649bc"
+},
+"companion": {
+"captured_at": "20160401170238",
+"archive_url": "https://web.archive.org/web/20160401170238id_/http://www.tosbase.com:80/game/exp-tables/companion/",
+"html_sha256": "dc6bcd74ec9a7068bed2e9d6cdf6a8800c7f6f5ad05f9b71bd2a163afeb37da7"
+}
+},
+"base": [
+{
+"level": 2,
+"required": 8,
+"total": 8
+},
+{
+"level": 3,
+"required": 272,
+"total": 280
+},
+{
+"level": 4,
+"required": 462,
+"total": 742
+},
+{
+"level": 5,
+"required": 702,
+"total": 1444
+},
+{
+"level": 6,
+"required": 990,
+"total": 2434
+},
+{
+"level": 7,
+"required": 1326,
+"total": 3760
+},
+{
+"level": 8,
+"required": 1691,
+"total": 5451
+},
+{
+"level": 9,
+"required": 2200,
+"total": 7651
+},
+{
+"level": 10,
+"required": 2640,
+"total": 10291
+},
+{
+"level": 11,
+"required": 3120,
+"total": 13411
+},
+{
+"level": 12,
+"required": 3640,
+"total": 17051
+},
+{
+"level": 13,
+"required": 4200,
+"total": 21251
+},
+{
+"level": 14,
+"required": 4800,
+"total": 26051
+},
+{
+"level": 15,
+"required": 5406,
+"total": 31457
+},
+{
+"level": 16,
+"required": 6084,
+"total": 37541
+},
+{
+"level": 17,
+"required": 1755,
+"total": 39296
+},
+{
+"level": 18,
+"required": 4510,
+"total": 43806
+},
+{
+"level": 19,
+"required": 7138,
+"total": 50944
+},
+{
+"level": 20,
+"required": 9765,
+"total": 60709
+},
+{
+"level": 21,
+"required": 12502,
+"total": 73211
+},
+{
+"level": 22,
+"required": 15288,
+"total": 88499
+},
+{
+"level": 23,
+"required": 18156,
+"total": 106655
+},
+{
+"level": 24,
+"required": 21147,
+"total": 127802
+},
+{
+"level": 25,
+"required": 24696,
+"total": 152498
+},
+{
+"level": 26,
+"required": 28014,
+"total": 180512
+},
+{
+"level": 27,
+"required": 31380,
+"total": 211892
+},
+{
+"level": 28,
+"required": 34844,
+"total": 246736
+},
+{
+"level": 29,
+"required": 38464,
+"total": 285200
+},
+{
+"level": 30,
+"required": 42174,
+"total": 327374
+},
+{
+"level": 31,
+"required": 46036,
+"total": 373410
+},
+{
+"level": 32,
+"required": 49980,
+"total": 423390
+},
+{
+"level": 33,
+"required": 54750,
+"total": 478140
+},
+{
+"level": 34,
+"required": 58950,
+"total": 537090
+},
+{
+"level": 35,
+"required": 63294,
+"total": 600384
+},
+{
+"level": 36,
+"required": 67703,
+"total": 668087
+},
+{
+"level": 37,
+"required": 72252,
+"total": 740339
+},
+{
+"level": 38,
+"required": 76941,
+"total": 817280
+},
+{
+"level": 39,
+"required": 81685,
+"total": 898965
+},
+{
+"level": 40,
+"required": 86565,
+"total": 985530
+},
+{
+"level": 41,
+"required": 92610,
+"total": 1078140
+},
+{
+"level": 42,
+"required": 97796,
+"total": 1175936
+},
+{
+"level": 43,
+"required": 103024,
+"total": 1278960
+},
+{
+"level": 44,
+"required": 108384,
+"total": 1387344
+},
+{
+"level": 45,
+"required": 113778,
+"total": 1501122
+},
+{
+"level": 46,
+"required": 119400,
+"total": 1620522
+},
+{
+"level": 47,
+"required": 7752,
+"total": 1628274
+},
+{
+"level": 48,
+"required": 19635,
+"total": 1647909
+},
+{
+"level": 49,
+"required": 30174,
+"total": 1678083
+},
+{
+"level": 50,
+"required": 40221,
+"total": 1718304
+},
+{
+"level": 51,
+"required": 50172,
+"total": 1768476
+},
+{
+"level": 52,
+"required": 59890,
+"total": 1828366
+},
+{
+"level": 53,
+"required": 69690,
+"total": 1898056
+},
+{
+"level": 54,
+"required": 79560,
+"total": 1977616
+},
+{
+"level": 55,
+"required": 89369,
+"total": 2066985
+},
+{
+"level": 56,
+"required": 100162,
+"total": 2167147
+},
+{
+"level": 57,
+"required": 110236,
+"total": 2277383
+},
+{
+"level": 58,
+"required": 120582,
+"total": 2397965
+},
+{
+"level": 59,
+"required": 130944,
+"total": 2528909
+},
+{
+"level": 60,
+"required": 141310,
+"total": 2670219
+},
+{
+"level": 61,
+"required": 151932,
+"total": 2822151
+},
+{
+"level": 62,
+"required": 162676,
+"total": 2984827
+},
+{
+"level": 63,
+"required": 173672,
+"total": 3158499
+},
+{
+"level": 64,
+"required": 185982,
+"total": 3344481
+},
+{
+"level": 65,
+"required": 197259,
+"total": 3541740
+},
+{
+"level": 66,
+"required": 208637,
+"total": 3750377
+},
+{
+"level": 67,
+"required": 220255,
+"total": 3970632
+},
+{
+"level": 68,
+"required": 231966,
+"total": 4202598
+},
+{
+"level": 69,
+"required": 243764,
+"total": 4446362
+},
+{
+"level": 70,
+"required": 255794,
+"total": 4702156
+},
+{
+"level": 71,
+"required": 268056,
+"total": 4970212
+},
+{
+"level": 72,
+"required": 282048,
+"total": 5252260
+},
+{
+"level": 73,
+"required": 294670,
+"total": 5546930
+},
+{
+"level": 74,
+"required": 307360,
+"total": 5854290
+},
+{
+"level": 75,
+"required": 320274,
+"total": 6174564
+},
+{
+"level": 76,
+"required": 333248,
+"total": 6507812
+},
+{
+"level": 77,
+"required": 346442,
+"total": 6854254
+},
+{
+"level": 78,
+"required": 359856,
+"total": 7214110
+},
+{
+"level": 79,
+"required": 373320,
+"total": 7587430
+},
+{
+"level": 80,
+"required": 389250,
+"total": 7976680
+},
+{
+"level": 81,
+"required": 403025,
+"total": 8379705
+},
+{
+"level": 82,
+"required": 417012,
+"total": 8796717
+},
+{
+"level": 83,
+"required": 431211,
+"total": 9227928
+},
+{
+"level": 84,
+"required": 445622,
+"total": 9673550
+},
+{
+"level": 85,
+"required": 460062,
+"total": 10133612
+},
+{
+"level": 86,
+"required": 474895,
+"total": 10608507
+},
+{
+"level": 87,
+"required": 20757,
+"total": 10629264
+},
+{
+"level": 88,
+"required": 52060,
+"total": 10681324
+},
+{
+"level": 89,
+"required": 79296,
+"total": 10760620
+},
+{
+"level": 90,
+"required": 104954,
+"total": 10865574
+},
+{
+"level": 91,
+"required": 129556,
+"total": 10995130
+},
+{
+"level": 92,
+"required": 153648,
+"total": 11148778
+},
+{
+"level": 93,
+"required": 177400,
+"total": 11326178
+},
+{
+"level": 94,
+"required": 200990,
+"total": 11527168
+},
+{
+"level": 95,
+"required": 225295,
+"total": 11752463
+},
+{
+"level": 96,
+"required": 248814,
+"total": 12001277
+},
+{
+"level": 97,
+"required": 272118,
+"total": 12273395
+},
+{
+"level": 98,
+"required": 295400,
+"total": 12568795
+},
+{
+"level": 99,
+"required": 318861,
+"total": 12887656
+},
+{
+"level": 100,
+"required": 342280,
+"total": 13229936
+},
+{
+"level": 101,
+"required": 365645,
+"total": 13595581
+},
+{
+"level": 102,
+"required": 389382,
+"total": 13984963
+},
+{
+"level": 103,
+"required": 414918,
+"total": 14399881
+},
+{
+"level": 104,
+"required": 438816,
+"total": 14838697
+},
+{
+"level": 105,
+"required": 462848,
+"total": 15301545
+},
+{
+"level": 106,
+"required": 487008,
+"total": 15788553
+},
+{
+"level": 107,
+"required": 511290,
+"total": 16299843
+},
+{
+"level": 108,
+"required": 535921,
+"total": 16835764
+},
+{
+"level": 109,
+"required": 560428,
+"total": 17396192
+},
+{
+"level": 110,
+"required": 585280,
+"total": 17981472
+},
+{
+"level": 111,
+"required": 612796,
+"total": 18594268
+},
+{
+"level": 112,
+"required": 637928,
+"total": 19232196
+},
+{
+"level": 113,
+"required": 663390,
+"total": 19895586
+},
+{
+"level": 114,
+"required": 688940,
+"total": 20584526
+},
+{
+"level": 115,
+"required": 714818,
+"total": 21299344
+},
+{
+"level": 116,
+"required": 740776,
+"total": 22040120
+},
+{
+"level": 117,
+"required": 766804,
+"total": 22806924
+},
+{
+"level": 118,
+"required": 793156,
+"total": 23600080
+},
+{
+"level": 119,
+"required": 822784,
+"total": 24422864
+},
+{
+"level": 120,
+"required": 849592,
+"total": 25272456
+},
+{
+"level": 121,
+"required": 876460,
+"total": 26148916
+},
+{
+"level": 122,
+"required": 903640,
+"total": 27052556
+},
+{
+"level": 123,
+"required": 931128,
+"total": 27983684
+},
+{
+"level": 124,
+"required": 958664,
+"total": 28942348
+},
+{
+"level": 125,
+"required": 986508,
+"total": 29928856
+},
+{
+"level": 126,
+"required": 1014388,
+"total": 30943244
+},
+{
+"level": 127,
+"required": 1046410,
+"total": 31989654
+},
+{
+"level": 128,
+"required": 1074700,
+"total": 33064354
+},
+{
+"level": 129,
+"required": 1103290,
+"total": 34167644
+},
+{
+"level": 130,
+"required": 1132184,
+"total": 35299828
+},
+{
+"level": 131,
+"required": 1161372,
+"total": 36461200
+},
+{
+"level": 132,
+"required": 1190580,
+"total": 37651780
+},
+{
+"level": 133,
+"required": 1220084,
+"total": 38871864
+},
+{
+"level": 134,
+"required": 1249600,
+"total": 40121464
+},
+{
+"level": 135,
+"required": 1283832,
+"total": 41405296
+},
+{
+"level": 136,
+"required": 1314000,
+"total": 42719296
+},
+{
+"level": 137,
+"required": 97312,
+"total": 42816608
+},
+{
+"level": 138,
+"required": 243312,
+"total": 43059920
+},
+{
+"level": 139,
+"required": 369224,
+"total": 43429144
+},
+{
+"level": 140,
+"required": 486600,
+"total": 43915744
+},
+{
+"level": 141,
+"required": 599168,
+"total": 44514912
+},
+{
+"level": 142,
+"required": 710648,
+"total": 45225560
+},
+{
+"level": 143,
+"required": 817540,
+"total": 46043100
+},
+{
+"level": 144,
+"required": 922676,
+"total": 46965776
+},
+{
+"level": 145,
+"required": 1026608,
+"total": 47992384
+},
+{
+"level": 146,
+"required": 1129304,
+"total": 49121688
+},
+{
+"level": 147,
+"required": 1231336,
+"total": 50353024
+},
+{
+"level": 148,
+"required": 1332352,
+"total": 51685376
+},
+{
+"level": 149,
+"required": 1433584,
+"total": 53118960
+},
+{
+"level": 150,
+"required": 1538840,
+"total": 54657800
+},
+{
+"level": 151,
+"required": 1639440,
+"total": 56297240
+},
+{
+"level": 152,
+"required": 1739864,
+"total": 58037104
+},
+{
+"level": 153,
+"required": 1840408,
+"total": 59877512
+},
+{
+"level": 154,
+"required": 1940728,
+"total": 61818240
+},
+{
+"level": 155,
+"required": 2041468,
+"total": 63859708
+},
+{
+"level": 156,
+"required": 2141940,
+"total": 66001648
+},
+{
+"level": 157,
+"required": 2242800,
+"total": 68244448
+},
+{
+"level": 158,
+"required": 2350624,
+"total": 70595072
+},
+{
+"level": 159,
+"required": 2452136,
+"total": 73047208
+},
+{
+"level": 160,
+"required": 2553976,
+"total": 75601184
+},
+{
+"level": 161,
+"required": 2655808,
+"total": 78256992
+},
+{
+"level": 162,
+"required": 2758304,
+"total": 81015296
+},
+{
+"level": 163,
+"required": 2860752,
+"total": 83876048
+},
+{
+"level": 164,
+"required": 2963496,
+"total": 86839544
+},
+{
+"level": 165,
+"required": 3066864,
+"total": 89906408
+},
+{
+"level": 166,
+"required": 3179432,
+"total": 93085840
+},
+{
+"level": 167,
+"required": 3283936,
+"total": 96369776
+},
+{
+"level": 168,
+"required": 3388320,
+"total": 99758096
+},
+{
+"level": 169,
+"required": 3493664,
+"total": 103251760
+},
+{
+"level": 170,
+"required": 3598864,
+"total": 106850624
+},
+{
+"level": 171,
+"required": 3705024,
+"total": 110555648
+},
+{
+"level": 172,
+"required": 3811376,
+"total": 114367024
+},
+{
+"level": 173,
+"required": 3918296,
+"total": 118285320
+},
+{
+"level": 174,
+"required": 4036232,
+"total": 122321552
+},
+{
+"level": 175,
+"required": 4144128,
+"total": 126465680
+},
+{
+"level": 176,
+"required": 4252560,
+"total": 130718240
+},
+{
+"level": 177,
+"required": 4361536,
+"total": 135079776
+},
+{
+"level": 178,
+"required": 4471024,
+"total": 139550800
+},
+{
+"level": 179,
+"required": 4581072,
+"total": 144131872
+},
+{
+"level": 180,
+"required": 4691216,
+"total": 148823088
+},
+{
+"level": 181,
+"required": 4802288,
+"total": 153625376
+},
+{
+"level": 182,
+"required": 4926096,
+"total": 158551472
+},
+{
+"level": 183,
+"required": 5038368,
+"total": 163589840
+},
+{
+"level": 184,
+"required": 5151152,
+"total": 168740992
+},
+{
+"level": 185,
+"required": 5264032,
+"total": 174005024
+},
+{
+"level": 186,
+"required": 5377776,
+"total": 179382800
+},
+{
+"level": 187,
+"required": 220800,
+"total": 179603600
+},
+{
+"level": 188,
+"required": 550736,
+"total": 180154336
+},
+{
+"level": 189,
+"required": 836336,
+"total": 180990672
+},
+{
+"level": 190,
+"required": 1100528,
+"total": 182091200
+},
+{
+"level": 191,
+"required": 1352560,
+"total": 183443760
+},
+{
+"level": 192,
+"required": 1595920,
+"total": 185039680
+},
+{
+"level": 193,
+"required": 1833296,
+"total": 186872976
+},
+{
+"level": 194,
+"required": 2065456,
+"total": 188938432
+},
+{
+"level": 195,
+"required": 2294336,
+"total": 191232768
+},
+{
+"level": 196,
+"required": 2519872,
+"total": 193752640
+},
+{
+"level": 197,
+"required": 2749328,
+"total": 196501968
+},
+{
+"level": 198,
+"required": 2970960,
+"total": 199472928
+},
+{
+"level": 199,
+"required": 3190752,
+"total": 202663680
+},
+{
+"level": 200,
+"required": 3409440,
+"total": 206073120
+},
+{
+"level": 201,
+"required": 3627056,
+"total": 209700176
+},
+{
+"level": 202,
+"required": 3843504,
+"total": 213543680
+},
+{
+"level": 203,
+"required": 4059200,
+"total": 217602880
+},
+{
+"level": 204,
+"required": 4274544,
+"total": 221877424
+},
+{
+"level": 205,
+"required": 4499744,
+"total": 226377168
+},
+{
+"level": 206,
+"required": 4714736,
+"total": 231091904
+},
+{
+"level": 207,
+"required": 4929264,
+"total": 236021168
+},
+{
+"level": 208,
+"required": 5143744,
+"total": 241164912
+},
+{
+"level": 209,
+"required": 5358192,
+"total": 246523104
+},
+{
+"level": 210,
+"required": 5572992,
+"total": 252096096
+},
+{
+"level": 211,
+"required": 5787232,
+"total": 257883328
+},
+{
+"level": 212,
+"required": 6002256,
+"total": 263885584
+},
+{
+"level": 213,
+"required": 6230768,
+"total": 270116352
+},
+{
+"level": 214,
+"required": 6446368,
+"total": 276562720
+},
+{
+"level": 215,
+"required": 6662176,
+"total": 283224896
+},
+{
+"level": 216,
+"required": 6878240,
+"total": 290103136
+},
+{
+"level": 217,
+"required": 7094560,
+"total": 297197696
+},
+{
+"level": 218,
+"required": 7311552,
+"total": 304509248
+},
+{
+"level": 219,
+"required": 7528704,
+"total": 312037952
+},
+{
+"level": 220,
+"required": 7746560,
+"total": 319784512
+},
+{
+"level": 221,
+"required": 7981408,
+"total": 327765920
+},
+{
+"level": 222,
+"required": 8200864,
+"total": 335966784
+},
+{
+"level": 223,
+"required": 8420000,
+"total": 344386784
+},
+{
+"level": 224,
+"required": 8640192,
+"total": 353026976
+},
+{
+"level": 225,
+"required": 8860992,
+"total": 361887968
+},
+{
+"level": 226,
+"required": 9082336,
+"total": 370970304
+},
+{
+"level": 227,
+"required": 9304224,
+"total": 380274528
+},
+{
+"level": 228,
+"required": 9526720,
+"total": 389801248
+},
+{
+"level": 229,
+"required": 9769600,
+"total": 399570848
+},
+{
+"level": 230,
+"required": 9993504,
+"total": 409564352
+},
+{
+"level": 231,
+"required": 10218400,
+"total": 419782752
+},
+{
+"level": 232,
+"required": 10443776,
+"total": 430226528
+},
+{
+"level": 233,
+"required": 10670144,
+"total": 440896672
+},
+{
+"level": 234,
+"required": 10896512,
+"total": 451793184
+},
+{
+"level": 235,
+"required": 11124320,
+"total": 462917504
+},
+{
+"level": 236,
+"required": 11375104,
+"total": 474292608
+},
+{
+"level": 237,
+"required": 704736,
+"total": 474997344
+},
+{
+"level": 238,
+"required": 1756064,
+"total": 476753408
+},
+{
+"level": 239,
+"required": 2657696,
+"total": 479411104
+},
+{
+"level": 240,
+"required": 3494048,
+"total": 482905152
+},
+{
+"level": 241,
+"required": 4289440,
+"total": 487194592
+},
+{
+"level": 242,
+"required": 5056768,
+"total": 492251360
+},
+{
+"level": 243,
+"required": 5802432,
+"total": 498053792
+},
+{
+"level": 244,
+"required": 6544320,
+"total": 504598112
+},
+{
+"level": 245,
+"required": 7261056,
+"total": 511859168
+},
+{
+"level": 246,
+"required": 7967328,
+"total": 519826496
+},
+{
+"level": 247,
+"required": 8664480,
+"total": 528490976
+},
+{
+"level": 248,
+"required": 9353952,
+"total": 537844928
+},
+{
+"level": 249,
+"required": 10036736,
+"total": 547881664
+},
+{
+"level": 250,
+"required": 10714176,
+"total": 558595840
+},
+{
+"level": 251,
+"required": 11387328,
+"total": 569983168
+},
+{
+"level": 252,
+"required": 12078400,
+"total": 582061568
+},
+{
+"level": 253,
+"required": 12745472,
+"total": 594807040
+},
+{
+"level": 254,
+"required": 13408832,
+"total": 608215872
+},
+{
+"level": 255,
+"required": 14070272,
+"total": 622286144
+},
+{
+"level": 256,
+"required": 14729024,
+"total": 637015168
+},
+{
+"level": 257,
+"required": 15386304,
+"total": 652401472
+},
+{
+"level": 258,
+"required": 16042368,
+"total": 668443840
+},
+{
+"level": 259,
+"required": 16696704,
+"total": 685140544
+},
+{
+"level": 260,
+"required": 17381696,
+"total": 702522240
+},
+{
+"level": 261,
+"required": 18035648,
+"total": 720557888
+},
+{
+"level": 262,
+"required": 18688896,
+"total": 739246784
+},
+{
+"level": 263,
+"required": 19341824,
+"total": 758588608
+},
+{
+"level": 264,
+"required": 19994304,
+"total": 778582912
+},
+{
+"level": 265,
+"required": 20647168,
+"total": 799230080
+},
+{
+"level": 266,
+"required": 21299392,
+"total": 820529472
+},
+{
+"level": 267,
+"required": 21952448,
+"total": 842481920
+},
+{
+"level": 268,
+"required": 22644928,
+"total": 865126848
+},
+{
+"level": 269,
+"required": 23299008,
+"total": 888425856
+},
+{
+"level": 270,
+"required": 23954176,
+"total": 912380032
+},
+{
+"level": 271,
+"required": 24609216,
+"total": 936989248
+},
+{
+"level": 272,
+"required": 25265344,
+"total": 962254592
+},
+{
+"level": 273,
+"required": 25921984,
+"total": 988176576
+},
+{
+"level": 274,
+"required": 26579456,
+"total": 1014756032
+},
+{
+"level": 275,
+"required": 27237952,
+"total": 1041993984
+},
+{
+"level": 276,
+"required": 27944192,
+"total": 1069938176
+},
+{
+"level": 277,
+"required": 28605440,
+"total": 1098543616
+},
+{
+"level": 278,
+"required": 29267584,
+"total": 1127811200
+},
+{
+"level": 279,
+"required": 29931136,
+"total": 1157742336
+},
+{
+"level": 280,
+"required": 30595456,
+"total": 1188337792
+},
+{
+"level": 281,
+"required": 31261184,
+"total": 1219598976
+},
+{
+"level": 282,
+"required": 31927680,
+"total": 1251526656
+},
+{
+"level": 283,
+"required": 32649984,
+"total": 1284176640
+},
+{
+"level": 284,
+"required": 33320064,
+"total": 1317496704
+},
+{
+"level": 285,
+"required": 33991936,
+"total": 1351488640
+},
+{
+"level": 286,
+"required": 34665088,
+"total": 1386153728
+},
+{
+"level": 287,
+"required": 852096,
+"total": 1387005824
+},
+{
+"level": 288,
+"required": 2121728,
+"total": 1389127552
+},
+{
+"level": 289,
+"required": 3209088,
+"total": 1392336640
+},
+{
+"level": 290,
+"required": 4215936,
+"total": 1396552576
+},
+{
+"level": 291,
+"required": 5180672,
+"total": 1401733248
+},
+{
+"level": 292,
+"required": 6103296,
+"total": 1407836544
+},
+{
+"level": 293,
+"required": 6998656,
+"total": 1414835200
+},
+{
+"level": 294,
+"required": 7873280,
+"total": 1422708480
+},
+{
+"level": 295,
+"required": 8729984,
+"total": 1431438464
+},
+{
+"level": 296,
+"required": 9572864,
+"total": 1441011328
+},
+{
+"level": 297,
+"required": 10403968,
+"total": 1451415296
+},
+{
+"level": 298,
+"required": 11224704,
+"total": 1462640000
+},
+{
+"level": 299,
+"required": 12055424,
+"total": 1474695424
+},
+{
+"level": 300,
+"required": 12860928,
+"total": 1487556352
+},
+{
+"level": 301,
+"required": 13660544,
+"total": 1501216896
+},
+{
+"level": 302,
+"required": 14453888,
+"total": 1515670784
+}
+],
+"class_by_rank": {
+"Rank 1": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 58,
+"total": 58
+},
+{
+"level": 3,
+"required": 209,
+"total": 267
+},
+{
+"level": 4,
+"required": 386,
+"total": 653
+},
+{
+"level": 5,
+"required": 578,
+"total": 1231
+},
+{
+"level": 6,
+"required": 780,
+"total": 2011
+},
+{
+"level": 7,
+"required": 993,
+"total": 3004
+},
+{
+"level": 8,
+"required": 1213,
+"total": 4217
+},
+{
+"level": 9,
+"required": 1440,
+"total": 5657
+},
+{
+"level": 10,
+"required": 1673,
+"total": 7330
+},
+{
+"level": 11,
+"required": 1913,
+"total": 9243
+},
+{
+"level": 12,
+"required": 2156,
+"total": 11399
+},
+{
+"level": 13,
+"required": 2405,
+"total": 13804
+},
+{
+"level": 14,
+"required": 2658,
+"total": 16462
+},
+{
+"level": 15,
+"required": 2915,
+"total": 19377
+}
+],
+"Rank 2": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 2724,
+"total": 2724
+},
+{
+"level": 3,
+"required": 9795,
+"total": 12519
+},
+{
+"level": 4,
+"required": 18029,
+"total": 30548
+},
+{
+"level": 5,
+"required": 26976,
+"total": 57524
+},
+{
+"level": 6,
+"required": 36459,
+"total": 93983
+},
+{
+"level": 7,
+"required": 46379,
+"total": 140362
+},
+{
+"level": 8,
+"required": 56668,
+"total": 197030
+},
+{
+"level": 9,
+"required": 67281,
+"total": 264311
+},
+{
+"level": 10,
+"required": 78181,
+"total": 342492
+},
+{
+"level": 11,
+"required": 89342,
+"total": 431834
+},
+{
+"level": 12,
+"required": 100741,
+"total": 532575
+},
+{
+"level": 13,
+"required": 112360,
+"total": 644935
+},
+{
+"level": 14,
+"required": 124182,
+"total": 769117
+},
+{
+"level": 15,
+"required": 136196,
+"total": 905313
+}
+],
+"Rank 3": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 16004,
+"total": 16004
+},
+{
+"level": 3,
+"required": 57532,
+"total": 73536
+},
+{
+"level": 4,
+"required": 105896,
+"total": 179432
+},
+{
+"level": 5,
+"required": 158451,
+"total": 337883
+},
+{
+"level": 6,
+"required": 214155,
+"total": 552038
+},
+{
+"level": 7,
+"required": 272418,
+"total": 824456
+},
+{
+"level": 8,
+"required": 332856,
+"total": 1157312
+},
+{
+"level": 9,
+"required": 395193,
+"total": 1552505
+},
+{
+"level": 10,
+"required": 459220,
+"total": 2011725
+},
+{
+"level": 11,
+"required": 524776,
+"total": 2536501
+},
+{
+"level": 12,
+"required": 591731,
+"total": 3128232
+},
+{
+"level": 13,
+"required": 659976,
+"total": 3788208
+},
+{
+"level": 14,
+"required": 729420,
+"total": 4517628
+},
+{
+"level": 15,
+"required": 799985,
+"total": 5317613
+}
+],
+"Rank 4": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 57976,
+"total": 57976
+},
+{
+"level": 3,
+"required": 208412,
+"total": 266388
+},
+{
+"level": 4,
+"required": 383617,
+"total": 650005
+},
+{
+"level": 5,
+"required": 573997,
+"total": 1224002
+},
+{
+"level": 6,
+"required": 775787,
+"total": 1999789
+},
+{
+"level": 7,
+"required": 986852,
+"total": 2986641
+},
+{
+"level": 8,
+"required": 1205790,
+"total": 4192431
+},
+{
+"level": 9,
+"required": 1431606,
+"total": 5624037
+},
+{
+"level": 10,
+"required": 1663550,
+"total": 7287587
+},
+{
+"level": 11,
+"required": 1901032,
+"total": 9188619
+},
+{
+"level": 12,
+"required": 2143579,
+"total": 11332198
+},
+{
+"level": 13,
+"required": 2390800,
+"total": 13722998
+},
+{
+"level": 14,
+"required": 2642365,
+"total": 16365363
+},
+{
+"level": 15,
+"required": 2897993,
+"total": 19263356
+}
+],
+"Rank 5": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 245833,
+"total": 245833
+},
+{
+"level": 3,
+"required": 883722,
+"total": 1129555
+},
+{
+"level": 4,
+"required": 1626630,
+"total": 2756185
+},
+{
+"level": 5,
+"required": 2433890,
+"total": 5190075
+},
+{
+"level": 6,
+"required": 3289531,
+"total": 8479606
+},
+{
+"level": 7,
+"required": 4184497,
+"total": 12664103
+},
+{
+"level": 8,
+"required": 5112853,
+"total": 17776956
+},
+{
+"level": 9,
+"required": 6070368,
+"total": 23847324
+},
+{
+"level": 10,
+"required": 7053866,
+"total": 30901190
+},
+{
+"level": 11,
+"required": 8060850,
+"total": 38962040
+},
+{
+"level": 12,
+"required": 9089312,
+"total": 48051352
+},
+{
+"level": 13,
+"required": 10137584,
+"total": 58188936
+},
+{
+"level": 14,
+"required": 11204288,
+"total": 69393224
+},
+{
+"level": 15,
+"required": 12288216,
+"total": 81681440
+}
+],
+"Rank 6": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 535630,
+"total": 535630
+},
+{
+"level": 3,
+"required": 1925481,
+"total": 2461111
+},
+{
+"level": 4,
+"required": 3544152,
+"total": 6005263
+},
+{
+"level": 5,
+"required": 5303036,
+"total": 11308299
+},
+{
+"level": 6,
+"required": 7167333,
+"total": 18475632
+},
+{
+"level": 7,
+"required": 9117312,
+"total": 27592944
+},
+{
+"level": 8,
+"required": 11140044,
+"total": 38732988
+},
+{
+"level": 9,
+"required": 13226312,
+"total": 51959300
+},
+{
+"level": 10,
+"required": 15369180,
+"total": 67328480
+},
+{
+"level": 11,
+"required": 17563232,
+"total": 84891712
+},
+{
+"level": 12,
+"required": 19804080,
+"total": 104695792
+},
+{
+"level": 13,
+"required": 22088096,
+"total": 126783888
+},
+{
+"level": 14,
+"required": 24412240,
+"total": 151196128
+},
+{
+"level": 15,
+"required": 26773952,
+"total": 177970080
+}
+],
+"Rank 7": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 1647370,
+"total": 1647370
+},
+{
+"level": 3,
+"required": 5921956,
+"total": 7569326
+},
+{
+"level": 4,
+"required": 10900296,
+"total": 18469622
+},
+{
+"level": 5,
+"required": 16309870,
+"total": 34779492
+},
+{
+"level": 6,
+"required": 22043652,
+"total": 56823144
+},
+{
+"level": 7,
+"required": 28040952,
+"total": 84864096
+},
+{
+"level": 8,
+"required": 34262008,
+"total": 119126104
+},
+{
+"level": 9,
+"required": 40678472,
+"total": 159804576
+},
+{
+"level": 10,
+"required": 47269040,
+"total": 207073616
+},
+{
+"level": 11,
+"required": 54016992,
+"total": 261090608
+},
+{
+"level": 12,
+"required": 60908880,
+"total": 321999488
+},
+{
+"level": 13,
+"required": 67933504,
+"total": 389932992
+},
+{
+"level": 14,
+"required": 75081664,
+"total": 465014656
+},
+{
+"level": 15,
+"required": 82345216,
+"total": 547359872
+}
+],
+"Total EXP": [
+{
+"level": 1,
+"required": 19377,
+"total": 19377
+},
+{
+"level": 2,
+"required": 905313,
+"total": 924690
+},
+{
+"level": 3,
+"required": 5317613,
+"total": 6242303
+},
+{
+"level": 4,
+"required": 19263356,
+"total": 25505659
+},
+{
+"level": 5,
+"required": 81681440,
+"total": 107187099
+},
+{
+"level": 6,
+"required": 177970080,
+"total": 285157179
+},
+{
+"level": 7,
+"required": 547359872,
+"total": 832517051
+}
+]
+},
+"companion": {
+"Friend EXP": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 60,
+"total": 60
+},
+{
+"level": 3,
+"required": 180,
+"total": 240
+},
+{
+"level": 4,
+"required": 300,
+"total": 540
+},
+{
+"level": 5,
+"required": 420,
+"total": 960
+},
+{
+"level": 6,
+"required": 540,
+"total": 1500
+},
+{
+"level": 7,
+"required": 660,
+"total": 2160
+},
+{
+"level": 8,
+"required": 780,
+"total": 2940
+},
+{
+"level": 9,
+"required": 900,
+"total": 3840
+},
+{
+"level": 10,
+"required": 1020,
+"total": 4860
+},
+{
+"level": 11,
+"required": 10140,
+"total": 15000
+}
+],
+"Companion EXP": [
+{
+"level": 1,
+"required": 0,
+"total": 0
+},
+{
+"level": 2,
+"required": 8,
+"total": 8
+},
+{
+"level": 3,
+"required": 18,
+"total": 26
+},
+{
+"level": 4,
+"required": 28,
+"total": 54
+},
+{
+"level": 5,
+"required": 36,
+"total": 90
+},
+{
+"level": 6,
+"required": 44,
+"total": 134
+},
+{
+"level": 7,
+"required": 51,
+"total": 185
+},
+{
+"level": 8,
+"required": 59,
+"total": 244
+},
+{
+"level": 9,
+"required": 66,
+"total": 310
+},
+{
+"level": 10,
+"required": 73,
+"total": 383
+},
+{
+"level": 11,
+"required": 79,
+"total": 462
+},
+{
+"level": 12,
+"required": 86,
+"total": 548
+},
+{
+"level": 13,
+"required": 92,
+"total": 640
+},
+{
+"level": 14,
+"required": 99,
+"total": 739
+},
+{
+"level": 15,
+"required": 105,
+"total": 844
+},
+{
+"level": 16,
+"required": 111,
+"total": 955
+},
+{
+"level": 17,
+"required": 117,
+"total": 1072
+},
+{
+"level": 18,
+"required": 246,
+"total": 1318
+},
+{
+"level": 19,
+"required": 258,
+"total": 1576
+},
+{
+"level": 20,
+"required": 270,
+"total": 1846
+},
+{
+"level": 21,
+"required": 282,
+"total": 2128
+},
+{
+"level": 22,
+"required": 292,
+"total": 2420
+},
+{
+"level": 23,
+"required": 304,
+"total": 2724
+},
+{
+"level": 24,
+"required": 316,
+"total": 3040
+},
+{
+"level": 25,
+"required": 326,
+"total": 3366
+},
+{
+"level": 26,
+"required": 338,
+"total": 3704
+},
+{
+"level": 27,
+"required": 522,
+"total": 4226
+},
+{
+"level": 28,
+"required": 540,
+"total": 4766
+},
+{
+"level": 29,
+"required": 555,
+"total": 5321
+},
+{
+"level": 30,
+"required": 570,
+"total": 5891
+},
+{
+"level": 31,
+"required": 588,
+"total": 6479
+},
+{
+"level": 32,
+"required": 603,
+"total": 7082
+},
+{
+"level": 33,
+"required": 618,
+"total": 7700
+},
+{
+"level": 34,
+"required": 633,
+"total": 8333
+},
+{
+"level": 35,
+"required": 651,
+"total": 8984
+},
+{
+"level": 36,
+"required": 666,
+"total": 9650
+},
+{
+"level": 37,
+"required": 908,
+"total": 10558
+},
+{
+"level": 38,
+"required": 928,
+"total": 11486
+},
+{
+"level": 39,
+"required": 948,
+"total": 12434
+},
+{
+"level": 40,
+"required": 968,
+"total": 13402
+},
+{
+"level": 41,
+"required": 988,
+"total": 14390
+},
+{
+"level": 42,
+"required": 1008,
+"total": 15398
+},
+{
+"level": 43,
+"required": 1028,
+"total": 16426
+},
+{
+"level": 44,
+"required": 1048,
+"total": 17474
+},
+{
+"level": 45,
+"required": 1068,
+"total": 18542
+},
+{
+"level": 46,
+"required": 1360,
+"total": 19902
+},
+{
+"level": 47,
+"required": 1385,
+"total": 21287
+},
+{
+"level": 48,
+"required": 1405,
+"total": 22692
+},
+{
+"level": 49,
+"required": 1430,
+"total": 24122
+},
+{
+"level": 50,
+"required": 1455,
+"total": 25577
+},
+{
+"level": 51,
+"required": 1480,
+"total": 27057
+},
+{
+"level": 52,
+"required": 1505,
+"total": 28562
+},
+{
+"level": 53,
+"required": 1525,
+"total": 30087
+},
+{
+"level": 54,
+"required": 1550,
+"total": 31637
+},
+{
+"level": 55,
+"required": 1575,
+"total": 33212
+},
+{
+"level": 56,
+"required": 1914,
+"total": 35126
+},
+{
+"level": 57,
+"required": 1944,
+"total": 37070
+},
+{
+"level": 58,
+"required": 1974,
+"total": 39044
+},
+{
+"level": 59,
+"required": 1998,
+"total": 41042
+},
+{
+"level": 60,
+"required": 2028,
+"total": 43070
+},
+{
+"level": 61,
+"required": 2058,
+"total": 45128
+},
+{
+"level": 62,
+"required": 2082,
+"total": 47210
+},
+{
+"level": 63,
+"required": 2112,
+"total": 49322
+},
+{
+"level": 64,
+"required": 2136,
+"total": 51458
+},
+{
+"level": 65,
+"required": 2527,
+"total": 53985
+},
+{
+"level": 66,
+"required": 2555,
+"total": 56540
+},
+{
+"level": 67,
+"required": 2590,
+"total": 59130
+},
+{
+"level": 68,
+"required": 2625,
+"total": 61755
+},
+{
+"level": 69,
+"required": 2653,
+"total": 64408
+},
+{
+"level": 70,
+"required": 2681,
+"total": 67089
+},
+{
+"level": 71,
+"required": 2716,
+"total": 69805
+},
+{
+"level": 72,
+"required": 2744,
+"total": 72549
+},
+{
+"level": 73,
+"required": 2779,
+"total": 75328
+},
+{
+"level": 74,
+"required": 3208,
+"total": 78536
+},
+{
+"level": 75,
+"required": 3248,
+"total": 81784
+},
+{
+"level": 76,
+"required": 3280,
+"total": 85064
+},
+{
+"level": 77,
+"required": 3312,
+"total": 88376
+},
+{
+"level": 78,
+"required": 3352,
+"total": 91728
+},
+{
+"level": 79,
+"required": 3384,
+"total": 95112
+},
+{
+"level": 80,
+"required": 3424,
+"total": 98536
+},
+{
+"level": 81,
+"required": 3456,
+"total": 101992
+},
+{
+"level": 82,
+"required": 3488,
+"total": 105480
+},
+{
+"level": 83,
+"required": 3528,
+"total": 109008
+},
+{
+"level": 84,
+"required": 4005,
+"total": 113013
+},
+{
+"level": 85,
+"required": 4041,
+"total": 117054
+},
+{
+"level": 86,
+"required": 4086,
+"total": 121140
+},
+{
+"level": 87,
+"required": 4122,
+"total": 125262
+},
+{
+"level": 88,
+"required": 4158,
+"total": 129420
+},
+{
+"level": 89,
+"required": 4194,
+"total": 133614
+},
+{
+"level": 90,
+"required": 4239,
+"total": 137853
+},
+{
+"level": 91,
+"required": 4275,
+"total": 142128
+},
+{
+"level": 92,
+"required": 4311,
+"total": 146439
+},
+{
+"level": 93,
+"required": 4830,
+"total": 151269
+},
+{
+"level": 94,
+"required": 4870,
+"total": 156139
+},
+{
+"level": 95,
+"required": 4920,
+"total": 161059
+},
+{
+"level": 96,
+"required": 4960,
+"total": 166019
+},
+{
+"level": 97,
+"required": 5000,
+"total": 171019
+},
+{
+"level": 98,
+"required": 5040,
+"total": 176059
+},
+{
+"level": 99,
+"required": 5080,
+"total": 181139
+},
+{
+"level": 100,
+"required": 5130,
+"total": 186269
+},
+{
+"level": 101,
+"required": 5170,
+"total": 191439
+},
+{
+"level": 102,
+"required": 5210,
+"total": 196649
+},
+{
+"level": 103,
+"required": 5775,
+"total": 202424
+},
+{
+"level": 104,
+"required": 5819,
+"total": 208243
+},
+{
+"level": 105,
+"required": 5863,
+"total": 214106
+},
+{
+"level": 106,
+"required": 5907,
+"total": 220013
+},
+{
+"level": 107,
+"required": 5962,
+"total": 225975
+},
+{
+"level": 108,
+"required": 6006,
+"total": 231981
+},
+{
+"level": 109,
+"required": 6050,
+"total": 238031
+},
+{
+"level": 110,
+"required": 6094,
+"total": 244125
+},
+{
+"level": 111,
+"required": 6138,
+"total": 250263
+},
+{
+"level": 112,
+"required": 6744,
+"total": 257007
+},
+{
+"level": 113,
+"required": 6792,
+"total": 263799
+},
+{
+"level": 114,
+"required": 6840,
+"total": 270639
+},
+{
+"level": 115,
+"required": 6888,
+"total": 277527
+},
+{
+"level": 116,
+"required": 6936,
+"total": 284463
+},
+{
+"level": 117,
+"required": 6984,
+"total": 291447
+},
+{
+"level": 118,
+"required": 7032,
+"total": 298479
+},
+{
+"level": 119,
+"required": 7080,
+"total": 305559
+},
+{
+"level": 120,
+"required": 7128,
+"total": 312687
+},
+{
+"level": 121,
+"required": 7774,
+"total": 320461
+},
+{
+"level": 122,
+"required": 7826,
+"total": 328287
+},
+{
+"level": 123,
+"required": 7878,
+"total": 336165
+},
+{
+"level": 124,
+"required": 7930,
+"total": 344095
+},
+{
+"level": 125,
+"required": 7982,
+"total": 352077
+},
+{
+"level": 126,
+"required": 8034,
+"total": 360111
+},
+{
+"level": 127,
+"required": 8086,
+"total": 368197
+},
+{
+"level": 128,
+"required": 8138,
+"total": 376335
+},
+{
+"level": 129,
+"required": 8190,
+"total": 384525
+},
+{
+"level": 130,
+"required": 8242,
+"total": 392767
+},
+{
+"level": 131,
+"required": 8932,
+"total": 401699
+},
+{
+"level": 132,
+"required": 8988,
+"total": 410687
+},
+{
+"level": 133,
+"required": 9044,
+"total": 419731
+},
+{
+"level": 134,
+"required": 9100,
+"total": 428831
+},
+{
+"level": 135,
+"required": 9156,
+"total": 437987
+},
+{
+"level": 136,
+"required": 9212,
+"total": 447199
+},
+{
+"level": 137,
+"required": 9254,
+"total": 456453
+},
+{
+"level": 138,
+"required": 9310,
+"total": 465763
+},
+{
+"level": 139,
+"required": 9366,
+"total": 475129
+},
+{
+"level": 140,
+"required": 10095,
+"total": 485224
+},
+{
+"level": 141,
+"required": 10155,
+"total": 495379
+},
+{
+"level": 142,
+"required": 10215,
+"total": 505594
+},
+{
+"level": 143,
+"required": 10275,
+"total": 515869
+},
+{
+"level": 144,
+"required": 10335,
+"total": 526204
+},
+{
+"level": 145,
+"required": 10395,
+"total": 536599
+},
+{
+"level": 146,
+"required": 10440,
+"total": 547039
+},
+{
+"level": 147,
+"required": 10500,
+"total": 557539
+},
+{
+"level": 148,
+"required": 10560,
+"total": 568099
+},
+{
+"level": 149,
+"required": 10620,
+"total": 578719
+},
+{
+"level": 150,
+"required": 11392,
+"total": 590111
+},
+{
+"level": 151,
+"required": 11456,
+"total": 601567
+},
+{
+"level": 152,
+"required": 11504,
+"total": 613071
+},
+{
+"level": 153,
+"required": 11568,
+"total": 624639
+},
+{
+"level": 154,
+"required": 11632,
+"total": 636271
+},
+{
+"level": 155,
+"required": 11696,
+"total": 647967
+},
+{
+"level": 156,
+"required": 11760,
+"total": 659727
+},
+{
+"level": 157,
+"required": 11808,
+"total": 671535
+},
+{
+"level": 158,
+"required": 11872,
+"total": 683407
+},
+{
+"level": 159,
+"required": 12682,
+"total": 696089
+},
+{
+"level": 160,
+"required": 12750,
+"total": 708839
+},
+{
+"level": 161,
+"required": 12818,
+"total": 721657
+},
+{
+"level": 162,
+"required": 12869,
+"total": 734526
+},
+{
+"level": 163,
+"required": 12937,
+"total": 747463
+},
+{
+"level": 164,
+"required": 13005,
+"total": 760468
+},
+{
+"level": 165,
+"required": 13073,
+"total": 773541
+},
+{
+"level": 166,
+"required": 13124,
+"total": 786665
+},
+{
+"level": 167,
+"required": 13192,
+"total": 799857
+},
+{
+"level": 168,
+"required": 14040,
+"total": 813897
+},
+{
+"level": 169,
+"required": 14112,
+"total": 828009
+},
+{
+"level": 170,
+"required": 14166,
+"total": 842175
+},
+{
+"level": 171,
+"required": 14238,
+"total": 856413
+},
+{
+"level": 172,
+"required": 14310,
+"total": 870723
+},
+{
+"level": 173,
+"required": 14382,
+"total": 885105
+},
+{
+"level": 174,
+"required": 14436,
+"total": 899541
+},
+{
+"level": 175,
+"required": 14508,
+"total": 914049
+},
+{
+"level": 176,
+"required": 14580,
+"total": 928629
+},
+{
+"level": 177,
+"required": 14634,
+"total": 943263
+},
+{
+"level": 178,
+"required": 15523,
+"total": 958786
+},
+{
+"level": 179,
+"required": 15599,
+"total": 974385
+},
+{
+"level": 180,
+"required": 15675,
+"total": 990060
+},
+{
+"level": 181,
+"required": 15732,
+"total": 1005792
+},
+{
+"level": 182,
+"required": 15808,
+"total": 1021600
+},
+{
+"level": 183,
+"required": 15884,
+"total": 1037484
+},
+{
+"level": 184,
+"required": 15941,
+"total": 1053425
+},
+{
+"level": 185,
+"required": 16017,
+"total": 1069442
+},
+{
+"level": 186,
+"required": 16093,
+"total": 1085535
+},
+{
+"level": 187,
+"required": 17000,
+"total": 1102535
+},
+{
+"level": 188,
+"required": 17080,
+"total": 1119615
+},
+{
+"level": 189,
+"required": 17160,
+"total": 1136775
+},
+{
+"level": 190,
+"required": 17220,
+"total": 1153995
+},
+{
+"level": 191,
+"required": 17300,
+"total": 1171295
+},
+{
+"level": 192,
+"required": 17380,
+"total": 1188675
+},
+{
+"level": 193,
+"required": 17440,
+"total": 1206115
+},
+{
+"level": 194,
+"required": 17520,
+"total": 1223635
+},
+{
+"level": 195,
+"required": 17600,
+"total": 1241235
+},
+{
+"level": 196,
+"required": 17660,
+"total": 1258895
+},
+{
+"level": 197,
+"required": 18627,
+"total": 1277522
+},
+{
+"level": 198,
+"required": 18690,
+"total": 1296212
+},
+{
+"level": 199,
+"required": 18774,
+"total": 1314986
+},
+{
+"level": 200,
+"required": 18858,
+"total": 1333844
+},
+{
+"level": 201,
+"required": 18921,
+"total": 1352765
+},
+{
+"level": 202,
+"required": 19005,
+"total": 1371770
+},
+{
+"level": 203,
+"required": 19068,
+"total": 1390838
+},
+{
+"level": 204,
+"required": 19152,
+"total": 1409990
+},
+{
+"level": 205,
+"required": 19236,
+"total": 1429226
+},
+{
+"level": 206,
+"required": 20218,
+"total": 1449444
+},
+{
+"level": 207,
+"required": 20306,
+"total": 1469750
+},
+{
+"level": 208,
+"required": 20372,
+"total": 1490122
+},
+{
+"level": 209,
+"required": 20460,
+"total": 1510582
+},
+{
+"level": 210,
+"required": 20548,
+"total": 1531130
+},
+{
+"level": 211,
+"required": 20614,
+"total": 1551744
+},
+{
+"level": 212,
+"required": 20702,
+"total": 1572446
+},
+{
+"level": 213,
+"required": 20768,
+"total": 1593214
+},
+{
+"level": 214,
+"required": 20856,
+"total": 1614070
+},
+{
+"level": 215,
+"required": 21873,
+"total": 1635943
+},
+{
+"level": 216,
+"required": 21965,
+"total": 1657908
+},
+{
+"level": 217,
+"required": 22057,
+"total": 1679965
+},
+{
+"level": 218,
+"required": 22126,
+"total": 1702091
+},
+{
+"level": 219,
+"required": 22218,
+"total": 1724309
+},
+{
+"level": 220,
+"required": 22287,
+"total": 1746596
+},
+{
+"level": 221,
+"required": 22379,
+"total": 1768975
+},
+{
+"level": 222,
+"required": 22448,
+"total": 1791423
+},
+{
+"level": 223,
+"required": 22540,
+"total": 1813963
+},
+{
+"level": 224,
+"required": 22609,
+"total": 1836572
+},
+{
+"level": 225,
+"required": 23688,
+"total": 1860260
+},
+{
+"level": 226,
+"required": 23760,
+"total": 1884020
+},
+{
+"level": 227,
+"required": 23856,
+"total": 1907876
+},
+{
+"level": 228,
+"required": 23952,
+"total": 1931828
+},
+{
+"level": 229,
+"required": 24024,
+"total": 1955852
+},
+{
+"level": 230,
+"required": 24120,
+"total": 1979972
+},
+{
+"level": 231,
+"required": 24192,
+"total": 2004164
+},
+{
+"level": 232,
+"required": 24288,
+"total": 2028452
+},
+{
+"level": 233,
+"required": 24360,
+"total": 2052812
+},
+{
+"level": 234,
+"required": 25475,
+"total": 2078287
+},
+{
+"level": 235,
+"required": 25550,
+"total": 2103837
+},
+{
+"level": 236,
+"required": 25650,
+"total": 2129487
+},
+{
+"level": 237,
+"required": 25725,
+"total": 2155212
+},
+{
+"level": 238,
+"required": 25825,
+"total": 2181037
+},
+{
+"level": 239,
+"required": 25900,
+"total": 2206937
+},
+{
+"level": 240,
+"required": 26000,
+"total": 2232937
+},
+{
+"level": 241,
+"required": 26075,
+"total": 2259012
+},
+{
+"level": 242,
+"required": 26175,
+"total": 2285187
+},
+{
+"level": 243,
+"required": 26250,
+"total": 2311437
+},
+{
+"level": 244,
+"required": 27404,
+"total": 2338841
+},
+{
+"level": 245,
+"required": 27482,
+"total": 2366323
+},
+{
+"level": 246,
+"required": 27560,
+"total": 2393883
+},
+{
+"level": 247,
+"required": 27664,
+"total": 2421547
+},
+{
+"level": 248,
+"required": 27742,
+"total": 2449289
+},
+{
+"level": 249,
+"required": 27846,
+"total": 2477135
+},
+{
+"level": 250,
+"required": 27924,
+"total": 2505059
+},
+{
+"level": 251,
+"required": 28028,
+"total": 2533087
+},
+{
+"level": 252,
+"required": 28106,
+"total": 2561193
+},
+{
+"level": 253,
+"required": 29295,
+"total": 2590488
+},
+{
+"level": 254,
+"required": 29376,
+"total": 2619864
+},
+{
+"level": 255,
+"required": 29484,
+"total": 2649348
+},
+{
+"level": 256,
+"required": 29565,
+"total": 2678913
+},
+{
+"level": 257,
+"required": 29646,
+"total": 2708559
+},
+{
+"level": 258,
+"required": 29754,
+"total": 2738313
+},
+{
+"level": 259,
+"required": 29835,
+"total": 2768148
+},
+{
+"level": 260,
+"required": 29943,
+"total": 2798091
+},
+{
+"level": 261,
+"required": 30024,
+"total": 2828115
+},
+{
+"level": 262,
+"required": 31248,
+"total": 2859363
+},
+{
+"level": 263,
+"required": 31332,
+"total": 2890695
+},
+{
+"level": 264,
+"required": 31416,
+"total": 2922111
+},
+{
+"level": 265,
+"required": 31528,
+"total": 2953639
+},
+{
+"level": 266,
+"required": 31612,
+"total": 2985251
+},
+{
+"level": 267,
+"required": 31724,
+"total": 3016975
+},
+{
+"level": 268,
+"required": 31808,
+"total": 3048783
+},
+{
+"level": 269,
+"required": 31892,
+"total": 3080675
+},
+{
+"level": 270,
+"required": 32004,
+"total": 3112679
+},
+{
+"level": 271,
+"required": 32088,
+"total": 3144767
+},
+{
+"level": 272,
+"required": 33350,
+"total": 3178117
+},
+{
+"level": 273,
+"required": 33437,
+"total": 3211554
+},
+{
+"level": 274,
+"required": 33524,
+"total": 3245078
+},
+{
+"level": 275,
+"required": 33640,
+"total": 3278718
+},
+{
+"level": 276,
+"required": 33727,
+"total": 3312445
+},
+{
+"level": 277,
+"required": 33843,
+"total": 3346288
+},
+{
+"level": 278,
+"required": 33930,
+"total": 3380218
+},
+{
+"level": 279,
+"required": 34017,
+"total": 3414235
+},
+{
+"level": 280,
+"required": 34133,
+"total": 3448368
+},
+{
+"level": 281,
+"required": 35400,
+"total": 3483768
+},
+{
+"level": 282,
+"required": 35520,
+"total": 3519288
+},
+{
+"level": 283,
+"required": 35610,
+"total": 3554898
+},
+{
+"level": 284,
+"required": 35700,
+"total": 3590598
+},
+{
+"level": 285,
+"required": 35820,
+"total": 3626418
+},
+{
+"level": 286,
+"required": 35910,
+"total": 3662328
+},
+{
+"level": 287,
+"required": 36000,
+"total": 3698328
+},
+{
+"level": 288,
+"required": 36120,
+"total": 3734448
+},
+{
+"level": 289,
+"required": 36210,
+"total": 3770658
+},
+{
+"level": 290,
+"required": 36300,
+"total": 3806958
+},
+{
+"level": 291,
+"required": 37634,
+"total": 3844592
+},
+{
+"level": 292,
+"required": 37727,
+"total": 3882319
+},
+{
+"level": 293,
+"required": 37820,
+"total": 3920139
+},
+{
+"level": 294,
+"required": 37944,
+"total": 3958083
+},
+{
+"level": 295,
+"required": 38037,
+"total": 3996120
+},
+{
+"level": 296,
+"required": 38161,
+"total": 4034281
+},
+{
+"level": 297,
+"required": 38254,
+"total": 4072535
+},
+{
+"level": 298,
+"required": 38347,
+"total": 4110882
+},
+{
+"level": 299,
+"required": 38471,
+"total": 4149353
+},
+{
+"level": 300,
+"required": 39808,
+"total": 4189161
+},
+{
+"level": 301,
+"required": 39904,
+"total": 4229065
+},
+{
+"level": 302,
+"required": 40032,
+"total": 4269097
+},
+{
+"level": 303,
+"required": 40128,
+"total": 4309225
+},
+{
+"level": 304,
+"required": 40224,
+"total": 4349449
+},
+{
+"level": 305,
+"required": 40352,
+"total": 4389801
+},
+{
+"level": 306,
+"required": 40448,
+"total": 4430249
+},
+{
+"level": 307,
+"required": 40544,
+"total": 4470793
+},
+{
+"level": 308,
+"required": 40672,
+"total": 4511465
+},
+{
+"level": 309,
+"required": 42042,
+"total": 4553507
+},
+{
+"level": 310,
+"required": 42141,
+"total": 4595648
+},
+{
+"level": 311,
+"required": 42240,
+"total": 4637888
+},
+{
+"level": 312,
+"required": 42372,
+"total": 4680260
+},
+{
+"level": 313,
+"required": 42471,
+"total": 4722731
+},
+{
+"level": 314,
+"required": 42570,
+"total": 4765301
+},
+{
+"level": 315,
+"required": 42702,
+"total": 4808003
+},
+{
+"level": 316,
+"required": 42801,
+"total": 4850804
+},
+{
+"level": 317,
+"required": 42900,
+"total": 4893704
+},
+{
+"level": 318,
+"required": 42999,
+"total": 4936703
+},
+{
+"level": 319,
+"required": 44438,
+"total": 4981141
+},
+{
+"level": 320,
+"required": 44540,
+"total": 5025681
+},
+{
+"level": 321,
+"required": 44642,
+"total": 5070323
+},
+{
+"level": 322,
+"required": 44778,
+"total": 5115101
+},
+{
+"level": 323,
+"required": 44880,
+"total": 5159981
+},
+{
+"level": 324,
+"required": 44982,
+"total": 5204963
+},
+{
+"level": 325,
+"required": 45084,
+"total": 5250047
+},
+{
+"level": 326,
+"required": 45220,
+"total": 5295267
+},
+{
+"level": 327,
+"required": 45322,
+"total": 5340589
+},
+{
+"level": 328,
+"required": 46760,
+"total": 5387349
+},
+{
+"level": 329,
+"required": 46900,
+"total": 5434249
+},
+{
+"level": 330,
+"required": 47005,
+"total": 5481254
+},
+{
+"level": 331,
+"required": 47110,
+"total": 5528364
+},
+{
+"level": 332,
+"required": 47215,
+"total": 5575579
+},
+{
+"level": 333,
+"required": 47355,
+"total": 5622934
+},
+{
+"level": 334,
+"required": 47460,
+"total": 5670394
+},
+{
+"level": 335,
+"required": 47565,
+"total": 5717959
+},
+{
+"level": 336,
+"required": 47705,
+"total": 5765664
+},
+{
+"level": 337,
+"required": 47810,
+"total": 5813474
+},
+{
+"level": 338,
+"required": 49284,
+"total": 5862758
+},
+{
+"level": 339,
+"required": 49392,
+"total": 5912150
+},
+{
+"level": 340,
+"required": 49536,
+"total": 5961686
+},
+{
+"level": 341,
+"required": 49644,
+"total": 6011330
+},
+{
+"level": 342,
+"required": 49752,
+"total": 6061082
+},
+{
+"level": 343,
+"required": 49860,
+"total": 6110942
+},
+{
+"level": 344,
+"required": 49968,
+"total": 6160910
+},
+{
+"level": 345,
+"required": 50112,
+"total": 6211022
+},
+{
+"level": 346,
+"required": 50220,
+"total": 6261242
+},
+{
+"level": 347,
+"required": 51726,
+"total": 6312968
+},
+{
+"level": 348,
+"required": 51837,
+"total": 6364805
+},
+{
+"level": 349,
+"required": 51985,
+"total": 6416790
+},
+{
+"level": 350,
+"required": 52096,
+"total": 6468886
+},
+{
+"level": 351,
+"required": 52207,
+"total": 6521093
+},
+{
+"level": 352,
+"required": 52318,
+"total": 6573411
+},
+{
+"level": 353,
+"required": 52466,
+"total": 6625877
+},
+{
+"level": 354,
+"required": 52577,
+"total": 6678454
+},
+{
+"level": 355,
+"required": 52688,
+"total": 6731142
+},
+{
+"level": 356,
+"required": 54226,
+"total": 6785368
+},
+{
+"level": 357,
+"required": 54340,
+"total": 6839708
+},
+{
+"level": 358,
+"required": 54492,
+"total": 6894200
+},
+{
+"level": 359,
+"required": 54606,
+"total": 6948806
+},
+{
+"level": 360,
+"required": 54720,
+"total": 7003526
+},
+{
+"level": 361,
+"required": 54834,
+"total": 7058360
+},
+{
+"level": 362,
+"required": 54986,
+"total": 7113346
+},
+{
+"level": 363,
+"required": 55100,
+"total": 7168446
+},
+{
+"level": 364,
+"required": 55214,
+"total": 7223660
+},
+{
+"level": 365,
+"required": 55328,
+"total": 7278988
+},
+{
+"level": 366,
+"required": 56901,
+"total": 7335889
+},
+{
+"level": 367,
+"required": 57057,
+"total": 7392946
+},
+{
+"level": 368,
+"required": 57174,
+"total": 7450120
+},
+{
+"level": 369,
+"required": 57291,
+"total": 7507411
+},
+{
+"level": 370,
+"required": 57408,
+"total": 7564819
+},
+{
+"level": 371,
+"required": 57525,
+"total": 7622344
+},
+{
+"level": 372,
+"required": 57681,
+"total": 7680025
+},
+{
+"level": 373,
+"required": 57798,
+"total": 7737823
+},
+{
+"level": 374,
+"required": 57915,
+"total": 7795738
+},
+{
+"level": 375,
+"required": 59520,
+"total": 7855258
+},
+{
+"level": 376,
+"required": 59640,
+"total": 7914898
+},
+{
+"level": 377,
+"required": 59760,
+"total": 7974658
+},
+{
+"level": 378,
+"required": 59920,
+"total": 8034578
+},
+{
+"level": 379,
+"required": 60040,
+"total": 8094618
+},
+{
+"level": 380,
+"required": 60160,
+"total": 8154778
+},
+{
+"level": 381,
+"required": 60280,
+"total": 8215058
+},
+{
+"level": 382,
+"required": 60400,
+"total": 8275458
+},
+{
+"level": 383,
+"required": 60560,
+"total": 8336018
+},
+{
+"level": 384,
+"required": 60680,
+"total": 8396698
+},
+{
+"level": 385,
+"required": 62320,
+"total": 8459018
+},
+{
+"level": 386,
+"required": 62443,
+"total": 8521461
+},
+{
+"level": 387,
+"required": 62566,
+"total": 8584027
+},
+{
+"level": 388,
+"required": 62689,
+"total": 8646716
+},
+{
+"level": 389,
+"required": 62853,
+"total": 8709569
+},
+{
+"level": 390,
+"required": 62976,
+"total": 8772545
+},
+{
+"level": 391,
+"required": 63099,
+"total": 8835644
+},
+{
+"level": 392,
+"required": 63222,
+"total": 8898866
+},
+{
+"level": 393,
+"required": 63345,
+"total": 8962211
+},
+{
+"level": 394,
+"required": 65016,
+"total": 9027227
+},
+{
+"level": 395,
+"required": 65142,
+"total": 9092369
+},
+{
+"level": 396,
+"required": 65310,
+"total": 9157679
+},
+{
+"level": 397,
+"required": 65436,
+"total": 9223115
+},
+{
+"level": 398,
+"required": 65562,
+"total": 9288677
+},
+{
+"level": 399,
+"required": 65688,
+"total": 9354365
+},
+{
+"level": 400,
+"required": 65814,
+"total": 9420179
+},
+{
+"level": 401,
+"required": 65940,
+"total": 9486119
+}
+]
+}
+}

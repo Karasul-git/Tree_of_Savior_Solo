@@ -74,3 +74,7 @@ Swordsman no nível 100 com 99 pontos, todos em CON, no primeiro rank:
 - A fórmula de **dano**: como o ataque do personagem, o "ataque" de cada habilidade (por exemplo, 56 a 265 na Thrust) e a defesa do alvo se combinam.
 - Os efeitos de **equipamentos**, refinamento e atributos de habilidade.
 - Os valores de **monstros** (HP, ataque, defesa) e de **experiência**.
+
+## Conferência com o wiki da comunidade
+
+O wiki da comunidade do ToSBase ([F144](../fontes.md#f144)) traz as mesmas fórmulas de HP, SP, recuperações, ataque, precisão, esquiva, defesa, crítico, penetração de bloqueio e peso. As duas fontes concordam. Os efeitos de cada ponto de atributo, o dano por tipo de arma e outras regras estão em [Regras do jogo em 2016](regras-do-jogo-2016.md).

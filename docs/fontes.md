@@ -1103,3 +1103,13 @@ As datas abaixo são de captura, não de publicação original. Não equivalem a
 ### F143 · ToSBase · Simulador de habilidades · captura de 16/06/2016
 
 [Captura do Internet Archive](https://web.archive.org/web/20160616111150id_/http://www.tosbase.com/js/skillsim-0.0.2.js) · consulta em 18/11/2026. O código do simulador embute o banco de habilidades da época (64 classes, 350 habilidades com tabelas por nível, 415 atributos). **Limite:** é de junho de 2016, depois das páginas de março e abril, e vários valores mudaram entre as duas capturas (por exemplo, Double Slash e Skyliner); por isso as duas fontes não são misturadas. Fonte de fãs, não extração do cliente.
+
+<a id="f144"></a>
+### F144 · Tree of Savior Wiki (wiki.tosbase.com) · artigos de mecânicas
+
+[Wiki da comunidade do ToSBase](https://web.archive.org/web/2016/http://wiki.tosbase.com/) · artigos de outubro de 2015, capturados entre março e junho de 2016 · consulta em 19/11/2026. Descrevem tipos de dano e armaduras, razão de ataque e defesa em área, atributos, refino, gemas, encaixes, equipamentos, companheiros, grupo, modo de descanso e transporte. **Limite:** é um wiki de fãs do beta de 2015 e pode não refletir o cliente do lançamento; o texto não é reproduzido na wiki do projeto, só os fatos, resumidos.
+
+<a id="f145"></a>
+### F145 · ToSBase · Tabelas de experiência · capturas de abril de 2016
+
+[Tabela de experiência base](https://web.archive.org/web/20160402220018id_/http://www.tosbase.com/game/exp-tables/base) · consulta em 19/11/2026. Experiência por nível do personagem (1 a 302), da classe (7 ranks de 15 níveis) e do companheiro. **Limite:** valores exibidos pelo banco naquela data, não extração do cliente.

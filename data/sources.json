@@ -1792,5 +1792,31 @@
   "url": "https://web.archive.org/web/20160616111150id_/http://www.tosbase.com/js/skillsim-0.0.2.js",
   "supports": "Classes por rank, habilidades por classe, círculo, nível máximo, descrição, recarga e tabela por nível (ataque, SP e efeitos) em 16/06/2016.",
   "limitations": "Captura de junho de 2016, posterior às páginas de março e abril: vários valores mudaram entre as duas (por exemplo, Double Slash, Skyliner), então não se misturam. Fonte de fãs; não é extração do cliente."
+ },
+ {
+  "id": "F144",
+  "title": "Tree of Savior Wiki (wiki.tosbase.com) · artigos de mecânicas · capturas de 2016",
+  "author": "Comunidade do ToSBase (wiki), preservado pelo Internet Archive",
+  "published": "2015-10-24",
+  "captured_at": "2016-04-08T00:00:00Z",
+  "accessed": "2026-11-19",
+  "kind": "archived-community-wiki",
+  "scope": "Artigos de mecânicas escritos em outubro de 2015: tipos de dano e armaduras, razão de ataque e defesa em área, atributos, refino, gemas, encaixes, equipamentos, companheiros, grupo, modo de descanso, transporte e estátuas",
+  "url": "https://web.archive.org/web/2016/http://wiki.tosbase.com/",
+  "supports": "Regras de jogo do período do lançamento em texto, que confirmam as fórmulas da calculadora do ToSBase (F142) e descrevem mecânicas que as tabelas não mostram.",
+  "limitations": "Wiki de fãs do beta de 2015, capturada entre março e junho de 2016; pode não refletir o cliente do lançamento. O texto não é reproduzido na wiki do projeto: só os fatos, resumidos."
+ },
+ {
+  "id": "F145",
+  "title": "ToSBase · Tabelas de experiência · capturas de abril de 2016",
+  "author": "ToSBase, preservado pelo Internet Archive",
+  "published": null,
+  "captured_at": "2016-04-02T22:00:18Z",
+  "accessed": "2026-11-19",
+  "kind": "archived-database",
+  "scope": "Experiência do personagem (níveis 1 a 302), da classe (7 ranks de 15 níveis) e do companheiro",
+  "url": "https://web.archive.org/web/20160402220018id_/http://www.tosbase.com/game/exp-tables/base",
+  "supports": "Experiência necessária por nível, de personagem, classe e companheiro, em 2016.",
+  "limitations": "Valores exibidos pelo banco naquela data; não são extração do cliente."
  }
 ]
