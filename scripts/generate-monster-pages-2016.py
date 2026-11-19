@@ -8,7 +8,17 @@ import json, shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-data = json.loads((ROOT / 'data/research/tosbase-2016-monsters.json').read_text(encoding='utf-8'))['monsters']
+def _esc(obj, skip=('type_line', 'archive_url', 'icon', 'html_sha256')):
+    """Troca colchetes por parênteses nos textos, para o Markdown não ler nomes como "[x](1)" como link."""
+    if isinstance(obj, str):
+        return obj.replace('[', '(').replace(']', ')')
+    if isinstance(obj, list):
+        return [_esc(x, skip) for x in obj]
+    if isinstance(obj, dict):
+        return {k: (v if k in skip else _esc(v, skip)) for k, v in obj.items()}
+    return obj
+
+data = _esc(json.loads((ROOT / 'data/research/tosbase-2016-monsters.json').read_text(encoding='utf-8'))['monsters'])
 
 ITEM_FOLDER = {}
 _idx = ROOT / 'data/original-2016/items-index.json'

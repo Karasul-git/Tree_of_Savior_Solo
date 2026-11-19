@@ -254,7 +254,7 @@ for page in pages:
     for source_id in re.findall(r'\[(F\d{2,})\]', body):
         if source_id not in source_ids:
             errors.append(f'Unknown source {source_id}: {page.relative_to(ROOT)}')
-    for target in re.findall(r'!?\[[^\]]*\]\(([^\s)]+)\)', body):
+    for target in re.findall(r'(?<!\\)!?\[(?:[^\]\\]|\\.)*\]\(([^\s)]+)\)', body):
         parsed = urlparse(target)
         if parsed.scheme or parsed.netloc:
             continue

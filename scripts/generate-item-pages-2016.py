@@ -8,8 +8,26 @@ import json, re, shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-items = json.loads((ROOT / 'data/research/tosbase-2016-items.json').read_text(encoding='utf-8'))['items']
-monsters = json.loads((ROOT / 'data/research/tosbase-2016-monsters.json').read_text(encoding='utf-8'))['monsters']
+def _esc(obj, skip=('type_line', 'archive_url', 'icon', 'html_sha256')):
+    """Troca colchetes por parênteses nos textos, para o Markdown não ler nomes como "[x](1)" como link."""
+    if isinstance(obj, str):
+        return obj.replace('[', '(').replace(']', ')')
+    if isinstance(obj, list):
+        return [_esc(x, skip) for x in obj]
+    if isinstance(obj, dict):
+        return {k: (v if k in skip else _esc(v, skip)) for k, v in obj.items()}
+    return obj
+
+items = _esc(json.loads((ROOT / 'data/research/tosbase-2016-items.json').read_text(encoding='utf-8'))['items'])
+monsters = _esc(json.loads((ROOT / 'data/research/tosbase-2016-monsters.json').read_text(encoding='utf-8'))['monsters'])
+_read = lambda f: json.loads((ROOT / f).read_text(encoding='utf-8')) if (ROOT / f).exists() else {}
+quests = _esc(_read('data/research/tosbase-2016-quests.json').get('quests', {}))
+recipes = _esc(_read('data/research/tosbase-2016-recipes.json').get('recipes', {}))
+sets = _esc(_read('data/research/tosbase-2016-sets.json').get('sets', {}))
+made_by = {}
+for _rid, _r in recipes.items():
+    if _r.get('result'):
+        made_by.setdefault(str(_r['result']['item_id']), []).append((_rid, _r))
 
 # (pasta, rótulo, seção, padrões do tipo)
 CATEGORIES = [
@@ -121,18 +139,23 @@ def page(it):
             name = f"[{d['name']}](../../monstros/{d['monster_id']}.md)" if str(d['monster_id']) in monsters else d['name']
             lines.append(f"| {name} | {'–' if d['chance_pct'] is None else fmt(d['chance_pct']) + '%'} |")
         lines += ['']
-    if it['crafted_by']:
-        lines += ['## Fabricado por', ''] + [f"- {c['name']}" for c in it['crafted_by']] + ['']
+    if made_by.get(it['id']):
+        lines += ['## Como fabricar', '']
+        for rid, r in made_by[it['id']]:
+            lines += [f"Receita: [{r['name']}](../../receitas/{rid}.md)", '', '| Material | Quantidade |', '| --- | --- |']
+            lines += [f"| {item_link(m['item_id'], m['name'])} | {m['count']} |" for m in r['materials']] + ['']
+    elif it['crafted_by']:
+        lines += ['## Fabricado por', ''] + [f"- [{c['name']}](../../receitas/{c['recipe_id']}.md)" if str(c['recipe_id']) in recipes else f"- {c['name']}" for c in it['crafted_by']] + ['']
     if it['required_for']:
         lines += ['## Usado em', ''] + [f"- {item_link(r['id'], r['name']) if r['type'] == 'item' else r['name']}" for r in it['required_for']] + ['']
     if it['quest_reward']:
-        lines += ['## Recompensa de quest', ''] + [f"- {q['name']} (nível {q['level']})" for q in it['quest_reward']] + ['']
+        lines += ['## Recompensa de quest', ''] + [f"- [{q['name']}](../../quests/{q['quest_id']}.md) (nível {q['level']})" if str(q['quest_id']) in quests else f"- {q['name']} (nível {q['level']})" for q in it['quest_reward']] + ['']
     if it.get('treasure_chest'):
         lines += ['## Baú do tesouro', '', it['treasure_chest'], '']
     if it['part_of']:
         lines += ['## Parte de', ''] + [f"- {c['name']}" for c in it['part_of']] + ['']
     if it['sets']:
-        lines += ['## Conjuntos', ''] + [f"- {s['name']}" for s in it['sets']] + ['']
+        lines += ['## Conjuntos', ''] + [f"- [{s['name']}](../../conjuntos/{s['set_id']}.md)" if str(s['set_id']) in sets else f"- {s['name']}" for s in it['sets']] + ['']
     if it['improved_skills']:
         lines += ['## Habilidade melhorada', ''] + [f'- {s}' for s in it['improved_skills']] + ['']
     c = it['captured_at']

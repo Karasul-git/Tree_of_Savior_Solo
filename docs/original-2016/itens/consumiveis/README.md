@@ -309,7 +309,7 @@
 | [Stamina Increase Potion](640089.md) | – | – |
 | [Stamina Pill](640009.md) | – | – |
 | [Starving Velnia Monkey Cube](642618.md) | – | – |
-| [Stat Reset Scroll [Remove]](640112.md) | – | – |
+| [Stat Reset Scroll (Remove)](640112.md) | – | – |
 | [Status Increase Potion](640109.md) | – | – |
 | [Strawberry](640053.md) | – | – |
 | [TP Chest](640074.md) | – | – |
