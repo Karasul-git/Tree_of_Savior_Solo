@@ -57,6 +57,12 @@ def parse_quest(body):
     t = task.group(1) if task else ''
     q['task'] = [l for l in text(t).split('\n') if l.strip()]
     q['task_monsters'] = [{'monster_id': int(i), 'name': text(n), 'count': int(c)} for i, n, c in re.findall(r'href="database/monsters/(\d+)/">(.*?)</a>\s*\(\d+ / (\d+)\)', t, re.S)]
+    q['task_items'] = []
+    for line in re.split(r'<br\s*/?>', t):
+        im = re.search(r'href="database/items/(\d+)/"[^>]*>(.*?)</a>', line, re.S)
+        cm = re.search(r'\((\d+) / (\d+)\)', line)
+        if im and cm:
+            q['task_items'].append({'item_id': int(im.group(1)), 'name': text(im.group(2)), 'count': int(cm.group(2)), 'verb': text(line).split(' ', 1)[0]})
     req = re.search(r'<h3>Required Quests</h3><div>(.*?)</div></div>', body, re.S)
     q['required_quests'] = []
     if req:

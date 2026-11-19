@@ -1,0 +1,5 @@
+// Melia
+// Lista de scripts do pacote original 2016 (carrega as quests geradas)
+//---------------------------------------------------------------------------
+
+custom/original2016/quests.cs
