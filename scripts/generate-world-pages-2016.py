@@ -13,6 +13,8 @@ quests = read('data/research/tosbase-2016-quests.json')['quests']
 recipes = read('data/research/tosbase-2016-recipes.json')['recipes']
 sets = read('data/research/tosbase-2016-sets.json')['sets']
 monsters = read('data/research/tosbase-2016-monsters.json')['monsters']
+_maps = read('data/research/tosbase-2016-maps.json')['entries'] if (ROOT / 'data/research/tosbase-2016-maps.json').exists() else {}
+_npcs = read('data/research/tosbase-2016-npcs.json')['entries'] if (ROOT / 'data/research/tosbase-2016-npcs.json').exists() else {}
 ITEM_FOLDER = {i['id']: i['folder'] for i in read('data/original-2016/items-index.json')['items']}
 
 
@@ -68,10 +70,22 @@ def band(q):
     return 'outras' if lv is None or lv > MAX_BAND_LEVEL else str((lv // BAND) * BAND)
 
 
+def npc_link(n):
+    if not n:
+        return '–'
+    return f"[{n['name']}](../npcs/{n['id']}.md)" if str(n['id']) in _npcs else n['name']
+
+
+def map_link(m):
+    if not m:
+        return '–'
+    return f"[{m['name']}](../mapas/{m['id']}.md)" if str(m['id']) in _maps else m['name']
+
+
 def quest_page(qid, q):
     lines = [f"# {q['name']}", '', '[Quests de 2016](README.md)', '', '| Campo | Valor |', '| --- | --- |',
              f"| Nível | {q['level'] if q.get('level') else '–'} |", f"| Nível necessário | {q['required_level'] or '–'} |",
-             f"| NPC inicial | {q['start_npc']['name'] if q['start_npc'] else '–'} |", f"| Mapa | {q['map']['name'] if q['map'] else '–'} |", '']
+             f"| NPC inicial | {npc_link(q['start_npc'])} |", f"| Mapa | {map_link(q['map'])} |", '']
     if q['required_quests']:
         lines += ['## Quests anteriores', ''] + [f"- [{r['name']}]({r['quest_id']}.md) (nível {r['level']})" if str(r['quest_id']) in quests else f"- {r['name']} (nível {r['level']})" for r in q['required_quests']] + ['']
     if q['task']:

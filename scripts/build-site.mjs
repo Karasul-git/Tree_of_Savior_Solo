@@ -19,6 +19,7 @@ const itemCatalog = itemData.items;
 const monsters2016 = JSON.parse(await readFile(path.join(root, 'data/original-2016/monsters-index.json'), 'utf8'));
 const items2016 = JSON.parse(await readFile(path.join(root, 'data/original-2016/items-index.json'), 'utf8'));
 const world2016 = JSON.parse(await readFile(path.join(root, 'data/original-2016/world-index.json'), 'utf8'));
+const world2 = JSON.parse(await readFile(path.join(root, 'data/original-2016/world2-index.json'), 'utf8'));
 const bossData = JSON.parse(await readFile(path.join(root, 'data/bosses.json'), 'utf8'));
 const bossGroups = Object.fromEntries(JSON.parse(await readFile(path.join(root, 'data/proposals/story-bosses.json'), 'utf8')).visual_categories.map(c => [c.id, c.label]));
 const classes = [
@@ -113,6 +114,16 @@ const documents = [
   ...world2016.recipes.map(r => [`docs/original-2016/receitas/${r.id}.md`, r.name]),
   ['docs/original-2016/conjuntos/README.md', 'Conjuntos de 2016'],
   ...world2016.sets.map(s => [`docs/original-2016/conjuntos/${s.id}.md`, s.name]),
+  ['docs/original-2016/mapas/README.md', 'Mapas de 2016'],
+  ...world2.maps.map(m => [`docs/original-2016/mapas/${m.id}.md`, m.name]),
+  ['docs/original-2016/npcs/README.md', 'NPCs de 2016'],
+  ...world2.npcs.map(n => [`docs/original-2016/npcs/${n.id}.md`, n.name]),
+  ['docs/original-2016/atributos/README.md', 'Atributos de habilidade de 2016'],
+  ...world2.abilities.map(a => [`docs/original-2016/atributos/${a.id}.md`, a.name]),
+  ['docs/original-2016/colecoes/README.md', 'Coleções de 2016'],
+  ...world2.collections.map(c => [`docs/original-2016/colecoes/${c.id}.md`, c.name]),
+  ['docs/original-2016/efeitos/README.md', 'Efeitos de estado de 2016'],
+  ...world2.effects.map(e => [`docs/original-2016/efeitos/${e.id}.md`, e.name]),
   ['docs/habilidades/README.md', 'Habilidades'],
   ...skillCatalog.flatMap(c => [
     [`docs/habilidades/${c.class_id}/README.md`, `Habilidades de ${c.name}`],
@@ -136,7 +147,7 @@ function shell(title, current, content, toc = [], classInfo) {
   const nav = [
     group('O JOGO', [link('index.html', '<span>⌂</span> Início'), link('docs/classes/catalogo-2016.html', '<span>✦</span> Classes do jogo'), link('docs/habilidades/index.html', 'Habilidades'), link('docs/itens/index.html', 'Equipamentos'), link('docs/projeto-solo/chefes/index.html', 'Chefes'), link('docs/projeto-solo/chefes/revisao.html', 'Revisão dos chefes')]),
     `<div id="nav-tree-views">${renderTreeViews(treeState, base)}</div><div id="sidebar-tree">${renderTreeSidebar(catalog, solo, treeState, base, contextClass?.id)}</div>`,
-    group('ORIGINAL DE 2016', [link('docs/classes/catalogo-2016.html?view=2016', 'Todas as classes de 2016'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/sistemas/formulas-de-status-2016.html', 'Fórmulas de status'), link('docs/original-2016/monstros/index.html', 'Bestiário de 2016'), link('docs/original-2016/itens/index.html', 'Itens de 2016'), link('docs/original-2016/quests/index.html', 'Quests de 2016'), link('docs/original-2016/receitas/index.html', 'Receitas de 2016'), link('docs/original-2016/conjuntos/index.html', 'Conjuntos de 2016'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build'), link('docs/sistemas/barracao-e-grupo.html', 'Barracão, equipe e grupo'), link('docs/sistemas/economia-2016.html', 'Economia'), link('docs/sistemas/recuperacao-2016.html', 'Recuperação'), link('docs/historia/historia-e-mundo.html', 'História e mundo')]),
+    group('ORIGINAL DE 2016', [link('docs/classes/catalogo-2016.html?view=2016', 'Todas as classes de 2016'), link('docs/recorte-historico.html', 'O lançamento de 2016'), link('docs/sistemas/ranks-e-circulos.html', 'Ranks e círculos'), link('docs/sistemas/formulas-de-status-2016.html', 'Fórmulas de status'), link('docs/original-2016/monstros/index.html', 'Bestiário de 2016'), link('docs/original-2016/itens/index.html', 'Itens de 2016'), link('docs/original-2016/quests/index.html', 'Quests de 2016'), link('docs/original-2016/receitas/index.html', 'Receitas de 2016'), link('docs/original-2016/conjuntos/index.html', 'Conjuntos de 2016'), link('docs/original-2016/colecoes/index.html', 'Coleções de 2016'), link('docs/original-2016/mapas/index.html', 'Mapas de 2016'), link('docs/original-2016/npcs/index.html', 'NPCs de 2016'), link('docs/original-2016/atributos/index.html', 'Atributos de 2016'), link('docs/original-2016/efeitos/index.html', 'Efeitos de estado de 2016'), link('docs/historia/evolucao-das-classes.html', 'Do lançamento ao Re:Build'), link('docs/sistemas/barracao-e-grupo.html', 'Barracão, equipe e grupo'), link('docs/sistemas/economia-2016.html', 'Economia'), link('docs/sistemas/recuperacao-2016.html', 'Recuperação'), link('docs/historia/historia-e-mundo.html', 'História e mundo')]),
     group('REFERÊNCIA', [link('docs/fontes.html', 'Fontes da pesquisa'), link('docs/imagens.html', 'Imagens originais'), link('docs/versao-navegavel.html', 'Sobre esta wiki')]),
   ].join('');
   return `<!doctype html>
@@ -246,7 +257,7 @@ for (const [source, title] of documents) {
   if (current === bossReviewPage) content = content.replace('<!--boss-review-->', bossReviewSection());
   await writeFile(destination, shell(title, current, current === 'index.html' ? home() : content, toc, classInfo));
   // As páginas de item entram na busca só pelo nome, para o índice não pesar.
-  searchIndex.push({ title, path: current, text: /^docs\/(itens\/[^/]+|original-2016\/monstros|original-2016\/itens\/[^/]+|original-2016\/(?:quests|receitas|conjuntos))\/(?!README|nivel-)/.test(source) ? '' : strip(content) });
+  searchIndex.push({ title, path: current, text: /^docs\/(itens\/[^/]+|original-2016\/monstros|original-2016\/itens\/[^/]+|original-2016\/(?:quests|receitas|conjuntos|mapas|npcs|atributos|colecoes|efeitos))\/(?!README|nivel-)/.test(source) ? '' : strip(content) });
 }
 
 const manifest = JSON.parse(await readFile(path.join(root, 'data/assets.json'), 'utf8'));

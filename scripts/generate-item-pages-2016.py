@@ -24,6 +24,7 @@ _read = lambda f: json.loads((ROOT / f).read_text(encoding='utf-8')) if (ROOT / 
 quests = _esc(_read('data/research/tosbase-2016-quests.json').get('quests', {}))
 recipes = _esc(_read('data/research/tosbase-2016-recipes.json').get('recipes', {}))
 sets = _esc(_read('data/research/tosbase-2016-sets.json').get('sets', {}))
+collections = _read('data/research/tosbase-2016-collections.json').get('entries', {})
 made_by = {}
 for _rid, _r in recipes.items():
     if _r.get('result'):
@@ -153,7 +154,7 @@ def page(it):
     if it.get('treasure_chest'):
         lines += ['## Baú do tesouro', '', it['treasure_chest'], '']
     if it['part_of']:
-        lines += ['## Parte de', ''] + [f"- {c['name']}" for c in it['part_of']] + ['']
+        lines += ['## Parte de', ''] + [f"- [{c['name']}](../../colecoes/{c['collection_id']}.md)" if str(c['collection_id']) in collections else f"- {c['name']}" for c in it['part_of']] + ['']
     if it['sets']:
         lines += ['## Conjuntos', ''] + [f"- [{s['name']}](../../conjuntos/{s['set_id']}.md)" if str(s['set_id']) in sets else f"- {s['name']}" for s in it['sets']] + ['']
     if it['improved_skills']:
