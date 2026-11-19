@@ -34,7 +34,8 @@ test('as quests do pacote: script, lista e relatório coerentes', () => {
   const classes = [...cs.matchAll(/public class Q(\d+)Original2016QuestScript : QuestScript/g)].map(m => Number(m[1]));
   assert.equal(classes.length, report.convertidas);
   assert.deepEqual(classes, report.convertidas_ids);
-  assert.ok(report.convertidas >= 450, 'esperava ao menos 450 quests de matar e juntar');
+  assert.ok(report.convertidas >= 20, 'esperava ao menos 20 quests que dá para cumprir hoje');
+  assert.equal(report.npcs_iniciais_distintos, report.npcs_iniciais_com_modelo_no_melia);
   assert.equal(report.convertidas + Object.values(report.ficaram_de_fora).reduce((a, b) => a + b, 0), report.quests_no_total);
   assert.match(file('user/scripts/zone/scripts_custom.txt'), /^custom\/original2016\/quests\.cs$/m);
   assert.match(cs, /class Original2016QuestHelper : GeneralScript/);

@@ -40,6 +40,21 @@ for mid, m in tosbase_monsters.items():  # os monstros que o ToSBase de 2016 lis
         name = m['name'] if m['name'].isascii() else melia_name[int(mid)]  # parte dos nomes do ToSBase ficou em coreano
         monster_by_name[name.lower()].append(int(mid))
 
+# o que o servidor realmente faz nascer e cair: spawners dos scripts do Melia e drops dos bancos
+script_text = '\n'.join(f.read_text(encoding='utf-8-sig') for f in (melia / 'system/scripts/zone').rglob('*.cs'))
+spawned = set(re.findall(r'AddSpawner\([^;]*?MonsterId\.(\w+)', script_text))
+monster_lines = {}
+for src_file in (melia / 'system/db/monsters.txt', pack / 'user/db/monsters.txt'):  # o pacote troca linhas do Melia
+    for line in src_file.read_text(encoding='utf-8-sig').split('\n'):
+        m = re.match(r'^\{ monsterId: (\d+),', line)
+        if m:
+            monster_lines[int(m.group(1))] = line
+item_sources = collections.defaultdict(set)  # item -> classes de monstros que o dropam
+for mid, line in monster_lines.items():
+    if 'drops:' in line:
+        for iid in re.findall(r'itemId: (\d+)', line[line.find('drops:'):]):
+            item_sources[int(iid)].add(class_by_id[mid])
+
 COUNTER = re.compile(r'\((\d+) / (\d+)\)')
 KILL_VERBS = ('defeat', 'hunt', 'kill', 'slay', 'eliminate', 'exterminate', 'destroy')
 
@@ -121,6 +136,14 @@ for qid, q in sorted(quests.items(), key=lambda kv: int(kv[0])):
         if o is None:
             break
         objs.append(o)
+    if not reason and (q.get('required_level') or q.get('level') or 1) >= 999:
+        reason = 'nível 9999 no ToSBase (quest de avanço de classe, depende de NPC)'
+    if not reason:
+        for o in objs:
+            if o[0] == 'kill' and not any(class_by_id[i] in spawned for i in o[1]):
+                reason = 'impossível hoje: o monstro não nasce no Melia (só aparece dentro da quest ou falta no conteúdo)'
+            elif o[0] == 'item' and not any(c in spawned for c in item_sources.get(o[1], ())):
+                reason = 'impossível hoje: nenhum monstro que nasce no Melia dropa o item'
     if reason:
         skipped[reason] += 1
         skipped_list[reason].append(int(qid))
@@ -206,10 +229,21 @@ target.write_text('\ufeff' + '\n'.join(out_cs), encoding='utf-8')
 
 dropped_rewards = sum(1 for q in quests.values() if q['reward_choice'])
 missing_rewards = sum(1 for qid in converted for r in quests[qid]['reward_all'] if r['item_id'] not in item_ids)
+melia_npcs = []
+for m in re.finditer(r'AddNpc\((\d+),\s*(?:L\()?"([^"]*)"\)?,\s*(?:"([^"]*)",\s*)?"(\w+)",\s*(-?[\d.]+),\s*(-?[\d.]+)', script_text):
+    melia_npcs.append({'monster_id': int(m.group(1)), 'name': m.group(2), 'map': m.group(4), 'x': float(m.group(5)), 'z': float(m.group(6))})
+npc_cross = []
+for n in melia_npcs:
+    ids = [int(k) for k, q in quests.items() if q['start_npc'] and q['start_npc']['id'] == n['monster_id']]
+    npc_cross.append({**n, 'quests_que_comecam_com_ele': ids})
+npc_total = len({q['start_npc']['id'] for q in quests.values() if q['start_npc']})
+npc_models = len({q['start_npc']['id'] for q in quests.values() if q['start_npc'] and q['start_npc']['id'] in monster_ids})
 report = {'quests_no_total': len(quests), 'convertidas': len(converted), 'ficaram_de_fora': dict(skipped),
           'pre_requisitos_de_quests_nao_convertidas_ignorados': chain_dropped,
           'itens_de_recompensa_ausentes_no_banco_do_melia': missing_rewards,
           'quests_com_recompensa_de_escolha_no_total': dropped_rewards,
+          'npcs_iniciais_distintos': npc_total, 'npcs_iniciais_com_modelo_no_melia': npc_models,
+          'npcs_com_posicao_no_melia': npc_cross,
           'convertidas_ids': [int(k) for k in converted],
           'fora_ids': {k: v for k, v in skipped_list.items()}}
 (pack / 'quests-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
