@@ -1,0 +1,1952 @@
+{
+ "mapas_do_tosbase_com_monstros": 181,
+ "mapas_com_spawn_no_melia": 147,
+ "mapas_fechados_ou_sem_spawn": [
+  {
+   "map_id": 981,
+   "name": "Fedimian",
+   "class": "c_fedimian",
+   "melia_name": "Fedimian",
+   "level": 0,
+   "monsters": 2
+  },
+  {
+   "map_id": 1111,
+   "name": "Karolis Springs",
+   "class": "f_katyn_10",
+   "melia_name": "(Closed) Karolis Springs",
+   "level": 57,
+   "monsters": 9
+  },
+  {
+   "map_id": 1122,
+   "name": "Paupys Crossing",
+   "class": "f_siauliai_11_re",
+   "melia_name": "(Closed) (Ex)Paupys Crossing",
+   "level": 12,
+   "monsters": 10
+  },
+  {
+   "map_id": 1131,
+   "name": "Letas Stream",
+   "class": "f_katyn_12",
+   "melia_name": "(Closed) Letas Stream",
+   "level": 61,
+   "monsters": 7
+  },
+  {
+   "map_id": 1162,
+   "name": "Woods of the Linked Bridges",
+   "class": "f_siauliai_15_re",
+   "melia_name": "(Closed) (Ex)Woods of the Linked Bridges",
+   "level": 8,
+   "monsters": 11
+  },
+  {
+   "map_id": 1171,
+   "name": "Lemprasa Pond",
+   "class": "f_siauliai_16",
+   "melia_name": "(Closed) (Ex)Lemprasa Pond",
+   "level": 1,
+   "monsters": 11
+  },
+  {
+   "map_id": 1542,
+   "name": "Feretory Hills",
+   "class": "f_pilgrimroad_31_1",
+   "melia_name": "(Closed) Feretory Hills",
+   "level": 82,
+   "monsters": 4
+  },
+  {
+   "map_id": 1543,
+   "name": "Sutatis Trade Route",
+   "class": "f_pilgrimroad_31_2",
+   "melia_name": "(Closed) Sutatis Trade Route",
+   "level": 88,
+   "monsters": 4
+  },
+  {
+   "map_id": 1544,
+   "name": "Mochia Forest",
+   "class": "f_pilgrimroad_31_3",
+   "melia_name": "(Closed) Mocia Forest",
+   "level": 85,
+   "monsters": 5
+  },
+  {
+   "map_id": 1881,
+   "name": "Pelke Shrine Ruins",
+   "class": "f_3cmlake_83",
+   "melia_name": "(Closed) Pelke Shrine Ruins",
+   "level": 65,
+   "monsters": 5
+  },
+  {
+   "map_id": 1891,
+   "name": "Absenta Reservoir",
+   "class": "f_3cmlake_84",
+   "melia_name": "(Closed) Absenta Reservoir",
+   "level": 68,
+   "monsters": 5
+  },
+  {
+   "map_id": 2481,
+   "name": "Sienakal Graveyard",
+   "class": "id_catacomb_33_1",
+   "melia_name": "(Closed) Sienakal Graveyard",
+   "level": 70,
+   "monsters": 7
+  },
+  {
+   "map_id": 2491,
+   "name": "Carlyle's Mausoleum",
+   "class": "id_catacomb_33_2",
+   "melia_name": "(Closed) Carlyle's Mausoleum",
+   "level": 74,
+   "monsters": 5
+  },
+  {
+   "map_id": 3370,
+   "name": "Bellai Rainforest",
+   "class": "f_orchard_32_3",
+   "melia_name": "(Closed) Bellai Rainforest",
+   "level": 92,
+   "monsters": 7
+  },
+  {
+   "map_id": 3380,
+   "name": "Seir Rainforest",
+   "class": "f_orchard_32_4",
+   "melia_name": "(Closed) Seir Rainforest",
+   "level": 100,
+   "monsters": 5
+  },
+  {
+   "map_id": 3400,
+   "name": "Zeraha",
+   "class": "f_orchard_34_2",
+   "melia_name": "(Closed) Zeraha",
+   "level": 96,
+   "monsters": 9
+  },
+  {
+   "map_id": 3910,
+   "name": "Ashaq Underground Prison 1F",
+   "class": "d_prison_62_1",
+   "melia_name": "(Closed) Ashaq Underground Prison 1F",
+   "level": 17,
+   "monsters": 5
+  },
+  {
+   "map_id": 3920,
+   "name": "Ashaq Underground Prison 2F",
+   "class": "d_prison_62_2",
+   "melia_name": "(Closed) Ashaq Underground Prison 2F",
+   "level": 21,
+   "monsters": 7
+  },
+  {
+   "map_id": 3930,
+   "name": "Ashaq Underground Prison 3F",
+   "class": "d_prison_62_3",
+   "melia_name": "(Closed) Ashaq Underground Prison 3F",
+   "level": 25,
+   "monsters": 4
+  },
+  {
+   "map_id": 3960,
+   "name": "Koru Jungle",
+   "class": "f_bracken_63_1",
+   "melia_name": "(Closed) Koru Jungle",
+   "level": 29,
+   "monsters": 8
+  },
+  {
+   "map_id": 3970,
+   "name": "Knidos Jungle",
+   "class": "f_bracken_63_2",
+   "melia_name": "(Closed) Knidos Jungle",
+   "level": 32,
+   "monsters": 7
+  },
+  {
+   "map_id": 3980,
+   "name": "Dadan Jungle",
+   "class": "f_bracken_63_3",
+   "melia_name": "(Closed) Dadan Jungle",
+   "level": 36,
+   "monsters": 6
+  },
+  {
+   "map_id": 3990,
+   "name": "Novaha Assembly Hall",
+   "class": "d_abbey_64_1",
+   "melia_name": "(Closed) Novaha Assembly Hall",
+   "level": 45,
+   "monsters": 6
+  },
+  {
+   "map_id": 4000,
+   "name": "Novaha Annex",
+   "class": "d_abbey_64_2",
+   "melia_name": "(Closed) Novaha Annex",
+   "level": 49,
+   "monsters": 7
+  },
+  {
+   "map_id": 4010,
+   "name": "Novaha Institute",
+   "class": "d_abbey_64_3",
+   "melia_name": "(Closed) Novaha Institute",
+   "level": 53,
+   "monsters": 7
+  },
+  {
+   "map_id": 4020,
+   "name": "Delmore Hamlet",
+   "class": "f_castle_65_1",
+   "melia_name": "(Closed) Delmore Hamlet",
+   "level": 76,
+   "monsters": 4
+  },
+  {
+   "map_id": 4030,
+   "name": "Delmore Manor",
+   "class": "f_castle_65_2",
+   "melia_name": "(Closed) Delmore Manor",
+   "level": 80,
+   "monsters": 8
+  },
+  {
+   "map_id": 4040,
+   "name": "Delmore Outskirts",
+   "class": "f_castle_65_3",
+   "melia_name": "(Closed) Delmore Outskirts",
+   "level": 84,
+   "monsters": 5
+  },
+  {
+   "map_id": 4050,
+   "name": "Nevellet Mine 1F",
+   "class": "d_cmine_66_1",
+   "melia_name": "(Closed) Nevellet Quarry 1F",
+   "level": 39,
+   "monsters": 7
+  },
+  {
+   "map_id": 4060,
+   "name": "Nevellet Mine 2F",
+   "class": "d_cmine_66_2",
+   "melia_name": "(Closed) Nevellet Quarry 2F",
+   "level": 43,
+   "monsters": 10
+  },
+  {
+   "map_id": 4070,
+   "name": "Topes Mine 1F",
+   "class": "d_castle_67_1",
+   "melia_name": "(Closed) Topes Fortress 1F",
+   "level": 91,
+   "monsters": 7
+  },
+  {
+   "map_id": 4080,
+   "name": "Topes Mine 2F",
+   "class": "d_castle_67_2",
+   "melia_name": "(Closed) Topes Fortress 2F",
+   "level": 95,
+   "monsters": 5
+  },
+  {
+   "map_id": 4090,
+   "name": "Sicarius 1F",
+   "class": "d_underfortress_68_1",
+   "melia_name": "(Closed) Sicarius 1F",
+   "level": 113,
+   "monsters": 5
+  },
+  {
+   "map_id": 4100,
+   "name": "Sicarius 2F",
+   "class": "d_underfortress_68_2",
+   "melia_name": "(Closed) Sicarius 2F",
+   "level": 117,
+   "monsters": 4
+  }
+ ],
+ "monstros_do_tosbase_nesses_mapas": 622,
+ "monstros_com_spawner_no_melia": 530,
+ "alteracoes": {
+  "respawn aplicado": 513,
+  "spawner de cristal de raiz removido": 138,
+  "respawn ambíguo (nada mudou)": 74,
+  "respawn do Melia difere do ToSBase (nada mudou)": 5,
+  "sobrescrita de atributos por mapa removida": 424
+ },
+ "arquivos_alterados": 143,
+ "mapas": [
+  {
+   "map_id": 101,
+   "name": "Test Zone",
+   "class": "test_zone",
+   "level": 0,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": [
+    "Golem",
+    "Mirtis",
+    "Specter of Deceit",
+    "Thicket of Butterfly"
+   ]
+  },
+  {
+   "map_id": 1021,
+   "name": "West Siauliai Woods",
+   "class": "f_siauliai_west",
+   "level": 1,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1032,
+   "name": "East Siauliai Woods",
+   "class": "f_siauliai_2",
+   "level": 6,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Hunter Master"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1041,
+   "name": "Miners' Village",
+   "class": "f_siauliai_out",
+   "level": 12,
+   "tosbase": 7,
+   "presentes": 5,
+   "faltam": [
+    "Box",
+    "Stone"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1051,
+   "name": "Crystal Mine 1F",
+   "class": "d_cmine_01",
+   "level": 16,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1061,
+   "name": "Crystal Mine 2F",
+   "class": "d_cmine_02",
+   "level": 20,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Blasphemous Deathweaver"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1071,
+   "name": "Crystal Mine 3F",
+   "class": "d_cmine_6",
+   "level": 22,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Blasphemous Deathweaver"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1081,
+   "name": "Entrance of Kateen Forest",
+   "class": "f_katyn_7",
+   "level": 106,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1082,
+   "name": "Owl Burial Ground",
+   "class": "f_katyn_7_2",
+   "level": 109,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1091,
+   "name": "Crystal Mine Lot 2 - 1F",
+   "class": "d_cmine_8",
+   "level": 102,
+   "tosbase": 6,
+   "presentes": 5,
+   "faltam": [
+    "Vubbe Chaser"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1101,
+   "name": "Crystal Mine Lot 2 - 2F",
+   "class": "d_cmine_9",
+   "level": 106,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1141,
+   "name": "Poslinkis Forest",
+   "class": "f_katyn_13",
+   "level": 112,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1142,
+   "name": "Secret Room",
+   "class": "f_katyn_13_2",
+   "level": 0,
+   "tosbase": 2,
+   "presentes": 2,
+   "faltam": [],
+   "a_mais": [
+    "Archer Master",
+    "Swordsman Master",
+    "Wizard Master"
+   ]
+  },
+  {
+   "map_id": 1143,
+   "name": "Arrow Path",
+   "class": "f_katyn_13_3",
+   "level": 0,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1151,
+   "name": "Saknis Plains",
+   "class": "f_katyn_14",
+   "level": 114,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Trooper"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1172,
+   "name": "Spring Light Woods",
+   "class": "f_siauliai_46_1",
+   "level": 169,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1173,
+   "name": "Uskis Arable Land",
+   "class": "f_siauliai_46_2",
+   "level": 166,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1174,
+   "name": "Vilna Forest",
+   "class": "f_siauliai_46_3",
+   "level": 163,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1175,
+   "name": "Dina Bee Farm",
+   "class": "f_siauliai_46_4",
+   "level": 160,
+   "tosbase": 7,
+   "presentes": 6,
+   "faltam": [
+    "Box"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1176,
+   "name": "Baron Allerno",
+   "class": "f_siauliai_47_4",
+   "level": 84,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1180,
+   "name": "Gytis Settlement Area",
+   "class": "f_siauliai_50_1",
+   "level": 69,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Trooper"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1181,
+   "name": "Bladelight Basin",
+   "class": "f_katyn_17",
+   "level": 0,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1191,
+   "name": "Kule Peak",
+   "class": "f_katyn_18",
+   "level": 300,
+   "tosbase": 7,
+   "presentes": 0,
+   "faltam": [
+    "Black Zigri",
+    "Blue Sakmoli",
+    "Dark Slime",
+    "Desmodus",
+    "Evil Spirit",
+    "Red Fisherman",
+    "Red Puragi"
+   ],
+   "a_mais": [
+    "Black Siaulav Archer",
+    "Black Siaulav Mage",
+    "Red Maize",
+    "Red Siaulav"
+   ]
+  },
+  {
+   "map_id": 1201,
+   "name": "Gate Route",
+   "class": "d_thorn_19",
+   "level": 58,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1211,
+   "name": "Sirdgela Forest",
+   "class": "d_thorn_20",
+   "level": 61,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1221,
+   "name": "Kvailas Forest",
+   "class": "d_thorn_21",
+   "level": 64,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1231,
+   "name": "Dvasia Peak",
+   "class": "d_thorn_22",
+   "level": 120,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Trooper"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1241,
+   "name": "Sunset Flag Forest",
+   "class": "d_thorn_23",
+   "level": 123,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1251,
+   "name": "Gateway of the Great King",
+   "class": "f_rokas_24",
+   "level": 58,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1261,
+   "name": "Ramstis Ridge",
+   "class": "f_rokas_25",
+   "level": 61,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1271,
+   "name": "Overlong Bridge Valley",
+   "class": "f_rokas_26",
+   "level": 64,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Stone"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1281,
+   "name": "Akmens Ridge",
+   "class": "f_rokas_27",
+   "level": 67,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Box"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1291,
+   "name": "Tiltas Valley",
+   "class": "f_rokas_28",
+   "level": 69,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1301,
+   "name": "Rukas Plateau",
+   "class": "f_rokas_29",
+   "level": 73,
+   "tosbase": 5,
+   "presentes": 3,
+   "faltam": [
+    "Bonfire",
+    "Human Rexipher"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1311,
+   "name": "King's Plateau",
+   "class": "f_rokas_30",
+   "level": 76,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1321,
+   "name": "Zachariel Crossroads",
+   "class": "f_rokas_31",
+   "level": 78,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Human Rexipher"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1331,
+   "name": "Royal Mausoleum 1F",
+   "class": "d_zachariel_32",
+   "level": 81,
+   "tosbase": 6,
+   "presentes": 5,
+   "faltam": [
+    "Hogma Warrior"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1341,
+   "name": "Royal Mausoleum 2F",
+   "class": "d_zachariel_33",
+   "level": 84,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1351,
+   "name": "Royal Mausoleum 3F",
+   "class": "d_zachariel_34",
+   "level": 87,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1361,
+   "name": "Royal Mausoleum 4F",
+   "class": "d_zachariel_35",
+   "level": 90,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Violent Cerberus"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1371,
+   "name": "Royal Mausoleum 5F",
+   "class": "d_zachariel_36",
+   "level": 93,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Violent Cerberus"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1381,
+   "name": "Guards Graveyard",
+   "class": "id_catacomb_01",
+   "level": 53,
+   "tosbase": 6,
+   "presentes": 6,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1391,
+   "name": "Valius' Eternal Resting Place",
+   "class": "id_catacomb_02",
+   "level": 197,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Archon"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1411,
+   "name": "Underground Grave of Ritinis",
+   "class": "id_catacomb_04",
+   "level": 191,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1421,
+   "name": "Stele Road",
+   "class": "f_remains_37",
+   "level": 96,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1431,
+   "name": "Goddess' Ancient Garden",
+   "class": "f_remains_38",
+   "level": 99,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1441,
+   "name": "Escanciu Village",
+   "class": "f_remains_39",
+   "level": 103,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Stone"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1451,
+   "name": "Fedimian Suburbs",
+   "class": "f_remains_40",
+   "level": 107,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1461,
+   "name": "Mage Tower 1F",
+   "class": "d_firetower_41",
+   "level": 113,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1471,
+   "name": "Mage Tower 2F",
+   "class": "d_firetower_42",
+   "level": 116,
+   "tosbase": 6,
+   "presentes": 6,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1481,
+   "name": "Mage Tower 3F",
+   "class": "d_firetower_43",
+   "level": 119,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1491,
+   "name": "Mage Tower 4F",
+   "class": "d_firetower_44",
+   "level": 123,
+   "tosbase": 6,
+   "presentes": 5,
+   "faltam": [
+    "Noisy Mineloader"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1501,
+   "name": "Mage Tower 5F",
+   "class": "d_firetower_45",
+   "level": 126,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Noisy Mineloader"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1511,
+   "name": "Starving Demon's Way",
+   "class": "f_pilgrimroad_46",
+   "level": 121,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1521,
+   "name": "Pilgrim Path",
+   "class": "f_pilgrimroad_47",
+   "level": 124,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": [
+    "Crystal with magic"
+   ]
+  },
+  {
+   "map_id": 1531,
+   "name": "Manahas",
+   "class": "f_pilgrimroad_48",
+   "level": 110,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1541,
+   "name": "Genar Field",
+   "class": "f_pilgrimroad_49",
+   "level": 113,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1551,
+   "name": "Altar Way",
+   "class": "f_pilgrimroad_50",
+   "level": 127,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1561,
+   "name": "Forest of Prayer",
+   "class": "f_pilgrimroad_51",
+   "level": 130,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Sword Pell"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1571,
+   "name": "Apsimesti Crossroads",
+   "class": "f_pilgrimroad_52",
+   "level": 133,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1581,
+   "name": "Main Chamber",
+   "class": "d_cathedral_53",
+   "level": 137,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Burning Fire Lord"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1591,
+   "name": "Grand Corridor",
+   "class": "d_cathedral_54",
+   "level": 140,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Baby Angel Statue"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1601,
+   "name": "Penitence Route of Great Cathedral",
+   "class": "f_pilgrimroad_55",
+   "level": 143,
+   "tosbase": 6,
+   "presentes": 3,
+   "faltam": [
+    "Stone",
+    "Stone",
+    "Stone"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1611,
+   "name": "Sanctuary",
+   "class": "d_cathedral_56",
+   "level": 145,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Burning Fire Lord"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1631,
+   "name": "Dingofasil District",
+   "class": "f_flash_58",
+   "level": 207,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1641,
+   "name": "Verkti Square",
+   "class": "f_flash_59",
+   "level": 184,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Trooper"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1651,
+   "name": "Roxona Market",
+   "class": "f_flash_60",
+   "level": 187,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1661,
+   "name": "Ruklys Street",
+   "class": "f_flash_61",
+   "level": 190,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1681,
+   "name": "Downtown",
+   "class": "f_flash_63",
+   "level": 193,
+   "tosbase": 5,
+   "presentes": 3,
+   "faltam": [
+    "Transparent Object",
+    "Trooper"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1691,
+   "name": "Inner Enceinte District",
+   "class": "f_flash_64",
+   "level": 196,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": [
+    "Sword Pell"
+   ]
+  },
+  {
+   "map_id": 1701,
+   "name": "Sentry Bailey",
+   "class": "d_underfortress_65",
+   "level": 200,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1711,
+   "name": "Drill Ground of Confliction",
+   "class": "d_underfortress_66",
+   "level": 204,
+   "tosbase": 5,
+   "presentes": 3,
+   "faltam": [
+    "Paladin Follower A2",
+    "Stake Stockades"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1721,
+   "name": "Resident Quarter",
+   "class": "d_underfortress_67",
+   "level": 207,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Paladin Follower A3"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1731,
+   "name": "Storage Quarter",
+   "class": "d_underfortress_68",
+   "level": 211,
+   "tosbase": 5,
+   "presentes": 3,
+   "faltam": [
+    "Ruklys Army Member",
+    "Yellow Maggot Egg"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1741,
+   "name": "Fortress Battlegrounds",
+   "class": "d_underfortress_69",
+   "level": 214,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Stone"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 1751,
+   "name": "Ibre Plateau",
+   "class": "f_tableland_70",
+   "level": 238,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1761,
+   "name": "Grand Yard Mesa",
+   "class": "f_tableland_71",
+   "level": 242,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1771,
+   "name": "Sventimas Exile",
+   "class": "f_tableland_72",
+   "level": 246,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1781,
+   "name": "Kadumel Cliff",
+   "class": "f_tableland_73",
+   "level": 250,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1791,
+   "name": "Steel Heights",
+   "class": "f_tableland_74",
+   "level": 253,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1831,
+   "name": "Kaleimas Visiting Room",
+   "class": "d_prison_78",
+   "level": 259,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1841,
+   "name": "Storage",
+   "class": "d_prison_79",
+   "level": 262,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1851,
+   "name": "Solitary Cells",
+   "class": "d_prison_80",
+   "level": 265,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1861,
+   "name": "Workshop",
+   "class": "d_prison_81",
+   "level": 269,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 1871,
+   "name": "Investigation Room",
+   "class": "d_prison_82",
+   "level": 272,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2051,
+   "name": "Grynas Trails",
+   "class": "f_katyn_45_1",
+   "level": 245,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2061,
+   "name": "Grynas Training Camp",
+   "class": "f_katyn_45_2",
+   "level": 249,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2071,
+   "name": "Grynas Hills",
+   "class": "f_katyn_45_3",
+   "level": 253,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2081,
+   "name": "Srautas Gorge",
+   "class": "f_gele_57_1",
+   "level": 26,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2082,
+   "name": "Gele Plateau",
+   "class": "f_gele_57_2",
+   "level": 29,
+   "tosbase": 7,
+   "presentes": 6,
+   "faltam": [
+    "Panto Totem"
+   ],
+   "a_mais": [
+    "Panto Totem"
+   ]
+  },
+  {
+   "map_id": 2083,
+   "name": "Nefritas Cliff",
+   "class": "f_gele_57_3",
+   "level": 32,
+   "tosbase": 7,
+   "presentes": 6,
+   "faltam": [
+    "Paladin Follower A1"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2084,
+   "name": "Tenet Garden",
+   "class": "f_gele_57_4",
+   "level": 35,
+   "tosbase": 7,
+   "presentes": 6,
+   "faltam": [
+    "Beehive"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2085,
+   "name": "Tenet Church B1",
+   "class": "d_chapel_57_5",
+   "level": 40,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2086,
+   "name": "Tenet Church 1F",
+   "class": "d_chapel_57_6",
+   "level": 44,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Bleak Chapparition"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2087,
+   "name": "Tenet Church 2F",
+   "class": "d_chapel_57_7",
+   "level": 48,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Bleak Chapparition"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2088,
+   "name": "Veja Ravine",
+   "class": "f_huevillage_58_1",
+   "level": 46,
+   "tosbase": 5,
+   "presentes": 5,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2089,
+   "name": "Vieta Gorge",
+   "class": "f_huevillage_58_2",
+   "level": 49,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2090,
+   "name": "Cobalt Forest",
+   "class": "f_huevillage_58_3",
+   "level": 52,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2091,
+   "name": "Septyni Glen",
+   "class": "f_huevillage_58_4",
+   "level": 55,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2131,
+   "name": "Mesafasla",
+   "class": "f_tableland_28_1",
+   "level": 212,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2141,
+   "name": "Stogas Plateau",
+   "class": "f_tableland_28_2",
+   "level": 215,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2300,
+   "name": "Greene Manor",
+   "class": "f_farm_49_1",
+   "level": 149,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2301,
+   "name": "Shaton Farm",
+   "class": "f_farm_49_2",
+   "level": 152,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2302,
+   "name": "Shaton Reservoir",
+   "class": "f_farm_49_3",
+   "level": 155,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2421,
+   "name": "Thaumas Trail",
+   "class": "f_pilgrimroad_41_1",
+   "level": 258,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Scarecrow"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2431,
+   "name": "Salvia Forest",
+   "class": "f_pilgrimroad_41_2",
+   "level": 261,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2441,
+   "name": "Rathboy Lake",
+   "class": "f_pilgrimroad_41_3",
+   "level": 268,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2451,
+   "name": "Sekta Forest",
+   "class": "f_pilgrimroad_41_4",
+   "level": 265,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2461,
+   "name": "Oasseu Memorial",
+   "class": "f_pilgrimroad_41_5",
+   "level": 271,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2471,
+   "name": "Maven Abby",
+   "class": "d_abbey_41_6",
+   "level": 274,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2501,
+   "name": "Viltis Forest",
+   "class": "d_thorn_39_1",
+   "level": 176,
+   "tosbase": 6,
+   "presentes": 4,
+   "faltam": [
+    "Infro Hoglan",
+    "Velheider Crystal"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2511,
+   "name": "Glade Hillroad",
+   "class": "d_thorn_39_2",
+   "level": 173,
+   "tosbase": 8,
+   "presentes": 3,
+   "faltam": [
+    "Bonfire",
+    "Explosion Trap",
+    "Infro Hoglan",
+    "Tent",
+    "Velheider Crystal"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2521,
+   "name": "Laukyme Swamp",
+   "class": "d_thorn_39_3",
+   "level": 179,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Velheider Crystal"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2531,
+   "name": "Tyla Monastery",
+   "class": "d_abbey_39_4",
+   "level": 183,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Infro Hoglan"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 2541,
+   "name": "Galeed Plateau",
+   "class": "f_rokas_36_1",
+   "level": 103,
+   "tosbase": 4,
+   "presentes": 0,
+   "faltam": [
+    "Desert Chupacabra",
+    "Glyphring",
+    "Sauga",
+    "Stone"
+   ],
+   "a_mais": [
+    "Desert Chupacabra",
+    "Glyphring",
+    "Sauga"
+   ]
+  },
+  {
+   "map_id": 2551,
+   "name": "Fasika Plateau",
+   "class": "f_pilgrimroad_36_2",
+   "level": 106,
+   "tosbase": 4,
+   "presentes": 0,
+   "faltam": [
+    "Gravegolem",
+    "Hogma Shaman",
+    "Ticen",
+    "Tucen"
+   ],
+   "a_mais": [
+    "Gravegolem",
+    "Hogma Shaman",
+    "Ticen",
+    "Tucen"
+   ]
+  },
+  {
+   "map_id": 2561,
+   "name": "Nuoridin Falls",
+   "class": "f_remains_37_1",
+   "level": 168,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2571,
+   "name": "Namu Temple Ruins",
+   "class": "f_remains_37_2",
+   "level": 172,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 2581,
+   "name": "Istora Ruins",
+   "class": "f_remains_37_3",
+   "level": 176,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Stone"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3310,
+   "name": "Ruklys Hall of Fame",
+   "class": "d_underfortress_30_1",
+   "level": 230,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3320,
+   "name": "Extension",
+   "class": "d_underfortress_30_2",
+   "level": 234,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3330,
+   "name": "Evacuation Residential District",
+   "class": "d_underfortress_30_3",
+   "level": 238,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3340,
+   "name": "Coastal Fortress",
+   "class": "f_flash_29_1",
+   "level": 204,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3350,
+   "name": "Cranto Coast",
+   "class": "f_coral_32_1",
+   "level": 232,
+   "tosbase": 3,
+   "presentes": 0,
+   "faltam": [
+    "Blue Lapasape Mage",
+    "Blue Terra Imp",
+    "Greentoshell"
+   ],
+   "a_mais": [
+    "Greentoshell",
+    "Lapasape Mage",
+    "Terra Imp"
+   ]
+  },
+  {
+   "map_id": 3390,
+   "name": "Alemeth Forest",
+   "class": "f_orchard_34_1",
+   "level": 220,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Alchemist Briquette"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3420,
+   "name": "Nahash Forest",
+   "class": "f_siauliai_35_1",
+   "level": 223,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Stone"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3430,
+   "name": "Vera Cost",
+   "class": "f_coral_35_2",
+   "level": 226,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3440,
+   "name": "Elgos Monastery Annex",
+   "class": "d_abbey_35_3",
+   "level": 229,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Malstatue"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3450,
+   "name": "Elgos Abbey Main Building",
+   "class": "d_abbey_35_4",
+   "level": 232,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Malstatue"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3460,
+   "name": "Videntis Shrine",
+   "class": "id_catacomb_38_1",
+   "level": 194,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Starving Ellaganos"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3470,
+   "name": "Mokusul Chamber",
+   "class": "id_catacomb_38_2",
+   "level": 188,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Starving Ellaganos"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3480,
+   "name": "2nd Demon Prison",
+   "class": "d_velniasprison_54_1",
+   "level": 161,
+   "tosbase": 6,
+   "presentes": 5,
+   "faltam": [
+    "Treasure Vubbe"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3610,
+   "name": "Demon Prison District 1",
+   "class": "d_velniasprison_51_1",
+   "level": 151,
+   "tosbase": 6,
+   "presentes": 4,
+   "faltam": [
+    "Wrathful Harpeia",
+    "Yellow Maggot Egg"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3620,
+   "name": "Demon Prison District 2",
+   "class": "d_velniasprison_51_2",
+   "level": 154,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Wrathful Harpeia"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3630,
+   "name": "Demon Prison District 4",
+   "class": "d_velniasprison_51_3",
+   "level": 160,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Demon Lord Hauberk"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3640,
+   "name": "Demon Prison District 3",
+   "class": "d_velniasprison_51_4",
+   "level": 157,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3650,
+   "name": "Demon Prison District 5",
+   "class": "d_velniasprison_51_5",
+   "level": 163,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Wrathful Harpeia"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3730,
+   "name": "Tenants' Farm",
+   "class": "f_farm_47_1",
+   "level": 92,
+   "tosbase": 2,
+   "presentes": 2,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3740,
+   "name": "Aqueduct Bridge Area",
+   "class": "f_farm_47_2",
+   "level": 89,
+   "tosbase": 6,
+   "presentes": 4,
+   "faltam": [
+    "Bonfire",
+    "Demon Lord Hauberk"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3750,
+   "name": "Myrkiti Farm",
+   "class": "f_farm_47_3",
+   "level": 86,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3760,
+   "name": "Vedas Plateau",
+   "class": "f_tableland_11_1",
+   "level": 208,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Security Guard"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3810,
+   "name": "Royal Mausoleum Constructors' Church",
+   "class": "d_underfortress_59_1",
+   "level": 73,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Earth Templeshooter"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3820,
+   "name": "Royal Mausoleum Contructor's Chapel",
+   "class": "d_underfortress_59_2",
+   "level": 78,
+   "tosbase": 5,
+   "presentes": 4,
+   "faltam": [
+    "Earth Canceril"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3830,
+   "name": "Royal Mausoleum Storage",
+   "class": "d_underfortress_59_3",
+   "level": 83,
+   "tosbase": 5,
+   "presentes": 3,
+   "faltam": [
+    "Earth Archon",
+    "Vubbe Extermination Bomb"
+   ],
+   "a_mais": [
+    "Joseph Rock"
+   ]
+  },
+  {
+   "map_id": 3840,
+   "name": "Residence of the Fallen Legwyn Family",
+   "class": "d_startower_60_1",
+   "level": 132,
+   "tosbase": 4,
+   "presentes": 4,
+   "faltam": [],
+   "a_mais": []
+  },
+  {
+   "map_id": 3850,
+   "name": "Roxona Reconstruction Agency West Building",
+   "class": "d_firetower_61_1",
+   "level": 178,
+   "tosbase": 4,
+   "presentes": 3,
+   "faltam": [
+    "Marionette"
+   ],
+   "a_mais": []
+  },
+  {
+   "map_id": 3860,
+   "name": "Roxona Reconstruction Agency East Building",
+   "class": "d_firetower_61_2",
+   "level": 182,
+   "tosbase": 3,
+   "presentes": 3,
+   "faltam": [],
+   "a_mais": [
+    "Red Crystal"
+   ]
+  }
+ ]
+}

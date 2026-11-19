@@ -79,3 +79,30 @@ test('o relatório de quests registra por que cada quest ficou de fora', () => {
     assert.ok(!ids.some(i => report.convertidas_ids.includes(i)), 'quest convertida e de fora ao mesmo tempo');
   }
 });
+
+test('os spawns do pacote: arquivos alterados, tempos de nascimento e relatório', async () => {
+  const { readdirSync, statSync } = await import('node:fs');
+  const report = JSON.parse(file('spawns-report.json'));
+  const walk = dir => readdirSync(dir).flatMap(n => { const p = dir + '/' + n; return statSync(p).isDirectory() ? walk(p) : [p]; });
+  const root = new URL('../server/original-2016/user/scripts/zone/content/', import.meta.url).pathname;
+  const mobs = walk(root).filter(p => p.endsWith('.cs'));
+  assert.equal(mobs.length, report.arquivos_alterados);
+  assert.ok(report.alteracoes['respawn aplicado'] > 400);
+  let applied = 0, removed = 0;
+  for (const p of mobs) {
+    const text = readFileSync(p, 'utf8');
+    for (const line of text.split('\n')) {
+      if (/^\s*AddSpawner\(/.test(line)) assert.ok((line.match(/respawn:/g) || []).length <= 1, 'respawn repetido: ' + line.trim());
+    }
+    applied += (text.match(/respawn: Seconds\(\d+\)/g) || []).length;
+    removed += (text.match(/\/\/ removido \(pacote 2016\)/g) || []).length;
+  }
+  assert.ok(applied >= report.alteracoes['respawn aplicado']);
+  assert.equal(removed, report.alteracoes['spawner de cristal de raiz removido'] + report.alteracoes['sobrescrita de atributos por mapa removida']);
+  for (const p of mobs) assert.doesNotMatch(readFileSync(p, 'utf8'), /^\s*AddPropertyOverrides\(/m, 'sobrescrita de atributos ficou ativa em ' + p);
+  const west = readFileSync(root + 'r1/mobs/fields/f_siauliai_west.cs', 'utf8');
+  assert.match(west, /AddSpawner\("f_siauliai_west\.Id2", MonsterId\.Onion, min: 27, max: 35, respawn: Seconds\(3\)\);/);
+  assert.match(west, /\/\/ AddSpawner\("f_siauliai_west\.Id6", MonsterId\.Rootcrystal_01/);
+  assert.equal(report.mapas_com_spawn_no_melia + report.mapas_fechados_ou_sem_spawn.length, report.mapas_do_tosbase_com_monstros);
+  assert.ok(report.monstros_com_spawner_no_melia <= report.monstros_do_tosbase_nesses_mapas);
+});

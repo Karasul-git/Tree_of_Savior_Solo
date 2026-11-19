@@ -42,7 +42,8 @@ for mid, m in tosbase_monsters.items():  # os monstros que o ToSBase de 2016 lis
 
 # o que o servidor realmente faz nascer e cair: spawners dos scripts do Melia e drops dos bancos
 script_text = '\n'.join(f.read_text(encoding='utf-8-sig') for f in (melia / 'system/scripts/zone').rglob('*.cs'))
-spawned = set(re.findall(r'AddSpawner\([^;]*?MonsterId\.(\w+)', script_text))
+monster_const = {n: int(i) for n, i in re.findall(r'public const int (\w+) = (\d+);', (melia / 'system/scripts/zone/const/MonsterId.cs').read_text(encoding='utf-8-sig'))}
+spawned = {monster_const[n] for n in re.findall(r'AddSpawner\([^;]*?MonsterId\.(\w+)', script_text) if n in monster_const}  # ids
 monster_lines = {}
 for src_file in (melia / 'system/db/monsters.txt', pack / 'user/db/monsters.txt'):  # o pacote troca linhas do Melia
     for line in src_file.read_text(encoding='utf-8-sig').split('\n'):
@@ -53,7 +54,7 @@ item_sources = collections.defaultdict(set)  # item -> classes de monstros que o
 for mid, line in monster_lines.items():
     if 'drops:' in line:
         for iid in re.findall(r'itemId: (\d+)', line[line.find('drops:'):]):
-            item_sources[int(iid)].add(class_by_id[mid])
+            item_sources[int(iid)].add(mid)
 
 COUNTER = re.compile(r'\((\d+) / (\d+)\)')
 KILL_VERBS = ('defeat', 'hunt', 'kill', 'slay', 'eliminate', 'exterminate', 'destroy')
@@ -140,7 +141,7 @@ for qid, q in sorted(quests.items(), key=lambda kv: int(kv[0])):
         reason = 'nível 9999 no ToSBase (quest de avanço de classe, depende de NPC)'
     if not reason:
         for o in objs:
-            if o[0] == 'kill' and not any(class_by_id[i] in spawned for i in o[1]):
+            if o[0] == 'kill' and not any(i in spawned for i in o[1]):
                 reason = 'impossível hoje: o monstro não nasce no Melia (só aparece dentro da quest ou falta no conteúdo)'
             elif o[0] == 'item' and not any(c in spawned for c in item_sources.get(o[1], ())):
                 reason = 'impossível hoje: nenhum monstro que nasce no Melia dropa o item'

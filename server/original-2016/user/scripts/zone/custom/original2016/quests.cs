@@ -83,6 +83,22 @@ public class Q1018Original2016QuestScript : QuestScript
 	}
 }
 
+public class Q1022Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 1023);
+		SetName("The Beginning of Trouble");
+		SetDescription("Talk to the Battle Commander. Something dubious seems to have happened.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 1 Golem", new KillObjective(1, 450221));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(1));
+		AddReward(new ItemReward(640080, 3));
+		AddReward(new ItemReward(640103, 3));
+	}
+}
+
 public class Q1032Original2016QuestScript : QuestScript
 {
 	protected override void Load()
@@ -143,6 +159,37 @@ public class Q1042Original2016QuestScript : QuestScript
 	}
 }
 
+public class Q1045Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 1046);
+		SetName("Rescue the Villagers");
+		SetDescription("You arrived at Crystal Mine 3F, where the villagers may be imprisoned. Talk to Vaidotas about finding the residents.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 7 Crystal Spider", new KillObjective(7, 41409));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(11));
+		AddReward(new ItemReward(640081, 3));
+	}
+}
+
+public class Q1048Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 1049);
+		SetName("Demons of the Closed Area");
+		SetDescription("Something is sealed in the Crystal Pillar. Examine the pillar.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 1 Mirtis", new KillObjective(1, 400401));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(11));
+		AddReward(new ItemReward(640081, 5));
+		AddReward(new ItemReward(601111, 1));
+	}
+}
+
 public class Q4314Original2016QuestScript : QuestScript
 {
 	protected override void Load()
@@ -156,6 +203,21 @@ public class Q4314Original2016QuestScript : QuestScript
 		SetReceive(QuestReceiveType.Auto);
 		AddPrerequisite(new LevelPrerequisite(48));
 		AddReward(new ItemReward(640082, 1));
+	}
+}
+
+public class Q4384Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 4385);
+		SetName("Secure Route to the Gateway of the Great King (2)");
+		SetDescription("Since you passed the order to Soldier Poulter, go back to Commander Julian and talk to him.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 8 Wood Goblin", new KillObjective(8, 41290));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(111));
+		AddReward(new ItemReward(640086, 1));
 	}
 }
 
@@ -189,6 +251,142 @@ public class Q4388Original2016QuestScript : QuestScript
 	}
 }
 
+public class Q7073Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 7074);
+		SetName("Recruiting Mercenaries (1)");
+		SetDescription("Mercenary Toby is looking for someone who can help him. Talk to Toby");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 7 Desert Chupacabra", new KillObjective(7, 47329));
+		AddObjective("o2", "Kill 3 Zinute", new KillObjective(3, 47327));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(51));
+		AddReward(new ItemReward(640082, 2));
+	}
+}
+
+public class Q8046Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8047);
+		SetName("Information about Saugas (3)");
+		SetDescription("You are all ready to lure Saugas. Talk to Eta who is confident.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 6 Sauga", new KillObjective(6, 401001));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(54));
+		AddReward(new ItemReward(640082, 1));
+	}
+}
+
+public class Q8243Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8244);
+		SetName("The Missing Troop (2)");
+		SetDescription("It seems that you found one of the scouts that were lost. Talk to the Scout.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 7 Bite", new KillObjective(7, 400281));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(104));
+		AddReward(new ItemReward(640086, 1));
+	}
+}
+
+public class Q8253Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8254);
+		SetName("Leadership of Philipas");
+		SetDescription("Senior Commander Philipas is waiting for Soldier Roy at the Center Unit Camp. Talk to Philipas.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 1 Big Blue Griba", new KillObjective(1, 400462));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(104));
+		AddReward(new ItemReward(640086, 2));
+	}
+}
+
+public class Q8268Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8269);
+		SetName("Defeat Red Fisherman");
+		SetDescription("There is a small herd of Gribas near the Rearguard Unit Camp. Let's go and see them carefully.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 9 Red Fisherman", new KillObjective(9, 400344));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(104));
+		AddReward(new ItemReward(640086, 2));
+	}
+}
+
+public class Q8374Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8375);
+		SetName("Requesting Support");
+		SetDescription("The wounded soldier Aspas is looking for someone's help.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 7 Wood Goblin", new KillObjective(7, 41290));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(111));
+		AddReward(new ItemReward(640086, 1));
+	}
+}
+
+public class Q8379Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8380);
+		SetName("Black-colored Honor (1)");
+		SetDescription("Various writings on how to prepare when the demons attack are engraved on the epitaph. Read the epitaph.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 8 Vikaras Mage", new KillObjective(8, 57010));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(77));
+		AddReward(new ItemReward(640085, 1));
+	}
+}
+
+public class Q8422Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8423);
+		SetName("Empty Slate");
+		SetDescription("Various writings on how to prepare when the demons attack are engraved on the epitaph. Read the epitaph.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 6 Rusrat", new KillObjective(6, 400801));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(84));
+		AddReward(new ItemReward(640085, 1));
+	}
+}
+
+public class Q8444Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8445);
+		SetName("Call the Guardian");
+		SetDescription("Various writings on how to prepare when the demons attack are engraved on the epitaph. Read the epitaph.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 6 Venucelos", new KillObjective(6, 41198));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(82));
+		AddReward(new ItemReward(640085, 1));
+	}
+}
+
 public class Q8459Original2016QuestScript : QuestScript
 {
 	protected override void Load()
@@ -216,6 +414,69 @@ public class Q8461Original2016QuestScript : QuestScript
 		SetReceive(QuestReceiveType.Auto);
 		AddPrerequisite(new LevelPrerequisite(97));
 		AddReward(new ItemReward(640085, 1));
+	}
+}
+
+public class Q8473Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8474);
+		SetName("Goddess Gabija (3)");
+		SetDescription("You finally arrived inside the Mage Tower. Talk to Grita.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 6 Rubblem", new KillObjective(6, 57040));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(103));
+		AddReward(new ItemReward(640086, 1));
+	}
+}
+
+public class Q8474Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8475);
+		SetName("Goddess Gabija (4)");
+		SetDescription("You lit up a signal to let the goddess know that help is coming. Discuss what to do next with Grita.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 6 Phyracon", new KillObjective(6, 47397));
+		AddObjective("o2", "Kill 8 Drake", new KillObjective(8, 58119, 401621));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(103));
+		AddPrerequisite(new CompletedPrerequisite("Original2016.0", 8474));
+		AddReward(new ItemReward(640086, 1));
+	}
+}
+
+public class Q8491Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8492);
+		SetName("Mage Tower 4th Floor (4)");
+		SetDescription("The Jewel of Prominence is stabilized but the explosion at the 3rd Floor has made the Mage Tower unstable. Go to the Magic Control Room to control the disrupted magic of the Tower.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 5 Minivern", new KillObjective(5, 57050));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(113));
+		AddReward(new ItemReward(640086, 1));
+	}
+}
+
+public class Q8513Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8514);
+		SetName("Demon Sisters");
+		SetDescription("Vaidutis is looking for help from somebody in the Tenet Church 1F.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 15 Pawndel", new KillObjective(15, 57028));
+		AddObjective("o2", "Kill 15 Pawnd", new KillObjective(15, 57213));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(34));
+		AddReward(new ItemReward(640082, 1));
 	}
 }
 
@@ -264,6 +525,21 @@ public class Q8534Original2016QuestScript : QuestScript
 	}
 }
 
+public class Q8602Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.0", 8603);
+		SetName("Irritating Pricks");
+		SetDescription("Watcher Erra in Tenet Garden is waiting for someone's help.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 8 Seedmia", new KillObjective(8, 57016));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(25));
+		AddReward(new ItemReward(640082, 1));
+	}
+}
+
 public class Q8854Original2016QuestScript : QuestScript
 {
 	protected override void Load()
@@ -279,6 +555,21 @@ public class Q8854Original2016QuestScript : QuestScript
 	}
 }
 
+public class Q17002Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.1", 7003);
+		SetName("Young Magician Owyn (1)");
+		SetDescription("There is a young magician standing at the marked area of the map. He seems to need some help.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 10 Phyracon", new KillObjective(10, 47397));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(103));
+		AddReward(new ItemReward(640086, 1));
+	}
+}
+
 public class Q17003Original2016QuestScript : QuestScript
 {
 	protected override void Load()
@@ -290,6 +581,23 @@ public class Q17003Original2016QuestScript : QuestScript
 		AddObjective("o1", "Kill 10 Drake", new KillObjective(10, 58119, 401621));
 		SetReceive(QuestReceiveType.Auto);
 		AddPrerequisite(new LevelPrerequisite(103));
+		AddPrerequisite(new CompletedPrerequisite("Original2016.1", 7003));
+		AddReward(new ItemReward(640086, 1));
+	}
+}
+
+public class Q17007Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.1", 7008);
+		SetName("Suspicious Voice");
+		SetDescription("There's a strange sound coming from the Large Reading Room. Talk to the Sealed Stone.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 5 Blindlem", new KillObjective(5, 57042));
+		AddObjective("o2", "Kill 5 Belegg", new KillObjective(5, 57051));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(106));
 		AddReward(new ItemReward(640086, 1));
 	}
 }
@@ -321,6 +629,22 @@ public class Q19021Original2016QuestScript : QuestScript
 		AddObjective("o1", "Collect 1 Bloodstone", new CollectItemObjective(649209, 1));
 		SetReceive(QuestReceiveType.Auto);
 		AddPrerequisite(new LevelPrerequisite(1));
+	}
+}
+
+public class Q19610Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.1", 9611);
+		SetName("Curse of Sloth - Misery");
+		SetDescription("There is a gigantic Spoiled Tree Root Crystal at the space towards Altar Way. It looks different from the other Tree Root Crystals. Get closer to it and look closely.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 1 Tree Root Crystal", new KillObjective(1, 45135, 45136));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(114));
+		AddReward(new ItemReward(640086, 3));
+		AddReward(new ItemReward(581133, 1));
 	}
 }
 
@@ -366,6 +690,21 @@ public class Q20204Original2016QuestScript : QuestScript
 		SetReceive(QuestReceiveType.Auto);
 		AddPrerequisite(new LevelPrerequisite(86));
 		AddReward(new ItemReward(640085, 1));
+	}
+}
+
+public class Q20263Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.2", 264);
+		SetName("The Art of Interference");
+		SetDescription("Goddess Saule Believer Evaldas needs your help.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 3 Merog Shaman", new KillObjective(3, 41439));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(51));
+		AddReward(new ItemReward(640082, 2));
 	}
 }
 
@@ -415,6 +754,36 @@ public class Q60071Original2016QuestScript : QuestScript
 	}
 }
 
+public class Q70006Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.7", 7);
+		SetName("It's All Over Now");
+		SetDescription("Farmer Darcy needs your help. Talk to Farmer Darcy.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 15 Orange Lizardman", new KillObjective(15, 57351));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(139));
+		AddReward(new ItemReward(640113, 1));
+	}
+}
+
+public class Q70008Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.7", 9);
+		SetName("Unreliable Folk");
+		SetDescription("Farmer Miren seems to have lots of complaints. Talk to Farmer Miren");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 12 Orange Lizardman", new KillObjective(12, 57351));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(139));
+		AddReward(new ItemReward(640113, 1));
+	}
+}
+
 public class Q70027Original2016QuestScript : QuestScript
 {
 	protected override void Load()
@@ -426,6 +795,22 @@ public class Q70027Original2016QuestScript : QuestScript
 		AddObjective("o1", "Kill 12 Cyst", new KillObjective(12, 41265));
 		SetReceive(QuestReceiveType.Auto);
 		AddPrerequisite(new LevelPrerequisite(142));
+		AddReward(new ItemReward(640113, 1));
+	}
+}
+
+public class Q70028Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.7", 29);
+		SetName("The Disturbing Monster");
+		SetDescription("Farm Soldier Gedson still has some tasks to request of you. Talk to Gedson again.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 20 Orange Stumpy Tree", new KillObjective(20, 57357));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(142));
+		AddPrerequisite(new CompletedPrerequisite("Original2016.7", 28));
 		AddReward(new ItemReward(640113, 1));
 	}
 }
@@ -442,5 +827,50 @@ public class Q70031Original2016QuestScript : QuestScript
 		SetReceive(QuestReceiveType.Auto);
 		AddPrerequisite(new LevelPrerequisite(142));
 		AddReward(new ItemReward(640113, 1));
+	}
+}
+
+public class Q70046Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.7", 47);
+		SetName("Anything For Our Master");
+		SetDescription("Steward Valen needs your help. Talk to Valen.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 12 Green Carcashu", new KillObjective(12, 57341));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(145));
+		AddReward(new ItemReward(640113, 1));
+	}
+}
+
+public class Q70146Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.7", 147);
+		SetName("Creating a Quiet Environment");
+		SetDescription("Monk Jones seems anxious. Ask him what his worry is.");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Kill 15 Liverwort", new KillObjective(15, 401481));
+		AddObjective("o2", "Kill 15 Stonacon", new KillObjective(15, 57682));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(169));
+		AddReward(new ItemReward(640114, 2));
+	}
+}
+
+public class Q70227Original2016QuestScript : QuestScript
+{
+	protected override void Load()
+	{
+		SetId("Original2016.7", 228);
+		SetName("Honoring Allies");
+		SetDescription("Honoring Allies");
+		Original2016Quests.Ids.Add(this.QuestId.Value);
+		AddObjective("o1", "Collect 1 Blue Siaulav Mask", new CollectItemObjective(645650, 1));
+		SetReceive(QuestReceiveType.Auto);
+		AddPrerequisite(new LevelPrerequisite(205));
 	}
 }
