@@ -148,3 +148,20 @@ test('as regras de refino de 2016 reproduzem as tabelas do ToSBase', () => {
   assert.equal(report.itens_com_tabela_de_refino - standard, report.itens_com_bonus_fora_do_padrao);
   assert.ok(report.itens_com_bonus_fora_do_padrao < 250);
 });
+
+test('o patch do Melia e o comando de refino estão no pacote', () => {
+  const patch = file('patches/0001-propriedades-de-item.patch');
+  assert.match(patch, /update_2026-11-19_1\.sql/);
+  assert.match(patch, /ADD `properties` VARCHAR\(512\)/);
+  assert.match(patch, /public int Potential \{ get; set; \}/);
+  assert.match(patch, /this\.Properties\.CopyFrom\(other\.Properties\);/);
+  assert.equal((patch.match(/cmd\.Set\("properties", item\.Value\.GetSavedProperties\(\)\);/g) || []).length, 3, 'os três pontos de gravação');
+  assert.equal((patch.match(/LoadSavedProperties\(ReadSavedProperties\(reader\)\)/g) || []).length, 2, 'os dois pontos de leitura');
+  const refine = file('user/scripts/zone/custom/original2016/refine.cs');
+  assert.match(refine, /AddChatCommand\("refine"/);
+  assert.match(refine, /public static float EquipBonus\(Character character, RefineStat stat\)/);
+  const calc = file('user/scripts/zone/core/calc_character.cs');
+  for (const stat of ['Atk', 'MAtk', 'Def', 'MDef', 'Accuracy', 'Evasion'])
+    assert.ok(calc.includes(`Original2016Refine.EquipBonus(character, RefineStat.${stat});`), stat);
+  assert.equal((calc.match(/Original2016Refine\.EquipBonus/g) || []).length, 8);
+});

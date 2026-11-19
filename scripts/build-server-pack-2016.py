@@ -385,6 +385,19 @@ calc = patch(calc, 'SCR_Get_Character_CRTDR', [('var byLevel = level / 2f;', 'va
 calc = patch(calc, 'SCR_Get_Character_HR', [('var stat = properties.GetFloat(PropertyName.STR);', 'var stat = properties.GetFloat(PropertyName.DEX);'), ('var byLevel = level / 4f;', 'var byLevel = level + (character.JobClass == JobClass.Archer ? (level + 4f) / 4f : 0f);'),
                                              ('var byStat = (stat / 2f) + ((float)Math.Floor(stat / 15f) * 3f);', 'var byStat = stat;')])
 calc = patch(calc, 'SCR_Get_Character_DR', [('var byLevel = level / 4f;', 'var byLevel = level + (character.JobClass == JobClass.Archer ? level / 8f : 0f);'), ('var byStat = (stat / 2f) + ((float)Math.Floor(stat / 15f) * 3f);', 'var byStat = stat;')])
+# bônus de refino dos itens equipados (Original2016Refine, em custom/original2016/refine.cs)
+def refine_line(anchor_line, stat):
+    return (anchor_line, anchor_line + f'\n\t\tbyItem += Original2016Refine.EquipBonus(character, RefineStat.{stat});')
+
+
+calc = patch(calc, 'SCR_Get_Character_MINPATK', [refine_line('byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MINATK);', 'Atk')])
+calc = patch(calc, 'SCR_Get_Character_MAXPATK', [refine_line('byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MAXATK);', 'Atk')])
+calc = patch(calc, 'SCR_Get_Character_MINMATK', [refine_line('byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MINATK);', 'MAtk')])
+calc = patch(calc, 'SCR_Get_Character_MAXMATK', [refine_line('byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MAXATK);', 'MAtk')])
+calc = patch(calc, 'SCR_Get_Character_DEF', [refine_line('var byItem = character.Inventory.GetEquipProperties(PropertyName.DEF);', 'Def')])
+calc = patch(calc, 'SCR_Get_Character_MDEF', [refine_line('var byItem = character.Inventory.GetEquipProperties(PropertyName.MDEF);', 'MDef')])
+calc = patch(calc, 'SCR_Get_Character_HR', [refine_line('byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_HR);', 'Accuracy')])
+calc = patch(calc, 'SCR_Get_Character_DR', [refine_line('byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_DR);', 'Evasion')])
 calc = patch(calc, 'SCR_Get_Character_BLK_BREAK', [('var stat = properties.GetFloat(PropertyName.DEX);', 'var stat = properties.GetFloat(PropertyName.MNA);'), ('var byLevel = level / 4f;', 'var byLevel = level * 0.5f;'),
                                                  ('var byStat = (stat / 2f) + ((float)Math.Floor(stat / 15f) * 3f);', 'var byStat = stat;')])
 # helpers logo depois da abertura da classe

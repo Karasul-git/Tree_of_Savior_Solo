@@ -1,0 +1,185 @@
+diff --git a/sql/updates/update_2026-11-19_1.sql b/sql/updates/update_2026-11-19_1.sql
+new file mode 100644
+index 0000000..2bc6e1e
+--- /dev/null
++++ b/sql/updates/update_2026-11-19_1.sql
+@@ -0,0 +1 @@
++ALTER TABLE `items` ADD `properties` VARCHAR(512) NULL DEFAULT NULL AFTER `amount`;
+diff --git a/src/Shared/Data/Database/Items.cs b/src/Shared/Data/Database/Items.cs
+index 8e9f188..9b9170b 100644
+--- a/src/Shared/Data/Database/Items.cs
++++ b/src/Shared/Data/Database/Items.cs
+@@ -28,6 +28,15 @@ public class ItemData
+ 		public EquipType EquipType2 { get; set; }
+ 		public int MinLevel { get; set; }
+ 
++		/// <summary>Grade (stars) of the item, used by the refine tables.</summary>
++		public int Grade { get; set; }
++
++		/// <summary>Maximum potential of the item (PR). 0 if the item has none.</summary>
++		public int Potential { get; set; }
++
++		/// <summary>Maximum durability as displayed by the client. 0 if the item has none.</summary>
++		public int Durability { get; set; }
++
+ 		public float MinAtk { get; set; }
+ 		public float MaxAtk { get; set; }
+ 		public float PAtk { get; set; }
+@@ -167,6 +176,9 @@ protected override void ReadEntry(JObject entry)
+ 			data.EquipType1 = entry.ReadEnum<EquipType>("equipType1", EquipType.None);
+ 			data.EquipType2 = entry.ReadEnum<EquipType>("equipType2", EquipType.None);
+ 			data.MinLevel = entry.ReadInt("minLevel", 1);
++			data.Grade = entry.ReadInt("grade", 0);
++			data.Potential = entry.ReadInt("potential", 0);
++			data.Durability = entry.ReadInt("durability", 0);
+ 
+ 			data.MinAtk = entry.ReadFloat("minAtk", 0);
+ 			data.MaxAtk = entry.ReadFloat("maxAtk", 0);
+diff --git a/src/ZoneServer/Database/ZoneDb.cs b/src/ZoneServer/Database/ZoneDb.cs
+index 62c6a8a..05b098f 100644
+--- a/src/ZoneServer/Database/ZoneDb.cs
++++ b/src/ZoneServer/Database/ZoneDb.cs
+@@ -549,6 +549,15 @@ private void SaveJobs(Character character)
+ 			}
+ 		}
+ 
++		/// <summary>
++		/// Returns the saved item properties of the current row, or null.
++		/// </summary>
++		private static string ReadSavedProperties(MySqlDataReader reader)
++		{
++			var ordinal = reader.GetOrdinal("properties");
++			return reader.IsDBNull(ordinal) ? null : reader.GetString(ordinal);
++		}
++
+ 		/// <summary>
+ 		/// Load character's items.
+ 		/// </summary>
+@@ -577,6 +586,7 @@ private void LoadCharacterItems(Character character)
+ 						}
+ 
+ 						var item = new Item(itemId, amount);
++						item.LoadSavedProperties(ReadSavedProperties(reader));
+ 
+ 						if (!Enum.IsDefined(typeof(EquipSlot), equipSlot))
+ 							character.Inventory.AddSilent(item);
+@@ -618,6 +628,7 @@ public void SaveCharacterItems(Character character)
+ 					{
+ 						cmd.Set("itemId", item.Value.Id);
+ 						cmd.Set("amount", item.Value.Amount);
++						cmd.Set("properties", item.Value.GetSavedProperties());
+ 
+ 						cmd.Execute();
+ 
+@@ -646,6 +657,7 @@ public void SaveCharacterItems(Character character)
+ 					{
+ 						cmd.Set("itemId", item.Value.Id);
+ 						cmd.Set("amount", item.Value.Amount);
++						cmd.Set("properties", item.Value.GetSavedProperties());
+ 
+ 						cmd.Execute();
+ 
+@@ -702,6 +714,7 @@ internal void LoadStorage(Storage storage, string tableName, string idFieldName,
+ 						}
+ 
+ 						var item = new Item(itemId, amount);
++						item.LoadSavedProperties(ReadSavedProperties(reader));
+ 
+ 						storage.AddAtPosition(item, position, out var addedAmount);
+ 					}
+@@ -736,6 +749,7 @@ public void SaveStorage(Storage storage, string tableName, string idFieldName, l
+ 					{
+ 						cmd.Set("itemId", item.Value.Id);
+ 						cmd.Set("amount", item.Value.Amount);
++						cmd.Set("properties", item.Value.GetSavedProperties());
+ 
+ 						cmd.Execute();
+ 
+diff --git a/src/ZoneServer/World/Items/Item.cs b/src/ZoneServer/World/Items/Item.cs
+index 1dbe890..7188dc8 100644
+--- a/src/ZoneServer/World/Items/Item.cs
++++ b/src/ZoneServer/World/Items/Item.cs
+@@ -1,4 +1,6 @@
+ ﻿using System;
++using System.Collections.Generic;
++using System.Globalization;
+ using System.Threading;
+ using Melia.Shared.Data.Database;
+ using Melia.Shared.ObjectProperties;
+@@ -97,6 +99,53 @@ public int Amount
+ 		/// </summary>
+ 		public Properties Properties { get; } = new Properties("Item");
+ 
++		/// <summary>
++		/// The client shows durability divided by this value (the packet
++		/// documentation gives 39/42 displayed as 3900). To be confirmed
++		/// against the client.
++		/// </summary>
++		public const int DurabilityScale = 100;
++
++		/// <summary>
++		/// Properties that change during play and are saved with the item.
++		/// </summary>
++		public static readonly string[] SavedProperties = { PropertyName.Reinforce_2, PropertyName.PR, PropertyName.Dur };
++
++		/// <summary>
++		/// Returns the saved properties as "name=value;name=value", or an
++		/// empty string if they all have their default value.
++		/// </summary>
++		public string GetSavedProperties()
++		{
++			var parts = new List<string>();
++			foreach (var name in SavedProperties)
++			{
++				if (!this.Properties.TryGetFloat(name, out var value))
++					continue;
++				parts.Add(name + "=" + value.ToString("R", CultureInfo.InvariantCulture));
++			}
++			return string.Join(";", parts);
++		}
++
++		/// <summary>
++		/// Applies properties saved by GetSavedProperties. Unknown names and
++		/// malformed entries are ignored.
++		/// </summary>
++		public void LoadSavedProperties(string saved)
++		{
++			if (string.IsNullOrWhiteSpace(saved))
++				return;
++
++			foreach (var part in saved.Split(';'))
++			{
++				var pair = part.Split('=');
++				if (pair.Length != 2 || Array.IndexOf(SavedProperties, pair[0]) < 0)
++					continue;
++				if (float.TryParse(pair[1], NumberStyles.Float, CultureInfo.InvariantCulture, out var value))
++					this.Properties.SetFloat(pair[0], value);
++			}
++		}
++
+ 		/// <summary>
+ 		/// Creates new item.
+ 		/// </summary>
+@@ -128,7 +177,7 @@ public Item(Item other)
+ 			this.OwnerHandle = other.OwnerHandle;
+ 			this.LootProtectionEnd = other.LootProtectionEnd;
+ 
+-			other.Properties.CopyFrom(this.Properties);
++			this.Properties.CopyFrom(other.Properties);
+ 
+ 			this.Amount = other.Amount;
+ 		}
+@@ -153,6 +202,13 @@ protected virtual void LoadData()
+ 		/// </summary>
+ 		protected virtual void LoadDataProperties()
+ 		{
++			if (this.Data.Potential > 0) this.Properties.SetFloat(PropertyName.PR, this.Data.Potential);
++			if (this.Data.Durability > 0)
++			{
++				this.Properties.SetFloat(PropertyName.MaxDur, this.Data.Durability * DurabilityScale);
++				this.Properties.SetFloat(PropertyName.Dur, this.Data.Durability * DurabilityScale);
++			}
++
+ 			if (this.Data.MinAtk != 0) this.Properties.SetFloat(PropertyName.MINATK, this.Data.MinAtk);
+ 			if (this.Data.MaxAtk != 0) this.Properties.SetFloat(PropertyName.MAXATK, this.Data.MaxAtk);
+ 			if (this.Data.MAtk != 0) this.Properties.SetFloat(PropertyName.MATK, this.Data.MAtk);

@@ -700,6 +700,7 @@ public class CharacterCalculationsScript : GeneralScript
 		byItem += character.Inventory.GetEquipProperties(PropertyName.MINATK);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.PATK);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MINATK);
+		byItem += Original2016Refine.EquipBonus(character, RefineStat.Atk);
 
 		var value = (baseValue + byLevel + byStat + byItem);
 
@@ -744,6 +745,7 @@ public class CharacterCalculationsScript : GeneralScript
 		byItem += character.Inventory.GetEquipProperties(PropertyName.MAXATK);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.PATK);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MAXATK);
+		byItem += Original2016Refine.EquipBonus(character, RefineStat.Atk);
 
 		var value = (baseValue + byLevel + byStat + byItem);
 
@@ -873,6 +875,7 @@ public class CharacterCalculationsScript : GeneralScript
 		byItem += character.Inventory.GetEquipProperties(PropertyName.MATK);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MATK);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MINATK);
+		byItem += Original2016Refine.EquipBonus(character, RefineStat.MAtk);
 
 		var value = (baseValue + byLevel + byStat + byItem);
 
@@ -913,6 +916,7 @@ public class CharacterCalculationsScript : GeneralScript
 		byItem += character.Inventory.GetEquipProperties(PropertyName.MATK);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MATK);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_MAXATK);
+		byItem += Original2016Refine.EquipBonus(character, RefineStat.MAtk);
 
 		var value = (baseValue + byLevel + byStat + byItem);
 
@@ -945,6 +949,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		var byLevel = (float)Math.Floor(Math.Floor(level / 2f) + (character.JobClass == JobClass.Swordsman ? level / 4f : 0f));
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.DEF);
+		byItem += Original2016Refine.EquipBonus(character, RefineStat.Def);
 
 		var value = baseValue + byLevel + byItem;
 
@@ -973,6 +978,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		var byLevel = (float)Math.Floor(level * 0.5f + properties.GetFloat(PropertyName.MNA) / 5f + (character.JobClass == JobClass.Wizard ? level / 4f : 0f));
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.MDEF);
+		byItem += Original2016Refine.EquipBonus(character, RefineStat.MDef);
 
 		var value = baseValue + byLevel + byItem;
 
@@ -1092,6 +1098,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		byItem += character.Inventory.GetEquipProperties(PropertyName.HR);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_HR);
+		byItem += Original2016Refine.EquipBonus(character, RefineStat.Accuracy);
 		var value = byLevel + byStat + byItem;
 
 		var byBuffs = character.Properties.GetFloat(PropertyName.HR_BM);
@@ -1127,6 +1134,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		byItem += character.Inventory.GetEquipProperties(PropertyName.DR);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_DR);
+		byItem += Original2016Refine.EquipBonus(character, RefineStat.Evasion);
 
 		var value = byLevel + byStat + byItem;
 

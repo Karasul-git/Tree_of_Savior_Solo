@@ -11,6 +11,7 @@
     <!-- Os scripts do pacote, compilados contra o ZoneServer do Melia -->
     <Compile Include="..\..\user\scripts\zone\custom\original2016\*.cs" />
     <Compile Include="..\..\user\scripts\zone\content\**\*.cs" />
+    <Compile Include="..\..\user\scripts\zone\core\*.cs" />
     <Compile Include="..\..\system\scripts\zone\const\MonsterId.cs" />
   </ItemGroup>
 </Project>

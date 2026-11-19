@@ -82,14 +82,25 @@ cs = '''//--- Melia Script -----------------------------------------------------
 // Regras de refino de 2016 (gerado por scripts/build-refine-pack-2016.py)
 //--- Description -----------------------------------------------------------
 // Bônus por nível, chance de sucesso e preço do refino de cada item, mais a
-// regra de potencial. Funções puras: o servidor ainda não guarda o nível de
-// refino nem o potencial de cada item (o Melia salva só o id e a quantidade),
-// então nada aqui altera o jogo até haver esse armazenamento.
+// regra de potencial, o bônus dos itens equipados (usado pelo cálculo de
+// status) e o comando /refine. O nível de refino fica na propriedade
+// Reinforce_2 do item e o potencial em PR. Para isso valer depois de sair do
+// jogo, o Melia precisa do patch patches/0001-propriedades-de-item.patch
+// (sem ele o refino funciona, mas se perde ao reiniciar).
 // Não editar à mão: gere de novo pelo script.
 //---------------------------------------------------------------------------
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using Melia.Shared.Game.Const;
+using Melia.Zone.Network;
+using Melia.Zone.Scripting;
+using Melia.Zone.World.Actors.Characters;
+using Melia.Zone.World.Items;
+using Yggdrasil.Util;
+using Yggdrasil.Util.Commands;
+using static Melia.Zone.Scripting.Shortcuts;
 
 public enum RefineStat { Atk, MAtk, Def, MDef, Accuracy, Evasion, MagicAmp }
 
@@ -173,6 +184,22 @@ public static class Original2016Refine
 		return info.Prices[toLevel - 1];
 	}
 
+	/// <summary>
+	/// Soma do bônus de refino dos itens equipados que refinam o atributo dado.
+	/// O nível vem da propriedade Reinforce_2 de cada item.
+	/// </summary>
+	public static float EquipBonus(Character character, RefineStat stat)
+	{
+		var sum = 0f;
+		foreach (var item in character.Inventory.GetEquip().Values)
+		{
+			if (!Items.TryGetValue(item.Id, out var info) || info.Stat != stat)
+				continue;
+			sum += Bonus(item.Id, (int)item.Properties.GetFloat(PropertyName.Reinforce_2, 0));
+		}
+		return sum;
+	}
+
 	/// <summary>Só dá para refinar com potencial acima de 0 e abaixo do nível máximo.</summary>
 	public static bool CanRefine(int itemId, int level, int potential)
 		=> Items.ContainsKey(itemId) && potential > 0 && level < MaxLevel;
@@ -195,6 +222,93 @@ public static class Original2016Refine
 		level = Math.Max(0, level - 1);
 		potential--;
 		return false;
+	}
+}
+
+/// <summary>
+/// Comando /refine: refina o item equipado com as regras de 2016, no lugar da
+/// bigorna (que é um NPC, e o servidor ainda não tem as coordenadas dele).
+/// </summary>
+public class Original2016RefineCommandScript : GeneralScript
+{
+	private static readonly Dictionary<string, EquipSlot> Slots = new(StringComparer.OrdinalIgnoreCase)
+	{
+		["rh"] = EquipSlot.RightHand, ["arma"] = EquipSlot.RightHand, ["weapon"] = EquipSlot.RightHand,
+		["lh"] = EquipSlot.LeftHand, ["escudo"] = EquipSlot.LeftHand, ["shield"] = EquipSlot.LeftHand,
+		["top"] = EquipSlot.Top, ["shirt"] = EquipSlot.Top, ["camisa"] = EquipSlot.Top,
+		["pants"] = EquipSlot.Pants, ["calca"] = EquipSlot.Pants,
+		["gloves"] = EquipSlot.Gloves, ["luvas"] = EquipSlot.Gloves,
+		["boots"] = EquipSlot.Shoes, ["shoes"] = EquipSlot.Shoes, ["botas"] = EquipSlot.Shoes,
+		["neck"] = EquipSlot.Necklace, ["colar"] = EquipSlot.Necklace,
+		["bracelet1"] = EquipSlot.Bracelet1, ["pulseira1"] = EquipSlot.Bracelet1,
+		["bracelet2"] = EquipSlot.Bracelet2, ["pulseira2"] = EquipSlot.Bracelet2,
+	};
+
+	protected override void Load()
+	{
+		AddChatCommand("refine", "[info] [rh|lh|top|pants|gloves|boots|neck|bracelet1|bracelet2]",
+			"Refina o item equipado com as regras de 2016 (padrão: a arma). 'info' só mostra a situação.", 0, 99, HandleRefine);
+	}
+
+	private CommandResult HandleRefine(Character sender, Character target, string message, string commandName, Arguments args)
+	{
+		var info = false;
+		var slot = EquipSlot.RightHand;
+
+		for (var i = 0; i < args.Count; ++i)
+		{
+			var word = args.Get(i);
+			if (word.Equals("info", StringComparison.OrdinalIgnoreCase))
+				info = true;
+			else if (!Slots.TryGetValue(word, out slot))
+			{
+				sender.ServerMessage("Peça desconhecida: {0}. Use rh, lh, top, pants, gloves, boots, neck, bracelet1 ou bracelet2.", word);
+				return CommandResult.InvalidArgument;
+			}
+		}
+
+		var item = sender.Inventory.GetEquip(slot);
+		if (item == null || !Original2016Refine.Items.ContainsKey(item.Id))
+		{
+			sender.ServerMessage("Nada refinável equipado nessa peça.");
+			return CommandResult.Okay;
+		}
+
+		var level = (int)item.Properties.GetFloat(PropertyName.Reinforce_2, 0);
+		var potential = (int)item.Properties.GetFloat(PropertyName.PR, 0);
+
+		if (info)
+		{
+			sender.ServerMessage("{0}: +{1}, potencial {2}. Próximo nível: {3}% de chance, {4} de prata.", item.Data.Name, level, potential,
+				Original2016Refine.SuccessRate(item.Id, level + 1), Original2016Refine.Price(item.Id, level + 1));
+			return CommandResult.Okay;
+		}
+
+		if (!Original2016Refine.CanRefine(item.Id, level, potential))
+		{
+			sender.ServerMessage(level >= Original2016Refine.MaxLevel ? "{0} já está no nível máximo de refino." : "{0} está sem potencial e não pode mais ser refinado.", item.Data.Name);
+			return CommandResult.Okay;
+		}
+
+		var price = Original2016Refine.Price(item.Id, level + 1);
+		if (sender.Inventory.CountItem(ItemId.Silver) < price)
+		{
+			sender.ServerMessage("Prata insuficiente: o refino custa {0}.", price);
+			return CommandResult.Okay;
+		}
+
+		sender.Inventory.Remove(ItemId.Silver, price, InventoryItemRemoveMsg.PaidWith);
+
+		var success = Original2016Refine.TryRefine(item.Id, ref level, ref potential, RandomProvider.Get().Next(100));
+
+		item.Properties.SetFloat(PropertyName.Reinforce_2, level);
+		item.Properties.SetFloat(PropertyName.PR, potential);
+		Send.ZC_OBJECT_PROPERTY(sender.Connection, item, PropertyName.Reinforce_2, PropertyName.PR);
+		sender.Properties.InvalidateAll();
+		Send.ZC_OBJECT_PROPERTY(sender);
+
+		sender.ServerMessage(success ? "{0} subiu para +{1} (potencial {2})." : "O refino falhou: {0} caiu para +{1} e ficou com potencial {2}.", item.Data.Name, level, potential);
+		return CommandResult.Okay;
 	}
 }
 '''
