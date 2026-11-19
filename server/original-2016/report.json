@@ -1,0 +1,31 @@
+{
+ "monsters": {
+  "tosbase": 1142,
+  "trocados": 1126,
+  "sem_equivalente_no_melia": 16,
+  "drops_com_chance_de_2016": 954,
+  "drops_com_chance_desconhecida": 644,
+  "drops_de_itens_ausentes_no_melia": 0
+ },
+ "items": {
+  "tosbase": 3461,
+  "trocados": 1529,
+  "sem_equivalente_no_melia": 9
+ },
+ "skills": {
+  "trocadas": 290,
+  "com_tabela_de_sp": 316,
+  "fontes": {
+   "paginas": 316,
+   "simulador": 18
+  },
+  "sem_equivalente_no_melia": 68
+ },
+ "jobs": {
+  "classes_base": 4
+ },
+ "scripts": {
+  "calc_character.cs": "fórmulas de 2016",
+  "calc_skill.cs": "tabela de SP de 316 habilidades"
+ }
+}

@@ -1,0 +1,13 @@
+// Melia
+// Database file (pacote original 2016)
+//
+// Mantém só as eras Base, iCBT2 e Release (primavera de 2016): desliga o Re:Build e tudo o que veio depois.
+// A ordem importa: desligar um pai desliga os filhos.
+//---------------------------------------------------------------------------
+
+[
+{ name: "ReBuild", enabled: false },
+{ name: "Latest", enabled: false },
+{ name: "Misc", enabled: false },
+{ name: "SpawnPropertyOverrides", enabled: true },
+]
