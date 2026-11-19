@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-193 quests.
+200 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -21,6 +21,7 @@
 | [Collecting Cable Car Parts](17140.md) | 26 | Watcher Matthew | Srautas Gorge |
 | [Finding the Lever Handle Latches](17120.md) | 26 | Watcher Gilbert | Srautas Gorge |
 | [Justified Suspicion](60151.md) | 26 | Watcher Molly | Srautas Gorge |
+| [Lure the Baby Pantos](17130.md) | 26 | Watcher Molly | Srautas Gorge |
 | [Stubborness](17160.md) | 26 | Watcher Molly | Srautas Gorge |
 | [The Fearless Ones](17100.md) | 26 | Watcher Gilbert | Srautas Gorge |
 | [The Parts Thief](17110.md) | 26 | Watcher Gilbert | Srautas Gorge |
@@ -35,6 +36,7 @@
 | [Purifying Doll (1)](17250.md) | 29 | Watcher Mori | Gele Plateau |
 | [Purifying Doll (2)](17260.md) | 29 |  | Gele Plateau |
 | [Rose's Friends (1)](50091.md) | 29 | Traveling Merchant Rose | Koru Jungle |
+| [Rose's Friends (2)](50092.md) | 29 | Traveling Merchant Rose | Koru Jungle |
 | [Rose's Friends (3)](50093.md) | 29 | Traveling Merchant Cassius | Koru Jungle |
 | [The Injured Herbalist (1)](50096.md) | 29 | Herb Broker Tales | Koru Jungle |
 | [The Injured Herbalist (2)](50097.md) | 29 | Herb Broker Tales | Koru Jungle |
@@ -45,6 +47,7 @@
 | [Unsettled Totems (2)](17240.md) | 29 |  | Gele Plateau |
 | [Vendor's Lost Baggage](50094.md) | 29 | Traveling Merchant Andres | Koru Jungle |
 | [Bull Hunting](8543.md) | 32 | Follower Kayetonas | Nefritas Cliff |
+| [Demon Herbalist (1)](50105.md) | 32 | 약초꾼 아스 | Knidos Jungle |
 | [Demon Herbalist (2)](50106.md) | 32 | 약초꾼 아스 | Knidos Jungle |
 | [Demon Herbalist (3)](50107.md) | 32 | 약초꾼 아스 | Knidos Jungle |
 | [Demon Summoning Circle](8540.md) | 32 | Watcher Kenneth | Nefritas Cliff |
@@ -141,6 +144,7 @@
 | [Legend of the Cold Iron (Cryomancer Advancement) (2)](1109.md) | 45 | Miners' Village Mayor | Miners' Village |
 | [Natural Enemy (Archer Advancement)](30085.md) | 45 | (Archer Submaster) Gunnison | Orsha |
 | [Non-existent Book (Linker Advancement) (1)](1077.md) | 45 | (Linker Submaster) Roddie Kuska | Miners' Village |
+| [Non-existent Book (Linker Advancement) (2)](1078.md) | 45 | (Linker Submaster) Roddie Kuska | Miners' Village |
 | [Orsha Retoration Support (Ranger Advancement)](30086.md) | 45 | (Ranger Submaster) Sheba | Orsha |
 | [Perfect Holy water (Cleric Advancement) (1)](1115.md) | 45 | (Cleric Master) Rozalija | Klaipeda |
 | [Perfect Holy water (Cleric Advancement) (2)](1116.md) | 45 | (Cleric Master) Rozalija | Klaipeda |
@@ -148,6 +152,7 @@
 | [Rough Advancement (Barbarian Advancement)](1073.md) | 45 | – | East Siauliai Woods |
 | [Sapper Research (Sapper Advancement)](30088.md) | 45 | (Sapper Submaster) Zubin Katal | Orsha |
 | [Shield over Flowers (Highlander Advancement) (1)](1101.md) | 45 | (Highlander Master) Douglas Black | Highlander Master's Training Hall |
+| [Shield over Flowers (Highlander Advancement) (2)](1102.md) | 45 | (Highlander Master) Douglas Black | Highlander Master's Training Hall |
 | [Sticky (Quarrel Shooter Advancement)](30087.md) | 45 | (Quarrel Shooter Submaster) Shorris | Orsha |
 | [Teaching from a Mentor (Wizard Advancement)](30080.md) | 45 | (Wizard Submaster) Dejamis | Orsha |
 | [The Best Material (Dievdirbys Advancement)](1100.md) | 45 | (Dievdirbys Master) Sculptor Tesla | West Siauliai Woods |
@@ -159,6 +164,7 @@
 | [The Rescue (4)](50120.md) | 45 | Monk Goss | Novaha Assembly Hall |
 | [The Rescue (5)](50121.md) | 45 | Traveling Merchant Rose | Novaha Assembly Hall |
 | [Unknown Force (Psychokino Advancement)](30083.md) | 45 | (Psychokino Master) Ili Terid | Orsha |
+| [고난극복방법(소드맨 전직)](70307.md) | 45 | (Swordsman Submaster) Codill | Orsha |
 | [구원의 손길(클레릭 전직)](70312.md) | 45 | (Cleric Submaster) Tamara Easton | Orsha |
 | [보코르라면 역시...(보코르 전직)](70315.md) | 45 | (Bokor Submaster) Bobo Icelin | Orsha |
 | [살아남는 자가 강하다(펠타스타 전직)](70309.md) | 45 | (Peltasta Submaster) Nirin Dameoff | Orsha |
@@ -174,6 +180,7 @@
 | [Nugria Sanctum's Moyabruka](18150.md) | 46 | Nugria Altar | Veja Ravine |
 | [Remove the pollutant in Veidma Uphill](18160.md) | 46 | Source of Corruption | Veja Ravine |
 | [Searching for Goddess Saule](18100.md) | 46 | Old Man of Andale Village | Veja Ravine |
+| [Activate the Auka Altar](8533.md) | 48 | Follower Algis | Tenet Church 2F |
 | [Activate the Malda Altar](8532.md) | 48 | Follower Algis | Tenet Church 2F |
 | [Cat and Mouse](8531.md) | 48 | Follower Algis | Tenet Church 2F |
 | [Cleaning the Church](8534.md) | 48 | Follower Algis | Tenet Church 2F |

@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-138 quests.
+141 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -12,6 +12,7 @@
 | [Oppotunity and Preparation](19021.md) | – | – | – |
 | [Purification of the Stream, Recovery of the Tree (2)](19941.md) | – | – | – |
 | [Rolandas Jonas of Akmens Ridge](40040.md) | – | – | – |
+| [To Overlong Bridge Valley](40020.md) | – | – | – |
 | [밀실의 비밀](19011.md) | – | – | – |
 | [](19870.md) | 9999 | Pilgrim Theophilis | Apsimesti Crossroads |
 | [](19890.md) | 9999 | Pilgrim Theophilis | Apsimesti Crossroads |
@@ -28,6 +29,7 @@
 | [Complete the Cryomancer's Mission (Cryomancer Advancement)](19150.md) | 9999 | (Cryomancer Master) Alistair Crowley | Klaipeda |
 | [Complete the Mission of a Linker (Linker Advancement)](19170.md) | 9999 | (Linker Submaster) Roddie Kuska | Miners' Village |
 | [Complete the Mission of a Wizard (Wizard Advancement)](19130.md) | 9999 | (Wizard Master) Lucia | Klaipeda |
+| [Complete the Psychokino 's Mission (Psychokino Advancement)](19160.md) | 9999 | (Psychokino Submaster) Cielle Gudan | Miners' Village |
 | [Defeat the monsters blocking the road](20069.md) | 9999 | – | Poslinkis Forest |
 | [Determination of the Sword (Squire Advancement)](1155.md) | 9999 | (Squire Master) Justina Legwyn | Fedimian |
 | [Disturbance of the Winged Beast (Peltasta Advancement) (1)](8705.md) | 9999 | (Peltasta Master) Maria Leed | Klaipeda |
@@ -87,6 +89,7 @@
 | [Spiritual Poison (1)](8311.md) | 9999 | 길 잃은 영혼 | Kule Peak |
 | [Spiritual Poison (2)](8312.md) | 9999 | 미련 많은 영혼 | Kule Peak |
 | [Spiritual Poison (3)](8313.md) | 9999 | 미련 많은 영혼 | Kule Peak |
+| [Spiritual Poison (4)](8314.md) | 9999 | Empty Owl Sculpture | Kule Peak |
 | [State of Laziness (Hunter Advancement)](8735.md) | 9999 | – | East Siauliai Woods |
 | [Story behind the collapse of the owl](19400.md) | 9999 | UnvisibleName | Owl Burial Ground |
 | [Story of the Owl Sculpture](20071.md) | 9999 | Broken Owl Statue | Poslinkis Forest |

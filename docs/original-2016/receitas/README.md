@@ -1,6 +1,6 @@
 # Receitas de 2016
 
-638 receitas de fabricação do ToSBase de 2016, com o item que produzem e os materiais.
+669 receitas de fabricação do ToSBase de 2016, com o item que produzem e os materiais.
 
 | Receita | Resultado |
 | --- | --- |
@@ -21,6 +21,7 @@
 | [Allerno Plate Armor Recipe](30440.md) | Allerno Plate Armor |
 | [Allerno Plate Gauntlets Recipe](30437.md) | Allerno Plate Gauntlets |
 | [Allerno Plate Greaves Recipe](30438.md) | Allerno Plate Greaves |
+| [Allerno Plate Leggings Recipe](30439.md) | Allerno Plate Leggings |
 | [Allerno Robe Recipe](30432.md) | Allerno Robe |
 | [Alter Rod Recipe](12052.md) | Alter Rod |
 | [Animus Recipe](33029.md) | Animus |
@@ -48,6 +49,7 @@
 | [Audra Recipe](13023.md) | Audra |
 | [Augalo Amulet Recipe](38002.md) | Augalo Amulet |
 | [Austas Recipe](10018.md) | Austas |
+| [Badelaire Recipe](10056.md) | Badelaire |
 | [Bandit Armor Recipe](30496.md) | Bandit Armor |
 | [Bandit Boots Recipe](30494.md) | Bandit Boots |
 | [Bandit Gloves Recipe](30493.md) | Bandit Gloves |
@@ -59,6 +61,7 @@
 | [Battle Maul Recipe](16052.md) | Battle Maul |
 | [Battle Rod Recipe](12009.md) | Battle Rod |
 | [Bead Shield Recipe](31014.md) | Bead Shield |
+| [Beetleback Recipe](31019.md) | Beetleback |
 | [Bendras Sword Recipe](10027.md) | Bendras Sword |
 | [Black Staff Recipe](13020.md) | Black Staff |
 | [Black Tip Bow Recipe](15050.md) | Black Tip Bow |
@@ -75,8 +78,10 @@
 | [Brandish Recipe](17023.md) | Brandish |
 | [Breach Pike Recipe](17037.md) | Breach Pike |
 | [Bullet Shooter Recipe](15049.md) | Bullet Shooter |
+| [Burawa Recipe](16069.md) | Burawa |
 | [Caliburn Recipe](11006.md) | Caliburn |
 | [Calvary Shield Recipe](31030.md) | Calvary Shield |
+| [Candle Staff Recipe](13022.md) | Candle Staff |
 | [Canine Head Decoration Recipe](35100.md) | Canine Head Decoration |
 | [Cannon Recipe](37001.md) | Cannon |
 | [Carpenter Gloves Recipe](30064.md) | Carpenter Gloves |
@@ -111,7 +116,9 @@
 | [Demono Amulet Recipe](38001.md) | Demono Amulet |
 | [Desert Outlaw Recipe](35075.md) | Desert Outlaw |
 | [Didel Colossus Recipe](11011.md) | Didel Colossus |
+| [Didel Grand Cross Recipe](15066.md) | Didel Grand Cross |
 | [Dignity Miter Recipe](35101.md) | Dignity Miter |
+| [Dirk Dagger Recipe](32003.md) | Dirk Dagger |
 | [Doom Spear Recipe](17019.md) | Doom Spear |
 | [Dory Recipe](17008.md) | Dory |
 | [Drake Epaulet Recipe](1010.md) | Drake Epaulet |
@@ -184,11 +191,13 @@
 | [Gem Bracelet Recipe](34055.md) | Gem Bracelet |
 | [Gendawa Recipe](14008.md) | Gendawa |
 | [Geometry Staff Recipe](13007.md) | Geometry Staff |
+| [Geras Spear Recipe](17018.md) | Geras Spear |
 | [Ghost Headband Recipe](35069.md) | Ghost Headband |
 | [Gladiator Band Recipe](34023.md) | Gladiator Band |
 | [Gladius Recipe](9003.md) | Gladius |
 | [Glass Bracelet Recipe](34022.md) | Glass Bracelet |
 | [Goat Horn Recipe](35043.md) | Goat Horn |
+| [Golden Falchion Recipe](10013.md) | Golden Falchion |
 | [Grajus Recipe](15022.md) | Grajus |
 | [Grand Cross Recipe](15013.md) | Grand Cross |
 | [Grand Spontoon Recipe](17011.md) | Grand Spontoon |
@@ -228,6 +237,7 @@
 | [Imposing Miter Recipe](35103.md) | Imposing Miter |
 | [Infantry Armor Recipe](30312.md) | Infantry Armor |
 | [Infantry Gauntlets Recipe](30309.md) | Infantry Gauntlets |
+| [Infantry Greaves Recipe](30310.md) | Infantry Greaves |
 | [Infantry Leggings Recipe](30311.md) | Infantry Leggings |
 | [Insect Gauntlets Recipe](30077.md) | Insect Gauntlets |
 | [Insect Greaves Recipe](30078.md) | Insect Greaves |
@@ -239,6 +249,7 @@
 | [Istora Rod Recipe](12066.md) | Istora Rod |
 | [Istora Sword Recipe](10070.md) | Istora Sword |
 | [Istora Two-handed Sword Recipe](11062.md) | Istora Two-handed Sword |
+| [Kalkan Recipe](31029.md) | Kalkan |
 | [Kaloo Hammer Recipe](16020.md) | Kaloo Hammer |
 | [Karacha Crossbow Recipe](15062.md) | Karacha Crossbow |
 | [Karacha Dagger Recipe](32009.md) | Karacha Dagger |
@@ -264,10 +275,12 @@
 | [Knight Leggings Recipe](30335.md) | Knight Leggings |
 | [Knight Shield Recipe](31031.md) | Knight Shield |
 | [Knotted Armband Recipe](36002.md) | Knotted Armband |
+| [Koperon Sword Recipe](10071.md) | Koperon Sword |
 | [Kozuka Recipe](10055.md) | Kozuka |
 | [Kracked Shooter Recipe](15063.md) | Kracked Shooter |
 | [Krag Bow Recipe](14066.md) | Krag Bow |
 | [Krag Crossbow Recipe](15059.md) | Krag Crossbow |
+| [Krag Mace Recipe](16066.md) | Krag Mace |
 | [Krag Pike Recipe](18031.md) | Krag Pike |
 | [Krag Rod Recipe](12064.md) | Krag Rod |
 | [Krag Spear Recipe](17046.md) | Krag Spear |
@@ -275,6 +288,7 @@
 | [Krag Sword Recipe](10068.md) | Krag Sword |
 | [Krag Two-handed Sword Recipe](11060.md) | Krag Two-handed Sword |
 | [Kranto Bracelet Recipe](34054.md) | Kranto Bracelet |
+| [Kris Recipe](10006.md) | Kris |
 | [Langdebeve Recipe](17038.md) | Langdebeve |
 | [Lapis Katzbalger Recipe](11019.md) | Lapis Katzbalger |
 | [Lethena Bow Recipe](14019.md) | Lethena Bow |
@@ -301,6 +315,7 @@
 | [Mage Boots Recipe](30302.md) | Mage Boots |
 | [Mage Gloves Recipe](30301.md) | Mage Gloves |
 | [Mage Pants Recipe](30303.md) | Mage Pants |
+| [Mage Robe Recipe](30304.md) | Mage Robe |
 | [Magi Two-handed Sword Recipe](11081.md) | Magi Two-handed Sword |
 | [Magic Rod Recipe](12014.md) | Magic Rod |
 | [Magic Talisman Recipe](33016.md) | Magic Talisman |
@@ -320,6 +335,7 @@
 | [Meteor Rod Recipe](12055.md) | Meteor Rod |
 | [Mint Chocolate Cupcake Recipe](35084.md) | Mint Chocolate Cupcake |
 | [Miskas Sabre Recipe](10019.md) | Miskas Sabre |
+| [Moplah Recipe](10008.md) | Moplah |
 | [Morto Recipe](15024.md) | Morto |
 | [Musket Recipe](21001.md) | Musket |
 | [Naktis Recipe](11022.md) | Naktis |
@@ -329,21 +345,26 @@
 | [Nesting Chick Recipe](35002.md) | Nesting Chick |
 | [Noble Hat Recipe](35097.md) | Noble Hat |
 | [Nulis Recipe](11025.md) | Nulis |
+| [Oak Shield Recipe](31010.md) | Oak Shield |
 | [Old Cane Recipe](2011.md) | Old Cane |
 | [Otrava Shield Recipe](31045.md) | Otrava Shield |
 | [Otrava Shield Recipe](31055.md) | Otrava Shield |
 | [Overknife Recipe](11052.md) | Overknife |
 | [Palemidas Amulet Recipe](38008.md) | Palemidas Amulet |
+| [Panto Sword Recipe](10010.md) | Panto Sword |
 | [Partisan Recipe](18002.md) | Partisan |
 | [Pavaisa Shield Recipe](31037.md) | Pavaisa Shield |
 | [Pelta Shield Recipe](31027.md) | Pelta Shield |
 | [Perejimo Amulet Recipe](38003.md) | Perejimo Amulet |
+| [Perelin Leather Gloves Recipe](30445.md) | Perelin Leather Gloves |
+| [Perelin Leather Pants Recipe](30447.md) | Perelin Leather Pants |
 | [Perelin Leather Tunic Recipe](30448.md) | Perelin Leather Tunic |
 | [Perelin Plate Armor Recipe](30452.md) | Perelin Plate Armor |
 | [Pertraukos Amulet Recipe](38009.md) | Pertraukos Amulet |
 | [Petamion Recipe](33025.md) | Petamion |
 | [Phada Recipe](34057.md) | Phada |
 | [Pilgrim Crossbow Recipe](15060.md) | Pilgrim Crossbow |
+| [Pilgrim Spear Recipe](17047.md) | Pilgrim Spear |
 | [Pilgrim Two-handed Sword Recipe](11061.md) | Pilgrim Two-handed Sword |
 | [Pine Cone Pike Recipe](18013.md) | Pine Cone Pike |
 | [Pine Lumber Recipe](1003.md) | Pine Lumber |
@@ -361,10 +382,12 @@
 | [Protas Boots Recipe](30081.md) | Protas Boots |
 | [Protas Trousers Recipe](30082.md) | Protas Trousers |
 | [Protection Barrier Crystal Recipe](9007.md) | Protection Barrier Crystal |
+| [Prova Gloves Recipe](30071.md) | Prova Gloves |
 | [Prova Robe Recipe](30072.md) | Prova Robe |
 | [Pulley Bow Recipe](14032.md) | Pulley Bow |
 | [Pyluma Chain Recipe](33018.md) | Pyluma Chain |
 | [Pyrostone Recipe](2006.md) | Pyrostone |
+| [Raganos Horn Recipe](13028.md) | Raganos Horn |
 | [Rapid Bangle Recipe](34021.md) | Rapid Bangle |
 | [Rapier Recipe](19001.md) | Rapier |
 | [Recurve Bow Recipe](14053.md) | Recurve Bow |
@@ -402,6 +425,7 @@
 | [Roxona Robe Recipe](30372.md) | Roxona Robe |
 | [Royal Guard Armor Recipe](30500.md) | Royal Guard Armor |
 | [Royal Guard Gloves Recipe](30497.md) | Royal Guard Gloves |
+| [Royal Guard Greaves Recipe](30498.md) | Royal Guard Greaves |
 | [Royal Guard Pants Recipe](30499.md) | Royal Guard Pants |
 | [Royal Mace Recipe](16022.md) | Royal Mace |
 | [Royal Mage Boots Recipe](30490.md) | Royal Mage Boots |
@@ -447,6 +471,7 @@
 | [Shark Cutter Recipe](10073.md) | Shark Cutter |
 | [Sharp Rapier Recipe](19005.md) | Sharp Rapier |
 | [Shaton Boots Recipe](30466.md) | Shaton Boots |
+| [Shaton Gloves Recipe](30465.md) | Shaton Gloves |
 | [Shaton Leather Boots Recipe](30470.md) | Shaton Leather Boots |
 | [Shaton Leather Gloves Recipe](30469.md) | Shaton Leather Gloves |
 | [Shaton Leather Pants Recipe](30471.md) | Shaton Leather Pants |
@@ -472,6 +497,8 @@
 | [Sissel Bracelet Recipe](34027.md) | Sissel Bracelet |
 | [Skirmisher Boots Recipe](30306.md) | Skirmisher Boots |
 | [Skirmisher Gloves Recipe](30305.md) | Skirmisher Gloves |
+| [Skirmisher Pants Recipe](30307.md) | Skirmisher Pants |
+| [Skirmisher Tunic Recipe](30308.md) | Skirmisher Tunic |
 | [Skull Bow Recipe](14056.md) | Skull Bow |
 | [Skull Crusher Recipe](16013.md) | Skull Crusher |
 | [Sledgehammer Recipe](16058.md) | Sledgehammer |
@@ -501,6 +528,7 @@
 | [Star Bracelet Recipe](34048.md) | Star Bracelet |
 | [Steel Helmet Recipe](35035.md) | Steel Helmet |
 | [Steel Kite Shield Recipe](31006.md) | Steel Kite Shield |
+| [Stirus Hammer Recipe](16056.md) | Stirus Hammer |
 | [Stone Bracelet Recipe](34052.md) | Stone Bracelet |
 | [Storm Staff Recipe](13009.md) | Storm Staff |
 | [Strength Pendant Recipe](33017.md) | Strength Pendant |
@@ -558,9 +586,11 @@
 | [Terrallion Recipe](33063.md) | Terrallion |
 | [Tilly Bow Recipe](14077.md) | Tilly Bow |
 | [Tilly Rod Recipe](12075.md) | Tilly Rod |
+| [Tilly Spear Recipe](17057.md) | Tilly Spear |
 | [Tilly Two-handed Sword Recipe](11073.md) | Tilly Two-handed Sword |
 | [Tough Tendon Recipe](2009.md) | Tough Tendon |
 | [Tower Shield Recipe](31032.md) | Tower Shield |
+| [Traxia Recipe](18015.md) | Traxia |
 | [Tribal Chief Head Decoration Recipe](35104.md) | Tribal Chief Head Decoration |
 | [Trident Recipe](18003.md) | Trident |
 | [Trinity Sword Recipe](10022.md) | Trinity Sword |
@@ -613,6 +643,7 @@
 | [Virtov Plate Gloves Recipe](30535.md) | Virtov Plate Gloves |
 | [Virtov Plate Pants Recipe](30537.md) | Virtov Plate Pants |
 | [Virtov Plate Robe Recipe](30538.md) | Virtov Plate Robe |
+| [Virtov Robe Recipe](30530.md) | Virtov Robe |
 | [Vista Cannon Recipe](37004.md) | Vista Cannon |
 | [Vitt Corona Rod Recipe](12085.md) | Vitt Corona Rod |
 | [Vubbe Fighter Gauntlets Recipe](30100.md) | Vubbe Fighter Gauntlets |

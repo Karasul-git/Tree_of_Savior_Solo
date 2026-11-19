@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-133 quests.
+138 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -13,6 +13,7 @@
 | [Old Pride](60006.md) | 151 | Kupole Zydrone | Demon Prison District 1 |
 | [Shutting the Door](60029.md) | 151 | Kupole Audra | Demon Prison District 1 |
 | [The Teeth of Revenge (1)](60003.md) | 151 | Kupole Audra | Demon Prison District 1 |
+| [The Teeth of Revenge (2)](60004.md) | 151 | Kupole Audra | Demon Prison District 1 |
 | [The Teeth of Revenge (3)](60005.md) | 151 | Kupole Audra | Demon Prison District 1 |
 | [Farmers in Danger](70023.md) | 152 | Druid Martinek | Shaton Farm |
 | [Hidden Seeds](70032.md) | 152 | Tenant Farmer Weiss | Shaton Farm |
@@ -44,9 +45,12 @@
 | [The Underground Tunnel](70048.md) | 155 | General Buros | Shaton Reservoir |
 | [Dionys' Claws](60034.md) | 157 | Kupole Aldona | Demon Prison District 3 |
 | [Lost Star](60035.md) | 157 | Kupole Aldona | Demon Prison District 3 |
+| [The Evening Star Key (1)](60013.md) | 157 | Kupole Zydrone | Demon Prison District 3 |
 | [The Evening Star Key (2)](60014.md) | 157 | Kupole Zydrone | Demon Prison District 3 |
 | [The Evening Star Key (3)](60015.md) | 157 | Kupole Aldona | Demon Prison District 3 |
+| [The Evening Star at Night](60016.md) | 157 | Kupole Aldona | Demon Prison District 3 |
 | [The Fury](60033.md) | 157 | Kupole Zydrone | Demon Prison District 3 |
+| [The Night Star](60012.md) | 157 | – | Demon Prison District 3 |
 | [The Planned Escape](60017.md) | 157 | Kupole Aldona | Demon Prison District 3 |
 | [For the Pilgrim (3)](20323.md) | 158 | Priest Alisha | Penitence Route of Great Cathedral |
 | [The Last Key](20333.md) | 159 | – | Sanctuary |
@@ -71,6 +75,7 @@
 | [Altar of Vilna Forest (2)](16240.md) | 163 | Lamar | Vilna Forest |
 | [Desirable Combs](16320.md) | 163 | Valda | Vilna Forest |
 | [Eliminate the Small Gaps](60041.md) | 163 | Kupole Sigita | Demon Prison District 5 |
+| [Food for Dionys](60040.md) | 163 | Kupole Sigita | Demon Prison District 5 |
 | [Help My Farm Recover](16310.md) | 163 | Riesz | Vilna Forest |
 | [The Dimensional Crack (1)](60023.md) | 163 | Goddess Vakarine | Demon Prison District 5 |
 | [The Dimensional Crack (2)](60024.md) | 163 | Goddess Vakarine | Demon Prison District 5 |

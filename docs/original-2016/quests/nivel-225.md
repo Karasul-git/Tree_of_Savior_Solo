@@ -2,13 +2,17 @@
 
 [Quests de 2016](README.md)
 
-56 quests.
+65 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
 | [Balancing Energy](80105.md) | 226 | – | Vera Coast |
 | [Balancing Magic Circle (1)](80108.md) | 226 | – | Vera Coast |
+| [Balancing Magic Circle (2)](80109.md) | 226 | – | Vera Coast |
+| [Earth Energy](80104.md) | 226 | – | Vera Coast |
 | [Earth Magic Circle](80103.md) | 226 | – | Vera Coast |
+| [Evil Magic Circles? (1)](80099.md) | 226 | – | Vera Coast |
+| [Evil Magic Circles? (3)](80101.md) | 226 | TEST | Vera Coast |
 | [More Earth Energy](80110.md) | 226 | – | Vera Coast |
 | [Restrain to Protect (1)](80111.md) | 226 | – | Vera Coast |
 | [Restrain to Protect (2)](80112.md) | 226 | – | Vera Coast |
@@ -16,11 +20,14 @@
 | [Sea Magic Circle](80107.md) | 226 | – | Vera Coast |
 | [Dirty Tricks (1)](80083.md) | 229 | TEST | Elgos Monastery Annex |
 | [Dirty Tricks (2)](80084.md) | 229 | 사제 도미니카스 | Elgos Monastery Annex |
+| [Dirty Tricks (3)](80085.md) | 229 | – | Elgos Monastery Annex |
 | [False Scriptures](80088.md) | 229 | 엘고스 수도사 | Elgos Monastery Annex |
+| [Great Words (1)](80078.md) | 229 | 사제 도미니카스 | Elgos Monastery Annex |
 | [Great Words (2)](80079.md) | 229 | 사제 도미니카스 | Elgos Monastery Annex |
 | [Removing Tree Vines (1)](80086.md) | 229 | 엘고스 수도사 | Elgos Monastery Annex |
 | [Removing Tree Vines (2)](80087.md) | 229 | 루시엔 윈터스푼 | Nahash Forest |
 | [Wrong Faith (2)](80081.md) | 229 | 마을 주민 던컨 | Elgos Monastery Annex |
+| [Wrong Faith (3)](80082.md) | 229 | 마을 주민 제임스 | Elgos Monastery Annex |
 | [Cleaning the Pit](90021.md) | 232 | 상인 시모나스 | Cranto Coast |
 | [Emergency Treatment](90029.md) | 232 | 난민 앨리유스 | Cranto Coast |
 | [For Total Freedom (1)](80095.md) | 232 | 엘고스 수도원장 | Elgos Abbey Main Building |
@@ -33,6 +40,8 @@
 | [Search for the survivors](80089.md) | 232 | TEST | Elgos Abbey Main Building |
 | [Smelly Pursuit](90023.md) | 232 | 상인 시모나스 | Cranto Coast |
 | [Suspicious Pit](90024.md) | 232 | 상인 시모나스 | Cranto Coast |
+| [The Corrupted Spirit of the Demons (1)](80092.md) | 232 | 엘고스 수도원장 | Elgos Abbey Main Building |
+| [The Corrupted Spirit of the Demons (2)](80093.md) | 232 | 엘고스 수도원장 | Elgos Abbey Main Building |
 | [The Corrupted Spirit of the Demons (3)](80094.md) | 232 | 엘고스 수도원장 | Elgos Abbey Main Building |
 | [The Remains of the Wrecked Ship](90030.md) | 232 | 상인 펠리시아 | Cranto Coast |
 | [The power that was prepared for the future](80098.md) | 232 | 엘고스 수도원장 | Elgos Abbey Main Building |

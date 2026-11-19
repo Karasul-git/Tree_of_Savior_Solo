@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-236 quests.
+248 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -10,12 +10,14 @@
 | [All For a Bigger Blow](70402.md) | 76 | Revelator Mihail | Delmore Hamlet |
 | [Be Considerate to the Next Person](70408.md) | 76 | Follower Nuodas | Delmore Hamlet |
 | [Destroy the Magic Power Supply Device](70404.md) | 76 | Mage Melchioras | Delmore Hamlet |
+| [Evidence in Ruins](70406.md) | 76 | Follower Andrea | Delmore Hamlet |
 | [For Those Who Remember Them](70407.md) | 76 | Follower Andrea | Delmore Hamlet |
 | [Historian Rexipher's Identity](20190.md) | 76 | Historian Cyrenia Odell | King's Plateau |
 | [Investigating the Protection Cast](70401.md) | 76 | Mage Melchioras | Delmore Hamlet |
 | [Reutilizing Resources](70409.md) | 76 | Follower Nuodas | Delmore Hamlet |
 | [Rexipher's True Colors (1)](20191.md) | 76 | Wounded Historian Laulas | King's Plateau |
 | [Rexipher's True Colors (2)](20193.md) | 76 | TEST | King's Plateau |
+| [Rexipher's True Colors (3)](20194.md) | 76 | Historian Cyrenia Odell | King's Plateau |
 | [Rexipher's True Colors (4)](20195.md) | 76 | Historian Cyrenia Odell | King's Plateau |
 | [Rexipher's True Colors (5)](20196.md) | 76 | TEST | King's Plateau |
 | [Rexipher, the Missing Historian (1)](20189.md) | 76 | Liaison Officer Bale | King's Plateau |
@@ -36,10 +38,12 @@
 | [Security Guard's Favor (2)](19390.md) | 78 | Powerless Security Guard | Zachariel Crossroads |
 | [Swindler Rexipher](9003.md) | 78 | Historian Cyrenia Odell | Zachariel Crossroads |
 | [A Sorrowful Heart](70427.md) | 80 | – | Delmore Manor |
+| [Hometown Secret](70428.md) | 80 | – | Delmore Manor |
 | [Kruvina and the Revelators](70424.md) | 80 | Mage Melchioras | Delmore Manor |
 | [거점 방어를 위한 첫걸음](70425.md) | 80 | – | Delmore Manor |
 | [급할수록 돌아가라](70421.md) | 80 | Mage Melchioras | Delmore Manor |
 | [당하기 전에 먼저 쳐라](70426.md) | 80 | – | Delmore Manor |
+| [섣부른 판단](70423.md) | 80 | Mage Melchioras | Delmore Manor |
 | [조사는 계속된다](70422.md) | 80 | Mage Melchioras | Delmore Manor |
 | [Collapsed Protection System](8600.md) | 81 | Royal Mausoleum Foundation Stone | Royal Mausoleum 1F |
 | [Destroying the Defense Device](8212.md) | 81 | Defense System Manual | Royal Mausoleum 1F |
@@ -58,12 +62,15 @@
 | [Liberation of Magic (1)](8430.md) | 83 | Royal Mausoleum Regulatory Magic Manual | Royal Mausoleum 1F |
 | [Liberation of Magic (2)](8431.md) | 83 | Royal Mausoleum Regulatory Magic Manual | Royal Mausoleum 1F |
 | [Liberation of Magic (3)](8432.md) | 83 | Royal Mausoleum Regulatory Magic Manual | Royal Mausoleum 1F |
+| [Chasing Lord Delmore (1)](70440.md) | 84 | Revelator Yane | Delmore Outskirts |
 | [Chasing Lord Delmore (2)](70441.md) | 84 | – | Delmore Outskirts |
 | [Desire for Normal Food (1)](40150.md) | 84 | Marius | Baron Allerno |
 | [Desire for Normal Food (2)](40160.md) | 84 | Dalius | Baron Allerno |
+| [For It to Never Happen Again](70449.md) | 84 | Mage Melchioras | Delmore Outskirts |
 | [Lead to a Dead-end (1)](70445.md) | 84 | Mage Melchioras | Delmore Outskirts |
 | [Lead to a Dead-end (2)](70446.md) | 84 | – | Delmore Outskirts |
 | [Needing the Nutritious Tonic (1)](40120.md) | 84 | Stepas | Baron Allerno |
+| [Needing the Nutritious Tonic (2)](40130.md) | 84 | Stepas | Baron Allerno |
 | [Needing the Nutritious Tonic (3)](40140.md) | 84 | Dalius | Baron Allerno |
 | [This is Only the Beginning](70448.md) | 84 | Revelator Mihail | Delmore Outskirts |
 | [To the Government Ruins](70443.md) | 84 | Revelator Yane | Delmore Outskirts |
@@ -78,11 +85,15 @@
 | [Working on the Landfill (2)](40080.md) | 84 | Tadas | Baron Allerno |
 | [Working on the Landfill (3)](40090.md) | 84 | UnvisibleName | Baron Allerno |
 | [뒷마무리까지 깔끔하게](70450.md) | 84 | Mage Melchioras | Delmore Outskirts |
+| [빈틈없는 일처리](70452.md) | 84 | Revelator Mihail | Delmore Outskirts |
 | [음모의 실마리를 찾아](70451.md) | 84 | Revelator Yane | Delmore Outskirts |
 | [An Endless Deal (3)](60060.md) | 85 | Gailus Legwyn | Mochia Forest |
+| [Careful Move (Sapper Advancement)(1)](1126.md) | 85 | (Sapper Master) Leonard Quicktongue | East Siauliai Woods |
+| [Careful Move (Sapper Advancement)(2)](1127.md) | 85 | (Sapper Master) Leonard Quicktongue | East Siauliai Woods |
 | [Connection (Linker Advancement)](1143.md) | 85 | (Linker Submaster) Roddie Kuska | Miners' Village |
 | [Corpse Poison (Wugushi Advancement)](30100.md) | 85 | – | Orsha |
 | [Finding the Model (Dievdirbys Advancement) (1)](1129.md) | 85 | (Dievdirbys Master) Sculptor Tesla | West Siauliai Woods |
+| [Finding the Model (Dievdirbys Advancement) (2)](1130.md) | 85 | (Item Merchant) Mirina | Klaipeda |
 | [Finding the Model (Dievdirbys Advancement) (3)](1131.md) | 85 | (Item Merchant) Mirina | Klaipeda |
 | [Freedom and Courage (Highlander Advancement)](1145.md) | 85 | (Highlander Master) Douglas Black | Highlander Master's Training Hall |
 | [Friend or Foe Error](20185.md) | 85 | Royal Mausoleum Tombstone | Royal Mausoleum 2F |
@@ -239,6 +250,7 @@
 | [Astral Tracing (6)](8752.md) | 99 | Monument of Lydia Schaffen | Goddess' Ancient Garden |
 | [Heated Arrowhead](8753.md) | 99 | Hunter Talus | Goddess' Ancient Garden |
 | [Lost Material (1)](20223.md) | 99 | Strange Sack | Goddess' Ancient Garden |
+| [Lost Material (2)](20224.md) | 99 | Necromancer Drasius | Goddess' Ancient Garden |
 | [Sacrifice (Infroburk)](20226.md) | 99 | Necromancer Drasius | Goddess' Ancient Garden |
 | [Sacrifice (Lizardman)](20225.md) | 99 | Necromancer Drasius | Goddess' Ancient Garden |
 | [To the Laboratory](8754.md) | 99 | Necromancer Drasius | Goddess' Ancient Garden |

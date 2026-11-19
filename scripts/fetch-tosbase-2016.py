@@ -142,6 +142,18 @@ def main():
         index = [r for r in inventory if urllib.parse.urlparse(r['original']).path.rstrip('/') == '/' + prefix]
         if index:
             jobs.append((scope, '_lista', f'/{prefix}/', 'lista', index[0]))
+    # Páginas do jogo (tabelas de experiência, elementos, PvP) e artigos do wiki da comunidade.
+    extra = {'gamepages': re.compile(r'^/game/(exp-tables(/[\w-]+)?|elements|pvp(/[\w-]+)*|classes[^/]*rank[^/]*)/?$'),
+             'wiki': re.compile(r'^/wiki/[^:/?]+$')}
+    for scope, pattern in extra.items():
+        if scope not in SCOPE:
+            continue
+        seen = set()
+        for r in inventory:
+            path = urllib.parse.urlparse(r['original']).path
+            if pattern.match(path) and path not in seen:
+                seen.add(path)
+                jobs.append((scope, urllib.parse.unquote(path.strip('/')).replace('/', '_')[:120], path, path, r))
     if 'formulas' in SCOPE:
         pattern = re.compile(r'^/(tools/(stat-calculator|class-builder|simulator|skill-simulator)/?|js/(tosbase|skillsim)[^/]*\.js)$')
         seen = set()

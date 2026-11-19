@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-211 quests.
+218 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -38,6 +38,7 @@
 | [Energy of Karolis Springs](30059.md) | 57 | Owl Chief Sculpture | Karolis Springs |
 | [Following the Light](30050.md) | 57 | Liaison Officer Mardas | Karolis Springs |
 | [Gather the Strength of the Owl (1)](30056.md) | 57 | Owl Chief Sculpture | Karolis Springs |
+| [Gather the Strength of the Owl (2)](30057.md) | 57 | Owl Chief Sculpture | Karolis Springs |
 | [Messenger Running Away](30049.md) | 57 | Liaison Officer Mardas | Karolis Springs |
 | [Owl Statue in Danger](30051.md) | 57 | TEST | Karolis Springs |
 | [Recovering the Karolis Altar (1)](30052.md) | 57 | Owl Chief Sculpture | Karolis Springs |
@@ -49,6 +50,7 @@
 | [Crazy Archivist (3)](4433.md) | 58 | Liaison Officer Niels | Gateway of the Great King |
 | [Eyes of Zachariel (1)](4437.md) | 58 | Archivist Jonas | Gateway of the Great King |
 | [Eyes of Zachariel (2)](4314.md) | 58 | Archivist Jonas | Gateway of the Great King |
+| [Fight Poison with Poison (1)](20249.md) | 58 | Believer Adele | Gate Route |
 | [Fight Poison with Poison (2)](20251.md) | 58 | Believer Adele | Gate Route |
 | [Fight Poison with Poison (3)](20252.md) | 58 | Believer Adele | Gate Route |
 | [Fight Poison with Poison (4)](20253.md) | 58 | Believer Adele | Gate Route |
@@ -104,6 +106,7 @@
 | [Seal of the Royal Family (1)](7017.md) | 61 | Ahylas Jonas | Gateway of the Great King |
 | [Seal of the Royal Family (2)](7020.md) | 61 | 2nd Disciple of Gustas | Ramstis Ridge |
 | [Seal of the Royal Family (3)](20137.md) | 61 | Gustas Jonas | Ramstis Ridge |
+| [Seal of the Royal Family (4)](8051.md) | 61 | Gustas Jonas | Ramstis Ridge |
 | [Some Help](20261.md) | 61 | Believer Alvydas | Sirdgela Forest |
 | [Something Blasphemous](20267.md) | 61 | Believer Onute | Sirdgela Forest |
 | [Soul Starvation (1)](30067.md) | 61 | Liaison Officer Mardas | Letas Stream |
@@ -114,8 +117,10 @@
 | [Capturing Bramble (2)](20295.md) | 64 | Believer Jurga | Kvailas Forest |
 | [Capturing Bramble (3)](20274.md) | 64 | Believer Jurga | Kvailas Forest |
 | [Effective Painkillers](8039.md) | 64 | Mercenary Lindt | Overlong Bridge Valley |
+| [Find the Supply Commander's Junior](8048.md) | 64 | Supply Commander Vio | Overlong Bridge Valley |
 | [Information about Saugas (1)](8044.md) | 64 | Mercenary Eta | Overlong Bridge Valley |
 | [Information about Saugas (2)](8045.md) | 64 | Mercenary Eta | Overlong Bridge Valley |
+| [Information about Saugas (3)](8046.md) | 64 | Mercenary Eta | Overlong Bridge Valley |
 | [Information about Saugas (4)](8047.md) | 64 | Mercenary Eta | Overlong Bridge Valley |
 | [Lindt's Matters](8038.md) | 64 | Mercenary Lindt | Overlong Bridge Valley |
 | [Merchant's Mercenary](8037.md) | 64 | Supply Commander Vio | Overlong Bridge Valley |
@@ -162,6 +167,7 @@
 | [Clear the Corruption (1)](90010.md) | 68 | 촌장 알로이자스 | Absenta Reservoir |
 | [Clear the Corruption (2)](90011.md) | 68 | 촌장 알로이자스 | Absenta Reservoir |
 | [Clear the Corruption (3)](90012.md) | 68 | 촌장 알로이자스 | Absenta Reservoir |
+| [Clear the Corruption (4)](90013.md) | 68 | Hunter Modis | Absenta Reservoir |
 | [Clear the Corruption (5)](90014.md) | 68 | Hunter Modis | Absenta Reservoir |
 | [Clear the Corruption (6)](90015.md) | 68 | Hunter Modis | Absenta Reservoir |
 | [Recurrence Prevention (1)](90017.md) | 68 | Lanaldas | Absenta Reservoir |
@@ -217,3 +223,4 @@
 | [Remembering the Thoughts of Life before Death](80009.md) | 74 | Believer Gintas | Carlyle's Mausoleum |
 | [Spirit Interrogation](80012.md) | 74 | Margiris | Carlyle's Mausoleum |
 | [The Leader of the Order](80011.md) | 74 | Believer's Spirit | Carlyle's Mausoleum |
+| [Those Brothers](80010.md) | 74 | Believer Gintas | Carlyle's Mausoleum |

@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-143 quests.
+147 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -62,6 +62,7 @@
 | [A Threat (Cataphract Advancement)](17760.md) | 185 | (Cataphract Master) Dirk Drigg | Gateway of the Great King |
 | [Advisor's Choice (Oracle Advancement)](8751.md) | 185 | – | Klaipeda |
 | [Blitz (Monk Advancement)](8749.md) | 185 | – | Goddess' Ancient Garden |
+| [Burning Stones (Fletcher Advancement)](8739.md) | 185 | (Fletcher Master) Visvaldas black | Goddess' Ancient Garden |
 | [Center of the Formation (Centurion Advancement)](8727.md) | 185 | (Centurion Master) Krajicek | Forest of Prayer |
 | [Complete the Mission of a Chronomancer (Chronomancer Advancement)](19210.md) | 185 | (Chronomancer Master) Lucid Winterspoon | Stele Road |
 | [Complete the Mission of a Sorcerer (Sorcerer Advancement)](19200.md) | 185 | (Sorcerer Master) Dame Circe | Forest of Prayer |
@@ -76,6 +77,7 @@
 | [Proving Faith (Paladin Advancement)](8748.md) | 185 | – | Nefritas Cliff |
 | [Qualifications of a Commander (Rodelero Advancement)](17750.md) | 185 | (Rodelero Submaster) Trogen | Gateway of the Great King |
 | [Quick and Accurate (Fencer Advancement)](30070.md) | 185 | (Fencer Master) Sorscha Hutton | Forest of Prayer |
+| [Recruiting Challenger (Schwartzer Reiter Advancement)](8740.md) | 185 | – | Forest of Prayer |
 | [Step on Tail (Rogue Advancement)](8738.md) | 185 | – | Fedimian |
 | [Summoning Ritual (Necromancer Advancement)](17680.md) | 185 | (Necromancer Master) Roleta Nimbus | Mullers Passage |
 | [Swiftness (Wugushi Advancement)](8736.md) | 185 | (Wugushi Submaster) May Patt | Gateway of the Great King |
@@ -129,6 +131,7 @@
 | [The Great Chancellor](8844.md) | 193 | (Royal Army) Rofdel | Downtown |
 | [Uncomfortable Alliance](8833.md) | 193 | (Knights of Kaliss) Adjutant General Hans | Downtown |
 | [No Freedom (1)](30021.md) | 194 | Kupole Vita | Videntis Shrine |
+| [No Freedom (2)](30022.md) | 194 | Rimos' Spirit | Videntis Shrine |
 | [One Step Closer to Freedom](30023.md) | 194 | Rimos' Spirit | Videntis Shrine |
 | [Passing Words (1)](30017.md) | 194 | Wandering Spirit | Videntis Shrine |
 | [Passing Words (2)](30018.md) | 194 | Kupole Vita | Videntis Shrine |
@@ -149,3 +152,4 @@
 | [There is a Way (3)](30027.md) | 197 | Jane's Spirit | Valius' Eternal Resting Place |
 | [There is a Way (4)](30028.md) | 197 | Jane's Spirit | Valius' Eternal Resting Place |
 | [What's Bad About Being Careful (1)](30029.md) | 197 | Jane's Spirit | Valius' Eternal Resting Place |
+| [What's Bad About Being Careful (2)](30030.md) | 197 | Jane's Spirit | Valius' Eternal Resting Place |

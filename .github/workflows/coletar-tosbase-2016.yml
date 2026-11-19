@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       scope:
-        description: 'O que coletar (lista separada por vírgulas): skills, classes, formulas, monsters, items, recipes, sets, equipment, quests, attributes, npcs, maps, worldmap, collections, statuseffects'
+        description: 'O que coletar (lista separada por vírgulas): skills, classes, formulas, monsters, items, recipes, sets, equipment, quests, attributes, npcs, maps, worldmap, collections, statuseffects, gamepages (tabelas de experiência, elementos, PvP), wiki (artigos do wiki de 2016)'
         default: 'skills,classes'
         required: true
 permissions:

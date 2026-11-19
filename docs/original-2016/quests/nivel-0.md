@@ -2,12 +2,13 @@
 
 [Quests de 2016](README.md)
 
-152 quests.
+161 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
 | [Bishop's Dream of the Goddess (2)](40010.md) | 1 | (Item Merchant) Mirina | Klaipeda |
 | [Historian Colin's Favor](9110.md) | 1 | Historian Colin | King's Plateau |
+| [Messenger's Suspicious Favor](9107.md) | 1 | – | Ramstis Ridge |
 | [Repair the Practice Wooden Seal (2)](9111.md) | 1 | (Highlander Master) Douglas Black | Highlander Master's Training Hall |
 | [Soldier Lindt's Favor](9108.md) | 1 | Mercenary Lindt | Overlong Bridge Valley |
 | [Statue of Goddess Zemyna](60082.md) | 1 | Settler Dallanas | Lemprasa Pond |
@@ -60,6 +61,7 @@
 | [Enter the Miners' Village](1044.md) | 7 | Knight Aras | East Siauliai Woods |
 | [Not As Intended (2)](20131.md) | 7 | Supply Officer | East Siauliai Woods |
 | [Not as Intended (1)](4203.md) | 7 | Supply Officer | East Siauliai Woods |
+| [Not as Intended (3)](1036.md) | 7 | Supply Officer | East Siauliai Woods |
 | [Not as Intended (4)](1037.md) | 7 | Supply Officer | East Siauliai Woods |
 | [Sentinel's Favor (2)](1034.md) | 7 | – | East Siauliai Woods |
 | [Supply Soldier's Favor (1)](1041.md) | 7 | Supply Soldier | East Siauliai Woods |
@@ -70,6 +72,7 @@
 | [냄새 없애기](60095.md) | 8 | Informer Pierneef | Woods of the Linked Bridges |
 | [몬스터 군락지(1)](60097.md) | 8 | Chaser Raitis | Woods of the Linked Bridges |
 | [몬스터 군락지(2)](60098.md) | 8 | – | Woods of the Linked Bridges |
+| [발길 돌리기](60096.md) | 8 | Chaser Germeja | Woods of the Linked Bridges |
 | [불타버린 행방(1)](60090.md) | 8 | Informer Moren | Woods of the Linked Bridges |
 | [불타버린 행방(2)](60091.md) | 8 | Informer Moren | Woods of the Linked Bridges |
 | [정보원의 격무](60094.md) | 8 | Informer Pierneef | Woods of the Linked Bridges |
@@ -107,6 +110,7 @@
 | [Evil Energy Purification (Priest Advancement)](8397.md) | 15 | – | Klaipeda |
 | [Going Down the Right Path (Peltasta Advancement)](12002.md) | 15 | (Peltasta Master) Maria Leed | Klaipeda |
 | [Historical Theft (Cryomancer Advancement)](12005.md) | 15 | (Cryomancer Master) Alistair Crowley | Klaipeda |
+| [Lens of the Stars (Quarrel Shooter Advancement)](20129.md) | 15 | (Quarrel Shooter Master) Ream Toiler | Klaipeda |
 | [Necklace of Salvation (Cleric Advancement)](8402.md) | 15 | (Cleric Master) Rozalija | Klaipeda |
 | [One Man Army (Ranger Advancement)](30078.md) | 15 | (Ranger Submaster) Sheba | Orsha |
 | [Poison Betrayal (Ranger Advancement)](20130.md) | 15 | (Ranger Master) Nemoken | Klaipeda |
@@ -119,6 +123,7 @@
 | [The Energy of Fire (Pyromancer Advancement)](30075.md) | 15 | (Pyromancer Submaster) Cathy Naimos | Orsha |
 | [The Swordsman's Qualities (Swordsman Advancement)](70300.md) | 15 | (Swordsman Submaster) Codill | Orsha |
 | [양손검의 가능성(하이랜더 전직)(1)](70301.md) | 15 | (Highlander Submaster) Rahellia Black | Lemprasa Pond |
+| [양손검의 가능성(하이랜더 전직)(2)](70302.md) | 15 | (Highlander Submaster) Rahellia Black | Lemprasa Pond |
 | [Activate the Passage Purifier (1)](4474.md) | 17 | Passage Purifier | Crystal Mine 1F |
 | [Activate the Passage Purifier (2)](4479.md) | 17 | TEST | Crystal Mine 1F |
 | [Activate the Passage Purifier (3)](4480.md) | 17 | TEST | Crystal Mine 1F |
@@ -133,12 +138,15 @@
 | [Purify the Toxic Fumes in 1F](4461.md) | 17 | (Alchemist Master) Vaidotas | Crystal Mine 1F |
 | [Unidentified Package (1)](60124.md) | 17 | Chaser Daramaus | Ashaq Underground Prison 1F |
 | [Unidentified Package (2)](60125.md) | 17 | TEST | Ashaq Underground Prison 1F |
+| [Circulation Purifier Issues (1)](4483.md) | 19 | Circulation Purifier | Crystal Mine 2F |
 | [Circulation Purifier Issues (2)](4484.md) | 19 | TEST | Crystal Mine 2F |
 | [Circulation Purifier Issues (3)](4485.md) | 19 | TEST | Crystal Mine 2F |
 | [Destroyer of the Main Purifier (1)](4495.md) | 19 | Main Purifier | Crystal Mine 2F |
 | [Destroyer of the Main Purifier (2)](4501.md) | 19 | TEST | Crystal Mine 2F |
+| [Destroyer of the Main Purifier (3)](4502.md) | 19 | TEST | Crystal Mine 2F |
 | [Inoperable Auxiliary Purifier (1)](4486.md) | 19 | Auxiliary Purifier | Crystal Mine 2F |
 | [Inoperable Auxiliary Purifier (2)](4488.md) | 19 | Magic Supply Device | Crystal Mine 2F |
+| [Inoperable Auxiliary Purifier (4)](4492.md) | 19 | TEST | Crystal Mine 2F |
 | [Purify the Toxic Fumes in 2F](4467.md) | 19 | TEST | Crystal Mine 2F |
 | [Mysterious Slate (2)](20051.md) | 20 | (Templar Master) Knight Commander Uska | Klaipeda |
 | [Mysterious Slate (3)](20052.md) | 20 | (Templar Master) Knight Commander Uska | Klaipeda |
@@ -154,6 +162,7 @@
 | [Rescue the Villagers](1045.md) | 21 | (Alchemist Master) Vaidotas | Crystal Mine 3F |
 | [만약에 또 만약에(1)](60132.md) | 21 | Priest Auranas | Ashaq Underground Prison 2F |
 | [만약에 또 만약에(2)](60133.md) | 21 | Priest Auranas | Ashaq Underground Prison 2F |
+| [손아귀 속으로(5)](60127.md) | 21 | Priest Irma | Ashaq Underground Prison 2F |
 | [손아귀 속으로(6)](60131.md) | 21 | Priest Irma | Ashaq Underground Prison 2F |
 | [죄수 모집](60135.md) | 21 | Priest Draznie | Ashaq Underground Prison 2F |
 | [쫓아내기](60134.md) | 21 | Priest Draznie | Ashaq Underground Prison 2F |

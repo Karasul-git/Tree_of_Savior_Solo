@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-226 quests.
+239 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -47,6 +47,7 @@
 | [Moses' True Feelings (3)](20243.md) | 103 | Old Man Moses | Escanciu Village |
 | [Moses' True Feelings (4)](20244.md) | 103 | Old Man Moses | Escanciu Village |
 | [The Final Mission (1)](20237.md) | 103 | Wandering Spirit | Escanciu Village |
+| [The Final Mission (2)](20238.md) | 103 | Military Backpack | Escanciu Village |
 | [The Final Mission (3)](20239.md) | 103 | Abandoned Bag | Escanciu Village |
 | [The Final Mission (4)](8756.md) | 103 | Wandering Spirit | Escanciu Village |
 | [기둥 조각 찾기](41000.md) | 103 | UnvisibleName | Galeed Plateau |
@@ -56,6 +57,7 @@
 | [누군가의 기록](40950.md) | 103 | UnvisibleName | Galeed Plateau |
 | [무언가가 새겨진 기둥](40960.md) | 103 | UnvisibleName | Galeed Plateau |
 | [Beginning and End](41155.md) | 106 | Gedas | Fasika Plateau |
+| [Beginning of Doubt](41050.md) | 106 | Damijonas | Fasika Plateau |
 | [Bonfire of the Patrol Road (1)](20291.md) | 106 | – | Entrance of Kateen Forest |
 | [Bonfire of the Patrol Road (5)](20292.md) | 106 | – | Entrance of Kateen Forest |
 | [Bonfire of the Patrol Route](4879.md) | 106 | Patrol Scout | Entrance of Kateen Forest |
@@ -75,6 +77,7 @@
 | [Final Conclusion (5)](41150.md) | 106 | – | Fasika Plateau |
 | [Meeting the Anastospa](41090.md) | 106 | Gedas | Fasika Plateau |
 | [Restoring the Tombstone (1)](41060.md) | 106 | Damijonas | Fasika Plateau |
+| [Restoring the Tombstone (2)](41070.md) | 106 | Eduinas | Fasika Plateau |
 | [Restoring the Tombstone (3)](41080.md) | 106 | Damijonas | Fasika Plateau |
 | [Result and Responsibility](41055.md) | 106 | Damijonas | Fasika Plateau |
 | [Saltistter's Raid](20132.md) | 106 | Scout | Entrance of Kateen Forest |
@@ -84,6 +87,7 @@
 | [Last Mission (1)](8226.md) | 107 | Officer's Spirit | Entrance of Kateen Forest |
 | [Last Mission (2)](8227.md) | 107 | Officer's Spirit | Entrance of Kateen Forest |
 | [Last Mission (3)](8228.md) | 107 | Officer's Spirit | Entrance of Kateen Forest |
+| [Last Mission (4)](8229.md) | 107 | Officer's Spirit | Entrance of Kateen Forest |
 | [Last Mission (5)](8230.md) | 107 | Officer's Spirit | Entrance of Kateen Forest |
 | [New Market District (1)](8459.md) | 107 | Stonemason Canolyn | Fedimian Suburbs |
 | [New Market District (2)](8460.md) | 107 | Stonemason Canolyn | Fedimian Suburbs |
@@ -111,6 +115,8 @@
 | [Restrained Souls](8207.md) | 109 | Shy Owl Sculpture | Owl Burial Ground |
 | [Wrong Salvation (1)](8208.md) | 109 | Sad Owl Sculpture | Owl Burial Ground |
 | [Wrong Salvation (1)](8209.md) | 109 | Sad Owl Sculpture | Owl Burial Ground |
+| [Duties of Newbies](41620.md) | 110 | (Kedoran Merchant Alliance) Gerda | Manahas |
+| [Educational Materials of the Kedoran Merchant Alliance (1)](41680.md) | 110 | (Kedoran Merchant Alliance) Marcelijus | Manahas |
 | [Educational Materials of the Kedoran Merchant Alliance (2)](41690.md) | 110 | (Kedoran Merchant Alliance) Marcelijus | Manahas |
 | [Helping A Beginner Revelator](41630.md) | 110 | (Kedoran Merchant Alliance) Serapinas | Manahas |
 | [Lost and Found (1)](41640.md) | 110 | (Kedoran Merchant Alliance) Merrisa | Manahas |
@@ -130,6 +136,7 @@
 | [Agailla Flurry's Barrier](8477.md) | 113 | – | Mage Tower 1F |
 | [Crafting and Materials](19051.md) | 113 | Furry Odd | Mage Tower 4F |
 | [Erecting Tombstones (1)](41700.md) | 113 | 안타나스 | Genar Field |
+| [Erecting Tombstones (2)](41703.md) | 113 | 안타나스 | Genar Field |
 | [Erecting Tombstones (3)](41707.md) | 113 | (Blacksmith) Ilannye | Orsha |
 | [Erecting Tombstones (4)](41710.md) | 113 | 안타나스 | Genar Field |
 | [Evidence of Bedazzlement (1)](17004.md) | 113 | Cordelier | Mage Tower 1F |
@@ -150,10 +157,14 @@
 | [Young Magician Owyn (1)](17002.md) | 113 | Owyn | Mage Tower 1F |
 | [Young Magician Owyn (2)](17003.md) | 113 | Owyn | Mage Tower 1F |
 | [Defeat Red Fisherman](8268.md) | 114 | Small Griba | Saknis Plains |
+| [Disaster of Saknis Plains (1)](8265.md) | 114 | Senior Officer Philipas | Saknis Plains |
+| [Disaster of Saknis Plains (2)](8266.md) | 114 | Senior Officer Philipas | Saknis Plains |
+| [Grudge of A Nameless Warrior](8274.md) | 114 | Unknown Soldier's Memento | Saknis Plains |
 | [Leadership of Philipas](8253.md) | 114 | Senior Officer Philipas | Saknis Plains |
 | [Mission over Mission](8249.md) | 114 | Soldier Roy | Saknis Plains |
 | [Spend the Last Together](8259.md) | 114 | Squad Commander Johan | Saknis Plains |
 | [Support of Rearguard Troops](8200.md) | 114 | Officer Danus | Saknis Plains |
+| [The Missing Troop (1)](8242.md) | 114 | Officer Danus | Saknis Plains |
 | [The Missing Troop (2)](8243.md) | 114 | Scout Danus | Saknis Plains |
 | [Troop Left Alone](8258.md) | 114 | Squad Commander Johan | Saknis Plains |
 | [Where are the Supply Troops (1)](8245.md) | 114 | Officer Danus | Saknis Plains |
@@ -178,6 +189,7 @@
 | [Lunatic Wizard (4)](8516.md) | 119 | – | Mage Tower 3F |
 | [Repair the Practice Wooden Seal (1)](9101.md) | 119 | (Highlander Master) Douglas Black | Highlander Master's Training Hall |
 | [Scream in the silence](17016.md) | 119 | Suspicious Table | Mage Tower 3F |
+| [The Wizard and the Mage Tower (2)](19062.md) | 119 | Simon Shaw | Mage Tower 5F |
 | [Too Many Seals (1)](17014.md) | 119 | Sealed Stone | Mage Tower 3F |
 | [Too Many Seals (2)](17015.md) | 119 | Sealed Stone | Mage Tower 3F |
 | [What Kind of Sin (1)](17012.md) | 119 | Sealed Stone | Mage Tower 3F |
@@ -206,6 +218,7 @@
 | [Secure Route to the Gateway of the Great King (3)](4387.md) | 121 | Commander O'Rourke | Dvasia Peak |
 | [Secure the Area](4382.md) | 121 | Soldier Poulter | Dvasia Peak |
 | [Search Scouts under Attack](4390.md) | 122 | Soldier Dainus | Dvasia Peak |
+| [A Soldier's Mission](9106.md) | 123 | – | Sunset Flag Forest |
 | [A Suspicious Seal](17020.md) | 123 | Sealed Stone | Mage Tower 4F |
 | [An Endless Mission (1)](4394.md) | 123 | Soldier Alan | Sunset Flag Forest |
 | [An Endless Mission (2)](4396.md) | 123 | Soldier Alan | Sunset Flag Forest |

@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-112 quests.
+117 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -98,6 +98,7 @@
 | [Methods to Reducing Fever](70224.md) | 215 | Stogas Commanding Officer Ades | Stogas Plateau |
 | [Priority](70226.md) | 215 | Soldier Motimer | Stogas Plateau |
 | [To Eat Something](70221.md) | 215 | Supply Officer Ronda | Stogas Plateau |
+| [Departured Villager's Memo](30142.md) | 220 | 버려진 쪽지 | Alemeth Forest |
 | [Departured Villager's Pot](30143.md) | 220 | Jar | Alemeth Forest |
 | [Request for the Secret Rescue (1)](30131.md) | 220 | 가트레 | Alemeth Forest |
 | [Request for the Secret Rescue (2)](30132.md) | 220 | 가트레 | Alemeth Forest |
@@ -109,9 +110,13 @@
 | [True Nature of the Research (1)](30133.md) | 220 | 사르마 | Alemeth Forest |
 | [True Nature of the Research (2)](30134.md) | 220 | 가트레 | Alemeth Forest |
 | [True Nature of the Research (4)](30136.md) | 220 | TEST | Alemeth Forest |
+| [For Continuing Research](80075.md) | 223 | 루시엔 윈터스푼 | Nahash Forest |
 | [Great Success or Great Failure (1)](80072.md) | 223 | 루시엔 윈터스푼 | Nahash Forest |
 | [Great Success or Great Failure (2)](80073.md) | 223 | – | Nahash Forest |
+| [Great Success or Great Failure (3)](80074.md) | 223 | TEST | Nahash Forest |
+| [Precious Cultivated Land](80076.md) | 223 | 루시엔 윈터스푼 | Nahash Forest |
 | [Secure the safety](80077.md) | 223 | 마을 주민 넬라 | Nahash Forest |
+| [Support for the Greater Justice (1)](80068.md) | 223 | 루시엔 윈터스푼 | Nahash Forest |
 | [Support for the Greater Justice (2)](80069.md) | 223 | 루시엔 윈터스푼 | Nahash Forest |
 | [Support for the Greater Justice (3)](80070.md) | 223 | 루시엔 윈터스푼 | Nahash Forest |
 | [Support for the Greater Justice (4)](80071.md) | 223 | 루시엔 윈터스푼 | Nahash Forest |

@@ -2,7 +2,7 @@
 
 [Quests de 2016](README.md)
 
-143 quests.
+152 quests.
 
 | Quest | Nível | NPC inicial | Mapa |
 | --- | --- | --- | --- |
@@ -19,6 +19,7 @@
 | [Hot-blooded Simon Shaw (3)](17024.md) | 126 | Simon Shaw | Mage Tower 5F |
 | [To Entrance of Kateen Forest](8512.md) | 126 | TEST | Mage Tower 5F |
 | [Truth of the Suspicious Seal Stone (1)](17025.md) | 126 | Sealed Stone | Mage Tower 5F |
+| [Truth of the Suspicious Seal Stone (2)](17026.md) | 126 | Sealed Stone | Mage Tower 5F |
 | [Condensed Anger](19690.md) | 127 | UnvisibleName | Altar Way |
 | [Flowers to the Enraged Soul](19660.md) | 127 | UnvisibleName | Altar Way |
 | [Fragment of a Soul](19701.md) | 127 | UnvisibleName | Altar Way |
@@ -50,6 +51,7 @@
 | [Worship for the Blessing (3)](19740.md) | 129 | – | Klaipeda |
 | [Each Step United](19091.md) | 130 | (Templar Master) Knight Commander Uska | Klaipeda |
 | [Avoiding Infatuation (1)](19871.md) | 133 | Pilgrim Theophilis | Apsimesti Crossroads |
+| [Avoiding Infatuation (2)](19880.md) | 133 | Pilgrim Theophilis | Apsimesti Crossroads |
 | [Avoiding Infatuation (3)](19900.md) | 133 | Pilgrim Theophilis | Apsimesti Crossroads |
 | [Avoiding Infatuation (4)](19910.md) | 133 | Pilgrim Witas | Apsimesti Crossroads |
 | [Get Out of Bewilderment (5)](19911.md) | 133 | Pilgrim Witas | Apsimesti Crossroads |
@@ -87,11 +89,14 @@
 | [Reconnaissance Duty at Mage Tower (Scout Advancement)](30109.md) | 135 | (Scout Submaster) Suina | Orsha |
 | [Research of Spirits and Emotions (Linker Advancement)](30103.md) | 135 | – | Orsha |
 | [Sapper's Proven Abilities (Sapper Advancement)](30106.md) | 135 | (Sapper Submaster) Zubin Katal | Orsha |
+| [Sharing Given Abilities (Sadhu Advancement)](70338.md) | 135 | – | Orsha |
 | [Sound of the Wood (Fletcher Advancement)](8718.md) | 135 | (Fletcher Master) Visvaldas black | Goddess' Ancient Garden |
 | [Statue Maintenance (Dievdirbys Advancement) (1)](17420.md) | 135 | (Dievdirbys Master) Sculptor Tesla | West Siauliai Woods |
+| [Statue Maintenance (Dievdirbys Advancement) (2)](17430.md) | 135 | (Cleric Master) Rozalija | Klaipeda |
 | [Statue Maintenance (Dievdirbys Advancement) (3)](17440.md) | 135 | – | Klaipeda |
 | [Statue Maintenance (Dievdirbys Advancement) (4)](17450.md) | 135 | – | Klaipeda |
 | [Statue Maintenance (Dievdirbys Advancement) (5)](17460.md) | 135 | (Bokor Master) Mama Marie Lavoie | Bokor Master's Home |
+| [Still Needs Memory (Bokor Advancement) (1)](17380.md) | 135 | (Bokor Master) Mama Marie Lavoie | Bokor Master's Home |
 | [Still Needs Memory (Bokor Advancement) (2)](17390.md) | 135 | – | Klaipeda |
 | [Still Needs Memory (Bokor Advancement) (3)](17400.md) | 135 | (Bokor Master) Mama Marie Lavoie | Bokor Master's Home |
 | [Still Needs Memory (Bokor Advancement) (4)](17410.md) | 135 | – | Klaipeda |
@@ -104,6 +109,7 @@
 | [Without Comrades Sometimes (Rodelero Advancement)](70333.md) | 135 | – | Orsha |
 | [여신상 보수하기(딥디르비 전직)(1)](70336.md) | 135 | (Dievdirbys Submaster) Zenoa Gallant | Woods of the Linked Bridges |
 | [여신상 보수하기(딥디르비 전직)(2)](70337.md) | 135 | (Dievdirbys Submaster) Zenoa Gallant | Woods of the Linked Bridges |
+| [A Vessel for a Spirit (1)](20300.md) | 137 | Bishop Aurelius' Spirit | Main Chamber |
 | [A Vessel for a Spirit (2)](20301.md) | 137 | Bishop Aurelius' Spirit | Main Chamber |
 | [A Vessel for a Spirit (3)](20302.md) | 137 | Bishop Aurelius' Spirit | Main Chamber |
 | [Endlessly Blasphemous](20306.md) | 137 | Priest Inea | Main Chamber |
@@ -111,6 +117,7 @@
 | [Mercy and Salvation (3)](20305.md) | 137 | – | Main Chamber |
 | [Research Reports of the Priests](20308.md) | 137 | Priest Aden | Main Chamber |
 | [Well Hidden Holy Relics](20307.md) | 137 | Priest Inea | Main Chamber |
+| [Disintegration (1)](50000.md) | 138 | Priest Benedict | Main Chamber |
 | [Disintegration (2)](50001.md) | 138 | Priest Benedict | Main Chamber |
 | [Eyes Off for a Moment](20315.md) | 140 | Priest Yosana | Grand Corridor |
 | [More and More](20316.md) | 140 | Priest Daram | Grand Corridor |
@@ -125,8 +132,10 @@
 | [Farewell, My Friend (1)](20343.md) | 144 | Pilgrim Orville | Penitence Route of Great Cathedral |
 | [Farewell, My Friend (2)](20326.md) | 144 | Pilgrim Orville | Penitence Route of Great Cathedral |
 | [Farewell, My Friend (3)](20327.md) | 144 | Pilgrim Orville | Penitence Route of Great Cathedral |
+| [True Origin of the Curse (1)](20324.md) | 144 | Priest Loana | Penitence Route of Great Cathedral |
 | [True Origin of the Curse (2)](20322.md) | 144 | Priest Loana | Penitence Route of Great Cathedral |
 | [Adapting to Circumstances (1)](20329.md) | 145 | – | Grand Corridor |
+| [Adapting to Circumstances (2)](20342.md) | 145 | Bishop Aurelius' Spirit | Sanctuary |
 | [Adapting to Circumstances (3)](20330.md) | 145 | Bishop Aurelius' Spirit | Sanctuary |
 | [Adapting to Circumstances (4)](20331.md) | 145 | Bishop Aurelius' Spirit | Sanctuary |
 | [Adapting to Circumstances (5)](20332.md) | 145 | – | Sanctuary |
