@@ -106,3 +106,45 @@ test('os spawns do pacote: arquivos alterados, tempos de nascimento e relatório
   assert.equal(report.mapas_com_spawn_no_melia + report.mapas_fechados_ou_sem_spawn.length, report.mapas_do_tosbase_com_monstros);
   assert.ok(report.monstros_com_spawner_no_melia <= report.monstros_do_tosbase_nesses_mapas);
 });
+
+test('potencial, durabilidade e grau de 2016 estão no banco de itens do pacote', () => {
+  const items = file('user/db/items.txt');
+  assert.match(items, /itemId: 101101,.*grade: 1, potential: 3, durability: 36 \}/);
+  assert.ok((items.match(/potential: \d+/g) || []).length >= 2000);
+  assert.ok((items.match(/durability: \d+/g) || []).length >= 1800);
+  assert.ok(items.trim().endsWith(']'));
+});
+
+test('as regras de refino de 2016 reproduzem as tabelas do ToSBase', () => {
+  const research = JSON.parse(readFileSync(new URL('../data/research/tosbase-2016-items.json', import.meta.url), 'utf8')).items;
+  const report = JSON.parse(file('refine-report.json'));
+  const cs = file('user/scripts/zone/custom/original2016/refine.cs');
+  assert.match(cs, /public static class Original2016Refine/);
+  assert.match(file('user/scripts/zone/scripts_custom.txt'), /^custom\/original2016\/refine\.cs$/m);
+  // reimplementa a regra e compara com cada item do ToSBase que o pacote lista
+  const bonus = (stat, grade, lv) => {
+    const attack = stat === 'ATK' || stat === 'MATK';
+    const base = attack ? grade + 2 : Math.floor(grade / 2) + 1, limit = attack ? 5 : 3;
+    return base * (lv <= limit ? lv : limit + (lv - limit) * 2);
+  };
+  const ids = [...cs.matchAll(/\{ (\d+), new RefineInfo\(RefineStat\.(\w+), (\d+), (-?\d+), (-?\d+),/g)];
+  assert.equal(ids.length, report.itens_com_tabela_de_refino);
+  let standard = 0;
+  const statName = { Atk: 'ATK', MAtk: 'MATK', Def: 'DEF', MDef: 'MDEF', Accuracy: 'HR', Evasion: 'DR', MagicAmp: 'MHR' };
+  for (const [, id, stat, grade, bKind, rKind] of ids) {
+    const src = research[id].enhancement;
+    assert.equal(src.length, 15, id);
+    if (Number(bKind) < 0) {
+      standard++;
+      src.forEach(e => assert.equal(e.bonus, bonus(statName[stat], Number(grade), e.level), `bônus de ${id} no nível ${e.level}`));
+    }
+    if (Number(rKind) < 0) {
+      const weapon = stat === 'Atk' || stat === 'MAtk';
+      const rates = weapon ? [100, 100, 100, 100, 100, 88, 78, 68, 59, 51, 51, 51, 51, 51, 51] : [100, 100, 100, 88, 78, 68, 59, 51, 51, 51, 51, 51, 51, 51, 51];
+      assert.deepEqual(src.map(e => e.success_pct), rates, `chance de ${id}`);
+    }
+  }
+  assert.ok(standard > 1250, 'a maioria dos itens segue a fórmula padrão');
+  assert.equal(report.itens_com_tabela_de_refino - standard, report.itens_com_bonus_fora_do_padrao);
+  assert.ok(report.itens_com_bonus_fora_do_padrao < 250);
+});

@@ -57,10 +57,11 @@ STR e INT ganham ainda +10% por rank acima do primeiro. A DEX só vale para ataq
 
 Refinar melhora a arma, a armadura ou o escudo na bigorna. O item sobe de +1 até +15 ou mais, e a bigorna é consumida a cada uso, dê certo ou não. A taxa de sucesso cai conforme o nível, e quem erra perde 1 nível de refino **e 1 de potencial**. Com potencial 0, o item não pode mais ser refinado.
 
-- **Armas:** sucesso garantido até +5; depois 88% (+6), 78%, 68%, 59% e 51% do +10 ao +15.
+- **Armas** (exceto punhais, pistolas e canhões): sucesso garantido até +5; depois 88% (+6), 78%, 68%, 59% e 51% do +10 ao +15.
 - **Armaduras:** sucesso garantido até +3, e a taxa cai a partir do +4.
-- **Bônus de ataque** (estrelas = grau do item): até +5, nível × (estrelas + 2). Acima de +5, (5 + (nível − 5) × 2) × (estrelas + 2).
-- **Defesa, defesa mágica, precisão e esquiva:** nível × (1 + estrelas ÷ 10). **Amplificação mágica:** nível × (estrelas + 1) ÷ 2.
+- **Bônus de ataque e ataque mágico** (estrelas = grau do item): base = estrelas + 2. Até +5 o bônus é base × nível; a partir do +6 sobe base × 2 por nível (ex.: grau 1, +5 = 15 e +6 = 21).
+- **Defesa, defesa mágica, precisão, esquiva e amplificação mágica:** base = estrelas ÷ 2 (arredondado para baixo) + 1. Até +3 o bônus é base × nível; a partir do +4 sobe base × 2 por nível (ex.: grau 1, +3 = 3 e +4 = 5). Alguns itens (escudos pequenos, algumas luvas) têm bônus de 1 por nível, sem degrau.
+- Punhais, pistolas e canhões seguem a mesma tabela de chances das peças de defesa (100% só até +3), em vez da tabela das demais armas.
 
 Cada item mostra a sua tabela de refino na [página do item](../original-2016/itens/README.md).
 

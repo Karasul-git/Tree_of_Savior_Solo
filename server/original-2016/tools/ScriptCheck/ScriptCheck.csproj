@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <NoWarn>CS8632;CS0108</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ZoneServer\ZoneServer.csproj" />
+    <!-- Os scripts do pacote, compilados contra o ZoneServer do Melia -->
+    <Compile Include="..\..\user\scripts\zone\custom\original2016\*.cs" />
+    <Compile Include="..\..\user\scripts\zone\content\**\*.cs" />
+    <Compile Include="..\..\system\scripts\zone\const\MonsterId.cs" />
+  </ItemGroup>
+</Project>

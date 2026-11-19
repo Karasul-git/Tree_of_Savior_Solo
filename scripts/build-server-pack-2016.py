@@ -162,6 +162,17 @@ for iid, it in items2016.items():
         line, _ = set_field(line, 'minLevel', it['required_level'])
     if it.get('weight') is not None:
         line, _ = set_field(line, 'weight', int(it['weight']))
+    # grau (estrelas), potencial e durabilidade máximos de 2016. O Melia ainda não lê esses campos (ignora chaves
+    # desconhecidas); ficam no banco para o pacote e para o patch futuro. Formato do ToSBase: "atual / máximo".
+    extra = []
+    if it.get('grade') is not None:
+        extra.append(f"grade: {int(it['grade'])}")
+    for key, field in (('potential', 'potential'), ('durability', 'durability')):
+        m2 = re.match(r'^\s*(\d+)\s*/\s*(\d+)\s*$', it.get(key) or '')
+        if m2:
+            extra.append(f'{field}: {int(m2.group(2))}')
+    if extra and re.search(r'\},?\s*$', line):
+        line = re.sub(r'\s*\},?\s*$', ', ' + ', '.join(extra) + ' },', line)
     if line != original:
         new_items[int(iid)] = line
         items_changed += 1

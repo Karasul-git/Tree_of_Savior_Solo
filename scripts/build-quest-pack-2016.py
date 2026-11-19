@@ -224,9 +224,11 @@ for qid, objs in converted.items():
 target = pack / 'user/scripts/zone/custom/original2016/quests.cs'
 target.parent.mkdir(parents=True, exist_ok=True)
 target.write_text('\ufeff' + '\n'.join(out_cs), encoding='utf-8')
-(pack / 'user/scripts/zone/scripts_custom.txt').write_text(
-    '// Melia\n// Lista de scripts do pacote original 2016 (carrega as quests geradas)\n//---------------------------------------------------------------------------\n\ncustom/original2016/quests.cs\n',
-    encoding='utf-8')
+lst = pack / 'user/scripts/zone/scripts_custom.txt'
+existing = [l for l in lst.read_text(encoding='utf-8').split('\n') if l.strip() and not l.startswith('//')] if lst.exists() else []
+if 'custom/original2016/quests.cs' not in existing:
+    existing.insert(0, 'custom/original2016/quests.cs')
+lst.write_text('// Melia\n// Lista de scripts do pacote original 2016\n//---------------------------------------------------------------------------\n\n' + '\n'.join(existing) + '\n', encoding='utf-8')
 
 dropped_rewards = sum(1 for q in quests.values() if q['reward_choice'])
 missing_rewards = sum(1 for qid in converted for r in quests[qid]['reward_all'] if r['item_id'] not in item_ids)
