@@ -180,3 +180,27 @@ test('receitas e coleções de 2016 no pacote', () => {
   // nenhuma coleção exige o próprio item de coleção
   assert.ok(!/requiredItems: \{[^}]*COLLECT_/.test(cols));
 });
+
+test('conjuntos de equipamento de 2016 no pacote', () => {
+  const report = JSON.parse(file('sets-report.json'));
+  const research = JSON.parse(readFileSync(new URL('../data/research/tosbase-2016-sets.json', import.meta.url), 'utf8')).sets;
+  const cs = file('user/scripts/zone/custom/original2016/sets.cs');
+  assert.equal(report.conjuntos, Object.keys(research).length);
+  assert.equal((cs.match(/new ItemSet2016\(/g) || []).length, report.conjuntos);
+  assert.equal(report.efeitos_implementados + report.efeitos_pendentes, report.efeitos_no_tosbase);
+  const lines = Object.values(research).flatMap(s => Object.values(s.effects).flatMap(t => t.split('\n')));
+  assert.equal(lines.length, report.efeitos_no_tosbase, 'toda linha de efeito do ToSBase foi classificada');
+  assert.equal((cs.match(/\(\d+, \d+, "/g) || []).length, report.efeitos_pendentes);
+  assert.deepEqual(report.itens_que_o_melia_nao_tem, {});
+  assert.equal(report.por_conjunto.some(s => s.id === 6), false);
+  assert.match(cs, /public const bool Cumulative = true;/);
+  assert.match(file('user/scripts/zone/scripts_custom.txt'), /^custom\/original2016\/sets\.cs$/m);
+  // cada conjunto traz as peças do ToSBase
+  for (const s of report.por_conjunto) assert.deepEqual(s.pecas, research[String(s.id)].items.map(i => i.item_id));
+  // todos os efeitos simples chegam ao cálculo de status
+  const calc = file('user/scripts/zone/core/calc_character.cs');
+  const used = new Set([...calc.matchAll(/Original2016Sets\.EquipBonus\(character, SetStat\.(\w+)\)/g)].map(m => m[1]));
+  const wanted = new Set(report.por_conjunto.flatMap(s => s.efeitos_implementados.map(e => e.atributo)));
+  for (const stat of wanted) assert.ok(used.has(stat), `atributo ${stat} sem ligação no cálculo de status`);
+  assert.ok(!/Movement|Backstab/.test(JSON.stringify(report.por_conjunto.map(s => s.efeitos_implementados))));
+});

@@ -124,6 +124,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var properties = character.Properties;
 
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.STR);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.Str);
 		var byBuffs = properties.GetFloat(PropertyName.STR_BM);
 		var byItemBuff = properties.GetFloat(PropertyName.STR_ITEM_BM);
 
@@ -143,6 +144,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var properties = character.Properties;
 
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.CON);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.Con);
 		var byBuffs = properties.GetFloat(PropertyName.CON_BM);
 		var byItemBuff = properties.GetFloat(PropertyName.CON_ITEM_BM);
 
@@ -162,6 +164,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var properties = character.Properties;
 
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.INT);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.Int);
 		var byBuffs = properties.GetFloat(PropertyName.INT_BM);
 		var byItemBuff = properties.GetFloat(PropertyName.INT_ITEM_BM);
 
@@ -181,6 +184,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var properties = character.Properties;
 
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.MNA);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.Spr);
 		var byBuffs = properties.GetFloat(PropertyName.MNA_BM);
 		var byItemBuff = properties.GetFloat(PropertyName.MNA_ITEM_BM);
 
@@ -200,6 +204,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var properties = character.Properties;
 
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.DEX);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.Dex);
 		var byBuffs = properties.GetFloat(PropertyName.DEX_BM);
 		var byItemBuff = properties.GetFloat(PropertyName.DEX_ITEM_BM);
 
@@ -329,6 +334,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var byLevel = Math.Floor(rateByJob * Math.Floor((level - 1) * 17));
 		var byStat = Math.Floor(stat * 85);
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.MHP);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.Mhp);
 		var byItemRatio = (byLevel + byStat) * (character.Inventory.GetEquipProperties(PropertyName.MHPRatio) / 100f);
 		var byBonus = properties.GetFloat(PropertyName.MHP_Bonus);
 
@@ -387,6 +393,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		var byStat = 0d;
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.MSTA);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.MaxSta);
 		var byBonus = properties.GetFloat(PropertyName.MAXSTA_Bonus, 0);
 		var byBuff = properties.GetFloat(PropertyName.MaxSta_BM, 0);
 		//var byReward = GetReward(PropertyName.MSTA);
@@ -530,6 +537,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		var byDefault = Math.Floor(jobHpRate * level * 0.5f + con);
 		var byItems = character.Inventory.GetEquipProperties("RHP");
+		byItems += Original2016Sets.EquipBonus(character, SetStat.Rhp);
 		var byBuffs = properties.GetFloat(PropertyName.RHP_BM);
 
 		var value = (byDefault + byItems + byBuffs);
@@ -585,6 +593,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		var byDefault = Math.Floor(jobSpRate * level * 0.5f + spr + (character.JobClass == JobClass.Cleric ? level / 4f : 0f));
 		var byItems = character.Inventory.GetEquipProperties("RSP");
+		byItems += Original2016Sets.EquipBonus(character, SetStat.Rsp);
 		var byBuffs = properties.GetFloat(PropertyName.RSP_BM);
 
 		var value = (byDefault + byItems + byBuffs);
@@ -949,6 +958,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		var byLevel = (float)Math.Floor(Math.Floor(level / 2f) + (character.JobClass == JobClass.Swordsman ? level / 4f : 0f));
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.DEF);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.Def);
 		byItem += Original2016Refine.EquipBonus(character, RefineStat.Def);
 
 		var value = baseValue + byLevel + byItem;
@@ -978,6 +988,7 @@ public class CharacterCalculationsScript : GeneralScript
 
 		var byLevel = (float)Math.Floor(level * 0.5f + properties.GetFloat(PropertyName.MNA) / 5f + (character.JobClass == JobClass.Wizard ? level / 4f : 0f));
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.MDEF);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.MDef);
 		byItem += Original2016Refine.EquipBonus(character, RefineStat.MDef);
 
 		var value = baseValue + byLevel + byItem;
@@ -1037,6 +1048,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var byItem = 0f;
 
 		byItem += character.Inventory.GetEquipProperties(PropertyName.CRTHR);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.CritRate);
 
 		var value = byLevel + byItem;
 
@@ -1133,6 +1145,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var byItem = 0f;
 
 		byItem += character.Inventory.GetEquipProperties(PropertyName.DR);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.Evasion);
 		byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_DR);
 		byItem += Original2016Refine.EquipBonus(character, RefineStat.Evasion);
 
@@ -1238,6 +1251,7 @@ public class CharacterCalculationsScript : GeneralScript
 			baseValue = 0;
 
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.SR);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.AoeAttackRatio);
 		var byBuffs = character.Properties.GetFloat(PropertyName.SR_BM);
 
 		var value = baseValue + byItem + byBuffs;
@@ -1288,7 +1302,7 @@ public class CharacterCalculationsScript : GeneralScript
 		var baseValue = 30;
 		var byBuff = properties.GetFloat(PropertyName.MSPD_BM);
 		var byBonus = properties.GetFloat(PropertyName.MSPD_Bonus);
-		var value = (baseValue + byBuff + byBonus);
+		var value = (baseValue + byBuff + byBonus + Original2016Sets.EquipBonus(character, SetStat.MoveSpeed));
 
 		var nowWeight = properties.GetFloat(PropertyName.NowWeight);
 		var maxWeight = properties.GetFloat(PropertyName.MaxWeight);
@@ -1437,6 +1451,7 @@ public class CharacterCalculationsScript : GeneralScript
 	public float SCR_GET_RES_FIRE(Character character)
 	{
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_FIRE);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.ResFire);
 		var byBuff = character.Properties.GetFloat(PropertyName.ResFire_BM);
 
 		var value = byItem + byBuff;
@@ -1453,6 +1468,7 @@ public class CharacterCalculationsScript : GeneralScript
 	public float SCR_GET_RES_ICE(Character character)
 	{
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_ICE);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.ResIce);
 		var byBuff = character.Properties.GetFloat(PropertyName.ResIce_BM);
 
 		var value = byItem + byBuff;
@@ -1469,6 +1485,7 @@ public class CharacterCalculationsScript : GeneralScript
 	public float SCR_GET_RES_LIGHTNING(Character character)
 	{
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_LIGHTNING);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.ResLightning);
 		var byBuff = character.Properties.GetFloat(PropertyName.ResLightning_BM);
 
 		var value = byItem + byBuff;
@@ -1485,6 +1502,7 @@ public class CharacterCalculationsScript : GeneralScript
 	public float SCR_GET_RES_EARTH(Character character)
 	{
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_EARTH);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.ResEarth);
 		var byBuff = character.Properties.GetFloat(PropertyName.ResEarth_BM);
 
 		var value = byItem + byBuff;
@@ -1501,6 +1519,7 @@ public class CharacterCalculationsScript : GeneralScript
 	public float SCR_GET_RES_POISON(Character character)
 	{
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_POISON);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.ResPoison);
 		var byBuff = character.Properties.GetFloat(PropertyName.ResPoison_BM);
 
 		var value = byItem + byBuff;
@@ -1517,6 +1536,7 @@ public class CharacterCalculationsScript : GeneralScript
 	public float SCR_GET_RES_HOLY(Character character)
 	{
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_HOLY);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.ResHoly);
 		var byBuff = character.Properties.GetFloat(PropertyName.ResHoly_BM);
 
 		var value = byItem + byBuff;
@@ -1533,6 +1553,7 @@ public class CharacterCalculationsScript : GeneralScript
 	public float SCR_GET_RES_DARK(Character character)
 	{
 		var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_DARK);
+		byItem += Original2016Sets.EquipBonus(character, SetStat.ResDark);
 		var byBuff = character.Properties.GetFloat(PropertyName.ResDark_BM);
 
 		var value = byItem + byBuff;

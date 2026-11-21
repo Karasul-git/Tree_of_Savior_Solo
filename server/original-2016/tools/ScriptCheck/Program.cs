@@ -45,6 +45,21 @@ public static class P {
     level = 3; pot = 0;
     var blocked = !Original2016Refine.CanRefine(101101, level, pot);
     Console.WriteLine($"potencial 0 bloqueia: {blocked}");
+    // 3b) conjuntos: função pura com ids de itens equipados
+    var elgos = new[] { 502188, 512188, 522188, 532188 };
+    bool Sets(bool cond, string what) { Console.WriteLine((cond ? "OK    " : "FALHA ") + what); return cond; }
+    var setsOk = true;
+    setsOk &= Sets(Original2016Sets.Bonus(elgos.Take(1), SetStat.MDef) == 0, "conjunto: 1 peça não dá bônus");
+    setsOk &= Sets(Original2016Sets.Bonus(elgos.Take(2), SetStat.MDef) == 5, "Elgos com 2 peças: defesa mágica 5");
+    setsOk &= Sets(Original2016Sets.Bonus(elgos.Take(3), SetStat.MDef) == 15, "Elgos com 3 peças: defesa mágica 5 + 10");
+    setsOk &= Sets(Original2016Sets.Bonus(elgos, SetStat.Int) == 15 && Original2016Sets.Bonus(elgos.Take(3), SetStat.Int) == 0, "Elgos com 4 peças: INT 15 (só com as 4)");
+    var cafrisun = new[] { 502123, 512123, 522123 };
+    setsOk &= Sets(Original2016Sets.Bonus(cafrisun, SetStat.Rhp) == 16 && Original2016Sets.Bonus(cafrisun, SetStat.Dex) == 1 && Original2016Sets.Bonus(cafrisun, SetStat.Spr) == 1
+        && Original2016Sets.Bonus(cafrisun.Take(2), SetStat.Dex) == 0, "Cafrisun com 3 peças: recuperação de HP 16 e todos os status +1");
+    setsOk &= Sets(Original2016Sets.Bonus(new[] { 582119, 602116, 602116 }, SetStat.MDef) == 10 && Original2016Sets.Bonus(new[] { 582119, 602116 }, SetStat.MDef) == 0, "Bronza: medalha e duas pulseiras = 3 peças");
+    setsOk &= Sets(Original2016Sets.Bonus(new[] { 101101, 531101 }, SetStat.Def) == 0, "itens de fora de conjuntos não dão bônus");
+    setsOk &= Sets(Original2016Sets.All.Length == 33 && Original2016Sets.Pending.Length == 27, "33 conjuntos e 27 efeitos pendentes registrados");
+
     // 4) patch do Melia: campos do item, propriedades salvas e cópia de item (carrega os dbs como o servidor)
     var data = ZoneServer.Instance.Data;
     data.PropertiesDb.Clear();
@@ -99,7 +114,7 @@ public static class P {
     }
     else
         Console.WriteLine("banco: pulado (defina MELIA_TEST_DB para testar o salvamento)");
-    return bad == 0 && okFail && okWin && blocked && fieldsOk && roundTrip && junkOk && dbOk ? 0 : 1;
+    return bad == 0 && okFail && okWin && blocked && setsOk && fieldsOk && roundTrip && junkOk && dbOk ? 0 : 1;
   }
 }
 

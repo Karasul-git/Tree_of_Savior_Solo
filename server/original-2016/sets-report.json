@@ -1,0 +1,833 @@
+{
+ "conjuntos": 33,
+ "efeitos_no_tosbase": 69,
+ "efeitos_implementados": 42,
+ "efeitos_pendentes": 27,
+ "cumulativo": true,
+ "itens_que_o_melia_nao_tem": {},
+ "avisos": {
+  "2": "o ToSBase lista 1 peça(s), mas o efeito pede 2: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)",
+  "31": "o ToSBase lista 2 peça(s), mas o efeito pede 3: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)",
+  "32": "o ToSBase lista 2 peça(s), mas o efeito pede 3: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)",
+  "33": "o ToSBase lista 2 peça(s), mas o efeito pede 3: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)",
+  "34": "o ToSBase lista 2 peça(s), mas o efeito pede 3: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)"
+ },
+ "conjunto_6": "não existe em 2016: a captura do ToSBase para sets/6 é a lista genérica de conjuntos",
+ "tipos_de_efeito_pendente": {
+  "Ice Property Attack N": 6,
+  "Gives additional Earth property damage when receiving Earth property attacks": 3,
+  "N% chance of recovering N SP for N seconds when attacked by a Devil-type enemy": 3,
+  "Earth Property Attack N": 3,
+  "Attack against Devil-type Targets N": 2,
+  "Dark Property Attack N": 1,
+  "Fire Property Attack N": 1,
+  "Earth Property Additional Damage N": 1,
+  "N% chance to gain N seconds of increased attack against Devil-type Targets by N": 1,
+  "Increases [Backstab] damage by Nx when attacking an enemy from behind": 1,
+  "N magic defense, N physical defense for N seconds with every basic and physical attack": 1,
+  "Increases Holy and Dark property attack equal to N% magic defense for N seconds when stacked N times": 1,
+  "Pierce-type Defense N": 1,
+  "Strike-type Defense N": 1,
+  "Slash-type Defense N": 1
+ },
+ "por_conjunto": [
+  {
+   "id": 1,
+   "nome": "Light Plate Set",
+   "pecas": [
+    522110,
+    532110
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "AoeAttackRatio",
+     "valor": 1
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 2,
+   "nome": "Zega Set",
+   "pecas": [
+    532111
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Def",
+     "valor": 6
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": "o ToSBase lista 1 peça(s), mas o efeito pede 2: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)"
+  },
+  {
+   "id": 3,
+   "nome": "Magi Set",
+   "pecas": [
+    522112,
+    532112
+   ],
+   "efeitos_implementados": [],
+   "efeitos_pendentes": [
+    {
+     "pecas": 2,
+     "texto": "Dark Property Attack 30"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 4,
+   "nome": "Jude Set",
+   "pecas": [
+    522113,
+    532113
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "MoveSpeed",
+     "valor": 5
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 5,
+   "nome": "Ismin Set",
+   "pecas": [
+    522114,
+    532114
+   ],
+   "efeitos_implementados": [],
+   "efeitos_pendentes": [
+    {
+     "pecas": 2,
+     "texto": "Fire Property Attack 15"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 7,
+   "nome": "Cafrisun Set",
+   "pecas": [
+    502123,
+    512123,
+    522123,
+    532123
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Rhp",
+     "valor": 16
+    },
+    {
+     "pecas": 3,
+     "atributo": "Str",
+     "valor": 1
+    },
+    {
+     "pecas": 3,
+     "atributo": "Con",
+     "valor": 1
+    },
+    {
+     "pecas": 3,
+     "atributo": "Int",
+     "valor": 1
+    },
+    {
+     "pecas": 3,
+     "atributo": "Spr",
+     "valor": 1
+    },
+    {
+     "pecas": 3,
+     "atributo": "Dex",
+     "valor": 1
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 4,
+     "texto": "Earth Property Additional Damage 12"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 8,
+   "nome": "Riena Set",
+   "pecas": [
+    532150,
+    522150
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "ResFire",
+     "valor": 16
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 9,
+   "nome": "Riena Set",
+   "pecas": [
+    532151,
+    522151
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "ResFire",
+     "valor": 16
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 10,
+   "nome": "Riena Set",
+   "pecas": [
+    532152,
+    522152
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "ResFire",
+     "valor": 16
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 11,
+   "nome": "Watcher Set",
+   "pecas": [
+    502153,
+    512153,
+    522153,
+    532153
+   ],
+   "efeitos_implementados": [],
+   "efeitos_pendentes": [
+    {
+     "pecas": 2,
+     "texto": "Attack against Devil-type Targets 6"
+    },
+    {
+     "pecas": 3,
+     "texto": "Attack against Devil-type Targets 8"
+    },
+    {
+     "pecas": 4,
+     "texto": "1% chance to gain 30 seconds of increased attack against Devil-type Targets by 157"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 12,
+   "nome": "Abomination Set",
+   "pecas": [
+    603106,
+    583105
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Str",
+     "valor": 3
+    },
+    {
+     "pecas": 2,
+     "atributo": "Con",
+     "valor": 3
+    },
+    {
+     "pecas": 2,
+     "atributo": "Int",
+     "valor": 3
+    },
+    {
+     "pecas": 2,
+     "atributo": "Spr",
+     "valor": 3
+    },
+    {
+     "pecas": 2,
+     "atributo": "Dex",
+     "valor": 3
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 13,
+   "nome": "Earth Cloth Armor Set",
+   "pecas": [
+    502154,
+    512154,
+    522154,
+    532154
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Con",
+     "valor": 5
+    },
+    {
+     "pecas": 3,
+     "atributo": "MaxSta",
+     "valor": 10
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 4,
+     "texto": "Gives additional Earth property damage when receiving Earth property attacks"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 14,
+   "nome": "Earth Leather Armor Set",
+   "pecas": [
+    502155,
+    512155,
+    522155,
+    532155
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Con",
+     "valor": 5
+    },
+    {
+     "pecas": 3,
+     "atributo": "MaxSta",
+     "valor": 10
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 4,
+     "texto": "Gives additional Earth property damage when receiving Earth property attacks"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 15,
+   "nome": "Earth Plate Armor Set",
+   "pecas": [
+    502156,
+    512156,
+    522156,
+    532156
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Con",
+     "valor": 5
+    },
+    {
+     "pecas": 3,
+     "atributo": "MaxSta",
+     "valor": 10
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 4,
+     "texto": "Gives additional Earth property damage when receiving Earth property attacks"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 16,
+   "nome": "Legwyn Family's Cloth Armor Set",
+   "pecas": [
+    502157,
+    512157,
+    522157,
+    532157
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "ResDark",
+     "valor": 10
+    },
+    {
+     "pecas": 3,
+     "atributo": "Spr",
+     "valor": 6
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 4,
+     "texto": "1% chance of recovering 200 SP for 5 seconds when attacked by a Devil-type enemy"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 17,
+   "nome": "Legwyn Family's Leather Armor Set",
+   "pecas": [
+    502158,
+    512158,
+    522158,
+    532158
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "ResDark",
+     "valor": 10
+    },
+    {
+     "pecas": 3,
+     "atributo": "Spr",
+     "valor": 6
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 4,
+     "texto": "1% chance of recovering 200 SP for 5 seconds when attacked by a Devil-type enemy"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 18,
+   "nome": "Legwyn Family's Plate Armor Set",
+   "pecas": [
+    502159,
+    512159,
+    522159,
+    532159
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "ResDark",
+     "valor": 10
+    },
+    {
+     "pecas": 3,
+     "atributo": "Spr",
+     "valor": 6
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 4,
+     "texto": "1% chance of recovering 200 SP for 5 seconds when attacked by a Devil-type enemy"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 19,
+   "nome": "Karacha Set",
+   "pecas": [
+    183108,
+    113002
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Evasion",
+     "valor": 188
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 2,
+     "texto": "Increases [Backstab] damage by 3x when attacking an enemy from behind"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 20,
+   "nome": "Velnia Monkey Set",
+   "pecas": [
+    522187,
+    532187
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Dex",
+     "valor": 6
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 21,
+   "nome": "Elgos Set",
+   "pecas": [
+    502188,
+    512188,
+    522188,
+    532188
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "MDef",
+     "valor": 5
+    },
+    {
+     "pecas": 3,
+     "atributo": "MDef",
+     "valor": 10
+    },
+    {
+     "pecas": 4,
+     "atributo": "Int",
+     "valor": 15
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 22,
+   "nome": "Ibre Set",
+   "pecas": [
+    502189,
+    512189,
+    522189,
+    532189
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Def",
+     "valor": 5
+    },
+    {
+     "pecas": 3,
+     "atributo": "Def",
+     "valor": 10
+    },
+    {
+     "pecas": 4,
+     "atributo": "Evasion",
+     "valor": 15
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 23,
+   "nome": "Grynas Set",
+   "pecas": [
+    502190,
+    512190,
+    522190,
+    532190
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "ResDark",
+     "valor": 10
+    },
+    {
+     "pecas": 3,
+     "atributo": "ResDark",
+     "valor": 20
+    },
+    {
+     "pecas": 4,
+     "atributo": "Mhp",
+     "valor": 1020
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": null
+  },
+  {
+   "id": 24,
+   "nome": "Poratore Set",
+   "pecas": [
+    603103,
+    603104
+   ],
+   "efeitos_implementados": [],
+   "efeitos_pendentes": [
+    {
+     "pecas": 2,
+     "texto": "6 magic defense, 6 physical defense for 30 seconds with every basic and physical attack"
+    },
+    {
+     "pecas": 2,
+     "texto": "Increases Holy and Dark property attack equal to 7.5% magic defense for 10 seconds when stacked 20 times"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 25,
+   "nome": "Virtov Set",
+   "pecas": [
+    503114,
+    513114,
+    523114,
+    533114
+   ],
+   "efeitos_implementados": [],
+   "efeitos_pendentes": [
+    {
+     "pecas": 2,
+     "texto": "Ice Property Attack 12"
+    },
+    {
+     "pecas": 3,
+     "texto": "Ice Property Attack 26"
+    },
+    {
+     "pecas": 4,
+     "texto": "Pierce-type Defense 25"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 26,
+   "nome": "Virtov Leather Set",
+   "pecas": [
+    503115,
+    513115,
+    523115,
+    533115
+   ],
+   "efeitos_implementados": [],
+   "efeitos_pendentes": [
+    {
+     "pecas": 2,
+     "texto": "Ice Property Attack 12"
+    },
+    {
+     "pecas": 3,
+     "texto": "Ice Property Attack 26"
+    },
+    {
+     "pecas": 4,
+     "texto": "Strike-type Defense 25"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 27,
+   "nome": "Virtov Plate Set",
+   "pecas": [
+    503116,
+    513116,
+    523116,
+    533116
+   ],
+   "efeitos_implementados": [],
+   "efeitos_pendentes": [
+    {
+     "pecas": 2,
+     "texto": "Ice Property Attack 12"
+    },
+    {
+     "pecas": 3,
+     "texto": "Ice Property Attack 26"
+    },
+    {
+     "pecas": 4,
+     "texto": "Slash-type Defense 25"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 28,
+   "nome": "Lolopanther Set",
+   "pecas": [
+    504106,
+    514106,
+    524106,
+    534106
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Rsp",
+     "valor": 100
+    },
+    {
+     "pecas": 4,
+     "atributo": "Int",
+     "valor": 25
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 3,
+     "texto": "Earth Property Attack 42"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 29,
+   "nome": "Lolopanther Leather Set",
+   "pecas": [
+    504107,
+    514107,
+    524107,
+    534107
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "CritRate",
+     "valor": 46
+    },
+    {
+     "pecas": 4,
+     "atributo": "Dex",
+     "valor": 25
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 3,
+     "texto": "Earth Property Attack 42"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 30,
+   "nome": "Lolopanther Plate Set",
+   "pecas": [
+    504108,
+    514108,
+    524108,
+    534108
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 2,
+     "atributo": "Rhp",
+     "valor": 190
+    },
+    {
+     "pecas": 4,
+     "atributo": "Str",
+     "valor": 25
+    }
+   ],
+   "efeitos_pendentes": [
+    {
+     "pecas": 3,
+     "texto": "Earth Property Attack 42"
+    }
+   ],
+   "aviso": null
+  },
+  {
+   "id": 31,
+   "nome": "Bronza Set",
+   "pecas": [
+    582119,
+    602116
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 3,
+     "atributo": "MDef",
+     "valor": 10
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": "o ToSBase lista 2 peça(s), mas o efeito pede 3: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)"
+  },
+  {
+   "id": 32,
+   "nome": "Argint Set",
+   "pecas": [
+    582120,
+    602117
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 3,
+     "atributo": "MDef",
+     "valor": 14
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": "o ToSBase lista 2 peça(s), mas o efeito pede 3: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)"
+  },
+  {
+   "id": 33,
+   "nome": "Auru Set",
+   "pecas": [
+    582121,
+    602118
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 3,
+     "atributo": "MDef",
+     "valor": 18
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": "o ToSBase lista 2 peça(s), mas o efeito pede 3: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)"
+  },
+  {
+   "id": 34,
+   "nome": "Platina Set",
+   "pecas": [
+    582122,
+    602119
+   ],
+   "efeitos_implementados": [
+    {
+     "pecas": 3,
+     "atributo": "MDef",
+     "valor": 22
+    }
+   ],
+   "efeitos_pendentes": [],
+   "aviso": "o ToSBase lista 2 peça(s), mas o efeito pede 3: a lista de peças parece incompleta (nos conjuntos de medalha e pulseira, provavelmente a mesma pulseira vale duas vezes, uma em cada mão)"
+  }
+ ]
+}

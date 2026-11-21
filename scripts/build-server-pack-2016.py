@@ -398,6 +398,37 @@ calc = patch(calc, 'SCR_Get_Character_DEF', [refine_line('var byItem = character
 calc = patch(calc, 'SCR_Get_Character_MDEF', [refine_line('var byItem = character.Inventory.GetEquipProperties(PropertyName.MDEF);', 'MDef')])
 calc = patch(calc, 'SCR_Get_Character_HR', [refine_line('byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_HR);', 'Accuracy')])
 calc = patch(calc, 'SCR_Get_Character_DR', [refine_line('byItem += character.Inventory.GetEquipProperties(PropertyName.ADD_DR);', 'Evasion')])
+# bônus de conjunto de equipamento (Original2016Sets, em custom/original2016/sets.cs)
+def set_line(anchor_line, stat, var='byItem'):
+    return (anchor_line, anchor_line + f'\n\t\t{var} += Original2016Sets.EquipBonus(character, SetStat.{stat});')
+
+
+for func, anchor_line, stat, var in [
+    ('SCR_Get_Character_DEF', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.DEF);', 'Def', 'byItem'),
+    ('SCR_Get_Character_MDEF', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.MDEF);', 'MDef', 'byItem'),
+    ('SCR_Get_Character_MHP', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.MHP);', 'Mhp', 'byItem'),
+    ('SCR_Get_Character_RHP', 'var byItems = character.Inventory.GetEquipProperties("RHP");', 'Rhp', 'byItems'),
+    ('SCR_Get_Character_RSP', 'var byItems = character.Inventory.GetEquipProperties("RSP");', 'Rsp', 'byItems'),
+    ('SCR_Get_Character_MaxSta', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.MSTA);', 'MaxSta', 'byItem'),
+    ('SCR_Get_Character_STR_ADD', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.STR);', 'Str', 'byItem'),
+    ('SCR_Get_Character_CON_ADD', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.CON);', 'Con', 'byItem'),
+    ('SCR_Get_Character_INT_ADD', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.INT);', 'Int', 'byItem'),
+    ('SCR_Get_Character_MNA_ADD', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.MNA);', 'Spr', 'byItem'),
+    ('SCR_Get_Character_DEX_ADD', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.DEX);', 'Dex', 'byItem'),
+    ('SCR_Get_Character_DR', 'byItem += character.Inventory.GetEquipProperties(PropertyName.DR);', 'Evasion', 'byItem'),
+    ('SCR_Get_Character_CRTHR', 'byItem += character.Inventory.GetEquipProperties(PropertyName.CRTHR);', 'CritRate', 'byItem'),
+    ('SCR_Get_Character_SR', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.SR);', 'AoeAttackRatio', 'byItem'),
+    ('SCR_GET_RES_FIRE', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_FIRE);', 'ResFire', 'byItem'),
+    ('SCR_GET_RES_ICE', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_ICE);', 'ResIce', 'byItem'),
+    ('SCR_GET_RES_LIGHTNING', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_LIGHTNING);', 'ResLightning', 'byItem'),
+    ('SCR_GET_RES_EARTH', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_EARTH);', 'ResEarth', 'byItem'),
+    ('SCR_GET_RES_POISON', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_POISON);', 'ResPoison', 'byItem'),
+    ('SCR_GET_RES_HOLY', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_HOLY);', 'ResHoly', 'byItem'),
+    ('SCR_GET_RES_DARK', 'var byItem = character.Inventory.GetEquipProperties(PropertyName.RES_DARK);', 'ResDark', 'byItem'),
+]:
+    calc = patch(calc, func, [set_line(anchor_line, stat, var)])
+# velocidade de movimento: não tem variável de itens, entra na soma
+calc = patch(calc, 'SCR_Get_Character_MSPD', [('var value = (baseValue + byBuff + byBonus);', 'var value = (baseValue + byBuff + byBonus + Original2016Sets.EquipBonus(character, SetStat.MoveSpeed));')])
 calc = patch(calc, 'SCR_Get_Character_BLK_BREAK', [('var stat = properties.GetFloat(PropertyName.DEX);', 'var stat = properties.GetFloat(PropertyName.MNA);'), ('var byLevel = level / 4f;', 'var byLevel = level * 0.5f;'),
                                                  ('var byStat = (stat / 2f) + ((float)Math.Floor(stat / 15f) * 3f);', 'var byStat = stat;')])
 # helpers logo depois da abertura da classe
