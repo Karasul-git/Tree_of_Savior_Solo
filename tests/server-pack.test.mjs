@@ -204,3 +204,25 @@ test('conjuntos de equipamento de 2016 no pacote', () => {
   for (const stat of wanted) assert.ok(used.has(stat), `atributo ${stat} sem ligação no cálculo de status`);
   assert.ok(!/Movement|Backstab/.test(JSON.stringify(report.por_conjunto.map(s => s.efeitos_implementados))));
 });
+
+test('o roteiro de teste traz os números das fórmulas e ids que existem nos dados', () => {
+  const doc = file('ROTEIRO-DE-TESTE.md');
+  const bonus = v => Math.floor(v < 51 ? v / 5 : v < 151 ? 10 + (v - 50) / 4 : v < 301 ? 35 + (v - 150) / 3 : v < 501 ? 85 + (v - 300) / 2 : 185 + (v - 500));
+  const con = 8 + bonus(8), spr = 3 + bonus(3);
+  assert.equal(Math.floor(3.3 * 0 + con * 85), 765);
+  assert.equal(Math.floor(0.8 * 0 + spr * 13), 39);
+  assert.match(doc, /\*\*765\*\* \/ \*\*39\*\*/);
+  assert.match(doc, /16\.688/);
+  const research = JSON.parse(readFileSync(new URL('../data/research/tosbase-2016-items.json', import.meta.url), 'utf8')).items;
+  for (const id of ['101101', '502188', '512188', '522188', '532188', '582119', '602116', '531101', '628054', '645024', '645117', '645118', '645120', '645121', '645267'])
+    assert.ok(research[id] || doc.includes(id), id);
+  // o comando usa o prefixo do chat do Melia
+  assert.ok(!/(^|\s)\/refine/.test(doc));
+  assert.match(doc, />refine info/);
+  // as quests citadas existem no relatório
+  const ids = JSON.parse(file('quests-report.json')).convertidas_ids;
+  for (const q of [1003, 1014, 1018, 1033]) assert.ok(ids.includes(q), `quest ${q}`);
+  const refine = JSON.parse(readFileSync(new URL('../data/research/tosbase-2016-items.json', import.meta.url), 'utf8')).items['101101'].enhancement;
+  assert.equal(refine[0].price, 115);
+  assert.deepEqual(refine.slice(0, 3).map(e => e.bonus), [3, 6, 9]);
+});

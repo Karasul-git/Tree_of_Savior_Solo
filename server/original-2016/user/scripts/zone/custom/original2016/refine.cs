@@ -3,7 +3,7 @@
 //--- Description -----------------------------------------------------------
 // Bônus por nível, chance de sucesso e preço do refino de cada item, mais a
 // regra de potencial, o bônus dos itens equipados (usado pelo cálculo de
-// status) e o comando /refine. O nível de refino fica na propriedade
+// status) e o comando >refine. O nível de refino fica na propriedade
 // Reinforce_2 do item e o potencial em PR. Para isso valer depois de sair do
 // jogo, o Melia precisa do patch patches/0001-propriedades-de-item.patch
 // (sem ele o refino funciona, mas se perde ao reiniciar).
@@ -1649,7 +1649,7 @@ public static class Original2016Refine
 }
 
 /// <summary>
-/// Comando /refine: refina o item equipado com as regras de 2016, no lugar da
+/// Comando >refine: refina o item equipado com as regras de 2016, no lugar da
 /// bigorna (que é um NPC, e o servidor ainda não tem as coordenadas dele).
 /// </summary>
 public class Original2016RefineCommandScript : GeneralScript
