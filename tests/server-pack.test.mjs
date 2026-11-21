@@ -165,3 +165,18 @@ test('o patch do Melia e o comando de refino estão no pacote', () => {
     assert.ok(calc.includes(`Original2016Refine.EquipBonus(character, RefineStat.${stat});`), stat);
   assert.equal((calc.match(/Original2016Refine\.EquipBonus/g) || []).length, 8);
 });
+
+test('receitas e coleções de 2016 no pacote', () => {
+  const report = JSON.parse(file('crafting-report.json'));
+  const recipes = file('user/db/recipes.txt');
+  const cols = file('user/db/collections.txt');
+  assert.equal((recipes.match(/^\{ recipeId: /gm) || []).length, report.receitas.trocada);
+  assert.equal((cols.match(/^\{ classId: /gm) || []).length, report.colecoes.trocada);
+  assert.ok(recipes.trim().endsWith(']') && cols.trim().endsWith(']'));
+  assert.match(recipes, /recipeId: 10006,.*ingredients: \[\{ className: "R_SWD01_109", amount: 1 \}, \{ className: "misc_Dumaro", amount: 16 \}\]/);
+  assert.match(cols, /classId: 133,.*rewardProperties: \{"RHP_BM": 5\}/);
+  assert.ok(!/rewardProperties: \{[^}]*\d\.\d/.test(cols), 'o Melia lê o bônus como inteiro');
+  assert.ok(report.receitas_trocadas_ids.length === report.receitas.trocada);
+  // nenhuma coleção exige o próprio item de coleção
+  assert.ok(!/requiredItems: \{[^}]*COLLECT_/.test(cols));
+});

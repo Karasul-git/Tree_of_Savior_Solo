@@ -24,6 +24,9 @@ Load(data.JobDb, "jobs.txt");
 Load(data.ItemDb, "items.txt");
 Load(data.SkillDb, "skills.txt");
 Load(data.MonsterDb, "monsters.txt");
+Load(data.PropertiesDb, "properties.txt");
+Load(data.RecipeDb, "recipes.txt");
+Load(data.CollectionDb, "collections.txt");
 
 var fails = 0;
 void Check(string what, bool ok) { Console.WriteLine((ok ? "OK    " : "FALHA ") + what); if (!ok) fails++; }
@@ -42,6 +45,12 @@ Check($"Swordsman STR {job?.Str} CON {job?.Con} taxa de HP {job?.HpRate} de SP {
 var skill = data.SkillDb.Find("Swordman_Thrust");
 Check($"Thrust fator {skill?.Factor} fator por nível {skill?.FactorByLevel} ataque fixo {skill?.AtkAdd}/{skill?.AtkAddByLevel} SP {skill?.BasicSp}",
     skill != null && skill.Factor == 100 && skill.FactorByLevel == 0 && skill.AtkAdd == 56);
+var kris = data.RecipeDb.Find(10006);
+Check($"receita do Kris: {string.Join(", ", kris?.Ingredients.Select(i => i.ClassName + " x" + i.Amount) ?? new string[0])}",
+    kris != null && kris.Ingredients.Count == 2 && kris.Ingredients[1].ClassName == "misc_Dumaro" && kris.Ingredients[1].Amount == 16);
+data.CollectionDb.TryFindByClassName("COLLECT_133", out var col133);
+Check($"coleção 133: {string.Join(", ", col133?.RewardProperties.Select(p => p.Key + "=" + p.Value) ?? new string[0])}",
+    col133 != null && col133.RewardProperties.Count == 1 && col133.RewardProperties["RHP_BM"] == 5);
 Check($"exp: nível 2 = {data.ExpDb.GetNextExp(1)}, nível 3 = {data.ExpDb.GetNextExp(2)}", data.ExpDb.GetNextExp(1) == 8 && data.ExpDb.GetNextExp(2) == 272);
 // Fórmulas compiladas: testa o bônus por investimento do script de 2016 por reflexão.
 var asmPath = Path.GetFullPath("user/tmp/build/scripts/zone_user/bin/net8.0/ScriptsZoneUser.dll");
